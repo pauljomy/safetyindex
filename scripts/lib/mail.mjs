@@ -24,7 +24,7 @@ export async function sendFailureEmail({ subject, error, topic, attempt }) {
     "Error:",
     String(error?.stack ?? error).replace(/sk-ant-[\w-]+/g, "[redacted]").slice(0, 4000),
     "",
-    "Nothing was published. The scheduler retries automatically in a few hours;",
+    "Nothing was published. The scheduler retries automatically (3h, then 6h, 12h, 24h);",
     "if the API key, credits or model are the problem, fix them in the repository's secrets.",
   ].join("\n");
   const transport = nodemailer.createTransport({

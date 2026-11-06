@@ -48,6 +48,9 @@ function bill(label, model, u) {
 }
 export const totalUsd = () => ledger.reduce((s, r) => s + r.usd, 0);
 
+/** Hard ceiling per post (USD). Checked before every request, so one run can overshoot by at most one call. */
+export const MAX_POST_USD = Number(process.env.MAX_POST_USD) || 8;
+
 /** "https://www.osha.gov/x/" → "osha.gov/x" so trivial differences don't fail a match. */
 export function normUrl(u) {
   try {
@@ -103,6 +106,8 @@ export async function ask({ system, messages, tools, schema, effort = "high", op
   const msgs = [...messages];
   const usage = { input_tokens: 0, output_tokens: 0 };
   for (let turn = 0; turn < 12; turn++) {
+    if (totalUsd() >= MAX_POST_USD)
+      throw new Error(`Budget stop: this post has already cost $${totalUsd().toFixed(2)} (MAX_POST_USD is $${MAX_POST_USD}). Nothing was published.`);
     const started = Date.now();
     const params = {
       model,

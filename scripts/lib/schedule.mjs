@@ -1,7 +1,8 @@
 // When the next post is due. The workflow wakes every hour; the generator only
 // does work when `nextDue` has passed. After each post the next one is set a
 // random 24–36 hours later, so posts never land on a fixed rhythm.
-// After a failure it retries `RETRY_HOURS` later, and emails on the 1st failure
+// After a failure it retries later, backing off 3h, 6h, 12h, then 24h, so a
+// persistent problem can't burn credits every few hours; it emails on the 1st failure
 // of an outage and every 4th one after that (not every retry).
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
@@ -38,7 +39,8 @@ export function recordSuccess(s, { slug, title, usd }, now = new Date()) {
 export function recordFailure(s, message, now = new Date()) {
   s.failures = (s.failures ?? 0) + 1;
   s.lastError = { at: now.toISOString(), message: String(message).slice(0, 500) };
-  s.nextDue = new Date(now.getTime() + RETRY_HOURS * 3600_000).toISOString();
+  const wait = Math.min(24, RETRY_HOURS * 2 ** (s.failures - 1));
+  s.nextDue = new Date(now.getTime() + wait * 3600_000).toISOString();
   save(s);
   return s.failures === 1 || s.failures % 4 === 0;
 }
