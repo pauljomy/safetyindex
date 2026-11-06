@@ -7,30 +7,29 @@
 //   npm run post -- --dry-run    # show the next topic and the research prompt; no API calls, no writes
 //   npm run post -- --test-email # send a test failure email and exit
 //
-// Models (cost vs quality): Claude Opus researches and writes the English post,
-// where facts and quality are decided; Claude Sonnet researches the local
-// keyword/regulators and rewrites the French and German versions from the
-// verified English post. Research runs at medium effort, writing at high.
-// Fetched pages are capped at FETCH_MAX_TOKENS. Each run logs tokens and USD
-// per call and stores the total in data/schedule.json.
-//
-// Pipeline (Anthropic API, web search + web fetch):
-//   1. research the English topic from primary sources (only opened pages may be cited)
-//   2. write the English post (structured JSON), validate, repair up to 2 times
-//   3. for each other language: research the local keyword and local regulators, write, validate, repair
-//   2b. generate the featured image (Gemini image model on Vertex AI) from the post's coverPrompt
-//   4. write the markdown files, run the full site build (SEO, hreflang, schema, link checks)
-//   5. mark the row Published in the spreadsheet and schedule the next post
+// Budget: about $1 per post (hard stop at MAX_POST_USD, default $1). The model
+// never fetches pages itself (a server-side fetch loop re-reads every page on
+// every step, which is what made the first post cost ~$20). Instead:
+//   1. Sonnet, web search only: search intent + a shortlist of primary pages
+//   2. this script downloads those pages and keeps the relevant passages
+//      (scripts/lib/sources.mjs); only downloaded pages may be cited
+//   3. Opus writes the English post from those extracts; validate, 1 repair max
+//   4. featured image (Gemini on Vertex AI) from the post's coverPrompt
+//   5. per language: Sonnet searches the local keyword + local regulator pages,
+//      the script downloads them, Sonnet rewrites the post for that market
+//   6. write the files, run the full site build (SEO, hreflang, schema, links)
+//   7. mark the row Published, schedule the next post, store the cost
 // Any failure rolls back the files, records the failure, and emails ALERT_EMAIL.
 import { appendFileSync, existsSync, mkdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { execSync } from "node:child_process";
 import { locales, site } from "../src/config/site.mjs";
 import { categoryFromSheet } from "../src/data/categories.mjs";
-import { MODEL, TRANSLATION_MODEL, ask, ledger, parseJson, totalUsd, webTools } from "./lib/claude.mjs";
+import { MAX_POST_USD, MODEL, TRANSLATION_MODEL, ask, ledger, parseJson, searchTool, totalUsd } from "./lib/claude.mjs";
+import { gatherSources, mergeCandidates } from "./lib/sources.mjs";
 import { sendFailureEmail } from "./lib/mail.mjs";
 import { existingPosts, postFile, toMarkdown } from "./lib/posts.mjs";
-import { FIELDS, RULES, localResearchPrompt, localWritePrompt, postSchema, researchPrompt, writePrompt } from "./lib/prompts.mjs";
+import { FIELDS, RULES, localSearchPrompt, localWritePrompt, postSchema, searchPrompt, writePrompt } from "./lib/prompts.mjs";
 import { isDue, readSchedule, recordFailure, recordSuccess } from "./lib/schedule.mjs";
 import { loadTopics, markPublished, nextTopic } from "./lib/topics.mjs";
 import { bodyWords, validatePost } from "./lib/validate.mjs";
@@ -39,16 +38,16 @@ import { makeCover } from "./lib/cover.mjs";
 const args = new Set(process.argv.slice(2));
 const DRY = args.has("--dry-run");
 const FORCE = args.has("--force");
-const MAX_REPAIRS = 2;
+const MAX_REPAIRS = 1;
 const today = new Date().toISOString().slice(0, 10);
 
 const output = (k, v) => process.env.GITHUB_OUTPUT && appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
 
 /** Writes a post, then asks the model to fix whatever the validator finds. */
-async function draft({ label, prompt, ctx, model }) {
+async function draft({ label, prompt, ctx, model, effort = "medium" }) {
   const messages = [{ role: "user", content: prompt }];
   for (let attempt = 0; ; attempt++) {
-    const res = await ask({ system: RULES, messages, schema: postSchema, effort: "high", model, label: `${label} (draft ${attempt + 1})` });
+    const res = await ask({ system: RULES, messages, schema: postSchema, effort, model, label: `${label} (draft ${attempt + 1})` });
     const post = parseJson(res.text, label);
     const problems = validatePost(post, ctx);
     if (!problems.length) return post;
@@ -84,9 +83,9 @@ async function main() {
   const existing = existingPosts();
   const existingIn = (code) => existing.filter((p) => p.lang === code);
 
-  console.log(`Topic #${topic.n}: ${topic.title}\n  keyword: ${topic.keyword} · category: ${category.slug} · English: ${MODEL} · translations: ${TRANSLATION_MODEL}`);
+  console.log(`Topic #${topic.n}: ${topic.title}\n  keyword: ${topic.keyword} · category: ${category.slug} · English: ${MODEL} · research/translations: ${TRANSLATION_MODEL} · budget $${MAX_POST_USD}`);
   if (DRY) {
-    console.log(`\n--- research prompt ---\n${researchPrompt(topic, existingIn("en"))}`);
+    console.log(`\n--- search prompt ---\n${searchPrompt(topic, existingIn("en"))}`);
     return;
   }
   if (!process.env.ANTHROPIC_API_KEY) throw new Error("ANTHROPIC_API_KEY is not set");
@@ -96,13 +95,17 @@ async function main() {
   try {
     // 1–2. English
     const openedEn = new Set();
-    console.log("Researching (English)…");
-    const research = await ask({ system: RULES, messages: [{ role: "user", content: researchPrompt(topic, existingIn("en")) }], tools: webTools(12, 15), effort: "medium", opened: openedEn, label: "research en" });
-    const brief = parseJson(research.text, "research en");
-    if (openedEn.size < 3) throw new Error(`research opened only ${openedEn.size} page(s); at least 3 primary sources are needed`);
-    console.log(`  adds: ${brief.whatThisAdds}`);
+    console.log("Searching (English)…");
+    const search = await ask({ system: RULES, messages: [{ role: "user", content: searchPrompt(topic, existingIn("en")) }], tools: [searchTool(3)], effort: "low", model: TRANSLATION_MODEL, label: "search en" });
+    const plan = parseJson(search.text, "search en");
+    console.log(`  adds: ${plan.whatThisAdds}`);
+    const candidates = mergeCandidates(plan.candidates, search.searchResults);
+    console.log(`Downloading up to 8 of ${candidates.length} candidate sources…`);
+    const query = [topic.keyword, topic.title, ...(plan.outline ?? []), ...topic.supporting.slice(0, 15)].join(" ");
+    const sources = await gatherSources(candidates, { query, opened: openedEn, max: 8 });
+    if (sources.length < 3) throw new Error(`only ${sources.length} primary source(s) could be downloaded; at least 3 are needed`);
     console.log("Writing (English)…");
-    const en = await draft({ label: "post en", prompt: writePrompt(topic, brief, openedEn, existingIn("en")), model: MODEL, ctx: { lang: "en", keyword: topic.keyword, opened: openedEn, existing } });
+    const en = await draft({ label: "post en", prompt: writePrompt(topic, plan, sources, existingIn("en")), model: MODEL, ctx: { lang: "en", keyword: topic.keyword, opened: openedEn, existing } });
     // Featured image now, before paying for the translations: no image, no post.
     console.log("Generating the featured image…");
     const cover = await makeCover(en.slug, en.coverPrompt);
@@ -120,13 +123,14 @@ async function main() {
     for (const { code, name } of locales.filter((l) => l.code !== "en")) {
       const opened = new Set(openedEn);
       opened.raw = new Map(openedEn.raw);
-      console.log(`Researching (${name})…`);
-      const r = await ask({ system: RULES, messages: [{ role: "user", content: localResearchPrompt(code, en, topic, existingIn(code)) }], tools: webTools(5, 6), effort: "medium", model: TRANSLATION_MODEL, opened, label: `research ${code}` });
-      const local = parseJson(r.text, `research ${code}`);
-      if (!local.keyword) throw new Error(`research ${code}: no local keyword`);
+      console.log(`Searching (${name})…`);
+      const r = await ask({ system: RULES, messages: [{ role: "user", content: localSearchPrompt(code, en, topic, existingIn(code)) }], tools: [searchTool(2)], effort: "low", model: TRANSLATION_MODEL, label: `search ${code}` });
+      const local = parseJson(r.text, `search ${code}`);
+      if (!local.keyword) throw new Error(`search ${code}: no local keyword`);
       console.log(`  local keyword: ${local.keyword}`);
+      const localSources = await gatherSources(mergeCandidates(local.candidates, r.searchResults), { query: [local.keyword, ...(local.otherQueries ?? []), ...(local.terminology ?? [])].join(" "), opened, max: 4 });
       console.log(`Writing (${name})…`);
-      const p = await draft({ label: `post ${code}`, prompt: localWritePrompt(code, en, local, opened, existingIn(code)), model: TRANSLATION_MODEL, ctx: { lang: code, keyword: local.keyword, opened, existing } });
+      const p = await draft({ label: `post ${code}`, prompt: localWritePrompt(code, en, local, localSources, existingIn(code)), model: TRANSLATION_MODEL, ctx: { lang: code, keyword: local.keyword, opened, existing } });
       posts.push({
         lang: code, slug: p.slug,
         data: { ...base, title: p.title, seoTitle: p.seoTitle, subtitle: p.subtitle, description: p.description, coverImage: `../images/${en.slug}.webp`, coverAlt: p.coverAlt, tags: p.tags, keyword: local.keyword, translationOf: en.slug, summary: p.summary, keyTakeaways: p.keyTakeaways, faq: p.faq, sources: p.sources, relatedPosts: p.relatedPosts.filter((s) => englishSlugs.has(s)) },

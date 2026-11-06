@@ -4,7 +4,7 @@ import { normUrl } from "./claude.mjs";
 import { categorySlugs } from "../../src/data/categories.mjs";
 
 const words = (s) => (s.match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu) ?? []).length;
-export const MIN_BODY_WORDS = 1200;
+export const MIN_BODY_WORDS = 1000;
 
 /** Phrases that claim experience the site doesn't have. */
 const invented = [
@@ -45,7 +45,7 @@ export function validatePost(p, ctx) {
 
   // Every cited URL must be a page opened during research.
   const cited = [...(p.sources ?? []).map((s) => s.url), ...[...p.body.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)].map((m) => m[1])];
-  for (const u of new Set(cited)) if (!ctx.opened.has(normUrl(u))) e.push(`cites ${u}, which was not opened (web_fetch) during research: open it to verify, or remove the claim and the link`);
+  for (const u of new Set(cited)) if (!ctx.opened.has(normUrl(u))) e.push(`cites ${u}, which is not one of the downloaded sources: use only URLs from the <source> tags (or, in a translation, the English guide's sources), or remove the claim and the link`);
   const sourceUrls = new Set((p.sources ?? []).map((s) => normUrl(s.url)));
   for (const m of p.body.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)) if (!sourceUrls.has(normUrl(m[1]))) e.push(`body links ${m[1]}, which is not in "sources"; add it there too`);
 

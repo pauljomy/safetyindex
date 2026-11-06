@@ -14,6 +14,12 @@ const client = new Anthropic({ maxRetries: 4, timeout: 30 * 60 * 1000 });
 
 /** Each fetched page is read up to this many tokens: regulation sections fit, giant PDFs are cut (the biggest input cost). */
 const FETCH_TOKENS = Number(process.env.FETCH_MAX_TOKENS) || 10000;
+/** Web search only (the script downloads pages itself, see scripts/lib/sources.mjs). */
+// The basic variant on purpose: its result URLs and titles reach the model directly
+// (the dynamic-filtering variant can hide them behind code execution).
+export const searchTool = (searches = 4) => ({ type: "web_search_20250305", name: "web_search", max_uses: searches });
+
+/** Search + server-side fetch. Not used by the post pipeline (too expensive: the fetch loop re-reads every page). */
 export const webTools = (searches = 12, fetches = 18) => [
   { type: "web_search_20260209", name: "web_search", max_uses: searches },
   { type: "web_fetch_20260209", name: "web_fetch", max_uses: fetches, max_content_tokens: FETCH_TOKENS },
@@ -49,7 +55,7 @@ function bill(label, model, u) {
 export const totalUsd = () => ledger.reduce((s, r) => s + r.usd, 0);
 
 /** Hard ceiling per post (USD). Checked before every request, so one run can overshoot by at most one call. */
-export const MAX_POST_USD = Number(process.env.MAX_POST_USD) || 8;
+export const MAX_POST_USD = Number(process.env.MAX_POST_USD) || 1;
 
 /** "https://www.osha.gov/x/" → "osha.gov/x" so trivial differences don't fail a match. */
 export function normUrl(u) {
@@ -105,6 +111,7 @@ function collectFetched(content, opened) {
 export async function ask({ system, messages, tools, schema, effort = "high", opened = new Set(), label = "call", model = MODEL }) {
   const msgs = [...messages];
   const usage = { input_tokens: 0, output_tokens: 0 };
+  const searchResults = [];
   for (let turn = 0; turn < 12; turn++) {
     if (totalUsd() >= MAX_POST_USD)
       throw new Error(`Budget stop: this post has already cost $${totalUsd().toFixed(2)} (MAX_POST_USD is $${MAX_POST_USD}). Nothing was published.`);
@@ -116,8 +123,9 @@ export async function ask({ system, messages, tools, schema, effort = "high", op
       messages: msgs,
       ...(tools && { tools }),
       output_config: { effort, ...(schema && { format: { type: "json_schema", schema } }) },
-      // Automatic prompt caching: pause_turn continuations and repair turns resend the same prefix.
-      cache_control: { type: "ephemeral" },
+      // Prompt caching only where a prefix is re-sent (server-tool loops); a one-off
+      // call would pay the 25% cache-write premium for nothing.
+      ...(tools && { cache_control: { type: "ephemeral" } }),
     };
     const msg = await (FALLBACKS
       ? client.beta.messages.stream({ ...params, betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" })
@@ -127,6 +135,7 @@ export async function ask({ system, messages, tools, schema, effort = "high", op
     usage.input_tokens += msg.usage?.input_tokens ?? 0;
     usage.output_tokens += msg.usage?.output_tokens ?? 0;
     collectFetched(msg.content, opened);
+    walk(msg.content, (n) => { if (n.type === "web_search_result" && n.url) searchResults.push({ url: n.url, title: n.title ?? "" }); });
     const u = msg.usage ?? {};
     console.log(`  · ${label} [${msg.model ?? model}]: ${msg.stop_reason} in ${Math.round((Date.now() - started) / 1000)}s · in ${u.input_tokens ?? 0} (+${u.cache_read_input_tokens ?? 0} cached) / out ${u.output_tokens ?? 0} tokens · $${usd.toFixed(2)} · ${opened.size} pages opened`);
     if (msg.stop_reason === "pause_turn") {
@@ -136,7 +145,7 @@ export async function ask({ system, messages, tools, schema, effort = "high", op
     if (msg.stop_reason === "refusal") throw new Error(`${label}: the model declined (${msg.stop_details?.category ?? "no category"})`);
     if (msg.stop_reason === "max_tokens") throw new Error(`${label}: hit max_tokens before finishing`);
     const text = msg.content.filter((b) => b.type === "text").map((b) => b.text).join("");
-    return { text, content: msg.content, usage };
+    return { text, content: msg.content, usage, searchResults };
   }
   throw new Error(`${label}: server tools kept pausing; gave up after 12 turns`);
 }
