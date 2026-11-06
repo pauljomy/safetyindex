@@ -1,4 +1,4 @@
-# Safety First blog
+# Safety Index blog
 
 Static Astro site on the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme (MIT). Posts are researched and written by Claude Opus through `scripts/generate-post.mjs`, which a GitHub Action runs on a random 24–36 hour schedule. See README.md for where things live.
 

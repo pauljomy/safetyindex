@@ -116,9 +116,9 @@ export async function siteIndex(): Promise<IndexedPage[]> {
     for (const c of company(lang)) pages.push({ ...c, lang, section: "company", updated: siteUpdated, mirror: false });
   }
   pages.push(
-    { path: "/contact", title: "Contact Safety First", description: "How to report a mistake or reach the team by email.", lang: defaultLang, section: "company", updated: siteUpdated, mirror: false },
-    { path: "/privacy", title: "Privacy policy", description: "What data Safety First collects (none beyond server logs).", lang: defaultLang, section: "company", updated: siteUpdated, mirror: false },
-    { path: "/terms", title: "Terms of use", description: "Terms for using Safety First and its guides.", lang: defaultLang, section: "company", updated: siteUpdated, mirror: false },
+    { path: "/contact", title: "Contact Safety Index", description: "How to report a mistake or reach the team by email.", lang: defaultLang, section: "company", updated: siteUpdated, mirror: false },
+    { path: "/privacy", title: "Privacy policy", description: "What data Safety Index collects (none beyond server logs).", lang: defaultLang, section: "company", updated: siteUpdated, mirror: false },
+    { path: "/terms", title: "Terms of use", description: "Terms for using Safety Index and its guides.", lang: defaultLang, section: "company", updated: siteUpdated, mirror: false },
   );
   return pages;
 }

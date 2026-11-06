@@ -17,6 +17,6 @@ head[6] = 48; head[7] = 48; head.writeUInt16LE(1, 10); head.writeUInt16LE(32, 12
 head.writeUInt32LE(png.length, 14); head.writeUInt32LE(22, 18);
 writeFileSync("public/favicon.ico", Buffer.concat([head, png]));
 
-const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="${green}"/><g transform="translate(90 175) scale(0.55)">${icon.replace(/<svg[^>]*>|<\/svg>/g, "")}</g><text x="420" y="300" font-family="DejaVu Sans, Arial, sans-serif" font-size="96" font-weight="700" fill="#fff">Safety First</text><text x="420" y="380" font-family="DejaVu Sans, Arial, sans-serif" font-size="40" fill="#d6f0e0">Workplace safety guides</text></svg>`;
+const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="${green}"/><g transform="translate(90 175) scale(0.55)">${icon.replace(/<svg[^>]*>|<\/svg>/g, "")}</g><text x="420" y="300" font-family="DejaVu Sans, Arial, sans-serif" font-size="96" font-weight="700" fill="#fff">Safety Index</text><text x="420" y="380" font-family="DejaVu Sans, Arial, sans-serif" font-size="40" fill="#d6f0e0">Workplace safety guides</text></svg>`;
 await sharp(Buffer.from(og)).png().toFile("public/og-default.png");
 console.log("assets written");

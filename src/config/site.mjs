@@ -3,11 +3,11 @@
 // CHECK before launch: `url` (or set SITE_URL) and `contactEmail`.
 
 export const site = {
-  name: "Safety First",
+  name: "Safety Index",
   /** Production URL, no trailing slash. Override with the SITE_URL env var. */
-  url: (process.env.SITE_URL ?? "https://safetyfirst.site").replace(/\/$/, ""),
+  url: (process.env.SITE_URL ?? "https://safetyindex.blog").replace(/\/$/, ""),
   /** Shown on /contact and in the Organization schema. */
-  contactEmail: "hello@safetyfirst.site",
+  contactEmail: "hello@safetyindex.blog",
   /** The date About, Privacy and Terms were last reviewed (also used for their sitemap lastmod). */
   updated: "2026-11-06",
 };
@@ -15,7 +15,7 @@ export const site = {
 /** Always the same wording: used on the home page, /about, llms.txt and the Organization schema. */
 export const entity = {
   definition:
-    "Safety First is an independent workplace safety blog: plain-language guides to OSHA, ANSI, NFPA and NIOSH requirements, each linked to the primary sources it was written from.",
+    "Safety Index is an independent workplace safety blog: plain-language guides to OSHA, ANSI, NFPA and NIOSH requirements, each linked to the primary sources it was written from.",
 };
 
 /**

@@ -1,8 +1,8 @@
-// Cloudflare Workers config: safetyfirst.site is a static site, so the Worker
+// Cloudflare Workers config: safetyindex.blog is a static site, so the Worker
 // only serves the built files in dist/ (no server code).
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "safetyfirst",
+  "name": "safetyindex",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./dist",

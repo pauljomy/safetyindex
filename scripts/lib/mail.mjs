@@ -15,7 +15,7 @@ export async function sendFailureEmail({ subject, error, topic, attempt }) {
     ? `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`
     : "local run";
   const text = [
-    "The daily Safety First post could not be created.",
+    "The daily Safety Index post could not be created.",
     "",
     `Topic: ${topic ? `#${topic.n} ${topic.title}` : "(not picked yet)"}`,
     `Failed attempts in a row: ${attempt ?? 1}`,

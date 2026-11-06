@@ -37,7 +37,7 @@ const lang = langOf(path);
 const versions = Object.entries(alternates ?? { [lang]: path }) as [Lang, string][];
 const xDefault = alternates?.[defaultLang] ?? path;
 const suffixed = `${title} | ${site.name}`;
-const fullTitle = path === "/" || suffixed.length > 60 ? title : suffixed;
+const fullTitle = path === "/" || title.includes(site.name) || suffixed.length > 60 ? title : suffixed;
 const ogImage = new URL(image ?? "/og-default.png", site.url).href;
 const robots = noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 

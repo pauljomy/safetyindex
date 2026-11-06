@@ -74,7 +74,7 @@ jobs:
           PUBLISHED: ${{ steps.post.outputs.published }}
           TITLE: ${{ steps.post.outputs.title }}
         run: |
-          git config user.name "safety-first-bot"
+          git config user.name "safety-index-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/content/posts docs/Safety_Blog_Topics.xlsx data/schedule.json
           if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi

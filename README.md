@@ -1,4 +1,4 @@
-# Safety First
+# Safety Index
 
 A static workplace safety blog on [Astro](https://astro.build) with the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme. New guides are researched and written by Claude Opus from primary sources and published automatically, one topic at a time, at random 24–36 hour intervals, in English, French and German. Each post has one featured image (an AI-generated photograph); there are no other images.
 
@@ -35,8 +35,8 @@ If anything fails (API down, no credits, a post that won't pass the checks), not
    - `ANTHROPIC_API_KEY`
    - `GOOGLE_CLOUD_API_KEY` (Vertex AI key for the featured image; the project defaults to `conform-blog-513213`, override with the `GOOGLE_CLOUD_PROJECT` variable)
    - Failure email over SMTP. With Gmail: `SMTP_HOST`=`smtp.gmail.com`, `SMTP_PORT`=`465`, `SMTP_USER`=your Gmail address, `SMTP_PASS`=a [Google app password](https://myaccount.google.com/apppasswords) (needs 2-Step Verification). Optional: `ALERT_EMAIL` (default pauljomy92@gmail.com), `MAIL_FROM`.
-3. **Variables (optional):** `ANTHROPIC_MODEL` (default `claude-opus-5-5`), `GOOGLE_CLOUD_PROJECT`. The domain (`https://safetyfirst.site`) and contact email are set in `src/config/site.mjs`.
-4. **Cloudflare** (Workers static assets, `wrangler.jsonc`): Workers & Pages → Create → Import a repository → `pauljomy/safetyfirst`. Build command `npm run build`, deploy command `npx wrangler deploy`, root `/`. Node comes from `.node-version` (24). Then add `safetyfirst.site` under the Worker's Settings → Domains & Routes. Every push to `main` (including the bot's post commits) redeploys. Response headers are in `public/_headers`.
+3. **Variables (optional):** `ANTHROPIC_MODEL` (default `claude-opus-5-5`), `GOOGLE_CLOUD_PROJECT`. The domain (`https://safetyindex.blog`) and contact email are set in `src/config/site.mjs`.
+4. **Cloudflare** (Workers static assets, `wrangler.jsonc`): Workers & Pages → Create → Import a repository → `pauljomy/safetyfirst`. Build command `npm run build`, deploy command `npx wrangler deploy`, root `/`. Node comes from `.node-version` (24). Then add `safetyindex.blog` under the Worker's Settings → Domains & Routes. Every push to `main` (including the bot's post commits) redeploys. Response headers are in `public/_headers`.
 
 ## Where things live
 
