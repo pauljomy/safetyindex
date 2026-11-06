@@ -7,7 +7,14 @@
 //   npm run post -- --dry-run    # show the next topic and the research prompt; no API calls, no writes
 //   npm run post -- --test-email # send a test failure email and exit
 //
-// Pipeline (Claude Opus via the Anthropic API, web search + web fetch):
+// Models (cost vs quality): Claude Opus researches and writes the English post,
+// where facts and quality are decided; Claude Sonnet researches the local
+// keyword/regulators and rewrites the French and German versions from the
+// verified English post. Research runs at medium effort, writing at high.
+// Fetched pages are capped at FETCH_MAX_TOKENS. Each run logs tokens and USD
+// per call and stores the total in data/schedule.json.
+//
+// Pipeline (Anthropic API, web search + web fetch):
 //   1. research the English topic from primary sources (only opened pages may be cited)
 //   2. write the English post (structured JSON), validate, repair up to 2 times
 //   3. for each other language: research the local keyword and local regulators, write, validate, repair
@@ -20,7 +27,7 @@ import { dirname } from "node:path";
 import { execSync } from "node:child_process";
 import { locales, site } from "../src/config/site.mjs";
 import { categoryFromSheet } from "../src/data/categories.mjs";
-import { MODEL, ask, openedList, parseJson, webTools } from "./lib/claude.mjs";
+import { MODEL, TRANSLATION_MODEL, ask, ledger, parseJson, totalUsd, webTools } from "./lib/claude.mjs";
 import { sendFailureEmail } from "./lib/mail.mjs";
 import { existingPosts, postFile, toMarkdown } from "./lib/posts.mjs";
 import { FIELDS, RULES, localResearchPrompt, localWritePrompt, postSchema, researchPrompt, writePrompt } from "./lib/prompts.mjs";
@@ -38,10 +45,10 @@ const today = new Date().toISOString().slice(0, 10);
 const output = (k, v) => process.env.GITHUB_OUTPUT && appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
 
 /** Writes a post, then asks the model to fix whatever the validator finds. */
-async function draft({ label, prompt, ctx }) {
+async function draft({ label, prompt, ctx, model }) {
   const messages = [{ role: "user", content: prompt }];
   for (let attempt = 0; ; attempt++) {
-    const res = await ask({ system: RULES, messages, schema: postSchema, label: `${label} (draft ${attempt + 1})` });
+    const res = await ask({ system: RULES, messages, schema: postSchema, effort: "high", model, label: `${label} (draft ${attempt + 1})` });
     const post = parseJson(res.text, label);
     const problems = validatePost(post, ctx);
     if (!problems.length) return post;
@@ -77,7 +84,7 @@ async function main() {
   const existing = existingPosts();
   const existingIn = (code) => existing.filter((p) => p.lang === code);
 
-  console.log(`Topic #${topic.n}: ${topic.title}\n  keyword: ${topic.keyword} · category: ${category.slug} · model: ${MODEL}`);
+  console.log(`Topic #${topic.n}: ${topic.title}\n  keyword: ${topic.keyword} · category: ${category.slug} · English: ${MODEL} · translations: ${TRANSLATION_MODEL}`);
   if (DRY) {
     console.log(`\n--- research prompt ---\n${researchPrompt(topic, existingIn("en"))}`);
     return;
@@ -90,12 +97,12 @@ async function main() {
     // 1–2. English
     const openedEn = new Set();
     console.log("Researching (English)…");
-    const research = await ask({ system: RULES, messages: [{ role: "user", content: researchPrompt(topic, existingIn("en")) }], tools: webTools(), opened: openedEn, label: "research en" });
+    const research = await ask({ system: RULES, messages: [{ role: "user", content: researchPrompt(topic, existingIn("en")) }], tools: webTools(12, 15), effort: "medium", opened: openedEn, label: "research en" });
     const brief = parseJson(research.text, "research en");
     if (openedEn.size < 3) throw new Error(`research opened only ${openedEn.size} page(s); at least 3 primary sources are needed`);
     console.log(`  adds: ${brief.whatThisAdds}`);
     console.log("Writing (English)…");
-    const en = await draft({ label: "post en", prompt: writePrompt(topic, brief, openedEn, existingIn("en")), ctx: { lang: "en", keyword: topic.keyword, opened: openedEn, existing } });
+    const en = await draft({ label: "post en", prompt: writePrompt(topic, brief, openedEn, existingIn("en")), model: MODEL, ctx: { lang: "en", keyword: topic.keyword, opened: openedEn, existing } });
     // Featured image now, before paying for the translations: no image, no post.
     console.log("Generating the featured image…");
     const cover = await makeCover(en.slug, en.coverPrompt);
@@ -114,12 +121,12 @@ async function main() {
       const opened = new Set(openedEn);
       opened.raw = new Map(openedEn.raw);
       console.log(`Researching (${name})…`);
-      const r = await ask({ system: RULES, messages: [{ role: "user", content: localResearchPrompt(code, en, topic, existingIn(code)) }], tools: webTools(10, 14), opened, label: `research ${code}` });
+      const r = await ask({ system: RULES, messages: [{ role: "user", content: localResearchPrompt(code, en, topic, existingIn(code)) }], tools: webTools(5, 6), effort: "medium", model: TRANSLATION_MODEL, opened, label: `research ${code}` });
       const local = parseJson(r.text, `research ${code}`);
       if (!local.keyword) throw new Error(`research ${code}: no local keyword`);
       console.log(`  local keyword: ${local.keyword}`);
       console.log(`Writing (${name})…`);
-      const p = await draft({ label: `post ${code}`, prompt: localWritePrompt(code, en, local, opened, existingIn(code)), ctx: { lang: code, keyword: local.keyword, opened, existing } });
+      const p = await draft({ label: `post ${code}`, prompt: localWritePrompt(code, en, local, opened, existingIn(code)), model: TRANSLATION_MODEL, ctx: { lang: code, keyword: local.keyword, opened, existing } });
       posts.push({
         lang: code, slug: p.slug,
         data: { ...base, title: p.title, seoTitle: p.seoTitle, subtitle: p.subtitle, description: p.description, coverImage: `../images/${en.slug}.webp`, coverAlt: p.coverAlt, tags: p.tags, keyword: local.keyword, translationOf: en.slug, summary: p.summary, keyTakeaways: p.keyTakeaways, faq: p.faq, sources: p.sources, relatedPosts: p.relatedPosts.filter((s) => englishSlugs.has(s)) },
@@ -142,7 +149,8 @@ async function main() {
     // 5. Sheet + schedule
     const url = `${site.url}/blog/${en.slug}`;
     await markPublished(sheet, topic, url);
-    const { next, gap } = recordSuccess(schedule, { slug: en.slug, title: en.title });
+    printCost();
+    const { next, gap } = recordSuccess(schedule, { slug: en.slug, title: en.title, usd: Number(totalUsd().toFixed(2)) });
     console.log(`✔ Published ${url} (+ ${posts.length - 1} translations). Next post due ${next.toISOString()} (in ${gap.toFixed(1)} h).`);
     output("published", "true");
     output("slug", en.slug);
@@ -154,8 +162,17 @@ async function main() {
   }
 }
 
+function printCost() {
+  if (!ledger.length) return;
+  console.log("\nAPI cost for this run:");
+  for (const r of ledger)
+    console.log(`  ${r.label.padEnd(12)} ${r.model.padEnd(18)} in ${r.input + r.cacheWrite} + cached ${r.cacheRead} / out ${r.output} · ${r.searches} searches, ${r.fetches} fetches · $${r.usd.toFixed(2)}`);
+  console.log(`  total ≈ $${totalUsd().toFixed(2)} (featured image ≈ $0.03 extra)\n`);
+}
+
 main().catch(async (err) => {
   console.error(`✖ ${err?.stack ?? err}`);
+  printCost();
   output("published", "false");
   if (!DRY && !args.has("--test-email")) {
     const schedule = readSchedule();

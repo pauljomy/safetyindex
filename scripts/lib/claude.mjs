@@ -4,13 +4,49 @@
 // pages it never opened.
 import Anthropic from "@anthropic-ai/sdk";
 
+/** English research and writing: where accuracy and quality are decided. */
 export const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-5-5";
+/** French/German research and rewriting, from an English post whose facts are already verified. */
+export const TRANSLATION_MODEL = process.env.TRANSLATION_MODEL || "claude-sonnet-5-5";
+/** Server-side refusal fallback (a safety classifier declining a chemicals/medical topic retries on another model). Set ANTHROPIC_FALLBACKS=off to disable. */
+const FALLBACKS = process.env.ANTHROPIC_FALLBACKS !== "off";
 const client = new Anthropic({ maxRetries: 4, timeout: 30 * 60 * 1000 });
 
+/** Each fetched page is read up to this many tokens: regulation sections fit, giant PDFs are cut (the biggest input cost). */
+const FETCH_TOKENS = Number(process.env.FETCH_MAX_TOKENS) || 10000;
 export const webTools = (searches = 12, fetches = 18) => [
   { type: "web_search_20260209", name: "web_search", max_uses: searches },
-  { type: "web_fetch_20260209", name: "web_fetch", max_uses: fetches },
+  { type: "web_fetch_20260209", name: "web_fetch", max_uses: fetches, max_content_tokens: FETCH_TOKENS },
 ];
+
+/** USD per million tokens (cache write = 1.25× input); web search $10 per 1,000. Update when prices change. */
+const PRICES = {
+  "claude-opus-5-5": { in: 4, out: 20, cacheRead: 0.2 },
+  "claude-sonnet-5-5": { in: 2, out: 10, cacheRead: 0.2 },
+  "claude-fable-5-1": { in: 10, out: 50, cacheRead: 1 },
+  "claude-opus-5": { in: 5, out: 25, cacheRead: 0.5 },
+};
+const SEARCH_USD = 10 / 1000;
+
+/** Running totals for this run, per call label. */
+export const ledger = [];
+function bill(label, model, u) {
+  const p = PRICES[model] ?? PRICES["claude-opus-5-5"];
+  const searches = u.server_tool_use?.web_search_requests ?? 0;
+  const usd =
+    ((u.input_tokens ?? 0) * p.in + (u.cache_creation_input_tokens ?? 0) * p.in * 1.25 + (u.cache_read_input_tokens ?? 0) * p.cacheRead + (u.output_tokens ?? 0) * p.out) / 1e6 +
+    searches * SEARCH_USD;
+  const row = ledger.find((r) => r.label === label && r.model === model) ?? (ledger.push({ label, model, input: 0, cacheWrite: 0, cacheRead: 0, output: 0, searches: 0, fetches: 0, usd: 0 }), ledger.at(-1));
+  row.input += u.input_tokens ?? 0;
+  row.cacheWrite += u.cache_creation_input_tokens ?? 0;
+  row.cacheRead += u.cache_read_input_tokens ?? 0;
+  row.output += u.output_tokens ?? 0;
+  row.searches += searches;
+  row.fetches += u.server_tool_use?.web_fetch_requests ?? 0;
+  row.usd += usd;
+  return usd;
+}
+export const totalUsd = () => ledger.reduce((s, r) => s + r.usd, 0);
 
 /** "https://www.osha.gov/x/" → "osha.gov/x" so trivial differences don't fail a match. */
 export function normUrl(u) {
@@ -63,25 +99,31 @@ function collectFetched(content, opened) {
  * @param {{system: string, messages: any[], tools?: any[], schema?: object, effort?: string, opened?: Set<string>, label?: string}} o
  * @returns {Promise<{text: string, content: any[], usage: any}>}
  */
-export async function ask({ system, messages, tools, schema, effort = "high", opened = new Set(), label = "call" }) {
+export async function ask({ system, messages, tools, schema, effort = "high", opened = new Set(), label = "call", model = MODEL }) {
   const msgs = [...messages];
   const usage = { input_tokens: 0, output_tokens: 0 };
   for (let turn = 0; turn < 12; turn++) {
     const started = Date.now();
-    const msg = await client.messages
-      .stream({
-        model: MODEL,
-        max_tokens: 64000,
-        system,
-        messages: msgs,
-        ...(tools && { tools }),
-        output_config: { effort, ...(schema && { format: { type: "json_schema", schema } }) },
-      })
-      .finalMessage();
+    const params = {
+      model,
+      max_tokens: 64000,
+      system,
+      messages: msgs,
+      ...(tools && { tools }),
+      output_config: { effort, ...(schema && { format: { type: "json_schema", schema } }) },
+      // Automatic prompt caching: pause_turn continuations and repair turns resend the same prefix.
+      cache_control: { type: "ephemeral" },
+    };
+    const msg = await (FALLBACKS
+      ? client.beta.messages.stream({ ...params, betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" })
+      : client.messages.stream(params)
+    ).finalMessage();
+    const usd = bill(label.replace(/ \(draft \d+\)$/, ""), msg.model ?? model, msg.usage ?? {});
     usage.input_tokens += msg.usage?.input_tokens ?? 0;
     usage.output_tokens += msg.usage?.output_tokens ?? 0;
     collectFetched(msg.content, opened);
-    console.log(`  · ${label}: ${msg.stop_reason} in ${Math.round((Date.now() - started) / 1000)}s (${msg.usage?.output_tokens} output tokens, ${opened.size} pages opened so far)`);
+    const u = msg.usage ?? {};
+    console.log(`  · ${label} [${msg.model ?? model}]: ${msg.stop_reason} in ${Math.round((Date.now() - started) / 1000)}s · in ${u.input_tokens ?? 0} (+${u.cache_read_input_tokens ?? 0} cached) / out ${u.output_tokens ?? 0} tokens · $${usd.toFixed(2)} · ${opened.size} pages opened`);
     if (msg.stop_reason === "pause_turn") {
       msgs.push({ role: "assistant", content: msg.content });
       continue;

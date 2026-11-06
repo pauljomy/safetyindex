@@ -5,7 +5,7 @@
 // Claude Opus writes the image prompt and the alt text in each language from
 // the post itself; the image comes from scripts/lib/cover.mjs.
 import { readFileSync, writeFileSync } from "node:fs";
-import { ask, parseJson } from "./lib/claude.mjs";
+import { TRANSLATION_MODEL, ask, parseJson } from "./lib/claude.mjs";
 import { makeCover } from "./lib/cover.mjs";
 import { existingPosts, frontmatter, postFile, toMarkdown } from "./lib/posts.mjs";
 
@@ -45,7 +45,7 @@ Summary: ${posts.find((p) => p.lang === "en").data.summary}
 - coverPrompt (English): one or two sentences describing a realistic photograph of a real workplace that shows what the guide is about, with any equipment worn and used correctly and safely. Subject only. Never text, labels, numbers, signs with writing, logos or brand names; no close-up faces.
 - alts: alt text for the image, 10–125 characters, describing what it shows (not "image of…"), one per language: ${posts.map((p) => p.lang).join(", ")}.`,
   }],
-  schema, effort: "medium", label: "cover prompt",
+  schema, effort: "low", model: TRANSLATION_MODEL, label: "cover prompt",
 });
 const out = parseJson(res.text, "cover prompt");
 console.log(`Prompt: ${out.coverPrompt}`);

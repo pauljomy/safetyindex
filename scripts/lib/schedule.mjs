@@ -23,13 +23,13 @@ export function randomGapHours() {
   return minutes / 60;
 }
 
-export function recordSuccess(s, { slug, title }, now = new Date()) {
+export function recordSuccess(s, { slug, title, usd }, now = new Date()) {
   const gap = randomGapHours();
   const next = new Date(now.getTime() + gap * 3600_000);
   s.lastPublished = now.toISOString();
   s.nextDue = next.toISOString();
   s.failures = 0;
-  s.history = [...(s.history ?? []), { at: now.toISOString(), slug, title, nextGapHours: Number(gap.toFixed(2)) }].slice(-200);
+  s.history = [...(s.history ?? []), { at: now.toISOString(), slug, title, nextGapHours: Number(gap.toFixed(2)), ...(usd != null && { apiUsd: usd }) }].slice(-200);
   save(s);
   return { next, gap };
 }

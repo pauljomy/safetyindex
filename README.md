@@ -18,10 +18,11 @@ npm run cover -- <slug>       # add (or --replace) the featured image of an exis
 
 1. `.github/workflows/publish-post.yml` wakes every hour. `scripts/is-due.mjs` reads `data/schedule.json`; if no post is due it stops (a few seconds, no API calls).
 2. When due, `scripts/generate-post.mjs` takes the first row of `docs/Safety_Blog_Topics.xlsx` whose Status isn't Published and:
-   - researches it with Claude Opus (`claude-opus-5-5`) using web search and web fetch, from primary sources;
+   - researches it with Claude Opus (`claude-opus-5-5`) using web search and web fetch, from primary sources (research at medium effort, fetched pages capped at 10,000 tokens each);
    - writes the English post, then checks it (`scripts/lib/validate.mjs`): lengths, structure, no images, no invented experience, and **every cited URL must be a page that was actually opened** during research. Problems go back to the model to fix (up to 2 times);
    - generates the featured image from a prompt Opus writes (Gemini image model on Vertex AI, `scripts/lib/cover.mjs`), saved as WebP with the IPTC AI-generated label; no image, no post;
-   - researches the French and German keyword and local regulators, and writes each version the same way;
+   - researches the French and German keyword and local regulators (at most 6 local pages) and rewrites each version with Claude Sonnet (`claude-sonnet-5-5`, half Opus's price), from the already-verified English post;
+   - logs tokens and USD per call, and stores each post's total as `apiUsd` in `data/schedule.json`;
    - writes the files and runs the full build; any failure deletes the new files;
    - marks the row Published, and sets the next post a random 24–36 hours later.
 3. The workflow commits the posts, the spreadsheet and the schedule. Your host (Cloudflare Pages, Netlify, Vercel…) deploys on push.
@@ -35,7 +36,7 @@ If anything fails (API down, no credits, a post that won't pass the checks), not
    - `ANTHROPIC_API_KEY`
    - `GOOGLE_CLOUD_API_KEY` (Vertex AI key for the featured image; the project defaults to `conform-blog-513213`, override with the `GOOGLE_CLOUD_PROJECT` variable)
    - Failure email over SMTP. With Gmail: `SMTP_HOST`=`smtp.gmail.com`, `SMTP_PORT`=`465`, `SMTP_USER`=your Gmail address, `SMTP_PASS`=a [Google app password](https://myaccount.google.com/apppasswords) (needs 2-Step Verification). Optional: `ALERT_EMAIL` (default pauljomy92@gmail.com), `MAIL_FROM`.
-3. **Variables (optional):** `ANTHROPIC_MODEL` (default `claude-opus-5-5`), `GOOGLE_CLOUD_PROJECT`. The domain (`https://safetyindex.blog`) and contact email are set in `src/config/site.mjs`.
+3. **Variables (optional):** `ANTHROPIC_MODEL` (English, default `claude-opus-5-5`), `TRANSLATION_MODEL` (default `claude-sonnet-5-5`; set it to `claude-opus-5-5` to go back to all-Opus), `GOOGLE_CLOUD_PROJECT`. The domain (`https://safetyindex.blog`) and contact email are set in `src/config/site.mjs`.
 4. **Cloudflare** (Workers static assets, `wrangler.jsonc`): Workers & Pages → Create → Import a repository → `pauljomy/safetyfirst`. Build command `npm run build`, deploy command `npx wrangler deploy`, root `/`. Node comes from `.node-version` (24). Then add `safetyindex.blog` under the Worker's Settings → Domains & Routes. Every push to `main` (including the bot's post commits) redeploys. Response headers are in `public/_headers`.
 
 ## Where things live
