@@ -110,7 +110,7 @@ export async function gatherSources(candidates, { query, opened, max = 8, log = 
 }
 
 /** Domains whose pages count as primary sources (regulators, law texts, standards bodies, agencies). */
-const PRIMARY = /(^|\.)(osha\.gov|ecfr\.gov|govinfo\.gov|federalregister\.gov|cdc\.gov|nih\.gov|epa\.gov|fda\.gov|usda\.gov|fmcsa\.dot\.gov|dot\.gov|msha\.gov|dol\.gov|nfpa\.org|ansi\.org|iso\.org|hse\.gov\.uk|legislation\.gov\.uk|ilo\.org|who\.int|europa\.eu|inrs\.fr|travail-emploi\.gouv\.fr|service-public\.fr|code\.travail\.gouv\.fr|gouv\.fr|legifrance\.gouv\.fr|dguv\.de|baua\.de|gesetze-im-internet\.de|bmas\.de|bgbau\.de|bghm\.de|bgn\.de|bgw-online\.de|bgrci\.de|bghw\.de|vbg\.de)$/i;
+const PRIMARY = /(^|\.)(osha\.gov|ecfr\.gov|govinfo\.gov|federalregister\.gov|cdc\.gov|nih\.gov|epa\.gov|fda\.gov|usda\.gov|fmcsa\.dot\.gov|dot\.gov|msha\.gov|dol\.gov|nfpa\.org|ansi\.org|iso\.org|hse\.gov\.uk|legislation\.gov\.uk|ilo\.org|who\.int|europa\.eu|inrs\.fr|travail-emploi\.gouv\.fr|service-public\.fr|code\.travail\.gouv\.fr|gouv\.fr|legifrance\.gouv\.fr|dguv\.de|baua\.de|gesetze-im-internet\.de|bmas\.de|bgbau\.de|bghm\.de|bgn\.de|bgw-online\.de|bgrci\.de|bghw\.de|vbg\.de|bgetem\.de|bgq\.de|svlfg\.de|ukbund\.de|preventionbtp\.fr|oppbtp\.com|ameli\.fr|carsat-[a-z-]+\.fr|cramif\.fr|anact\.fr|afnor\.org)$/i;
 /** Government and intergovernmental domains anywhere (.gov, .gouv.fr, .gov.uk, .europa.eu, .int, …) count too. */
 const OFFICIAL_TLD = /(\.gov|\.gouv\.fr|\.gov\.[a-z]{2}|\.gc\.ca|\.europa\.eu|\.int|\.bund\.de)$/i;
 export const isPrimary = (url) => {

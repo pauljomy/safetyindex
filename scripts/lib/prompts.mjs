@@ -5,6 +5,23 @@ import { sourcesBlock } from "./sources.mjs";
 
 const lang = (code) => locales.find((l) => l.code === code);
 
+/**
+ * How a native practitioner writes for each market (adapted from the user's
+ * German and French writer briefs). Facts still come only from the extracts.
+ */
+const LOCAL_STYLE = {
+  de: `Write as a native German safety professional writing for German readers: Fachkräfte für Arbeitssicherheit, Sicherheitsbeauftragte, Bauleiter, Unternehmer and Führungskräfte. Write directly in German; never write it in English and translate.
+- Address the reader with "Sie" throughout. Clear, practical, professional: no marketing language, no exaggerated claims. Short paragraphs, plain sentences; avoid long compound-noun chains where a simpler phrase works.
+- Use the established German terms (Gefährdungsbeurteilung, Unterweisung, PSA, Betriebsanweisung, Baustellenverordnung, SiGeKo, Unternehmermodell, Sicherheitsfachkraft), not literal translations of English terms.
+- Local rules and bodies first: Arbeitsschutzgesetz (ArbSchG), Baustellenverordnung (BaustellV), Betriebssicherheitsverordnung (BetrSichV), Arbeitsstättenverordnung and ASR, TRBS/TRGS, DGUV Vorschriften, Regeln and Informationen, the Berufsgenossenschaften (e.g. BG BAU, BG ETEM, BGN). Do not cite OSHA, the UK HSE or other foreign regulators unless the section is explicitly a comparison (e.g. a US training card the reader has heard of), and then say so.
+- German formats: dates as DD.MM.YYYY, decimal comma, thousands point, metric units, "1.250 €" (amount, space, €).`,
+  fr: `Write as a native French safety professional writing for French readers: préventeurs, responsables QHSE, conducteurs de travaux, coordonnateurs SPS, chefs d'entreprise and encadrants. Write directly in French; never write it in English and translate.
+- Address the reader with "vous" throughout. Clear, practical, professional: no marketing language, no exaggerated claims. Short paragraphs, natural French sentence structure.
+- Use the established French terms (document unique d'évaluation des risques (DUERP), plan de prévention, PPSPS, EPI, EPC, CSSCT, permis de feu, habilitation), not literal translations of English terms.
+- Local rules and bodies first: Code du travail, INRS (including its ED brochures), OPPBTP, CARSAT / Assurance Maladie – Risques professionnels, Inspection du travail, ministère du Travail. Do not cite OSHA, the UK HSE or other foreign regulators unless the section is explicitly a comparison, and then say so.
+- French typography and formats: a non-breaking space (U+00A0) before : ; ! ? and inside « guillemets » for quotes; dates as DD/MM/YYYY; decimal comma; space as thousands separator; "1 250 €" (amount, space, €).`,
+};
+
 export const RULES = `You write for ${site.name}, an independent workplace safety blog. Every guide is researched and written by you (an AI) and published without a line-by-line human review, so accuracy is on you. The site says so openly.
 
 Google ranks content on whether it helps people, not on how it was made; it penalises pages made mainly to rank that add nothing, especially at volume (spam policy: scaled content abuse). Safety and compliance are "Your Money or Your Life" topics. So:
@@ -129,7 +146,7 @@ English outline: ${(enPost.body.match(/^##\s.+$/gm) ?? []).join(" | ")}
 
 Use web_search in ${l.label} (a few searches) to find:
 1. What people in ${l.country} actually search for this topic (the local wording, not a translation of the English title). Pick the main local keyword by fit and how commonly it is used; keep English industry terms where practitioners there use them.
-2. The local primary pages for the rules that apply in ${l.country} (${code === "fr" ? "INRS, travail-emploi.gouv.fr, service-public.fr, code.travail.gouv.fr" : "DGUV, gesetze-im-internet.de (individual § pages), BG publications pages"}). ${sourceRule.replace("8–12", "4–6")}
+2. The local primary pages for the rules that apply in ${l.country} (${code === "fr" ? "INRS and its ED brochures pages, OPPBTP (preventionbtp.fr), Assurance Maladie / CARSAT (ameli.fr), travail-emploi.gouv.fr, code.travail.gouv.fr, service-public.fr" : "DGUV and publikationen.dguv.de, gesetze-im-internet.de (individual § pages of ArbSchG, BaustellV, BetrSichV, ArbStättV), BAuA pages for ASR/TRBS/TRGS, BG BAU and other Berufsgenossenschaften"}). ${sourceRule.replace("8–12", "4–6")}
 
 Existing ${l.name} posts (don't duplicate):
 ${existingList(existingLocal)}
@@ -150,9 +167,10 @@ export function localWritePrompt(code, enPost, plan, localSources, existingLocal
   const l = lang(code);
   return `Write the ${l.name} version of the guide below for readers in ${l.country}. It is a rewrite for that market, not a translation: Google treats automated translation that adds nothing as scaled content abuse.
 
-- Write in natural ${l.label}, the way a safety practitioner in ${l.country} talks (keep the industry terms they really use, even English ones: ${(plan.terminology ?? []).join(", ")}), not textbook or machine-translated language.
+${LOCAL_STYLE[code] ?? `- Write in natural ${l.label}, the way a safety practitioner in ${l.country} talks.`}
+- Terms practitioners there use for this topic (from the local search): ${(plan.terminology ?? []).join(", ")}.
 - Use the local main keyword "${plan.keyword}" in the title, seoTitle, first 100 words, one H2 and the slug "${plan.slug}"; work these queries into headings and the FAQ: ${(plan.otherQueries ?? []).join(", ")}.
-- Present the rules that apply in ${l.country} from the local extracts first. US facts may be reused from the English guide with their original source URL; say clearly they are US (OSHA/ANSI/NFPA) rules, and label those sources' titles with ${code === "fr" ? "\"(en anglais)\"" : "\"(auf Englisch)\""}.
+- Build the guide on the rules that apply in ${l.country}, from the local extracts. Use a US fact from the English guide only inside an explicit comparison, with its original source URL, saying clearly it is a US (OSHA/ANSI/NFPA) rule, and label that source's title with ${code === "fr" ? "\"(en anglais)\"" : "\"(auf Englisch)\""}. If the local extracts don't cover a point, say what applies in general terms and point the reader to the competent body (${code === "fr" ? "INRS, CARSAT, OPPBTP, inspection du travail" : "Berufsgenossenschaft, Unfallkasse, Gewerbeaufsicht/Arbeitsschutzbehörde"}) rather than filling the gap with US rules.
 - Every field is localised: title, seoTitle, subtitle, description, summary, keyTakeaways, tags, FAQ, headings, table text, coverAlt.
 - Internal links only to the ${l.name} posts listed below (exact paths). relatedPosts uses ENGLISH slugs.
 - Same rules: no claim without a source (local extract or the English guide's cited source), no invented experience, no images, no FAQ/sources section in the body.
