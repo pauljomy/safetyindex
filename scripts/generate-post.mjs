@@ -7,16 +7,17 @@
 //   npm run post -- --dry-run    # show the next topic and the research prompt; no API calls, no writes
 //   npm run post -- --test-email # send a test failure email and exit
 //
-// Budget: about $1 per post (hard stop at MAX_POST_USD, default $1). The model
+// Model: Claude Sonnet 5.5 for every step. Budget: hard stop at MAX_POST_USD
+// (default $2); a typical post costs well under $1. The model
 // never fetches pages itself (a server-side fetch loop re-reads every page on
 // every step, which is what made the first post cost ~$20). Instead:
-//   1. Sonnet, web search only: search intent + a shortlist of primary pages
+//   1. web search only: search intent + a shortlist of primary pages
 //   2. this script downloads those pages and keeps the relevant passages
 //      (scripts/lib/sources.mjs); only downloaded pages may be cited
-//   3. Opus writes the English post from those extracts; validate, 1 repair max
+//   3. write the English post from those extracts (high effort); validate, up to 2 repairs
 //   4. featured image (Gemini on Vertex AI) from the post's coverPrompt
-//   5. per language: Sonnet searches the local keyword + local regulator pages,
-//      the script downloads them, Sonnet rewrites the post for that market
+//   5. per language: search the local keyword + local regulator pages, the
+//      script downloads them, the post is rewritten for that market
 //   6. write the files, run the full site build (SEO, hreflang, schema, links)
 //   7. mark the row Published, schedule the next post, store the cost
 // Any failure rolls back the files, records the failure, and emails ALERT_EMAIL.
@@ -38,13 +39,13 @@ import { makeCover } from "./lib/cover.mjs";
 const args = new Set(process.argv.slice(2));
 const DRY = args.has("--dry-run");
 const FORCE = args.has("--force");
-const MAX_REPAIRS = 1;
+const MAX_REPAIRS = 2;
 const today = new Date().toISOString().slice(0, 10);
 
 const output = (k, v) => process.env.GITHUB_OUTPUT && appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
 
 /** Writes a post, then asks the model to fix whatever the validator finds. */
-async function draft({ label, prompt, ctx, model, effort = "medium" }) {
+async function draft({ label, prompt, ctx, model, effort = "high" }) {
   const messages = [{ role: "user", content: prompt }];
   for (let attempt = 0; ; attempt++) {
     const res = await ask({ system: RULES, messages, schema: postSchema, effort, model, label: `${label} (draft ${attempt + 1})` });
@@ -83,7 +84,7 @@ async function main() {
   const existing = existingPosts();
   const existingIn = (code) => existing.filter((p) => p.lang === code);
 
-  console.log(`Topic #${topic.n}: ${topic.title}\n  keyword: ${topic.keyword} · category: ${category.slug} · English: ${MODEL} · research/translations: ${TRANSLATION_MODEL} · budget $${MAX_POST_USD}`);
+  console.log(`Topic #${topic.n}: ${topic.title}\n  keyword: ${topic.keyword} · category: ${category.slug} · model: ${MODEL === TRANSLATION_MODEL ? MODEL : `${MODEL} (en), ${TRANSLATION_MODEL} (search, fr/de)`} · budget $${MAX_POST_USD}`);
   if (DRY) {
     console.log(`\n--- search prompt ---\n${searchPrompt(topic, existingIn("en"))}`);
     return;

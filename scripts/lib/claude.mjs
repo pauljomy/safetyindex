@@ -4,9 +4,9 @@
 // pages it never opened.
 import Anthropic from "@anthropic-ai/sdk";
 
-/** English research and writing: where accuracy and quality are decided. */
-export const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-5-5";
-/** French/German research and rewriting, from an English post whose facts are already verified. */
+/** Writes the English post. Override with ANTHROPIC_MODEL (e.g. claude-opus-5-5). */
+export const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5";
+/** Searches and writes the French and German versions. Override with TRANSLATION_MODEL. */
 export const TRANSLATION_MODEL = process.env.TRANSLATION_MODEL || "claude-sonnet-5-5";
 /** Server-side refusal fallback (a safety classifier declining a chemicals/medical topic retries on another model). Set ANTHROPIC_FALLBACKS=off to disable. */
 const FALLBACKS = process.env.ANTHROPIC_FALLBACKS !== "off";
@@ -55,7 +55,7 @@ function bill(label, model, u) {
 export const totalUsd = () => ledger.reduce((s, r) => s + r.usd, 0);
 
 /** Hard ceiling per post (USD). Checked before every request, so one run can overshoot by at most one call. */
-export const MAX_POST_USD = Number(process.env.MAX_POST_USD) || 1;
+export const MAX_POST_USD = Number(process.env.MAX_POST_USD) || 2;
 
 /** "https://www.osha.gov/x/" → "osha.gov/x" so trivial differences don't fail a match. */
 export function normUrl(u) {

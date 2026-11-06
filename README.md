@@ -1,6 +1,6 @@
 # Safety Index
 
-A static workplace safety blog on [Astro](https://astro.build) with the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme. New guides are researched and written by Claude Opus from primary sources and published automatically, one topic at a time, at random 24–36 hour intervals, in English, French and German. Each post has one featured image (an AI-generated photograph); there are no other images.
+A static workplace safety blog on [Astro](https://astro.build) with the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme. New guides are researched and written by Claude Sonnet 5.5 from primary sources and published automatically, one topic at a time, at random 24–36 hour intervals, in English, French and German. Each post has one featured image (an AI-generated photograph); there are no other images.
 
 ```bash
 npm install
@@ -17,17 +17,17 @@ npm run cover -- <slug>       # add (or --replace) the featured image of an exis
 ## How publishing works
 
 1. `.github/workflows/publish-post.yml` wakes every hour. `scripts/is-due.mjs` reads `data/schedule.json`; if no post is due it stops (a few seconds, no API calls).
-2. When due, `scripts/generate-post.mjs` takes the first row of `docs/Safety_Blog_Topics.xlsx` whose Status isn't Published and, on a budget of about **$1 per post** (hard stop at `MAX_POST_USD`, default $1):
-   - **search** (Claude Sonnet, web search only): search intent, what the guide adds, and a shortlist of official primary pages (regulators, law texts, standards bodies);
-   - **download** those pages in the script itself (`scripts/lib/sources.mjs`), keeping the relevant passages (about 3,500 tokens a page, up to 8 pages). The model never fetches pages: a server-side fetch loop re-reads every page on every step, which is what made the first post cost about $20;
-   - **write** the English post with Claude Opus (`claude-opus-5-5`) from those extracts only, then check it (`scripts/lib/validate.mjs`): lengths, structure, no invented experience, and **every cited URL must be a page the script downloaded**. One repair round at most;
+2. When due, `scripts/generate-post.mjs` takes the first row of `docs/Safety_Blog_Topics.xlsx` whose Status isn't Published and, with Claude Sonnet 5.5 for every step and a hard spending cap per post (`MAX_POST_USD`, default **$2**; a typical post costs under $1):
+   - **search** (web search only): search intent, what the guide adds, and a shortlist of official primary pages (regulators, law texts, standards bodies);
+   - **download** those pages in the script itself (`scripts/lib/sources.mjs`), keeping the relevant passages (about 3,500 tokens a page, up to 8 pages). The model never fetches pages: a server-side fetch loop re-reads every page on every step, which is what made the first post (written with Opus) cost about $20;
+   - **write** the English post from those extracts only (high effort), then check it (`scripts/lib/validate.mjs`): lengths, structure, no invented experience, and **every cited URL must be a page the script downloaded**. Up to 2 repair rounds;
    - make the featured image (Gemini on Vertex AI, `scripts/lib/cover.mjs`), saved as WebP with the IPTC AI-generated label; no image, no post;
-   - for French and German: Sonnet searches the local keyword and local regulator pages, the script downloads up to 4, and Sonnet rewrites the post for that market;
+   - for French and German: search the local keyword and local regulator pages, the script downloads up to 4, and the post is rewritten for that market by a native-writer brief (Sie/vous, local terms and bodies, local formats);
    - write the files and run the full build; any failure deletes the new files;
    - mark the row Published, schedule the next post a random 24–36 hours later, and store the run's cost as `apiUsd` in `data/schedule.json` (the Actions log prints a per-call cost table).
 3. The workflow commits the posts, the spreadsheet and the schedule. Your host (Cloudflare Pages, Netlify, Vercel…) deploys on push.
 
-If anything fails (API down, no credits, the $1 budget stop, a post that won't pass the checks), nothing is published, the next try is 3h later (then 6h, 12h, 24h), and an email goes to `pauljomy92@gmail.com` (first failure of an outage, then every 4th retry). GitHub also emails the repo owner when a workflow run fails.
+If anything fails (API down, no credits, the budget stop, a post that won't pass the checks), nothing is published, the next try is 3h later (then 6h, 12h, 24h), and an email goes to `pauljomy92@gmail.com` (first failure of an outage, then every 4th retry). GitHub also emails the repo owner when a workflow run fails.
 
 ## Setup
 
@@ -36,7 +36,7 @@ If anything fails (API down, no credits, the $1 budget stop, a post that won't p
    - `ANTHROPIC_API_KEY`
    - `GOOGLE_CLOUD_API_KEY` (Vertex AI key for the featured image; the project defaults to `conform-blog-513213`, override with the `GOOGLE_CLOUD_PROJECT` variable)
    - Failure email over SMTP. With Gmail: `SMTP_HOST`=`smtp.gmail.com`, `SMTP_PORT`=`465`, `SMTP_USER`=your Gmail address, `SMTP_PASS`=a [Google app password](https://myaccount.google.com/apppasswords) (needs 2-Step Verification). Optional: `ALERT_EMAIL` (default pauljomy92@gmail.com), `MAIL_FROM`.
-3. **Variables (optional):** `ANTHROPIC_MODEL` (English, default `claude-opus-5-5`), `TRANSLATION_MODEL` (search and fr/de, default `claude-sonnet-5-5`), `MAX_POST_USD` (default `1`), `GOOGLE_CLOUD_PROJECT`. The domain (`https://safetyindex.blog`) and contact email are set in `src/config/site.mjs`.
+3. **Variables (optional):** `ANTHROPIC_MODEL` (English post, default `claude-sonnet-5-5`), `TRANSLATION_MODEL` (search and fr/de, default `claude-sonnet-5-5`), `MAX_POST_USD` (default `2`), `GOOGLE_CLOUD_PROJECT`. The domain (`https://safetyindex.blog`) and contact email are set in `src/config/site.mjs`.
 4. **Cloudflare** (Workers static assets, `wrangler.jsonc`): Workers & Pages → Create → Import a repository → `pauljomy/safetyfirst`. Build command `npm run build`, deploy command `npx wrangler deploy`, root `/`. Node comes from `.node-version` (24). Then add `safetyindex.blog` under the Worker's Settings → Domains & Routes. Every push to `main` (including the bot's post commits) redeploys. Response headers are in `public/_headers`.
 
 ## Where things live

@@ -1,6 +1,6 @@
 # Safety Index blog
 
-Static Astro site on the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme (MIT). Posts are researched and written by Claude Opus (English) and Claude Sonnet (French and German rewrites of the verified English post) through `scripts/generate-post.mjs`, which a GitHub Action runs on a random 24–36 hour schedule. See README.md for where things live.
+Static Astro site on the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme (MIT). Posts are researched and written by Claude Sonnet 5.5 through `scripts/generate-post.mjs`, which a GitHub Action runs on a random 24–36 hour schedule. See README.md for where things live.
 
 `temp/` (local reference copy of conform-blog) and `.env` are git-ignored; never commit them.
 
@@ -22,7 +22,7 @@ Google ranks content on whether it helps people, not on how it was made. What it
 
 1. **One post per search intent.** `keyword` is unique per language (validator). If a topic answers the same question as an existing post, improve that post instead.
 2. **Don't rewrite the competitor page.** Search results show intent; they are never a source. No copied structure, headings, examples or wording.
-3. **Facts only from downloaded primary sources.** The script downloads the official pages the search step picked (`scripts/lib/sources.mjs`, official domains only) and the writer sees only those extracts; the validator rejects a post that cites or links any URL the script did not download. Numbers are copied exactly. Keep the model away from server-side page fetching: it re-reads every page on every step (the first post cost about $20 that way); the budget is about $1 a post (`MAX_POST_USD`).
+3. **Facts only from downloaded primary sources.** The script downloads the official pages the search step picked (`scripts/lib/sources.mjs`, official domains only) and the writer sees only those extracts; the validator rejects a post that cites or links any URL the script did not download. Numbers are copied exactly. Keep the model away from server-side page fetching: it re-reads every page on every step (the first post cost about $20 that way); the hard cap is $2 a post (`MAX_POST_USD`); a typical post costs under $1.
 4. **No invented experience or authors.** No "we inspected", case studies, quotes, testimonials or statistics that didn't happen (validator catches the common phrasings). Worked examples are labelled as examples. The byline is the site, never an invented person.
 5. **Write for the reader, not a word count.** No filler or stock AI phrasing. The validator's 1,200-word floor only stops thin pages.
 6. **YMYL.** Name the country/regulator for every rule, link it, don't go beyond the source, and point readers to their regulator or a competent person (the disclaimer under every post says so too).
