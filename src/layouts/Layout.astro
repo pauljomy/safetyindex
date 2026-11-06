@@ -1,0 +1,37 @@
+---
+import Head from "@components/Head.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Pagefind from "@components/PageFind.astro";
+import JsonLd from "@components/JsonLd.astro";
+import type { SeoProps } from "@components/Head.astro";
+import { langOf } from "../i18n/ui";
+
+type Props = SeoProps & { /** Schema.org nodes for this page. */ jsonLd?: Record<string, unknown>[] };
+const { jsonLd = [], ...seo } = Astro.props;
+const lang = langOf(Astro.url.pathname);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <Head {...seo} />
+    {jsonLd.map((data) => <JsonLd data={data} />)}
+  </head>
+  <body>
+    <noscript>
+      <style>
+        .animate {
+          opacity: 1;
+          translate: var(--tw-translate-x) calc(var(--spacing) * 0);
+        }
+      </style>
+    </noscript>
+    <Header alternates={seo.alternates} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <Pagefind />
+  </body>
+</html>

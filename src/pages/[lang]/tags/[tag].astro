@@ -1,0 +1,12 @@
+---
+import TagsView from "../../../views/TagsView.astro";
+import { getTags } from "../../../lib/content";
+import { translatedLangs } from "../../../i18n/ui";
+export async function getStaticPaths() {
+  const out = [];
+  for (const lang of translatedLangs) for (const t of await getTags(lang)) out.push({ params: { lang, tag: t.slug }, props: { lang, slug: t.slug } });
+  return out;
+}
+const { lang, slug } = Astro.props;
+---
+<TagsView {lang} {slug} />

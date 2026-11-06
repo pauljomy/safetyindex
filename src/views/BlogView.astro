@@ -1,0 +1,41 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import { getPosts, hubAlternates, url, type Post } from "@lib/content";
+import { latest } from "@lib/dates";
+import { breadcrumbList } from "@lib/schema";
+import { inLang, ui, type Lang } from "../i18n/ui";
+import { site } from "../config/site.mjs";
+
+const { lang } = Astro.props as { lang: Lang };
+const s = ui[lang];
+const posts = await getPosts(lang);
+const byYear = Object.groupBy(posts, (p: Post) => String(p.data.date.getUTCFullYear()));
+const years = Object.keys(byYear).sort((a, b) => +b - +a);
+---
+
+<Layout
+  title={s.blogTitle}
+  description={s.blogDescription}
+  updated={latest(site.updated, ...posts.map((p) => latest(p.data.date, p.data.updated)))}
+  alternates={hubAlternates("/blog")}
+  jsonLd={[breadcrumbList([{ label: s.home, href: inLang("/", lang) }, { label: s.blog, href: url.blog(lang) }])]}
+>
+  <Container>
+    <aside data-pagefind-ignore>
+      <h1 class="animate mb-8 font-semibold text-black dark:text-white">{s.blogTitle}</h1>
+      <div class="space-y-10">
+        {
+          years.map((year) => (
+            <section class="animate space-y-4">
+              <div class="font-semibold text-black dark:text-white">{year}</div>
+              <ul class="not-prose flex flex-col gap-4">{byYear[year]!.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
+            </section>
+          ))
+        }
+        {posts.length === 0 && <p>{s.noPosts}</p>}
+      </div>
+    </aside>
+  </Container>
+</Layout>

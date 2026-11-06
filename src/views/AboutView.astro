@@ -1,0 +1,31 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import { hubAlternates } from "@lib/content";
+import { breadcrumbList, organization } from "@lib/schema";
+import { inLang, ui, type Lang } from "../i18n/ui";
+import { entity, site } from "../config/site.mjs";
+
+const { lang } = Astro.props as { lang: Lang };
+const s = ui[lang];
+---
+
+<Layout
+  title={s.aboutTitle}
+  description={s.aboutDescription}
+  updated={new Date(site.updated)}
+  alternates={hubAlternates("/about")}
+  jsonLd={[breadcrumbList([{ label: s.home, href: inLang("/", lang) }, { label: s.aboutTitle, href: inLang("/about", lang) }]), organization()]}
+>
+  <Container>
+    <h1 class="animate mb-6 text-2xl font-semibold text-black dark:text-white">{s.aboutTitle}</h1>
+    <article class="animate" data-pagefind-ignore>
+      {
+        s.aboutBody.map((block) =>
+          block.startsWith("## ") ? <h2 id={block.includes("write") || block.includes("écrivons") || block.includes("schreiben") ? "how-we-write" : undefined}>{block.slice(3)}</h2> : <p>{block}</p>,
+        )
+      }
+      {lang === "en" && <p>{entity.definition}</p>}
+    </article>
+  </Container>
+</Layout>

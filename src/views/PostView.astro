@@ -1,0 +1,120 @@
+---
+import { render } from "astro:content";
+import { Image, getImage } from "astro:assets";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import BackToPrevious from "@components/BackToPrevious.astro";
+import TableOfContents from "@components/TableOfContents.astro";
+import PostNavigation from "@components/PostNavigation.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import Chip from "@components/Chip.astro";
+import { categoryName, getPosts, postAlternates, related, url, type Post } from "@lib/content";
+import { formatDate, latest } from "@lib/dates";
+import { slugify } from "@lib/slugify";
+import { readingTime } from "@lib/utils";
+import { blogPosting, breadcrumbList, faqPage, orgId, organization } from "@lib/schema";
+import { inLang, langOf, meta, ui } from "../i18n/ui";
+
+const { post } = Astro.props as { post: Post };
+const d = post.data;
+const lang = langOf(post.id);
+const s = ui[lang];
+const locale = meta[lang].intl;
+const path = url.post(post.id);
+const { Content, headings } = await render(post);
+const alternates = await postAlternates(post);
+const more = await related(post);
+const all = await getPosts(lang);
+const i = all.findIndex((p) => p.id === post.id);
+const [prevPost, nextPost] = [all[i - 1], all[i + 1]];
+const mainCategory = d.categories[0];
+const title = d.seoTitle ?? d.title;
+// Social card: the featured image cropped to 1200×630 JPEG (what Facebook, LinkedIn and X expect).
+const og = d.coverImage ? (await getImage({ src: d.coverImage, width: 1200, height: 630, fit: "cover", format: "jpg", quality: 80 })).src : undefined;
+const crumbs = [
+  { label: s.home, href: inLang("/", lang) },
+  { label: s.blog, href: url.blog(lang) },
+  { label: categoryName(mainCategory, lang), href: url.category(mainCategory, lang) },
+  { label: d.title, href: path },
+];
+---
+
+<Layout
+  title={title}
+  description={d.description}
+  published={d.date}
+  updated={latest(d.date, d.updated)}
+  type="article"
+  noindex={d.noindex}
+  alternates={alternates}
+  image={og}
+  jsonLd={[
+    blogPosting({ path, title: d.title, description: d.description, image: og, date: d.date, updated: d.updated, keywords: [d.keyword, ...d.tags], section: categoryName(mainCategory, lang), lang: meta[lang].hreflang }),
+    breadcrumbList(crumbs),
+    ...(d.faq.length ? [faqPage(d.faq)] : []),
+    { ...organization(), "@id": orgId },
+  ]}
+>
+  <Container>
+    <div class="animate">
+      <BackToPrevious href={url.blog(lang)}>{s.backToBlog}</BackToPrevious>
+    </div>
+    <div class="my-10 space-y-1">
+      <div class="animate flex flex-wrap items-center gap-1.5 text-sm">
+        <time datetime={d.date.toISOString()}>{formatDate(d.date, locale)}</time>
+        {d.updated && <span>• {s.updated} <time datetime={d.updated.toISOString()}>{formatDate(d.updated, locale)}</time></span>}
+        <span>• {s.minRead(readingTime(post.body ?? ""))}</span>
+      </div>
+      <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
+      <p class="animate pt-1 text-lg">{d.subtitle}</p>
+      <div class="animate flex flex-wrap gap-2 pt-1">
+        {d.categories.map((c) => <Chip href={url.category(c, lang)}>{categoryName(c, lang)}</Chip>)}
+        {d.tags.map((t) => <Chip href={url.tag(slugify(t), lang)}>#{t}</Chip>)}
+      </div>
+    </div>
+    {
+      d.coverImage && (
+        <figure class="animate not-prose -mt-4 mb-10">
+          <Image src={d.coverImage} alt={d.coverAlt!} widths={[480, 768, 1200]} sizes="(max-width: 640px) 100vw, 640px" loading="eager" fetchpriority="high" class="w-full rounded-lg border border-black/15 dark:border-white/20" />
+        </figure>
+      )
+    }
+    <article class="animate" data-pagefind-body>
+      <p data-answer class="lead font-medium text-black dark:text-white">{d.summary}</p>
+      <h2>{s.keyTakeaways}</h2>
+      <ul>{d.keyTakeaways.map((k) => <li>{k}</li>)}</ul>
+      {headings.length > 2 && <TableOfContents headings={headings} />}
+      <Content />
+      {
+        d.faq.length > 0 && (
+          <>
+            <h2>{s.faq}</h2>
+            {d.faq.map((f) => (
+              <>
+                <h3>{f.question}</h3>
+                <p>{f.answer}</p>
+              </>
+            ))}
+          </>
+        )
+      }
+      <h2>{s.sources}</h2>
+      <ul>
+        {d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}
+      </ul>
+      <p class="text-sm"><em>{s.howMade}</em> <a href={inLang("/about", lang)}>{s.about}</a></p>
+      <p class="text-sm"><em>{s.disclaimer}</em></p>
+    </article>
+    {
+      more.length > 0 && (
+        <section class="animate mt-16 space-y-4" data-pagefind-ignore>
+          <h2 class="font-semibold text-black dark:text-white">{s.relatedPosts}</h2>
+          <ul class="not-prose flex flex-col gap-4">{more.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
+        </section>
+      )
+    }
+    <div class="mt-16" data-pagefind-ignore>
+      <PostNavigation {prevPost} {nextPost} />
+    </div>
+  </Container>
+</Layout>

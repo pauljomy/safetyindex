@@ -1,0 +1,266 @@
+---
+import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
+import "@fontsource/geist-sans/300.css";
+import "@fontsource/geist-sans/400.css";
+import "@fontsource/geist-sans/500.css";
+import "@fontsource/geist-sans/600.css";
+import "@fontsource/geist-sans/700.css";
+import "@fontsource/geist-mono/400.css";
+import "@fontsource/geist-mono/500.css";
+import "@fontsource/geist-mono/600.css";
+import { site } from "../config/site.mjs";
+import { defaultLang, langOf, meta, type Lang } from "../i18n/ui";
+import { isoDate } from "../lib/dates";
+import { pagePath } from "../lib/paths";
+
+export interface SeoProps {
+  title: string;
+  description: string;
+  /** Last-modified date; also read by the sitemap for lastmod. */
+  updated: Date;
+  published?: Date;
+  type?: "website" | "article";
+  noindex?: boolean;
+  /** Paths of this page in each language it exists in, itself included. Omit when there are no translations. */
+  alternates?: Partial<Record<Lang, string>>;
+  /** Absolute or root-relative social image; defaults to /og-default.png. */
+  image?: string;
+}
+
+const { title, description, updated, published, type = "website", noindex = false, alternates, image } = Astro.props as SeoProps;
+const path = pagePath(Astro.url.pathname);
+const canonical = new URL(path, site.url).href;
+const lang = langOf(path);
+// Every language version lists all versions, itself included; x-default is the English one.
+const versions = Object.entries(alternates ?? { [lang]: path }) as [Lang, string][];
+const xDefault = alternates?.[defaultLang] ?? path;
+const suffixed = `${title} | ${site.name}`;
+const fullTitle = path === "/" || suffixed.length > 60 ? title : suffixed;
+const ogImage = new URL(image ?? "/og-default.png", site.url).href;
+const robots = noindex ? "noindex, follow" : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+
+if (fullTitle.length > 60) throw new Error(`Title over 60 chars on ${path}: "${fullTitle}"`);
+if (description.length > 155) throw new Error(`Description over 155 chars on ${path}`);
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/icon-180.png" />
+<meta name="generator" content={Astro.generator} />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta name="robots" content={robots} />
+{versions.map(([code, p]) => <link rel="alternate" hreflang={meta[code].hreflang} href={new URL(p, site.url).href} />)}
+<link rel="alternate" hreflang="x-default" href={new URL(xDefault, site.url).href} />
+<link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+<link rel="alternate" type="application/rss+xml" title={`${site.name} blog`} href="/rss.xml" />
+<meta property="og:site_name" content={site.name} />
+<meta property="og:locale" content={meta[lang].og} />
+{versions.filter(([code]) => code !== lang).map(([code]) => <meta property="og:locale:alternate" content={meta[code].og} />)}
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={image ? title : site.name} />
+<meta property="og:updated_time" content={updated.toISOString()} />
+{type === "article" && published && <meta property="article:published_time" content={isoDate(published)} />}
+{type === "article" && <meta property="article:modified_time" content={isoDate(updated)} />}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- PageFind -->
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+
+<ClientRouter />
+
+<script is:inline>
+  function init() {
+    preloadTheme();
+    onScroll();
+    animate();
+    updateThemeButtons();
+    addCopyCodeButtons();
+
+    const backToTop = document.getElementById("back-to-top");
+    backToTop?.addEventListener("click", (event) => scrollToTop(event));
+
+    const backToPrev = document.getElementById("back-to-prev");
+    backToPrev?.addEventListener("click", () => window.history.back());
+
+    const lightThemeButton = document.getElementById("light-theme-button");
+    lightThemeButton?.addEventListener("click", () => {
+      localStorage.setItem("theme", "light");
+      toggleTheme(false);
+      updateThemeButtons();
+    });
+
+    const darkThemeButton = document.getElementById("dark-theme-button");
+    darkThemeButton?.addEventListener("click", () => {
+      localStorage.setItem("theme", "dark");
+      toggleTheme(true);
+      updateThemeButtons();
+    });
+
+    const systemThemeButton = document.getElementById("system-theme-button");
+    systemThemeButton?.addEventListener("click", () => {
+      localStorage.setItem("theme", "system");
+      toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+      updateThemeButtons();
+    });
+
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (event) => {
+        if (localStorage.theme === "system") {
+          toggleTheme(event.matches);
+        }
+      });
+
+    document.addEventListener("scroll", onScroll);
+  }
+
+  function updateThemeButtons() {
+    const theme = localStorage.getItem("theme");
+    const lightThemeButton = document.getElementById("light-theme-button");
+    const darkThemeButton = document.getElementById("dark-theme-button");
+    const systemThemeButton = document.getElementById("system-theme-button");
+
+    function removeActiveButtonTheme(button) {
+      button?.classList.remove("bg-black/5");
+      button?.classList.remove("dark:bg-white/5");
+    }
+
+    function addActiveButtonTheme(button) {
+      button?.classList.add("bg-black/5");
+      button?.classList.add("dark:bg-white/5");
+    }
+
+    removeActiveButtonTheme(lightThemeButton);
+    removeActiveButtonTheme(darkThemeButton);
+    removeActiveButtonTheme(systemThemeButton);
+
+    if (theme === "light") {
+      addActiveButtonTheme(lightThemeButton);
+    } else if (theme === "dark") {
+      addActiveButtonTheme(darkThemeButton);
+    } else {
+      addActiveButtonTheme(systemThemeButton);
+    }
+  }
+
+  function animate() {
+    const animateElements = document.querySelectorAll(".animate");
+
+    animateElements.forEach((element, index) => {
+      setTimeout(() => {
+        element.classList.add("show");
+      }, index * 100);
+    });
+  }
+
+  function onScroll() {
+    if (window.scrollY > 0) {
+      document.documentElement.classList.add("scrolled");
+    } else {
+      document.documentElement.classList.remove("scrolled");
+    }
+  }
+
+  function scrollToTop(event) {
+    event.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
+  function toggleTheme(dark) {
+    const css = document.createElement("style");
+
+    css.appendChild(
+      document.createTextNode(
+        `* {
+             -webkit-transition: none !important;
+             -moz-transition: none !important;
+             -o-transition: none !important;
+             -ms-transition: none !important;
+             transition: none !important;
+          }
+        `,
+      ),
+    );
+
+    document.head.appendChild(css);
+
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+
+    window.getComputedStyle(css).opacity;
+    document.head.removeChild(css);
+
+  }
+
+  function preloadTheme() {
+    const userTheme = localStorage.theme;
+
+    if (userTheme === "light" || userTheme === "dark") {
+      toggleTheme(userTheme === "dark");
+    } else {
+      toggleTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+    }
+  }
+
+  function addCopyCodeButtons() {
+    let copyButtonLabel = "📋";
+    let codeBlocks = Array.from(document.querySelectorAll("pre"));
+
+    async function copyCode(codeBlock, copyButton) {
+      const codeText = codeBlock.innerText;
+      const buttonText = copyButton.innerText;
+      const textToCopy = codeText.replace(buttonText, "");
+
+      await navigator.clipboard.writeText(textToCopy);
+      copyButton.innerText = "✅";
+
+      setTimeout(() => {
+        copyButton.innerText = copyButtonLabel;
+      }, 2000);
+    }
+
+    for (let codeBlock of codeBlocks) {
+      const wrapper = document.createElement("div");
+      wrapper.style.position = "relative";
+
+      const copyButton = document.createElement("button");
+      copyButton.innerText = copyButtonLabel;
+      copyButton.classList = "copy-code";
+
+      codeBlock.setAttribute("tabindex", "0");
+      codeBlock.appendChild(copyButton);
+
+      codeBlock.parentNode.insertBefore(wrapper, codeBlock);
+      wrapper.appendChild(codeBlock);
+
+      copyButton?.addEventListener("click", async () => {
+        await copyCode(codeBlock, copyButton);
+      });
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => init());
+  document.addEventListener("astro:after-swap", () => init());
+  preloadTheme();
+</script>

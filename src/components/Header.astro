@@ -1,0 +1,51 @@
+---
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import { site } from "../config/site.mjs";
+import { defaultLang, inLang, langOf, langs, meta, ui, type Lang } from "../i18n/ui";
+
+const { alternates } = Astro.props as { alternates?: Partial<Record<Lang, string>> };
+const lang = langOf(Astro.url.pathname);
+const s = ui[lang];
+---
+
+<header>
+  <Container>
+    <div class="flex flex-wrap items-center justify-between gap-y-2">
+      <Link href={inLang("/", lang)} underline={false}>
+        <div class="font-semibold">{site.name}&nbsp;🦺</div>
+      </Link>
+      <nav class="flex flex-wrap items-center gap-1 text-sm" aria-label="Main">
+        <Link href={inLang("/blog", lang)}>{s.blog}</Link>
+        <span>/</span>
+        <Link href={inLang("/about", lang)}>{s.about}</Link>
+        <span>/</span>
+        <span class="flex items-center gap-1" aria-label={s.language}>
+          {
+            langs.map((l, i) => (
+              <>
+                {i > 0 && <span class="text-black/30 dark:text-white/30">·</span>}
+                {l === lang ? (
+                  <span class="font-semibold text-black dark:text-white" aria-current="true">{l.toUpperCase()}</span>
+                ) : (
+                  <a href={alternates?.[l] ?? inLang("/", l)} hreflang={meta[l].hreflang} lang={meta[l].hreflang} title={meta[l].label} class="hover:text-black dark:hover:text-white">{l.toUpperCase()}</a>
+                )}
+              </>
+            ))
+          }
+        </span>
+        <span>/</span>
+        <button
+          id="magnifying-glass"
+          aria-label={s.search}
+          class="flex items-center rounded-sm border border-black/15 bg-neutral-100 px-2 py-1 text-xs transition-colors duration-300 ease-in-out hover:bg-black/5 hover:text-black focus-visible:bg-black/5 focus-visible:text-black dark:border-white/20 dark:bg-neutral-900 dark:hover:bg-white/5 dark:hover:text-white dark:focus-visible:bg-white/5 dark:focus-visible:text-white"
+        >
+          <svg height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"
+            ><path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 7C3.5 5.067 5.067 3.5 7 3.5C8.933 3.5 10.5 5.067 10.5 7C10.5 7.88461 10.1718 8.69256 9.63058 9.30876L9.30876 9.63058C8.69256 10.1718 7.88461 10.5 7 10.5C5.067 10.5 3.5 8.933 3.5 7ZM9.96544 11.0261C9.13578 11.6382 8.11014 12 7 12C4.23858 12 2 9.76142 2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7C12 8.11014 11.6382 9.13578 11.0261 9.96544L14.0303 12.9697L14.5607 13.5L13.5 14.5607L12.9697 14.0303L9.96544 11.0261Z" fill="currentColor"></path></svg
+          >
+          &nbsp;{s.search}
+        </button>
+      </nav>
+    </div>
+  </Container>
+</header>

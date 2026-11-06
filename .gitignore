@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+.indexnow-state.json
+.DS_Store
+.idea/
+
+# secrets and local reference material
+.env
+.env.*
+!.env.example
+temp/

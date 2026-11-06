@@ -1,0 +1,27 @@
+---
+import { url, type Post } from "@lib/content";
+const { prevPost, nextPost } = Astro.props as { prevPost?: Post; nextPost?: Post };
+const cls =
+  "group relative flex flex-nowrap rounded-lg border border-black/15 px-4 py-3 no-underline transition-colors duration-300 ease-in-out hover:bg-black/5 hover:text-black focus-visible:bg-black/5 focus-visible:text-black dark:border-white/20 dark:hover:bg-white/5 dark:hover:text-white dark:focus-visible:bg-white/5 dark:focus-visible:text-white";
+---
+
+<div class="grid grid-cols-2 gap-1.5 sm:gap-3">
+  {
+    prevPost ? (
+      <a href={url.post(prevPost.id)} class={`${cls} pl-4`} rel="prev">
+        <div class="flex items-center text-sm">← {prevPost.data.title}</div>
+      </a>
+    ) : (
+      <div class="invisible" />
+    )
+  }
+  {
+    nextPost ? (
+      <a href={url.post(nextPost.id)} class={`${cls} justify-end text-right`} rel="next">
+        <div class="flex items-center text-sm">{nextPost.data.title} →</div>
+      </a>
+    ) : (
+      <div class="invisible" />
+    )
+  }
+</div>

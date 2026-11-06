@@ -1,0 +1,60 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import Link from "@components/Link.astro";
+import Chip from "@components/Chip.astro";
+import { getCategories, getPosts, hubAlternates, url } from "@lib/content";
+import { latest } from "@lib/dates";
+import { organization } from "@lib/schema";
+import { inLang, ui, type Lang } from "../i18n/ui";
+import { site } from "../config/site.mjs";
+
+const { lang } = Astro.props as { lang: Lang };
+const s = ui[lang];
+const posts = await getPosts(lang);
+const categories = await getCategories(lang);
+const updated = latest(site.updated, ...posts.map((p) => latest(p.data.date, p.data.updated)));
+---
+
+<Layout
+  title={s.homeTitle}
+  description={s.homeDescription}
+  updated={updated}
+  alternates={hubAlternates("/")}
+  jsonLd={[{ "@type": "WebSite", name: site.name, url: site.url, inLanguage: lang }, organization()]}
+>
+  <Container>
+    <aside data-pagefind-ignore>
+      <h1 class="animate text-2xl font-semibold text-black dark:text-white">{s.heroTitle}</h1>
+      <div class="mt-6 space-y-16">
+        <p class="animate">{s.heroText}</p>
+        {
+          categories.length > 0 && (
+            <section class="animate space-y-3">
+              <h2 class="font-semibold text-black dark:text-white">{s.categories}</h2>
+              <div class="flex flex-wrap gap-2">
+                {categories.map((c) => <Chip href={url.category(c.slug, lang)}>{c.names[lang]}</Chip>)}
+              </div>
+            </section>
+          )
+        }
+        <section class="animate space-y-6">
+          <div class="flex flex-wrap items-center justify-between gap-y-2">
+            <h2 class="font-semibold text-black dark:text-white">{s.latest}</h2>
+            <Link href={url.blog(lang)}>{s.seeAll}</Link>
+          </div>
+          {
+            posts.length ? (
+              <ul class="not-prose flex flex-col gap-4">
+                {posts.slice(0, 8).map((p) => <li><ArrowCard entry={p} /></li>)}
+              </ul>
+            ) : (
+              <p>{s.noPosts}</p>
+            )
+          }
+        </section>
+      </div>
+    </aside>
+  </Container>
+</Layout>

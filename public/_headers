@@ -1,0 +1,9 @@
+# Response headers for every file, applied by Cloudflare static assets.
+# HSTS: browsers use HTTPS for safetyfirst.site for a year after a visit.
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable

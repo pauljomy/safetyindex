@@ -1,0 +1,10 @@
+---
+import PostView from "../../views/PostView.astro";
+import { getPosts } from "../../lib/content";
+import { stripLang } from "../../i18n/ui";
+export async function getStaticPaths() {
+  return (await getPosts("en")).map((post) => ({ params: { slug: stripLang(post.id) }, props: { post } }));
+}
+const { post } = Astro.props;
+---
+<PostView {post} />

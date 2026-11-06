@@ -1,0 +1,5 @@
+---
+// One <script type="application/ld+json"> per node, each with its own @context.
+const { data } = Astro.props as { data: Record<string, unknown> };
+---
+<script type="application/ld+json" set:html={JSON.stringify({ "@context": "https://schema.org", ...data })} />
