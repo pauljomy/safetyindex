@@ -9,6 +9,7 @@ import "@fontsource/geist-sans/700.css";
 import "@fontsource/geist-mono/400.css";
 import "@fontsource/geist-mono/500.css";
 import "@fontsource/geist-mono/600.css";
+import geistLatin400 from "@fontsource/geist-sans/files/geist-sans-latin-400-normal.woff2?url";
 import { site } from "../config/site.mjs";
 import { defaultLang, langOf, meta, type Lang } from "../i18n/ui";
 import { isoDate } from "../lib/dates";
@@ -46,6 +47,8 @@ if (description.length > 155) throw new Error(`Description over 155 chars on ${p
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+<!-- Geist Sans, regular Latin: preloaded so body text renders in it without a fallback flash. -->
+<link rel="preload" href={geistLatin400} as="font" type="font/woff2" crossorigin />
 <link rel="icon" href="/favicon.ico" sizes="48x48" />
 <link rel="icon" href="/icon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/icon-180.png" />
