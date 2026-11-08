@@ -1,6 +1,6 @@
 {
-  "nextDue": "2026-11-08T03:37:44.912Z",
-  "failures": 1,
+  "nextDue": "2026-11-08T13:25:45.559Z",
+  "failures": 2,
   "history": [
     {
       "at": "2026-11-06T17:26:26.756Z",
@@ -11,7 +11,7 @@
   ],
   "lastPublished": "2026-11-06T17:26:26.756Z",
   "lastError": {
-    "at": "2026-11-08T00:37:44.912Z",
-    "message": "Vertex AI 403: Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/conform-blog-513213/locations/global/publishers/google/models/gemini-3.1-flash-lite-image' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter/summary;errorId=CiQwMWExYjg5Ni1mYjUzLTc2NWMtOTYyYS1jNDU5ZWNjMzNjODkSYnByb2plY3RzL2NvbmZvcm0tYmxvZy01MTMyMTMvbG9jYXRpb25zL2dsb2JhbC"
+    "at": "2026-11-08T07:25:45.559Z",
+    "message": "Command failed: npm run build"
   }
 }
