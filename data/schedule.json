@@ -1,15 +1,22 @@
 {
-  "nextDue": "2026-11-09T03:17:01.480Z",
-  "failures": 3,
+  "nextDue": "2026-11-10T11:38:01.461Z",
+  "failures": 0,
   "history": [
     {
       "at": "2026-11-06T17:26:26.756Z",
       "slug": "what-does-ppe-stand-for",
       "title": "What Does PPE Stand For? Personal Protective Equipment Explained, With Types and Examples",
       "nextGapHours": 29.18
+    },
+    {
+      "at": "2026-11-09T06:38:01.461Z",
+      "slug": "safety-signals-signs-symbols-colours",
+      "title": "Safety Signals: How to Read Workplace Safety Signs, Symbols and Colours (OSHA)",
+      "nextGapHours": 29,
+      "apiUsd": 0.82
     }
   ],
-  "lastPublished": "2026-11-06T17:26:26.756Z",
+  "lastPublished": "2026-11-09T06:38:01.461Z",
   "lastError": {
     "at": "2026-11-08T15:17:01.480Z",
     "message": "Command failed: npm run build"
