@@ -5,7 +5,7 @@
 export const site = {
   name: "Safety Index",
   /** Production URL, no trailing slash. Override with the SITE_URL env var. */
-  url: (process.env.SITE_URL ?? "https://safetyindex.blog").replace(/\/$/, ""),
+  url: (process.env.SITE_URL?.trim() || "https://safetyindex.blog").replace(/\/$/, ""),
   /** Shown on /contact and in the Organization schema. */
   contactEmail: "hello@safetyindex.blog",
   /** The date About, Privacy and Terms were last reviewed (also used for their sitemap lastmod). */
