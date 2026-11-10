@@ -1,5 +1,5 @@
 {
-  "nextDue": "2026-11-10T11:38:01.461Z",
+  "nextDue": "2026-11-12T01:55:30.468Z",
   "failures": 0,
   "history": [
     {
@@ -14,9 +14,16 @@
       "title": "Safety Signals: How to Read Workplace Safety Signs, Symbols and Colours (OSHA)",
       "nextGapHours": 29,
       "apiUsd": 0.82
+    },
+    {
+      "at": "2026-11-10T17:01:30.468Z",
+      "slug": "hard-hat-types-and-classes",
+      "title": "Hard Hat Types and Classes: What OSHA Actually Requires",
+      "nextGapHours": 32.9,
+      "apiUsd": 0.73
     }
   ],
-  "lastPublished": "2026-11-09T06:38:01.461Z",
+  "lastPublished": "2026-11-10T17:01:30.468Z",
   "lastError": {
     "at": "2026-11-08T15:17:01.480Z",
     "message": "Command failed: npm run build"
