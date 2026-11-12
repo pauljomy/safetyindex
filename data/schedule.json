@@ -1,5 +1,5 @@
 {
-  "nextDue": "2026-11-12T01:55:30.468Z",
+  "nextDue": "2026-11-13T10:46:29.401Z",
   "failures": 0,
   "history": [
     {
@@ -21,9 +21,16 @@
       "title": "Hard Hat Types and Classes: What OSHA Actually Requires",
       "nextGapHours": 32.9,
       "apiUsd": 0.73
+    },
+    {
+      "at": "2026-11-12T03:04:29.401Z",
+      "slug": "what-does-osha-stand-for",
+      "title": "What Does OSHA Stand For? Meaning, Mission and What It Does",
+      "nextGapHours": 31.7,
+      "apiUsd": 0.89
     }
   ],
-  "lastPublished": "2026-11-10T17:01:30.468Z",
+  "lastPublished": "2026-11-12T03:04:29.401Z",
   "lastError": {
     "at": "2026-11-08T15:17:01.480Z",
     "message": "Command failed: npm run build"
