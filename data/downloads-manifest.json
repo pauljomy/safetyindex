@@ -1,5 +1,15 @@
 {
   "checklists": {
+    "fr/casque-de-chantier": {
+      "hash": "6b73beb5ebb0535bfa9101f584cd1e5231a33fb455d7b3358fd56a41ee52ae85",
+      "lang": "fr",
+      "paper": "a4",
+      "pages": 2,
+      "items": 11,
+      "page_url": "https://safetyindex.blog/fr/blog/casque-de-chantier",
+      "pdf": "/downloads/fr/casque-de-chantier.pdf",
+      "xlsx": "/downloads/fr/casque-de-chantier.xlsx"
+    },
     "us/safety-glasses-z87-osha-requirements": {
       "hash": "1768ade2fd0731424a4fe718c8e75811123c58196765fd5b0d5ec40abb508962",
       "lang": "en",

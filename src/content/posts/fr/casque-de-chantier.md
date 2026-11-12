@@ -1,150 +1,200 @@
 ---
-topicType: regional
-keywordSource: topic sheet
-noindex: true
-title: "Casque de chantier : normes, port obligatoire et points à vérifier en France"
-seoTitle: "Casque de chantier : normes, port obligatoire, contrôles"
-subtitle: Les repères pour choisir et contrôler un casque de chantier, ce que cette page ne peut pas confirmer, et la règle américaine OSHA en comparaison.
-description: "Casque de chantier en France : normes EN à connaître, points à vérifier sur site, et repère de comparaison avec la règle américaine OSHA 1926.100."
+title: "Casque de chantier : quelle norme et quelles obligations ?"
+seoTitle: "Casque de chantier : norme, port et obligations"
+subtitle: Normes citées par l'INRS, obligations de l'employeur, intérimaires, casque isolant, durée de vie et contrôle avant usage, d'après le Code du travail.
+description: "Casque de chantier : normes NF EN 397 et NF EN 50365 citées par l'INRS, qui le fournit, quand le remplacer, d'après le Code du travail."
 date: 2026-11-10
-coverImage: ../images/hard-hat-types-and-classes.webp
-coverAlt: Ouvrier casqué vu de dos sur un chantier avec charpente métallique
+updated: 2026-11-12
+generatedOn: 2026-11-12
+releaseDate: 2026-11-12
+dataAsOf: 2026-11-12
+cover: hard-hat-types-and-classes
+coverPrompt: A construction site where workers wear safety helmets with their chin straps fastened, one worker inspecting the inside harness of a helmet before putting it on, with scaffolding and a concrete structure in the background.
+coverAlt: Ouvriers casqués sur un chantier, l'un vérifiant le harnais intérieur de son casque avant de le porter
 categories:
   - ppe
 tags:
   - casque de chantier
-  - protection de la tête
   - EPI
   - normes EN
-  - évaluation des risques
-keyword: casque de chantier
+  - BTP
+  - risque électrique
+keyword: casque de chantier norme
 translationOf: hard-hat-types-and-classes
-summary: "Cette page n'a pas pu s'appuyer sur des sources françaises téléchargées : elle ne cite donc ni article du Code du travail ni contenu de norme EN. Elle indique comment vérifier un casque de chantier en France (évaluation des risques, marquage, notice) et le compare à la règle américaine OSHA 1926.100."
+topicType: regional
+keywordSource: OpenSEO
+clusterVolume: 4740
+kd: 46
+goNoGo: "Skip: 6 of 10 are videos or shop pages (products (retailer product pages and catalogue PDFs) with a few buying guides; top 10: 3 guides, 1 lists, 6 products)"
+checkPass: passed
+localRule: En France, l'article R4321-4 du Code du travail impose à l'employeur de mettre à disposition, en tant que de besoin, les EPI appropriés et de veiller à leur utilisation effective, et l'article R4323-95 exige qu'ils soient fournis gratuitement par l'employeur.
+checklist: fr/casque-de-chantier
+linkPhrases:
+  - casque de chantier
+  - norme casque de chantier
+  - casque isolant
+summary: En France, l'employeur met le casque de chantier à disposition en tant que de besoin, le fournit gratuitement et veille à son utilisation effective (Code du travail, R4321-4 et R4323-95). Pour le risque électrique, l'INRS cite un casque isolant jusqu'à 1 000 V certifié NF EN 50365 et NF EN 397. Remplacez-le s'il est périmé ou détérioré.
 keyTakeaways:
-  - "Aucun extrait de source française n'a pu être consulté pour ce guide : pour le port obligatoire, les normes EN et la durée de vie, référez-vous à l'INRS, à l'OPPBTP, à la CARSAT ou à l'inspection du travail."
-  - Les « types I/II » et « classes G/E/C » sont un vocabulaire américain (ANSI Z89.1) ; ne les cherchez pas sur un casque marqué à la française.
-  - Aux États-Unis, la règle fédérale OSHA 1926.100 exige une protection de la tête conforme à ANSI Z89.1-2009, -2003 ou -1997, et ne fixe ni jugulaire, ni durée de vie, ni fréquence d'inspection.
-  - "Pour un travail sur ou près d'une installation sous tension, ne vous fiez pas à la description d'un revendeur : exigez la documentation du fabricant pour le modèle exact."
-  - Un casque se choisit à partir de l'évaluation des risques de l'entreprise (DUERP) et de la notice du fabricant.
+  - L'employeur met le casque à disposition en tant que de besoin et veille à son utilisation effective (Code du travail, art. R4321-4).
+  - Le casque est gratuit pour le salarié ; entretiens, réparations et remplacements sont à la charge de l'employeur (art. R4323-95).
+  - Pour le risque électrique, l'INRS cite un casque isolant jusqu'à 1 000 V et antichoc, certifié NF EN 50365 et NF EN 397.
+  - "Aucune durée de vie en années dans les sources officielles : remplacez le casque à la date de péremption fixée par le fabricant ou dès qu'il est détérioré."
 faq:
-  - question: Le casque de chantier est-il obligatoire ?
-    answer: "Le port dépend des risques identifiés par l'employeur dans son évaluation des risques (DUERP) et, sur un chantier, dans les documents de prévention. Les extraits de textes français n'ont pas pu être téléchargés pour ce guide : pour les articles précis du Code du travail, consultez l'INRS, l'OPPBTP ou l'inspection du travail."
-  - question: Quelle est la différence entre un casque de chantier et une casquette anti-heurt ?
-    answer: "Les deux appellations renvoient à des normes européennes distinctes, EN 397 pour le casque de protection pour l'industrie et EN 812 pour la casquette anti-heurt. Le contenu exact de ces normes n'a pas pu être vérifié ici : lisez le marquage, la notice du fabricant et les fiches de l'INRS avant de remplacer l'un par l'autre. Une casquette ne se substitue pas à un casque sans validation de l'évaluation des risques."
-  - question: Quelle durée de vie pour un casque de chantier ?
-    answer: Aucune source française n'a pu être consultée ici pour une durée légale. À titre de comparaison, la règle américaine OSHA 1926.100 ne fixe ni durée de vie ni intervalle de remplacement et renvoie aux instructions du fabricant. En pratique, reportez-vous à la notice et au marquage de votre modèle, et retirez tout casque endommagé.
-  - question: Un casque ventilé convient-il à un électricien ?
-    answer: Le texte américain OSHA 1926.100 ne parle pas des casques ventilés ; il exige simplement que la protection contre les chocs électriques à haute tension satisfaise à la section 9.7 d'ANSI Z89.1. En France, vérifiez la documentation du fabricant pour le modèle exact et l'usage prévu (par exemple la mention de la norme EN 50365 pour un casque isolant) et demandez conseil à l'INRS ou à votre préventeur. Une affirmation de revendeur ne suffit pas.
-  - question: La jugulaire est-elle obligatoire sur un casque de chantier ?
-    answer: "Le texte américain OSHA 1926.100 n'impose pas de jugulaire. Pour la France, aucun extrait local n'a pu être consulté : suivez la notice du fabricant et les consignes issues de votre évaluation des risques, notamment pour le travail en hauteur."
-  - question: Les types et classes américains existent-ils sur les casques en France ?
-    answer: Non, le vocabulaire « type I/II » et « classe G/E/C » vient de la norme américaine ANSI Z89.1. Il ne faut pas le présenter comme équivalent à un marquage EN sans lire les normes ou les documents du fabricant. En cas de doute, demandez à l'INRS, à la CARSAT ou à l'OPPBTP.
+  - question: Un salarié doit-il acheter lui-même son casque de chantier ?
+    answer: Non. Selon l'article R4323-95 du Code du travail, les EPI sont fournis gratuitement par l'employeur. Le coût d'un nouveau casque, quand l'ancien est périmé ou abîmé, reste aussi à sa charge.
+  - question: Qui fournit le casque de chantier d'un intérimaire ?
+    answer: La règle générale, rappelée par l'INRS, est que l'entreprise utilisatrice fournit les EPI. Une convention ou un accord collectif peut confier certains EPI personnalisés, dont le casque, à l'entreprise de travail temporaire. L'article R4323-95 réserve ce cas en renvoyant à l'article L1251-23.
+  - question: Un casque de chantier a-t-il une date de péremption ?
+    answer: "Oui : la notice du fabricant indique une date ou un délai de péremption. L'INRS cite le casque de protection comme exemple d'EPI dont les performances baissent avec l'âge. Les sources officielles consultées ne fixent aucune durée commune à tous les modèles."
+  - question: Un casque de chantier ventilé convient-il à un électricien ?
+    answer: Les pages INRS consultées ne parlent pas des modèles ventilés. Pour le risque électrique, elles décrivent un casque isolant jusqu'à 1 000 V doublement certifié NF EN 50365 et NF EN 397. Si le marquage et la notice ne mentionnent pas cette certification, rien ne montre que le modèle protège contre ce risque.
+  - question: Le marquage CE suffit-il pour choisir un casque de protection ?
+    answer: Non. Un EPI conforme à une norme porte un marquage normatif en plus du marquage réglementaire CE. Le choix tient aussi compte de l'importance du risque, de la fréquence d'exposition et des caractéristiques du poste. L'INRS conseille aussi de faire essayer les EPI par le personnel avant de faire un choix définitif.
 sources:
-  - title: 1926.100 - Head protection. | Occupational Safety and Health Administration (en anglais)
-    url: https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.100
-  - title: "eCFR :: 29 CFR 1926.100 -- Head protection. (en anglais)"
-    url: https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-E/section-1926.100
-  - title: 1926 Subpart E - Personal Protective and Life Saving Equipment | Occupational Safety and Health Administration (en anglais)
-    url: https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartE
-  - title: 1926 | Occupational Safety and Health Administration (en anglais)
-    url: https://www.osha.gov/laws-regs/regulations/standardnumber/1926
+  - title: Comment choisir un casque de protection ? - Actualité - INRS
+    url: https://www.inrs.fr/actualites/casques-protection-ed993.html
+  - title: R4321-4 - Code du travail numérique
+    url: https://code.travail.gouv.fr/code-du-travail/r4321-4
+  - title: R4323-95 - Code du travail numérique
+    url: https://code.travail.gouv.fr/code-du-travail/r4323-95
+  - title: Risques électriques. Prévention du risque électrique - Risques - INRS
+    url: https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html
+  - title: Protection individuelle. Ce qu'il faut retenir - Mettre en oeuvre la prévention - INRS
+    url: https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html
 relatedPosts:
   - what-does-ppe-stand-for
+topicN: 3
+changes:
+  - date: 2026-11-12
+    kind: rewrite
+    share: 1
+    note: rewritten from local sources
 ---
 
-Le casque de chantier est un équipement de protection individuelle (EPI) de la tête. Son choix et son port se décident à partir de l'évaluation des risques de l'entreprise (document unique, DUERP) et de la notice du fabricant.
+Pour un casque de chantier, la norme à vérifier dépend des risques du poste. Les articles du Code du travail sur les EPI cités ici ne nomment aucune norme. Ils imposent à l'employeur de mettre à disposition, en tant que de besoin, les équipements de protection individuelle appropriés et de veiller à leur utilisation effective ([Code du travail, article R4321-4](https://code.travail.gouv.fr/code-du-travail/r4321-4)). Pour les opérations exposant au risque électrique, l'INRS cite un casque isolant (jusqu'à 1 000 V) et antichoc certifié selon les normes NF EN 50365 et NF EN 397 ([INRS, prévention du risque électrique](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html)).
 
-Une limite à connaître avant de lire la suite : pour ce guide, aucune page officielle française (Code du travail, INRS, OPPBTP) n'a pu être téléchargée et vérifiée. Nous ne citons donc ni article du Code du travail, ni contenu précis de norme EN, ni durée de vie chiffrée. La seule règle détaillée ici est américaine (OSHA), présentée comme comparaison. Pour votre site, la référence reste l'INRS, l'OPPBTP, la CARSAT ou l'inspection du travail.
+Ce guide repose sur des pages de l'INRS et du Code du travail numérique. Elles ne reproduisent pas le contenu des normes EN : vous n'y trouverez ni les essais ni les valeurs propres à chaque norme. Pour ces détails, reportez-vous à la [brochure INRS sur le choix des casques de protection](https://www.inrs.fr/actualites/casques-protection-ed993.html) et à la notice de votre modèle.
 
-## Casque de chantier : ce que cette page peut et ne peut pas confirmer
-
-| Question | Réponse dans ce guide | Source |
+| Question | Réponse | Source |
 |---|---|---|
-| Port obligatoire en France ? | Non vérifié ici : se décide à partir de l'évaluation des risques ; articles précis à confirmer auprès de l'INRS, de l'OPPBTP ou de l'inspection du travail | Aucune source française téléchargée |
-| Contenu des normes EN 397, EN 14052, EN 12492, EN 50365, EN 812 | Non vérifié ici : lisez la norme ou la fiche INRS | Aucune source française téléchargée |
-| Règle américaine (comparaison) | Protection de la tête conforme à ANSI Z89.1-2009, -2003 ou -1997 | [29 CFR 1926.100 (en anglais)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-E/section-1926.100) |
-| Durée de vie, jugulaire, fréquence d'inspection aux États-Unis | Non fixées par le texte OSHA ; instructions du fabricant | [29 CFR 1926.100 (en anglais)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-E/section-1926.100) |
+| Qui doit fournir le casque ? | L'employeur, selon les besoins ; il veille aussi à ce qu'il soit réellement porté | [R4321-4](https://code.travail.gouv.fr/code-du-travail/r4321-4) |
+| Le salarié paie-t-il ? | Non : EPI fournis gratuitement, entretiens, réparations et remplacements assurés par l'employeur | [R4323-95](https://code.travail.gouv.fr/code-du-travail/r4323-95) |
+| Quelle norme pour le risque électrique ? | Casque isolant et antichoc, double certification NF EN 50365 / NF EN 397, isolation jusqu'à 1 000 V | [INRS](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html) |
+| Quand le remplacer ? | Date de péremption atteinte, ou casque détérioré dont la réparation ne garantit pas le niveau de protection | [INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html) |
+| Durée de vie en années ? | Aucune durée chiffrée : la notice fixe une date ou un délai de péremption | [INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html) |
+| Intérimaire ? | Entreprise utilisatrice ; l'agence peut fournir les casques personnalisés si une convention ou un accord collectif le prévoit | [INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html) |
 
-Pour la définition générale d'un EPI et les règles communes, voyez notre article [Que veut dire EPI ?](/fr/blog/que-veut-dire-epi). Ici, on se concentre sur la protection de la tête.
+## Quelle norme pour un casque de chantier ?
 
-## Casque de chantier obligatoire : quand le port du casque est-il obligatoire sur un chantier ?
+La norme d'un casque se lit dans son marquage et dans sa notice d'instructions. Ces deux éléments sont imposés au fabricant par les règles de mise sur le marché des EPI ([INRS, protection individuelle](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)). Avant leur commercialisation, les EPI sont évalués sur la base de normes qui fixent des méthodes d'essai et des exigences de performance.
 
-Le port se justifie lorsque l'évaluation des risques met en évidence un danger pour la tête : chute d'objets, heurt contre une structure, projection, contact électrique. Sur un chantier, ces risques sont à repérer avec le coordonnateur SPS et dans le PPSPS ou le plan de prévention selon la situation.
+### NF EN 397 et NF EN 50365 : les références citées par l'INRS
 
-Les articles du Code du travail qui fixent l'obligation pour les chantiers du bâtiment et du génie civil n'ont pas pu être vérifiés pour ce guide. Ne vous fiez pas à un article cité sans lien officiel : demandez le texte à votre préventeur, à l'OPPBTP ou à l'inspection du travail.
+Selon l'INRS, le casque isolant et antichoc protège en cas de chute d'objet, de choc à la tête ou de projection de particules en fusion. Il est certifié selon ces deux normes, avec une isolation jusqu'à 1 000 V ([INRS](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html)). Un EPI contre les risques électriques relève de la catégorie III, celle du risque mortel au sens du règlement (UE) 2016/425.
 
-## Casque de chantier : norme EN 397 et autres normes, comment s'y retrouver ?
+La tension maximale d'emploi d'un EPI isolant est signalée par une classe, et chaque type d'EPI peut avoir des classes différentes. Lisez donc la classe inscrite sur le casque lui-même. Ne la déduisez pas de celle de vos gants ou de vos chaussures isolants.
 
-En France, on rencontre plusieurs appellations : casque de chantier, casque de sécurité, casque de protection pour l'industrie. Elles se rattachent à des normes européennes, que l'on retrouve dans les recherches des professionnels :
+### Niveau de performance et protection réelle au poste
 
-- EN 397 : casque de protection pour l'industrie ;
-- EN 14052 : casque de protection à haute performance ;
-- EN 12492 : casque d'alpiniste, utilisé pour des travaux en hauteur ;
-- EN 50365 : casque électriquement isolant ;
-- EN 812 : casquette anti-heurt.
+Le niveau de performance obtenu en essai ne garantit pas le même niveau de protection au poste. Les essais normalisés ne peuvent pas prendre en compte toutes les conditions d'utilisation rencontrées en situation de travail ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)). Pour tout autre modèle que le casque isolant décrit ci-dessus, vérifiez dans la brochure INRS et dans la notice qu'il couvre les risques relevés à votre poste.
 
-Cette liste reprend les désignations courantes ; leur contenu (essais, marquages facultatifs, tensions, usages) n'a pas pu être vérifié dans une source primaire pour ce guide. Ne tirez donc aucune conclusion d'équivalence entre normes sans lire la norme ou la fiche INRS correspondante. Le marquage CE et la notice d'utilisation du fabricant sont les premiers documents à consulter pour un modèle donné.
+## Le casque de chantier est-il obligatoire ?
 
-## Types I et II, classes G, E et C : un vocabulaire américain
+Le port du casque s'impose dès que l'évaluation des risques montre qu'il faut protéger la tête et que la protection collective ne suffit pas. L'INRS rappelle l'ordre à suivre. D'abord, identifier et évaluer les risques. Ensuite, donner la priorité à la protection collective. Enfin, mettre à disposition les EPI appropriés si celle-ci est insuffisante ou impossible à mettre en œuvre ([INRS, protection individuelle](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)). L'article R4321-4 ajoute que l'employeur veille à leur utilisation effective.
 
-Les mots « type » et « classe » appartiennent à la norme américaine ANSI Z89.1 (casques de protection industriels). Le texte de la règle fédérale américaine [29 CFR 1926.100 (en anglais)](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.100) ne les emploie même pas : il renvoie seulement à la conformité avec la norme. Sur un casque marqué à la française, cherchez plutôt la référence EN et les marquages du fabricant.
+Concrètement, l'employeur :
 
-Méfiez-vous des pages de revendeurs annonçant une obligation de « type 2 » ou une échéance réglementaire. Aucune source officielle ne le confirme ici.
+1. détermine, après consultation des représentants du personnel, les conditions de mise à disposition et d'utilisation des EPI, notamment leur durée de port ;
+2. rédige une consigne d'utilisation au poste, reprise dans le règlement intérieur ;
+3. peut poser une signalisation d'obligation de port, à l'endroit que justifie l'évaluation des risques (voir les [panneaux de signalisation de sécurité au travail](/fr/blog/panneaux-de-signalisation-de-securite-au-travail)).
 
-## Comparaison : ce que dit la règle américaine OSHA 1926.100
+Pour la définition et les règles générales des EPI, voir [que veut dire EPI](/fr/blog/que-veut-dire-epi).
 
-Ce qui suit est une règle américaine (OSHA, construction fédérale), à ne pas confondre avec le droit français.
+### Port du casque obligatoire en démolition : quel texte ?
 
-1. **Paragraphe (a)** : les employés exposés à un danger possible de blessure à la tête par choc, chute ou projection d'objets, ou choc électrique et brûlures doivent être protégés par des casques de protection.
-2. **Paragraphe (b)(1)** : l'employeur fournit une protection de la tête conforme à ANSI Z89.1-2009, Z89.1-2003 ou Z89.1-1997.
-3. **Paragraphe (b)(2)** : pour les employés exposés à un choc électrique à haute tension et à des brûlures, la protection doit aussi satisfaire à la section 9.7 (isolation électrique) d'une de ces éditions.
-4. **Paragraphe (b)(3)** : un équipement que l'employeur démontre au moins aussi efficace est réputé conforme.
+Certains textes imposent des EPI déterminés pour des situations précises. L'INRS cite l'exemple de l'amiante (arrêté du 7 mars 2013). Les sources utilisées ici ne contiennent aucune disposition propre à la démolition. Pour ces travaux, vérifiez le texte applicable auprès de l'INRS. Même lorsqu'un texte impose un EPI, l'employeur doit toujours évaluer les risques de chaque situation de travail ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)).
 
-Texte consultable sur [le site de l'OSHA (en anglais)](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.100) et sur [l'eCFR (en anglais)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-E/section-1926.100). L'eCFR indique une dernière modification en 2012 (77 FR 37600 du 22/06/2012 ; 77 FR 42988 du 23/07/2012) et aucun changement après le 01/03/2017.
+## Qui fournit le casque de chantier, y compris pour un intérimaire ?
 
-Le texte ne mentionne ni « type II », ni jugulaire, ni durée de remplacement, ni fréquence d'inspection.
+L'employeur fournit le casque gratuitement. Il assure son bon fonctionnement et son maintien dans un état hygiénique satisfaisant par les entretiens, réparations et remplacements nécessaires ([Code du travail, article R4323-95](https://code.travail.gouv.fr/code-du-travail/r4323-95)). Le même article précise qu'il ne fait pas obstacle aux conditions de fourniture prévues par l'article L1251-23 pour les salariés temporaires.
 
-## Quelle différence entre casque de chantier et casquette anti-heurt ?
+### Le cas des intérimaires
 
-Dans le vocabulaire courant en France, la casquette anti-heurt (EN 812) et le casque de chantier (EN 397) ne relèvent pas de la même norme. Les sources américaines consultées ne traitent pas des casquettes anti-heurt, et aucune source française n'a pu être téléchargée pour détailler ce que chacune protège.
+Pour un intérimaire, les EPI sont fournis par l'entreprise utilisatrice. Certains EPI personnalisés, notamment les casques et les chaussures, définis par voie de convention ou d'accord collectif, peuvent toutefois être fournis par l'entreprise de travail temporaire ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)). Vérifiez ce que prévoit l'accord applicable avant le début de la mission.
 
-Retenez un principe de prudence : un équipement n'est pas démontré adapté parce qu'il porte un nom qui ressemble à celui d'un casque. Vérifiez la norme indiquée sur le produit et ce que la fiche INRS ou la notice du fabricant dit de ses usages. Si votre évaluation des risques relève un danger de chute d'objets, ne remplacez pas un casque par une casquette sans l'avis de votre préventeur.
+### Les casques prêtés aux visiteurs
 
-## Casque de chantier ventilé ou isolant pour électricien : que vérifier ?
+Un EPI est en principe réservé à un usage personnel. L'INRS admet que les casques fournis aux visiteurs d'un chantier servent à plusieurs personnes dans deux cas. Soit ils sont nettoyés entre deux utilisateurs, soit chacun porte une charlotte d'hygiène jetable sous le casque ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)).
 
-Le texte américain ne parle pas des casques ventilés. Il demande seulement que la protection pour une exposition à un choc électrique à haute tension satisfasse à la section 9.7 d'ANSI Z89.1. L'enjeu est donc de savoir si le modèle précis est documenté pour l'usage électrique.
+## Que vérifier dans le marquage CE et la notice d'un casque de protection ?
 
-En France, pour un électricien, la norme EN 50365 est celle qu'on associe au casque électriquement isolant. Comme aucune tension ni condition d'emploi n'a pu être vérifiée dans une source primaire ici, n'en déduisez aucune limite : demandez la documentation du fabricant pour le modèle exact, y compris pour une version ventilée, et rapprochez-la des consignes de votre habilitation électrique et de l'évaluation des risques. Les discours de revendeurs ne remplacent pas cette documentation.
+Un casque conforme à une norme porte un marquage normatif en plus du marquage réglementaire CE ([INRS](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html)). La notice complète ce marquage. Selon l'INRS, elle contient notamment :
 
-## Casque de chantier : jugulaire
+- les classes de protection adaptées aux différents niveaux de risque, avec leurs limites d'utilisation ;
+- les instructions de stockage, d'emploi, de nettoyage, d'entretien, de révision et de désinfection ;
+- la date ou le délai de péremption ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)).
 
-Aux États-Unis, le texte OSHA n'exige pas de jugulaire. Pour la France, aucun extrait n'a pu être consulté. La jugulaire se décide donc au cas par cas, à partir de la notice du fabricant et de l'évaluation des risques : travail en hauteur, risque de perte du casque, ou usage prévu par le fabricant.
+Pour un EPI contre le risque électrique, deux points s'ajoutent ([INRS](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html)) :
 
-## Casque de chantier : durée de vie et contrôle
+- le fabricant indique dans sa notice, le cas échéant, la nature et la périodicité des essais (notamment diélectriques) à réaliser pendant la durée de vie ;
+- l'EPI comporte, à l'extérieur de l'enveloppe protectrice, un espace réservé au marquage de la date de mise en service et des essais ou contrôles périodiques.
 
-Le texte américain ne fixe ni durée de vie ni fréquence d'inspection et renvoie aux instructions du fabricant. En France, aucune durée légale n'a pu être vérifiée ici, et les tableaux de durée de vie trouvés chez des revendeurs ne sont pas des sources primaires.
+### Jugulaire et travail en hauteur
 
-Ce que vous pouvez faire sans risque d'erreur :
+Les sources utilisées ici ne fixent pas de règle sur la jugulaire. Son emploi découle donc des conditions d'utilisation et des limites d'usage données par la notice, et de votre évaluation des risques du poste. Pour le travail en hauteur, l'INRS traite à part les trois systèmes de protection individuelle contre les chutes : arrêt de chute, retenue et maintien au poste de travail ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)).
 
-- consulter la notice et le marquage de votre modèle (dont la date de fabrication si elle y figure) ;
-- retirer du service un casque choqué, fissuré ou endommagé ;
-- conserver la notice avec vos documents EPI ;
-- demander à l'INRS ou à la CARSAT les recommandations applicables à votre matériau et à votre usage.
+## Quel casque pour un électricien : isolant ou ventilé ?
 
-Pour la partie formation, les normes de construction américaines listent des sections séparées sur la formation à la sécurité (1926.21) et sur les EPI (1926.28), dont seuls les titres sont visibles dans la page [1926 de l'OSHA (en anglais)](https://www.osha.gov/laws-regs/regulations/standardnumber/1926). Le cadre français de l'information et de la formation à l'usage des EPI est à confirmer auprès de votre préventeur.
+Un électricien exposé au risque électrique a besoin d'un casque dont le marquage et la notice documentent l'isolation, comme le casque isolant décrit plus haut. Les pages INRS consultées ne parlent pas des casques ventilés. Un modèle ventilé sans cette certification n'est donc pas documenté comme isolant.
 
-## Exemple : équiper une équipe mixte
+Le casque n'intervient qu'en dernier recours. L'article R4544-4 prescrit que le risque d'origine électrique soit supprimé ou, à défaut, réduit autant que possible. Les travaux se font en priorité hors tension, et la procédure de consignation est définie dans la norme NF C 18-510 ([INRS](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html)). La protection individuelle n'est envisageable que si les autres mesures et la protection collective ne suffisent pas.
 
-Exemple, avec la règle américaine uniquement : un entrepreneur américain a une équipe sur un chantier et deux salariés qui peuvent être exposés à un choc électrique à haute tension. Selon 1926.100, tous doivent avoir une protection conforme à ANSI Z89.1-2009, -2003 ou -1997 ; les deux salariés exposés doivent avoir un casque qui satisfait aussi à la section 9.7 d'une de ces éditions. L'entrepreneur demande la documentation du fabricant pour ces modèles.
+### Habilitation et choix du casque
 
-Pour une équipe en France, la démarche est la même dans l'esprit : distinguer les expositions dans l'évaluation des risques, puis demander au fabricant la documentation qui correspond à l'usage prévu. Les références de normes et obligations à retenir sont à confirmer auprès de l'INRS ou de l'OPPBTP.
+Toute personne qui réalise une opération sur un matériel ou une installation électrique doit être formée et habilitée par son employeur. L'INRS précise qu'il n'existe pas de lien direct entre symbole d'habilitation et EPI. C'est l'analyse des opérations qui guide le choix, selon les critères ci-dessous.
 
-## Que vérifier dans votre entreprise ou sur votre chantier ?
+| Critère | Ce qu'il recouvre selon l'INRS |
+|---|---|
+| Importance du risque | Domaine de tension, énergie |
+| Exposition | Fréquence et durée d'exposition, distance d'éloignement |
+| Poste de travail | Ses caractéristiques |
+| Performances de l'EPI | Classe, protection contre le contact direct et contre l'arc flash |
 
-- Vérifiez dans votre DUERP et, sur chantier, dans le PPSPS ou le plan de prévention, quels risques pour la tête sont identifiés.
-- Relevez sur chaque casque le marquage CE, la référence de norme EN et la date de fabrication si elle figure, et gardez la notice du fabricant.
-- Pour un travail sur ou près d'installations sous tension, demandez la documentation du modèle exact et rapprochez-la de l'habilitation électrique des intéressés.
-- Ne remplacez pas un casque par une casquette anti-heurt sans validation de l'évaluation des risques.
-- Décidez de la jugulaire d'après la notice et les conditions de travail, notamment en hauteur.
-- Retirez tout casque endommagé et définissez avec le fabricant les règles de remplacement.
-- Pour les articles précis du Code du travail et les normes à jour, demandez à votre service de prévention, à l'INRS, à l'OPPBTP, à votre CARSAT ou à l'inspection du travail.
+Le degré d'isolation doit correspondre aux tensions auxquelles le porteur peut être exposé, évaluées dans les conditions prévisibles les plus défavorables.
+
+## Quelle durée de vie pour un casque de chantier ?
+
+Les sources officielles consultées ne donnent aucune durée en années. C'est le fabricant qui indique, dans sa notice, une date ou un délai de péremption. L'INRS range le casque de protection parmi les EPI dont les performances s'altèrent avec le vieillissement : il faut le remplacer dès que cette date est atteinte. Un casque détérioré, pour quelque motif que ce soit, est remplacé si sa réparation ne peut garantir le maintien du niveau de protection ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)).
+
+### Le contrôle avant chaque utilisation
+
+La consigne d'utilisation prévoit qu'avant chaque usage, le travailleur contrôle le bon état de ses EPI. Elle liste les indicateurs de détérioration : usure de composants, décoloration, trou ou déchirure. Un EPI qui n'est plus en bon état est mis au rebut ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)).
+
+## Faut-il former les salariés au port du casque ?
+
+Oui : l'employeur organise l'information des salariés qui portent un casque de protection, puis la complète par une formation adéquate au port de cet EPI. Cette formation comporte si besoin un entraînement au port et est renouvelée aussi souvent que nécessaire ([INRS](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html)). Pour les EPI contre le risque électrique, l'INRS juge nécessaire une formation pratique pour apprendre à les ajuster, à les porter correctement et à en prendre soin. Chaque salarié doit connaître les risques couverts, les conditions d'utilisation et les consignes de stockage et d'entretien ([INRS](https://www.inrs.fr/risques/electriques/prevention-risque-electrique.html)).
+
+Avant de faire un choix définitif, l'INRS conseille une période d'essai par le personnel. Elle sert à vérifier que les EPI ne causent ni inconfort, ni gêne, ni difficultés de port. Les réticences au port peuvent par exemple tenir à des questions d'ordre esthétique. Le médecin du travail peut aussi relayer la sensibilisation.
+
+## Exemple : comment équiper une équipe mixte sur un chantier ?
+
+Par exemple, une entreprise de second œuvre intervient sur un chantier. Elle y emploie une équipe exposée aux chutes d'objets, un électricien qui doit intervenir à proximité d'une installation sous tension, des intérimaires et reçoit des visiteurs ponctuels. Les sources ci-dessus conduisent à la démarche suivante :
+
+1. L'analyse du chantier montre que les protections collectives ne suppriment pas le risque de chute d'objets. L'employeur fournit donc gratuitement un casque à chaque salarié concerné (R4321-4, R4323-95).
+2. Pour l'électricien, l'opération est d'abord étudiée hors tension, avec consignation (R4544-4, NF C 18-510). Si l'exposition subsiste, l'employeur retient un casque portant la double certification citée par l'INRS. Il vérifie que sa classe convient aux tensions en jeu, dans la limite de 1 000 V.
+3. Pour les intérimaires, l'entreprise utilisatrice fournit les casques, sauf si un accord collectif confie les casques personnalisés à l'agence.
+4. Les casques des visiteurs sont nettoyés après chaque passage, ou portés avec une charlotte jetable.
+5. Chaque casque est contrôlé avant usage et retiré à sa date de péremption.
+
+## Que vérifier sur votre chantier ?
+
+Sur votre chantier, partez de l'évaluation des risques et de la notice de chaque modèle de casque. Contrôlez ensuite les points suivants :
+
+- Reprenez votre évaluation des risques poste par poste : chute d'objets, choc à la tête, projection de particules en fusion, risque électrique.
+- Pour chaque modèle, contrôlez le marquage CE, le marquage normatif et la notice. Pour le risque électrique, vérifiez aussi la double certification et la classe.
+- Vérifiez que les casques sont fournis sans frais et que leur entretien et leur remplacement sont prévus (R4323-95).
+- Pour les intérimaires, relisez l'accord collectif applicable afin de savoir qui fournit le casque.
+- Rédigez ou mettez à jour la consigne d'utilisation et intégrez-la au règlement intérieur.
+- Vérifiez les dates de péremption. Pour les casques isolants, vérifiez aussi les dates de mise en service et d'essais inscrites dans l'espace prévu.
+- Consultez les représentants du personnel sur les conditions et la durée de port.
+- En cas de doute, appuyez-vous sur l'INRS : sa brochure sur les casques et sa [brochure ED 6077 sur les règles d'utilisation des EPI](https://www.inrs.fr/demarche/protection-individuelle/ce-qu-il-faut-retenir.html). Le médecin du travail peut aussi vous aider à sensibiliser les salariés au port des EPI.

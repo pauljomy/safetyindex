@@ -1,0 +1,107 @@
+{
+  "slug": "casque-de-chantier",
+  "market": "fr",
+  "lang": "fr",
+  "paper": "a4",
+  "page_url": "https://safetyindex.blog/fr/blog/casque-de-chantier",
+  "doc_ref": "SI-FR-3",
+  "revision": "Rev 1",
+  "data_as_of": "12 novembre 2026",
+  "title": "Contrôle des casques de chantier",
+  "subtitle": "Choix, mise à disposition, état et remplacement des casques de protection, d'après le Code du travail et l'INRS",
+  "regulation_line": "Code du travail, articles R4321-4 et R4323-95 (Code du travail numérique)",
+  "info_fields": [
+    [
+      "Date",
+      "Poste"
+    ],
+    [
+      "Vérificateur",
+      "Zone / équipement"
+    ]
+  ],
+  "instructions": [
+    "Vérifiez chaque point pour chaque modèle de casque utilisé sur le chantier, avec la notice du fabricant à portée de main.",
+    "Mettez au rebut tout casque qui n'est plus en bon état ou dont la date de péremption est atteinte ; pour un point d'organisation non conforme, mettez à jour la consigne ou les conditions de mise à disposition."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Choix et norme",
+      "items": [
+        [
+          "Besoin de protection de la tête identifié",
+          "Risques de chute d'objet, de choc à la tête, de projection de particules en fusion ou électrique relevés par poste ; protection collective étudiée en premier"
+        ],
+        [
+          "Marquage du modèle",
+          "Marquage CE et marquage normatif présents, cohérents avec la notice d'instructions"
+        ],
+        [
+          "Casque pour opérations exposant au risque électrique",
+          "Casque isolant et antichoc certifié NF EN 50365 et NF EN 397 ; classe adaptée aux tensions auxquelles le porteur peut être exposé"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Mise à disposition",
+      "items": [
+        [
+          "Gratuité et entretien",
+          "Casques fournis sans frais ; entretiens, réparations et remplacements pris en charge par l'employeur",
+          "Code du travail, art. R4323-95"
+        ],
+        [
+          "Intérimaires",
+          "Casque fourni par l'entreprise utilisatrice, ou par l'entreprise de travail temporaire si une convention ou un accord collectif le prévoit",
+          "Code du travail, art. R4323-95 et L1251-23"
+        ],
+        [
+          "Casques prêtés aux visiteurs",
+          "Nettoyés entre deux utilisateurs, ou portés avec une charlotte d'hygiène jetable"
+        ],
+        [
+          "Consigne d'utilisation",
+          "Consigne au poste établie à partir de la notice et reprise dans le règlement intérieur ; représentants du personnel consultés sur les conditions de port"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "État et remplacement",
+      "items": [
+        [
+          "Contrôle avant chaque utilisation",
+          "Pas d'usure des composants, de décoloration, de trou ni de déchirure ; casque mis au rebut s'il n'est plus en bon état"
+        ],
+        [
+          "Date de péremption",
+          "Date ou délai de péremption indiqué par le fabricant non dépassé"
+        ],
+        [
+          "Casque isolant : dates et essais",
+          "Date de mise en service et dates des essais ou contrôles périodiques inscrites dans l'espace prévu ; essais réalisés selon la notice"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Information et formation",
+      "items": [
+        [
+          "Formation des porteurs",
+          "Salariés informés des risques couverts et entraînés à l'ajustement, au stockage et à l'entretien ; formation renouvelée si nécessaire"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "Code du travail, articles R4321-4 et R4323-95 (Code du travail numérique)",
+    "INRS : Protection individuelle, ce qu'il faut retenir ; Prévention du risque électrique",
+    "Notice d'instructions du fabricant de chaque modèle de casque"
+  ],
+  "disclaimer": "Informations générales, pas un conseil juridique. Vérifiez le texte en vigueur et les consignes de votre entreprise.",
+  "site": "safetyindex.blog"
+}
