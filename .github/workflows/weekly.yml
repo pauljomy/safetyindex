@@ -101,6 +101,9 @@ jobs:
         id: build
         run: npm run build
 
+      - name: Download checks (PDF page counts, Excel formula errors, items match the page)
+        run: npm run downloads:verify -- --sample 0
+
       - name: Lighthouse
         id: lighthouse
         env:
