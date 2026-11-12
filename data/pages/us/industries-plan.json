@@ -1,0 +1,5153 @@
+{
+ "planned": "2026-11-12",
+ "thresholds": {
+  "inspections": 200,
+  "standards": 10,
+  "volume": 50,
+  "kd_under": 15
+ },
+ "distribution": {
+  "naics4": 320,
+  "inspections": 199,
+  "standards": 151,
+  "write": 151,
+  "waitingKd": 0,
+  "lowVolume": 0
+ },
+ "pages": [
+  {
+   "naics": "2381",
+   "title": "Foundation, Structure, and Building Exterior Contractors",
+   "inspections": 68723,
+   "slug": "2381-foundation-structure-building-exterior-contractors",
+   "phrases": [
+    "osha regulations for foundation structure building exterior contractors",
+    "foundation structure building exterior contractors safety",
+    "foundation structure building exterior contractors osha"
+   ],
+   "keyword": "osha regulations for foundation structure building exterior contractors",
+   "cluster": [
+    {
+     "keyword": "osha regulations for foundation structure building exterior contractors",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "foundation structure building exterior contractors safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "foundation structure building exterior contractors osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2362",
+   "title": "Nonresidential Building Construction",
+   "inspections": 20120,
+   "slug": "2362-nonresidential-building-construction",
+   "phrases": [
+    "osha regulations for nonresidential building construction",
+    "nonresidential building construction safety",
+    "nonresidential building construction osha"
+   ],
+   "keyword": "osha regulations for nonresidential building construction",
+   "cluster": [
+    {
+     "keyword": "osha regulations for nonresidential building construction",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nonresidential building construction safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nonresidential building construction osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2361",
+   "title": "Residential Building Construction",
+   "inspections": 17511,
+   "slug": "2361-residential-building-construction",
+   "phrases": [
+    "osha regulations for residential building construction",
+    "residential building construction safety",
+    "residential building construction osha"
+   ],
+   "keyword": "osha regulations for residential building construction",
+   "cluster": [
+    {
+     "keyword": "osha regulations for residential building construction",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "residential building construction safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "residential building construction osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2382",
+   "title": "Building Equipment Contractors",
+   "inspections": 13152,
+   "slug": "2382-building-equipment-contractors",
+   "phrases": [
+    "osha regulations for building equipment contractors",
+    "building equipment contractors safety",
+    "building equipment contractors osha"
+   ],
+   "keyword": "osha regulations for building equipment contractors",
+   "cluster": [
+    {
+     "keyword": "osha regulations for building equipment contractors",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "building equipment contractors safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "building equipment contractors osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2389",
+   "title": "Other Specialty Trade Contractors",
+   "inspections": 9560,
+   "slug": "2389-other-specialty-trade-contractors",
+   "phrases": [
+    "osha regulations for specialty trade contractors",
+    "specialty trade contractors safety",
+    "specialty trade contractors osha"
+   ],
+   "keyword": "osha regulations for specialty trade contractors",
+   "cluster": [
+    {
+     "keyword": "osha regulations for specialty trade contractors",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specialty trade contractors safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specialty trade contractors osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2383",
+   "title": "Building Finishing Contractors",
+   "inspections": 9202,
+   "slug": "2383-building-finishing-contractors",
+   "phrases": [
+    "osha regulations for building finishing contractors",
+    "building finishing contractors safety",
+    "building finishing contractors osha"
+   ],
+   "keyword": "osha regulations for building finishing contractors",
+   "cluster": [
+    {
+     "keyword": "osha regulations for building finishing contractors",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "building finishing contractors safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "building finishing contractors osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5617",
+   "title": "Services to Buildings and Dwellings",
+   "inspections": 6660,
+   "slug": "5617-services-to-buildings-dwellings",
+   "phrases": [
+    "osha regulations for services to buildings dwellings",
+    "services to buildings dwellings safety",
+    "services to buildings dwellings osha"
+   ],
+   "keyword": "osha regulations for services to buildings dwellings",
+   "cluster": [
+    {
+     "keyword": "osha regulations for services to buildings dwellings",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "services to buildings dwellings safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "services to buildings dwellings osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2371",
+   "title": "Utility System Construction",
+   "inspections": 6534,
+   "slug": "2371-utility-system-construction",
+   "phrases": [
+    "osha regulations for utility system construction",
+    "utility system construction safety",
+    "utility system construction osha"
+   ],
+   "keyword": "osha regulations for utility system construction",
+   "cluster": [
+    {
+     "keyword": "osha regulations for utility system construction",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "utility system construction safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "utility system construction osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "8111",
+   "title": "Automotive Repair and Maintenance",
+   "inspections": 6095,
+   "slug": "8111-automotive-repair-maintenance",
+   "phrases": [
+    "osha regulations for automotive repair maintenance",
+    "automotive repair maintenance safety",
+    "automotive repair maintenance osha"
+   ],
+   "keyword": "osha regulations for automotive repair maintenance",
+   "cluster": [
+    {
+     "keyword": "osha regulations for automotive repair maintenance",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automotive repair maintenance safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automotive repair maintenance osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4931",
+   "title": "Warehousing and Storage",
+   "inspections": 5920,
+   "slug": "4931-warehousing-storage",
+   "phrases": [
+    "osha regulations for warehousing storage",
+    "warehousing storage safety",
+    "warehousing storage osha"
+   ],
+   "keyword": "osha regulations for warehousing storage",
+   "cluster": [
+    {
+     "keyword": "osha regulations for warehousing storage",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "warehousing storage safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "warehousing storage osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2373",
+   "title": "Highway, Street, and Bridge Construction",
+   "inspections": 5753,
+   "slug": "2373-highway-street-bridge-construction",
+   "phrases": [
+    "osha regulations for highway street bridge construction",
+    "highway street bridge construction safety",
+    "highway street bridge construction osha"
+   ],
+   "keyword": "osha regulations for highway street bridge construction",
+   "cluster": [
+    {
+     "keyword": "osha regulations for highway street bridge construction",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "highway street bridge construction safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "highway street bridge construction osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9221",
+   "title": "Justice, Public Order, and Safety Activities",
+   "inspections": 5724,
+   "slug": "9221-justice-public-order-safety-activities",
+   "phrases": [
+    "osha regulations for justice public order safety activities",
+    "justice public order safety activities safety",
+    "justice public order safety activities osha"
+   ],
+   "keyword": "osha regulations for justice public order safety activities",
+   "cluster": [
+    {
+     "keyword": "osha regulations for justice public order safety activities",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "justice public order safety activities safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "justice public order safety activities osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3323",
+   "title": "Architectural and Structural Metals Manufacturing",
+   "inspections": 4836,
+   "slug": "3323-architectural-structural-metals-manufacturing",
+   "phrases": [
+    "osha regulations for architectural structural metals manufacturing",
+    "architectural structural metals manufacturing safety",
+    "architectural structural metals manufacturing osha"
+   ],
+   "keyword": "osha regulations for architectural structural metals manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for architectural structural metals manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "architectural structural metals manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "architectural structural metals manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "7225",
+   "title": "Restaurants and Other Eating Places",
+   "inspections": 4594,
+   "slug": "7225-restaurants-other-eating-places",
+   "phrases": [
+    "osha regulations for restaurants eating places",
+    "restaurants eating places safety",
+    "restaurants eating places osha"
+   ],
+   "keyword": "osha regulations for restaurants eating places",
+   "cluster": [
+    {
+     "keyword": "osha regulations for restaurants eating places",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "restaurants eating places safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "restaurants eating places osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3261",
+   "title": "Plastics Product Manufacturing",
+   "inspections": 3826,
+   "slug": "3261-plastics-product-manufacturing",
+   "phrases": [
+    "osha regulations for plastics product manufacturing",
+    "plastics product manufacturing safety",
+    "plastics product manufacturing osha"
+   ],
+   "keyword": "osha regulations for plastics product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for plastics product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "plastics product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "plastics product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4451",
+   "title": "Grocery and Convenience Retailers",
+   "inspections": 3511,
+   "slug": "4451-grocery-convenience-retailers",
+   "phrases": [
+    "osha regulations for grocery convenience retailers",
+    "grocery convenience retailers safety",
+    "grocery convenience retailers osha"
+   ],
+   "keyword": "osha regulations for grocery convenience retailers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for grocery convenience retailers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grocery convenience retailers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grocery convenience retailers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3219",
+   "title": "Other Wood Product Manufacturing",
+   "inspections": 3297,
+   "slug": "3219-other-wood-product-manufacturing",
+   "phrases": [
+    "osha regulations for wood product manufacturing",
+    "wood product manufacturing safety",
+    "wood product manufacturing osha"
+   ],
+   "keyword": "osha regulations for wood product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for wood product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "wood product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "wood product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5613",
+   "title": "Employment Services",
+   "inspections": 3229,
+   "slug": "5613-employment-services",
+   "phrases": [
+    "osha regulations for employment services",
+    "employment services safety",
+    "employment services osha"
+   ],
+   "keyword": "osha regulations for employment services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for employment services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "employment services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "employment services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9211",
+   "title": "Executive, Legislative, and Other General Government Support",
+   "inspections": 3193,
+   "slug": "9211-executive-legislative-other-general-government-support",
+   "phrases": [
+    "osha regulations for executive legislative general government support",
+    "executive legislative general government support safety",
+    "executive legislative general government support osha"
+   ],
+   "keyword": "osha regulations for executive legislative general government support",
+   "cluster": [
+    {
+     "keyword": "osha regulations for executive legislative general government support",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "executive legislative general government support safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "executive legislative general government support osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "7211",
+   "title": "Traveler Accommodation",
+   "inspections": 3072,
+   "slug": "7211-traveler-accommodation",
+   "phrases": [
+    "osha regulations for traveler accommodation",
+    "traveler accommodation safety",
+    "traveler accommodation osha"
+   ],
+   "keyword": "osha regulations for traveler accommodation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for traveler accommodation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "traveler accommodation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "traveler accommodation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3327",
+   "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing",
+   "inspections": 3048,
+   "slug": "3327-machine-shops-turned-product-screw-nut",
+   "phrases": [
+    "osha regulations for machine shops turned product screw nut bolt manufacturing",
+    "machine shops turned product screw nut bolt manufacturing safety",
+    "machine shops turned product screw nut bolt manufacturing osha"
+   ],
+   "keyword": "osha regulations for machine shops turned product screw nut bolt manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for machine shops turned product screw nut bolt manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "machine shops turned product screw nut bolt manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "machine shops turned product screw nut bolt manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6111",
+   "title": "Elementary and Secondary Schools",
+   "inspections": 2965,
+   "slug": "6111-elementary-secondary-schools",
+   "phrases": [
+    "osha regulations for elementary secondary schools",
+    "elementary secondary schools safety",
+    "elementary secondary schools osha"
+   ],
+   "keyword": "osha regulations for elementary secondary schools",
+   "cluster": [
+    {
+     "keyword": "osha regulations for elementary secondary schools",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "elementary secondary schools safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "elementary secondary schools osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3329",
+   "title": "Other Fabricated Metal Product Manufacturing",
+   "inspections": 2674,
+   "slug": "3329-other-fabricated-metal-product-manufacturing",
+   "phrases": [
+    "osha regulations for fabricated metal product manufacturing",
+    "fabricated metal product manufacturing safety",
+    "fabricated metal product manufacturing osha"
+   ],
+   "keyword": "osha regulations for fabricated metal product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for fabricated metal product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fabricated metal product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fabricated metal product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2213",
+   "title": "Water, Sewage and Other Systems",
+   "inspections": 2573,
+   "slug": "2213-water-sewage-other-systems",
+   "phrases": [
+    "osha regulations for water sewage systems",
+    "water sewage systems safety",
+    "water sewage systems osha"
+   ],
+   "keyword": "osha regulations for water sewage systems",
+   "cluster": [
+    {
+     "keyword": "osha regulations for water sewage systems",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "water sewage systems safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "water sewage systems osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6221",
+   "title": "General Medical and Surgical Hospitals",
+   "inspections": 2492,
+   "slug": "6221-general-medical-surgical-hospitals",
+   "phrases": [
+    "osha regulations for general medical surgical hospitals",
+    "general medical surgical hospitals safety",
+    "general medical surgical hospitals osha"
+   ],
+   "keyword": "osha regulations for general medical surgical hospitals",
+   "cluster": [
+    {
+     "keyword": "osha regulations for general medical surgical hospitals",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general medical surgical hospitals safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general medical surgical hospitals osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4244",
+   "title": "Grocery and Related Product Merchant Wholesalers",
+   "inspections": 2417,
+   "slug": "4244-grocery-related-product-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for grocery related product merchant wholesalers",
+    "grocery related product merchant wholesalers safety",
+    "grocery related product merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for grocery related product merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for grocery related product merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grocery related product merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grocery related product merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5629",
+   "title": "Remediation and Other Waste Management Services",
+   "inspections": 2411,
+   "slug": "5629-remediation-other-waste-management-services",
+   "phrases": [
+    "osha regulations for remediation waste management services",
+    "remediation waste management services safety",
+    "remediation waste management services osha"
+   ],
+   "keyword": "osha regulations for remediation waste management services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for remediation waste management services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "remediation waste management services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "remediation waste management services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6231",
+   "title": "Nursing Care Facilities (Skilled Nursing Facilities)",
+   "inspections": 2183,
+   "slug": "6231-nursing-care-facilities-skilled-nursing-facilities",
+   "phrases": [
+    "osha regulations for nursing care facilities skilled nursing facilities",
+    "nursing care facilities skilled nursing facilities safety",
+    "nursing care facilities skilled nursing facilities osha"
+   ],
+   "keyword": "osha regulations for nursing care facilities skilled nursing facilities",
+   "cluster": [
+    {
+     "keyword": "osha regulations for nursing care facilities skilled nursing facilities",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nursing care facilities skilled nursing facilities safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nursing care facilities skilled nursing facilities osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3118",
+   "title": "Bakeries and Tortilla Manufacturing",
+   "inspections": 2096,
+   "slug": "3118-bakeries-tortilla-manufacturing",
+   "phrases": [
+    "osha regulations for bakeries tortilla manufacturing",
+    "bakeries tortilla manufacturing safety",
+    "bakeries tortilla manufacturing osha"
+   ],
+   "keyword": "osha regulations for bakeries tortilla manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for bakeries tortilla manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "bakeries tortilla manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "bakeries tortilla manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4441",
+   "title": "Building Material and Supplies Dealers",
+   "inspections": 2045,
+   "slug": "4441-building-material-supplies-dealers",
+   "phrases": [
+    "osha regulations for building material supplies dealers",
+    "building material supplies dealers safety",
+    "building material supplies dealers osha"
+   ],
+   "keyword": "osha regulations for building material supplies dealers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for building material supplies dealers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "building material supplies dealers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "building material supplies dealers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4841",
+   "title": "General Freight Trucking",
+   "inspections": 2007,
+   "slug": "4841-general-freight-trucking",
+   "phrases": [
+    "osha regulations for general freight trucking",
+    "general freight trucking safety",
+    "general freight trucking osha"
+   ],
+   "keyword": "osha regulations for general freight trucking",
+   "cluster": [
+    {
+     "keyword": "osha regulations for general freight trucking",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general freight trucking safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general freight trucking osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3119",
+   "title": "Other Food Manufacturing",
+   "inspections": 1946,
+   "slug": "3119-other-food-manufacturing",
+   "phrases": [
+    "osha regulations for food manufacturing",
+    "food manufacturing safety",
+    "food manufacturing osha"
+   ],
+   "keyword": "osha regulations for food manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for food manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "food manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "food manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "7139",
+   "title": "Other Amusement and Recreation Industries",
+   "inspections": 1878,
+   "slug": "7139-other-amusement-recreation-industries",
+   "phrases": [
+    "osha regulations for amusement recreation industries",
+    "amusement recreation industries safety",
+    "amusement recreation industries osha"
+   ],
+   "keyword": "osha regulations for amusement recreation industries",
+   "cluster": [
+    {
+     "keyword": "osha regulations for amusement recreation industries",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "amusement recreation industries safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "amusement recreation industries osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3279",
+   "title": "Other Nonmetallic Mineral Product Manufacturing",
+   "inspections": 1855,
+   "slug": "3279-other-nonmetallic-mineral-product-manufacturing",
+   "phrases": [
+    "osha regulations for nonmetallic mineral product manufacturing",
+    "nonmetallic mineral product manufacturing safety",
+    "nonmetallic mineral product manufacturing osha"
+   ],
+   "keyword": "osha regulations for nonmetallic mineral product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for nonmetallic mineral product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nonmetallic mineral product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nonmetallic mineral product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3116",
+   "title": "Animal Slaughtering and Processing",
+   "inspections": 1853,
+   "slug": "3116-animal-slaughtering-processing",
+   "phrases": [
+    "osha regulations for animal slaughtering processing",
+    "animal slaughtering processing safety",
+    "animal slaughtering processing osha"
+   ],
+   "keyword": "osha regulations for animal slaughtering processing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for animal slaughtering processing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "animal slaughtering processing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "animal slaughtering processing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3371",
+   "title": "Household and Institutional Furniture and Kitchen Cabinet Manufacturing",
+   "inspections": 1788,
+   "slug": "3371-household-institutional-furniture-kitchen-cabinet-manufacturing",
+   "phrases": [
+    "osha regulations for household institutional furniture kitchen cabinet manufacturing",
+    "household institutional furniture kitchen cabinet manufacturing safety",
+    "household institutional furniture kitchen cabinet manufacturing osha"
+   ],
+   "keyword": "osha regulations for household institutional furniture kitchen cabinet manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for household institutional furniture kitchen cabinet manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "household institutional furniture kitchen cabinet manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "household institutional furniture kitchen cabinet manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3273",
+   "title": "Cement and Concrete Product Manufacturing",
+   "inspections": 1766,
+   "slug": "3273-cement-concrete-product-manufacturing",
+   "phrases": [
+    "osha regulations for cement concrete product manufacturing",
+    "cement concrete product manufacturing safety",
+    "cement concrete product manufacturing osha"
+   ],
+   "keyword": "osha regulations for cement concrete product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for cement concrete product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "cement concrete product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "cement concrete product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3363",
+   "title": "Motor Vehicle Parts Manufacturing",
+   "inspections": 1754,
+   "slug": "3363-motor-vehicle-parts-manufacturing",
+   "phrases": [
+    "osha regulations for motor vehicle parts manufacturing",
+    "motor vehicle parts manufacturing safety",
+    "motor vehicle parts manufacturing osha"
+   ],
+   "keyword": "osha regulations for motor vehicle parts manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for motor vehicle parts manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle parts manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle parts manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6233",
+   "title": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly",
+   "inspections": 1738,
+   "slug": "6233-continuing-care-retirement-communities-assisted-living",
+   "phrases": [
+    "osha regulations for continuing care retirement communities assisted living facilities for the elderly",
+    "continuing care retirement communities assisted living facilities for the elderly safety",
+    "continuing care retirement communities assisted living facilities for the elderly osha"
+   ],
+   "keyword": "osha regulations for continuing care retirement communities assisted living facilities for the elderly",
+   "cluster": [
+    {
+     "keyword": "osha regulations for continuing care retirement communities assisted living facilities for the elderly",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "continuing care retirement communities assisted living facilities for the elderly safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "continuing care retirement communities assisted living facilities for the elderly osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3399",
+   "title": "Other Miscellaneous Manufacturing",
+   "inspections": 1669,
+   "slug": "3399-other-miscellaneous-manufacturing",
+   "phrases": [
+    "osha regulations for miscellaneous manufacturing",
+    "miscellaneous manufacturing safety",
+    "miscellaneous manufacturing osha"
+   ],
+   "keyword": "osha regulations for miscellaneous manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for miscellaneous manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "miscellaneous manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "miscellaneous manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4233",
+   "title": "Lumber and Other Construction Materials Merchant Wholesalers",
+   "inspections": 1632,
+   "slug": "4233-lumber-other-construction-materials-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for lumber construction materials merchant wholesalers",
+    "lumber construction materials merchant wholesalers safety",
+    "lumber construction materials merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for lumber construction materials merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for lumber construction materials merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lumber construction materials merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lumber construction materials merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2211",
+   "title": "Electric Power Generation, Transmission and Distribution",
+   "inspections": 1627,
+   "slug": "2211-electric-power-generation-transmission-distribution",
+   "phrases": [
+    "osha regulations for electric power generation transmission distribution",
+    "electric power generation transmission distribution safety",
+    "electric power generation transmission distribution osha"
+   ],
+   "keyword": "osha regulations for electric power generation transmission distribution",
+   "cluster": [
+    {
+     "keyword": "osha regulations for electric power generation transmission distribution",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electric power generation transmission distribution safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electric power generation transmission distribution osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4239",
+   "title": "Miscellaneous Durable Goods Merchant Wholesalers",
+   "inspections": 1613,
+   "slug": "4239-miscellaneous-durable-goods-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for miscellaneous durable goods merchant wholesalers",
+    "miscellaneous durable goods merchant wholesalers safety",
+    "miscellaneous durable goods merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for miscellaneous durable goods merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for miscellaneous durable goods merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "miscellaneous durable goods merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "miscellaneous durable goods merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2131",
+   "title": "Support Activities for Mining",
+   "inspections": 1606,
+   "slug": "2131-support-activities-for-mining",
+   "phrases": [
+    "osha regulations for support activities for mining",
+    "support activities for mining safety",
+    "support activities for mining osha"
+   ],
+   "keyword": "osha regulations for support activities for mining",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support activities for mining",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for mining safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for mining osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3328",
+   "title": "Coating, Engraving, Heat Treating, and Allied Activities",
+   "inspections": 1525,
+   "slug": "3328-coating-engraving-heat-treating-allied-activities",
+   "phrases": [
+    "osha regulations for coating engraving heat treating allied activities",
+    "coating engraving heat treating allied activities safety",
+    "coating engraving heat treating allied activities osha"
+   ],
+   "keyword": "osha regulations for coating engraving heat treating allied activities",
+   "cluster": [
+    {
+     "keyword": "osha regulations for coating engraving heat treating allied activities",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "coating engraving heat treating allied activities safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "coating engraving heat treating allied activities osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5413",
+   "title": "Architectural, Engineering, and Related Services",
+   "inspections": 1343,
+   "slug": "5413-architectural-engineering-related-services",
+   "phrases": [
+    "osha regulations for architectural engineering related services",
+    "architectural engineering related services safety",
+    "architectural engineering related services osha"
+   ],
+   "keyword": "osha regulations for architectural engineering related services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for architectural engineering related services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "architectural engineering related services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "architectural engineering related services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3339",
+   "title": "Other General Purpose Machinery Manufacturing",
+   "inspections": 1324,
+   "slug": "3339-other-general-purpose-machinery-manufacturing",
+   "phrases": [
+    "osha regulations for general purpose machinery manufacturing",
+    "general purpose machinery manufacturing safety",
+    "general purpose machinery manufacturing osha"
+   ],
+   "keyword": "osha regulations for general purpose machinery manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for general purpose machinery manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general purpose machinery manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general purpose machinery manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3222",
+   "title": "Converted Paper Product Manufacturing",
+   "inspections": 1311,
+   "slug": "3222-converted-paper-product-manufacturing",
+   "phrases": [
+    "osha regulations for converted paper product manufacturing",
+    "converted paper product manufacturing safety",
+    "converted paper product manufacturing osha"
+   ],
+   "keyword": "osha regulations for converted paper product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for converted paper product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "converted paper product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "converted paper product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4921",
+   "title": "Couriers and Express Delivery Services",
+   "inspections": 1295,
+   "slug": "4921-couriers-express-delivery-services",
+   "phrases": [
+    "osha regulations for couriers express delivery services",
+    "couriers express delivery services safety",
+    "couriers express delivery services osha"
+   ],
+   "keyword": "osha regulations for couriers express delivery services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for couriers express delivery services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "couriers express delivery services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "couriers express delivery services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2379",
+   "title": "Other Heavy and Civil Engineering Construction",
+   "inspections": 1255,
+   "slug": "2379-other-heavy-civil-engineering-construction",
+   "phrases": [
+    "osha regulations for heavy civil engineering construction",
+    "heavy civil engineering construction safety",
+    "heavy civil engineering construction osha"
+   ],
+   "keyword": "osha regulations for heavy civil engineering construction",
+   "cluster": [
+    {
+     "keyword": "osha regulations for heavy civil engineering construction",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "heavy civil engineering construction safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "heavy civil engineering construction osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5313",
+   "title": "Activities Related to Real Estate",
+   "inspections": 1227,
+   "slug": "5313-activities-related-to-real-estate",
+   "phrases": [
+    "osha regulations for activities related to real estate",
+    "activities related to real estate safety",
+    "activities related to real estate osha"
+   ],
+   "keyword": "osha regulations for activities related to real estate",
+   "cluster": [
+    {
+     "keyword": "osha regulations for activities related to real estate",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "activities related to real estate safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "activities related to real estate osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5621",
+   "title": "Waste Collection",
+   "inspections": 1225,
+   "slug": "5621-waste-collection",
+   "phrases": [
+    "osha regulations for waste collection",
+    "waste collection safety",
+    "waste collection osha"
+   ],
+   "keyword": "osha regulations for waste collection",
+   "cluster": [
+    {
+     "keyword": "osha regulations for waste collection",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "waste collection safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "waste collection osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3121",
+   "title": "Beverage Manufacturing",
+   "inspections": 1219,
+   "slug": "3121-beverage-manufacturing",
+   "phrases": [
+    "osha regulations for beverage manufacturing",
+    "beverage manufacturing safety",
+    "beverage manufacturing osha"
+   ],
+   "keyword": "osha regulations for beverage manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for beverage manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "beverage manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "beverage manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4411",
+   "title": "Automobile Dealers",
+   "inspections": 1193,
+   "slug": "4411-automobile-dealers",
+   "phrases": [
+    "osha regulations for automobile dealers",
+    "automobile dealers safety",
+    "automobile dealers osha"
+   ],
+   "keyword": "osha regulations for automobile dealers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for automobile dealers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automobile dealers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automobile dealers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4413",
+   "title": "Automotive Parts, Accessories, and Tire Retailers",
+   "inspections": 1193,
+   "slug": "4413-automotive-parts-accessories-tire-retailers",
+   "phrases": [
+    "osha regulations for automotive parts accessories tire retailers",
+    "automotive parts accessories tire retailers safety",
+    "automotive parts accessories tire retailers osha"
+   ],
+   "keyword": "osha regulations for automotive parts accessories tire retailers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for automotive parts accessories tire retailers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automotive parts accessories tire retailers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automotive parts accessories tire retailers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4238",
+   "title": "Machinery, Equipment, and Supplies Merchant Wholesalers",
+   "inspections": 1119,
+   "slug": "4238-machinery-equipment-supplies-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for machinery equipment supplies merchant wholesalers",
+    "machinery equipment supplies merchant wholesalers safety",
+    "machinery equipment supplies merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for machinery equipment supplies merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for machinery equipment supplies merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "machinery equipment supplies merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "machinery equipment supplies merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3315",
+   "title": "Foundries",
+   "inspections": 1118,
+   "slug": "3315-foundries",
+   "phrases": [
+    "osha regulations for foundries",
+    "foundries safety",
+    "foundries osha"
+   ],
+   "keyword": "osha regulations for foundries",
+   "cluster": [
+    {
+     "keyword": "osha regulations for foundries",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "foundries safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "foundries osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3211",
+   "title": "Sawmills and Wood Preservation",
+   "inspections": 1101,
+   "slug": "3211-sawmills-wood-preservation",
+   "phrases": [
+    "osha regulations for sawmills wood preservation",
+    "sawmills wood preservation safety",
+    "sawmills wood preservation osha"
+   ],
+   "keyword": "osha regulations for sawmills wood preservation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for sawmills wood preservation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sawmills wood preservation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sawmills wood preservation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3114",
+   "title": "Fruit and Vegetable Preserving and Specialty Food Manufacturing",
+   "inspections": 1091,
+   "slug": "3114-fruit-vegetable-preserving-specialty-food-manufacturing",
+   "phrases": [
+    "osha regulations for fruit vegetable preserving specialty food manufacturing",
+    "fruit vegetable preserving specialty food manufacturing safety",
+    "fruit vegetable preserving specialty food manufacturing osha"
+   ],
+   "keyword": "osha regulations for fruit vegetable preserving specialty food manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for fruit vegetable preserving specialty food manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fruit vegetable preserving specialty food manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fruit vegetable preserving specialty food manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3366",
+   "title": "Ship and Boat Building",
+   "inspections": 1055,
+   "slug": "3366-ship-boat-building",
+   "phrases": [
+    "osha regulations for ship boat building",
+    "ship boat building safety",
+    "ship boat building osha"
+   ],
+   "keyword": "osha regulations for ship boat building",
+   "cluster": [
+    {
+     "keyword": "osha regulations for ship boat building",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ship boat building safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ship boat building osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3231",
+   "title": "Printing and Related Support Activities",
+   "inspections": 1035,
+   "slug": "3231-printing-related-support-activities",
+   "phrases": [
+    "osha regulations for printing related support activities",
+    "printing related support activities safety",
+    "printing related support activities osha"
+   ],
+   "keyword": "osha regulations for printing related support activities",
+   "cluster": [
+    {
+     "keyword": "osha regulations for printing related support activities",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "printing related support activities safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "printing related support activities osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4911",
+   "title": "Postal Service",
+   "inspections": 1027,
+   "slug": "4911-postal-service",
+   "phrases": [
+    "osha regulations for postal service",
+    "postal service safety",
+    "postal service osha"
+   ],
+   "keyword": "osha regulations for postal service",
+   "cluster": [
+    {
+     "keyword": "osha regulations for postal service",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "postal service safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "postal service osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5311",
+   "title": "Lessors of Real Estate",
+   "inspections": 1009,
+   "slug": "5311-lessors-real-estate",
+   "phrases": [
+    "osha regulations for lessors of real estate",
+    "lessors of real estate safety",
+    "lessors of real estate osha"
+   ],
+   "keyword": "osha regulations for lessors of real estate",
+   "cluster": [
+    {
+     "keyword": "osha regulations for lessors of real estate",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lessors of real estate safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lessors of real estate osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "1114",
+   "title": "Greenhouse, Nursery, and Floriculture Production",
+   "inspections": 996,
+   "slug": "1114-greenhouse-nursery-floriculture-production",
+   "phrases": [
+    "osha regulations for greenhouse nursery floriculture production",
+    "greenhouse nursery floriculture production safety",
+    "greenhouse nursery floriculture production osha"
+   ],
+   "keyword": "osha regulations for greenhouse nursery floriculture production",
+   "cluster": [
+    {
+     "keyword": "osha regulations for greenhouse nursery floriculture production",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "greenhouse nursery floriculture production safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "greenhouse nursery floriculture production osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5612",
+   "title": "Facilities Support Services",
+   "inspections": 962,
+   "slug": "5612-facilities-support-services",
+   "phrases": [
+    "osha regulations for facilities support services",
+    "facilities support services safety",
+    "facilities support services osha"
+   ],
+   "keyword": "osha regulations for facilities support services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for facilities support services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "facilities support services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "facilities support services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "8113",
+   "title": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+   "inspections": 954,
+   "slug": "8113-commercial-industrial-machinery-equipment-except-automotive",
+   "phrases": [
+    "osha regulations for commercial industrial machinery equipment automotive electronic repair maintenance",
+    "commercial industrial machinery equipment automotive electronic repair maintenance safety",
+    "commercial industrial machinery equipment automotive electronic repair maintenance osha"
+   ],
+   "keyword": "osha regulations for commercial industrial machinery equipment automotive electronic repair maintenance",
+   "cluster": [
+    {
+     "keyword": "osha regulations for commercial industrial machinery equipment automotive electronic repair maintenance",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "commercial industrial machinery equipment automotive electronic repair maintenance safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "commercial industrial machinery equipment automotive electronic repair maintenance osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6113",
+   "title": "Colleges, Universities, and Professional Schools",
+   "inspections": 941,
+   "slug": "6113-colleges-universities-professional-schools",
+   "phrases": [
+    "osha regulations for colleges universities professional schools",
+    "colleges universities professional schools safety",
+    "colleges universities professional schools osha"
+   ],
+   "keyword": "osha regulations for colleges universities professional schools",
+   "cluster": [
+    {
+     "keyword": "osha regulations for colleges universities professional schools",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "colleges universities professional schools safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "colleges universities professional schools osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3335",
+   "title": "Metalworking Machinery Manufacturing",
+   "inspections": 905,
+   "slug": "3335-metalworking-machinery-manufacturing",
+   "phrases": [
+    "osha regulations for metalworking machinery manufacturing",
+    "metalworking machinery manufacturing safety",
+    "metalworking machinery manufacturing osha"
+   ],
+   "keyword": "osha regulations for metalworking machinery manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for metalworking machinery manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "metalworking machinery manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "metalworking machinery manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5416",
+   "title": "Management, Scientific, and Technical Consulting Services",
+   "inspections": 898,
+   "slug": "5416-management-scientific-technical-consulting-services",
+   "phrases": [
+    "osha regulations for management scientific technical consulting services",
+    "management scientific technical consulting services safety",
+    "management scientific technical consulting services osha"
+   ],
+   "keyword": "osha regulations for management scientific technical consulting services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for management scientific technical consulting services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "management scientific technical consulting services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "management scientific technical consulting services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "1119",
+   "title": "Other Crop Farming",
+   "inspections": 848,
+   "slug": "1119-other-crop-farming",
+   "phrases": [
+    "osha regulations for crop farming",
+    "crop farming safety",
+    "crop farming osha"
+   ],
+   "keyword": "osha regulations for crop farming",
+   "cluster": [
+    {
+     "keyword": "osha regulations for crop farming",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "crop farming safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "crop farming osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3362",
+   "title": "Motor Vehicle Body and Trailer Manufacturing",
+   "inspections": 848,
+   "slug": "3362-motor-vehicle-body-trailer-manufacturing",
+   "phrases": [
+    "osha regulations for motor vehicle body trailer manufacturing",
+    "motor vehicle body trailer manufacturing safety",
+    "motor vehicle body trailer manufacturing osha"
+   ],
+   "keyword": "osha regulations for motor vehicle body trailer manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for motor vehicle body trailer manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle body trailer manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle body trailer manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3115",
+   "title": "Dairy Product Manufacturing",
+   "inspections": 845,
+   "slug": "3115-dairy-product-manufacturing",
+   "phrases": [
+    "osha regulations for dairy product manufacturing",
+    "dairy product manufacturing safety",
+    "dairy product manufacturing osha"
+   ],
+   "keyword": "osha regulations for dairy product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for dairy product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "dairy product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "dairy product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9261",
+   "title": "Administration of Economic Programs",
+   "inspections": 839,
+   "slug": "9261-administration-economic-programs",
+   "phrases": [
+    "osha regulations for administration of economic programs",
+    "administration of economic programs safety",
+    "administration of economic programs osha"
+   ],
+   "keyword": "osha regulations for administration of economic programs",
+   "cluster": [
+    {
+     "keyword": "osha regulations for administration of economic programs",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of economic programs safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of economic programs osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6232",
+   "title": "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities",
+   "inspections": 835,
+   "slug": "6232-residential-intellectual-developmental-disability-mental-health",
+   "phrases": [
+    "osha regulations for residential intellectual developmental disability mental health substance abuse facilities",
+    "residential intellectual developmental disability mental health substance abuse facilities safety",
+    "residential intellectual developmental disability mental health substance abuse facilities osha"
+   ],
+   "keyword": "osha regulations for residential intellectual developmental disability mental health substance abuse facilities",
+   "cluster": [
+    {
+     "keyword": "osha regulations for residential intellectual developmental disability mental health substance abuse facilities",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "residential intellectual developmental disability mental health substance abuse facilities safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "residential intellectual developmental disability mental health substance abuse facilities osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4842",
+   "title": "Specialized Freight Trucking",
+   "inspections": 831,
+   "slug": "4842-specialized-freight-trucking",
+   "phrases": [
+    "osha regulations for specialized freight trucking",
+    "specialized freight trucking safety",
+    "specialized freight trucking osha"
+   ],
+   "keyword": "osha regulations for specialized freight trucking",
+   "cluster": [
+    {
+     "keyword": "osha regulations for specialized freight trucking",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specialized freight trucking safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specialized freight trucking osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5616",
+   "title": "Investigation and Security Services",
+   "inspections": 827,
+   "slug": "5616-investigation-security-services",
+   "phrases": [
+    "osha regulations for investigation security services",
+    "investigation security services safety",
+    "investigation security services osha"
+   ],
+   "keyword": "osha regulations for investigation security services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for investigation security services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "investigation security services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "investigation security services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3241",
+   "title": "Petroleum and Coal Products Manufacturing",
+   "inspections": 809,
+   "slug": "3241-petroleum-coal-products-manufacturing",
+   "phrases": [
+    "osha regulations for petroleum coal products manufacturing",
+    "petroleum coal products manufacturing safety",
+    "petroleum coal products manufacturing osha"
+   ],
+   "keyword": "osha regulations for petroleum coal products manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for petroleum coal products manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "petroleum coal products manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "petroleum coal products manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3321",
+   "title": "Forging and Stamping",
+   "inspections": 800,
+   "slug": "3321-forging-stamping",
+   "phrases": [
+    "osha regulations for forging stamping",
+    "forging stamping safety",
+    "forging stamping osha"
+   ],
+   "keyword": "osha regulations for forging stamping",
+   "cluster": [
+    {
+     "keyword": "osha regulations for forging stamping",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "forging stamping safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "forging stamping osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4249",
+   "title": "Miscellaneous Nondurable Goods Merchant Wholesalers",
+   "inspections": 794,
+   "slug": "4249-miscellaneous-nondurable-goods-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for miscellaneous nondurable goods merchant wholesalers",
+    "miscellaneous nondurable goods merchant wholesalers safety",
+    "miscellaneous nondurable goods merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for miscellaneous nondurable goods merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for miscellaneous nondurable goods merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "miscellaneous nondurable goods merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "miscellaneous nondurable goods merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3359",
+   "title": "Other Electrical Equipment and Component Manufacturing",
+   "inspections": 755,
+   "slug": "3359-other-electrical-equipment-component-manufacturing",
+   "phrases": [
+    "osha regulations for electrical equipment component manufacturing",
+    "electrical equipment component manufacturing safety",
+    "electrical equipment component manufacturing osha"
+   ],
+   "keyword": "osha regulations for electrical equipment component manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for electrical equipment component manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical equipment component manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical equipment component manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6211",
+   "title": "Offices of Physicians",
+   "inspections": 749,
+   "slug": "6211-offices-physicians",
+   "phrases": [
+    "osha regulations for offices of physicians",
+    "offices of physicians safety",
+    "offices of physicians osha"
+   ],
+   "keyword": "osha regulations for offices of physicians",
+   "cluster": [
+    {
+     "keyword": "osha regulations for offices of physicians",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "offices of physicians safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "offices of physicians osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5619",
+   "title": "Other Support Services",
+   "inspections": 740,
+   "slug": "5619-other-support-services",
+   "phrases": [
+    "osha regulations for support services",
+    "support services safety",
+    "support services osha"
+   ],
+   "keyword": "osha regulations for support services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4231",
+   "title": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers",
+   "inspections": 738,
+   "slug": "4231-motor-vehicle-motor-vehicle-parts-supplies",
+   "phrases": [
+    "osha regulations for motor vehicle motor vehicle parts supplies merchant wholesalers",
+    "motor vehicle motor vehicle parts supplies merchant wholesalers safety",
+    "motor vehicle motor vehicle parts supplies merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for motor vehicle motor vehicle parts supplies merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for motor vehicle motor vehicle parts supplies merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle motor vehicle parts supplies merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle motor vehicle parts supplies merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3331",
+   "title": "Agriculture, Construction, and Mining Machinery Manufacturing",
+   "inspections": 729,
+   "slug": "3331-agriculture-construction-mining-machinery-manufacturing",
+   "phrases": [
+    "osha regulations for agriculture construction mining machinery manufacturing",
+    "agriculture construction mining machinery manufacturing safety",
+    "agriculture construction mining machinery manufacturing osha"
+   ],
+   "keyword": "osha regulations for agriculture construction mining machinery manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for agriculture construction mining machinery manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "agriculture construction mining machinery manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "agriculture construction mining machinery manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3312",
+   "title": "Steel Product Manufacturing from Purchased Steel",
+   "inspections": 719,
+   "slug": "3312-steel-product-manufacturing-from-purchased-steel",
+   "phrases": [
+    "osha regulations for steel product manufacturing from purchased steel",
+    "steel product manufacturing from purchased steel safety",
+    "steel product manufacturing from purchased steel osha"
+   ],
+   "keyword": "osha regulations for steel product manufacturing from purchased steel",
+   "cluster": [
+    {
+     "keyword": "osha regulations for steel product manufacturing from purchased steel",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "steel product manufacturing from purchased steel safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "steel product manufacturing from purchased steel osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3364",
+   "title": "Aerospace Product and Parts Manufacturing",
+   "inspections": 678,
+   "slug": "3364-aerospace-product-parts-manufacturing",
+   "phrases": [
+    "osha regulations for aerospace product parts manufacturing",
+    "aerospace product parts manufacturing safety",
+    "aerospace product parts manufacturing osha"
+   ],
+   "keyword": "osha regulations for aerospace product parts manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for aerospace product parts manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "aerospace product parts manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "aerospace product parts manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3254",
+   "title": "Pharmaceutical and Medicine Manufacturing",
+   "inspections": 674,
+   "slug": "3254-pharmaceutical-medicine-manufacturing",
+   "phrases": [
+    "osha regulations for pharmaceutical medicine manufacturing",
+    "pharmaceutical medicine manufacturing safety",
+    "pharmaceutical medicine manufacturing osha"
+   ],
+   "keyword": "osha regulations for pharmaceutical medicine manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for pharmaceutical medicine manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "pharmaceutical medicine manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "pharmaceutical medicine manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3262",
+   "title": "Rubber Product Manufacturing",
+   "inspections": 668,
+   "slug": "3262-rubber-product-manufacturing",
+   "phrases": [
+    "osha regulations for rubber product manufacturing",
+    "rubber product manufacturing safety",
+    "rubber product manufacturing osha"
+   ],
+   "keyword": "osha regulations for rubber product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for rubber product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "rubber product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "rubber product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3251",
+   "title": "Basic Chemical Manufacturing",
+   "inspections": 664,
+   "slug": "3251-basic-chemical-manufacturing",
+   "phrases": [
+    "osha regulations for basic chemical manufacturing",
+    "basic chemical manufacturing safety",
+    "basic chemical manufacturing osha"
+   ],
+   "keyword": "osha regulations for basic chemical manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for basic chemical manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "basic chemical manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "basic chemical manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3372",
+   "title": "Office Furniture (including Fixtures) Manufacturing",
+   "inspections": 659,
+   "slug": "3372-office-furniture-including-fixtures-manufacturing",
+   "phrases": [
+    "osha regulations for office furniture including fixtures manufacturing",
+    "office furniture including fixtures manufacturing safety",
+    "office furniture including fixtures manufacturing osha"
+   ],
+   "keyword": "osha regulations for office furniture including fixtures manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for office furniture including fixtures manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "office furniture including fixtures manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "office furniture including fixtures manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9281",
+   "title": "National Security and International Affairs",
+   "inspections": 656,
+   "slug": "9281-national-security-international-affairs",
+   "phrases": [
+    "osha regulations for national security international affairs",
+    "national security international affairs safety",
+    "national security international affairs osha"
+   ],
+   "keyword": "osha regulations for national security international affairs",
+   "cluster": [
+    {
+     "keyword": "osha regulations for national security international affairs",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "national security international affairs safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "national security international affairs osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4883",
+   "title": "Support Activities for Water Transportation",
+   "inspections": 654,
+   "slug": "4883-support-activities-for-water-transportation",
+   "phrases": [
+    "osha regulations for support activities for water transportation",
+    "support activities for water transportation safety",
+    "support activities for water transportation osha"
+   ],
+   "keyword": "osha regulations for support activities for water transportation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support activities for water transportation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for water transportation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for water transportation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9241",
+   "title": "Administration of Environmental Quality Programs",
+   "inspections": 650,
+   "slug": "9241-administration-environmental-quality-programs",
+   "phrases": [
+    "osha regulations for administration of environmental quality programs",
+    "administration of environmental quality programs safety",
+    "administration of environmental quality programs osha"
+   ],
+   "keyword": "osha regulations for administration of environmental quality programs",
+   "cluster": [
+    {
+     "keyword": "osha regulations for administration of environmental quality programs",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of environmental quality programs safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of environmental quality programs osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "8123",
+   "title": "Drycleaning and Laundry Services",
+   "inspections": 647,
+   "slug": "8123-drycleaning-laundry-services",
+   "phrases": [
+    "osha regulations for drycleaning laundry services",
+    "drycleaning laundry services safety",
+    "drycleaning laundry services osha"
+   ],
+   "keyword": "osha regulations for drycleaning laundry services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for drycleaning laundry services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "drycleaning laundry services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "drycleaning laundry services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9231",
+   "title": "Administration of Human Resource Programs",
+   "inspections": 636,
+   "slug": "9231-administration-human-resource-programs",
+   "phrases": [
+    "osha regulations for administration of human resource programs",
+    "administration of human resource programs safety",
+    "administration of human resource programs osha"
+   ],
+   "keyword": "osha regulations for administration of human resource programs",
+   "cluster": [
+    {
+     "keyword": "osha regulations for administration of human resource programs",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of human resource programs safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of human resource programs osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5622",
+   "title": "Waste Treatment and Disposal",
+   "inspections": 622,
+   "slug": "5622-waste-treatment-disposal",
+   "phrases": [
+    "osha regulations for waste treatment disposal",
+    "waste treatment disposal safety",
+    "waste treatment disposal osha"
+   ],
+   "keyword": "osha regulations for waste treatment disposal",
+   "cluster": [
+    {
+     "keyword": "osha regulations for waste treatment disposal",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "waste treatment disposal safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "waste treatment disposal osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "7121",
+   "title": "Museums, Historical Sites, and Similar Institutions",
+   "inspections": 619,
+   "slug": "7121-museums-historical-sites-similar-institutions",
+   "phrases": [
+    "osha regulations for museums historical sites similar institutions",
+    "museums historical sites similar institutions safety",
+    "museums historical sites similar institutions osha"
+   ],
+   "keyword": "osha regulations for museums historical sites similar institutions",
+   "cluster": [
+    {
+     "keyword": "osha regulations for museums historical sites similar institutions",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "museums historical sites similar institutions safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "museums historical sites similar institutions osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3252",
+   "title": "Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing",
+   "inspections": 618,
+   "slug": "3252-resin-synthetic-rubber-artificial-synthetic-fibers",
+   "phrases": [
+    "osha regulations for resin synthetic rubber artificial synthetic fibers filaments manufacturing",
+    "resin synthetic rubber artificial synthetic fibers filaments manufacturing safety",
+    "resin synthetic rubber artificial synthetic fibers filaments manufacturing osha"
+   ],
+   "keyword": "osha regulations for resin synthetic rubber artificial synthetic fibers filaments manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for resin synthetic rubber artificial synthetic fibers filaments manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "resin synthetic rubber artificial synthetic fibers filaments manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "resin synthetic rubber artificial synthetic fibers filaments manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3259",
+   "title": "Other Chemical Product and Preparation Manufacturing",
+   "inspections": 616,
+   "slug": "3259-other-chemical-product-preparation-manufacturing",
+   "phrases": [
+    "osha regulations for chemical product preparation manufacturing",
+    "chemical product preparation manufacturing safety",
+    "chemical product preparation manufacturing osha"
+   ],
+   "keyword": "osha regulations for chemical product preparation manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for chemical product preparation manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "chemical product preparation manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "chemical product preparation manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3212",
+   "title": "Veneer, Plywood, and Engineered Wood Product Manufacturing",
+   "inspections": 608,
+   "slug": "3212-veneer-plywood-engineered-wood-product-manufacturing",
+   "phrases": [
+    "osha regulations for veneer plywood engineered wood product manufacturing",
+    "veneer plywood engineered wood product manufacturing safety",
+    "veneer plywood engineered wood product manufacturing osha"
+   ],
+   "keyword": "osha regulations for veneer plywood engineered wood product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for veneer plywood engineered wood product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "veneer plywood engineered wood product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "veneer plywood engineered wood product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3324",
+   "title": "Boiler, Tank, and Shipping Container Manufacturing",
+   "inspections": 606,
+   "slug": "3324-boiler-tank-shipping-container-manufacturing",
+   "phrases": [
+    "osha regulations for boiler tank shipping container manufacturing",
+    "boiler tank shipping container manufacturing safety",
+    "boiler tank shipping container manufacturing osha"
+   ],
+   "keyword": "osha regulations for boiler tank shipping container manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for boiler tank shipping container manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "boiler tank shipping container manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "boiler tank shipping container manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4881",
+   "title": "Support Activities for Air Transportation",
+   "inspections": 592,
+   "slug": "4881-support-activities-for-air-transportation",
+   "phrases": [
+    "osha regulations for support activities for air transportation",
+    "support activities for air transportation safety",
+    "support activities for air transportation osha"
+   ],
+   "keyword": "osha regulations for support activities for air transportation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support activities for air transportation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for air transportation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for air transportation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4851",
+   "title": "Urban Transit Systems",
+   "inspections": 584,
+   "slug": "4851-urban-transit-systems",
+   "phrases": [
+    "osha regulations for urban transit systems",
+    "urban transit systems safety",
+    "urban transit systems osha"
+   ],
+   "keyword": "osha regulations for urban transit systems",
+   "cluster": [
+    {
+     "keyword": "osha regulations for urban transit systems",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "urban transit systems safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "urban transit systems osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3361",
+   "title": "Motor Vehicle Manufacturing",
+   "inspections": 577,
+   "slug": "3361-motor-vehicle-manufacturing",
+   "phrases": [
+    "osha regulations for motor vehicle manufacturing",
+    "motor vehicle manufacturing safety",
+    "motor vehicle manufacturing osha"
+   ],
+   "keyword": "osha regulations for motor vehicle manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for motor vehicle manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3334",
+   "title": "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing",
+   "inspections": 574,
+   "slug": "3334-ventilation-heating-air-conditioning-commercial-refrigeration",
+   "phrases": [
+    "osha regulations for ventilation heating air conditioning commercial refrigeration equipment manufacturing",
+    "ventilation heating air conditioning commercial refrigeration equipment manufacturing safety",
+    "ventilation heating air conditioning commercial refrigeration equipment manufacturing osha"
+   ],
+   "keyword": "osha regulations for ventilation heating air conditioning commercial refrigeration equipment manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for ventilation heating air conditioning commercial refrigeration equipment manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ventilation heating air conditioning commercial refrigeration equipment manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ventilation heating air conditioning commercial refrigeration equipment manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4235",
+   "title": "Metal and Mineral (except Petroleum) Merchant Wholesalers",
+   "inspections": 574,
+   "slug": "4235-metal-mineral-except-petroleum-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for metal mineral petroleum merchant wholesalers",
+    "metal mineral petroleum merchant wholesalers safety",
+    "metal mineral petroleum merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for metal mineral petroleum merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for metal mineral petroleum merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "metal mineral petroleum merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "metal mineral petroleum merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4245",
+   "title": "Farm Product Raw Material Merchant Wholesalers",
+   "inspections": 557,
+   "slug": "4245-farm-product-raw-material-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for farm product raw material merchant wholesalers",
+    "farm product raw material merchant wholesalers safety",
+    "farm product raw material merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for farm product raw material merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for farm product raw material merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "farm product raw material merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "farm product raw material merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3332",
+   "title": "Industrial Machinery Manufacturing",
+   "inspections": 554,
+   "slug": "3332-industrial-machinery-manufacturing",
+   "phrases": [
+    "osha regulations for industrial machinery manufacturing",
+    "industrial machinery manufacturing safety",
+    "industrial machinery manufacturing osha"
+   ],
+   "keyword": "osha regulations for industrial machinery manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for industrial machinery manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "industrial machinery manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "industrial machinery manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5419",
+   "title": "Other Professional, Scientific, and Technical Services",
+   "inspections": 549,
+   "slug": "5419-other-professional-scientific-technical-services",
+   "phrases": [
+    "osha regulations for professional scientific technical services",
+    "professional scientific technical services safety",
+    "professional scientific technical services osha"
+   ],
+   "keyword": "osha regulations for professional scientific technical services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for professional scientific technical services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "professional scientific technical services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "professional scientific technical services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6241",
+   "title": "Individual and Family Services",
+   "inspections": 540,
+   "slug": "6241-individual-family-services",
+   "phrases": [
+    "osha regulations for individual family services",
+    "individual family services safety",
+    "individual family services osha"
+   ],
+   "keyword": "osha regulations for individual family services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for individual family services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "individual family services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "individual family services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3111",
+   "title": "Animal Food Manufacturing",
+   "inspections": 535,
+   "slug": "3111-animal-food-manufacturing",
+   "phrases": [
+    "osha regulations for animal food manufacturing",
+    "animal food manufacturing safety",
+    "animal food manufacturing osha"
+   ],
+   "keyword": "osha regulations for animal food manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for animal food manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "animal food manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "animal food manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3221",
+   "title": "Pulp, Paper, and Paperboard Mills",
+   "inspections": 509,
+   "slug": "3221-pulp-paper-paperboard-mills",
+   "phrases": [
+    "osha regulations for pulp paper paperboard mills",
+    "pulp paper paperboard mills safety",
+    "pulp paper paperboard mills osha"
+   ],
+   "keyword": "osha regulations for pulp paper paperboard mills",
+   "cluster": [
+    {
+     "keyword": "osha regulations for pulp paper paperboard mills",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "pulp paper paperboard mills safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "pulp paper paperboard mills osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "8129",
+   "title": "Other Personal Services",
+   "inspections": 488,
+   "slug": "8129-other-personal-services",
+   "phrases": [
+    "osha regulations for personal services",
+    "personal services safety",
+    "personal services osha"
+   ],
+   "keyword": "osha regulations for personal services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for personal services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6219",
+   "title": "Other Ambulatory Health Care Services",
+   "inspections": 482,
+   "slug": "6219-other-ambulatory-health-care-services",
+   "phrases": [
+    "osha regulations for ambulatory health care services",
+    "ambulatory health care services safety",
+    "ambulatory health care services osha"
+   ],
+   "keyword": "osha regulations for ambulatory health care services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for ambulatory health care services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ambulatory health care services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ambulatory health care services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3311",
+   "title": "Iron and Steel Mills and Ferroalloy Manufacturing",
+   "inspections": 476,
+   "slug": "3311-iron-steel-mills-ferroalloy-manufacturing",
+   "phrases": [
+    "osha regulations for iron steel mills ferroalloy manufacturing",
+    "iron steel mills ferroalloy manufacturing safety",
+    "iron steel mills ferroalloy manufacturing osha"
+   ],
+   "keyword": "osha regulations for iron steel mills ferroalloy manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for iron steel mills ferroalloy manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "iron steel mills ferroalloy manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "iron steel mills ferroalloy manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4237",
+   "title": "Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",
+   "inspections": 471,
+   "slug": "4237-hardware-plumbing-heating-equipment-supplies-merchant",
+   "phrases": [
+    "osha regulations for hardware plumbing heating equipment supplies merchant wholesalers",
+    "hardware plumbing heating equipment supplies merchant wholesalers safety",
+    "hardware plumbing heating equipment supplies merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for hardware plumbing heating equipment supplies merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for hardware plumbing heating equipment supplies merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hardware plumbing heating equipment supplies merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hardware plumbing heating equipment supplies merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3391",
+   "title": "Medical Equipment and Supplies Manufacturing",
+   "inspections": 469,
+   "slug": "3391-medical-equipment-supplies-manufacturing",
+   "phrases": [
+    "osha regulations for medical equipment supplies manufacturing",
+    "medical equipment supplies manufacturing safety",
+    "medical equipment supplies manufacturing osha"
+   ],
+   "keyword": "osha regulations for medical equipment supplies manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for medical equipment supplies manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "medical equipment supplies manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "medical equipment supplies manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3255",
+   "title": "Paint, Coating, and Adhesive Manufacturing",
+   "inspections": 468,
+   "slug": "3255-paint-coating-adhesive-manufacturing",
+   "phrases": [
+    "osha regulations for paint coating adhesive manufacturing",
+    "paint coating adhesive manufacturing safety",
+    "paint coating adhesive manufacturing osha"
+   ],
+   "keyword": "osha regulations for paint coating adhesive manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for paint coating adhesive manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "paint coating adhesive manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "paint coating adhesive manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3112",
+   "title": "Grain and Oilseed Milling",
+   "inspections": 463,
+   "slug": "3112-grain-oilseed-milling",
+   "phrases": [
+    "osha regulations for grain oilseed milling",
+    "grain oilseed milling safety",
+    "grain oilseed milling osha"
+   ],
+   "keyword": "osha regulations for grain oilseed milling",
+   "cluster": [
+    {
+     "keyword": "osha regulations for grain oilseed milling",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grain oilseed milling safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grain oilseed milling osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3313",
+   "title": "Alumina and Aluminum Production and Processing",
+   "inspections": 447,
+   "slug": "3313-alumina-aluminum-production-processing",
+   "phrases": [
+    "osha regulations for alumina aluminum production processing",
+    "alumina aluminum production processing safety",
+    "alumina aluminum production processing osha"
+   ],
+   "keyword": "osha regulations for alumina aluminum production processing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for alumina aluminum production processing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "alumina aluminum production processing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "alumina aluminum production processing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4442",
+   "title": "Lawn and Garden Equipment and Supplies Retailers",
+   "inspections": 444,
+   "slug": "4442-lawn-garden-equipment-supplies-retailers",
+   "phrases": [
+    "osha regulations for lawn garden equipment supplies retailers",
+    "lawn garden equipment supplies retailers safety",
+    "lawn garden equipment supplies retailers osha"
+   ],
+   "keyword": "osha regulations for lawn garden equipment supplies retailers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for lawn garden equipment supplies retailers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lawn garden equipment supplies retailers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lawn garden equipment supplies retailers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4412",
+   "title": "Other Motor Vehicle Dealers",
+   "inspections": 442,
+   "slug": "4412-other-motor-vehicle-dealers",
+   "phrases": [
+    "osha regulations for motor vehicle dealers",
+    "motor vehicle dealers safety",
+    "motor vehicle dealers osha"
+   ],
+   "keyword": "osha regulations for motor vehicle dealers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for motor vehicle dealers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle dealers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicle dealers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4884",
+   "title": "Support Activities for Road Transportation",
+   "inspections": 439,
+   "slug": "4884-support-activities-for-road-transportation",
+   "phrases": [
+    "osha regulations for support activities for road transportation",
+    "support activities for road transportation safety",
+    "support activities for road transportation osha"
+   ],
+   "keyword": "osha regulations for support activities for road transportation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support activities for road transportation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for road transportation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for road transportation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "7223",
+   "title": "Special Food Services",
+   "inspections": 432,
+   "slug": "7223-special-food-services",
+   "phrases": [
+    "osha regulations for special food services",
+    "special food services safety",
+    "special food services osha"
+   ],
+   "keyword": "osha regulations for special food services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for special food services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "special food services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "special food services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3344",
+   "title": "Semiconductor and Other Electronic Component Manufacturing",
+   "inspections": 431,
+   "slug": "3344-semiconductor-other-electronic-component-manufacturing",
+   "phrases": [
+    "osha regulations for semiconductor electronic component manufacturing",
+    "semiconductor electronic component manufacturing safety",
+    "semiconductor electronic component manufacturing osha"
+   ],
+   "keyword": "osha regulations for semiconductor electronic component manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for semiconductor electronic component manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "semiconductor electronic component manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "semiconductor electronic component manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3272",
+   "title": "Glass and Glass Product Manufacturing",
+   "inspections": 427,
+   "slug": "3272-glass-glass-product-manufacturing",
+   "phrases": [
+    "osha regulations for glass glass product manufacturing",
+    "glass glass product manufacturing safety",
+    "glass glass product manufacturing osha"
+   ],
+   "keyword": "osha regulations for glass glass product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for glass glass product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "glass glass product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "glass glass product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3113",
+   "title": "Sugar and Confectionery Product Manufacturing",
+   "inspections": 409,
+   "slug": "3113-sugar-confectionery-product-manufacturing",
+   "phrases": [
+    "osha regulations for sugar confectionery product manufacturing",
+    "sugar confectionery product manufacturing safety",
+    "sugar confectionery product manufacturing osha"
+   ],
+   "keyword": "osha regulations for sugar confectionery product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for sugar confectionery product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sugar confectionery product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sugar confectionery product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4452",
+   "title": "Specialty Food Retailers",
+   "inspections": 395,
+   "slug": "4452-specialty-food-retailers",
+   "phrases": [
+    "osha regulations for specialty food retailers",
+    "specialty food retailers safety",
+    "specialty food retailers osha"
+   ],
+   "keyword": "osha regulations for specialty food retailers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for specialty food retailers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specialty food retailers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specialty food retailers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3326",
+   "title": "Spring and Wire Product Manufacturing",
+   "inspections": 390,
+   "slug": "3326-spring-wire-product-manufacturing",
+   "phrases": [
+    "osha regulations for spring wire product manufacturing",
+    "spring wire product manufacturing safety",
+    "spring wire product manufacturing osha"
+   ],
+   "keyword": "osha regulations for spring wire product manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for spring wire product manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "spring wire product manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "spring wire product manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3345",
+   "title": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing",
+   "inspections": 373,
+   "slug": "3345-navigational-measuring-electromedical-control-instruments-manufacturing",
+   "phrases": [
+    "osha regulations for navigational measuring electromedical control instruments manufacturing",
+    "navigational measuring electromedical control instruments manufacturing safety",
+    "navigational measuring electromedical control instruments manufacturing osha"
+   ],
+   "keyword": "osha regulations for navigational measuring electromedical control instruments manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for navigational measuring electromedical control instruments manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "navigational measuring electromedical control instruments manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "navigational measuring electromedical control instruments manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3256",
+   "title": "Soap, Cleaning Compound, and Toilet Preparation Manufacturing",
+   "inspections": 352,
+   "slug": "3256-soap-cleaning-compound-toilet-preparation-manufacturing",
+   "phrases": [
+    "osha regulations for soap cleaning compound toilet preparation manufacturing",
+    "soap cleaning compound toilet preparation manufacturing safety",
+    "soap cleaning compound toilet preparation manufacturing osha"
+   ],
+   "keyword": "osha regulations for soap cleaning compound toilet preparation manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for soap cleaning compound toilet preparation manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "soap cleaning compound toilet preparation manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "soap cleaning compound toilet preparation manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4246",
+   "title": "Chemical and Allied Products Merchant Wholesalers",
+   "inspections": 343,
+   "slug": "4246-chemical-allied-products-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for chemical allied products merchant wholesalers",
+    "chemical allied products merchant wholesalers safety",
+    "chemical allied products merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for chemical allied products merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for chemical allied products merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "chemical allied products merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "chemical allied products merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3353",
+   "title": "Electrical Equipment Manufacturing",
+   "inspections": 335,
+   "slug": "3353-electrical-equipment-manufacturing",
+   "phrases": [
+    "osha regulations for electrical equipment manufacturing",
+    "electrical equipment manufacturing safety",
+    "electrical equipment manufacturing osha"
+   ],
+   "keyword": "osha regulations for electrical equipment manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for electrical equipment manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical equipment manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical equipment manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4234",
+   "title": "Professional and Commercial Equipment and Supplies Merchant Wholesalers",
+   "inspections": 327,
+   "slug": "4234-professional-commercial-equipment-supplies-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for professional commercial equipment supplies merchant wholesalers",
+    "professional commercial equipment supplies merchant wholesalers safety",
+    "professional commercial equipment supplies merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for professional commercial equipment supplies merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for professional commercial equipment supplies merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "professional commercial equipment supplies merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "professional commercial equipment supplies merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3314",
+   "title": "Nonferrous Metal (except Aluminum) Production and Processing",
+   "inspections": 326,
+   "slug": "3314-nonferrous-metal-except-aluminum-production-processing",
+   "phrases": [
+    "osha regulations for nonferrous metal aluminum production processing",
+    "nonferrous metal aluminum production processing safety",
+    "nonferrous metal aluminum production processing osha"
+   ],
+   "keyword": "osha regulations for nonferrous metal aluminum production processing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for nonferrous metal aluminum production processing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nonferrous metal aluminum production processing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "nonferrous metal aluminum production processing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "6242",
+   "title": "Community Food and Housing, and Emergency and Other Relief Services",
+   "inspections": 315,
+   "slug": "6242-community-food-housing-emergency-other-relief",
+   "phrases": [
+    "osha regulations for community food housing emergency relief services",
+    "community food housing emergency relief services safety",
+    "community food housing emergency relief services osha"
+   ],
+   "keyword": "osha regulations for community food housing emergency relief services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for community food housing emergency relief services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "community food housing emergency relief services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "community food housing emergency relief services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4236",
+   "title": "Household Appliances and Electrical and Electronic Goods Merchant Wholesalers",
+   "inspections": 309,
+   "slug": "4236-household-appliances-electrical-electronic-goods-merchant",
+   "phrases": [
+    "osha regulations for household appliances electrical electronic goods merchant wholesalers",
+    "household appliances electrical electronic goods merchant wholesalers safety",
+    "household appliances electrical electronic goods merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for household appliances electrical electronic goods merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for household appliances electrical electronic goods merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "household appliances electrical electronic goods merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "household appliances electrical electronic goods merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3117",
+   "title": "Seafood Product Preparation and Packaging",
+   "inspections": 305,
+   "slug": "3117-seafood-product-preparation-packaging",
+   "phrases": [
+    "osha regulations for seafood product preparation packaging",
+    "seafood product preparation packaging safety",
+    "seafood product preparation packaging osha"
+   ],
+   "keyword": "osha regulations for seafood product preparation packaging",
+   "cluster": [
+    {
+     "keyword": "osha regulations for seafood product preparation packaging",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "seafood product preparation packaging safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "seafood product preparation packaging osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "8114",
+   "title": "Personal and Household Goods Repair and Maintenance",
+   "inspections": 305,
+   "slug": "8114-personal-household-goods-repair-maintenance",
+   "phrases": [
+    "osha regulations for personal household goods repair maintenance",
+    "personal household goods repair maintenance safety",
+    "personal household goods repair maintenance osha"
+   ],
+   "keyword": "osha regulations for personal household goods repair maintenance",
+   "cluster": [
+    {
+     "keyword": "osha regulations for personal household goods repair maintenance",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal household goods repair maintenance safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal household goods repair maintenance osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "5417",
+   "title": "Scientific Research and Development Services",
+   "inspections": 297,
+   "slug": "5417-scientific-research-development-services",
+   "phrases": [
+    "osha regulations for scientific research development services",
+    "scientific research development services safety",
+    "scientific research development services osha"
+   ],
+   "keyword": "osha regulations for scientific research development services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for scientific research development services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "scientific research development services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "scientific research development services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "2212",
+   "title": "Natural Gas Distribution",
+   "inspections": 294,
+   "slug": "2212-natural-gas-distribution",
+   "phrases": [
+    "osha regulations for natural gas distribution",
+    "natural gas distribution safety",
+    "natural gas distribution osha"
+   ],
+   "keyword": "osha regulations for natural gas distribution",
+   "cluster": [
+    {
+     "keyword": "osha regulations for natural gas distribution",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "natural gas distribution safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "natural gas distribution osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "8122",
+   "title": "Death Care Services",
+   "inspections": 294,
+   "slug": "8122-death-care-services",
+   "phrases": [
+    "osha regulations for death care services",
+    "death care services safety",
+    "death care services osha"
+   ],
+   "keyword": "osha regulations for death care services",
+   "cluster": [
+    {
+     "keyword": "osha regulations for death care services",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "death care services safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "death care services osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "1153",
+   "title": "Support Activities for Forestry",
+   "inspections": 277,
+   "slug": "1153-support-activities-for-forestry",
+   "phrases": [
+    "osha regulations for support activities for forestry",
+    "support activities for forestry safety",
+    "support activities for forestry osha"
+   ],
+   "keyword": "osha regulations for support activities for forestry",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support activities for forestry",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for forestry safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for forestry osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3333",
+   "title": "Commercial and Service Industry Machinery Manufacturing",
+   "inspections": 265,
+   "slug": "3333-commercial-service-industry-machinery-manufacturing",
+   "phrases": [
+    "osha regulations for commercial service industry machinery manufacturing",
+    "commercial service industry machinery manufacturing safety",
+    "commercial service industry machinery manufacturing osha"
+   ],
+   "keyword": "osha regulations for commercial service industry machinery manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for commercial service industry machinery manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "commercial service industry machinery manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "commercial service industry machinery manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4854",
+   "title": "School and Employee Bus Transportation",
+   "inspections": 258,
+   "slug": "4854-school-employee-bus-transportation",
+   "phrases": [
+    "osha regulations for school employee bus transportation",
+    "school employee bus transportation safety",
+    "school employee bus transportation osha"
+   ],
+   "keyword": "osha regulations for school employee bus transportation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for school employee bus transportation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "school employee bus transportation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "school employee bus transportation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3271",
+   "title": "Clay Product and Refractory Manufacturing",
+   "inspections": 237,
+   "slug": "3271-clay-product-refractory-manufacturing",
+   "phrases": [
+    "osha regulations for clay product refractory manufacturing",
+    "clay product refractory manufacturing safety",
+    "clay product refractory manufacturing osha"
+   ],
+   "keyword": "osha regulations for clay product refractory manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for clay product refractory manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "clay product refractory manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "clay product refractory manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3253",
+   "title": "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing",
+   "inspections": 235,
+   "slug": "3253-pesticide-fertilizer-other-agricultural-chemical-manufacturing",
+   "phrases": [
+    "osha regulations for pesticide fertilizer agricultural chemical manufacturing",
+    "pesticide fertilizer agricultural chemical manufacturing safety",
+    "pesticide fertilizer agricultural chemical manufacturing osha"
+   ],
+   "keyword": "osha regulations for pesticide fertilizer agricultural chemical manufacturing",
+   "cluster": [
+    {
+     "keyword": "osha regulations for pesticide fertilizer agricultural chemical manufacturing",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "pesticide fertilizer agricultural chemical manufacturing safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "pesticide fertilizer agricultural chemical manufacturing osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4247",
+   "title": "Petroleum and Petroleum Products Merchant Wholesalers",
+   "inspections": 225,
+   "slug": "4247-petroleum-petroleum-products-merchant-wholesalers",
+   "phrases": [
+    "osha regulations for petroleum petroleum products merchant wholesalers",
+    "petroleum petroleum products merchant wholesalers safety",
+    "petroleum petroleum products merchant wholesalers osha"
+   ],
+   "keyword": "osha regulations for petroleum petroleum products merchant wholesalers",
+   "cluster": [
+    {
+     "keyword": "osha regulations for petroleum petroleum products merchant wholesalers",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "petroleum petroleum products merchant wholesalers safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "petroleum petroleum products merchant wholesalers osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "3132",
+   "title": "Fabric Mills",
+   "inspections": 208,
+   "slug": "3132-fabric-mills",
+   "phrases": [
+    "osha regulations for fabric mills",
+    "fabric mills safety",
+    "fabric mills osha"
+   ],
+   "keyword": "osha regulations for fabric mills",
+   "cluster": [
+    {
+     "keyword": "osha regulations for fabric mills",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fabric mills safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fabric mills osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "9251",
+   "title": "Administration of Housing Programs, Urban Planning, and Community Development",
+   "inspections": 203,
+   "slug": "9251-administration-housing-programs-urban-planning-community",
+   "phrases": [
+    "osha regulations for administration of housing programs urban planning community development",
+    "administration of housing programs urban planning community development safety",
+    "administration of housing programs urban planning community development osha"
+   ],
+   "keyword": "osha regulations for administration of housing programs urban planning community development",
+   "cluster": [
+    {
+     "keyword": "osha regulations for administration of housing programs urban planning community development",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of housing programs urban planning community development safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "administration of housing programs urban planning community development osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "naics": "4882",
+   "title": "Support Activities for Rail Transportation",
+   "inspections": 201,
+   "slug": "4882-support-activities-for-rail-transportation",
+   "phrases": [
+    "osha regulations for support activities for rail transportation",
+    "support activities for rail transportation safety",
+    "support activities for rail transportation osha"
+   ],
+   "keyword": "osha regulations for support activities for rail transportation",
+   "cluster": [
+    {
+     "keyword": "osha regulations for support activities for rail transportation",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for rail transportation safety",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "support activities for rail transportation osha",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  }
+ ]
+}

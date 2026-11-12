@@ -7,6 +7,7 @@ import { checkClauses, checkNumbers, numbersIn } from "../../checks/facts.mjs";
 import { checkWriting } from "../../checks/writing.mjs";
 import { config } from "../../lib/config.mjs";
 import { writeChecked } from "../pipeline.mjs";
+import { recordSectionNumbers } from "../../data/ecfr-numbers.mjs";
 import { checklistJson, checklistProblems, saveJson, today, withDisplay, writeBundle } from "../common.mjs";
 
 const words = (s) => s.trim().split(/\s+/).length;
@@ -61,6 +62,7 @@ export async function runStandard(job, { log, enforcement }) {
   const stats = withDisplay({ fiscalYears: enforcement.fiscalYears, fiscalYearCount: enforcement.fiscalYearCount, ...raw });
   delete stats.section;
   const regulationText = sectionText(job.section, { maxChars: 60000 });
+  recordSectionNumbers(job.section, regulationText);
   const prompt = standardPrompt({ section: job.section, heading: sec.heading, keyword: job.keyword, cluster: job.cluster ?? [], titleHint: job.titleHint, stats, regulationText, guides: job.guides ?? [] });
   writeBundle("us", job.slug, { prompt, system: ENGINE_SYSTEM, source: regulationText, stats, schema: standardSchema });
   const allowed = new Set([...numbersIn(stats), ...numbersIn(regulationText), ...numbersIn(config.osha_penalties)]);
@@ -90,7 +92,7 @@ export async function runStandard(job, { log, enforcement }) {
     linkPhrases: d.linkPhrases, cover: job.slug, coverPrompt: d.coverPrompt, coverAlt: d.coverAlt, changes: [],
   };
   saveJson(`src/content/standards/${job.slug}.json`, page);
-  return { status: "done", files: [`src/content/standards/${job.slug}.json`, cl.file], checklist: cl.id, notes: res.notes };
+  return { status: "done", files: [`src/content/standards/${job.slug}.json`, cl.file, "data/pages/us/ecfr-numbers.json"], checklist: cl.id, notes: res.notes };
 }
 
 export const readEnforcement = () => JSON.parse(readFileSync("data/pages/us/enforcement.json", "utf8"));

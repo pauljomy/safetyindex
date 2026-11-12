@@ -8,6 +8,7 @@ import { config } from "../lib/config.mjs";
 import { checkWriting } from "./writing.mjs";
 import { checkClauses, checkNumbers, numbersIn } from "./facts.mjs";
 import { similarity } from "../style/patterns.mjs";
+import { sectionNumbers } from "../data/ecfr-numbers.mjs";
 
 const POSTS = "src/content/posts";
 const fm = (md) => YAML.parse(md.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? "") ?? {};
@@ -175,7 +176,9 @@ export function runSiteChecks({ pages, dist, site }) {
       if (c.market === "us") for (const e of checkClauses(c.body, { market: "us" })) report(c.path, e);
       if (!c.legacy) {
         if (!c.data.keywordSource || !c.data.goNoGo) errors.push(`${c.path}: no recorded keyword source or go/no-go result`);
-        if (["OpenSEO", "Search Console"].includes(c.data.keywordSource)) {
+        // A rewrite of a URL that existed before (date earlier than generatedOn) isn't held to the new-page thresholds.
+        const rewriteOfExisting = c.data.date && c.data.generatedOn && new Date(c.data.date) < new Date(c.data.generatedOn);
+        if (["OpenSEO", "Search Console"].includes(c.data.keywordSource) && !rewriteOfExisting) {
           const t = config.guide_thresholds[c.market] ?? config.guide_thresholds.us;
           if (!(c.data.clusterVolume >= t.volume) || !(c.data.kd < t.kd_under)) errors.push(`${c.path}: cluster volume ${c.data.clusterVolume} / KD ${c.data.kd} don't meet the ${c.market} threshold (${t.volume} / under ${t.kd_under})`);
         }
@@ -187,6 +190,8 @@ export function runSiteChecks({ pages, dist, site }) {
       if (c.data.checkPass !== "passed") errors.push(`${c.path}: hasn't passed the independent checking pass`);
       const allowed = numbersIn(c.data.stats);
       for (const n of numbersIn({ cluster: c.data.cluster ?? [], penalties: config.osha_penalties })) allowed.add(n);
+      if (c.data.section) for (const n of sectionNumbers(c.data.section)) allowed.add(n);
+      if (c.kind === "industry") for (const st of c.data.stats.topStandards ?? []) for (const n of sectionNumbers(st.section)) allowed.add(n);
       const all = `${opening}\n\n${prose}\n\n${(c.data.faq ?? []).map((f) => f.answer).join("\n")}`;
       for (const e of checkNumbers(all, allowed)) report(c.path, e);
       for (const e of checkClauses(all, { market: "us", defaultSection: c.data.section })) report(c.path, e);

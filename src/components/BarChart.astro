@@ -4,9 +4,9 @@
 const { data, title, format = (n: number) => n.toLocaleString("en-US"), width = 480 } = Astro.props as {
   data: { label: string; value: number }[]; title: string; format?: (n: number) => string; width?: number;
 };
-const bar = 24, gap = 8, labelW = Math.min(210, Math.max(...data.map((d) => d.label.length)) * 7.5 + 12), valueW = 84;
+const bar = 24, gap = 8, labelW = Math.min(210, Math.max(64, Math.max(...data.map((d) => d.label.length)) * 8.6 + 16)), valueW = 84;
 const h = data.length * (bar + gap) + gap;
-const maxChars = Math.floor((labelW - 12) / 7.5);
+const maxChars = Math.floor((labelW - 16) / 8.6);
 const fit = (s: string) => (s.length > maxChars ? `${s.slice(0, maxChars - 1).trimEnd()}…` : s);
 const max = Math.max(1, ...data.map((d) => d.value));
 const plotW = width - labelW - valueW;

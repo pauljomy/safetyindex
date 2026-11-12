@@ -12,6 +12,7 @@ import { config } from "../lib/config.mjs";
 import { loadIndex } from "./ecfr.mjs";
 import { industrySlug, standardSlug } from "../lib/slugs.mjs";
 import { keywordData } from "../keywords/openseo.mjs";
+import { complete } from "../lib/claude.mjs";
 import { loadTopics, saveTopics, setRow } from "../lib/topics.mjs";
 
 const noKeywords = process.argv.includes("--no-keywords");
@@ -90,6 +91,20 @@ for (const i of enf.industries) {
   idist.standards++;
   const short = i.title.toLowerCase().replace(/\b(and|other|all|except|\(.*?\))\b/g, " ").replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim();
   icands.push({ naics: i.naics, title: i.title, inspections: i.inspections, slug: industrySlug(i.naics, i.title), phrases: [`osha regulations for ${short}`, `${short} safety`, `${short} osha`] });
+}
+// NAICS titles aren't how people search ("foundation, structure, and building exterior contractors"), so one
+// headless call suggests the everyday trade name for each industry; phrases are built from it. No facts involved.
+if (!noKeywords && icands.length) {
+  const res = await complete({
+    system: "You map NAICS industry titles to the everyday words people type into Google about workplace safety in that trade. You return only JSON.",
+    schema: { type: "object", additionalProperties: false, required: ["items"], properties: { items: { type: "array", items: { type: "object", additionalProperties: false, required: ["naics", "trade"], properties: { naics: { type: "string" }, trade: { type: "string" } } } } } },
+    label: "industry names", effort: "low",
+    prompt: `For each NAICS code, give the everyday trade name a safety manager would type in a search, lowercase, 1–3 words (e.g. 2381 Foundation, Structure, and Building Exterior Contractors → "roofing"; 2361 Residential Building Construction → "residential construction"; 4931 Warehousing and Storage → "warehouse"). Pick the most common trade in the code.\n${icands.map((c) => `${c.naics} ${c.title}`).join("\n")}`,
+  });
+  for (const it of res.data.items) {
+    const c = icands.find((x) => x.naics === it.naics);
+    if (c && it.trade) { c.trade = it.trade.toLowerCase(); c.phrases = [...new Set([`${c.trade} safety`, `osha ${c.trade} regulations`, `${c.trade} safety checklist`, `${c.trade} osha`])]; }
+  }
 }
 if (!noKeywords) {
   const phrases = [...new Set(icands.flatMap((c) => c.phrases))];

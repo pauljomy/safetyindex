@@ -1,0 +1,6925 @@
+{
+ "planned": "2026-11-12",
+ "thresholds": {
+  "citations": 30,
+  "volume": 50,
+  "kd_under": 15
+ },
+ "distribution": {
+  "cited": 444,
+  "floor": 179,
+  "onEcfr": 176,
+  "write": 176,
+  "waitingKd": 0,
+  "lowVolume": 0
+ },
+ "pages": [
+  {
+   "section": "1926.501",
+   "citations": 22546,
+   "heading": "Duty to have fall protection.",
+   "part": "1926",
+   "subpart": "M",
+   "subpartTitle": "Fall Protection",
+   "name": "fall protection",
+   "slug": "1926-501-duty-have-fall-protection",
+   "phrases": [
+    "osha fall protection requirements",
+    "fall protection checklist",
+    "osha 1926.501"
+   ],
+   "keyword": "osha fall protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha fall protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.501",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fall protection requirements (29 CFR 1926.501)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Fall Protection: OSHA Requirements, Trigger Heights and Systems"
+   ]
+  },
+  {
+   "section": "1910.1200",
+   "citations": 19162,
+   "heading": "Hazard communication.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "hazard communication",
+   "slug": "1910-1200-hazard-communication",
+   "phrases": [
+    "osha hazard communication requirements",
+    "hazard communication checklist",
+    "osha 1910.1200"
+   ],
+   "keyword": "osha hazard communication requirements",
+   "cluster": [
+    {
+     "keyword": "osha hazard communication requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hazard communication checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1200",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hazard communication requirements (29 CFR 1910.1200)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "OSHA Hazard Communication (HazCom) Standard: Labels, SDS and Training"
+   ]
+  },
+  {
+   "section": "1910.134",
+   "citations": 12501,
+   "heading": "Respiratory protection.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "respiratory protection",
+   "slug": "1910-134-respiratory-protection",
+   "phrases": [
+    "osha respiratory protection requirements",
+    "respiratory protection checklist",
+    "osha 1910.134"
+   ],
+   "keyword": "osha respiratory protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha respiratory protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "respiratory protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.134",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA respiratory protection requirements (29 CFR 1910.134)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.147",
+   "citations": 10610,
+   "heading": "The control of hazardous energy (lockout/tagout).",
+   "part": "1910",
+   "subpart": "J",
+   "subpartTitle": "General Environmental Controls",
+   "name": "lockout tagout",
+   "slug": "1910-147-control-hazardous-energy-lockout-tagout",
+   "phrases": [
+    "osha lockout tagout requirements",
+    "lockout tagout checklist",
+    "osha 1910.147"
+   ],
+   "keyword": "osha lockout tagout requirements",
+   "cluster": [
+    {
+     "keyword": "osha lockout tagout requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lockout tagout checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.147",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA lockout tagout requirements (29 CFR 1910.147)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Lockout/Tagout (LOTO) Procedure: Step by Step"
+   ]
+  },
+  {
+   "section": "1926.1053",
+   "citations": 9660,
+   "heading": "Ladders.",
+   "part": "1926",
+   "subpart": "X",
+   "subpartTitle": "Stairways and Ladders",
+   "name": "ladders",
+   "slug": "1926-1053-ladders",
+   "phrases": [
+    "osha ladders requirements",
+    "ladders checklist",
+    "osha 1926.1053"
+   ],
+   "keyword": "osha ladders requirements",
+   "cluster": [
+    {
+     "keyword": "osha ladders requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ladders checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1053",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA ladders requirements (29 CFR 1926.1053)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Ladder Safety Rules and the Three-Point Contact Rule"
+   ]
+  },
+  {
+   "section": "1910.178",
+   "citations": 8738,
+   "heading": "Powered industrial trucks.",
+   "part": "1910",
+   "subpart": "N",
+   "subpartTitle": "Materials Handling and Storage",
+   "name": "powered industrial trucks",
+   "slug": "1910-178-powered-industrial-trucks",
+   "phrases": [
+    "osha powered industrial trucks requirements",
+    "powered industrial trucks checklist",
+    "osha 1910.178"
+   ],
+   "keyword": "osha powered industrial trucks requirements",
+   "cluster": [
+    {
+     "keyword": "osha powered industrial trucks requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "powered industrial trucks checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.178",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA powered industrial trucks requirements (29 CFR 1910.178)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Forklift Inspection Checklist (Daily Pre-Shift)"
+   ]
+  },
+  {
+   "section": "1926.451",
+   "citations": 8561,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "L",
+   "subpartTitle": "Scaffolds",
+   "name": "scaffolds",
+   "slug": "1926-451-scaffolds",
+   "phrases": [
+    "osha scaffolds requirements",
+    "scaffolds checklist",
+    "osha 1926.451"
+   ],
+   "keyword": "osha scaffolds requirements",
+   "cluster": [
+    {
+     "keyword": "osha scaffolds requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "scaffolds checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.451",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA scaffolds requirements (29 CFR 1926.451)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Scaffold Safety: Types, Who Designs Them and Inspection Rules"
+   ]
+  },
+  {
+   "section": "1926.503",
+   "citations": 8487,
+   "heading": "Training requirements.",
+   "part": "1926",
+   "subpart": "M",
+   "subpartTitle": "Fall Protection",
+   "name": "fall protection",
+   "slug": "1926-503-training",
+   "phrases": [
+    "osha fall protection requirements",
+    "fall protection checklist",
+    "osha 1926.503"
+   ],
+   "keyword": "osha fall protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha fall protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.503",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fall protection requirements (29 CFR 1926.503)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.303",
+   "citations": 7336,
+   "heading": "General.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "electrical",
+   "slug": "1910-303",
+   "phrases": [
+    "osha electrical requirements",
+    "electrical checklist",
+    "osha 1910.303"
+   ],
+   "keyword": "osha electrical requirements",
+   "cluster": [
+    {
+     "keyword": "osha electrical requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.303",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA electrical requirements (29 CFR 1910.303)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.305",
+   "citations": 7095,
+   "heading": "Wiring methods, components, and equipment for general use.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "wiring methods components and equipment for general use",
+   "slug": "1910-305-wiring-methods-components-equipment-use",
+   "phrases": [
+    "osha wiring methods components and equipment for general use requirements",
+    "wiring methods components and equipment for general use checklist",
+    "osha 1910.305"
+   ],
+   "keyword": "osha wiring methods components and equipment for general use requirements",
+   "cluster": [
+    {
+     "keyword": "osha wiring methods components and equipment for general use requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "wiring methods components and equipment for general use checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.305",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA wiring methods components and equipment for general use requirements (29 CFR 1910.305)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.212",
+   "citations": 6618,
+   "heading": "General requirements for all machines.",
+   "part": "1910",
+   "subpart": "O",
+   "subpartTitle": "Machinery and Machine Guarding",
+   "name": "all machines",
+   "slug": "1910-212-machinery-machine-guarding-all-machines",
+   "phrases": [
+    "osha all machines requirements",
+    "all machines checklist",
+    "osha 1910.212"
+   ],
+   "keyword": "osha all machines requirements",
+   "cluster": [
+    {
+     "keyword": "osha all machines requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "all machines checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.212",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA all machines requirements (29 CFR 1910.212)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Machine Safeguarding: Types of Guards and OSHA Rules"
+   ]
+  },
+  {
+   "section": "1926.102",
+   "citations": 6330,
+   "heading": "Eye and face protection.",
+   "part": "1926",
+   "subpart": "E",
+   "subpartTitle": "Personal Protective and Life Saving Equipment",
+   "name": "eye and face protection",
+   "slug": "1926-102-eye-face-protection",
+   "phrases": [
+    "osha eye and face protection requirements",
+    "eye and face protection checklist",
+    "osha 1926.102"
+   ],
+   "keyword": "osha eye and face protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha eye and face protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "eye and face protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.102",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA eye and face protection requirements (29 CFR 1926.102)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.157",
+   "citations": 4917,
+   "heading": "Portable fire extinguishers.",
+   "part": "1910",
+   "subpart": "L",
+   "subpartTitle": "Fire Protection",
+   "name": "portable fire extinguishers",
+   "slug": "1910-157-portable-fire-extinguishers",
+   "phrases": [
+    "osha portable fire extinguishers requirements",
+    "portable fire extinguishers checklist",
+    "osha 1910.157"
+   ],
+   "keyword": "osha portable fire extinguishers requirements",
+   "cluster": [
+    {
+     "keyword": "osha portable fire extinguishers requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "portable fire extinguishers checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.157",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA portable fire extinguishers requirements (29 CFR 1910.157)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.132",
+   "citations": 4881,
+   "heading": "General requirements.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "personal protective equipment",
+   "slug": "1910-132-personal-protective-equipment",
+   "phrases": [
+    "osha personal protective equipment requirements",
+    "personal protective equipment checklist",
+    "osha 1910.132"
+   ],
+   "keyword": "osha personal protective equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha personal protective equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal protective equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.132",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA personal protective equipment requirements (29 CFR 1910.132)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.37",
+   "citations": 3819,
+   "heading": "Maintenance, safeguards, and operational features for exit routes.",
+   "part": "1910",
+   "subpart": "E",
+   "subpartTitle": "Exit Routes and Emergency Planning",
+   "name": "maintenance safeguards and operational features for exit routes",
+   "slug": "1910-37-maintenance-safeguards-operational-features-exit",
+   "phrases": [
+    "osha maintenance safeguards and operational features for exit routes requirements",
+    "maintenance safeguards and operational features for exit routes checklist",
+    "osha 1910.37"
+   ],
+   "keyword": "osha maintenance safeguards and operational features for exit routes requirements",
+   "cluster": [
+    {
+     "keyword": "osha maintenance safeguards and operational features for exit routes requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "maintenance safeguards and operational features for exit routes checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.37",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA maintenance safeguards and operational features for exit routes requirements (29 CFR 1910.37)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.100",
+   "citations": 3738,
+   "heading": "Head protection.",
+   "part": "1926",
+   "subpart": "E",
+   "subpartTitle": "Personal Protective and Life Saving Equipment",
+   "name": "head protection",
+   "slug": "1926-100-head-protection",
+   "phrases": [
+    "osha head protection requirements",
+    "head protection checklist",
+    "osha 1926.100"
+   ],
+   "keyword": "osha head protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha head protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "head protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.100",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA head protection requirements (29 CFR 1926.100)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.20",
+   "citations": 3665,
+   "heading": "General safety and health provisions.",
+   "part": "1926",
+   "subpart": "C",
+   "subpartTitle": "General Safety and Health Provisions",
+   "name": "general safety and health provisions",
+   "slug": "1926-20-safety-health-provisions",
+   "phrases": [
+    "osha general safety and health provisions requirements",
+    "general safety and health provisions checklist",
+    "osha 1926.20"
+   ],
+   "keyword": "osha general safety and health provisions requirements",
+   "cluster": [
+    {
+     "keyword": "osha general safety and health provisions requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general safety and health provisions checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.20",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA general safety and health provisions requirements (29 CFR 1926.20)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1030",
+   "citations": 3525,
+   "heading": "Bloodborne pathogens.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "bloodborne pathogens",
+   "slug": "1910-1030-bloodborne-pathogens",
+   "phrases": [
+    "osha bloodborne pathogens requirements",
+    "bloodborne pathogens checklist",
+    "osha 1910.1030"
+   ],
+   "keyword": "osha bloodborne pathogens requirements",
+   "cluster": [
+    {
+     "keyword": "osha bloodborne pathogens requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "bloodborne pathogens checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1030",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA bloodborne pathogens requirements (29 CFR 1910.1030)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Bloodborne Pathogens: OSHA Standard and Training Requirements"
+   ]
+  },
+  {
+   "section": "1910.22",
+   "citations": 3220,
+   "heading": "General requirements.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "walking-working surfaces",
+   "slug": "1910-22-walking-working-surfaces",
+   "phrases": [
+    "osha walking-working surfaces requirements",
+    "walking-working surfaces checklist",
+    "osha 1910.22"
+   ],
+   "keyword": "osha walking-working surfaces requirements",
+   "cluster": [
+    {
+     "keyword": "osha walking-working surfaces requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "walking-working surfaces checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.22",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA walking-working surfaces requirements (29 CFR 1910.22)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.28",
+   "citations": 3022,
+   "heading": "Duty to have fall protection and falling object protection.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "fall protection and falling object protection",
+   "slug": "1910-28-duty-have-fall-protection-falling",
+   "phrases": [
+    "osha fall protection and falling object protection requirements",
+    "fall protection and falling object protection checklist",
+    "osha 1910.28"
+   ],
+   "keyword": "osha fall protection and falling object protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha fall protection and falling object protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection and falling object protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.28",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fall protection and falling object protection requirements (29 CFR 1910.28)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.651",
+   "citations": 2705,
+   "heading": "Specific excavation requirements.",
+   "part": "1926",
+   "subpart": "P",
+   "subpartTitle": "Excavations",
+   "name": "specific excavation requirements",
+   "slug": "1926-651-excavation",
+   "phrases": [
+    "osha specific excavation requirements requirements",
+    "specific excavation requirements checklist",
+    "osha 1926.651"
+   ],
+   "keyword": "osha specific excavation requirements requirements",
+   "cluster": [
+    {
+     "keyword": "osha specific excavation requirements requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specific excavation requirements checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.651",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA specific excavation requirements requirements (29 CFR 1926.651)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "OSHA Soil Types (Type A, B, C) for Trenching"
+   ]
+  },
+  {
+   "section": "1926.502",
+   "citations": 2689,
+   "heading": "Fall protection systems criteria and practices.",
+   "part": "1926",
+   "subpart": "M",
+   "subpartTitle": "Fall Protection",
+   "name": "fall protection systems criteria and practices",
+   "slug": "1926-502-fall-protection-systems-criteria-practices",
+   "phrases": [
+    "osha fall protection systems criteria and practices requirements",
+    "fall protection systems criteria and practices checklist",
+    "osha 1926.502"
+   ],
+   "keyword": "osha fall protection systems criteria and practices requirements",
+   "cluster": [
+    {
+     "keyword": "osha fall protection systems criteria and practices requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection systems criteria and practices checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.502",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fall protection systems criteria and practices requirements (29 CFR 1926.502)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Safety Harness Guide: Full Body Harness, Lanyards and Inspection"
+   ]
+  },
+  {
+   "section": "1910.215",
+   "citations": 2327,
+   "heading": "Abrasive wheel machinery.",
+   "part": "1910",
+   "subpart": "O",
+   "subpartTitle": "Machinery and Machine Guarding",
+   "name": "abrasive wheel machinery",
+   "slug": "1910-215-abrasive-wheel-machinery",
+   "phrases": [
+    "osha abrasive wheel machinery requirements",
+    "abrasive wheel machinery checklist",
+    "osha 1910.215"
+   ],
+   "keyword": "osha abrasive wheel machinery requirements",
+   "cluster": [
+    {
+     "keyword": "osha abrasive wheel machinery requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "abrasive wheel machinery checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.215",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA abrasive wheel machinery requirements (29 CFR 1910.215)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.453",
+   "citations": 2295,
+   "heading": "Aerial lifts.",
+   "part": "1926",
+   "subpart": "L",
+   "subpartTitle": "Scaffolds",
+   "name": "aerial lifts",
+   "slug": "1926-453-aerial-lifts",
+   "phrases": [
+    "osha aerial lifts requirements",
+    "aerial lifts checklist",
+    "osha 1926.453"
+   ],
+   "keyword": "osha aerial lifts requirements",
+   "cluster": [
+    {
+     "keyword": "osha aerial lifts requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "aerial lifts checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.453",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA aerial lifts requirements (29 CFR 1926.453)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1153",
+   "citations": 2197,
+   "heading": "Respirable crystalline silica.",
+   "part": "1926",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "respirable crystalline silica",
+   "slug": "1926-1153-respirable-crystalline-silica",
+   "phrases": [
+    "osha respirable crystalline silica requirements",
+    "respirable crystalline silica checklist",
+    "osha 1926.1153"
+   ],
+   "keyword": "osha respirable crystalline silica requirements",
+   "cluster": [
+    {
+     "keyword": "osha respirable crystalline silica requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "respirable crystalline silica checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1153",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA respirable crystalline silica requirements (29 CFR 1926.1153)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.151",
+   "citations": 2167,
+   "heading": "Medical services and first aid.",
+   "part": "1910",
+   "subpart": "K",
+   "subpartTitle": "Medical and First Aid",
+   "name": "medical services and first aid",
+   "slug": "1910-151-medical-services-first-aid",
+   "phrases": [
+    "osha medical services and first aid requirements",
+    "medical services and first aid checklist",
+    "osha 1910.151"
+   ],
+   "keyword": "osha medical services and first aid requirements",
+   "cluster": [
+    {
+     "keyword": "osha medical services and first aid requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "medical services and first aid checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.151",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA medical services and first aid requirements (29 CFR 1910.151)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Workplace First Aid Kit Checklist (OSHA Requirements)",
+    "Emergency Eyewash and Shower Requirements (ANSI Z358.1)"
+   ]
+  },
+  {
+   "section": "1904.39",
+   "citations": 2051,
+   "heading": "Reporting fatalities, hospitalizations, amputations, and losses of an eye as a result of work-related incidents to OSHA.",
+   "part": "1904",
+   "subpart": "E",
+   "subpartTitle": "Reporting Fatality, Injury and Illness Information to the Government",
+   "name": "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha",
+   "slug": "1904-39-reporting-fatalities-hospitalizations-amputations-losses",
+   "phrases": [
+    "osha reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha requirements",
+    "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha checklist",
+    "osha 1904.39"
+   ],
+   "keyword": "osha reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha requirements",
+   "cluster": [
+    {
+     "keyword": "osha reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.39",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to OSHA requirements (29 CFR 1904.39)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.219",
+   "citations": 1983,
+   "heading": "Mechanical power-transmission apparatus.",
+   "part": "1910",
+   "subpart": "O",
+   "subpartTitle": "Machinery and Machine Guarding",
+   "name": "mechanical power-transmission apparatus",
+   "slug": "1910-219-mechanical-power-transmission-apparatus",
+   "phrases": [
+    "osha mechanical power-transmission apparatus requirements",
+    "mechanical power-transmission apparatus checklist",
+    "osha 1910.219"
+   ],
+   "keyword": "osha mechanical power-transmission apparatus requirements",
+   "cluster": [
+    {
+     "keyword": "osha mechanical power-transmission apparatus requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "mechanical power-transmission apparatus checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.219",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA mechanical power-transmission apparatus requirements (29 CFR 1910.219)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.652",
+   "citations": 1912,
+   "heading": "Requirements for protective systems.",
+   "part": "1926",
+   "subpart": "P",
+   "subpartTitle": "Excavations",
+   "name": "protective systems",
+   "slug": "1926-652-protective-systems",
+   "phrases": [
+    "osha protective systems requirements",
+    "protective systems checklist",
+    "osha 1926.652"
+   ],
+   "keyword": "osha protective systems requirements",
+   "cluster": [
+    {
+     "keyword": "osha protective systems requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "protective systems checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.652",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA protective systems requirements (29 CFR 1926.652)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "OSHA Soil Types (Type A, B, C) for Trenching"
+   ]
+  },
+  {
+   "section": "1910.146",
+   "citations": 1849,
+   "heading": "Permit-required confined spaces.",
+   "part": "1910",
+   "subpart": "J",
+   "subpartTitle": "General Environmental Controls",
+   "name": "permit-required confined spaces",
+   "slug": "1910-146-permit-required-confined-spaces",
+   "phrases": [
+    "osha permit-required confined spaces requirements",
+    "permit-required confined spaces checklist",
+    "osha 1910.146"
+   ],
+   "keyword": "osha permit-required confined spaces requirements",
+   "cluster": [
+    {
+     "keyword": "osha permit-required confined spaces requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "permit-required confined spaces checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.146",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA permit-required confined spaces requirements (29 CFR 1910.146)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Confined Space: OSHA Definition, Permit Spaces and Training"
+   ]
+  },
+  {
+   "section": "1910.95",
+   "citations": 1773,
+   "heading": "Occupational noise exposure.",
+   "part": "1910",
+   "subpart": "G",
+   "subpartTitle": "Occupational Health and Environmental Control",
+   "name": "occupational noise exposure",
+   "slug": "1910-95-occupational-noise-exposure",
+   "phrases": [
+    "osha occupational noise exposure requirements",
+    "occupational noise exposure checklist",
+    "osha 1910.95"
+   ],
+   "keyword": "osha occupational noise exposure requirements",
+   "cluster": [
+    {
+     "keyword": "osha occupational noise exposure requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "occupational noise exposure checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.95",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA occupational noise exposure requirements (29 CFR 1910.95)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1101",
+   "citations": 1556,
+   "heading": "Asbestos.",
+   "part": "1926",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "asbestos",
+   "slug": "1926-1101-asbestos",
+   "phrases": [
+    "osha asbestos requirements",
+    "asbestos checklist",
+    "osha 1926.1101"
+   ],
+   "keyword": "osha asbestos requirements",
+   "cluster": [
+    {
+     "keyword": "osha asbestos requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "asbestos checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1101",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA asbestos requirements (29 CFR 1926.1101)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.29",
+   "citations": 1490,
+   "heading": "Forms.",
+   "part": "1904",
+   "subpart": "C",
+   "subpartTitle": "Recordkeeping Forms and Recording Criteria",
+   "name": "forms",
+   "slug": "1904-29-forms",
+   "phrases": [
+    "osha forms requirements",
+    "forms checklist",
+    "osha 1904.29"
+   ],
+   "keyword": "osha forms requirements",
+   "cluster": [
+    {
+     "keyword": "osha forms requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "forms checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.29",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA forms requirements (29 CFR 1904.29)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.21",
+   "citations": 1474,
+   "heading": "Safety training and education.",
+   "part": "1926",
+   "subpart": "C",
+   "subpartTitle": "General Safety and Health Provisions",
+   "name": "safety training and education",
+   "slug": "1926-21-safety-training-education",
+   "phrases": [
+    "osha safety training and education requirements",
+    "safety training and education checklist",
+    "osha 1926.21"
+   ],
+   "keyword": "osha safety training and education requirements",
+   "cluster": [
+    {
+     "keyword": "osha safety training and education requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "safety training and education checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.21",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA safety training and education requirements (29 CFR 1926.21)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1053",
+   "citations": 1391,
+   "heading": "Respirable crystalline silica.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "respirable crystalline silica",
+   "slug": "1910-1053-respirable-crystalline-silica",
+   "phrases": [
+    "osha respirable crystalline silica requirements",
+    "respirable crystalline silica checklist",
+    "osha 1910.1053"
+   ],
+   "keyword": "osha respirable crystalline silica requirements",
+   "cluster": [
+    {
+     "keyword": "osha respirable crystalline silica requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "respirable crystalline silica checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1053",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA respirable crystalline silica requirements (29 CFR 1910.1053)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1060",
+   "citations": 1322,
+   "heading": "Training requirements.",
+   "part": "1926",
+   "subpart": "X",
+   "subpartTitle": "Stairways and Ladders",
+   "name": "stairways and ladders",
+   "slug": "1926-1060-training",
+   "phrases": [
+    "osha stairways and ladders requirements",
+    "stairways and ladders checklist",
+    "osha 1926.1060"
+   ],
+   "keyword": "osha stairways and ladders requirements",
+   "cluster": [
+    {
+     "keyword": "osha stairways and ladders requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "stairways and ladders checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1060",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA stairways and ladders requirements (29 CFR 1926.1060)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.213",
+   "citations": 1283,
+   "heading": "Woodworking machinery requirements.",
+   "part": "1910",
+   "subpart": "O",
+   "subpartTitle": "Machinery and Machine Guarding",
+   "name": "woodworking machinery requirements",
+   "slug": "1910-213-woodworking-machinery",
+   "phrases": [
+    "osha woodworking machinery requirements requirements",
+    "woodworking machinery requirements checklist",
+    "osha 1910.213"
+   ],
+   "keyword": "osha woodworking machinery requirements requirements",
+   "cluster": [
+    {
+     "keyword": "osha woodworking machinery requirements requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "woodworking machinery requirements checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.213",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA woodworking machinery requirements requirements (29 CFR 1910.213)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.133",
+   "citations": 1238,
+   "heading": "Eye and face protection.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "eye and face protection",
+   "slug": "1910-133-eye-face-protection",
+   "phrases": [
+    "osha eye and face protection requirements",
+    "eye and face protection checklist",
+    "osha 1910.133"
+   ],
+   "keyword": "osha eye and face protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha eye and face protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "eye and face protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.133",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA eye and face protection requirements (29 CFR 1910.133)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.454",
+   "citations": 1123,
+   "heading": "Training requirements.",
+   "part": "1926",
+   "subpart": "L",
+   "subpartTitle": "Scaffolds",
+   "name": "scaffolds",
+   "slug": "1926-454-training",
+   "phrases": [
+    "osha scaffolds requirements",
+    "scaffolds checklist",
+    "osha 1926.454"
+   ],
+   "keyword": "osha scaffolds requirements",
+   "cluster": [
+    {
+     "keyword": "osha scaffolds requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "scaffolds checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.454",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA scaffolds requirements (29 CFR 1926.454)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.176",
+   "citations": 1109,
+   "heading": "Handling materials—general.",
+   "part": "1910",
+   "subpart": "N",
+   "subpartTitle": "Materials Handling and Storage",
+   "name": "handling materialsgeneral",
+   "slug": "1910-176-handling-materials",
+   "phrases": [
+    "osha handling materialsgeneral requirements",
+    "handling materialsgeneral checklist",
+    "osha 1910.176"
+   ],
+   "keyword": "osha handling materialsgeneral requirements",
+   "cluster": [
+    {
+     "keyword": "osha handling materialsgeneral requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "handling materialsgeneral checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.176",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA handling materialsgeneral requirements (29 CFR 1910.176)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.141",
+   "citations": 1098,
+   "heading": "Sanitation.",
+   "part": "1910",
+   "subpart": "J",
+   "subpartTitle": "General Environmental Controls",
+   "name": "sanitation",
+   "slug": "1910-141-sanitation",
+   "phrases": [
+    "osha sanitation requirements",
+    "sanitation checklist",
+    "osha 1910.141"
+   ],
+   "keyword": "osha sanitation requirements",
+   "cluster": [
+    {
+     "keyword": "osha sanitation requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sanitation checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.141",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA sanitation requirements (29 CFR 1910.141)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.405",
+   "citations": 1084,
+   "heading": "Wiring methods, components, and equipment for general use.",
+   "part": "1926",
+   "subpart": "K",
+   "subpartTitle": "Electrical",
+   "name": "wiring methods components and equipment for general use",
+   "slug": "1926-405-wiring-methods-components-equipment-use",
+   "phrases": [
+    "osha wiring methods components and equipment for general use requirements",
+    "wiring methods components and equipment for general use checklist",
+    "osha 1926.405"
+   ],
+   "keyword": "osha wiring methods components and equipment for general use requirements",
+   "cluster": [
+    {
+     "keyword": "osha wiring methods components and equipment for general use requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "wiring methods components and equipment for general use checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.405",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA wiring methods components and equipment for general use requirements (29 CFR 1926.405)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.304",
+   "citations": 1076,
+   "heading": "Wiring design and protection.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "wiring design and protection",
+   "slug": "1910-304-wiring-design-protection",
+   "phrases": [
+    "osha wiring design and protection requirements",
+    "wiring design and protection checklist",
+    "osha 1910.304"
+   ],
+   "keyword": "osha wiring design and protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha wiring design and protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "wiring design and protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.304",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA wiring design and protection requirements (29 CFR 1910.304)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.23",
+   "citations": 1056,
+   "heading": "Ladders.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "ladders",
+   "slug": "1910-23-ladders",
+   "phrases": [
+    "osha ladders requirements",
+    "ladders checklist",
+    "osha 1910.23"
+   ],
+   "keyword": "osha ladders requirements",
+   "cluster": [
+    {
+     "keyword": "osha ladders requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ladders checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.23",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA ladders requirements (29 CFR 1910.23)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.106",
+   "citations": 1051,
+   "heading": "Flammable liquids.",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "flammable liquids",
+   "slug": "1910-106-flammable-liquids",
+   "phrases": [
+    "osha flammable liquids requirements",
+    "flammable liquids checklist",
+    "osha 1910.106"
+   ],
+   "keyword": "osha flammable liquids requirements",
+   "cluster": [
+    {
+     "keyword": "osha flammable liquids requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "flammable liquids checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.106",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA flammable liquids requirements (29 CFR 1910.106)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.119",
+   "citations": 1028,
+   "heading": "Process safety management of highly hazardous chemicals.",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "process safety management of highly hazardous chemicals",
+   "slug": "1910-119-process-safety-management-highly-hazardous",
+   "phrases": [
+    "osha process safety management of highly hazardous chemicals requirements",
+    "process safety management of highly hazardous chemicals checklist",
+    "osha 1910.119"
+   ],
+   "keyword": "osha process safety management of highly hazardous chemicals requirements",
+   "cluster": [
+    {
+     "keyword": "osha process safety management of highly hazardous chemicals requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "process safety management of highly hazardous chemicals checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.119",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA process safety management of highly hazardous chemicals requirements (29 CFR 1910.119)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1052",
+   "citations": 1013,
+   "heading": "Stairways.",
+   "part": "1926",
+   "subpart": "X",
+   "subpartTitle": "Stairways and Ladders",
+   "name": "stairways",
+   "slug": "1926-1052-stairways",
+   "phrases": [
+    "osha stairways requirements",
+    "stairways checklist",
+    "osha 1926.1052"
+   ],
+   "keyword": "osha stairways requirements",
+   "cluster": [
+    {
+     "keyword": "osha stairways requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "stairways checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1052",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA stairways requirements (29 CFR 1926.1052)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.107",
+   "citations": 985,
+   "heading": "Spray finishing using flammable and combustible materials.",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "spray finishing using flammable and combustible materials",
+   "slug": "1910-107-spray-finishing-using-flammable-combustible",
+   "phrases": [
+    "osha spray finishing using flammable and combustible materials requirements",
+    "spray finishing using flammable and combustible materials checklist",
+    "osha 1910.107"
+   ],
+   "keyword": "osha spray finishing using flammable and combustible materials requirements",
+   "cluster": [
+    {
+     "keyword": "osha spray finishing using flammable and combustible materials requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "spray finishing using flammable and combustible materials checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.107",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA spray finishing using flammable and combustible materials requirements (29 CFR 1910.107)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.40",
+   "citations": 976,
+   "heading": "Providing records to government representatives.",
+   "part": "1904",
+   "subpart": "E",
+   "subpartTitle": "Reporting Fatality, Injury and Illness Information to the Government",
+   "name": "providing records to government representatives",
+   "slug": "1904-40-providing-records-government-representatives",
+   "phrases": [
+    "osha providing records to government representatives requirements",
+    "providing records to government representatives checklist",
+    "osha 1904.40"
+   ],
+   "keyword": "osha providing records to government representatives requirements",
+   "cluster": [
+    {
+     "keyword": "osha providing records to government representatives requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "providing records to government representatives checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.40",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA providing records to government representatives requirements (29 CFR 1904.40)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.416",
+   "citations": 933,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "K",
+   "subpartTitle": "Electrical",
+   "name": "electrical",
+   "slug": "1926-416-electrical",
+   "phrases": [
+    "osha electrical requirements",
+    "electrical checklist",
+    "osha 1926.416"
+   ],
+   "keyword": "osha electrical requirements",
+   "cluster": [
+    {
+     "keyword": "osha electrical requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.416",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA electrical requirements (29 CFR 1926.416)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.253",
+   "citations": 927,
+   "heading": "Oxygen-fuel gas welding and cutting.",
+   "part": "1910",
+   "subpart": "Q",
+   "subpartTitle": "Welding, Cutting and Brazing",
+   "name": "oxygen-fuel gas welding and cutting",
+   "slug": "1910-253-oxygen-fuel-gas-welding-cutting",
+   "phrases": [
+    "osha oxygen-fuel gas welding and cutting requirements",
+    "oxygen-fuel gas welding and cutting checklist",
+    "osha 1910.253"
+   ],
+   "keyword": "osha oxygen-fuel gas welding and cutting requirements",
+   "cluster": [
+    {
+     "keyword": "osha oxygen-fuel gas welding and cutting requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "oxygen-fuel gas welding and cutting checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.253",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA oxygen-fuel gas welding and cutting requirements (29 CFR 1910.253)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.36",
+   "citations": 921,
+   "heading": "Design and construction requirements for exit routes.",
+   "part": "1910",
+   "subpart": "E",
+   "subpartTitle": "Exit Routes and Emergency Planning",
+   "name": "design and construction requirements for exit routes",
+   "slug": "1910-36-design-construction-exit-routes",
+   "phrases": [
+    "osha design and construction requirements for exit routes requirements",
+    "design and construction requirements for exit routes checklist",
+    "osha 1910.36"
+   ],
+   "keyword": "osha design and construction requirements for exit routes requirements",
+   "cluster": [
+    {
+     "keyword": "osha design and construction requirements for exit routes requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "design and construction requirements for exit routes checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.36",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA design and construction requirements for exit routes requirements (29 CFR 1910.36)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.334",
+   "citations": 876,
+   "heading": "Use of equipment.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "equipment",
+   "slug": "1910-334-use-equipment",
+   "phrases": [
+    "osha equipment requirements",
+    "equipment checklist",
+    "osha 1910.334"
+   ],
+   "keyword": "osha equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.334",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA equipment requirements (29 CFR 1910.334)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.41",
+   "citations": 875,
+   "heading": "Electronic submission of Employer Identification Number (EIN) and injury and illness records to OSHA.",
+   "part": "1904",
+   "subpart": "E",
+   "subpartTitle": "Reporting Fatality, Injury and Illness Information to the Government",
+   "name": "reporting fatality injury and illness information to the government",
+   "slug": "1904-41-electronic-submission-employer-identification-number",
+   "phrases": [
+    "osha reporting fatality injury and illness information to the government requirements",
+    "reporting fatality injury and illness information to the government checklist",
+    "osha 1904.41"
+   ],
+   "keyword": "osha reporting fatality injury and illness information to the government requirements",
+   "cluster": [
+    {
+     "keyword": "osha reporting fatality injury and illness information to the government requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "reporting fatality injury and illness information to the government checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.41",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA reporting fatality injury and illness information to the government requirements (29 CFR 1904.41)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.242",
+   "citations": 784,
+   "heading": "Hand and portable powered tools and equipment, general.",
+   "part": "1910",
+   "subpart": "P",
+   "subpartTitle": "Hand and Portable Powered Tools and Other Hand-Held Equipment",
+   "name": "hand and portable powered tools and equipment general",
+   "slug": "1910-242-hand-portable-powered-tools-equipment",
+   "phrases": [
+    "osha hand and portable powered tools and equipment general requirements",
+    "hand and portable powered tools and equipment general checklist",
+    "osha 1910.242"
+   ],
+   "keyword": "osha hand and portable powered tools and equipment general requirements",
+   "cluster": [
+    {
+     "keyword": "osha hand and portable powered tools and equipment general requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hand and portable powered tools and equipment general checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.242",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hand and portable powered tools and equipment general requirements (29 CFR 1910.242)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.452",
+   "citations": 776,
+   "heading": "Additional requirements applicable to specific types of scaffolds.",
+   "part": "1926",
+   "subpart": "L",
+   "subpartTitle": "Scaffolds",
+   "name": "additional requirements applicable to specific types of scaffolds",
+   "slug": "1926-452-additional-applicable-types-scaffolds",
+   "phrases": [
+    "osha additional requirements applicable to specific types of scaffolds requirements",
+    "additional requirements applicable to specific types of scaffolds checklist",
+    "osha 1926.452"
+   ],
+   "keyword": "osha additional requirements applicable to specific types of scaffolds requirements",
+   "cluster": [
+    {
+     "keyword": "osha additional requirements applicable to specific types of scaffolds requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "additional requirements applicable to specific types of scaffolds checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.452",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA additional requirements applicable to specific types of scaffolds requirements (29 CFR 1926.452)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.179",
+   "citations": 774,
+   "heading": "Overhead and gantry cranes.",
+   "part": "1910",
+   "subpart": "N",
+   "subpartTitle": "Materials Handling and Storage",
+   "name": "overhead and gantry cranes",
+   "slug": "1910-179-overhead-gantry-cranes",
+   "phrases": [
+    "osha overhead and gantry cranes requirements",
+    "overhead and gantry cranes checklist",
+    "osha 1910.179"
+   ],
+   "keyword": "osha overhead and gantry cranes requirements",
+   "cluster": [
+    {
+     "keyword": "osha overhead and gantry cranes requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "overhead and gantry cranes checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.179",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA overhead and gantry cranes requirements (29 CFR 1910.179)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.184",
+   "citations": 732,
+   "heading": "Slings.",
+   "part": "1910",
+   "subpart": "N",
+   "subpartTitle": "Materials Handling and Storage",
+   "name": "slings",
+   "slug": "1910-184-slings",
+   "phrases": [
+    "osha slings requirements",
+    "slings checklist",
+    "osha 1910.184"
+   ],
+   "keyword": "osha slings requirements",
+   "cluster": [
+    {
+     "keyword": "osha slings requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "slings checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.184",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA slings requirements (29 CFR 1910.184)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.32",
+   "citations": 711,
+   "heading": "Annual summary.",
+   "part": "1904",
+   "subpart": "D",
+   "subpartTitle": "Other OSHA Injury and Illness Recordkeeping Requirements",
+   "name": "annual summary",
+   "slug": "1904-32-annual-summary",
+   "phrases": [
+    "osha annual summary requirements",
+    "annual summary checklist",
+    "osha 1904.32"
+   ],
+   "keyword": "osha annual summary requirements",
+   "cluster": [
+    {
+     "keyword": "osha annual summary requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "annual summary checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.32",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA annual summary requirements (29 CFR 1904.32)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.29",
+   "citations": 698,
+   "heading": "Fall protection systems and falling object protection—criteria and practices.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "fall protection systems and falling object protectioncriteria and practices",
+   "slug": "1910-29-fall-protection-systems-falling-object",
+   "phrases": [
+    "osha fall protection systems and falling object protectioncriteria and practices requirements",
+    "fall protection systems and falling object protectioncriteria and practices checklist",
+    "osha 1910.29"
+   ],
+   "keyword": "osha fall protection systems and falling object protectioncriteria and practices requirements",
+   "cluster": [
+    {
+     "keyword": "osha fall protection systems and falling object protectioncriteria and practices requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection systems and falling object protectioncriteria and practices checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.29",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fall protection systems and falling object protectioncriteria and practices requirements (29 CFR 1910.29)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1025",
+   "citations": 690,
+   "heading": "Lead.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "lead",
+   "slug": "1910-1025-lead",
+   "phrases": [
+    "osha lead requirements",
+    "lead checklist",
+    "osha 1910.1025"
+   ],
+   "keyword": "osha lead requirements",
+   "cluster": [
+    {
+     "keyword": "osha lead requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lead checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1025",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA lead requirements (29 CFR 1910.1025)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.30",
+   "citations": 672,
+   "heading": "Training requirements.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "walking-working surfaces",
+   "slug": "1910-30-training",
+   "phrases": [
+    "osha walking-working surfaces requirements",
+    "walking-working surfaces checklist",
+    "osha 1910.30"
+   ],
+   "keyword": "osha walking-working surfaces requirements",
+   "cluster": [
+    {
+     "keyword": "osha walking-working surfaces requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "walking-working surfaces checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.30",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA walking-working surfaces requirements (29 CFR 1910.30)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.602",
+   "citations": 639,
+   "heading": "Material handling equipment.",
+   "part": "1926",
+   "subpart": "O",
+   "subpartTitle": "Motor Vehicles, Mechanized Equipment, and Marine Operations",
+   "name": "material handling equipment",
+   "slug": "1926-602-material-handling-equipment",
+   "phrases": [
+    "osha material handling equipment requirements",
+    "material handling equipment checklist",
+    "osha 1926.602"
+   ],
+   "keyword": "osha material handling equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha material handling equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "material handling equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.602",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA material handling equipment requirements (29 CFR 1926.602)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.403",
+   "citations": 614,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "K",
+   "subpartTitle": "Electrical",
+   "name": "electrical",
+   "slug": "1926-403-electrical",
+   "phrases": [
+    "osha electrical requirements",
+    "electrical checklist",
+    "osha 1926.403"
+   ],
+   "keyword": "osha electrical requirements",
+   "cluster": [
+    {
+     "keyword": "osha electrical requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.403",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA electrical requirements (29 CFR 1926.403)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.138",
+   "citations": 580,
+   "heading": "Hand protection.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "hand protection",
+   "slug": "1910-138-hand-protection",
+   "phrases": [
+    "osha hand protection requirements",
+    "hand protection checklist",
+    "osha 1910.138"
+   ],
+   "keyword": "osha hand protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha hand protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hand protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.138",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hand protection requirements (29 CFR 1910.138)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.50",
+   "citations": 553,
+   "heading": "Medical services and first aid.",
+   "part": "1926",
+   "subpart": "D",
+   "subpartTitle": "Occupational Health and Environmental Controls",
+   "name": "medical services and first aid",
+   "slug": "1926-50-medical-services-first-aid",
+   "phrases": [
+    "osha medical services and first aid requirements",
+    "medical services and first aid checklist",
+    "osha 1926.50"
+   ],
+   "keyword": "osha medical services and first aid requirements",
+   "cluster": [
+    {
+     "keyword": "osha medical services and first aid requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "medical services and first aid checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.50",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA medical services and first aid requirements (29 CFR 1926.50)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1026",
+   "citations": 553,
+   "heading": "Chromium (VI).",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "toxic and hazardous substances",
+   "slug": "1910-1026-chromium-vi",
+   "phrases": [
+    "osha toxic and hazardous substances requirements",
+    "toxic and hazardous substances checklist",
+    "osha 1910.1026"
+   ],
+   "keyword": "osha toxic and hazardous substances requirements",
+   "cluster": [
+    {
+     "keyword": "osha toxic and hazardous substances requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "toxic and hazardous substances checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1026",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA toxic and hazardous substances requirements (29 CFR 1910.1026)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.252",
+   "citations": 533,
+   "heading": "General requirements.",
+   "part": "1910",
+   "subpart": "Q",
+   "subpartTitle": "Welding, Cutting and Brazing",
+   "name": "welding cutting and brazing",
+   "slug": "1910-252-welding-cutting-brazing",
+   "phrases": [
+    "osha welding cutting and brazing requirements",
+    "welding cutting and brazing checklist",
+    "osha 1910.252"
+   ],
+   "keyword": "osha welding cutting and brazing requirements",
+   "cluster": [
+    {
+     "keyword": "osha welding cutting and brazing requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "welding cutting and brazing checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.252",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA welding cutting and brazing requirements (29 CFR 1910.252)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.150",
+   "citations": 530,
+   "heading": "Fire protection.",
+   "part": "1926",
+   "subpart": "F",
+   "subpartTitle": "Fire Protection and Prevention",
+   "name": "fire protection",
+   "slug": "1926-150-fire-protection",
+   "phrases": [
+    "osha fire protection requirements",
+    "fire protection checklist",
+    "osha 1926.150"
+   ],
+   "keyword": "osha fire protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha fire protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fire protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.150",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fire protection requirements (29 CFR 1926.150)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.333",
+   "citations": 515,
+   "heading": "Selection and use of work practices.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "selection and use of work practices",
+   "slug": "1910-333-selection-use-work-practices",
+   "phrases": [
+    "osha selection and use of work practices requirements",
+    "selection and use of work practices checklist",
+    "osha 1910.333"
+   ],
+   "keyword": "osha selection and use of work practices requirements",
+   "cluster": [
+    {
+     "keyword": "osha selection and use of work practices requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "selection and use of work practices checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.333",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA selection and use of work practices requirements (29 CFR 1910.333)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.38",
+   "citations": 511,
+   "heading": "Emergency action plans.",
+   "part": "1910",
+   "subpart": "E",
+   "subpartTitle": "Exit Routes and Emergency Planning",
+   "name": "emergency action plans",
+   "slug": "1910-38-emergency-action-plans",
+   "phrases": [
+    "osha emergency action plans requirements",
+    "emergency action plans checklist",
+    "osha 1910.38"
+   ],
+   "keyword": "osha emergency action plans requirements",
+   "cluster": [
+    {
+     "keyword": "osha emergency action plans requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "emergency action plans checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.38",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA emergency action plans requirements (29 CFR 1910.38)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.62",
+   "citations": 508,
+   "heading": "Lead.",
+   "part": "1926",
+   "subpart": "D",
+   "subpartTitle": "Occupational Health and Environmental Controls",
+   "name": "lead",
+   "slug": "1926-62-lead",
+   "phrases": [
+    "osha lead requirements",
+    "lead checklist",
+    "osha 1926.62"
+   ],
+   "keyword": "osha lead requirements",
+   "cluster": [
+    {
+     "keyword": "osha lead requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lead checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.62",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA lead requirements (29 CFR 1926.62)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.101",
+   "citations": 482,
+   "heading": "Compressed gases (general requirements).",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "hazardous materials",
+   "slug": "1910-101-compressed-gases",
+   "phrases": [
+    "osha hazardous materials requirements",
+    "hazardous materials checklist",
+    "osha 1910.101"
+   ],
+   "keyword": "osha hazardous materials requirements",
+   "cluster": [
+    {
+     "keyword": "osha hazardous materials requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hazardous materials checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.101",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hazardous materials requirements (29 CFR 1910.101)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.120",
+   "citations": 477,
+   "heading": "Hazardous waste operations and emergency response.",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "hazardous waste operations and emergency response",
+   "slug": "1910-120-hazardous-waste-operations-emergency-response",
+   "phrases": [
+    "osha hazardous waste operations and emergency response requirements",
+    "hazardous waste operations and emergency response checklist",
+    "osha 1910.120"
+   ],
+   "keyword": "osha hazardous waste operations and emergency response requirements",
+   "cluster": [
+    {
+     "keyword": "osha hazardous waste operations and emergency response requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hazardous waste operations and emergency response checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.120",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hazardous waste operations and emergency response requirements (29 CFR 1910.120)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1001",
+   "citations": 476,
+   "heading": "Asbestos.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "asbestos",
+   "slug": "1910-1001-asbestos",
+   "phrases": [
+    "osha asbestos requirements",
+    "asbestos checklist",
+    "osha 1910.1001"
+   ],
+   "keyword": "osha asbestos requirements",
+   "cluster": [
+    {
+     "keyword": "osha asbestos requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "asbestos checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1001",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA asbestos requirements (29 CFR 1910.1001)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.404",
+   "citations": 470,
+   "heading": "Wiring design and protection.",
+   "part": "1926",
+   "subpart": "K",
+   "subpartTitle": "Electrical",
+   "name": "wiring design and protection",
+   "slug": "1926-404-wiring-design-protection",
+   "phrases": [
+    "osha wiring design and protection requirements",
+    "wiring design and protection checklist",
+    "osha 1926.404"
+   ],
+   "keyword": "osha wiring design and protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha wiring design and protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "wiring design and protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.404",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA wiring design and protection requirements (29 CFR 1926.404)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.156",
+   "citations": 469,
+   "heading": "Fire brigades.",
+   "part": "1910",
+   "subpart": "L",
+   "subpartTitle": "Fire Protection",
+   "name": "fire brigades",
+   "slug": "1910-156-fire-brigades",
+   "phrases": [
+    "osha fire brigades requirements",
+    "fire brigades checklist",
+    "osha 1910.156"
+   ],
+   "keyword": "osha fire brigades requirements",
+   "cluster": [
+    {
+     "keyword": "osha fire brigades requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fire brigades checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.156",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fire brigades requirements (29 CFR 1910.156)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.300",
+   "citations": 440,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "I",
+   "subpartTitle": "Tools—Hand and Power",
+   "name": "toolshand and power",
+   "slug": "1926-300-tools-hand-power",
+   "phrases": [
+    "osha toolshand and power requirements",
+    "toolshand and power checklist",
+    "osha 1926.300"
+   ],
+   "keyword": "osha toolshand and power requirements",
+   "cluster": [
+    {
+     "keyword": "osha toolshand and power requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "toolshand and power checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.300",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA toolshand and power requirements (29 CFR 1926.300)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1051",
+   "citations": 436,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "X",
+   "subpartTitle": "Stairways and Ladders",
+   "name": "stairways and ladders",
+   "slug": "1926-1051-stairways-ladders",
+   "phrases": [
+    "osha stairways and ladders requirements",
+    "stairways and ladders checklist",
+    "osha 1926.1051"
+   ],
+   "keyword": "osha stairways and ladders requirements",
+   "cluster": [
+    {
+     "keyword": "osha stairways and ladders requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "stairways and ladders checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1051",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA stairways and ladders requirements (29 CFR 1926.1051)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.110",
+   "citations": 429,
+   "heading": "Storage and handling of liquefied petroleum gases.",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "storage and handling of liquefied petroleum gases",
+   "slug": "1910-110-storage-handling-liquefied-petroleum-gases",
+   "phrases": [
+    "osha storage and handling of liquefied petroleum gases requirements",
+    "storage and handling of liquefied petroleum gases checklist",
+    "osha 1910.110"
+   ],
+   "keyword": "osha storage and handling of liquefied petroleum gases requirements",
+   "cluster": [
+    {
+     "keyword": "osha storage and handling of liquefied petroleum gases requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "storage and handling of liquefied petroleum gases checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.110",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA storage and handling of liquefied petroleum gases requirements (29 CFR 1910.110)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.502",
+   "citations": 425,
+   "heading": "Healthcare.",
+   "part": "1910",
+   "subpart": "U",
+   "subpartTitle": "COVID-19",
+   "name": "healthcare",
+   "slug": "1910-502-healthcare",
+   "phrases": [
+    "osha healthcare requirements",
+    "healthcare checklist",
+    "osha 1910.502"
+   ],
+   "keyword": "osha healthcare requirements",
+   "cluster": [
+    {
+     "keyword": "osha healthcare requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "healthcare checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.502",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA healthcare requirements (29 CFR 1910.502)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.244",
+   "citations": 399,
+   "heading": "Other portable tools and equipment.",
+   "part": "1910",
+   "subpart": "P",
+   "subpartTitle": "Hand and Portable Powered Tools and Other Hand-Held Equipment",
+   "name": "other portable tools and equipment",
+   "slug": "1910-244-other-portable-tools-equipment",
+   "phrases": [
+    "osha other portable tools and equipment requirements",
+    "other portable tools and equipment checklist",
+    "osha 1910.244"
+   ],
+   "keyword": "osha other portable tools and equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha other portable tools and equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "other portable tools and equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.244",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA other portable tools and equipment requirements (29 CFR 1910.244)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.243",
+   "citations": 397,
+   "heading": "Guarding of portable powered tools.",
+   "part": "1910",
+   "subpart": "P",
+   "subpartTitle": "Hand and Portable Powered Tools and Other Hand-Held Equipment",
+   "name": "guarding of portable powered tools",
+   "slug": "1910-243-guarding-portable-powered-tools",
+   "phrases": [
+    "osha guarding of portable powered tools requirements",
+    "guarding of portable powered tools checklist",
+    "osha 1910.243"
+   ],
+   "keyword": "osha guarding of portable powered tools requirements",
+   "cluster": [
+    {
+     "keyword": "osha guarding of portable powered tools requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "guarding of portable powered tools checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.243",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA guarding of portable powered tools requirements (29 CFR 1910.243)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.25",
+   "citations": 391,
+   "heading": "Housekeeping.",
+   "part": "1926",
+   "subpart": "C",
+   "subpartTitle": "General Safety and Health Provisions",
+   "name": "housekeeping",
+   "slug": "1926-25-housekeeping",
+   "phrases": [
+    "osha housekeeping requirements",
+    "housekeeping checklist",
+    "osha 1926.25"
+   ],
+   "keyword": "osha housekeeping requirements",
+   "cluster": [
+    {
+     "keyword": "osha housekeeping requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "housekeeping checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.25",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA housekeeping requirements (29 CFR 1926.25)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.701",
+   "citations": 382,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "Q",
+   "subpartTitle": "Concrete and Masonry Construction",
+   "name": "concrete and masonry construction",
+   "slug": "1926-701-concrete-masonry-construction",
+   "phrases": [
+    "osha concrete and masonry construction requirements",
+    "concrete and masonry construction checklist",
+    "osha 1926.701"
+   ],
+   "keyword": "osha concrete and masonry construction requirements",
+   "cluster": [
+    {
+     "keyword": "osha concrete and masonry construction requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "concrete and masonry construction checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.701",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA concrete and masonry construction requirements (29 CFR 1926.701)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.217",
+   "citations": 376,
+   "heading": "Mechanical power presses.",
+   "part": "1910",
+   "subpart": "O",
+   "subpartTitle": "Machinery and Machine Guarding",
+   "name": "mechanical power presses",
+   "slug": "1910-217-mechanical-power-presses",
+   "phrases": [
+    "osha mechanical power presses requirements",
+    "mechanical power presses checklist",
+    "osha 1910.217"
+   ],
+   "keyword": "osha mechanical power presses requirements",
+   "cluster": [
+    {
+     "keyword": "osha mechanical power presses requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "mechanical power presses checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.217",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA mechanical power presses requirements (29 CFR 1910.217)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.95",
+   "citations": 358,
+   "heading": "Criteria for personal protective equipment.",
+   "part": "1926",
+   "subpart": "E",
+   "subpartTitle": "Personal Protective and Life Saving Equipment",
+   "name": "criteria for personal protective equipment",
+   "slug": "1926-95-criteria-personal-protective-equipment",
+   "phrases": [
+    "osha criteria for personal protective equipment requirements",
+    "criteria for personal protective equipment checklist",
+    "osha 1926.95"
+   ],
+   "keyword": "osha criteria for personal protective equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha criteria for personal protective equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "criteria for personal protective equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.95",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA criteria for personal protective equipment requirements (29 CFR 1926.95)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.67",
+   "citations": 325,
+   "heading": "Vehicle-mounted elevating and rotating work platforms.",
+   "part": "1910",
+   "subpart": "F",
+   "subpartTitle": "Powered Platforms, Manlifts, and Vehicle-Mounted Work Platforms",
+   "name": "vehicle-mounted elevating and rotating work platforms",
+   "slug": "1910-67-vehicle-mounted-elevating-rotating-work",
+   "phrases": [
+    "osha vehicle-mounted elevating and rotating work platforms requirements",
+    "vehicle-mounted elevating and rotating work platforms checklist",
+    "osha 1910.67"
+   ],
+   "keyword": "osha vehicle-mounted elevating and rotating work platforms requirements",
+   "cluster": [
+    {
+     "keyword": "osha vehicle-mounted elevating and rotating work platforms requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "vehicle-mounted elevating and rotating work platforms checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.67",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA vehicle-mounted elevating and rotating work platforms requirements (29 CFR 1910.67)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.760",
+   "citations": 299,
+   "heading": "Fall protection.",
+   "part": "1926",
+   "subpart": "R",
+   "subpartTitle": "Steel Erection",
+   "name": "fall protection",
+   "slug": "1926-760-fall-protection",
+   "phrases": [
+    "osha fall protection requirements",
+    "fall protection checklist",
+    "osha 1926.760"
+   ],
+   "keyword": "osha fall protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha fall protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.760",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fall protection requirements (29 CFR 1926.760)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.145",
+   "citations": 286,
+   "heading": "Specifications for accident prevention signs and tags.",
+   "part": "1910",
+   "subpart": "J",
+   "subpartTitle": "General Environmental Controls",
+   "name": "specifications for accident prevention signs and tags",
+   "slug": "1910-145-specifications-accident-prevention-signs-tags",
+   "phrases": [
+    "osha specifications for accident prevention signs and tags requirements",
+    "specifications for accident prevention signs and tags checklist",
+    "osha 1910.145"
+   ],
+   "keyword": "osha specifications for accident prevention signs and tags requirements",
+   "cluster": [
+    {
+     "keyword": "osha specifications for accident prevention signs and tags requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "specifications for accident prevention signs and tags checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.145",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA specifications for accident prevention signs and tags requirements (29 CFR 1910.145)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1000",
+   "citations": 282,
+   "heading": "Air contaminants.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "air contaminants",
+   "slug": "1910-1000-air-contaminants",
+   "phrases": [
+    "osha air contaminants requirements",
+    "air contaminants checklist",
+    "osha 1910.1000"
+   ],
+   "keyword": "osha air contaminants requirements",
+   "cluster": [
+    {
+     "keyword": "osha air contaminants requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "air contaminants checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1000",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA air contaminants requirements (29 CFR 1910.1000)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": "",
+   "guides": [
+    "Permissible Exposure Limits (PEL): OSHA Limits Explained"
+   ]
+  },
+  {
+   "section": "1926.304",
+   "citations": 277,
+   "heading": "Woodworking tools.",
+   "part": "1926",
+   "subpart": "I",
+   "subpartTitle": "Tools—Hand and Power",
+   "name": "woodworking tools",
+   "slug": "1926-304-woodworking-tools",
+   "phrases": [
+    "osha woodworking tools requirements",
+    "woodworking tools checklist",
+    "osha 1926.304"
+   ],
+   "keyword": "osha woodworking tools requirements",
+   "cluster": [
+    {
+     "keyword": "osha woodworking tools requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "woodworking tools checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.304",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA woodworking tools requirements (29 CFR 1926.304)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.266",
+   "citations": 271,
+   "heading": "Logging operations.",
+   "part": "1910",
+   "subpart": "R",
+   "subpartTitle": "Special Industries",
+   "name": "logging operations",
+   "slug": "1910-266-logging-operations",
+   "phrases": [
+    "osha logging operations requirements",
+    "logging operations checklist",
+    "osha 1910.266"
+   ],
+   "keyword": "osha logging operations requirements",
+   "cluster": [
+    {
+     "keyword": "osha logging operations requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "logging operations checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.266",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA logging operations requirements (29 CFR 1910.266)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.4",
+   "citations": 268,
+   "heading": "Recording criteria.",
+   "part": "1904",
+   "subpart": "C",
+   "subpartTitle": "Recordkeeping Forms and Recording Criteria",
+   "name": "recording criteria",
+   "slug": "1904-4-recording-criteria",
+   "phrases": [
+    "osha recording criteria requirements",
+    "recording criteria checklist",
+    "osha 1904.4"
+   ],
+   "keyword": "osha recording criteria requirements",
+   "cluster": [
+    {
+     "keyword": "osha recording criteria requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "recording criteria checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.4",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA recording criteria requirements (29 CFR 1904.4)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.272",
+   "citations": 264,
+   "heading": "Grain handling facilities.",
+   "part": "1910",
+   "subpart": "R",
+   "subpartTitle": "Special Industries",
+   "name": "grain handling facilities",
+   "slug": "1910-272-grain-handling-facilities",
+   "phrases": [
+    "osha grain handling facilities requirements",
+    "grain handling facilities checklist",
+    "osha 1910.272"
+   ],
+   "keyword": "osha grain handling facilities requirements",
+   "cluster": [
+    {
+     "keyword": "osha grain handling facilities requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "grain handling facilities checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.272",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA grain handling facilities requirements (29 CFR 1910.272)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.335",
+   "citations": 250,
+   "heading": "Safeguards for personnel protection.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "safeguards for personnel protection",
+   "slug": "1910-335-safeguards-personnel-protection",
+   "phrases": [
+    "osha safeguards for personnel protection requirements",
+    "safeguards for personnel protection checklist",
+    "osha 1910.335"
+   ],
+   "keyword": "osha safeguards for personnel protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha safeguards for personnel protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "safeguards for personnel protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.335",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA safeguards for personnel protection requirements (29 CFR 1910.335)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.140",
+   "citations": 246,
+   "heading": "Personal fall protection systems.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "personal fall protection systems",
+   "slug": "1910-140-personal-fall-protection-systems",
+   "phrases": [
+    "osha personal fall protection systems requirements",
+    "personal fall protection systems checklist",
+    "osha 1910.140"
+   ],
+   "keyword": "osha personal fall protection systems requirements",
+   "cluster": [
+    {
+     "keyword": "osha personal fall protection systems requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal fall protection systems checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.140",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA personal fall protection systems requirements (29 CFR 1910.140)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.25",
+   "citations": 236,
+   "heading": "Stairways.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "stairways",
+   "slug": "1910-25-stairways",
+   "phrases": [
+    "osha stairways requirements",
+    "stairways checklist",
+    "osha 1910.25"
+   ],
+   "keyword": "osha stairways requirements",
+   "cluster": [
+    {
+     "keyword": "osha stairways requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "stairways checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.25",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA stairways requirements (29 CFR 1910.25)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.251",
+   "citations": 235,
+   "heading": "Rigging equipment for material handling.",
+   "part": "1926",
+   "subpart": "H",
+   "subpartTitle": "Materials Handling, Storage, Use, and Disposal",
+   "name": "rigging equipment for material handling",
+   "slug": "1926-251-rigging-equipment-material-handling",
+   "phrases": [
+    "osha rigging equipment for material handling requirements",
+    "rigging equipment for material handling checklist",
+    "osha 1926.251"
+   ],
+   "keyword": "osha rigging equipment for material handling requirements",
+   "cluster": [
+    {
+     "keyword": "osha rigging equipment for material handling requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "rigging equipment for material handling checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.251",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA rigging equipment for material handling requirements (29 CFR 1926.251)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.269",
+   "citations": 224,
+   "heading": "Electric power generation, transmission, and distribution.",
+   "part": "1910",
+   "subpart": "R",
+   "subpartTitle": "Special Industries",
+   "name": "electric power generation transmission and distribution",
+   "slug": "1910-269-electric-power-generation-transmission-distribution",
+   "phrases": [
+    "osha electric power generation transmission and distribution requirements",
+    "electric power generation transmission and distribution checklist",
+    "osha 1910.269"
+   ],
+   "keyword": "osha electric power generation transmission and distribution requirements",
+   "cluster": [
+    {
+     "keyword": "osha electric power generation transmission and distribution requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electric power generation transmission and distribution checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.269",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA electric power generation transmission and distribution requirements (29 CFR 1910.269)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1052",
+   "citations": 207,
+   "heading": "Methylene chloride.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "methylene chloride",
+   "slug": "1910-1052-methylene-chloride",
+   "phrases": [
+    "osha methylene chloride requirements",
+    "methylene chloride checklist",
+    "osha 1910.1052"
+   ],
+   "keyword": "osha methylene chloride requirements",
+   "cluster": [
+    {
+     "keyword": "osha methylene chloride requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "methylene chloride checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1052",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA methylene chloride requirements (29 CFR 1910.1052)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.33",
+   "citations": 205,
+   "heading": "Retention and updating.",
+   "part": "1904",
+   "subpart": "D",
+   "subpartTitle": "Other OSHA Injury and Illness Recordkeeping Requirements",
+   "name": "retention and updating",
+   "slug": "1904-33-retention-updating",
+   "phrases": [
+    "osha retention and updating requirements",
+    "retention and updating checklist",
+    "osha 1904.33"
+   ],
+   "keyword": "osha retention and updating requirements",
+   "cluster": [
+    {
+     "keyword": "osha retention and updating requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "retention and updating checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.33",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA retention and updating requirements (29 CFR 1904.33)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.135",
+   "citations": 195,
+   "heading": "Head protection.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "head protection",
+   "slug": "1910-135-head-protection",
+   "phrases": [
+    "osha head protection requirements",
+    "head protection checklist",
+    "osha 1910.135"
+   ],
+   "keyword": "osha head protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha head protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "head protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.135",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA head protection requirements (29 CFR 1910.135)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.332",
+   "citations": 194,
+   "heading": "Training.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "electrical",
+   "slug": "1910-332-training",
+   "phrases": [
+    "osha electrical requirements",
+    "electrical checklist",
+    "osha 1910.332"
+   ],
+   "keyword": "osha electrical requirements",
+   "cluster": [
+    {
+     "keyword": "osha electrical requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.332",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA electrical requirements (29 CFR 1910.332)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.28",
+   "citations": 171,
+   "heading": "Personal protective equipment.",
+   "part": "1926",
+   "subpart": "C",
+   "subpartTitle": "General Safety and Health Provisions",
+   "name": "personal protective equipment",
+   "slug": "1926-28-personal-protective-equipment",
+   "phrases": [
+    "osha personal protective equipment requirements",
+    "personal protective equipment checklist",
+    "osha 1926.28"
+   ],
+   "keyword": "osha personal protective equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha personal protective equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "personal protective equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.28",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA personal protective equipment requirements (29 CFR 1926.28)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.307",
+   "citations": 170,
+   "heading": "Hazardous (classified) locations.",
+   "part": "1910",
+   "subpart": "S",
+   "subpartTitle": "Electrical",
+   "name": "classified",
+   "slug": "1910-307-hazardous-classified-locations",
+   "phrases": [
+    "osha classified requirements",
+    "classified checklist",
+    "osha 1910.307"
+   ],
+   "keyword": "osha classified requirements",
+   "cluster": [
+    {
+     "keyword": "osha classified requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "classified checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.307",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA classified requirements (29 CFR 1910.307)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.200",
+   "citations": 168,
+   "heading": "Accident prevention signs and tags.",
+   "part": "1926",
+   "subpart": "G",
+   "subpartTitle": "Signs, Signals, and Barricades",
+   "name": "accident prevention signs and tags",
+   "slug": "1926-200-accident-prevention-signs-tags",
+   "phrases": [
+    "osha accident prevention signs and tags requirements",
+    "accident prevention signs and tags checklist",
+    "osha 1926.200"
+   ],
+   "keyword": "osha accident prevention signs and tags requirements",
+   "cluster": [
+    {
+     "keyword": "osha accident prevention signs and tags requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "accident prevention signs and tags checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.200",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA accident prevention signs and tags requirements (29 CFR 1926.200)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.51",
+   "citations": 163,
+   "heading": "Sanitation.",
+   "part": "1926",
+   "subpart": "D",
+   "subpartTitle": "Occupational Health and Environmental Controls",
+   "name": "sanitation",
+   "slug": "1926-51-sanitation",
+   "phrases": [
+    "osha sanitation requirements",
+    "sanitation checklist",
+    "osha 1926.51"
+   ],
+   "keyword": "osha sanitation requirements",
+   "cluster": [
+    {
+     "keyword": "osha sanitation requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sanitation checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.51",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA sanitation requirements (29 CFR 1926.51)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.265",
+   "citations": 154,
+   "heading": "Sawmills.",
+   "part": "1910",
+   "subpart": "R",
+   "subpartTitle": "Special Industries",
+   "name": "sawmills",
+   "slug": "1910-265-sawmills",
+   "phrases": [
+    "osha sawmills requirements",
+    "sawmills checklist",
+    "osha 1910.265"
+   ],
+   "keyword": "osha sawmills requirements",
+   "cluster": [
+    {
+     "keyword": "osha sawmills requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "sawmills checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.265",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA sawmills requirements (29 CFR 1910.265)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.30",
+   "citations": 154,
+   "heading": "Multiple business establishments.",
+   "part": "1904",
+   "subpart": "D",
+   "subpartTitle": "Other OSHA Injury and Illness Recordkeeping Requirements",
+   "name": "multiple business establishments",
+   "slug": "1904-30-multiple-business-establishments",
+   "phrases": [
+    "osha multiple business establishments requirements",
+    "multiple business establishments checklist",
+    "osha 1904.30"
+   ],
+   "keyword": "osha multiple business establishments requirements",
+   "cluster": [
+    {
+     "keyword": "osha multiple business establishments requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "multiple business establishments checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.30",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA multiple business establishments requirements (29 CFR 1904.30)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.152",
+   "citations": 147,
+   "heading": "Flammable liquids.",
+   "part": "1926",
+   "subpart": "F",
+   "subpartTitle": "Fire Protection and Prevention",
+   "name": "flammable liquids",
+   "slug": "1926-152-flammable-liquids",
+   "phrases": [
+    "osha flammable liquids requirements",
+    "flammable liquids checklist",
+    "osha 1926.152"
+   ],
+   "keyword": "osha flammable liquids requirements",
+   "cluster": [
+    {
+     "keyword": "osha flammable liquids requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "flammable liquids checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.152",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA flammable liquids requirements (29 CFR 1926.152)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1412",
+   "citations": 146,
+   "heading": "Inspections.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "inspections",
+   "slug": "1926-1412-inspections",
+   "phrases": [
+    "osha inspections requirements",
+    "inspections checklist",
+    "osha 1926.1412"
+   ],
+   "keyword": "osha inspections requirements",
+   "cluster": [
+    {
+     "keyword": "osha inspections requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "inspections checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1412",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA inspections requirements (29 CFR 1926.1412)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.302",
+   "citations": 144,
+   "heading": "Power-operated hand tools.",
+   "part": "1926",
+   "subpart": "I",
+   "subpartTitle": "Tools—Hand and Power",
+   "name": "power-operated hand tools",
+   "slug": "1926-302-power-operated-hand-tools",
+   "phrases": [
+    "osha power-operated hand tools requirements",
+    "power-operated hand tools checklist",
+    "osha 1926.302"
+   ],
+   "keyword": "osha power-operated hand tools requirements",
+   "cluster": [
+    {
+     "keyword": "osha power-operated hand tools requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "power-operated hand tools checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.302",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA power-operated hand tools requirements (29 CFR 1926.302)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1048",
+   "citations": 143,
+   "heading": "Formaldehyde.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "formaldehyde",
+   "slug": "1910-1048-formaldehyde",
+   "phrases": [
+    "osha formaldehyde requirements",
+    "formaldehyde checklist",
+    "osha 1910.1048"
+   ],
+   "keyword": "osha formaldehyde requirements",
+   "cluster": [
+    {
+     "keyword": "osha formaldehyde requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "formaldehyde checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1048",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA formaldehyde requirements (29 CFR 1910.1048)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.136",
+   "citations": 143,
+   "heading": "Foot protection.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "foot protection",
+   "slug": "1910-136-foot-protection",
+   "phrases": [
+    "osha foot protection requirements",
+    "foot protection checklist",
+    "osha 1910.136"
+   ],
+   "keyword": "osha foot protection requirements",
+   "cluster": [
+    {
+     "keyword": "osha foot protection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "foot protection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.136",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA foot protection requirements (29 CFR 1910.136)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1450",
+   "citations": 141,
+   "heading": "Occupational exposure to hazardous chemicals in laboratories.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "occupational exposure to hazardous chemicals in laboratories",
+   "slug": "1910-1450-occupational-exposure-hazardous-chemicals-laboratories",
+   "phrases": [
+    "osha occupational exposure to hazardous chemicals in laboratories requirements",
+    "occupational exposure to hazardous chemicals in laboratories checklist",
+    "osha 1910.1450"
+   ],
+   "keyword": "osha occupational exposure to hazardous chemicals in laboratories requirements",
+   "cluster": [
+    {
+     "keyword": "osha occupational exposure to hazardous chemicals in laboratories requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "occupational exposure to hazardous chemicals in laboratories checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1450",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA occupational exposure to hazardous chemicals in laboratories requirements (29 CFR 1910.1450)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.142",
+   "citations": 128,
+   "heading": "Temporary labor camps.",
+   "part": "1910",
+   "subpart": "J",
+   "subpartTitle": "General Environmental Controls",
+   "name": "temporary labor camps",
+   "slug": "1910-142-temporary-labor-camps",
+   "phrases": [
+    "osha temporary labor camps requirements",
+    "temporary labor camps checklist",
+    "osha 1910.142"
+   ],
+   "keyword": "osha temporary labor camps requirements",
+   "cluster": [
+    {
+     "keyword": "osha temporary labor camps requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "temporary labor camps checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.142",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA temporary labor camps requirements (29 CFR 1910.142)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1427",
+   "citations": 125,
+   "heading": "Operator training, certification, and evaluation.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "operator training certification and evaluation",
+   "slug": "1926-1427-operator-training-certification-evaluation",
+   "phrases": [
+    "osha operator training certification and evaluation requirements",
+    "operator training certification and evaluation checklist",
+    "osha 1926.1427"
+   ],
+   "keyword": "osha operator training certification and evaluation requirements",
+   "cluster": [
+    {
+     "keyword": "osha operator training certification and evaluation requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "operator training certification and evaluation checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1427",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA operator training certification and evaluation requirements (29 CFR 1926.1427)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.177",
+   "citations": 124,
+   "heading": "Servicing multi-piece and single piece rim wheels.",
+   "part": "1910",
+   "subpart": "N",
+   "subpartTitle": "Materials Handling and Storage",
+   "name": "servicing multi-piece and single piece rim wheels",
+   "slug": "1910-177-servicing-multi-piece-single-piece",
+   "phrases": [
+    "osha servicing multi-piece and single piece rim wheels requirements",
+    "servicing multi-piece and single piece rim wheels checklist",
+    "osha 1910.177"
+   ],
+   "keyword": "osha servicing multi-piece and single piece rim wheels requirements",
+   "cluster": [
+    {
+     "keyword": "osha servicing multi-piece and single piece rim wheels requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "servicing multi-piece and single piece rim wheels checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.177",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA servicing multi-piece and single piece rim wheels requirements (29 CFR 1910.177)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1928.57",
+   "citations": 120,
+   "heading": "Guarding of farm field equipment, farmstead equipment, and cotton gins.",
+   "part": "1928",
+   "subpart": "D",
+   "subpartTitle": "Safety for Agricultural Equipment",
+   "name": "guarding of farm field equipment farmstead equipment and cotton gins",
+   "slug": "1928-57-guarding-farm-field-equipment-farmstead",
+   "phrases": [
+    "osha guarding of farm field equipment farmstead equipment and cotton gins requirements",
+    "guarding of farm field equipment farmstead equipment and cotton gins checklist",
+    "osha 1928.57"
+   ],
+   "keyword": "osha guarding of farm field equipment farmstead equipment and cotton gins requirements",
+   "cluster": [
+    {
+     "keyword": "osha guarding of farm field equipment farmstead equipment and cotton gins requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "guarding of farm field equipment farmstead equipment and cotton gins checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1928.57",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA guarding of farm field equipment farmstead equipment and cotton gins requirements (29 CFR 1928.57)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1203",
+   "citations": 120,
+   "heading": "General requirements.",
+   "part": "1926",
+   "subpart": "AA",
+   "subpartTitle": "Confined Spaces in Construction",
+   "name": "confined spaces in construction",
+   "slug": "1926-1203-confined-spaces-construction",
+   "phrases": [
+    "osha confined spaces in construction requirements",
+    "confined spaces in construction checklist",
+    "osha 1926.1203"
+   ],
+   "keyword": "osha confined spaces in construction requirements",
+   "cluster": [
+    {
+     "keyword": "osha confined spaces in construction requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "confined spaces in construction checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1203",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA confined spaces in construction requirements (29 CFR 1926.1203)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.850",
+   "citations": 110,
+   "heading": "Preparatory operations.",
+   "part": "1926",
+   "subpart": "T",
+   "subpartTitle": "Demolition",
+   "name": "preparatory operations",
+   "slug": "1926-850-preparatory-operations",
+   "phrases": [
+    "osha preparatory operations requirements",
+    "preparatory operations checklist",
+    "osha 1926.850"
+   ],
+   "keyword": "osha preparatory operations requirements",
+   "cluster": [
+    {
+     "keyword": "osha preparatory operations requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "preparatory operations checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.850",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA preparatory operations requirements (29 CFR 1926.850)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.7",
+   "citations": 110,
+   "heading": "General recording criteria.",
+   "part": "1904",
+   "subpart": "C",
+   "subpartTitle": "Recordkeeping Forms and Recording Criteria",
+   "name": "general recording criteria",
+   "slug": "1904-7-recording-criteria",
+   "phrases": [
+    "osha general recording criteria requirements",
+    "general recording criteria checklist",
+    "osha 1904.7"
+   ],
+   "keyword": "osha general recording criteria requirements",
+   "cluster": [
+    {
+     "keyword": "osha general recording criteria requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "general recording criteria checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.7",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA general recording criteria requirements (29 CFR 1904.7)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.552",
+   "citations": 106,
+   "heading": "Material hoists, personnel hoists, and elevators.",
+   "part": "1926",
+   "subpart": "N",
+   "subpartTitle": "Helicopters, Hoists, Elevators, and Conveyors",
+   "name": "material hoists personnel hoists and elevators",
+   "slug": "1926-552-material-hoists-personnel-hoists-elevators",
+   "phrases": [
+    "osha material hoists personnel hoists and elevators requirements",
+    "material hoists personnel hoists and elevators checklist",
+    "osha 1926.552"
+   ],
+   "keyword": "osha material hoists personnel hoists and elevators requirements",
+   "cluster": [
+    {
+     "keyword": "osha material hoists personnel hoists and elevators requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "material hoists personnel hoists and elevators checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.552",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA material hoists personnel hoists and elevators requirements (29 CFR 1926.552)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.254",
+   "citations": 105,
+   "heading": "Arc welding and cutting.",
+   "part": "1910",
+   "subpart": "Q",
+   "subpartTitle": "Welding, Cutting and Brazing",
+   "name": "arc welding and cutting",
+   "slug": "1910-254-arc-welding-cutting",
+   "phrases": [
+    "osha arc welding and cutting requirements",
+    "arc welding and cutting checklist",
+    "osha 1910.254"
+   ],
+   "keyword": "osha arc welding and cutting requirements",
+   "cluster": [
+    {
+     "keyword": "osha arc welding and cutting requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "arc welding and cutting checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.254",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA arc welding and cutting requirements (29 CFR 1910.254)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.263",
+   "citations": 102,
+   "heading": "Bakery equipment.",
+   "part": "1910",
+   "subpart": "R",
+   "subpartTitle": "Special Industries",
+   "name": "bakery equipment",
+   "slug": "1910-263-bakery-equipment",
+   "phrases": [
+    "osha bakery equipment requirements",
+    "bakery equipment checklist",
+    "osha 1910.263"
+   ],
+   "keyword": "osha bakery equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha bakery equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "bakery equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.263",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA bakery equipment requirements (29 CFR 1910.263)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.303",
+   "citations": 101,
+   "heading": "Abrasive wheels and tools.",
+   "part": "1926",
+   "subpart": "I",
+   "subpartTitle": "Tools—Hand and Power",
+   "name": "abrasive wheels and tools",
+   "slug": "1926-303-abrasive-wheels-tools",
+   "phrases": [
+    "osha abrasive wheels and tools requirements",
+    "abrasive wheels and tools checklist",
+    "osha 1926.303"
+   ],
+   "keyword": "osha abrasive wheels and tools requirements",
+   "cluster": [
+    {
+     "keyword": "osha abrasive wheels and tools requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "abrasive wheels and tools checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.303",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA abrasive wheels and tools requirements (29 CFR 1926.303)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.180",
+   "citations": 94,
+   "heading": "Crawler locomotive and truck cranes.",
+   "part": "1910",
+   "subpart": "N",
+   "subpartTitle": "Materials Handling and Storage",
+   "name": "crawler locomotive and truck cranes",
+   "slug": "1910-180-crawler-locomotive-truck-cranes",
+   "phrases": [
+    "osha crawler locomotive and truck cranes requirements",
+    "crawler locomotive and truck cranes checklist",
+    "osha 1910.180"
+   ],
+   "keyword": "osha crawler locomotive and truck cranes requirements",
+   "cluster": [
+    {
+     "keyword": "osha crawler locomotive and truck cranes requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "crawler locomotive and truck cranes checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.180",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA crawler locomotive and truck cranes requirements (29 CFR 1910.180)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.761",
+   "citations": 93,
+   "heading": "Training.",
+   "part": "1926",
+   "subpart": "R",
+   "subpartTitle": "Steel Erection",
+   "name": "steel erection",
+   "slug": "1926-761-training",
+   "phrases": [
+    "osha steel erection requirements",
+    "steel erection checklist",
+    "osha 1926.761"
+   ],
+   "keyword": "osha steel erection requirements",
+   "cluster": [
+    {
+     "keyword": "osha steel erection requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "steel erection checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.761",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA steel erection requirements (29 CFR 1926.761)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1425",
+   "citations": 91,
+   "heading": "Keeping clear of the load.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "keeping clear of the load",
+   "slug": "1926-1425-keeping-clear-load",
+   "phrases": [
+    "osha keeping clear of the load requirements",
+    "keeping clear of the load checklist",
+    "osha 1926.1425"
+   ],
+   "keyword": "osha keeping clear of the load requirements",
+   "cluster": [
+    {
+     "keyword": "osha keeping clear of the load requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "keeping clear of the load checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1425",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA keeping clear of the load requirements (29 CFR 1926.1425)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.165",
+   "citations": 84,
+   "heading": "Employee alarm systems.",
+   "part": "1910",
+   "subpart": "L",
+   "subpartTitle": "Fire Protection",
+   "name": "employee alarm systems",
+   "slug": "1910-165-employee-alarm-systems",
+   "phrases": [
+    "osha employee alarm systems requirements",
+    "employee alarm systems checklist",
+    "osha 1910.165"
+   ],
+   "keyword": "osha employee alarm systems requirements",
+   "cluster": [
+    {
+     "keyword": "osha employee alarm systems requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "employee alarm systems checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.165",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA employee alarm systems requirements (29 CFR 1910.165)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.94",
+   "citations": 84,
+   "heading": "Ventilation.",
+   "part": "1910",
+   "subpart": "G",
+   "subpartTitle": "Occupational Health and Environmental Control",
+   "name": "ventilation",
+   "slug": "1910-94-ventilation",
+   "phrases": [
+    "osha ventilation requirements",
+    "ventilation checklist",
+    "osha 1910.94"
+   ],
+   "keyword": "osha ventilation requirements",
+   "cluster": [
+    {
+     "keyword": "osha ventilation requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "ventilation checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.94",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA ventilation requirements (29 CFR 1910.94)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.39",
+   "citations": 83,
+   "heading": "Fire prevention plans.",
+   "part": "1910",
+   "subpart": "E",
+   "subpartTitle": "Exit Routes and Emergency Planning",
+   "name": "fire prevention plans",
+   "slug": "1910-39-fire-prevention-plans",
+   "phrases": [
+    "osha fire prevention plans requirements",
+    "fire prevention plans checklist",
+    "osha 1910.39"
+   ],
+   "keyword": "osha fire prevention plans requirements",
+   "cluster": [
+    {
+     "keyword": "osha fire prevention plans requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fire prevention plans checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.39",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fire prevention plans requirements (29 CFR 1910.39)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1027",
+   "citations": 79,
+   "heading": "Cadmium.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "cadmium",
+   "slug": "1910-1027-cadmium",
+   "phrases": [
+    "osha cadmium requirements",
+    "cadmium checklist",
+    "osha 1910.1027"
+   ],
+   "keyword": "osha cadmium requirements",
+   "cluster": [
+    {
+     "keyword": "osha cadmium requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "cadmium checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1027",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA cadmium requirements (29 CFR 1910.1027)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.27",
+   "citations": 75,
+   "heading": "Scaffolds and rope descent systems.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "scaffolds and rope descent systems",
+   "slug": "1910-27-scaffolds-rope-descent-systems",
+   "phrases": [
+    "osha scaffolds and rope descent systems requirements",
+    "scaffolds and rope descent systems checklist",
+    "osha 1910.27"
+   ],
+   "keyword": "osha scaffolds and rope descent systems requirements",
+   "cluster": [
+    {
+     "keyword": "osha scaffolds and rope descent systems requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "scaffolds and rope descent systems checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.27",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA scaffolds and rope descent systems requirements (29 CFR 1910.27)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.34",
+   "citations": 75,
+   "heading": "Means of egress.",
+   "part": "1926",
+   "subpart": "C",
+   "subpartTitle": "General Safety and Health Provisions",
+   "name": "means of egress",
+   "slug": "1926-34-means-egress",
+   "phrases": [
+    "osha means of egress requirements",
+    "means of egress checklist",
+    "osha 1926.34"
+   ],
+   "keyword": "osha means of egress requirements",
+   "cluster": [
+    {
+     "keyword": "osha means of egress requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "means of egress checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.34",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA means of egress requirements (29 CFR 1926.34)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.350",
+   "citations": 73,
+   "heading": "Gas welding and cutting.",
+   "part": "1926",
+   "subpart": "J",
+   "subpartTitle": "Welding and Cutting",
+   "name": "gas welding and cutting",
+   "slug": "1926-350-gas-welding-cutting",
+   "phrases": [
+    "osha gas welding and cutting requirements",
+    "gas welding and cutting checklist",
+    "osha 1926.350"
+   ],
+   "keyword": "osha gas welding and cutting requirements",
+   "cluster": [
+    {
+     "keyword": "osha gas welding and cutting requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "gas welding and cutting checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.350",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA gas welding and cutting requirements (29 CFR 1926.350)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.153",
+   "citations": 73,
+   "heading": "Liquefied petroleum gas (LP-Gas).",
+   "part": "1926",
+   "subpart": "F",
+   "subpartTitle": "Fire Protection and Prevention",
+   "name": "lp-gas",
+   "slug": "1926-153-liquefied-petroleum-gas-lp-gas",
+   "phrases": [
+    "osha lp-gas requirements",
+    "lp-gas checklist",
+    "osha 1926.153"
+   ],
+   "keyword": "osha lp-gas requirements",
+   "cluster": [
+    {
+     "keyword": "osha lp-gas requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lp-gas checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.153",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA lp-gas requirements (29 CFR 1926.153)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1417",
+   "citations": 68,
+   "heading": "Operation.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "operation",
+   "slug": "1926-1417-operation",
+   "phrases": [
+    "osha operation requirements",
+    "operation checklist",
+    "osha 1926.1417"
+   ],
+   "keyword": "osha operation requirements",
+   "cluster": [
+    {
+     "keyword": "osha operation requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "operation checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1417",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA operation requirements (29 CFR 1926.1417)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.106",
+   "citations": 66,
+   "heading": "Working over or near water.",
+   "part": "1926",
+   "subpart": "E",
+   "subpartTitle": "Personal Protective and Life Saving Equipment",
+   "name": "working over or near water",
+   "slug": "1926-106-working-over-or-near-water",
+   "phrases": [
+    "osha working over or near water requirements",
+    "working over or near water checklist",
+    "osha 1926.106"
+   ],
+   "keyword": "osha working over or near water requirements",
+   "cluster": [
+    {
+     "keyword": "osha working over or near water requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "working over or near water checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.106",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA working over or near water requirements (29 CFR 1926.106)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1020",
+   "citations": 61,
+   "heading": "Access to employee exposure and medical records.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "access to employee exposure and medical records",
+   "slug": "1910-1020-access-employee-exposure-medical-records",
+   "phrases": [
+    "osha access to employee exposure and medical records requirements",
+    "access to employee exposure and medical records checklist",
+    "osha 1910.1020"
+   ],
+   "keyword": "osha access to employee exposure and medical records requirements",
+   "cluster": [
+    {
+     "keyword": "osha access to employee exposure and medical records requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "access to employee exposure and medical records checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1020",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA access to employee exposure and medical records requirements (29 CFR 1910.1020)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1428",
+   "citations": 60,
+   "heading": "Signal person qualifications.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "signal person qualifications",
+   "slug": "1926-1428-signal-person-qualifications",
+   "phrases": [
+    "osha signal person qualifications requirements",
+    "signal person qualifications checklist",
+    "osha 1926.1428"
+   ],
+   "keyword": "osha signal person qualifications requirements",
+   "cluster": [
+    {
+     "keyword": "osha signal person qualifications requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "signal person qualifications checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1428",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA signal person qualifications requirements (29 CFR 1926.1428)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1204",
+   "citations": 60,
+   "heading": "Permit-required confined space program.",
+   "part": "1926",
+   "subpart": "AA",
+   "subpartTitle": "Confined Spaces in Construction",
+   "name": "permit-required confined space program",
+   "slug": "1926-1204-permit-required-confined-space-program",
+   "phrases": [
+    "osha permit-required confined space program requirements",
+    "permit-required confined space program checklist",
+    "osha 1926.1204"
+   ],
+   "keyword": "osha permit-required confined space program requirements",
+   "cluster": [
+    {
+     "keyword": "osha permit-required confined space program requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "permit-required confined space program checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1204",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA permit-required confined space program requirements (29 CFR 1926.1204)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.417",
+   "citations": 58,
+   "heading": "Lockout and tagging of circuits.",
+   "part": "1926",
+   "subpart": "K",
+   "subpartTitle": "Electrical",
+   "name": "lockout and tagging of circuits",
+   "slug": "1926-417-lockout-tagging-circuits",
+   "phrases": [
+    "osha lockout and tagging of circuits requirements",
+    "lockout and tagging of circuits checklist",
+    "osha 1926.417"
+   ],
+   "keyword": "osha lockout and tagging of circuits requirements",
+   "cluster": [
+    {
+     "keyword": "osha lockout and tagging of circuits requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "lockout and tagging of circuits checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.417",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA lockout and tagging of circuits requirements (29 CFR 1926.417)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.268",
+   "citations": 57,
+   "heading": "Telecommunications.",
+   "part": "1910",
+   "subpart": "R",
+   "subpartTitle": "Special Industries",
+   "name": "telecommunications",
+   "slug": "1910-268-telecommunications",
+   "phrases": [
+    "osha telecommunications requirements",
+    "telecommunications checklist",
+    "osha 1910.268"
+   ],
+   "keyword": "osha telecommunications requirements",
+   "cluster": [
+    {
+     "keyword": "osha telecommunications requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "telecommunications checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.268",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA telecommunications requirements (29 CFR 1910.268)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.601",
+   "citations": 57,
+   "heading": "Motor vehicles.",
+   "part": "1926",
+   "subpart": "O",
+   "subpartTitle": "Motor Vehicles, Mechanized Equipment, and Marine Operations",
+   "name": "motor vehicles",
+   "slug": "1926-601-motor-vehicles",
+   "phrases": [
+    "osha motor vehicles requirements",
+    "motor vehicles checklist",
+    "osha 1926.601"
+   ],
+   "keyword": "osha motor vehicles requirements",
+   "cluster": [
+    {
+     "keyword": "osha motor vehicles requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "motor vehicles checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.601",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA motor vehicles requirements (29 CFR 1926.601)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.159",
+   "citations": 54,
+   "heading": "Automatic sprinkler systems.",
+   "part": "1910",
+   "subpart": "L",
+   "subpartTitle": "Fire Protection",
+   "name": "automatic sprinkler systems",
+   "slug": "1910-159-automatic-sprinkler-systems",
+   "phrases": [
+    "osha automatic sprinkler systems requirements",
+    "automatic sprinkler systems checklist",
+    "osha 1910.159"
+   ],
+   "keyword": "osha automatic sprinkler systems requirements",
+   "cluster": [
+    {
+     "keyword": "osha automatic sprinkler systems requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "automatic sprinkler systems checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.159",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA automatic sprinkler systems requirements (29 CFR 1910.159)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.59",
+   "citations": 52,
+   "heading": "Hazard communication.",
+   "part": "1926",
+   "subpart": "D",
+   "subpartTitle": "Occupational Health and Environmental Controls",
+   "name": "hazard communication",
+   "slug": "1926-59-hazard-communication",
+   "phrases": [
+    "osha hazard communication requirements",
+    "hazard communication checklist",
+    "osha 1926.59"
+   ],
+   "keyword": "osha hazard communication requirements",
+   "cluster": [
+    {
+     "keyword": "osha hazard communication requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hazard communication checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.59",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hazard communication requirements (29 CFR 1926.59)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1408",
+   "citations": 52,
+   "heading": "Power line safety (up to 350 kV)—equipment operations.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "power line safety up to 350 kvequipment operations",
+   "slug": "1926-1408-power-line-safety-up-350",
+   "phrases": [
+    "osha power line safety up to 350 kvequipment operations requirements",
+    "power line safety up to 350 kvequipment operations checklist",
+    "osha 1926.1408"
+   ],
+   "keyword": "osha power line safety up to 350 kvequipment operations requirements",
+   "cluster": [
+    {
+     "keyword": "osha power line safety up to 350 kvequipment operations requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "power line safety up to 350 kvequipment operations checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1408",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA power line safety up to 350 kvequipment operations requirements (29 CFR 1926.1408)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.1",
+   "citations": 50,
+   "heading": "Partial exemption for employers with 10 or fewer employees.",
+   "part": "1904",
+   "subpart": "B",
+   "subpartTitle": "Scope",
+   "name": "partial exemption for employers with 10 or fewer employees",
+   "slug": "1904-1-partial-exemption-employers-10-or",
+   "phrases": [
+    "osha partial exemption for employers with 10 or fewer employees requirements",
+    "partial exemption for employers with 10 or fewer employees checklist",
+    "osha 1904.1"
+   ],
+   "keyword": "osha partial exemption for employers with 10 or fewer employees requirements",
+   "cluster": [
+    {
+     "keyword": "osha partial exemption for employers with 10 or fewer employees requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "partial exemption for employers with 10 or fewer employees checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.1",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA partial exemption for employers with 10 or fewer employees requirements (29 CFR 1904.1)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.600",
+   "citations": 48,
+   "heading": "Equipment.",
+   "part": "1926",
+   "subpart": "O",
+   "subpartTitle": "Motor Vehicles, Mechanized Equipment, and Marine Operations",
+   "name": "equipment",
+   "slug": "1926-600-equipment",
+   "phrases": [
+    "osha equipment requirements",
+    "equipment checklist",
+    "osha 1926.600"
+   ],
+   "keyword": "osha equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.600",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA equipment requirements (29 CFR 1926.600)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.960",
+   "citations": 48,
+   "heading": "Working on or near exposed energized parts.",
+   "part": "1926",
+   "subpart": "V",
+   "subpartTitle": "Electric Power Transmission and Distribution",
+   "name": "working on or near exposed energized parts",
+   "slug": "1926-960-working-or-near-exposed-energized",
+   "phrases": [
+    "osha working on or near exposed energized parts requirements",
+    "working on or near exposed energized parts checklist",
+    "osha 1926.960"
+   ],
+   "keyword": "osha working on or near exposed energized parts requirements",
+   "cluster": [
+    {
+     "keyword": "osha working on or near exposed energized parts requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "working on or near exposed energized parts checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.960",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA working on or near exposed energized parts requirements (29 CFR 1926.960)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1431",
+   "citations": 47,
+   "heading": "Hoisting personnel.",
+   "part": "1926",
+   "subpart": "CC",
+   "subpartTitle": "Cranes and Derricks in Construction",
+   "name": "hoisting personnel",
+   "slug": "1926-1431-hoisting-personnel",
+   "phrases": [
+    "osha hoisting personnel requirements",
+    "hoisting personnel checklist",
+    "osha 1926.1431"
+   ],
+   "keyword": "osha hoisting personnel requirements",
+   "cluster": [
+    {
+     "keyword": "osha hoisting personnel requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "hoisting personnel checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1431",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA hoisting personnel requirements (29 CFR 1926.1431)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1917.112",
+   "citations": 45,
+   "heading": "Guarding of edges.",
+   "part": "1917",
+   "subpart": "F",
+   "subpartTitle": "Terminal Facilities",
+   "name": "guarding of edges",
+   "slug": "1917-112-guarding-edges",
+   "phrases": [
+    "osha guarding of edges requirements",
+    "guarding of edges checklist",
+    "osha 1917.112"
+   ],
+   "keyword": "osha guarding of edges requirements",
+   "cluster": [
+    {
+     "keyword": "osha guarding of edges requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "guarding of edges checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1917.112",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA guarding of edges requirements (29 CFR 1917.112)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.252",
+   "citations": 45,
+   "heading": "Disposal of waste materials.",
+   "part": "1926",
+   "subpart": "H",
+   "subpartTitle": "Materials Handling, Storage, Use, and Disposal",
+   "name": "disposal of waste materials",
+   "slug": "1926-252-disposal-waste-materials",
+   "phrases": [
+    "osha disposal of waste materials requirements",
+    "disposal of waste materials checklist",
+    "osha 1926.252"
+   ],
+   "keyword": "osha disposal of waste materials requirements",
+   "cluster": [
+    {
+     "keyword": "osha disposal of waste materials requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "disposal of waste materials checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.252",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA disposal of waste materials requirements (29 CFR 1926.252)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.351",
+   "citations": 45,
+   "heading": "Arc welding and cutting.",
+   "part": "1926",
+   "subpart": "J",
+   "subpartTitle": "Welding and Cutting",
+   "name": "arc welding and cutting",
+   "slug": "1926-351-arc-welding-cutting",
+   "phrases": [
+    "osha arc welding and cutting requirements",
+    "arc welding and cutting checklist",
+    "osha 1926.351"
+   ],
+   "keyword": "osha arc welding and cutting requirements",
+   "cluster": [
+    {
+     "keyword": "osha arc welding and cutting requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "arc welding and cutting checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.351",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA arc welding and cutting requirements (29 CFR 1926.351)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.144",
+   "citations": 44,
+   "heading": "Safety color code for marking physical hazards.",
+   "part": "1910",
+   "subpart": "J",
+   "subpartTitle": "General Environmental Controls",
+   "name": "safety color code for marking physical hazards",
+   "slug": "1910-144-safety-color-code-marking-physical",
+   "phrases": [
+    "osha safety color code for marking physical hazards requirements",
+    "safety color code for marking physical hazards checklist",
+    "osha 1910.144"
+   ],
+   "keyword": "osha safety color code for marking physical hazards requirements",
+   "cluster": [
+    {
+     "keyword": "osha safety color code for marking physical hazards requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "safety color code for marking physical hazards checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.144",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA safety color code for marking physical hazards requirements (29 CFR 1910.144)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.306",
+   "citations": 44,
+   "heading": "Air receivers.",
+   "part": "1926",
+   "subpart": "I",
+   "subpartTitle": "Tools—Hand and Power",
+   "name": "air receivers",
+   "slug": "1926-306-air-receivers",
+   "phrases": [
+    "osha air receivers requirements",
+    "air receivers checklist",
+    "osha 1926.306"
+   ],
+   "keyword": "osha air receivers requirements",
+   "cluster": [
+    {
+     "keyword": "osha air receivers requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "air receivers checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.306",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA air receivers requirements (29 CFR 1926.306)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1018",
+   "citations": 43,
+   "heading": "Inorganic arsenic.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "inorganic arsenic",
+   "slug": "1910-1018-inorganic-arsenic",
+   "phrases": [
+    "osha inorganic arsenic requirements",
+    "inorganic arsenic checklist",
+    "osha 1910.1018"
+   ],
+   "keyword": "osha inorganic arsenic requirements",
+   "cluster": [
+    {
+     "keyword": "osha inorganic arsenic requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "inorganic arsenic checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1018",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA inorganic arsenic requirements (29 CFR 1910.1018)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1904.31",
+   "citations": 43,
+   "heading": "Covered employees.",
+   "part": "1904",
+   "subpart": "D",
+   "subpartTitle": "Other OSHA Injury and Illness Recordkeeping Requirements",
+   "name": "covered employees",
+   "slug": "1904-31-covered-employees",
+   "phrases": [
+    "osha covered employees requirements",
+    "covered employees checklist",
+    "osha 1904.31"
+   ],
+   "keyword": "osha covered employees requirements",
+   "cluster": [
+    {
+     "keyword": "osha covered employees requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "covered employees checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1904.31",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA covered employees requirements (29 CFR 1904.31)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1207",
+   "citations": 42,
+   "heading": "Training.",
+   "part": "1926",
+   "subpart": "AA",
+   "subpartTitle": "Confined Spaces in Construction",
+   "name": "confined spaces in construction",
+   "slug": "1926-1207-training",
+   "phrases": [
+    "osha confined spaces in construction requirements",
+    "confined spaces in construction checklist",
+    "osha 1926.1207"
+   ],
+   "keyword": "osha confined spaces in construction requirements",
+   "cluster": [
+    {
+     "keyword": "osha confined spaces in construction requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "confined spaces in construction checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1207",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA confined spaces in construction requirements (29 CFR 1926.1207)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.307",
+   "citations": 41,
+   "heading": "Mechanical power-transmission apparatus.",
+   "part": "1926",
+   "subpart": "I",
+   "subpartTitle": "Tools—Hand and Power",
+   "name": "mechanical power-transmission apparatus",
+   "slug": "1926-307-mechanical-power-transmission-apparatus",
+   "phrases": [
+    "osha mechanical power-transmission apparatus requirements",
+    "mechanical power-transmission apparatus checklist",
+    "osha 1926.307"
+   ],
+   "keyword": "osha mechanical power-transmission apparatus requirements",
+   "cluster": [
+    {
+     "keyword": "osha mechanical power-transmission apparatus requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "mechanical power-transmission apparatus checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.307",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA mechanical power-transmission apparatus requirements (29 CFR 1926.307)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.124",
+   "citations": 39,
+   "heading": "General requirements for dipping and coating operations.",
+   "part": "1910",
+   "subpart": "H",
+   "subpartTitle": "Hazardous Materials",
+   "name": "dipping and coating operations",
+   "slug": "1910-124-hazardous-materials-dipping-coating-operations",
+   "phrases": [
+    "osha dipping and coating operations requirements",
+    "dipping and coating operations checklist",
+    "osha 1910.124"
+   ],
+   "keyword": "osha dipping and coating operations requirements",
+   "cluster": [
+    {
+     "keyword": "osha dipping and coating operations requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "dipping and coating operations checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.124",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA dipping and coating operations requirements (29 CFR 1910.124)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.9",
+   "citations": 39,
+   "heading": "Compliance duties owed to each employee.",
+   "part": "1910",
+   "subpart": "A",
+   "subpartTitle": "General",
+   "name": "compliance duties owed to each employee",
+   "slug": "1910-9-compliance-duties-owed-each-employee",
+   "phrases": [
+    "osha compliance duties owed to each employee requirements",
+    "compliance duties owed to each employee checklist",
+    "osha 1910.9"
+   ],
+   "keyword": "osha compliance duties owed to each employee requirements",
+   "cluster": [
+    {
+     "keyword": "osha compliance duties owed to each employee requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "compliance duties owed to each employee checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.9",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA compliance duties owed to each employee requirements (29 CFR 1910.9)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.55",
+   "citations": 39,
+   "heading": "Gases, vapors, fumes, dusts, and mists.",
+   "part": "1926",
+   "subpart": "D",
+   "subpartTitle": "Occupational Health and Environmental Controls",
+   "name": "gases vapors fumes dusts and mists",
+   "slug": "1926-55-gases-vapors-fumes-dusts-mists",
+   "phrases": [
+    "osha gases vapors fumes dusts and mists requirements",
+    "gases vapors fumes dusts and mists checklist",
+    "osha 1926.55"
+   ],
+   "keyword": "osha gases vapors fumes dusts and mists requirements",
+   "cluster": [
+    {
+     "keyword": "osha gases vapors fumes dusts and mists requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "gases vapors fumes dusts and mists checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.55",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA gases vapors fumes dusts and mists requirements (29 CFR 1926.55)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.352",
+   "citations": 38,
+   "heading": "Fire prevention.",
+   "part": "1926",
+   "subpart": "J",
+   "subpartTitle": "Welding and Cutting",
+   "name": "fire prevention",
+   "slug": "1926-352-fire-prevention",
+   "phrases": [
+    "osha fire prevention requirements",
+    "fire prevention checklist",
+    "osha 1926.352"
+   ],
+   "keyword": "osha fire prevention requirements",
+   "cluster": [
+    {
+     "keyword": "osha fire prevention requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fire prevention checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.352",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA fire prevention requirements (29 CFR 1926.352)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.201",
+   "citations": 38,
+   "heading": "Signaling.",
+   "part": "1926",
+   "subpart": "G",
+   "subpartTitle": "Signs, Signals, and Barricades",
+   "name": "signaling",
+   "slug": "1926-201-signaling",
+   "phrases": [
+    "osha signaling requirements",
+    "signaling checklist",
+    "osha 1926.201"
+   ],
+   "keyword": "osha signaling requirements",
+   "cluster": [
+    {
+     "keyword": "osha signaling requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "signaling checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.201",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA signaling requirements (29 CFR 1926.201)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.1024",
+   "citations": 37,
+   "heading": "Beryllium.",
+   "part": "1910",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "beryllium",
+   "slug": "1910-1024-beryllium",
+   "phrases": [
+    "osha beryllium requirements",
+    "beryllium checklist",
+    "osha 1910.1024"
+   ],
+   "keyword": "osha beryllium requirements",
+   "cluster": [
+    {
+     "keyword": "osha beryllium requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "beryllium checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.1024",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA beryllium requirements (29 CFR 1910.1024)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.1127",
+   "citations": 36,
+   "heading": "Cadmium.",
+   "part": "1926",
+   "subpart": "Z",
+   "subpartTitle": "Toxic and Hazardous Substances",
+   "name": "cadmium",
+   "slug": "1926-1127-cadmium",
+   "phrases": [
+    "osha cadmium requirements",
+    "cadmium checklist",
+    "osha 1926.1127"
+   ],
+   "keyword": "osha cadmium requirements",
+   "cluster": [
+    {
+     "keyword": "osha cadmium requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "cadmium checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.1127",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA cadmium requirements (29 CFR 1926.1127)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1917.26",
+   "citations": 36,
+   "heading": "First aid and lifesaving facilities.",
+   "part": "1917",
+   "subpart": "B",
+   "subpartTitle": "Marine Terminal Operations",
+   "name": "first aid and lifesaving facilities",
+   "slug": "1917-26-first-aid-lifesaving-facilities",
+   "phrases": [
+    "osha first aid and lifesaving facilities requirements",
+    "first aid and lifesaving facilities checklist",
+    "osha 1917.26"
+   ],
+   "keyword": "osha first aid and lifesaving facilities requirements",
+   "cluster": [
+    {
+     "keyword": "osha first aid and lifesaving facilities requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "first aid and lifesaving facilities checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1917.26",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA first aid and lifesaving facilities requirements (29 CFR 1917.26)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1928.110",
+   "citations": 35,
+   "heading": "Field sanitation.",
+   "part": "1928",
+   "subpart": "I",
+   "subpartTitle": "General Environmental Controls",
+   "name": "field sanitation",
+   "slug": "1928-110-field-sanitation",
+   "phrases": [
+    "osha field sanitation requirements",
+    "field sanitation checklist",
+    "osha 1928.110"
+   ],
+   "keyword": "osha field sanitation requirements",
+   "cluster": [
+    {
+     "keyword": "osha field sanitation requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "field sanitation checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1928.110",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA field sanitation requirements (29 CFR 1928.110)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1926.754",
+   "citations": 34,
+   "heading": "Structural steel assembly.",
+   "part": "1926",
+   "subpart": "R",
+   "subpartTitle": "Steel Erection",
+   "name": "structural steel assembly",
+   "slug": "1926-754-structural-steel-assembly",
+   "phrases": [
+    "osha structural steel assembly requirements",
+    "structural steel assembly checklist",
+    "osha 1926.754"
+   ],
+   "keyword": "osha structural steel assembly requirements",
+   "cluster": [
+    {
+     "keyword": "osha structural steel assembly requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "structural steel assembly checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1926.754",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA structural steel assembly requirements (29 CFR 1926.754)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1915.73",
+   "citations": 33,
+   "heading": "Guarding of deck openings and edges.",
+   "part": "1915",
+   "subpart": "E",
+   "subpartTitle": "Scaffolds, Ladders and Other Working Surfaces",
+   "name": "guarding of deck openings and edges",
+   "slug": "1915-73-guarding-deck-openings-edges",
+   "phrases": [
+    "osha guarding of deck openings and edges requirements",
+    "guarding of deck openings and edges checklist",
+    "osha 1915.73"
+   ],
+   "keyword": "osha guarding of deck openings and edges requirements",
+   "cluster": [
+    {
+     "keyword": "osha guarding of deck openings and edges requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "guarding of deck openings and edges checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1915.73",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA guarding of deck openings and edges requirements (29 CFR 1915.73)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.137",
+   "citations": 33,
+   "heading": "Electrical protective equipment.",
+   "part": "1910",
+   "subpart": "I",
+   "subpartTitle": "Personal Protective Equipment",
+   "name": "electrical protective equipment",
+   "slug": "1910-137-electrical-protective-equipment",
+   "phrases": [
+    "osha electrical protective equipment requirements",
+    "electrical protective equipment checklist",
+    "osha 1910.137"
+   ],
+   "keyword": "osha electrical protective equipment requirements",
+   "cluster": [
+    {
+     "keyword": "osha electrical protective equipment requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "electrical protective equipment checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.137",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA electrical protective equipment requirements (29 CFR 1910.137)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.255",
+   "citations": 33,
+   "heading": "Resistance welding.",
+   "part": "1910",
+   "subpart": "Q",
+   "subpartTitle": "Welding, Cutting and Brazing",
+   "name": "resistance welding",
+   "slug": "1910-255-resistance-welding",
+   "phrases": [
+    "osha resistance welding requirements",
+    "resistance welding checklist",
+    "osha 1910.255"
+   ],
+   "keyword": "osha resistance welding requirements",
+   "cluster": [
+    {
+     "keyword": "osha resistance welding requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "resistance welding checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.255",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA resistance welding requirements (29 CFR 1910.255)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  },
+  {
+   "section": "1910.26",
+   "citations": 33,
+   "heading": "Dockboards.",
+   "part": "1910",
+   "subpart": "D",
+   "subpartTitle": "Walking-Working Surfaces",
+   "name": "dockboards",
+   "slug": "1910-26-dockboards",
+   "phrases": [
+    "osha dockboards requirements",
+    "dockboards checklist",
+    "osha 1910.26"
+   ],
+   "keyword": "osha dockboards requirements",
+   "cluster": [
+    {
+     "keyword": "osha dockboards requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "dockboards checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "osha 1910.26",
+     "volume": null,
+     "kd": null
+    }
+   ],
+   "clusterVolume": 0,
+   "kd": null,
+   "titleHint": "OSHA dockboards requirements (29 CFR 1910.26)",
+   "keywordSource": "enforcement data",
+   "status": "write",
+   "reason": ""
+  }
+ ]
+}
