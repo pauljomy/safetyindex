@@ -1,0 +1,247 @@
+{
+  "naics": "2381",
+  "naicsTitle": "Foundation, Structure, and Building Exterior Contractors",
+  "title": "Top OSHA citations: foundation, structure and building exterior contractors (NAICS 2381)",
+  "seoTitle": "Roofing safety and other NAICS 2381 trades: OSHA citations",
+  "description": "OSHA standards cited most in foundation, structure and building exterior contractors (NAICS 2381), FY2022–FY2026: falls, ladders, training and PPE.",
+  "opening": "In foundation, structure, and building exterior contractors (NAICS 2381), the OSHA standard cited most from FY2022–FY2026 was 1926.501, Duty to have fall protection, with 34,264 of 130,632 citations, followed by 1926.1053 on ladders.",
+  "keyword": "roofing safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 610,
+  "kd": 4,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 68723,
+    "citations": 130632,
+    "topStandards": [
+      {
+        "section": "1926.501",
+        "count": 34264
+      },
+      {
+        "section": "1926.1053",
+        "count": 14807
+      },
+      {
+        "section": "1926.503",
+        "count": 13866
+      },
+      {
+        "section": "1926.451",
+        "count": 11283
+      },
+      {
+        "section": "1926.102",
+        "count": 10390
+      },
+      {
+        "section": "1926.20",
+        "count": 5055
+      },
+      {
+        "section": "1926.100",
+        "count": 5049
+      },
+      {
+        "section": "1910.1200",
+        "count": 4677
+      },
+      {
+        "section": "1926.502",
+        "count": 3849
+      },
+      {
+        "section": "1903.19",
+        "count": 2902
+      },
+      {
+        "section": "1926.1153",
+        "count": 2350
+      },
+      {
+        "section": "1926.453",
+        "count": 2052
+      },
+      {
+        "section": "1926.1060",
+        "count": 1796
+      },
+      {
+        "section": "1926.454",
+        "count": 1422
+      },
+      {
+        "section": "1910.178",
+        "count": 1274
+      },
+      {
+        "section": "1926.452",
+        "count": 1018
+      },
+      {
+        "section": "1926.21",
+        "count": 965
+      },
+      {
+        "section": "1926.416",
+        "count": 948
+      },
+      {
+        "section": "1910.134",
+        "count": 877
+      },
+      {
+        "section": "1926.1052",
+        "count": 838
+      },
+      {
+        "section": "1926.602",
+        "count": 754
+      },
+      {
+        "section": "1926.1051",
+        "count": 663
+      },
+      {
+        "section": "1926.405",
+        "count": 660
+      },
+      {
+        "section": "1926.50",
+        "count": 602
+      },
+      {
+        "section": "1926.300",
+        "count": 493
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1926.501(b)(13)",
+        "count": 24267
+      },
+      {
+        "clause": "1926.102(a)(1)",
+        "count": 10188
+      },
+      {
+        "clause": "1926.1053(b)(1)",
+        "count": 9818
+      },
+      {
+        "clause": "1926.503(a)(1)",
+        "count": 7894
+      },
+      {
+        "clause": "1926.100(a)",
+        "count": 5042
+      },
+      {
+        "clause": "1926.503(b)(1)",
+        "count": 4907
+      },
+      {
+        "clause": "1926.20(b)(2)",
+        "count": 3120
+      },
+      {
+        "clause": "1926.501(b)(1)",
+        "count": 2981
+      },
+      {
+        "clause": "1926.501(b)(10)",
+        "count": 2976
+      },
+      {
+        "clause": "1926.501(b)(11)",
+        "count": 2496
+      }
+    ],
+    "penalties": {
+      "n": 102090,
+      "median": 3457,
+      "p25": 2113,
+      "p75": 4839,
+      "total": 508820082
+    },
+    "typeShares": {
+      "serious": 0.752,
+      "willful": 0.011,
+      "repeat": 0.095,
+      "otherThanSerious": 0.143,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 140
+  },
+  "patternsSummary": "Falls and access lead the citations in NAICS 2381: 1926.501 (Duty to have fall protection) had 34,264 and 1926.1053 (Ladders) had 14,807, while 1926.502 (Fall protection systems criteria and practices) added 3,849 further down the list. Sections headed \"Training requirements\" recur, with 1926.503 at 13,866 citations, 1926.1060 at 1,796 and 1926.454 at 1,422. 1926.451, headed \"General requirements\" (11,283), ranks just ahead of the personal protective equipment standards 1926.102 on eye and face protection (10,390) and 1926.100 on head protection (5,049). Health hazards rank lower: 1910.1200 hazard communication had 4,677 citations and 1926.1153 respirable crystalline silica had 2,350.",
+  "penaltiesSummary": "For FY2022–FY2026, the median penalty in this code was $3,457, and the middle range ran from $2,113 to $4,839. Of the citations, 75% were classed as serious, 10% as repeat, 1% as willful and 14% as other-than-serious.",
+  "standardNotes": [
+    {
+      "section": "1926.501",
+      "note": "Sets the fall protection duty. It is the most-cited standard in this code, with 34,264 citations across FY2022–FY2026."
+    },
+    {
+      "section": "1926.1053",
+      "note": "Covers ladders. It is the next most-cited standard after 1926.501, with 14,807 citations."
+    },
+    {
+      "section": "1926.503",
+      "note": "Headed \"Training requirements\" and numbered next to the 1926.501 and 1926.502 fall protection sections. It had 13,866 citations."
+    },
+    {
+      "section": "1926.451",
+      "note": "Headed \"General requirements\". Read the section text for its scope. It had 11,283 citations in this code."
+    },
+    {
+      "section": "1926.102",
+      "note": "Covers eye and face protection. It had 10,390 citations."
+    },
+    {
+      "section": "1926.20",
+      "note": "Sets general safety and health provisions. It had 5,055 citations."
+    },
+    {
+      "section": "1926.100",
+      "note": "Covers head protection. It had 5,049 citations."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Covers hazard communication. It is a Part 1910 standard, cited 4,677 times in this code."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-12",
+  "generatedOn": "2026-11-12",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "foundation, structure, and building exterior contractors",
+    "building exterior contractors"
+  ],
+  "cover": "2381-foundation-structure-building-exterior-contractors",
+  "coverPrompt": "Realistic daytime photograph of a residential construction site where a small crew installs roofing on a pitched roof, seen from mid-distance. Workers wear hard hats, safety glasses and full-body harnesses with lanyards attached to roof anchors. An extension ladder is secured at the base and extends above the roof edge. Guardrails run along part of the eave, and framed walls and a masonry foundation are visible below. No text, logos, numbers or close-up faces.",
+  "coverAlt": "Roofers in harnesses and hard hats on a pitched roof, with a secured ladder extending above the roof edge",
+  "changes": []
+}
