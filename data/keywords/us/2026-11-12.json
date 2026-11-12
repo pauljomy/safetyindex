@@ -4511,6 +4511,990 @@
    "volume": 1900,
    "kd": 38,
    "intent": "informational"
+  },
+  {
+   "keyword": "safety training for workers",
+   "volume": 1900,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety training at work",
+   "volume": 1900,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "construction site safety training",
+   "volume": 1900,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ehs training",
+   "volume": 1300,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety skills",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "american safety programs and training",
+   "volume": 1000,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "american safety programs and training providence ri",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "safety program",
+   "volume": 1000,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "observation examples",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "observation example",
+   "volume": 1600,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "observations examples",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is behaviour based safety",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety culture",
+   "volume": 18100,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "confined space",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "confined space training",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define confined space",
+   "volume": 2900,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define confined spaces",
+   "volume": 2900,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is confined space definition",
+   "volume": 1600,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "confined space certification",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha confined space",
+   "volume": 1000,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ladder safety",
+   "volume": 3600,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ladder safety training",
+   "volume": 2400,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ladder safety course",
+   "volume": 2400,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "when using ladders you should",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha ladder safety training",
+   "volume": 1300,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ladder safety system",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "safe ladders",
+   "volume": 1300,
+   "kd": 9,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "3 point contact",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "environmental hazards",
+   "volume": 1900,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard environment",
+   "volume": 1900,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "environmental hazard",
+   "volume": 1900,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "environment hazard",
+   "volume": 1900,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard environmental",
+   "volume": 1900,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazards environmental",
+   "volume": 1900,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazardous for the environment",
+   "volume": 1900,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ecological hazards",
+   "volume": 1900,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what oil spill",
+   "volume": 1000,
+   "kd": 42,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a oil spill",
+   "volume": 1000,
+   "kd": 35,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is an oil spill",
+   "volume": 1000,
+   "kd": 35,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha heat regulations",
+   "volume": 1600,
+   "kd": 34,
+   "intent": "informational"
+  },
+  {
+   "keyword": "heat illness",
+   "volume": 6600,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "heat stress",
+   "volume": 3600,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha heat guidelines",
+   "volume": 1600,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha heat law",
+   "volume": 1600,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what does heat index mean",
+   "volume": 1600,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha heat laws",
+   "volume": 1600,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha heat index",
+   "volume": 1300,
+   "kd": 46,
+   "intent": "informational"
+  },
+  {
+   "keyword": "time temperature abused",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "time-temperature abuse",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "time temperature abuse",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "time and temperature abuse",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "swing stage",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "swing stage scaffolding",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "electrical safety training",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "electrical safety courses",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift inspection checklist",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift checklist",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety training",
+   "volume": 1600,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire extinguisher training",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety certification",
+   "volume": 1300,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire and safety certification",
+   "volume": 1300,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety training for employees",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "staff fire safety training",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety staff training",
+   "volume": 1000,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is food safety",
+   "volume": 1600,
+   "kd": 35,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety tips",
+   "volume": 2400,
+   "kd": 33,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safe food guide",
+   "volume": 1600,
+   "kd": 52,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety guidelines",
+   "volume": 1600,
+   "kd": 51,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety guides",
+   "volume": 1300,
+   "kd": 51,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety handling",
+   "volume": 1000,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety definition",
+   "volume": 1000,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition food safety",
+   "volume": 1000,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety handling certificate",
+   "volume": 1000,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "meaning of food safety",
+   "volume": 1000,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safe food handling",
+   "volume": 1000,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition for food safety",
+   "volume": 1000,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "food safety practices",
+   "volume": 1000,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha standards",
+   "volume": 2400,
+   "kd": 51,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha rules",
+   "volume": 4400,
+   "kd": 56,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha regulations",
+   "volume": 4400,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha compliance",
+   "volume": 1900,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha and safety",
+   "volume": 1600,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha requirements",
+   "volume": 1600,
+   "kd": 76,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha safety",
+   "volume": 1600,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how does osha enforce its standards",
+   "volume": 1300,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha guides",
+   "volume": 1000,
+   "kd": 71,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha guidelines",
+   "volume": 1000,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha laws",
+   "volume": 1000,
+   "kd": 79,
+   "intent": "informational"
+  },
+  {
+   "keyword": "type b soil",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "type b soils",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "type c soil",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "trestle scaffolding",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "scaffold blank are the workers qualified to design scaffolds",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "who is responsible for designing a scaffold",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety triangle",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safe triangle",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "warehouse safety",
+   "volume": 4400,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hot work permit",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is timbering",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "stop work",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "checklist for safety",
+   "volume": 5400,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "jsa safety",
+   "volume": 1900,
+   "kd": 4,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "job safety analysis template",
+   "volume": 1000,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "jsa template",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "chemical hazards",
+   "volume": 2900,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "according to osha what are two types of chemical hazards",
+   "volume": 1300,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "chemical safety",
+   "volume": 1300,
+   "kd": 84,
+   "intent": "informational"
+  },
+  {
+   "keyword": "psychological safety",
+   "volume": 8100,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "psychological safety in the workplace",
+   "volume": 2400,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "psychological safety at work",
+   "volume": 2400,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is psychological safety",
+   "volume": 1600,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "construction safety",
+   "volume": 2400,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety and construction",
+   "volume": 2400,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety on construction site",
+   "volume": 2400,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "work zone safety",
+   "volume": 1900,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety precautions",
+   "volume": 2900,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety and precautions",
+   "volume": 2900,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety protocols",
+   "volume": 1600,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency eyewash and shower",
+   "volume": 1900,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency shower",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "emergency safety shower",
+   "volume": 1000,
+   "kd": 9,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire suppression system inspection",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire suppression inspection",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "does take 5 do inspections",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "5 step",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk assessment template",
+   "volume": 2400,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk assessment form sample",
+   "volume": 2400,
+   "kd": 16,
+   "intent": "informational"
+  },
+  {
+   "keyword": "crane operator training",
+   "volume": 2900,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "crane operator training programs",
+   "volume": 1600,
+   "kd": 36,
+   "intent": "informational"
+  },
+  {
+   "keyword": "crane operator training program",
+   "volume": 1600,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "toxic substances control act",
+   "volume": 6600,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "traffic management",
+   "volume": 2400,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "working at heights",
+   "volume": 2400,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "electrical safety",
+   "volume": 2900,
+   "kd": 51,
+   "intent": "informational"
+  },
+  {
+   "keyword": "electrical safe",
+   "volume": 2900,
+   "kd": 46,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "electrical hazards",
+   "volume": 1000,
+   "kd": 34,
+   "intent": "informational"
+  },
+  {
+   "keyword": "which of the following are electrical hazards",
+   "volume": 1000,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "construction inspection",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "kitchen safety",
+   "volume": 4400,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety stand down",
+   "volume": 1300,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety stand-down",
+   "volume": 1300,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety committee",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "radiation protection",
+   "volume": 1600,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "radiation protection and",
+   "volume": 1600,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "radiation why is it dangerous",
+   "volume": 1300,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "electrical fire",
+   "volume": 5400,
+   "kd": 41,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to stop electrical fires",
+   "volume": 1000,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "injury prevention",
+   "volume": 1900,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "injury and prevention",
+   "volume": 1900,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "accident prevention course",
+   "volume": 1600,
+   "kd": 52,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazop",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha inspection",
+   "volume": 1600,
+   "kd": 41,
+   "intent": "informational"
+  },
+  {
+   "keyword": "during the osha inspection",
+   "volume": 1000,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "during an osha inspection",
+   "volume": 1000,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "during osha inspection",
+   "volume": 880,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety net testing",
+   "volume": 1000,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "workplace violence",
+   "volume": 3600,
+   "kd": 51,
+   "intent": "informational"
+  },
+  {
+   "keyword": "workplace violence prevention training",
+   "volume": 1300,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "office safety",
+   "volume": 1300,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "evacuation plan",
+   "volume": 1600,
+   "kd": 48,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency evacuation",
+   "volume": 2400,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety of objects",
+   "volume": 1000,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha bloodborne pathogens training",
+   "volume": 1300,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is safeguards",
+   "volume": 1300,
+   "kd": 30,
+   "intent": "informational"
   }
  ],
  "source": "OpenSEO get_keyword_metrics",

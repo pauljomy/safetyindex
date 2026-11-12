@@ -4,20 +4,21 @@
 # override the value for one run.
 
 # --- Writing engine (section 11) -------------------------------------------
-writer: cli                  # cli (headless `claude -p`) or api (Anthropic API); env WRITER overrides
-writer_model: ""             # "" = the CLI's default model; env WRITER_MODEL overrides
-checker_model: ""            # model for the independent checking pass; "" = same as writer_model
-workers: 3                   # parallel jobs; env WORKERS overrides
-max_backoff_minutes: 60      # longest wait between retries after a usage/rate limit
-template_drop_pause_share: 0.10   # pause a template when more than this share of a batch is dropped
-template_drop_min_batch: 10       # ...counted over at least this many finished jobs
+writer: cli # cli (headless `claude -p`) or api (Anthropic API); env WRITER overrides
+writer_model: "" # "" = the CLI's default model; env WRITER_MODEL overrides
+checker_model: "" # model for the independent checking pass; "" = same as writer_model
+workers: 3 # parallel jobs; env WORKERS overrides
+max_backoff_minutes: 60 # longest wait between retries after a usage/rate limit
+template_drop_pause_share: 0.10 # pause a template when more than this share of a batch is dropped
+template_drop_min_batch: 10 # ...counted over at least this many finished jobs
 
 # --- Keyword research (section 6) ------------------------------------------
 openseo_project_id: 002ad952-1f16-4c95-821e-83a08aec03b2
 keyword_credits_per_run: 1500
 keyword_credit_floor: 500
 keyword_batch_max_credits: 2000
-guide_thresholds:            # cluster volume floor and "KD under" per market
+guide_thresholds:
+  # cluster volume floor and "KD under" per market
   us: { volume: 500, kd_under: 15 }
   uk: { volume: 150, kd_under: 15 }
   au: { volume: 150, kd_under: 15 }
@@ -31,21 +32,21 @@ standard_page_keywords: { volume: 50, kd_under: 15 }
 industry_page_keywords: { volume: 50, kd_under: 15 }
 
 # --- Page thresholds (section 7e) -------------------------------------------
-fiscal_years: 5                         # complete federal fiscal years of enforcement data
-standard_citation_floor: 30             # citations nationally in the last 5 fiscal years
-industry_inspection_floor: 200          # inspections per 4-digit NAICS code
-industry_min_standards: 10              # distinct standards...
-industry_min_citations_per_standard: 5  # ...each cited at least this many times
-similarity_max: 0.8                     # two market versions above this are mis-sorted
+fiscal_years: 5 # complete federal fiscal years of enforcement data
+standard_citation_floor: 30 # citations nationally in the last 5 fiscal years
+industry_inspection_floor: 200 # inspections per 4-digit NAICS code
+industry_min_standards: 10 # distinct standards...
+industry_min_citations_per_standard: 5 # ...each cited at least this many times
+similarity_max: 0.8 # two market versions above this are mis-sorted
 
 # --- Cover images (section 9) ---------------------------------------------
 max_images_per_run: 150
 
 # --- Release schedule (section 14) -----------------------------------------
-release_per_week: 75         # 0 = release everything at once
+release_per_week: 75 # 0 = release everything at once
 first_wave:
   top_us_standard_pages: 50
-  include: [reports, penalties, hubs]
+  include: [ reports, penalties, hubs ]
 release_gate_min_share: 0.6
 release_gate_min_age_days: 21
 indexing_gate_max_unindexed_share: 0.3
@@ -53,7 +54,7 @@ indexing_gate_age_days: 28
 
 # --- Search Console loop (section 16) -----------------------------------------
 improve_max_changes_per_week: 20
-improve_auto_push: true      # only after the build and every check pass
+improve_auto_push: true # only after the build and every check pass
 weekly_new_pages: 10
 zero_impression_months: 3
 
@@ -65,7 +66,7 @@ android_package: "PLACEHOLDER_ANDROID_PACKAGE"
 ios_app_id: "PLACEHOLDER_IOS_APP_ID"
 ios_provider_token: "PLACEHOLDER_PROVIDER_TOKEN"
 apps_live: false
-app_markets: [us, uk, au, ca, nz]   # German and French stay off until the app is localised
+app_markets: [ us, uk, au, ca, nz ] # German and French stay off until the app is localised
 
 # --- Lighthouse (section 13) ----------------------------------------------------
 lighthouse:
@@ -79,10 +80,10 @@ lighthouse:
 # From https://www.osha.gov/penalties (checked when the page is built; update every January).
 osha_penalties:
   source_url: https://www.osha.gov/penalties
-  effective_date: ""         # filled from OSHA's penalties page by scripts/data/osha-penalties.mjs
-  checked_on: ""
-  serious_max: null
-  other_than_serious_max: null
-  failure_to_abate_per_day_max: null
-  willful_or_repeated_max: null
+  effective_date: 2026-01-15
+  checked_on: 2026-11-12
+  serious_max: 16550
+  other_than_serious_max: 16550
+  failure_to_abate_per_day_max: 16550
+  willful_or_repeated_max: 165514
   willful_or_repeated_min: null

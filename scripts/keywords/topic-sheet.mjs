@@ -36,7 +36,8 @@ for (const r of rows) {
   if (main.kd != null && main.kd >= t.kd_under) {
     // Retarget: a phrase in the cluster with the same intent, KD under 15 and enough volume.
     const head = new Set(content(r.keyword));
-    const alt = r.supporting.map((k) => data.get(k.toLowerCase())).filter((x) => x && x.kd != null && x.kd < t.kd_under && (x.intent ?? "") === (main.intent ?? "") && content(x.keyword).some((w) => head.has(w)))
+    // Same intent: the candidate keeps every content word of the original and isn't a download, event, quiz, course or shopping variant.
+    const alt = r.supporting.map((k) => data.get(k.toLowerCase())).filter((x) => x && x.kd != null && x.kd < t.kd_under && (x.intent ?? "") === (main.intent ?? "") && [...head].every((w) => content(x.keyword).includes(w) || x.keyword.includes(w)) && !/\b(pdf|template|download|week|month|day|quiz|which of the following|course|courses|online|near me|price|cost|buy|kit|srl)\b/.test(x.keyword))
       .sort((a, b) => (b.volume ?? 0) - (a.volume ?? 0))[0];
     if (alt && cluster >= t.volume && (alt.volume ?? 0) >= 100) {
       Object.assign(f, { status: STATUS.notStarted, keyword: undefined, kd: alt.kd, notes: [r.notes, `Retargeted ${today}: "${r.keyword}" (KD ${main.kd}) → "${alt.keyword}" (KD ${alt.kd}, ${alt.volume}/mo, same intent).`].filter(Boolean).join(" ") });

@@ -1,0 +1,42 @@
+# GSC SEO Autopilot config for Safety Index (read from this project folder).
+# Interactive analysis only: never run the skill's `auto` or `publish` commands on this site (see SKILL.md).
+site_domain: "safetyindex.blog"
+gsc_property: "sc-domain:safetyindex.blog"
+product_name: "Safety Index"
+product_description: "Workplace safety reference for the US, UK, Germany, France, Australia, Canada and New Zealand, linked to official sources"
+
+blog_post_dir: "src/content/posts"
+blog_index_file: ""
+blog_url_prefix: "/blog"
+frontmatter_format: "yaml"
+
+content_pillars:
+  - "OSHA standards and requirements"
+  - "Personal protective equipment"
+  - "Inspections and checklists"
+  - "Workplace safety rules outside the US (UK, AU, CA, NZ, FR, DE)"
+blog_categories: []
+
+ke_country: "us"
+ke_currency: "usd"
+ke_data_source: "gkp"
+ke_related_limit: 20
+
+app_url: ""
+internal_link_targets:
+  - "https://safetyindex.blog/us/standards"
+  - "https://safetyindex.blog/us/industries"
+  - "https://safetyindex.blog/us/guides"
+  - "https://safetyindex.blog/us/reports"
+  - "https://safetyindex.blog/us/osha-penalties"
+  - "https://safetyindex.blog/blog"
+  - "https://safetyindex.blog/fr/blog"
+  - "https://safetyindex.blog/de/blog"
+  - "https://safetyindex.blog/uk/guides"
+  - "https://safetyindex.blog/au/guides"
+  - "https://safetyindex.blog/ca/guides"
+  - "https://safetyindex.blog/nz/guides"
+
+posts_per_run: 0
+report_dir: "data/gsc/skill-reports"
+seed_keyword_count: 10

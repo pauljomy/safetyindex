@@ -1,0 +1,39 @@
+{
+  "kind": "penalties",
+  "title": "OSHA penalties 2026: current maximum fines per violation",
+  "seoTitle": "OSHA penalties 2026: maximum fines per violation",
+  "description": "OSHA's current maximum penalties for 2026: serious, other-than-serious, failure to abate, willful and repeated violations, from OSHA's own figures.",
+  "summary": "OSHA's maximum penalty is $16,550 per serious or other-than-serious violation and $165,514 per willful or repeated violation, for penalties assessed after Jan. 15, 2026.",
+  "year": 2026,
+  "date": "2026-11-12",
+  "generatedOn": "2026-11-12",
+  "dataAsOf": "2026-11-12",
+  "checkPass": "passed",
+  "cover": "data-report",
+  "coverPrompt": "A tidy workplace safety office with binders, a hard hat and safety glasses on a desk beside a window, soft daylight, no screens, no text, no people",
+  "coverAlt": "Safety office desk with binders, a hard hat and safety glasses",
+  "linkPhrases": [
+    "OSHA penalties",
+    "maximum OSHA penalties"
+  ],
+  "changes": [],
+  "data": {
+    "sections": [
+      {
+        "heading": "How do maximum penalties apply in state-plan states?",
+        "opening": "States that run their own OSHA-approved plans must adopt maximum penalties at least as effective as federal OSHA's, and state plans don't have to fine state and local government employers."
+      },
+      {
+        "heading": "Where do the amounts come from?",
+        "opening": "OSHA adjusts its maximum penalties for inflation every January; the amounts above apply to penalties assessed after Jan. 15, 2026, as published on OSHA's penalties page."
+      }
+    ]
+  },
+  "method": "Maximum amounts copied from OSHA's penalties page on the date shown; enforcement figures from the U.S. Department of Labor OSHA violation dataset.",
+  "sources": [
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ]
+}

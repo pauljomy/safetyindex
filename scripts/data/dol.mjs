@@ -113,12 +113,16 @@ export function aggregate({ fys, inspections, violations }, { cfrCodeToClause })
   const sectors = {}; // naics2 → penalties
   const byFy = Object.fromEntries(fys.map((y) => [y, {}])); // fy → section → count
   let used = 0, skippedState = 0, skippedDeleted = 0;
+  const allPenalties = [];
+  const allTypes = {};
   for (const v of violations) {
     if (!v.issuance_date || !inFy(v.issuance_date)) continue;
     if (v.delete_flag === "X") { skippedDeleted++; continue; }
     const clause = cfrCodeToClause(v.standard ?? "");
     if (!clause) { skippedState++; continue; }
     used++;
+    allPenalties.push(Number(v.initial_penalty) || 0);
+    allTypes[v.viol_type ?? "U"] = (allTypes[v.viol_type ?? "U"] ?? 0) + 1;
     const fy = fiscalYear(v.issuance_date);
     const insp = inspections.get(v.activity_nr);
     const naics = String(insp?.naics_code ?? "").trim();
@@ -172,7 +176,7 @@ export function aggregate({ fys, inspections, violations }, { cfrCodeToClause })
     fiscalYears: fys,
     fiscalYearCount: fys.length,
     window: { from: `${fys[0] - 1}-10-01`, to: `${fys.at(-1)}-09-30` },
-    totals: { citations: used, inspections: inspTotal, excludedNonCfrCodes: skippedState, excludedDeleted: skippedDeleted },
+    totals: { citations: used, inspections: inspTotal, excludedNonCfrCodes: skippedState, excludedDeleted: skippedDeleted, penalties: penaltyStats(allPenalties), typeShares: shares(allTypes, used) },
     method: "Citations are violation items issued in the fiscal years shown, excluding deleted items and items cited under state-plan or non-29 CFR codes (including the General Duty Clause). Each item counts once. Penalties are initial penalties of items with a penalty above zero, before any settlement or contest. Industries use the inspection's 4-digit NAICS code.",
     topByFy: Object.fromEntries(Object.entries(byFy).map(([fy, c]) => [fy, top(c, 25, "section")])),
     sectorPenalties: Object.fromEntries(Object.entries(sectors).map(([k, v]) => [k, { title: naicsTitle(k), ...penaltyStats(v) }])),

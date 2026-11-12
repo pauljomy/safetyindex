@@ -9,7 +9,7 @@ import Cover from "@components/Cover.astro";
 import BarChart from "@components/BarChart.astro";
 import PageNotes from "@components/PageNotes.astro";
 import RelatedBlock from "@components/RelatedBlock.astro";
-import { url, type Report } from "@lib/content";
+import { getIndustries, standardFor, url, type Report } from "@lib/content";
 import { formatDate, latest } from "@lib/dates";
 import { withLinks } from "@lib/links";
 import { escapeHtml } from "@lib/linker.mjs";
@@ -17,7 +17,7 @@ import { coverFor, socialCard } from "@lib/covers";
 import { breadcrumbList, webPage } from "@lib/schema";
 import { ui } from "../i18n/ui";
 
-interface Cell { text: string; href?: string }
+interface Cell { text: string; href?: string; section?: string; naics?: string }
 interface Section { heading: string; opening: string; chart?: { title: string; data: { label: string; value: number }[]; unit?: "usd" | "n" }; table?: { columns: string[]; rows: (string | number | Cell)[][]; download?: string }; note?: string }
 const { entry } = Astro.props as { entry: Report };
 const d = entry.data;
@@ -29,6 +29,12 @@ const link = async (t: string) => withLinks(escapeHtml(t), path, used);
 const summary = await link(d.summary);
 const sections = [];
 for (const sec of data.sections) sections.push({ ...sec, opening: await link(sec.opening) });
+// Table cells naming a standard or an industry link to its page once that page is live.
+const industries = await getIndustries();
+for (const sec of sections) for (const row of sec.table?.rows ?? []) for (const c of row) if (c && typeof c === "object" && !c.href) {
+  if (c.section) c.href = (await standardFor(c.section))?.path;
+  else if (c.naics) { const i = industries.find((x) => x.data.naics === c.naics && !x.data.noindex); if (i) c.href = url.industry(i.id); }
+}
 const og = await socialCard(coverFor(d.cover));
 const crumbs = [{ label: s.home, href: "/" }, { label: "United States", href: url.market("us") }, { label: s.hubReports, href: url.reportsHub() }, { label: d.title, href: path }];
 const updated = latest(d.date, d.updated);
