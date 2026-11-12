@@ -37,13 +37,13 @@ export const defaultLocale = "en";
  * the other English markets at /uk, /au, /ca, /nz. hreflang uses the market's code; x-default is US English.
  */
 export const markets = [
-  { code: "us", lang: "en", hreflang: "en-US", og: "en_US", intl: "en-US", name: "United States", short: "US", prefix: "" },
-  { code: "uk", lang: "en", hreflang: "en-GB", og: "en_GB", intl: "en-GB", name: "United Kingdom", short: "UK", prefix: "/uk" },
-  { code: "au", lang: "en", hreflang: "en-AU", og: "en_AU", intl: "en-AU", name: "Australia", short: "AU", prefix: "/au" },
-  { code: "ca", lang: "en", hreflang: "en-CA", og: "en_CA", intl: "en-CA", name: "Canada", short: "CA", prefix: "/ca" },
-  { code: "nz", lang: "en", hreflang: "en-NZ", og: "en_NZ", intl: "en-NZ", name: "New Zealand", short: "NZ", prefix: "/nz" },
-  { code: "fr", lang: "fr", hreflang: "fr-FR", og: "fr_FR", intl: "fr-FR", name: "France", short: "FR", prefix: "/fr" },
-  { code: "de", lang: "de", hreflang: "de-DE", og: "de_DE", intl: "de-DE", name: "Deutschland", short: "DE", prefix: "/de" },
+  { code: "us", lang: "en", hreflang: "en-US", og: "en_US", intl: "en-US", name: "United States", inText: "the United States", short: "US", prefix: "" },
+  { code: "uk", lang: "en", hreflang: "en-GB", og: "en_GB", intl: "en-GB", name: "United Kingdom", inText: "the United Kingdom", short: "UK", prefix: "/uk" },
+  { code: "au", lang: "en", hreflang: "en-AU", og: "en_AU", intl: "en-AU", name: "Australia", inText: "Australia", short: "AU", prefix: "/au" },
+  { code: "ca", lang: "en", hreflang: "en-CA", og: "en_CA", intl: "en-CA", name: "Canada", inText: "Canada", short: "CA", prefix: "/ca" },
+  { code: "nz", lang: "en", hreflang: "en-NZ", og: "en_NZ", intl: "en-NZ", name: "New Zealand", inText: "New Zealand", short: "NZ", prefix: "/nz" },
+  { code: "fr", lang: "fr", hreflang: "fr-FR", og: "fr_FR", intl: "fr-FR", name: "France", inText: "France", short: "FR", prefix: "/fr" },
+  { code: "de", lang: "de", hreflang: "de-DE", og: "de_DE", intl: "de-DE", name: "Deutschland", inText: "Deutschland", short: "DE", prefix: "/de" },
 ];
 
 /** Where the post generator writes and how many posts it may publish per run. */

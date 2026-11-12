@@ -80,7 +80,7 @@ export const ui: Record<Lang, Strings> = {
     dataAsOf: (d) => `Data as of ${d}`, checklist: "Checklist", print: "Print", downloadPdf: "Download PDF", downloadExcel: "Download Excel", resetChecklist: "Clear ticks",
     checked: (n, t) => `${n} of ${t} checked`, whatToLookFor: "What to look for", reference: "Ref.", appComingSoon: "Coming soon on Android and iOS.", appGet: "Use this checklist in the app", appScan: "Scan to get the app on your phone",
     related: "Related", guidesUsingStandard: "Guides using this standard", breadcrumb: "Breadcrumb", inMarket: (m) => `In ${m}`,
-    marketHomeTitle: (m) => `Workplace safety in ${m}: guides and checklists`, marketHomeDescription: (m) => `Workplace safety guides, standards and checklists for ${m}, written from the official regulations and linked to them.`,
+    marketHomeTitle: (m) => `Safety guides and checklists for ${m}`, marketHomeDescription: (m) => `Workplace safety guides, standards and checklists for ${m}, written from the official regulations and linked to them.`,
     guidesHubTitle: (m) => `Safety guides for ${m}, by topic`, guidesHubDescription: (m) => `Every Safety Index guide for ${m}, grouped by topic, with links to the regulations each one is written from.`,
     checklistNote: "Tick boxes work on this page and are not saved. Print it, or download the PDF or Excel version (no sign-up).",
     madeBy: "Made by the team behind the Conform app.",

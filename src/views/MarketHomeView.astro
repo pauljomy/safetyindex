@@ -12,6 +12,7 @@ import { site } from "../config/site.mjs";
 const { market } = Astro.props as { market: Market };
 const s = ui.en;
 const name = marketMeta[market].name;
+const inText = marketMeta[market].inText;
 const hubs = await marketHubs(market);
 const pages = (await livePages()).filter((p) => p.market === market);
 const reports = pages.filter((p) => p.kind === "report");
@@ -19,11 +20,11 @@ const latestGuides = pages.filter((p) => p.kind === "guide").sort((a, b) => b.re
 const crumbs = [{ label: s.home, href: "/" }, { label: name, href: url.market(market) }];
 const updated = latest(site.updated, ...pages.map((p) => p.updated));
 ---
-<Layout title={s.marketHomeTitle(name)} description={s.marketHomeDescription(name)} updated={updated} jsonLd={[breadcrumbList(crumbs)]}>
+<Layout title={s.marketHomeTitle(inText)} description={s.marketHomeDescription(inText)} updated={updated} jsonLd={[breadcrumbList(crumbs)]}>
   <Container>
     <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate mb-4 text-2xl font-semibold text-black dark:text-white">{s.marketHomeTitle(name)}</h1>
-    <p class="animate mb-8">{s.marketHomeDescription(name)}</p>
+    <h1 class="animate mb-4 text-2xl font-semibold text-black dark:text-white">{s.marketHomeTitle(inText)}</h1>
+    <p class="animate mb-8">{s.marketHomeDescription(inText)}</p>
     <ul class="animate not-prose mb-10 grid gap-3 sm:grid-cols-2" data-hubs>
       {hubs.map((h) => <li><a href={h.path} class="block rounded-lg border border-black/15 px-4 py-3 font-medium hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/5">{h.label}{h.count > 1 && <span class="block text-sm font-normal">{h.count} pages</span>}</a></li>)}
     </ul>

@@ -24,8 +24,8 @@ let hub: any;
 if (!post) {
   const guides = (await getGuides(market)).filter((g) => !g.data.noindex);
   hub = {
-    title: s.guidesHubTitle(name), description: s.guidesHubDescription(name).slice(0, 155),
-    intro: `How-to guides for workplaces in ${name}, each written from ${name}'s own regulations and regulator guidance.`,
+    title: s.guidesHubTitle(marketMeta[market].inText), description: s.guidesHubDescription(marketMeta[market].inText).slice(0, 155),
+    intro: `How-to guides for workplaces in ${marketMeta[market].inText}, each written from its own regulations and regulator guidance.`,
     groups: categories.map((c) => ({ heading: categoryName(c.slug, "en"), rows: guides.filter((g) => g.data.categories[0] === c.slug).map((g) => ({ path: url.post(g.id), title: g.data.title, description: g.data.description })) })).filter((g) => g.rows.length),
     crumbs: [{ label: s.home, href: "/" }, { label: name, href: url.market(market) }, { label: s.hubGuides, href: url.guidesHub(market) }],
     updated: latest(new Date(site.updated), ...guides.map((g) => latest(g.data.date, g.data.updated))),
