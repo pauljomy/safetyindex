@@ -1,0 +1,126 @@
+{
+ "rows": [
+  {
+   "keyword": "casque de chantier norme",
+   "volume": 50,
+   "kd": 46,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "casque de chantier",
+   "volume": 4400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "casque de protection en 397",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "norme casque de chantier en 397",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casque de chantier en 50365 électricien",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casque isolant 1000 v",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casque en 14052 haute performance",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casque en 12492 travail en hauteur",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casquette anti-heurt en 812",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "port du casque obligatoire chantier",
+   "volume": 20,
+   "kd": 46,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "jugulaire casque obligatoire",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "durée de vie casque de chantier",
+   "volume": 140,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "date de péremption casque de chantier",
+   "volume": 140,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "casque de sécurité norme en 397",
+   "volume": null,
+   "kd": null,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "casque isolant en 50365",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casque haute performance en 14052",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "casque de chantier obligatoire",
+   "volume": 10,
+   "kd": null,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "casque de chantier ventilé électricien",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "port du casque obligatoire démolition",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "qui fournit le casque de chantier intérimaire",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  }
+ ],
+ "source": "OpenSEO get_keyword_metrics",
+ "market": "fr"
+}

@@ -11,7 +11,22 @@ Plain-English log of the build-out on the `build-out` branch (brief: `safetyinde
 
 ## Things for Paul to do
 
-(Collected as the build goes; see the final summary at the end.)
+1. **Start the full run** in a separate terminal (command in the final summary) and leave it running. Check progress with `npm run engine:status`.
+2. **Cloudflare dashboard** (Security → Bots and AI Crawl Control): make sure AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Applebot-Extended, OAI-SearchBot) are **allowed**, and that "Block AI bots", "AI Labyrinth" and any managed robots.txt are off for safetyindex.blog. Cloudflare's 2026 defaults can block them at the edge even though our robots.txt allows them. Today the live robots.txt is ours and isn't being rewritten.
+3. **Cloudflare Workers Analytics Engine**: the Worker writes download, app-button and store-click events to the dataset `safetyindex_events` (binding `EVENTS` in `wrangler.jsonc`). Enable Analytics Engine on the account if it isn't on yet. Until then the events are dropped quietly and the site works normally.
+4. **GitHub secrets for the weekly workflow** (`.github/workflows/weekly.yml`), all optional, and each step logs what's missing:
+   - `GSC_CREDENTIALS_JSON` (the service account's JSON key) and `GSC_PROPERTY` (e.g. `sc-domain:safetyindex.blog`). Give the service account read access to the Search Console property (Settings → Users and permissions).
+   - `GOOGLE_CLOUD_API_KEY` (already there, for cover images).
+   - Deploying: `CLOUDFLARE_DEPLOY_HOOK`, or `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`. Without either, the push to main deploys through Cloudflare's git integration, as now.
+5. **Local `.env`** for `npm run weekly`: `GSC_CREDENTIALS=/path/to/key.json` and `GSC_PROPERTY=sc-domain:safetyindex.blog`. Without them the weekly run falls back to manual Search Console exports in `data/gsc/<date>/pages.csv`.
+6. **Crontab** for the weekly local run (improve loop + new pages): see the final summary.
+7. **Remove `ANTHROPIC_API_KEY` from `.env`** if you don't need the old API pipeline. The engine strips it anyway, but leaving it there makes accidental API billing possible.
+8. **Merge `build-out`** once you've looked over the built site (`npm run build:preview && npm run preview` shows every page, released or not). After the merge, the weekly workflow releases the first wave.
+9. **Monthly AI-answer tracking**: run `npm run ai-answers` once a month (140 web-search Claude calls; `npm run ai-answers -- --market us --limit 5` for a quick check). Results go to `data/ai-answers/<date>.json`, with a per-market count of answers that name or link safetyindex.blog.
+10. **App store IDs**: when the apps are live, set `android_package`, `ios_app_id`, `ios_provider_token` and `apps_live: true` in `scripts/config.yml`. The button switches to the official badges, device detection and the QR code with no other code changes. Until then, checklist pages show "Coming soon on Android and iOS."
+11. **BLS data**: SOII 2025 comes out on 18 November 2026. Run `npm run bls` then; it writes the 2025 injury statistics page. CFOI 2025 (planned for 16 December 2026) has been postponed by BLS with no new date yet.
+12. **Optional**: ask a French and a German speaker to spot-check the French and German pages.
+13. **Future stage, not in this build**: a directory of inspection companies. Email capture and outreach were also out of scope.
 
 ---
 
@@ -135,3 +150,43 @@ Cloudflare **Workers static assets** with git integration (`wrangler.jsonc`, ass
 | US guide #6 lockout/tagout | First try dropped: the checker rightly found a definition summarised without one of its conditions, and a training row that implied affected employees need no initial training. After the precision rule and severity grading: written and passed. |
 | UK guide #7 safety glasses | Correctly skipped by go/no-go: 6 of the UK top 10 are retailer pages. |
 | German rewrite of /de/blog/sicherheitszeichen-arbeitsschutz | First tries showed two engine bugs (the rewrite guard reverted whole fields; the number check misread German dates), both fixed. Retesting. |
+
+## Step 6: Data pages and hubs
+
+- **OSHA penalties** (`/us/osha-penalties`): amounts from osha.gov/penalties (effective 15 January 2026), stored once in `scripts/config.yml` and read by every standard page. One URL, updated in place every January by `node scripts/data/reports.mjs --penalties-only`; the year is in the title and the update date is on the page.
+- **Workplace injury statistics 2024** (`/us/reports/workplace-injury-statistics-2024`): from BLS SOII 2024 (released 22 Jan 2026) and CFOI 2024 (released 19 Feb 2026). Headline: 2,488,400 nonfatal injuries and illnesses (2.3 per 100 full-time workers) and 5,070 fatal work injuries (3.3 per 100,000). Six static SVG charts, six tables, CSV and Excel downloads. The BLS API refused scripted requests ("website busy"), so `scripts/data/bls.mjs` reads the published tables.
+- **Most-cited OSHA standards report** (`/us/reports/most-cited-osha-standards-2026`, topic sheet row 134): built by `scripts/data/reports.mjs` from the DOL data once the pull finishes. It covers the most-cited standards and paragraphs, trends from FY2022 to FY2026, penalties by industry sector and the most-cited standards per industry, with CSV and Excel downloads. The opening sentence can be quoted on its own.
+- Reports and the penalties page are built by script, with no AI writing, so every number comes straight from the data. They say so on the page.
+- **Hubs**: `/us` (market home), `/us/standards`, `/us/industries`, `/us/guides`, `/us/reports`, `/blog`, `/fr/blog`, `/de/blog`, and `/uk|au|ca|nz` with `/…/guides`. Each lists every live page in its group, grouped by topic. A hub only exists once it has a live page. The home page links the US hubs, the reports and the other markets.
+
+### Who might cite the yearly report (for your own outreach, if you choose)
+
+- Trade publications: EHS Today, Safety+Health (National Safety Council), Occupational Health & Safety (OH&S), ISHN, Construction Dive, ENR, Facilities Dive, Supply Chain Dive.
+- Associations: ASSP (American Society of Safety Professionals), NSC, AIHA, AGC and ABC (construction), state safety councils, NAHB, the National Roofing Contractors Association, warehouse and logistics associations.
+- Safety blogs and software vendors' blogs that publish "top OSHA violations" posts every October (OSHA's own top-10 list covers one fiscal year; ours covers five years with paragraphs, penalties and industries, which gives them something new to cite).
+- University EHS departments, safety consultants and insurance loss-control teams who publish client guidance.
+- Local news and business journals covering workplace safety in their state (the data can be split by state on request in a later version).
+
+## Step 7: Release and technical setup
+
+- **Release schedule** (`npm run release`, `scripts/release/release.mjs`): generated pages carry no `releaseDate` until a wave releases them; the build leaves out unreleased pages, and sitemaps, hubs, internal links and IndexNow follow automatically. The first wave is the top 50 US standard pages in queue order, the yearly report, the injury statistics page and the penalties page, with their hubs. After that, 75 pages a week, gated by the impressions gate and the indexing gate. Each wave adds a "Pages for Paul to read this week" list to this file. Waves are logged in `data/release/`. Pages from before the build keep their original dates.
+- **Sitemaps**: one per market and section (`sitemap-us-standards.xml`, `sitemap-us-guides.xml`, `sitemap-fr-guides.xml`, …), split at 10,000 URLs, under `/sitemap-index.xml` (named in robots.txt). Only live, indexable, self-canonical pages. `lastmod` is the last upgrade/rewrite or the release date. This replaced `@astrojs/sitemap`.
+- **URLs**: a small Worker (`worker/index.js`) 301-redirects any URL with capitals to lowercase and answers 410 for retired URLs (`data/gone.json`). Unknown URLs still get the real 404 page. Page-for-page 301s go in `public/_redirects`.
+- **Analytics**: the site had none. I added a cookie-free, Cloudflare-native option: the same Worker writes events to Workers Analytics Engine. It tracks checklist downloads (PDF and Excel separately, plus report CSV/Excel), app-button taps and outbound store clicks, per market. No cookies; no IP or user agent is stored.
+- **App button**: one component, shown only on pages with a checklist and only in `app_markets` (US, UK, AU, CA, NZ; off for French and German). While `apps_live` is false it shows the plain "Coming soon on Android and iOS." note, with no badges.
+- **IndexNow**: `npm run indexnow` pings new and changed sitemap URLs after a deploy (key file served at `/<key>.txt`, state in `data/indexnow-state.json`). The weekly workflow runs it after deploying.
+- **Structured data**: `WebPage` on standard, industry, report and penalty pages, `BlogPosting` on guides, `BreadcrumbList` everywhere, all built as objects and JSON-encoded; the build checks that the name and dates match the page.
+- **Page size**: the build fails on HTML over 1 MB or an H1 after the first 100 KB. Charts are static SVG in the HTML.
+- **Lighthouse** (`npm run lighthouse`): 10 sample pages across page types, mobile, 3 runs each, median counts; fails under 80 performance or 95 accessibility. Locally it uses a headless Chrome in `~/.cache/si-chrome` (under WSL, Chrome is started directly with a debugging port because chrome-launcher picks Windows paths).
+- **Cover images** (`npm run covers`): one image per subject (standard pages use the work the standard covers, industries a worksite, reports a neutral scene), shared by the French and German versions; at most `max_images_per_run` (150) per run; made in the weekly Action. Pages build and look right without one.
+- **llms.txt**: now lists the market hubs, the reports and the top standard pages, one line each.
+- **Hosting**: the build reports the file count against Cloudflare's static asset limit (20,000 files on the free plan) and warns at 80%.
+
+## Step 8: Search Console loop and maintenance
+
+- `.claude/skills/gsc-seo-autopilot/` copied from github.com/pauljomy/gsc-seo-autopilot (MIT), with the two fixes, `app_url: ""`, the market hubs as link targets, and a note at the top: never run its `auto` or `publish` commands on this site.
+- `scripts/gsc/pull.mjs`: Search Console API client (service-account JWT, no LLM). It pulls the last 28 days and the 28 before (query, page, query+page, page+country), saves CSVs and a summary in `data/gsc/<date>/`, and runs URL Inspection for pages released in the last 30 days (stops at 1,800 a day). No credentials → logs it and uses manual exports.
+- `scripts/gsc/improve.mjs`: the six rules, at most 20 changes a week. Title/description rewrites go through the engine's checks and are restored after 28 days if CTR dropped. Every change is logged with its size (optimisation / upgrade / rewrite); only upgrades and rewrites move the visible date.
+- `scripts/maintenance/impressions.mjs` (zero impressions for 3 months → merge, noindex or, with analytics evidence only, 410), `audit.mjs` (quarterly CSV in `data/audit/`), `rule-changes.mjs` (weekly eCFR amendment check for every cited section; affected pages go to the rewrite queue), `scripts/gsc/report.mjs` (weekly report per market in this file), `ai-answers.mjs` (20 questions per market).
+- `npm run weekly` (`scripts/weekly.mjs`) works on the `weekly-improve` branch, rebased on the latest main. It runs the pull, the improve loop, the zero-impression check, rule changes, the monthly recheck of `Waiting` rows, up to 10 new pages through the engine, the report and the full build. If everything passes and `improve_auto_push` is true, it merges into main and pushes; otherwise it leaves the branch and notes why here.
+- Not wired yet: legislation change feeds for the UK, Australia, Canada, New Zealand, France and Germany. The weekly report carries a reminder; legislation.gov.uk's Atom feeds would be the first to add.

@@ -1,5 +1,5 @@
 {
-  "balance": 3522,
+  "balance": 2596,
   "balanceCheckedOn": "2026-11-12",
   "runs": {
     "2026-11-12 topic sheet": 184,
@@ -9,7 +9,9 @@
     "2026-11-12T19:46-16876": 2,
     "2026-11-12T19:46-16941": 2,
     "2026-11-12T19:48-17282": 5,
-    "2026-11-12T20:02-19472": 2
+    "2026-11-12T20:02-19472": 2,
+    "2026-11-12T20:16-20663": 5,
+    "2026-11-12T20:18-21016": 3
   },
   "log": [
     {
@@ -81,6 +83,101 @@
       "at": "2026-11-12T20:15:48.911Z",
       "credits": 54,
       "note": "research hazards-chemicals"
+    },
+    {
+      "at": "2026-11-12T20:16:54.953Z",
+      "credits": 54,
+      "note": "research safety-management"
+    },
+    {
+      "at": "2026-11-12T20:17:44.993Z",
+      "credits": 54,
+      "note": "research fire-safety"
+    },
+    {
+      "at": "2026-11-12T20:18:16.833Z",
+      "credits": 5,
+      "note": "fr: 13 keywords"
+    },
+    {
+      "at": "2026-11-12T20:18:39.147Z",
+      "credits": 54,
+      "note": "research risk-assessment-permits"
+    },
+    {
+      "at": "2026-11-12T20:19:28.895Z",
+      "credits": 54,
+      "note": "research construction-safety"
+    },
+    {
+      "at": "2026-11-12T20:20:11.599Z",
+      "credits": 3,
+      "note": "fr: 7 keywords"
+    },
+    {
+      "at": "2026-11-12T20:20:13.781Z",
+      "credits": 54,
+      "note": "research toolbox-talks-safety-meetings"
+    },
+    {
+      "at": "2026-11-12T20:20:59.356Z",
+      "credits": 54,
+      "note": "research food-safety"
+    },
+    {
+      "at": "2026-11-12T20:21:42.048Z",
+      "credits": 54,
+      "note": "research falls-working-at-height"
+    },
+    {
+      "at": "2026-11-12T20:22:28.604Z",
+      "credits": 54,
+      "note": "research equipment-machinery"
+    },
+    {
+      "at": "2026-11-12T20:23:16.106Z",
+      "credits": 54,
+      "note": "research first-aid-medical"
+    },
+    {
+      "at": "2026-11-12T20:24:03.579Z",
+      "credits": 54,
+      "note": "research osha-compliance"
+    },
+    {
+      "at": "2026-11-12T20:24:48.621Z",
+      "credits": 54,
+      "note": "research incidents-reporting"
+    },
+    {
+      "at": "2026-11-12T20:25:34.808Z",
+      "credits": 54,
+      "note": "research safety-training-certification"
+    },
+    {
+      "at": "2026-11-12T20:26:23.759Z",
+      "credits": 54,
+      "note": "research electrical-loto"
+    },
+    {
+      "at": "2026-11-12T20:27:08.232Z",
+      "credits": 54,
+      "note": "research emergency-planning"
+    },
+    {
+      "at": "2026-11-12T20:27:56.738Z",
+      "credits": 54,
+      "note": "research ergonomics-manual-handling"
+    },
+    {
+      "at": "2026-11-12T20:28:44.871Z",
+      "credits": 54,
+      "note": "research driver-safety"
+    },
+    {
+      "at": "2026-11-12T20:29:33.102Z",
+      "credits": 54,
+      "note": "research confined-space"
     }
   ]
 }

@@ -86,9 +86,10 @@ export async function writeGuide(topic, market, { log = console.log, replace } =
       const main = data.rows.find((r) => r.keyword === keyword) ?? data.rows.filter((r) => r.kd != null).sort((a, b) => (b.volume ?? 0) - (a.volume ?? 0))[0];
       const cluster = data.rows.reduce((n, r) => n + (r.volume ?? 0), 0);
       kw = { source: "OpenSEO", clusterVolume: cluster, kd: main?.kd ?? null, keyword: main?.keyword ?? keyword };
-      if (!(cluster >= t.volume)) return { status: "waiting", reason: `low demand in ${market}: cluster volume ${cluster} (floor ${t.volume})`, keyword };
-      if (!(kw.kd != null && kw.kd < t.kd_under)) return { status: "waiting", reason: `high competition in ${market}: KD ${kw.kd} for "${kw.keyword}"`, keyword };
-    } else return { status: "waiting", reason: "OpenSEO not available or credit limit reached; no keyword data for this market", keyword };
+      // A rewrite keeps an existing URL: keyword data is recorded but doesn't stop it.
+      if (!(cluster >= t.volume) && !replace) return { status: "waiting", reason: `low demand in ${market}: cluster volume ${cluster} (floor ${t.volume})`, keyword };
+      if (!(kw.kd != null && kw.kd < t.kd_under) && !replace) return { status: "waiting", reason: `high competition in ${market}: KD ${kw.kd} for "${kw.keyword}"`, keyword };
+    } else if (!replace) return { status: "waiting", reason: "OpenSEO not available or credit limit reached; no keyword data for this market", keyword };
   }
   // 4. Sources.
   const opened = new Set();
