@@ -146,12 +146,19 @@ if (!robots.includes(`Sitemap: ${site}/sitemap-index.xml`)) err("/robots.txt", "
 for (const bot of ["GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended", "CCBot"]) {
   if (!robots.includes(`User-agent: ${bot}`)) err("/robots.txt", `does not name ${bot}`);
 }
-const sitemaps = [...walk(dist)].filter((f) => /sitemap-\d+\.xml$/.test(f)).map((f) => readFileSync(f, "utf8")).join("");
+const sitemaps = [...walk(dist)].filter((f) => /sitemap-[a-z]+-[a-z]+(-\d+)?\.xml$/.test(f)).map((f) => readFileSync(f, "utf8")).join("");
 if (!sitemaps.includes("<lastmod>")) err("/sitemap", "has no lastmod values");
 const full = existsSync(join(dist, "llms-full.txt")) ? readFileSync(join(dist, "llms-full.txt"), "utf8") : "";
 for (const [, md] of full.matchAll(new RegExp(`Markdown: ${site.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(\\/\\S+\\.md)`, "g"))) {
   if (!existsSync(join(dist, md.slice(1)))) err(md, "markdown mirror listed in llms-full.txt was not generated");
 }
+
+// Section 17 checks (rules, writing, links, topics, sitemaps, images): scripts/checks/site.mjs.
+const { runSiteChecks } = await import("./checks/site.mjs");
+const more = runSiteChecks({ pages, dist, site });
+errors.push(...more.errors);
+if (more.warnings.length) console.warn(`⚠ ${more.warnings.length} warning(s) on pages published before the build (added to data/rewrite-queue.json):\n  ${more.warnings.join("\n  ")}`);
+if (more.fewLinks.length) console.log(`ℹ ${more.fewLinks.length} page(s) with fewer than 3 contextual links (allowed while they link their hub and every eligible target): ${more.fewLinks.join(", ")}`);
 
 if (errors.length) {
   console.error(`✖ Build checks failed (${errors.length}):\n  ${errors.join("\n  ")}`);

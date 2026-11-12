@@ -14,3 +14,6 @@ data/raw/
 
 # Python env for scripts/downloads (pip install -r scripts/downloads/requirements.txt)
 .venv/
+data/jobs/*/
+data/jobs/run.log
+data/jobs/run.pid

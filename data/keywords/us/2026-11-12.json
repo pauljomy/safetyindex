@@ -1,0 +1,4518 @@
+{
+ "rows": [
+  {
+   "keyword": "osha scaffold requirements",
+   "volume": 480,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha ladder requirements",
+   "volume": 1000,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30",
+   "volume": 40500,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 certification",
+   "volume": 40500,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 certification",
+   "volume": 40500,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour training",
+   "volume": 14800,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour course",
+   "volume": 14800,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour class",
+   "volume": 18100,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 certification online",
+   "volume": 12100,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "10 hour online osha course",
+   "volume": 9900,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10-hour online class",
+   "volume": 9900,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "10 hour osha online course",
+   "volume": 9900,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour training online",
+   "volume": 9900,
+   "kd": 39,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 training online",
+   "volume": 8100,
+   "kd": 55,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 class online",
+   "volume": 8100,
+   "kd": 55,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 online class",
+   "volume": 8100,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 course online",
+   "volume": 8100,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 online course",
+   "volume": 8100,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hour training online",
+   "volume": 6600,
+   "kd": 53,
+   "intent": "informational"
+  },
+  {
+   "keyword": "30 hour osha class online",
+   "volume": 6600,
+   "kd": 46,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "osha 10 training",
+   "volume": 6600,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 course",
+   "volume": 6600,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 course",
+   "volume": 6600,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "30 hour osha course online",
+   "volume": 6600,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 classes",
+   "volume": 6600,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 class",
+   "volume": 6600,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 training",
+   "volume": 6600,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hour training",
+   "volume": 3600,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 certification online free",
+   "volume": 2900,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour training course",
+   "volume": 2900,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hour course",
+   "volume": 2900,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 training course",
+   "volume": 2400,
+   "kd": 46,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour training courses",
+   "volume": 2400,
+   "kd": 39,
+   "intent": "informational"
+  },
+  {
+   "keyword": "10 hour osha training course",
+   "volume": 2400,
+   "kd": 39,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha training 10 hour course",
+   "volume": 2400,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 training course",
+   "volume": 1900,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour construction course",
+   "volume": 1900,
+   "kd": 31,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "osha 30 training classes",
+   "volume": 1900,
+   "kd": 46,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is osha 10 certification",
+   "volume": 1900,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 training courses",
+   "volume": 1900,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 training class",
+   "volume": 1900,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 certification online",
+   "volume": 1900,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 online",
+   "volume": 1600,
+   "kd": 55,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour certification",
+   "volume": 1600,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 certification training",
+   "volume": 1600,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to get osha 10 certification",
+   "volume": 1300,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 refresher course",
+   "volume": 1300,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 10 hour",
+   "volume": 1300,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 certification online free",
+   "volume": 1300,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hour",
+   "volume": 1000,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hrs",
+   "volume": 1000,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hour certification online",
+   "volume": 1000,
+   "kd": 46,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 hour training course",
+   "volume": 880,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 30 refresher course",
+   "volume": 1000,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha online certification 30 hour",
+   "volume": 1000,
+   "kd": 46,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lockout and tagout procedures",
+   "volume": 3600,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock out tag out",
+   "volume": 18100,
+   "kd": 16,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "lockout tagout",
+   "volume": 18100,
+   "kd": 33,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tag and lock",
+   "volume": 18100,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock out tag out locks",
+   "volume": 18100,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "locking and tagging",
+   "volume": 18100,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lockout procedure",
+   "volume": 3600,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock out tag out procedure",
+   "volume": 3600,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tagout lockout procedure",
+   "volume": 3600,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "loto procedures",
+   "volume": 3600,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is lockout and tagout",
+   "volume": 2900,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is tagout and lockout",
+   "volume": 2900,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is lockout tagout",
+   "volume": 1900,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is lock out tag out",
+   "volume": 2900,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "loto lock",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "loto meaning",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "loto tag",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lockout tagout procedures",
+   "volume": 1600,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock-out meaning",
+   "volume": 1300,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock out means",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define lockouts",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock out meaning",
+   "volume": 1000,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a hazardous energy control program",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define lockout",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lockout definition",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a lockout",
+   "volume": 1000,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition of lockout",
+   "volume": 1000,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lock out mean",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "meaning of lockout",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety glasses",
+   "volume": 60500,
+   "kd": 13,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "eyeglass safety glasses",
+   "volume": 60500,
+   "kd": 46,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety spectacle",
+   "volume": 60500,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "z87 safety glasses",
+   "volume": 8100,
+   "kd": 14,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "impact resistant safety glasses",
+   "volume": 4400,
+   "kd": 10,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "impact-resistant safety glasses",
+   "volume": 4400,
+   "kd": 10,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety glass",
+   "volume": 3600,
+   "kd": 20,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety glasses laboratory",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety goggles in laboratory",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "work safety glasses",
+   "volume": 1300,
+   "kd": 22,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "protective glasses",
+   "volume": 1000,
+   "kd": 19,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "respirator",
+   "volume": 49500,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "respirators",
+   "volume": 49500,
+   "kd": 23,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "mask with respirators",
+   "volume": 18100,
+   "kd": 28,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "masks with respirators",
+   "volume": 18100,
+   "kd": 28,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "respirator mask",
+   "volume": 18100,
+   "kd": 20,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "masks and respirators",
+   "volume": 18100,
+   "kd": 28,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "papr respirator",
+   "volume": 14800,
+   "kd": 3,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "powered air purifying respirator",
+   "volume": 14800,
+   "kd": 5,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "respirator definition",
+   "volume": 12100,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is respirator",
+   "volume": 9900,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "full face respirator",
+   "volume": 8100,
+   "kd": 2,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "what is a respirator",
+   "volume": 3600,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "full face respirator mask",
+   "volume": 3600,
+   "kd": 5,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "types of respirators",
+   "volume": 2900,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how does respirator work",
+   "volume": 2900,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "full face respirators",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "half face respirator",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "supplied air respirator",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "half mask respirator",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "respirator protection",
+   "volume": 1600,
+   "kd": 23,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "respiratory protection",
+   "volume": 1300,
+   "kd": 18,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "respiratory fit testing kit",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "respirator filters",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "papr respirator with hood",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher classification",
+   "volume": 49500,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "dry chemical fire extinguisher",
+   "volume": 22200,
+   "kd": 7,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "types of fire extinguishers",
+   "volume": 14800,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "type a extinguisher",
+   "volume": 14800,
+   "kd": 7,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher category",
+   "volume": 14800,
+   "kd": 42,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "fire extinguisher kinds",
+   "volume": 14800,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "classes of fire extinguishers",
+   "volume": 14800,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "carbon dioxide extinguisher",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "grease fire extinguisher",
+   "volume": 3600,
+   "kd": 1,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "different classes of fire extinguishers",
+   "volume": 2900,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "different types of fire extinguishers",
+   "volume": 2900,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "wet chemical fire extinguisher",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "dry powder extinguisher",
+   "volume": 1600,
+   "kd": 12,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "wet chemical extinguisher",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "what fire extinguisher",
+   "volume": 1300,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire extinguisher sizes",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what do the symbols on a fire extinguisher indicate",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what does the symbols on a fire extinguisher indicate",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what type of fire extinguisher",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire extinguisher meaning",
+   "volume": 1000,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift training",
+   "volume": 12100,
+   "kd": 7,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "forklift course",
+   "volume": 12100,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift certification near me",
+   "volume": 8100,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "how to get forklift certified",
+   "volume": 6600,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift course near me",
+   "volume": 5400,
+   "kd": 4,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "forklift classes near me",
+   "volume": 5400,
+   "kd": 5,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "forklift certification training",
+   "volume": 5400,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "certified forklift training",
+   "volume": 5400,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift training and certification",
+   "volume": 5400,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift truck training near me",
+   "volume": 5400,
+   "kd": 4,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "forklift training near me",
+   "volume": 5400,
+   "kd": 8,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "forklift truck training courses",
+   "volume": 4400,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift training course",
+   "volume": 4400,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "online forklift training",
+   "volume": 2900,
+   "kd": 16,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to get forklift licence",
+   "volume": 2900,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift online training",
+   "volume": 2400,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift training online",
+   "volume": 2900,
+   "kd": 20,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "how to get certified for forklift",
+   "volume": 2900,
+   "kd": 39,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to get a forklift license",
+   "volume": 2900,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift license",
+   "volume": 2900,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift safety training",
+   "volume": 2900,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "online forklift certification",
+   "volume": 2900,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift training programs",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift training program",
+   "volume": 2400,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "online forklift certification course",
+   "volume": 1900,
+   "kd": 39,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift certification course",
+   "volume": 1900,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift operator certification",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift certification classes",
+   "volume": 1900,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift certification online",
+   "volume": 1600,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "forklift classes",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "where to get forklift certified",
+   "volume": 1300,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "free forklift certification",
+   "volume": 1300,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "where can i get certified for forklift",
+   "volume": 1300,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "where can i get a forklift certification",
+   "volume": 1300,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "price of forklift training",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "certification for forklift operator",
+   "volume": 1000,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report format",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report",
+   "volume": 18100,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report template",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report sample format",
+   "volume": 5400,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report sample form",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sample form of incident report",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report template word",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "format for incident report",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident logging template",
+   "volume": 5400,
+   "kd": 11,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "what is incident",
+   "volume": 1900,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what information should be documented in an incident log",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report form",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident management",
+   "volume": 1600,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "incident report example",
+   "volume": 1300,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sample incident report template",
+   "volume": 1300,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "faa incident reports",
+   "volume": 1000,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "defibrillation",
+   "volume": 110000,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is defibrillation",
+   "volume": 8100,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "defibrillator and pacemaker",
+   "volume": 5400,
+   "kd": 7,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "why is early defibrillation important",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what do defibrillators do",
+   "volume": 2400,
+   "kd": 41,
+   "intent": "informational"
+  },
+  {
+   "keyword": "is defibrillator the same as a pacemaker",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "why defibrillation important",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "why is defibrillation important",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "why are defibrillators important",
+   "volume": 1600,
+   "kd": 36,
+   "intent": "informational"
+  },
+  {
+   "keyword": "why is a defibrillator important",
+   "volume": 1600,
+   "kd": 36,
+   "intent": "informational"
+  },
+  {
+   "keyword": "is defibrillator same as pacemaker",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "defibrillate",
+   "volume": 1600,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "why defibrillation is important",
+   "volume": 1600,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how does defibrillation work",
+   "volume": 1300,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tcs food",
+   "volume": 18100,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "tcs foods",
+   "volume": 18100,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "what is tcs food",
+   "volume": 6600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are tcs foods",
+   "volume": 6600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tcs food meaning",
+   "volume": 2900,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a tcs food",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what tcs food",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "which is tcs food",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "which food is a tcs food",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tcs foods are normally foods that are",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "which food is tcs food",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "which is a tcs food",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what does tcs stand for",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what does tcs food stand for",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tcs foods examples",
+   "volume": 1300,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "examples of tcs food",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what does tcs foods stand for",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what does tcs stand for in food",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "examples of tcs foods",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tcs food examples",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tcs food example",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging def",
+   "volume": 12100,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging",
+   "volume": 22200,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition of rigging",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging definition",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging device",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "rigger equipment",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "rigging equipment",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "definition rigging",
+   "volume": 2900,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging devices",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "what is rigging",
+   "volume": 1600,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a rigging",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging certifications",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rigging certification",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "a rigger",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "material safety data sheet",
+   "volume": 22200,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheets",
+   "volume": 49500,
+   "kd": 62,
+   "intent": "informational"
+  },
+  {
+   "keyword": "msds safety data sheet",
+   "volume": 22200,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safe data sheets",
+   "volume": 14800,
+   "kd": 62,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheet",
+   "volume": 14800,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "msds safety sheet",
+   "volume": 14800,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds msds sheet",
+   "volume": 8100,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds sheets",
+   "volume": 8100,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "msds data sheet",
+   "volume": 8100,
+   "kd": 34,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds sheet",
+   "volume": 8100,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is safety data sheet",
+   "volume": 4400,
+   "kd": 48,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety sheets for chemicals",
+   "volume": 3600,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how many sections on a safety data sheet",
+   "volume": 2400,
+   "kd": 35,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheet example",
+   "volume": 1600,
+   "kd": 45,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheets sample",
+   "volume": 1600,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "examples of sds",
+   "volume": 1600,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "material safety data sheet example",
+   "volume": 1600,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheet pdf",
+   "volume": 1600,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "examples of msds sheets",
+   "volume": 1600,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "msds sheets pdf",
+   "volume": 1600,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "msds data sheet pdf",
+   "volume": 1600,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "material safety data sheet pdf",
+   "volume": 1600,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds sample",
+   "volume": 1600,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sample msds sheet",
+   "volume": 1600,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sample of msds",
+   "volume": 1600,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "msds example",
+   "volume": 1600,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds sheets example",
+   "volume": 1300,
+   "kd": 40,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds safety data sheet definition",
+   "volume": 1300,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheet definition",
+   "volume": 1300,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety data sheets definition",
+   "volume": 1300,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition material safety data sheet",
+   "volume": 1300,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "material safety data sheets definition",
+   "volume": 1300,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sds sheets definition",
+   "volume": 1300,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "management safety data sheet",
+   "volume": 1000,
+   "kd": 41,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the purpose of safety data sheets",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is emergency action plan",
+   "volume": 6600,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency action plan",
+   "volume": 74000,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency procedure guide",
+   "volume": 6600,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is an emergency action plan",
+   "volume": 4400,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency response",
+   "volume": 2900,
+   "kd": 55,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency recovery plan",
+   "volume": 1900,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "in case of an emergency",
+   "volume": 1900,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "in case of a emergency",
+   "volume": 1900,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "an important feature of emergency operation plans is that they",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency response guidelines",
+   "volume": 1600,
+   "kd": 48,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency action plan template",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency preparedness plan",
+   "volume": 1300,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "emergency procedures",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the purpose of an emergency action plan",
+   "volume": 590,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "cut rated gloves",
+   "volume": 12100,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "nitrile gloves food safe",
+   "volume": 5400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "electrical gloves",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "hand gloves",
+   "volume": 3600,
+   "kd": 8,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "electric gloves",
+   "volume": 3600,
+   "kd": 3,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "gloves for surgery",
+   "volume": 3600,
+   "kd": 10,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "gloves electrical",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "ppe gloves",
+   "volume": 2400,
+   "kd": 10,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety sleeve",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "puncture resistant gloves",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "gloves for bloodborne pathogens",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "gloves for electrical work",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "paint gloves",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "are nitrile gloves latex free",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rubber gloves electrical safety",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "latex allergy nitrile gloves",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "protective sleeves",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety gloves for electricians",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "electrical safe gloves",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "nitrile gloves latex allergy",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "electrical safety gloves",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "glove disposable",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "hypoallergenic gloves",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "preliminary hazard analysis",
+   "volume": 49500,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is safety management system",
+   "volume": 49500,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety management",
+   "volume": 5400,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety management system",
+   "volume": 1000,
+   "kd": 20,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "osha 300 log form",
+   "volume": 9900,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 300a",
+   "volume": 9900,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 300a form",
+   "volume": 9900,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 300",
+   "volume": 9900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "injury reporting",
+   "volume": 8100,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha log 300a",
+   "volume": 8100,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha 300 log",
+   "volume": 8100,
+   "kd": 31,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha 300",
+   "volume": 6600,
+   "kd": 17,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha 300a",
+   "volume": 4400,
+   "kd": 19,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha 300 forms",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "300a",
+   "volume": 1900,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 301a",
+   "volume": 1900,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 301",
+   "volume": 1900,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha ita",
+   "volume": 1300,
+   "kd": 39,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "osha logs",
+   "volume": 1300,
+   "kd": 35,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ita osha",
+   "volume": 1300,
+   "kd": 24,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "how can you file a report with osha",
+   "volume": 1300,
+   "kd": 33,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 300a fillable",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 300 fillable",
+   "volume": 1000,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha form 300 pdf",
+   "volume": 1300,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha 300a form pdf",
+   "volume": 1000,
+   "kd": 16,
+   "intent": "informational"
+  },
+  {
+   "keyword": "full body safety harness",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "harnesses",
+   "volume": 60500,
+   "kd": 12,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety harness and lanyard",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "construction safety harness",
+   "volume": 1600,
+   "kd": 1,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "harness and lanyard",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher inspection",
+   "volume": 22200,
+   "kd": 7,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire equipment inspection",
+   "volume": 22200,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire extinguisher inspector near me",
+   "volume": 8100,
+   "kd": 4,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "how long fire extinguisher good for",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how long do fire extinguishers last",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how long is a fire extinguisher good for",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how long is fire extinguisher good for",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire door inspection",
+   "volume": 1000,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety gear for welders",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "training program for welders",
+   "volume": 8100,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "welder training",
+   "volume": 3600,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "welders gear",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "welder gear",
+   "volume": 2400,
+   "kd": 9,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "welder safety equipment",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety equipment for welding",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "welding protective equipment",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "welder ppe",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire resistant clothing for welding",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "flame resistant clothing for welders",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "personal protective equipment of welding",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "welding ppe",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "is welding a dangerous job",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "is welding dangerous",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "order of donning and doffing ppe",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "doff ppe order",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "ppe order",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ppe donning and doffing order",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "donning ppe",
+   "volume": 2900,
+   "kd": 1,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "ppe order of removal",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ppe for airborne precaution",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "order of taking off ppe",
+   "volume": 1900,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ppe for airborne precautions",
+   "volume": 5400,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "order of removing ppe",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ppe removal order",
+   "volume": 1900,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "airborne precautions ppe",
+   "volume": 1900,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "removing ppe order",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "airborne precaution ppe",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "in the line of fire",
+   "volume": 40500,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "in a line of fire",
+   "volume": 40500,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "job hazard analysis",
+   "volume": 6600,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "jhas",
+   "volume": 6600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "job risk analysis",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "job safety analysis",
+   "volume": 1900,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "jha form",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is jha",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "job hazard analysis form",
+   "volume": 1000,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a jha",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is job hazard analysis",
+   "volume": 1000,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is j h a",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a job hazard analysis",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "factor of safety",
+   "volume": 2400,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "factor of safety calculation",
+   "volume": 2400,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "factor safety",
+   "volume": 2400,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "factor of safety formula",
+   "volume": 2400,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "formula for factor of safety",
+   "volume": 2400,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "factor safety formula",
+   "volume": 2400,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety factor equation",
+   "volume": 2400,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety factor formula",
+   "volume": 2400,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety factors",
+   "volume": 2400,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "formula of factor of safety",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "equation for factor of safety",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety of factor",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "factor of safety equation",
+   "volume": 2400,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire prevention tips",
+   "volume": 3600,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety",
+   "volume": 14800,
+   "kd": 63,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety and fire prevention",
+   "volume": 14800,
+   "kd": 49,
+   "intent": "informational"
+  },
+  {
+   "keyword": "firefighter safety",
+   "volume": 14800,
+   "kd": 33,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety tips for fire prevention",
+   "volume": 3600,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire prevention week",
+   "volume": 3600,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety tips",
+   "volume": 3600,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire prevention",
+   "volume": 2900,
+   "kd": 51,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire prevention week 2025",
+   "volume": 2400,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire safety week 2025",
+   "volume": 1300,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire prevention month",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "carbon monoxide detector replacement",
+   "volume": 27100,
+   "kd": 15,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "carbon monoxide alarm replacement",
+   "volume": 27100,
+   "kd": 3,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "how to put out a grease fire",
+   "volume": 9900,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how do you put out a grease fire",
+   "volume": 9900,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "grease fire",
+   "volume": 3600,
+   "kd": 3,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "baking soda grease fire",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hierarchy of control",
+   "volume": 8100,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hierarchy of hazard control",
+   "volume": 8100,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard control hierarchy",
+   "volume": 8100,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hierarchy of control osha",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hierarchy of controls osha",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha hierarchy of controls",
+   "volume": 1300,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hierarchy of hazard control osha",
+   "volume": 1300,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "work practice controls",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "engineering controls examples",
+   "volume": 1000,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hearing protection earmuffs",
+   "volume": 8100,
+   "kd": 3,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "hearing protectors",
+   "volume": 8100,
+   "kd": 25,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "ear muffs hearing protection",
+   "volume": 6600,
+   "kd": 6,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "ear muffs for noise reduction",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety ear muffs",
+   "volume": 1300,
+   "kd": 2,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "certified safety professional",
+   "volume": 49500,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "csp certified safety professional",
+   "volume": 2900,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is certified safety professional",
+   "volume": 2400,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "certified safety professional certification",
+   "volume": 1300,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety professional certificate",
+   "volume": 1300,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety exams",
+   "volume": 1000,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety professional",
+   "volume": 720,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "example of physical hazard",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "physical hazard",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "physical hazards",
+   "volume": 2400,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "physical hazards examples",
+   "volume": 1300,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a physical hazard",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "examples of physical hazards",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are physical hazard",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a physical hazards",
+   "volume": 1000,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are the physical hazard",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "physical hazard examples",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are the physical hazards",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are physical hazards",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "physical hazard example",
+   "volume": 1000,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "example of physical hazards",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is physical hazard",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "examples of physical hazard",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is physical hazards",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "concerns about safety",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "conditions at work",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "workplace conditions",
+   "volume": 3600,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety concern",
+   "volume": 2400,
+   "kd": 16,
+   "intent": "informational"
+  },
+  {
+   "keyword": "concern about safety",
+   "volume": 2900,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety concerns",
+   "volume": 1900,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety considerations",
+   "volume": 1000,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety issue",
+   "volume": 1000,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "manual handling",
+   "volume": 2400,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lifting safe",
+   "volume": 1600,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the manual handling",
+   "volume": 1600,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safe patient handling",
+   "volume": 1600,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is manual handling",
+   "volume": 1600,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "manual handling meaning",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "manual handling definition",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "manual handling define",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define manual handling",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition of manual handling",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "description of manual handling",
+   "volume": 1300,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "manual handling description",
+   "volume": 1300,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "team lifting",
+   "volume": 1000,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lifting procedure",
+   "volume": 1000,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "team lift",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "risk matrix",
+   "volume": 4400,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk and assessment",
+   "volume": 9900,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk assessments",
+   "volume": 9900,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk assessment",
+   "volume": 9900,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "give an example of a risk",
+   "volume": 6600,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk assessment matrix",
+   "volume": 2900,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are risk assessments",
+   "volume": 2400,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is risk assessment",
+   "volume": 2400,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk assessment definition",
+   "volume": 1300,
+   "kd": 36,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define risk assessment",
+   "volume": 1300,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "site safe risk assessment matrix",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety shoes",
+   "volume": 14800,
+   "kd": 14,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safe shoes",
+   "volume": 14800,
+   "kd": 25,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety boots",
+   "volume": 3600,
+   "kd": 16,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety footwear",
+   "volume": 3600,
+   "kd": 10,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safe work shoes",
+   "volume": 1600,
+   "kd": 33,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "safety shoes plus",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "tactical safety boot",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "hazards",
+   "volume": 40500,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazardous nature",
+   "volume": 5400,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are the hazardous",
+   "volume": 2900,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is hazardous",
+   "volume": 2900,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety and hazards",
+   "volume": 2900,
+   "kd": 44,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the hazardous",
+   "volume": 2900,
+   "kd": 44,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety hazard",
+   "volume": 2900,
+   "kd": 44,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is hazards",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "residual hazards",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "residual hazard",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition of safety hazard",
+   "volume": 1000,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety hazards definition",
+   "volume": 1000,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety hazard definition",
+   "volume": 1000,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard definition in safety",
+   "volume": 1000,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition safety hazard",
+   "volume": 1000,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazards definition in safety",
+   "volume": 1000,
+   "kd": 43,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define safety hazard",
+   "volume": 1000,
+   "kd": 42,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ergonomics",
+   "volume": 90500,
+   "kd": 56,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ergonomic assessment",
+   "volume": 1300,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ergonomic screening",
+   "volume": 880,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire drill",
+   "volume": 12100,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "the office us fire drill",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "the fire drill the office",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "the office the fire drill",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire drill in the office",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "the office and fire drill",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "the us office fire drill",
+   "volume": 1600,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sprinkler inspection",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "sprinkler system inspection",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "sprinkler system inspector",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "fire sprinkler system inspections",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire sprinklers inspection",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire sprinkler inspection",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "hazcom",
+   "volume": 6600,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard communication",
+   "volume": 6600,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard communication standard",
+   "volume": 6600,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard communication training",
+   "volume": 1600,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is hazcom",
+   "volume": 1300,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is hazardous communication",
+   "volume": 1300,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the hazcom standard",
+   "volume": 1300,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is hazard communication standard",
+   "volume": 1300,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is hazard communication",
+   "volume": 1300,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the hazard communication standard",
+   "volume": 1300,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire extinguisher mounting height",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "extinguisher brackets",
+   "volume": 6600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher mount",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher mounting bracket",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher installation height",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fire extinguisher holder",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "2nd degree burn treatment",
+   "volume": 8100,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to treat second degree burns",
+   "volume": 5400,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to treat 2nd degree burn",
+   "volume": 5400,
+   "kd": 16,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what to do for 2nd degree burn",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to treat 2nd degree burns at home",
+   "volume": 1300,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "second degree burn hand",
+   "volume": 1300,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to treat second degree burn at home",
+   "volume": 1300,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is an arc flash",
+   "volume": 6600,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "arc flash",
+   "volume": 22200,
+   "kd": 22,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "arc flash training",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "arc flash risk assessment",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "which of the following is true of an arc flash",
+   "volume": 1000,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "permissible exposure limit",
+   "volume": 12100,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "permissible exposure limits",
+   "volume": 12100,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha permissible exposure limits",
+   "volume": 1300,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "permissible exposure limit osha",
+   "volume": 1300,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha permissible exposure limit",
+   "volume": 1300,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha exposure limits",
+   "volume": 1300,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "haccp restaurant plan",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "haccp plan",
+   "volume": 3600,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "restaurant haccp plan",
+   "volume": 2400,
+   "kd": 3,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "haccp plan for restaurant",
+   "volume": 2400,
+   "kd": 5,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "food safety plan",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "slips trips and falls",
+   "volume": 1900,
+   "kd": 5,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trip hazard",
+   "volume": 2400,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tripping hazard",
+   "volume": 2400,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazard trip",
+   "volume": 1900,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trip hazards",
+   "volume": 1900,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trips hazard",
+   "volume": 1900,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trip slip and fall",
+   "volume": 1900,
+   "kd": 29,
+   "intent": "informational"
+  },
+  {
+   "keyword": "slip trip fall",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "tripping hazards",
+   "volume": 1900,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "slips trips and falls safety training",
+   "volume": 1000,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "spill kit",
+   "volume": 4400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "spillage kits",
+   "volume": 4400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "chemical spill kit",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "hse meaning",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "environmental health and safety",
+   "volume": 3600,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "environmental health safety",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is ehs",
+   "volume": 2400,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biological hazard",
+   "volume": 4400,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biology hazard",
+   "volume": 5400,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biological hazardous",
+   "volume": 4400,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biosafety levels",
+   "volume": 1900,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biohazard safety levels",
+   "volume": 1900,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a biosafety level",
+   "volume": 1900,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is biosafety level",
+   "volume": 1900,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biosafety level meaning",
+   "volume": 40,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a biological hazard",
+   "volume": 1600,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is biological hazard examples",
+   "volume": 1600,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are the biological hazards",
+   "volume": 1600,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is an example of a biological hazard",
+   "volume": 1600,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are biological hazards",
+   "volume": 1600,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "biological hazards examples",
+   "volume": 1000,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "example of biological hazard",
+   "volume": 1000,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "industrial hygiene",
+   "volume": 8100,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "acgih",
+   "volume": 1600,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is industrial hygiene",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is an industrial hygienist",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "near miss in safety",
+   "volume": 3600,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "near miss",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "near missing",
+   "volume": 3600,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "good catches",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "near miss definition",
+   "volume": 1600,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety near miss definition",
+   "volume": 1600,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a near miss",
+   "volume": 1300,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is near miss in safety",
+   "volume": 1300,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire alarm system inspection",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire alarm inspection",
+   "volume": 2400,
+   "kd": 1,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire alarm inspector",
+   "volume": 2400,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "test fire alarm system",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire alarm testing",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "building construction crane",
+   "volume": 5400,
+   "kd": 6,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "how are cranes built",
+   "volume": 1000,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how is a crane built",
+   "volume": 1000,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how crane is built",
+   "volume": 1000,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how are cranes constructed",
+   "volume": 1000,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how is a crane assembled",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how cranes are assembled",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how are construction cranes built",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how cranes are built",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how are cranes assembled",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazmat training",
+   "volume": 2400,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazardous materials",
+   "volume": 5400,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "plastic bags used to store hazardous waste",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "dot hazmat training",
+   "volume": 1900,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hazmat classes",
+   "volume": 1900,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "dot training hazardous materials",
+   "volume": 1600,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lab safety",
+   "volume": 6600,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lab safety symbols",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety symbols laboratory",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "science safety lab symbols",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "lost time injury",
+   "volume": 6600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rate of loss",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trir",
+   "volume": 3600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trir calculation osha",
+   "volume": 1300,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trir calculator",
+   "volume": 1300,
+   "kd": 7,
+   "intent": "informational"
+  },
+  {
+   "keyword": "trir calculation",
+   "volume": 1300,
+   "kd": 17,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid kit items",
+   "volume": 2900,
+   "kd": 22,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "first aid kit and supplies",
+   "volume": 3600,
+   "kd": 31,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "first aid kits suppliers",
+   "volume": 3600,
+   "kd": 28,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "burn first aid kit",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "wound care first aid kit",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "pre made first aid kits",
+   "volume": 1300,
+   "kd": 44,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what are first aid kit",
+   "volume": 1300,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid kit for burns",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha regulations on first aid kits",
+   "volume": 1000,
+   "kd": 4,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "first aid kit essentials",
+   "volume": 1000,
+   "kd": 21,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha first aid kit requirements",
+   "volume": 1000,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid kit list",
+   "volume": 1000,
+   "kd": 24,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid box checklist",
+   "volume": 1000,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid kit checklist",
+   "volume": 1000,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "comprehensive first aid kit",
+   "volume": 1000,
+   "kd": 20,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "foodborne illness prevention",
+   "volume": 2400,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "prevention of foodborne disease",
+   "volume": 2400,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "foodborne prevention",
+   "volume": 2400,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "foodborne diseases prevention",
+   "volume": 2400,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "prevent foodborne illness",
+   "volume": 2400,
+   "kd": 12,
+   "intent": "informational"
+  },
+  {
+   "keyword": "preventing foodborne illness",
+   "volume": 2400,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "prevention of foodborne diseases",
+   "volume": 2400,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "foodborne disease prevention",
+   "volume": 2400,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "prevention of foodborne illness",
+   "volume": 2400,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "foodborne illnesses prevention",
+   "volume": 2400,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define blasting",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "blasting definition",
+   "volume": 1600,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "blasting up",
+   "volume": 1900,
+   "kd": 15,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is blasting",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "occupational health and safety",
+   "volume": 1900,
+   "kd": 73,
+   "intent": "informational"
+  },
+  {
+   "keyword": "occupational and health",
+   "volume": 18100,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is safe",
+   "volume": 5400,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety of personnel",
+   "volume": 4400,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "risk health",
+   "volume": 4400,
+   "kd": 25,
+   "intent": "informational"
+  },
+  {
+   "keyword": "work and health",
+   "volume": 3600,
+   "kd": 19,
+   "intent": "informational"
+  },
+  {
+   "keyword": "workplace safety",
+   "volume": 3600,
+   "kd": 38,
+   "intent": "informational"
+  },
+  {
+   "keyword": "workplace health and",
+   "volume": 3600,
+   "kd": 46,
+   "intent": "informational"
+  },
+  {
+   "keyword": "health and safety",
+   "volume": 2400,
+   "kd": 64,
+   "intent": "informational"
+  },
+  {
+   "keyword": "health risk appraisal",
+   "volume": 1600,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "industrial safety",
+   "volume": 1600,
+   "kd": 13,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ohs occupational health and safety",
+   "volume": 1600,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "occupational safety and health",
+   "volume": 1600,
+   "kd": 84,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety industry",
+   "volume": 1600,
+   "kd": 39,
+   "intent": "informational"
+  },
+  {
+   "keyword": "occupational health and safety ohs",
+   "volume": 1600,
+   "kd": 69,
+   "intent": "informational"
+  },
+  {
+   "keyword": "need for safety",
+   "volume": 1300,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to use an aed",
+   "volume": 2900,
+   "kd": 18,
+   "intent": "informational"
+  },
+  {
+   "keyword": "aed training",
+   "volume": 3600,
+   "kd": 36,
+   "intent": "informational"
+  },
+  {
+   "keyword": "aed course",
+   "volume": 3600,
+   "kd": 28,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to use an automated external defibrillator",
+   "volume": 2900,
+   "kd": 50,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how to use aed defibrillator",
+   "volume": 2900,
+   "kd": 51,
+   "intent": "informational"
+  },
+  {
+   "keyword": "how does a defibrillator work",
+   "volume": 1300,
+   "kd": 37,
+   "intent": "informational"
+  },
+  {
+   "keyword": "definition of first aid",
+   "volume": 3600,
+   "kd": 21,
+   "intent": "informational"
+  },
+  {
+   "keyword": "define what is first aid",
+   "volume": 2900,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what first aid is",
+   "volume": 2900,
+   "kd": 49,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid items",
+   "volume": 2900,
+   "kd": 42,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "what the first aid",
+   "volume": 2900,
+   "kd": 52,
+   "intent": "informational"
+  },
+  {
+   "keyword": "basic first aid",
+   "volume": 1600,
+   "kd": 53,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid only",
+   "volume": 1600,
+   "kd": 7,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "first aid and bandage",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "first aid ointments",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "definition of moc",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "meaning of moc",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is moc",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is mocs",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is an moc",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hira",
+   "volume": 6600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fall protection",
+   "volume": 4400,
+   "kd": 42,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fall protection equipment",
+   "volume": 4400,
+   "kd": 16,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "osha regulation for fall protection",
+   "volume": 2400,
+   "kd": 47,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha requirements for fall protection",
+   "volume": 2400,
+   "kd": 23,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha fall protection standard",
+   "volume": 2400,
+   "kd": 48,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha guidelines for fall protection",
+   "volume": 2400,
+   "kd": 53,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fall protection system",
+   "volume": 1900,
+   "kd": 23,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "fall protection class",
+   "volume": 1900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fall protection training",
+   "volume": 1900,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fall protection course",
+   "volume": 1900,
+   "kd": 6,
+   "intent": "informational"
+  },
+  {
+   "keyword": "srl fall protection",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "construction fall protection",
+   "volume": 1300,
+   "kd": 15,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "at what height is fall protection required",
+   "volume": 1300,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fall protection in construction",
+   "volume": 1000,
+   "kd": 1,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety restraint systems",
+   "volume": 1000,
+   "kd": 3,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fall protection for roofers",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "roof fall protection",
+   "volume": 1000,
+   "kd": 12,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "hot holding temperature",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hot holding temp",
+   "volume": 1600,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the minimum temperature for hot holding food",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the minimum hot holding temperature for food",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is the minimum temperature for holding hot food",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "minimum hot holding temp",
+   "volume": 260,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is a road safety audit",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "what is road safety audit",
+   "volume": 2400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "road safety audit meaning",
+   "volume": 1600,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "process safety management",
+   "volume": 1300,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "psm",
+   "volume": 6600,
+   "kd": 20,
+   "intent": "informational"
+  },
+  {
+   "keyword": "psm process safety management",
+   "volume": 1300,
+   "kd": 4,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "define psm",
+   "volume": 1300,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "psm meaning",
+   "volume": 1000,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety training",
+   "volume": 4400,
+   "kd": 32,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety training for employees",
+   "volume": 1900,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "worker safety training",
+   "volume": 1900,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety training construction",
+   "volume": 1900,
+   "kd": 14,
+   "intent": "informational"
+  },
+  {
+   "keyword": "workplace safety training",
+   "volume": 1900,
+   "kd": 26,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safety at work training",
+   "volume": 1900,
+   "kd": 30,
+   "intent": "informational"
+  },
+  {
+   "keyword": "safe workplace training",
+   "volume": 1900,
+   "kd": 38,
+   "intent": "informational"
+  }
+ ],
+ "source": "OpenSEO get_keyword_metrics",
+ "market": "us"
+}

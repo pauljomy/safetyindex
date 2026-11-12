@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/check-dist.mjs",
+    "build": "astro build && node scripts/build/postbuild.mjs && node scripts/check-dist.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check && npm run build",
@@ -17,12 +17,17 @@
     "indexnow": "node scripts/indexnow.mjs",
     "cover": "node --env-file-if-exists=.env scripts/add-cover.mjs",
     "downloads": "node scripts/downloads/build.mjs",
-    "downloads:verify": "node scripts/downloads/verify.mjs"
+    "downloads:verify": "node scripts/downloads/verify.mjs",
+    "engine": "node --env-file-if-exists=.env scripts/engine/run.mjs",
+    "engine:status": "node scripts/engine/status.mjs",
+    "build:preview": "PREVIEW_ALL=1 astro build && node scripts/build/postbuild.mjs",
+    "covers": "node --env-file-if-exists=.env scripts/covers.mjs",
+    "release": "node scripts/release/release.mjs",
+    "lighthouse": "node scripts/checks/lighthouse.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.8",
     "@astrojs/rss": "^4.0.18",
-    "@astrojs/sitemap": "^3.7.2",
     "@fontsource/geist-mono": "^5.2.7",
     "@fontsource/geist-sans": "^5.2.5",
     "@tailwindcss/vite": "^4.1.13",
@@ -39,6 +44,7 @@
     "@anthropic-ai/sdk": "latest",
     "@tailwindcss/typography": "^0.5.18",
     "exceljs": "^4.4.0",
+    "lighthouse": "^12.8.2",
     "pagefind": "^1.4.0",
     "sharp": "^0.34.0",
     "yaml": "^2.8.0"

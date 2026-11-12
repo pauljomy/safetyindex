@@ -1,4 +1,6 @@
-// Featured image for each post: one realistic photograph per topic, generated
+// The one cover-image helper for every page type (guides, standard, industry, report and penalty pages).
+// Shared subject images go to src/assets/covers/<subject>.webp (pass `dir`); the original guides keep
+// src/content/posts/images/. Featured image for each post: one realistic photograph per topic, generated
 // by a Gemini Flash Image model on Vertex AI, saved as a compressed WebP in
 // src/content/posts/images/<english-slug>.webp. Translations reuse the same file
 // with their own alt text. The key (GOOGLE_CLOUD_API_KEY) is only read by this
@@ -57,7 +59,7 @@ async function generate(prompt, apiKey, c) {
  * Generates the cover and writes it. Retries rate limits and server errors.
  * @returns {Promise<{file: string, kb: number}>} path relative to the repo
  */
-export async function makeCover(slug, prompt, { apiKey = process.env.GOOGLE_CLOUD_API_KEY, config = COVER_CONFIG, log = console.log } = {}) {
+export async function makeCover(slug, prompt, { apiKey = process.env.GOOGLE_CLOUD_API_KEY, config = COVER_CONFIG, log = console.log, dir = config.dir } = {}) {
   if (!apiKey) throw new Error("GOOGLE_CLOUD_API_KEY is not set (needed for the featured image)");
   let raw;
   for (let attempt = 0; ; attempt++) {
@@ -77,8 +79,8 @@ export async function makeCover(slug, prompt, { apiKey = process.env.GOOGLE_CLOU
     .withXmp(AI_XMP)
     .webp({ quality: config.webpQuality, effort: 6 })
     .toBuffer();
-  mkdirSync(config.dir, { recursive: true });
-  const file = join(config.dir, `${slug}.webp`);
+  mkdirSync(dir, { recursive: true });
+  const file = join(dir, `${slug}.webp`);
   writeFileSync(file, webp);
   return { file, kb: Math.round(webp.length / 1024) };
 }

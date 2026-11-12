@@ -1,0 +1,68 @@
+[
+  {
+    "path": "/de/blog/psa-arbeitsschutz",
+    "problems": [
+      "section \"Wer zahlt die persönliche Schutzausrüstung?\" doesn't open with an answer sentence (first sentence is too short to answer the heading)",
+      "section \"Checkliste: PSA im eigenen Betrieb prüfen\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/de/blog/schutzhelm-arbeitsschutz",
+    "problems": [
+      "section \"Kurzüberblick: Was gilt für Kopfschutz in Deutschland?\" doesn't open with an answer sentence (section opens with a table, not a sentence)",
+      "section \"Schutzhelm Typ 1 und Typ 2 nach DIN EN 397:2025\" doesn't open with an answer sentence (section opens with a table, not a sentence)",
+      "section \"Was sollten Sie an Ihrem Arbeitsplatz prüfen?\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/fr/blog/osha-c-est-quoi",
+    "problems": [
+      "the phrase \"en cas de récidive\" appears 3 times in the prose (max 2)",
+      "section \"Que vérifier dans votre entreprise ?\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/fr/blog/panneaux-de-signalisation-de-securite-au-travail",
+    "problems": [
+      "section \"Que vérifier dans votre entreprise ?\" doesn't open with an answer sentence (section opens with a list, not a sentence)",
+      "guide body is 1197 words (minimum 1200; add substance from the sources, not filler)"
+    ]
+  },
+  {
+    "path": "/fr/blog/que-veut-dire-epi",
+    "problems": [
+      "section \"Qui paie les EPI : l'employeur ou le salarié ?\" doesn't open with an answer sentence (first sentence is too short to answer the heading)",
+      "section \"Ce qu'il faut vérifier dans votre entreprise\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/blog/hard-hat-types-and-classes",
+    "problems": [
+      "section \"Quick answer: what OSHA's hard hat rule says\" doesn't open with an answer sentence (section opens with a table, not a sentence)",
+      "section \"What should I check at my own workplace?\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/blog/safety-signals-signs-symbols-colours",
+    "problems": [
+      "section \"What do danger, caution and warning mean on US safety signs?\" doesn't open with an answer sentence (section opens with a table, not a sentence)",
+      "section \"How do US signs differ from UK and ISO 7010 signs?\" doesn't open with an answer sentence (first sentence is too short to answer the heading)",
+      "section \"What should I check at my own workplace?\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/blog/what-does-osha-stand-for",
+    "problems": [
+      "the phrase \"and healthful working conditions\" appears 3 times in the prose (max 2)",
+      "the phrase \"safe and healthful working\" appears 3 times in the prose (max 2)",
+      "section \"Where can I find OSHA's rules and contact my local office?\" doesn't open with an answer sentence (section opens with a list, not a sentence)",
+      "section \"What to check at your own workplace\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  },
+  {
+    "path": "/blog/what-does-ppe-stand-for",
+    "problems": [
+      "section \"What to check at your own workplace\" doesn't open with an answer sentence (section opens with a list, not a sentence)"
+    ]
+  }
+]

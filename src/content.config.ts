@@ -38,6 +38,8 @@ const pageMeta = {
   linkPhrases: z.array(z.string()).default([]),
   /** Shared cover image subject: src/assets/covers/<cover>.webp (pages on the same subject share one file). */
   cover: z.string().optional(),
+  /** Scene for the cover image, made later by `npm run covers` (no text, logos or close-up faces). */
+  coverPrompt: z.string().optional(),
   coverAlt: z.string().optional(),
   noindex: z.boolean().default(false),
 };
@@ -70,6 +72,8 @@ const posts = defineCollection({
     coverImage: image().optional(),
     /** Checklist id (<market>/<slug>) when the guide has a downloadable checklist. */
     checklist: z.string().optional(),
+    /** Topic sheet row (#) this guide was written for. */
+    topicN: z.number().optional(),
     /** "In [country]" line near the top of regional pages: the rule and its reference. */
     localRule: z.string().optional(),
     ...pageMeta,

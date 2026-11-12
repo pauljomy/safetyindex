@@ -5,10 +5,13 @@ import Footer from "@components/Footer.astro";
 import Pagefind from "@components/PageFind.astro";
 import JsonLd from "@components/JsonLd.astro";
 import type { SeoProps } from "@components/Head.astro";
-import { hreflangOf } from "../i18n/ui";
+import { hreflangOf, langOf, marketMeta, marketOf, ui } from "../i18n/ui";
+import { formatDate } from "../lib/dates";
 
-type Props = SeoProps & { /** Schema.org nodes for this page. */ jsonLd?: Record<string, unknown>[] };
-const { jsonLd = [], ...seo } = Astro.props;
+type Props = SeoProps & { /** Schema.org nodes for this page. */ jsonLd?: Record<string, unknown>[]; /** False when the page renders its own PageNotes. */ notes?: boolean };
+const { jsonLd = [], notes = true, ...seo } = Astro.props;
+const s = ui[langOf(Astro.url.pathname)];
+const intl = marketMeta[marketOf(Astro.url.pathname)].intl;
 const lang = hreflangOf(Astro.url.pathname);
 ---
 
@@ -30,8 +33,26 @@ const lang = hreflangOf(Astro.url.pathname);
     <Header alternates={seo.alternates} />
     <main>
       <slot />
+      {notes && (
+        <div class="mx-auto mt-12 max-w-(--breakpoint-sm) px-5 text-xs" data-page-notes>
+          <p data-as-of>{s.dataAsOf(formatDate(seo.updated, intl))}</p>
+          <p data-disclaimer>{s.disclaimer}</p>
+        </div>
+      )}
     </main>
     <Footer />
     <Pagefind />
+    <script is:inline>
+      // Cookie-free event counts (worker/index.js): checklist downloads, app button taps, store clicks.
+      document.addEventListener("click", (ev) => {
+        const t = ev.target instanceof Element ? ev.target : null;
+        const el = t?.closest("[data-track]") ?? (t?.closest("[data-app-button]") ? t.closest("[data-app-button]") : null);
+        if (!el) return;
+        const m = (location.pathname.match(/^\/(us|uk|au|ca|nz|fr|de)(\/|$)/) || [, "us"])[1];
+        const c = el.closest("[data-checklist]")?.getAttribute("data-checklist") ?? el.getAttribute("data-checklist") ?? "";
+        const e = el.getAttribute("data-track") ?? "app_tap";
+        try { navigator.sendBeacon("/e", JSON.stringify({ e, m, c, p: location.pathname, s: el.getAttribute("data-store") ?? "" })); } catch {}
+      }, { capture: true });
+    </script>
   </body>
 </html>

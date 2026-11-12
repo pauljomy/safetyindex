@@ -35,7 +35,7 @@ const updated = latest(d.date, d.updated);
 const fmt = (unit?: string) => (n: number) => (unit === "usd" ? `$${n.toLocaleString("en-US")}` : n.toLocaleString("en-US"));
 const cell = (c: string | number | Cell) => (typeof c === "object" ? c : { text: typeof c === "number" ? c.toLocaleString("en-US") : c });
 ---
-<Layout title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" image={og} noindex={d.noindex}
+<Layout notes={false} title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" image={og} noindex={d.noindex}
   jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US" }), breadcrumbList(crumbs)]}>
   <Container>
     <Breadcrumbs crumbs={crumbs} />

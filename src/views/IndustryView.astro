@@ -38,7 +38,7 @@ const patterns = await link(d.patternsSummary);
 const penaltiesText = await link(d.penaltiesSummary);
 const updated = latest(d.date, d.updated);
 ---
-<Layout title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" noindex={d.noindex} image={og}
+<Layout notes={false} title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" noindex={d.noindex} image={og}
   jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US", about: `NAICS ${d.naics} ${d.naicsTitle}` }), breadcrumbList(crumbs), ...(d.faq.length ? [faqPage(d.faq)] : [])]}>
   <Container>
     <Breadcrumbs crumbs={crumbs} />

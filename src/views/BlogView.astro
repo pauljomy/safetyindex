@@ -39,6 +39,7 @@ const crumbs = [{ label: s.home, href: inLang("/", lang) }, { label: s.blog, hre
           ))
         }
         {posts.length === 0 && <p>{s.noPosts}</p>}
+        {posts.length > 0 && <p class="animate text-sm"><a href={url.tags(lang)}>{s.allTags}</a></p>}
       </div>
     </aside>
   </Container>

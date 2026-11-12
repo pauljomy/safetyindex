@@ -29,7 +29,7 @@ const og = await socialCard(coverFor(d.cover));
 const crumbs = [{ label: s.home, href: "/" }, { label: "United States", href: url.market("us") }, { label: s.hubPenalties, href: path }];
 const updated = latest(d.date, d.updated);
 ---
-<Layout title={d.seoTitle} description={d.description} published={d.date} updated={updated} image={og}
+<Layout notes={false} title={d.seoTitle} description={d.description} published={d.date} updated={updated} image={og}
   jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US" }), breadcrumbList(crumbs)]}>
   <Container>
     <Breadcrumbs crumbs={crumbs} />

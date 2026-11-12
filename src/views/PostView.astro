@@ -43,7 +43,7 @@ const crumbs = lang === "en"
 const dataAsOf = d.dataAsOf ?? latest(d.date, d.updated);
 ---
 
-<Layout
+<Layout notes={false}
   title={title}
   description={d.description}
   published={d.date}

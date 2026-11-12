@@ -161,3 +161,78 @@ export function parseJson(text, label = "reply") {
   }
   throw new Error(`${label}: could not parse JSON from the model's reply`);
 }
+
+// ---------------------------------------------------------------------------
+// Writer backends (brief section 11). `complete()` is what the engine calls:
+//   WRITER=cli (default) → headless Claude Code: `claude -p`, prompt on stdin, JSON output,
+//                          tools off for writing and checking, WebSearch only for the search step.
+//   WRITER=api           → the Anthropic API through ask() above (same prompts and schemas).
+// Usage and rate limits wait and retry with backoff (up to max_backoff_minutes between tries).
+import { spawn } from "node:child_process";
+import { mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join as joinPath } from "node:path";
+import { config as engineConfig } from "./config.mjs";
+
+const LIMIT_RE = /usage limit|rate limit|rate_limit|overloaded|429|529|quota|too many requests|limit reached|try again later/i;
+const sleepMs = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function runCli(args, input, { cwd, timeoutMs = 30 * 60_000 }) {
+  return new Promise((resolve) => {
+    const child = spawn("claude", args, { cwd, env: { ...process.env, CLAUDE_CODE_SIMPLE: undefined }, stdio: ["pipe", "pipe", "pipe"] });
+    let out = "", err = "";
+    const timer = setTimeout(() => child.kill("SIGTERM"), timeoutMs);
+    child.stdout.on("data", (d) => (out += d));
+    child.stderr.on("data", (d) => (err += d));
+    child.on("close", (code) => { clearTimeout(timer); resolve({ code, out, err }); });
+    child.stdin.end(input);
+  });
+}
+
+/** A neutral working directory with no CLAUDE.md, for calls that must not see the writing instructions. */
+let neutralDir;
+export const neutralCwd = () => (neutralDir ??= mkdtempSync(joinPath(tmpdir(), "si-check-")));
+
+/**
+ * One structured call through the configured writer.
+ * @param {{ system: string, prompt: string, schema: object, tools?: "none"|"websearch", model?: string, effort?: string,
+ *           label?: string, cwd?: string, log?: (s: string) => void }} o
+ * @returns {Promise<{ data: any, raw: string, usd: number, searchResults: {url: string, title: string}[] }>}
+ */
+export async function complete(o) {
+  const writer = engineConfig.writer ?? "cli";
+  const log = o.log ?? console.log;
+  const model = o.model || engineConfig.writer_model || undefined;
+  if (writer === "api") {
+    const res = await ask({ system: o.system, messages: [{ role: "user", content: o.prompt }], schema: o.schema, effort: o.effort ?? "high", model: model ?? MODEL, label: o.label, ...(o.tools === "websearch" && { tools: [searchTool(4)] }) });
+    return { data: parseJson(res.text, o.label), raw: res.text, usd: 0, searchResults: res.searchResults ?? [] };
+  }
+  const args = ["-p", "--output-format", "json", "--no-session-persistence", "--system-prompt", o.system, "--json-schema", JSON.stringify(o.schema)];
+  if (o.tools === "websearch") args.push("--tools", "WebSearch", "--allowedTools", "WebSearch");
+  else args.push("--tools", "");
+  if (model) args.push("--model", model);
+  if (o.effort) args.push("--effort", o.effort);
+  const maxWait = (engineConfig.max_backoff_minutes ?? 60) * 60_000;
+  for (let attempt = 0; ; attempt++) {
+    const started = Date.now();
+    const { code, out, err } = await runCli(args, o.prompt, { cwd: o.cwd ?? process.cwd() });
+    let res;
+    try { res = JSON.parse(out.trim().split("\n").filter(Boolean).at(-1)); } catch { res = null; }
+    const text = res?.result ?? "";
+    const failed = code !== 0 || !res || res.is_error;
+    if (failed) {
+      const why = `${res?.api_error_status ?? ""} ${text} ${err}`.slice(0, 400);
+      if (LIMIT_RE.test(why) || (!res && attempt < 3)) {
+        const wait = Math.min(maxWait, 60_000 * 2 ** Math.min(attempt, 6));
+        log(`  … ${o.label}: usage/rate limit or CLI error (${why.trim().slice(0, 160) || `exit ${code}`}); waiting ${Math.round(wait / 60_000)} min (try ${attempt + 1})`);
+        await sleepMs(wait);
+        continue;
+      }
+      throw new Error(`${o.label}: claude -p failed: ${why.trim()}`);
+    }
+    const data = res.structured_output ?? parseJson(text, o.label);
+    const urls = o.tools === "websearch" ? [...text.matchAll(/https?:\/\/[^\s)"'\]]+/g)].map((m) => ({ url: m[0], title: "" })) : [];
+    log(`  · ${o.label} [cli${model ? ` ${model}` : ""}]: ${Math.round((Date.now() - started) / 1000)}s, $${(res.total_cost_usd ?? 0).toFixed(2)} equiv.`);
+    return { data, raw: text, usd: res.total_cost_usd ?? 0, searchResults: urls };
+  }
+}

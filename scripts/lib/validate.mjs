@@ -2,9 +2,11 @@
 // Returns a list of problems in plain words (fed back to the model to fix).
 import { normUrl } from "./claude.mjs";
 import { categorySlugs } from "../../src/data/categories.mjs";
+import { MIN_GUIDE_WORDS, checkWriting } from "../checks/writing.mjs";
+import { checkClauses, checkNumbers, numbersIn } from "../checks/facts.mjs";
 
 const words = (s) => (s.match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu) ?? []).length;
-export const MIN_BODY_WORDS = 1000;
+export const MIN_BODY_WORDS = MIN_GUIDE_WORDS;
 
 /** Phrases that claim experience the site doesn't have. */
 const invented = [
@@ -17,7 +19,8 @@ const invented = [
 
 /**
  * @param {any} p drafted post
- * @param {{lang: string, keyword?: string, opened: Set<string>, existing: any[]}} ctx
+ * @param {{lang: string, market?: string, keyword?: string, opened: Set<string>, existing: any[], sourceText?: string}} ctx
+ *   sourceText: every downloaded extract the writer saw (facts, clause and number checks)
  */
 export function validatePost(p, ctx) {
   const e = [];
@@ -74,7 +77,17 @@ export function validatePost(p, ctx) {
   if (n < MIN_BODY_WORDS) e.push(`body is ${n} words; a complete guide on this topic needs at least ${MIN_BODY_WORDS} (add substance from the sources, not filler)`);
   for (const re of invented) if (re.test(b)) e.push(`body claims first-hand experience (${b.match(re)[0]}); remove it, the site has none`);
   if (/\[(insert|todo|tbd|citation needed)/i.test(b) || /lorem ipsum/i.test(b)) e.push("body has placeholder text");
-  return e;
+  if (Array.isArray(p.linkPhrases) && (p.linkPhrases.length < 1 || p.linkPhrases.length > 4)) e.push("linkPhrases must have 1–4 short phrases naming this guide's topic");
+
+  // Style rules (section 12), facts (section 11 rules 2 and 3).
+  e.push(...checkWriting({ body: b, faq: p.faq ?? [], lang: ctx.lang, guide: false, opening: p.summary }));
+  if (ctx.sourceText != null) {
+    const market = ctx.market ?? (ctx.lang === "en" ? "us" : ctx.lang);
+    const prose = [p.summary, ...(p.keyTakeaways ?? []), b, ...(p.faq ?? []).map((f) => `${f.question} ${f.answer}`), p.localRule ?? ""].join("\n\n");
+    e.push(...checkClauses(prose, { market, sourceText: ctx.sourceText }));
+    e.push(...checkNumbers(prose, numbersIn(ctx.sourceText)));
+  }
+  return [...new Set(e)];
 }
 
 export const bodyWords = words;

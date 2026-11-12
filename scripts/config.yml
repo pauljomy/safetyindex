@@ -57,6 +57,9 @@ improve_auto_push: true      # only after the build and every check pass
 weekly_new_pages: 10
 zero_impression_months: 3
 
+# --- IndexNow (section 13): the key is public by design (served at /<key>.txt).
+indexnow_key: 73fed85e6cdeffd8dc7b64df7b89499a
+
 # --- App button (section 15) --------------------------------------------------
 android_package: "PLACEHOLDER_ANDROID_PACKAGE"
 ios_app_id: "PLACEHOLDER_IOS_APP_ID"
