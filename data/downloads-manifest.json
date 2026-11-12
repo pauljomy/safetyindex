@@ -50,6 +50,16 @@
       "pdf": "/downloads/us/1926-501-duty-have-fall-protection.pdf",
       "xlsx": "/downloads/us/1926-501-duty-have-fall-protection.xlsx"
     },
+    "us/lockout-and-tagout-procedures": {
+      "hash": "7b42683bf9c75280ae716b0eee75d0243efe34634018156709d39c473ff93a54",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 24,
+      "page_url": "https://safetyindex.blog/blog/lockout-and-tagout-procedures",
+      "pdf": "/downloads/us/lockout-and-tagout-procedures.pdf",
+      "xlsx": "/downloads/us/lockout-and-tagout-procedures.xlsx"
+    },
     "us/safety-glasses-z87-osha-requirements": {
       "hash": "1768ade2fd0731424a4fe718c8e75811123c58196765fd5b0d5ec40abb508962",
       "lang": "en",

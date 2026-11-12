@@ -96,7 +96,8 @@ const pages = cands.map((c) => {
   else if (!easy) { status = "waiting"; reason = `every measurable phrase has KD ${t.kd_under}+`; dist.waitingKd++; }
   if (status === "write") dist.write++;
   const main = easy?.keyword ?? cluster[0]?.keyword ?? c.phrases[0];
-  const title = main === `osha ${c.section}` ? `OSHA ${c.name} requirements (29 CFR ${c.section})` : `${main.replace(/\bosha\b/g, "OSHA").replace(/\b(ppe|lpg|gfci)\b/g, (m) => m.toUpperCase()).replace(/^./, (m) => m.toUpperCase())}${main.includes(c.section) ? "" : ` (29 CFR ${c.section})`}`;
+  const cap = (x) => x.replace(/\bosha\b/g, "OSHA").replace(/\b(ppe|lpg|gfci)\b/g, (m) => m.toUpperCase()).replace(/^./, (m) => m.toUpperCase());
+  const title = main === `osha ${c.section}` ? `OSHA ${c.name} requirements (29 CFR ${c.section})` : /(inspection|checklist)$/.test(main) ? `${cap(main.replace(/ checklist$/, ""))} checklist and OSHA requirements (29 CFR ${c.section})` : `${main.replace(/\bosha\b/g, "OSHA").replace(/\b(ppe|lpg|gfci)\b/g, (m) => m.toUpperCase()).replace(/^./, (m) => m.toUpperCase())}${main.includes(c.section) ? "" : ` (29 CFR ${c.section})`}`;
   return { ...c, keyword: main, cluster, clusterVolume: volume, kd: easy?.kd ?? null, titleHint: title, keywordSource: noKeywords ? "enforcement data" : "OpenSEO", status, reason };
 });
 

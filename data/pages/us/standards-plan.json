@@ -110,7 +110,7 @@
    ],
    "clusterVolume": 530,
    "kd": 0,
-   "titleHint": "Fall protection inspection (29 CFR 1926.501)",
+   "titleHint": "Fall protection inspection checklist and OSHA requirements (29 CFR 1926.501)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": "",
@@ -444,7 +444,7 @@
    ],
    "clusterVolume": 1550,
    "kd": 0,
-   "titleHint": "Ladder inspection (29 CFR 1926.1053)",
+   "titleHint": "Ladder inspection checklist and OSHA requirements (29 CFR 1926.1053)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": "",
@@ -541,7 +541,7 @@
    ],
    "clusterVolume": 330,
    "kd": 1,
-   "titleHint": "Forklift inspection (29 CFR 1910.178)",
+   "titleHint": "Forklift inspection checklist and OSHA requirements (29 CFR 1910.178)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": "",
@@ -798,7 +798,7 @@
    ],
    "clusterVolume": 4640,
    "kd": 0,
-   "titleHint": "Electrical inspection (29 CFR 1910.303)",
+   "titleHint": "Electrical inspection checklist and OSHA requirements (29 CFR 1910.303)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -899,7 +899,7 @@
    ],
    "clusterVolume": 710,
    "kd": 0,
-   "titleHint": "Electrical wiring inspection (29 CFR 1910.305)",
+   "titleHint": "Electrical wiring inspection checklist and OSHA requirements (29 CFR 1910.305)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -976,7 +976,7 @@
    ],
    "clusterVolume": 350,
    "kd": 0,
-   "titleHint": "Machine guarding checklist (29 CFR 1910.212)",
+   "titleHint": "Machine guarding checklist and OSHA requirements (29 CFR 1910.212)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": "",
@@ -1181,7 +1181,7 @@
    ],
    "clusterVolume": 830,
    "kd": 8,
-   "titleHint": "PPE inspection (29 CFR 1910.132)",
+   "titleHint": "PPE inspection checklist and OSHA requirements (29 CFR 1910.132)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -1625,7 +1625,7 @@
    ],
    "clusterVolume": 890,
    "kd": 0,
-   "titleHint": "Hard hat inspection (29 CFR 1926.100)",
+   "titleHint": "Hard hat inspection checklist and OSHA requirements (29 CFR 1926.100)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -1726,7 +1726,7 @@
    ],
    "clusterVolume": 740,
    "kd": 9,
-   "titleHint": "Housekeeping checklist (29 CFR 1910.22)",
+   "titleHint": "Housekeeping checklist and OSHA requirements (29 CFR 1910.22)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -1921,7 +1921,7 @@
    ],
    "clusterVolume": 200,
    "kd": 0,
-   "titleHint": "Personal fall arrest system inspection (29 CFR 1926.502)",
+   "titleHint": "Personal fall arrest system inspection checklist and OSHA requirements (29 CFR 1926.502)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": "",
@@ -2997,7 +2997,7 @@
    ],
    "clusterVolume": 12110,
    "kd": 0,
-   "titleHint": "Asbestos inspection (29 CFR 1926.1101)",
+   "titleHint": "Asbestos inspection checklist and OSHA requirements (29 CFR 1926.1101)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -3952,7 +3952,7 @@
    ],
    "clusterVolume": 150,
    "kd": 2,
-   "titleHint": "Sanitation inspection (29 CFR 1910.141)",
+   "titleHint": "Sanitation inspection checklist and OSHA requirements (29 CFR 1910.141)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -4511,7 +4511,7 @@
    ],
    "clusterVolume": 30,
    "kd": 0,
-   "titleHint": "Ita inspection (29 CFR 1904.41)",
+   "titleHint": "Ita inspection checklist and OSHA requirements (29 CFR 1904.41)",
    "keywordSource": "OpenSEO",
    "status": "below",
    "reason": "cluster volume 30 (< 50)"
@@ -4971,7 +4971,7 @@
    ],
    "clusterVolume": 430,
    "kd": 0,
-   "titleHint": "Equipment checklist (29 CFR 1910.334)",
+   "titleHint": "Equipment checklist and OSHA requirements (29 CFR 1910.334)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -5149,7 +5149,7 @@
    ],
    "clusterVolume": 1030,
    "kd": 0,
-   "titleHint": "Lead inspection (29 CFR 1910.1025)",
+   "titleHint": "Lead inspection checklist and OSHA requirements (29 CFR 1910.1025)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -5351,7 +5351,7 @@
    ],
    "clusterVolume": 300,
    "kd": 0,
-   "titleHint": "Overhead crane inspection (29 CFR 1910.179)",
+   "titleHint": "Overhead crane inspection checklist and OSHA requirements (29 CFR 1910.179)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -5551,7 +5551,7 @@
    ],
    "clusterVolume": 200,
    "kd": 4,
-   "titleHint": "Sling inspection (29 CFR 1910.184)",
+   "titleHint": "Sling inspection checklist and OSHA requirements (29 CFR 1910.184)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -5918,7 +5918,7 @@
    ],
    "clusterVolume": 120,
    "kd": 0,
-   "titleHint": "Welding safety checklist (29 CFR 1910.252)",
+   "titleHint": "Welding safety checklist and OSHA requirements (29 CFR 1910.252)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -6359,7 +6359,7 @@
    ],
    "clusterVolume": 70,
    "kd": 0,
-   "titleHint": "Hazardous materials inspection (29 CFR 1910.101)",
+   "titleHint": "Hazardous materials inspection checklist and OSHA requirements (29 CFR 1910.101)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -6492,7 +6492,7 @@
    ],
    "clusterVolume": 400,
    "kd": 0,
-   "titleHint": "Fire protection inspection (29 CFR 1926.150)",
+   "titleHint": "Fire protection inspection checklist and OSHA requirements (29 CFR 1926.150)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -7375,7 +7375,7 @@
    ],
    "clusterVolume": 20,
    "kd": 3,
-   "titleHint": "Fire brigade inspection (29 CFR 1910.156)",
+   "titleHint": "Fire brigade inspection checklist and OSHA requirements (29 CFR 1910.156)",
    "keywordSource": "OpenSEO",
    "status": "below",
    "reason": "cluster volume 20 (< 50)"
@@ -8599,7 +8599,7 @@
    ],
    "clusterVolume": 730,
    "kd": 0,
-   "titleHint": "Safety harness inspection (29 CFR 1910.140)",
+   "titleHint": "Safety harness inspection checklist and OSHA requirements (29 CFR 1910.140)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -8676,7 +8676,7 @@
    ],
    "clusterVolume": 80,
    "kd": 0,
-   "titleHint": "Healthcare checklist (29 CFR 1910.502)",
+   "titleHint": "Healthcare checklist and OSHA requirements (29 CFR 1910.502)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -9336,7 +9336,7 @@
    ],
    "clusterVolume": 10,
    "kd": 14,
-   "titleHint": "Construction PPE checklist (29 CFR 1926.28)",
+   "titleHint": "Construction PPE checklist and OSHA requirements (29 CFR 1926.28)",
    "keywordSource": "OpenSEO",
    "status": "below",
    "reason": "cluster volume 10 (< 50)"
@@ -10889,7 +10889,7 @@
    ],
    "clusterVolume": 60,
    "kd": 0,
-   "titleHint": "Mobile crane inspection (29 CFR 1910.180)",
+   "titleHint": "Mobile crane inspection checklist and OSHA requirements (29 CFR 1910.180)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -11453,7 +11453,7 @@
    ],
    "clusterVolume": 170,
    "kd": 0,
-   "titleHint": "Heavy equipment inspection (29 CFR 1926.600)",
+   "titleHint": "Heavy equipment inspection checklist and OSHA requirements (29 CFR 1926.600)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -12815,7 +12815,7 @@
    ],
    "clusterVolume": 90,
    "kd": 0,
-   "titleHint": "Operation checklist (29 CFR 1926.1417)",
+   "titleHint": "Operation checklist and OSHA requirements (29 CFR 1926.1417)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -13985,7 +13985,7 @@
    ],
    "clusterVolume": 80,
    "kd": 0,
-   "titleHint": "Air compressor tank inspection (29 CFR 1926.306)",
+   "titleHint": "Air compressor tank inspection checklist and OSHA requirements (29 CFR 1926.306)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -15240,7 +15240,7 @@
    ],
    "clusterVolume": 60,
    "kd": 0,
-   "titleHint": "Crane wire rope inspection (29 CFR 1926.1413)",
+   "titleHint": "Crane wire rope inspection checklist and OSHA requirements (29 CFR 1926.1413)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -17319,7 +17319,7 @@
    ],
    "clusterVolume": 70,
    "kd": 0,
-   "titleHint": "Compressed air tank inspection (29 CFR 1910.169)",
+   "titleHint": "Compressed air tank inspection checklist and OSHA requirements (29 CFR 1910.169)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -17420,7 +17420,7 @@
    ],
    "clusterVolume": 20,
    "kd": 0,
-   "titleHint": "Rops inspection (29 CFR 1928.51)",
+   "titleHint": "Rops inspection checklist and OSHA requirements (29 CFR 1928.51)",
    "keywordSource": "OpenSEO",
    "status": "below",
    "reason": "cluster volume 20 (< 50)"

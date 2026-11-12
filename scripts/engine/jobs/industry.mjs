@@ -35,7 +35,8 @@ export async function runIndustry(job, { log, enforcement }) {
   if (!raw || raw.inspections < config.industry_inspection_floor || raw.standardsCited5Plus < config.industry_min_standards) return { status: "dropped", reason: "below the industry page thresholds" };
   const stats = withDisplay({ fiscalYears: enforcement.fiscalYears, fiscalYearCount: enforcement.fiscalYearCount, ...raw });
   const idx = loadIndex();
-  const headings = raw.topStandards.slice(0, 15).map((s) => ({ section: s.section, heading: idx.sections[s.section]?.heading ?? "" }));
+  // Headings alone ("General requirements") don't say what a section covers, so the subpart title goes with them.
+  const headings = raw.topStandards.slice(0, 15).map((s) => { const x = idx.sections[s.section]; return { section: s.section, heading: x ? `${x.heading.replace(/\.$/, "")}${x.subpartTitle ? ` (Subpart ${x.subpart}, ${x.subpartTitle})` : ""}` : "" }; });
   const subs = subIndustries(job.naics);
   const prompt = industryPrompt({ naics: job.naics, title: job.title, keyword: job.keyword, stats, headings, subs, trade: job.trade });
   const naicsText = `NAICS ${job.naics} ${job.title} includes these 6-digit industries (U.S. Census Bureau, NAICS 2022):\n${subs.map((x) => `${x.code} ${x.title}`).join("\n")}`;
