@@ -1,0 +1,112 @@
+url: https://www.osha.gov/SLTC/controlhazardousenergy/index.html
+snapshot: 20200101034933
+words: 1038
+status: ok
+---
+- Safety and Health Topics
+
+- /
+
+- Control of Hazardous Energy (Lockout/Tagout)
+
+### Control of Hazardous Energy (Lockout/Tagout)
+
+**Control of Hazardous Energy Menu**
+
+#### Overview
+
+##### What is hazardous energy?
+
+Energy sources including electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other sources in machines and equipment can be hazardous to workers. During the servicing and maintenance of machines and equipment, the unexpected startup or release of stored energy can result in serious injury or death to workers.
+
+##### What are the harmful effects of hazardous energy?
+
+Workers servicing or maintaining machines or equipment may be seriously injured or killed if hazardous energy is not properly controlled. Injuries resulting from the failure to control hazardous energy during maintenance activities can be serious or fatal! Injuries may include electrocution, burns, crushing, cutting, lacerating, amputating, or fracturing body parts, and others.
+
+- A steam valve is automatically turned on burning workers who are repairing a downstream connection in the piping.
+
+- A jammed conveyor system suddenly releases, crushing a worker who is trying to clear the jam.
+
+- Internal wiring on a piece of factory equipment electrically shorts, shocking worker who is repairing the equipment.
+
+Craft workers, electricians, machine operators, and laborers are among the millions of workers who service equipment routinely and face the greatest risk of injury.
+
+##### What can be done to control hazardous energy?
+
+Proper lockout/tagout (LOTO) practices and procedures safeguard workers from hazardous energy releases. OSHA's Lockout/Tagout Fact Sheet describes the practices and procedures necessary to disable machinery or equipment to prevent hazardous energy release. The OSHA standard for The Control of Hazardous Energy (Lockout/Tagout) (29 CFR 1910.147) for general industry outlines measures for controlling different types of hazardous energy. The LOTO standard establishes the employer's responsibility to protect workers from hazardous energy. Employers are also required to train each worker to ensure that they know, understand, and are able to follow the applicable provisions of the hazardous energy control procedures:
+
+- Proper lockout/tagout (LOTO) practices and procedures safeguard workers from the release of hazardous energy. The OSHA standard for The Control of Hazardous Energy (Lockout/Tagout) (29 CFR 1910.147) for general industry, outlines specific action and procedures for addressing and controlling hazardous energy during servicing and maintenance of machines and equipment. Employers are also required to train each worker to ensure that they know, understand, and are able to follow the applicable provisions of the hazardous energy control procedures. Workers must be trained in the purpose and function of the energy control program and have the knowledge and skills required for the safe application, usage and removal of the energy control devices.
+
+- All employees who work in an area where energy control procedure(s) are utilized need to be instructed in the purpose and use of the energy control procedure(s), especially prohibition against attempting to restart or reenergize machines or other equipment that are locked or tagged out.
+
+- All employees who are authorized to lockout machines or equipment and perform the service and maintenance operations need to be trained in recognition of applicable hazardous energy sources in the workplace, the type and magnitude of energy found in the workplace, and the means and methods of isolating and/or controlling the energy.
+
+- Specific procedures and limitations relating to tagout systems where they are allowed.
+
+- Retraining of all employees to maintain proficiency or introduce new or changed control methods.
+
+OSHA's Lockout/Tagout Fact Sheet describes the practices and procedures necessary to disable machinery or equipment to prevent the release of hazardous energy.
+
+The control of hazardous energy is also addressed in a number of other OSHA standards, including Marine Terminals (1917 Subpart C), Safety and Health Regulations for Longshoring (1918 Subpart G), Safety and Health Regulations for Construction; Electrical (1926 Subpart K), Concrete and Masonry Construction (1926 Subpart Q), Electric Power Transmission and Distribution (1926 Subpart V), and General Industry; Electrical (1910 Subpart S), Special Industries (1910 Subpart R), and Electric Power Generation, Transmission and Distribution (1910.269).
+
+##### Standards
+
+Control of hazardous energy is addressed in specific OSHA standards for general industry, marine terminals, longshoring and construction.
+
+More
+
+##### Lockout/Tagout Concepts
+
+Provides references on general lockout/tagout (LOTO) procedures.
+
+More
+
+##### Lockout/Tagout Program
+
+Provides example elements of a lockout/tagout (LOTO) program are described in the OSHA standard for the control of hazardous energy (29 CFR 1910.147), along with additional references.
+
+More
+
+##### Additional Resources
+
+Provides references on general lockout/tagout (LOTO) procedures.
+
+More
+
+- Lockout-Tagout Interactive Training Program. OSHA eTool. Interactive tool to provide the user with an in-depth understanding of the LOTO standard, with three components: Tutorial, Hot Topics, and Case Studies.
+
+- Construction. OSHA eTool. Helps workers identify and control the hazards, including electrical hazards, that commonly cause the most serious construction injuries.
+
+- Electrical Incidents. Landing page for Electrical Incidents subpage of the Construction eTool, which identifies electrical hazards and recommends preventive measures.
+
+- Electric Power Generation, Transmission, and Distribution. OSHA eTool, (January, 2010). Assists workers in identifying and controlling workplace hazards.
+
+- Concrete and Concrete Products - Manufacturing and Construction
+
+- Electric Power Generation, Transmission, and Distribution Industry
+
+- Electrical
+
+- Pulp, Paper, and Paperboard Mills
+
+##### Workers' Rights
+
+Workers have the right to:
+
+- Working conditions that do not pose a risk of serious harm.
+
+- Receive information and training (in a language and vocabulary the worker understands) about workplace hazards, methods to prevent them, and the OSHA standards that apply to their workplace.
+
+- Review records of work-related injuries and illnesses.
+
+- File a complaint asking OSHA to inspect their workplace if they believe there is a serious hazard or that their employer is not following OSHA's rules. OSHA will keep all identities confidential.
+
+- Exercise their rights under the law without retaliation, including reporting an injury or raising health and safety concerns with their employer or OSHA. If a worker has been retaliated against for using their rights, they must file a complaint with OSHA as soon as possible, but no later than 30 days.
+
+For additional information, see OSHA's Workers page.
+
+##### How to Contact OSHA
+
+Under the Occupational Safety and Health Act of 1970, employers are responsible for providing safe and healthful workplaces for their employees. OSHA's role is to help ensure these conditions for America's working men and women by setting and enforcing standards, and providing training, education and assistance. For more information, visit www.osha.gov or call OSHA at 1-800-321-OSHA (6742), TTY 1-877-889-5627.
+
+Back to Top

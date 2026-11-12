@@ -1,4 +1,6 @@
 ---
+topicType: regional
+keywordSource: topic sheet
 title: "PSA Arbeitsschutz: Persönliche Schutzausrüstung – Arten, Kategorien und wer zahlt"
 seoTitle: "PSA Arbeitsschutz: Persönliche Schutzausrüstung erklärt"
 subtitle: Was PSA bedeutet, was die PSA-Benutzungsverordnung verlangt, welche Arten und Kategorien es gibt und welche Pflichten Arbeitgeber und Beschäftigte in Deutschland haben.

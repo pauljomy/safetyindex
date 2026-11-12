@@ -15,7 +15,9 @@
     "post": "node --env-file-if-exists=.env scripts/generate-post.mjs",
     "post:dry": "node --env-file-if-exists=.env scripts/generate-post.mjs --dry-run",
     "indexnow": "node scripts/indexnow.mjs",
-    "cover": "node --env-file-if-exists=.env scripts/add-cover.mjs"
+    "cover": "node --env-file-if-exists=.env scripts/add-cover.mjs",
+    "downloads": "node scripts/downloads/build.mjs",
+    "downloads:verify": "node scripts/downloads/verify.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.8",
@@ -28,6 +30,7 @@
     "astro-pagefind": "^1.8.5",
     "clsx": "^2.1.1",
     "nodemailer": "^10.3.1",
+    "qrcode": "^1.5.4",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2"

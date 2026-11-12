@@ -1,0 +1,337 @@
+url: https://www.ccohs.ca/oshanswers/prevention/ppe/designin.html
+snapshot: 20191114235827
+words: 3500
+status: ok
+---
+## What is personal protective equipment (PPE)?
+
+PPE is equipment worn by a worker to minimize exposure to specific hazards. Examples of PPE include respirators, gloves, aprons, fall protection, and full body suits, as well as head, eye and foot protection. Using PPE is only one element in a complete hazard control program that would use a variety of strategies to maintain a safe and healthy environment. PPE does not reduce the hazard itself nor does it guarantee permanent or total protection.
+
+## What is the role of personal protective equipment (PPE)?
+
+Hazards exist in every workplace so strategies to protect workers are essential. The priority should be to follow the “hierarchy of control” including elimination, substitution, or engineering control(s) of hazards at their source or along the path between the source and the worker. Many methods are available, and those most appropriate to the specific situation should be used.
+
+Controls are usually placed:
+
+- At the source (where the hazard “comes from”).
+
+- Along the path (where the hazard “travels”).
+
+- At the worker.
+
+Figure 1 - Control areas: At the source, along the path, and at the worker.
+
+Controlling a hazard at its source is the first choice because this method will eliminate it from the workplace altogether or isolate it from the worker. This approach may require substitution of a material with nonhazardous ones, isolation of hazards, ventilation, addition of safety features to existing equipment, redesign of the work processes, or purchase of new equipment. Administrative controls such as work practices, education/training, and housekeeping are also ways to control hazards.
+
+When the hazard **cannot be removed or controlled adequately**, personal protective equipment (PPE) may be used.
+
+PPE is considered as the last level of protection when all other methods are not available or possible. See the OSH Answers document Hazard Control for information on a hazard control program.
+
+## How do I begin planning a protection strategy?
+
+Before any decision is made to begin or to expand a PPE program, it is important to understand the underlying principles of protection strategies.
+
+The main elements that must be considered are:
+
+- protection of workers
+
+- compliance with applicable laws / regulations / standards / guidelines
+
+- compliance with internal company requirements
+
+- technical feasibility
+
+A good comprehensive strategy considers the hazards, conducts a risk assessment, evaluates all possible control methods, integrates various approaches, and reexamines the controls frequently to make sure that the hazard continues to be controlled.
+
+## When should PPE be used?
+
+PPE is used to reduce or minimize the exposure or contact to injurious physical, chemical, ergonomic, or biological agents. Remember, a hazard is not “gone” when PPE is used, but the risk of injury may be reduced. For example, wearing hearing protection reduces the likelihood of hearing damage when the ear plugs or muffs are appropriate for the kind of noise exposure and when the PPE is used properly. However, using hearing protection does not eliminate the noise.
+
+PPE should only be used:
+
+- as an interim (short term) measure before controls are implemented;
+
+- where other controls are not available or adequate;
+
+- during activities such as maintenance, clean up, and repair where pre-contact controls are not feasible or effective;
+
+- during emergency situations.
+
+## What does the law say about who pays for PPE?
+
+By law, workers must use personal protective equipment in the workplace when it is required. Employer responsibilities include providing instruction on what PPE is needed, maintenance and cleaning of the equipment, and educating and training workers on proper use of PPE. In every jurisdiction, it is clear that the employer is responsible for making sure these requirements are met.
+
+However, the law is not always clear about who is responsible for paying for the PPE itself. It depends on the jurisdiction, and in some jurisdictions, it depends on the type of PPE required. For example:
+
+- Northwest Territories, Nunavut, Quebec, and Saskatchewan require the employer to provide the worker, free of charge, with all the PPE either selected by the health and safety committee or required by the legislation.
+
+- British Columbia, Manitoba, and Yukon state in their legislation who is responsible for each specific type of PPE.
+
+- Alberta requires employers to provide workers with, and pay for, PPE for emergency response, hearing and respiratory protection if it is required for the job. The worker is responsible for providing and using PPE such as hard hats, safety boots, flame resistant clothing, or eye protection if they are required for the job.
+
+- Ontario, New Brunswick, Prince Edward Island, Newfoundland and Labrador, Nova Scotia, and those organizations that follow legislation from the Canadian federal government use the term “provide”. However the term “provide” is not always clearly defined, and its intention should be verified with your jurisdiction.
+
+**REMEMBER:**The above is a general summary only. For any information about legislation and the requirement to provide PPE, always check directly with your jurisdiction for the exact legal interpretation.
+
+## How do I design a PPE program?
+
+A PPE program must be comprehensive. It requires commitment and active participation at the planning, development, and implementation stages from all levels: senior management, supervisors, and workers. A good PPE program consists of these essential elements:
+
+- hazard identification and risk assessment
+
+- selection of appropriate controls
+
+- selection of appropriate PPE
+
+- fitting
+
+- education and training
+
+- management support
+
+- maintenance
+
+- auditing of the program
+
+The organization's occupational health and safety policy should be a statement of principles and general rules which serve as guides to action. Senior management must be committed to ensuring that the policy and procedures are carried out. PPE programs must be, and must be seen to have equal importance with all other organizational policies, procedures, and programs.
+
+The appointment of a program coordinator will help to make sure the program is successful.The coordinator has the responsibility to make sure that each of the elements of a program is in place and operational.
+
+A program must be planned carefully, developed fully and implemented methodically. The beneficial effects of the program should be publicized widely, and the target date set well ahead for compliance. If the use of PPE is new, time should be allowed for workers to choose a style that fits best, to become accustomed to wearing PPE, and comply with the program, with no enforcement action taken until the target date.
+
+Note: It would not be acceptable to gradually phase in a PPE program when there is a need to enter hazardous atmospheres, or where failure to use the equipment poses a significant risk of injury.
+
+The greater the workers' involvement in all stages of the program, the smoother the program will be to implement and operate. Users must be educated about why the PPE is to be worn and trained how to properly use it. The method of implementation affects the acceptance and effectiveness of the whole program.
+
+In addition, worker compliance with the PPE program is likely to be poor if a PPE device is unattractive, uncomfortable, or is imposed on the worker with little choice in the selection. Offer some flexibility in terms of various models or makes of the required PPE where possible (while maintaining appropriate protection).
+
+The protection provided will be dramatically reduced if workers remove the PPE for even short periods of time. The loss of protection during the periods when the PPE is not worn may easily outweigh the protection when it is used.
+
+For example, in order to get full benefit, hearing protectors must be worn all the time during noisy work. If hearing protectors are removed only for a short duration, the protection is substantially reduced. The following table gives a maximum protection provided for non-continuous use of an ideally fitted “100%” efficient hearing protector.
+
+For example, when hearing protection is rated with an attenuation of 25 dB, if one takes off his/her hearing protector for 5 minutes in an hour the maximum protection will be reduced to no more than 11 dB.
+
+| Impact of removing hearing protection |
+| Time removed
+
+(in 1 hr) | Maximum 25 dB
+
+Protection is reduced
+
+to (dB) |
+| 0 min | no reduction |
+| 1 min | 17 |
+| 5 min | 11 |
+| 10 min | 8 |
+| 30 min | 3 |
+| 60 min | 0 |
+
+Source: Removal of hearing protectors severely reduces protection. Health and Safety Executive, UK (no date).
+
+Ear protectors must be used **ALL THE TIME** to get full benefit.
+
+## Why should I identify hazards and conduct a risk assessment first?
+
+The first step in the development of a PPE program is to identify the hazards at the worksite. Work practices, processes, job procedures, equipment, products, workplace layout, and individual factors should be examined.
+
+Particular attention should be paid to job requirements as some types of hazards require more than one piece of PPE. For example, working with chlorine may require respiratory, skin, and eye protection because chlorine irritates both the respiratory system and the mucous membranes of the eyes. It is important to continually review Safety Data Sheets (SDSs) as they indicate the hazards associated with specific products and make PPE recommendations.
+
+A hazard identification and risk assessment should involve the health and safety committee as an integral part of the team.
+
+## What steps are involved in the selection of PPE?
+
+Once the need for PPE has been established, the next task is to select the proper type. Two criteria need to be determined:
+
+- the degree of protection required, and
+
+- the appropriateness of the equipment to the situation (including the practicality of the equipment being used and kept in good repair).
+
+The degree of protection and the design of PPE must be integrated because both affect its overall efficiency, wearability, and acceptance.
+
+The following are guidelines for selection:
+
+### a) Match PPE to the hazard
+
+There are no shortcuts to PPE selection. Choose the right PPE to match the hazard. On some jobs, the same task is performed throughout the entire job cycle, so it is easy to select proper PPE. In other instances, workers may be exposed to two or more different hazards. A welder may require protection against welding gases, harmful light rays, molten metal and flying chips. In such instances, multiple protection is needed: a welding helmet, welders goggles and the appropriate respirator, or an air-supplied welding hood.
+
+### b) Obtain advice
+
+Make decisions based on thorough risk assessment, worker acceptance, and types of PPE available. Once you have determined your PPE needs, do research and shop around. Discuss your needs with trained sales representatives and ask for their recommendations. Always ask for alternatives and check into product claims and test data. Try out PPE and test it to see that the equipment meets all of your criteria before it is approved.
+
+### c) Involve workers in evaluations
+
+It is extremely important to have the individual worker involved in the selection of specific models. This assistance in selection can be achieved by introducing approved models into the workplace for trials in which workers have the opportunity to evaluate various models. In this way, much information regarding fit, comfort, and worker acceptability will be gained. When choosing PPE, workers should select among two or three models, allowing for personal preferences. PPE should be individually assigned.
+
+### d) Consider physical comfort of PPE (ergonomics)
+
+If a PPE device is unnecessarily heavy or poorly fitted it is unlikely that it will be worn. Note also that if a PPE device is unattractive or uncomfortable, or there is no ability for workers to choose among models, compliance is likely to be poor. When several forms of PPE are worn together, interactions must be kept in mind (e.g., will wearing eye wear interfere with the seal provided by ear muffs?). Use every opportunity to provide flexibility in the choice of PPE as long as it meets required legislation and standards.
+
+### e) Evaluate cost considerations
+
+The cost of PPE is often a concern. Some programs use disposable respirators because they appear to be inexpensive. However when the use is evaluated over time, it is possible that a dual cartridge respirator would be more economical. Engineering controls might prove an even more cost effective solution in the long term and should be considered before PPE.
+
+### f) Review standards
+
+Performance requirements of all standards must be reviewed to ensure that exposure to injury will be minimized or eliminated by using PPE. If PPE is exposed to hazards greater than those for which it is designed, it will not deliver adequate protection.
+
+In Canada, various standards exist and the most recent should be used for guidance in the selection process. For example, the CSA Standard Z94.3-15 “Eye and Face Protectors” outlines types of eye wear protectors recommended for particular work hazards. The OSH Answers on eye and face protection has more information on this topic.
+
+### g) Check the fit
+
+When the selection has been made, the “fitting” component should be put in place. The key is to fit each worker with PPE on an individual basis. At the time of fitting, show each worker how to wear and maintain PPE properly.
+
+In some cases, individual fitting programs should be carried out by qualified personnel. For example, for eye protection this qualified person could be an optometrist, an optician, a manufacturers' representative or a specially trained staff member, such as a nurse.
+
+Eye wear should cover from the eyebrow to the cheekbone, and across from the nose to the boney area on the outside of the face and eyes. When eye wear/glasses sit halfway down the nose, protection from the hazard of flying particles is reduced, sometimes to the point where no protection is given. The calculated degree of protection will not be achieved in practice unless the PPE is worn properly at all times when the worker is at risk.
+
+### h) Perform regular maintenance and inspections
+
+Without proper maintenance, the effectiveness of PPE cannot be assured. Maintenance should include inspection, care, cleaning, repair, and proper storage.
+
+Probably the most important part of maintenance is the need for continuing inspection of the PPE. If carefully performed, inspections will identify damaged or malfunctioning PPE before it is used. PPE that is not performing up to manufacturers specifications, such as eye wear with scratched lenses that have lost their ability to withstand impact should be discarded.
+
+Procedures should be set up to allow workers to get new PPE or replacement parts for damaged PPE, and help them to keep the PPE clean. For example, respiratory protection devices require a program of repair, cleaning, storage and periodic testing.
+
+Wearing poorly maintained or malfunctioning PPE could be more dangerous than not wearing any form of protection at all. The workers have a false sense of security and think they are protected when, in reality, they are not.
+
+### i) Conduct education and training
+
+No program can be complete without education and training to make sure PPE is used effectively. Education and training should cover why it is important, how to fit and wear PPE, how to adjust it for maximum protection, and how to care for it.
+
+Emphasize the major goals of the program and reinforce the fact that engineering controls have been considered as the primary prevention strategy. It is not good enough to tell someone to wear a respirator just because management and/or legislation requires it. If the respirator is intended to prevent lung disorders, the workers must be informed of the hazards.
+
+Workers and their supervisors will require education and training in when, where, why, and how to use the equipment to achieve the necessary level of protection. Include workers who are exposed on a regular basis as well as others who might be exposed on an occasional basis, for example, in emergencies or when temporary work is performed in dangerous areas.
+
+### j) Get support from all departments
+
+Once the program is under way there will be a continuing need for involvement from management, safety and medical personnel, supervisors, the health and safety committee, individual workers, and even the suppliers of the chosen PPE.
+
+Education and training programs should continue on a regular basis.
+
+### k) Audit the program
+
+As with any program or procedure implemented in an organization, the effectiveness of the PPE program should be monitored by inspection of the equipment and auditing of procedures.
+
+Annual audits are common but it may be advisable to review critical areas more frequently.
+
+It would be useful to compare the safety performance to data before the program began. This comparison would help determine the success or failure of a program.
+
+## How can I promote the PPE program?
+
+The overall goal of a safer workplace is supported by a careful promotional strategy. This strategy focuses on:
+
+- commitment by management and workers to the program and a sense of responsibility for it
+
+- the reasons for the program, and
+
+- how the program will work.
+
+The success of the PPE program depends upon the cooperation and support of all those concerned. Success is also more likely to be accomplished if it is shown that controls at the source and along the path have been addressed comprehensively and effectively.
+
+## Why are there so many precautions about using PPE?
+
+PPE programs are often plagued by the belief that once a piece of equipment is put on, the worker is totally protected. This is a false sense of security. Basic safety principles, such as housekeeping and engineering controls, must not be ignored.
+
+PPE is designed to meet criteria which is only an approximation of real working conditions. PPE should not be used when hazards are greater than those for which that specific piece of equipment is designed. When it comes to the evaluation of potential hazards, uncertainties need to be taken into account. Unfortunately, PPE design criteria cannot cover all eventualities.
+
+Wearing PPE should not in itself create a greater danger. For example, gloves prevent skin damage while working with moving equipment, but can create an entanglement hazard when working with a drill press or metal lathe.
+
+Most regulatory agencies require that PPE not be used unless the employer has taken all the necessary measures in terms of engineering controls, work practices, administrative controls, and hygiene to control the hazard.
+
+Since the goal of an occupational health and safety program is to prevent occupational injury and illness, PPE cannot be the first protection option. The use of PPE does not prevent an incident from happening. It does not eliminate the hazard. It only minimizes the exposure or may reduce the severity of injury or illness. For these reasons, PPE is often described as “the last line of defence”.
+
+## What is an example of a PPE program checklist?
+
+The PPE program co-ordinator should consider the following:
+
+Design a PPE Program:
+
+- Make sure the “hierarchy of controls” methods such as elimination, substitution, engineering controls, and administrative controls, are considered first. PPE is the last line of defence.
+
+- Secure the active participation of all parties.
+
+- Ensure that a program coordinator has been appointed.
+
+- Re-evaluate program on an ongoing basis.
+
+Promotional Strategy
+
+- Publicize commitment to the program.
+
+- Make sure a clear, concise company policy has been formulated.
+
+Hazard identification and risk assessment
+
+- Review work practices, job procedures, equipment and plant layout.
+
+- Use job hazard analysis techniques to integrate accepted safety and health principles and practice into specific operations.
+
+Selection
+
+- Choose PPE to match the hazard.
+
+- Get advice on proper selection.
+
+- Have a workplace trial, whenever possible.
+
+- Consider the physical comfort of PPE.
+
+- Evaluate cost considerations of PPE usage.
+
+- Ensure PPE meets standards / certification (e.g., CSA, CGSB, NIOSH, ANSI).
+
+Fitting and wearing
+
+- Include fitting of PPE to the individual.
+
+- Observe or survey users to make sure the PPE is worn and worn properly.
+
+Maintenance
+
+- Make sure that workers know how to perform regular maintenance and inspection of their PPE.
+
+- Make sure that workers can identify potential problems or defects with their PPE during the pre-use inspection or while wearing/using.
+
+Education and Training
+
+- Verify that all users, supervisors, selectors, buyers, and stock keepers are educated and trained.
+
+- Make sure that education and training programs are ongoing.
+
+Audit the Program
+
+- Review the program at least annually.
+
+- Review and compare production and safety performance records.
+
+Worker responsibilities include:
+
+Use of proper PPE
+
+- Make sure you are wearing the right PPE for the job. Check with your safety representative if you are not sure.
+
+Maintenance and inspection
+
+- Inspect PPE before and after each use.
+
+- Take care of PPE at all times.
+
+- Clean all PPE after use.
+
+- Repair or replace damaged or broken PPE.
+
+- Store PPE in clean dry air - free from exposure to sunlight or contaminants.
+
+Education and Training
+
+- Participate in education and training in how to fit, wear, and maintain PPE.
+
+- Ask questions to make sure you know when and what PPE should be worn, and why it should be worn.
+
+Document last updated on October 3, 2017
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

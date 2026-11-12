@@ -1,0 +1,64 @@
+url: https://www.hse.gov.uk/confinedspace/index.htm
+snapshot: 20191122043439
+words: 275
+status: ok
+---
+# Confined spaces
+
+A confined space is a place which is substantially enclosed (though not always entirely), and where serious injury can occur from hazardous substances or conditions within the space or nearby (e.g. lack of oxygen).
+
+Confined spaces legislation
+
+## Related industries
+
+A number of people are killed or seriously injured in the UK each year in confined spaces. These occur across a wide range of industries, from those involving complex plant through simple storage vessels. View more information on:
+
+- Docks
+
+- Sewage industry
+
+- Mining
+
+Other industries
+
+## Legislation
+
+Under domestic law (the Health and Safety at Work etc Act 1974) employers are responsible for ensuring the safety of their employees and others. This responsibility is reinforced by regulations.
+
+More legislation
+
+## Updates
+
+- Hypoxic environments
+
+- Wood pellet bio fuel
+
+- Oxygen deficiency in cargo hold kills three
+
+More updates
+
+## Resources
+
+- Safe work in confined spaces. Confined Spaces Regulations 1997
+
+- Confined spaces: A brief guide to working safely
+
+- Working safely with solvents - A guide to safe working practices
+
+More resources
+
+## Is this what you are looking for?
+
+This website contains extensive information and guidance. Use the options below to find the content right for you:
+
+Health and safety made simple
+
+If you think H&S has to be complicated – it doesn’t. This site will make it easier for you to comply with basic health and safety requirements.
+
+The health and safety toolbox
+
+Do you want guidance on simple precautions to take when working in confined spaces?
+
+Confined spaces site
+
+A confined space is a place which is both enclosed and has a reasonably foreseeable risk to workers of fire, explosion asphyxiation or drowning. Do you want detailed guidance on confined spaces?

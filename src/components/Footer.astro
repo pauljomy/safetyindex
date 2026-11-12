@@ -17,6 +17,7 @@ const s = ui[langOf(Astro.url.pathname)];
     <div class="flex flex-wrap items-center justify-between gap-y-4">
       <div class="space-y-2">
         <div>&copy; {new Date().getFullYear()} • {site.name} 🦺</div>
+        <p class="text-sm">{s.madeBy}</p>
         <nav class="flex flex-wrap gap-x-3 gap-y-1 text-sm" aria-label="Footer">
           <Link href="/privacy">{s.privacy}</Link>
           <Link href="/terms">{s.terms}</Link>

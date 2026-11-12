@@ -1,0 +1,136 @@
+url: https://www.hse.gov.uk/toolbox/fire.htm
+snapshot: 20191130150547
+words: 1295
+status: ok
+---
+# Fire safety
+
+**Most fires are preventable. Those responsible for workplaces and other buildings to which the public have access can avoid them by taking responsibility for and adopting the right behaviours and procedures.**
+
+**This section covers general advice on fire safety and also provides guidance on substances that cause fire and explosion.**
+
+## Case study one
+
+A shopkeeper regularly threw packing waste by the back door of his shop as he quickly stocked the shelves after a delivery. His workers sometimes opened the back door to have a cigarette break outside.
+
+One week he'd left the pile of rubbish for several days and a discarded cigarette butt caused it to catch fire. By the time the fire was spotted and put out, it had caused substantial damage to his back door and his shelving units. There was a significant cost in damaged stock and repairs.
+
+### How the fire could have been prevented
+
+This fire could have been easily prevented if the shopkeeper had completed his risk assessment and taken simple steps to control the risks.
+
+## General fire safety hazards
+
+Fires need three things to start – a source of ignition (heat), a source of fuel (something that burns) and oxygen:
+
+- sources of ignition include heaters, lighting, naked flames, electrical equipment, smokers’ materials (cigarettes, matches etc), and anything else that can get very hot or cause sparks
+
+- sources of fuel include wood, paper, plastic, rubber or foam, loose packaging materials, waste rubbish and furniture
+
+- sources of oxygen include the air around us
+
+### What do I have to do?
+
+Employers (and/or building owners or occupiers) must carry out a fire safety risk assessment and keep it up to date. This shares the same approach as health and safety risk assessments and can be carried out either as part of an overall risk assessment or as a separate exercise.
+
+Based on the findings of the assessment, employers need to ensure that adequate and appropriate fire safety measures are in place to minimise the risk of injury or loss of life in the event of a fire.
+
+To help prevent fire in the workplace, your risk assessment should identify what could cause a fire to start, ie sources of ignition (heat or sparks) and substances that burn, and the people who may be at risk.
+
+Once you have identified the risks, you can take appropriate action to control them. Consider whether you can avoid them altogether or, if this is not possible, how you can reduce the risks and manage them. Also consider how you will protect people if there is a fire.
+
+- Carry out a fire safety risk assessment
+
+- Keep sources of ignition and flammable substances apart
+
+- Avoid accidental fires, eg make sure heaters cannot be knocked over
+
+- Ensure good housekeeping at all times, eg avoid build-up of rubbish that could burn
+
+- Consider how to detect fires and how to warn people quickly if they start, eg installing smoke alarms and fire alarms or bells
+
+- Have the correct fire-fighting equipment for putting a fire out quickly
+
+- Keep fire exits and escape routes clearly marked and unobstructed at all times
+
+- Ensure your workers receive appropriate training on procedures they need to follow, including fire drills
+
+- Review and update your risk assessment regularly
+
+### Find out more
+
+- The Department for Communities and Local Government (DCLG) website has advice on the legislation, including premises-specific guidance documents designed to help you meet your responsibilities under the Regulatory Reform (Fire Safety) Order 2005.
+
+- The Welsh Government website also provides information.
+
+- The Scottish Government provides similar information to help you meet your responsibilities under the Fire (Scotland) Act 2005.
+
+- The HSE website has guidance on fire safety in the construction industry.
+
+### The law
+
+The Regulatory Reform (Fire Safety) Order 2005 covers general fire safety in England and Wales.
+
+In Scotland, requirements on general fire safety are covered in Part 3 of the Fire (Scotland) Act 2005, supported by the Fire Safety (Scotland) Regulations 2006.
+
+In the majority of premises, local fire and rescue authorities are responsible for enforcing this fire safety legislation. HSE has enforcement responsibility on construction sites, for nuclear premises, and on ships under construction or undergoing repair.
+
+## Dangerous substances that cause fire and explosion
+
+Work which involves the storage, use or creation of chemicals, vapours, dusts etc that can readily burn or explode is hazardous. Each year people are injured at work by flammable substances accidentally catching fire or exploding.
+
+This section does not cover explosives – our website has more detailed information on explosives and similar substances. It also has information on gas safety.
+
+### What are the hazards?
+
+Many substances found in the workplace can cause fires or explosions. These range from the obvious, eg flammable chemicals, petrol, cellulose paint thinners and welding gases, to the less obvious – engine oil, grease, packaging materials, dusts from wood, flour and sugar.
+
+It is important to be aware of the risks and to control or get rid of them to prevent accidents.
+
+## Case study two
+
+A worker was using highly flammable cellulose thinners in an open-topped container to wash paint-spraying equipment. He knocked the container over, splashing the thinners over his trouser leg and shoe.
+
+He went into a nearby room to clean himself up, but the room happened to contain drying ovens. These ignited the flammable vapours coming from the thinners, which set his trouser leg and shoe on fire, causing serious burns to his leg and foot.
+
+### How this incident could have been avoided
+
+It could have been easily prevented if the employer had carried out a risk assessment to identify that cellulose thinners should not have been used in this way, and instructed the worker accordingly.
+
+### What do I have to do?
+
+To help prevent accidental fires or explosions, you first need to identify:
+
+- what substances, materials, processes etc have the potential to cause such an event, ie substances that burn or can explode and what might set them alight
+
+- the people who may be at risk/harmed
+
+Once you have identified the risks, you should consider what measures are needed to reduce or remove the risk of people being harmed. This will include measures to prevent these incidents happening in the first place, as well as precautions that will protect people from harm if there is a fire or explosion.
+
+### Key points to remember
+
+- Think about the risks of fire and explosions from the substances you use or create in your business and consider how you might remove or reduce the risks
+
+- Use supplier safety data sheets as a source of information about which substances might be flammable
+
+- Consider reducing the amount of flammable/explosive substances you store on site
+
+- Keep sources of ignition (eg naked flames, sparks) and substances that burn (eg vapour, dusts) apart
+
+- Get rid of flammable/explosive substances safely
+
+- Review your risk assessment regularly
+
+- Maintain good housekeeping, eg avoid build-up of rubbish, dust or grease that could start a fire or make one worse
+
+You also need to consider the presence of dangerous substances that can result in fires or explosions as part of your fire safety risk assessment. This is required under the Regulatory Reform (Fire Safety) Order 2005 (in England and Wales) and under Part 3 of the Fire (Scotland) Act.
+
+The Fire and Rescue Authorities deal with general fire safety matters in workplaces apart from on construction sites including shipbuilding where these are dealt with by HSE or its agents. Enforcement responsibility for fire safety where dangerous substances are kept and used generally lies with HSE (or local authorities if they inspect the premises).
+
+### Find out more
+
+- Guidance on flammable/explosive substances
+
+### The law
+
+The Dangerous Substances and Explosive Atmospheres Regulations 2002 (DSEAR) require employers to assess the risk of fires and explosions arising from work activities involving dangerous substances, and to eliminate or reduce these risks.

@@ -1,4 +1,9 @@
 ---
+topicType: regional
+keywordSource: topic sheet
+linkPhrases:
+  - hard hat types
+  - hard hat classes
 title: "Hard Hat Types and Classes: What OSHA Actually Requires"
 seoTitle: "Hard Hat Types and Classes: OSHA Rules Explained"
 subtitle: What OSHA's construction head protection rule says, what it leaves to ANSI Z89.1, and a label and inspection checklist you can use on site.

@@ -31,6 +31,17 @@ export const faqPage = (faq: Faq) => ({
   mainEntity: faq.map((f) => ({ "@type": "Question", name: f.question, acceptedAnswer: { "@type": "Answer", text: f.answer } })),
 });
 
+/** WebPage for standard, industry, report and penalty pages; the markup matches what the page shows. */
+export function webPage(p: { path: string; title: string; description: string; date: Date; updated?: Date; image?: string; lang: string; about?: string }) {
+  return {
+    "@type": "WebPage", "@id": `${abs(p.path)}#webpage`, url: abs(p.path), name: p.title, description: p.description,
+    datePublished: isoDate(p.date), dateModified: isoDate(p.updated ?? p.date), inLanguage: p.lang,
+    publisher: { "@type": "Organization", "@id": orgId, name: site.name, url: site.url },
+    ...(p.image && { primaryImageOfPage: { "@type": "ImageObject", url: abs(p.image) } }),
+    ...(p.about && { about: { "@type": "Thing", name: p.about } }),
+  };
+}
+
 export interface Crumb { label: string; href: string }
 export const breadcrumbList = (crumbs: Crumb[]) => ({
   "@type": "BreadcrumbList",

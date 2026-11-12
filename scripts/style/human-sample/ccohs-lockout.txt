@@ -1,0 +1,226 @@
+url: https://www.ccohs.ca/oshanswers/hsprograms/lockout.html
+snapshot: 20191117194903
+words: 2248
+status: ok
+---
+## What is Lockout/Tag out?
+
+Lockout is defined in the Canadian standard CSA Z460-13 "Control of Hazardous Energy - Lockout and Other Methods" as the "placement of a lockout device on an energy-isolating device in accordance with an established procedure." A lockout device is "a mechanical means of locking that uses an individually keyed lock to secure an energy-isolating device in a position that prevents energization of a machine, equipment, or a process."
+
+Lockout is one way to control hazardous energy. See the OSH Answers Hazardous Energy Control Programs for a description of the types of hazardous energy, and steps required in a control program.
+
+In practice, lockout is the isolation of energy from the system (a machine, equipment, or process) which physically locks the system in a safe mode. The energy-isolating device can be a manually operated disconnect switch, a circuit breaker, a line valve, or a block (Note: push buttons, selection switches and other circuit control switches are not considered energy-isolating devices). In most cases, these devices will have loops or tabs which can be locked to a stationary item in a safe position (de-energized position). The locking device (or lockout device) can be any device that has the ability to secure the energy-isolating device in a safe position. See the example of the lock and hasp combination in Figure 1 below.
+
+Tag out is a labelling process that is always used when lockout is required. The process of tagging out a system involves attaching or using an information tag or indicator (usually a standardized label) that includes the following information:
+
+- Why the lockout/tag out is required (repair, maintenance, etc.).
+
+- Time of application of the lock/tag.
+
+- The name of the authorized person who attached the tag and lock to the system.
+
+Note: ONLY the authorized individual who placed the lock and tag onto the system is the one who is permitted to remove them. This procedure helps make sure the system cannot be started up without the authorized individual's knowledge.
+
+## Why is lockout/tag out important?
+
+Safety devices such as barrier guards or guarding devices are installed on systems to maintain worker safety while these systems are being operated. When non-routine activities such as maintenance, repair, or set-up; or the removal of jams, clogs or misaligned feeds are performed, these safety devices may be removed provided there are alternative methods in place to protect workers from the increased risk of injury of exposure to the unintended or inadvertent release of energy.
+
+The main method used and recommended to protect workers from risk of harm in these cases is the use of a lockout/tag out program.
+
+## What is the purpose of a lockout/tag out program?
+
+A lockout/tag out program will help prevent:
+
+- Contact with a hazard while performing tasks that require the removal, by-passing, or deactivation of safe guarding devices.
+
+- The unintended release of hazardous energy (stored energy).
+
+- The unintended start-up or motion of machinery, equipment, or processes.
+
+## What does de-energization mean?
+
+De-energization is a process that is used to disconnect and isolate a system from a source of energy in order to prevent the release of that energy. By de-energizing the system, you are eliminating the chance that the system could inadvertently, accidentally or unintentionally cause harm to a person through movement, or the release of heat, light, or sound.
+
+## What details should the lockout procedures and work instructions contain?
+
+An organization will have one lockout program document, and as many sets of work instructions as required, depending on the number of systems that require lockout.
+
+The written lockout procedures will identify types of hazardous energy covered by the procedures, types of energy-isolating or de-energizing devices, what needs to be done, when it needs to be done, what tools are needed to do it, who is supposed to do it, how the shutdown/de-energization/energization/start-up will occur, who required education and training, and who needs to be notified. As with all programs or procedures, a continuous improvement or auditing step should also occur.
+
+The document should specify:
+
+- The actual specific machine, equipment, or process involved in the shutdown and isolation process.
+
+- How and where the lockout devices are installed.
+
+- How stored energy is controlled and de-energized.
+
+- How the isolation can be verified.
+
+Work instructions will identify how the lockout process is to be carried out in a step-by-step manner including how stored energy is controlled and de-energized, how isolation can be verified, and how and where lockout devices are installed. Work instructions are machine, equipment or process specific and may include pictures or images of what is being described.
+
+## What are the basic steps of locking and tagging out a system?
+
+Lockout and tag out processes involve more than putting a lock on a switch. They are comprehensive step-by-step processes that involve communication, coordination, and training.
+
+Please note the following definitions from CSA Z460-13:
+
+**Affected person** - persons who are not directly involved in the work requiring the hazardous energy control, but who are (or may be) located in the work area.
+
+**Authorized person** - a person who is qualified to engage in hazardous energy control because of knowledge, training, and experience and has been assigned to engage in such control.
+
+Steps of a lockout/tag out program include:
+
+1. Prepare for shutdown
+
+The authorized person will identify which sources of energy are present and must be controlled; and more importantly, identify what method of control will be used. This step involves completing sets of specific work instructions that outline what controls and practices are needed to lock and tag out a system before performing any activity.
+
+2. Notify all affected employees
+
+The authorized person will communicate the following information to notify affected persons:
+
+- What is going to be locked/tagged out.
+
+- Why it is going to be locked/tagged out.
+
+- For approximately how long will the system be unavailable.
+
+- Who is responsible for the lockout/tag out.
+
+- Who to contact for more information.
+
+3. Equipment Shutdown
+
+If the system is operating it should be shutdown in its normal manner. Use manufacturer instructions or in-house work instructions. Equipment shutdown involves ensuring controls are in the off position, and verifying that all moving parts such as flywheels, gears, and spindles have come to a complete stop.
+
+4. Isolation of system from hazardous energy
+
+The exact written instructions will be specific to that system in the workplace. In general, the following procedures are used:
+
+- Electrical energy - Switch electrical disconnects to the off position. Visually verify that the breaker connections are in the off position. Lock the disconnects into the off position.
+
+Figure 1: Electrical lockout
+
+- Hydraulic and Pneumatic potential energy - Set the valves in the closed position and lock them into place. Bleed off the energy by opening the pressure relief valves, then closing the airlines.
+
+Figure 2: Hydraulic and Pneumatic lockout
+
+- Mechanical potential energy - carefully release energy from springs that may still be compressed. If this is not feasible, block the parts that may move if there is a possibility that the spring can transfer energy to it.
+
+- Gravitational potential energy - Use a safety block or pin to prevent the part of the system that may fall or move.
+
+- Chemical energy - locate chemical supply lines to the system and close and lockout the valves. Where possible, bleed lines and/or cap ends to remove chemicals from the system.
+
+5. Dissipation (removal) of residual or stored energy
+
+In general, examples include:
+
+- Electrical energy - To find a specific method to discharge a capacitor for the system in question, contact the manufacturer for guidance. Many systems with electrical components, motors, or switch gears contain capacitors. Capacitors store electrical energy. In some cases, capacitors hold a charge and may release energy very rapidly (e.g., similar to the flash of a camera). In other cases, capacitors are used to remove spikes and surges in order to protect other electrical components. Capacitors must be discharged in the lockout process in order to protect workers from electrical shock.
+
+- Hydraulic and Pneumatic potential energy - Setting the valves in the closed position and locking them into place only isolates the lines from more energy entering the system. In most cases, there will still be residual energy left in the lines as pressurized fluid. This residual energy can be removed by bleeding the lines through pressure relief valves. Verify depressurization or use flange-breaking techniques. Contact the manufacturer for more specific details, or if no pressure relief valves are available, what other methods are available.
+
+- Mechanical potential energy - Carefully release energy from springs that may still be compressed. If this is not possible, use blocks to hold the parts that may move if the energy is released.
+
+- Gravitational potential energy - If feasible, lower the part to a height where falling is impossible. If this is not possible, contact the manufacturer for guidance.
+
+- Chemical energy - If available, bleed lines and/or cap ends to remove chemicals from the system.
+
+6. Lockout/Tag out
+
+When the system's energy sources are locked out, there are specific guidelines that must be followed to make sure that the lock cannot be removed, and the system cannot be inadvertently operated. These guidelines include:
+
+- Each lock should only have one key (no master keys are allowed).
+
+- There should be as many locks on the system as there are people working on it. For example, if a maintenance job requires 3 workers, then 3 locks should be present - each of the individuals should place their OWN lock on the system. Locks can only be removed by those who installed them, and should only be removed using a specific process - see step 9 below.
+
+Figure 3: Example of multiple locks on a lockout tag
+
+7. Verify Isolation
+
+Verify that the system is properly locked out before beginning any work. Verification can take place in several ways:
+
+- The machine, equipment, or process controls (push buttons, switches, etc.) are engaged or activated and the result is observed. No response means isolation is verified. Return controls to the safe position (off).
+
+- Visual inspection of:
+
+- Electrical connections to make sure they are open.
+
+- Suspended parts are lowered to a resting position or blocked to prevent movement.
+
+- Other devices that restrain machine or process movement.
+
+- Valve positioning for double block and bleed (for pipes or ducts) - closing two valves of a section of a line, and then bleeding (or venting) the section of the line between the two closed valves.
+
+- Presence of solid plate used to absolutely close a line - called line blanking (for pipes or ducts).
+
+- Any other acceptable method of energy isolation.
+
+- Testing of the equipment:
+
+- Test circuitry (should be done by a certified electrician) - note: equipment with capacitors needs to be cycled until all energy is drained.
+
+- Check pressure gauges to make sure hydraulic and pneumatic potential energy has been removed.
+
+- Check temperature gauges to make sure thermal energy has been discharged.
+
+Choose the method that will best make sure that the energy to the system has been isolated without creating other hazards during the verification.
+
+8. Perform Maintenance or Service Activity
+
+Complete the activity that required the lockout process to be started.
+
+9. Remove Lockout/Tag out devices
+
+To remove locks and tags from a system that is now ready to be put back into service, the following general procedure can be used:
+
+- Inspect the work area to make sure all tools and items have been removed.
+
+- Confirm that all employees and persons are safely located away from hazardous areas.
+
+- Verify that controls are in a neutral position.
+
+- Remove devices and re-energize machine.
+
+- Notify affected employees that servicing is completed.
+
+*Note - it is good practice to make sure any individual who placed a lock on the system should also be present when the system is re-started. This practice helps make sure those employees working on the system are not in a hazardous area when the machine is restarted.
+
+## Who is responsible for the lockout program?
+
+Each party in the workplace has a responsibility in the lockout program. In general:
+
+Management is responsible for:
+
+- Drafting, periodically reviewing, and updating the written program.
+
+- Identifying the employees, machines, equipment, and processes included in the program.
+
+- Providing the necessary protective equipment, hardware and appliances.
+
+- Monitoring and measuring conformance with the program.
+
+Supervisors are responsible for:
+
+- Distributing protective equipment, hardware, and any appliance; and ensuring its proper use by employees.
+
+- Making sure that equipment-specific procedures are established for the machines, equipment and processes in their area.
+
+- Making sure that only properly trained employees perform service or maintenance that require lockout.
+
+- Making sure that employees under their supervision follow the established lockout procedures where required.
+
+Authorized individuals are responsible for:
+
+- Following the procedures that have been developed.
+
+- Reporting any problems associated with those procedures, the equipment, or the process of locking and tagging out.
+
+Note: The Canadian standard CSA Z460-13 "Control of Hazardous Energy - Lockout and Other Methods" contains more information and many informative annexes about various risk assessment, lockout situations, and other control methods.
+
+Document last updated on January 3, 2018
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

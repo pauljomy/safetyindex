@@ -1,0 +1,136 @@
+url: https://www.hse.gov.uk/work-equipment-machinery/puwer.htm
+snapshot: 20200102210848
+words: 1609
+status: ok
+---
+# Provision and Use of Work Equipment Regulations 1998 (PUWER)
+
+## Changes due to Brexit
+
+Your health and safety responsibilities will not change when the UK leaves the EU. This guidance is under review.
+
+Find the latest information on our Brexit pages
+
+These Regulations, often abbreviated to PUWER, place duties on people and companies who own, operate or have control over work equipment. PUWER also places responsibilities on businesses and organisations whose employees use work equipment, whether owned by them or not.
+
+PUWER requires that equipment provided for use at work is:
+
+- suitable for the intended use
+
+- safe for use, maintained in a safe condition and inspected to ensure it is correctly installed and does not subsequently deteriorate
+
+- used only by people who have received adequate information, instruction and training
+
+- accompanied by suitable health and safety measures, such as protective devices and controls. These will normally include emergency stop devices, adequate means of isolation from sources of energy, clearly visible markings and warning devices
+
+- used in accordance with specific requirements, for mobile work equipment and power presses
+
+Some work equipment is subject to other health and safety legislation in addition to PUWER. For example, lifting equipment must also meet the requirements of LOLER, pressure equipment must meet the Pressure Systems Safety Regulations and personal protective equipment must meet the PPE Regulations.
+
+## What is work equipment?
+
+Work equipment is any machinery, appliance, apparatus, tool or installation for use at work (whether exclusively or not). This includes equipment which employees provide for their own use at work. The scope of work equipment is therefore extremely wide. The **use of work equipment** is also very widely interpreted and '...means any activity involving work equipment and includes starting, stopping, programming, setting, transporting, repairing, modifying, maintaining, servicing and cleaning'.
+
+## What you must do
+
+If your business or organisation uses work equipment or is involved in providing work equipment for others to use (eg for hire), you must manage the risks from that equipment. This means you must:
+
+- ensure the equipment is constructed or adapted to be suitable for the purpose it is used or provided for
+
+- take account of the working conditions and health and safety risks in the workplace when selecting work equipment
+
+- ensure work equipment is only used for suitable purposes
+
+- ensure work equipment is maintained in an efficient state, in efficient working order and in good repair
+
+- where a machine has a maintenance log, keep this up to date
+
+- where the safety of work equipment depends on the manner of installation, it must be inspected after installation and before being put into use
+
+- where work equipment is exposed to deteriorating conditions liable to result in dangerous situations, it must be inspected to ensure faults are detected in good time so the risk to health and safety is managed
+
+- ensure that all people using, supervising or managing the use of work equipment are provided with adequate, clear health and safety information. This will include, where necessary, written instructions on its use and suitable equipment markings and warnings
+
+- ensure that all people who use, supervise or manage the use of work equipment have received adequate training, which should include the correct use of the equipment, the risks that may arise from its use and the precautions to take
+
+- where the use of work equipment is likely to involve a specific risk to health and safety (eg woodworking machinery), ensure that the use of the equipment is restricted to those people trained and appointed to use it
+
+- take effective measures to prevent access to dangerous parts of machinery. This will normally be by fixed guarding but where routine access is needed, interlocked guards (sometimes with guard locking) may be needed to stop the movement of dangerous parts before a person can reach the danger zone. Where this is not possible – such as with the blade of a circular saw – it must be protected as far as possible and a safe system of work used. These protective measures should follow the hierarchy laid down in PUWER regulation 11(2) and the PUWER Approved Code of Practice and guidance or, for woodworking machinery, the Safe use of woodworking machinery: Approved Code of Practice and guidance
+
+- take measures to prevent or control the risks to people from parts and substances falling or being ejected from work equipment, or the rupture or disintegration of work equipment
+
+- ensure that the risks from very hot or cold temperatures from the work equipment or the material being processed or used are managed to prevent injury
+
+- ensure that work equipment is provided with appropriately identified controls for starting, stopping and controlling it, and that these control systems are safe
+
+- where appropriate, provide suitable means of isolating work equipment from all power sources (including electric, hydraulic, pneumatic and gravitational energy)
+
+- ensure work equipment is stabilised by clamping or otherwise to avoid injury
+
+- take appropriate measures to ensure maintenance operations on work equipment can be carried out safely while the equipment is shut down, without exposing people undertaking maintenance operations to risks to their health and safety
+
+When providing new work equipment for use at work, you must ensure it conforms with the essential requirements of European Community law (for new machinery this means the Machinery Directive). You must check it:
+
+- is CE marked
+
+- comes with a Declaration of Conformity
+
+- is provided with instructions in English
+
+- is free from obvious defects – and that it remains so during its working life
+
+When providing mobile work equipment, you must ensure that:
+
+- where employees are carried, the equipment is suitable for that purpose
+
+- the risks from rolling over are minimised, and any person being carried is protected in the event of fall or rollover. This should include protection against crushing, through the provision of a suitable restraint and a rollover protection system
+
+- self-propelled equipment can be controlled safely with braking devices, adequate driver vision and, where necessary, lighting
+
+- measures are taken to prevent any risks from drive shafts that power accessories attached to mobile work equipment, by using adequate guards
+
+When providing power presses for working on cold metal, you must thoroughly examine them and their safeguards before first putting them into use, and periodically afterwards. This means you must ensure that the inspection and testing of guards and protection devices is carried out by a competent person at frequent intervals, and that records of these examinations, inspections and tests are kept.
+
+## What you should know
+
+The Provision and Use of Work Equipment Regulations 1998 replaced the original PUWER regulations first introduced in 1992. The main change was in the coverage of mobile work equipment, woodworking equipment and power presses allowing the repeal of the 1965 Power Press Regulations and a number of other older regulations, including those on woodworking machinery.
+
+The Provision and Use of Work Equipment Regulations 1998, as amended by the Health and Safety (Miscellaneous Amendment) Regulations 2002, are supported by an Approved Code of Practice (ACOP) and additional free guidance which are readily available from HSE. Other ACOPs that support PUWER are also available, covering woodworking machinery and power presses for working on cold metal. Where work equipment is also lifting equipment, there is another ACOP supporting LOLER and PUWER.
+
+While the ACOPs are not law, they were made under section 16 of the Health and Safety at Work Act (HSW Act) and so have a special status, as outlined in the introduction to the PUWER ACOP:
+
+'Following the guidance is not compulsory and you are free to take other action. But if you do follow the guidance you will normally be doing enough to comply with the law. Health and safety inspectors seek to secure compliance with the law and may refer to this guidance as illustrating good practice.'
+
+These ACOPs support PUWER and the general provisions of section 2 of the HSW Act, as well as other regulations, including the Management of Health and Safety at Work Regulations and the Workplace (Health, Safety and Welfare) Regulations.
+
+Other more specific legislation may also apply (for example LOLER, when lifting equipment is used at work). In some cases, equipment used at work is more appropriately covered by other, more specific legislation (eg the Personal Protective Equipment Regulations and the Electricity at Work Regulations). You may therefore have to ensure that the requirements of other legislation are met alongside those of PUWER; for example, the Workplace (Health, Safety and Welfare) Regulations, in relation to the workplace risks to pedestrians arising from mobile work equipment.
+
+HSE has developed Open learning guidance to assist those who wish to learn more about PUWER, or see also: Using work equipment safely.
+
+Although PUWER has a wide application, there is a general exclusion covering the use of ship's work equipment in most situations because there are other provisions for the safety of this equipment under merchant shipping legislation.
+
+Most new work equipment that is machinery will also fall within the scope of the Machinery Directive, as implemented by the Supply of Machinery (Safety) Regulations. Machinery, and certain other work equipment within scope of the Directive, must undergo conformity assessment and be appropriately CE marked before being placed on the market or brought into use. This includes:
+
+- machinery which needs to be installed on / with other equipment or in a structure before it can be used
+
+- safety components placed independently on the market
+
+- lifting equipment / accessories
+
+- partly completed machinery (machinery which cannot itself perform a function) also comes within scope of the Machinery Directive
+
+## Resources
+
+- PUWER Approved Code of Practice and guidance
+
+- Using work equipment safely
+
+- Buying new machinery
+
+- Safe use of woodworking machinery: Approved Code of Practice and guidance
+
+- Safe use of power presses. Approved Code of Practice and guidance
+
+- LOLER Approved Code of Practice and guidance
+
+More resources

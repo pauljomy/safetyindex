@@ -1,4 +1,6 @@
 ---
+topicType: country-only
+keywordSource: topic sheet
 title: OSHA c'est quoi ? Signification, rôle et équivalent en France
 seoTitle: OSHA c'est quoi ? Signification et équivalent en France
 subtitle: "Sens de l'acronyme, rôle de l'agence américaine et correspondances en France : qui contrôle, qui conseille, et ce que l'employeur doit faire."

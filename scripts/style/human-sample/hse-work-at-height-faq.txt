@@ -1,0 +1,178 @@
+url: https://www.hse.gov.uk/work-at-height/faqs.htm
+snapshot: 20191110110234
+words: 1523
+status: ok
+---
+# Work at Height - Frequently asked questions
+
+## General work at height
+
+### What is 'work at height'?
+
+Work at height means work in any place where, if precautions were not taken, a person could fall a distance liable to cause personal injury. You are working at height if you:
+
+- work above ground/floor level
+
+- could fall from an edge, through an opening or fragile surface or
+
+- could fall from ground level into an opening in a floor or a hole in the ground
+
+Work at height does **not** include a slip or a trip on the level, as a fall from height has to involve a fall from one level to a lower level, nor does it include walking up and down a permanent staircase in a building.
+
+### What do I need to do to comply with the Work at Height Regulations 2005?
+
+The Regulations apply to all work at height, where there is risk of a fall liable to cause personal injury. They place duties on employers, and those who control any work at height activity (such as facilities managers or building owners who may contract others to work at height).
+
+As part of the Regulations, you must ensure:
+
+- all work at height is properly planned and organised
+
+- those involved in work at height are competent
+
+- the risks from work at height are assessed, and appropriate work equipment is selected and used
+
+- the risks of working on or near fragile surfaces are properly managed
+
+- the equipment used for work at height is properly inspected and maintained
+
+For more information, see: The Work at Height Regulations 2005.
+
+## Ladders and stepladders
+
+### When is a ladder right for the job?
+
+The law says that ladders can be used for work at height when a risk assessment has shown that using equipment offering a higher level of fall protection is not justified because of the low risk and short duration of use; or there are existing workplace features which cannot be altered.
+
+Short duration is not the deciding factor in establishing whether an activity is acceptable or not – you should have first considered the risk. As a guide, if your task would require staying up a leaning ladder or stepladder for more than 30 minutes at a time, it is recommended that you consider alternative equipment.
+
+You should only use ladders in situations where they can be used safely, eg where the ladder will be level and stable, and where its reasonably practicable to do so, the ladder can be secured.
+
+For more information, see Safe use of ladders and stepladders.
+
+### What is the definition of a working platform?
+
+The Work at Height Regulations 2005 changed the meaning of working platforms, which were traditionally seen as fully-boarded platforms with handrails and toe boards. A working platform can now be virtually any surface from which work can be carried out, such as:
+
+- a roof
+
+- a floor
+
+- a platform on a scaffold
+
+- mobile elevating work platforms (MEWPs)
+
+- the treads of a stepladder
+
+### What do the Regulations say about guard rails in respect of working platforms?
+
+The Regulations require that, for construction work, handrails have a minimum height of 950 mm, and that any gap between the top rail and any intermediate rail should not exceed 470 mm. The Regulations also require toe boards to be suitable and sufficient (eg a toe board of a minimum 100 mm height would be acceptable).
+
+### What height should guard rails be in non-construction activities?
+
+For non-construction work, there are no prescriptive dimensions. However, guard rails, toe boards, barriers and other collective means of protection should be of sufficient dimension to ensure a person cannot fall through or over them.
+
+In the absence of any standards, HSE operational guidance suggests that guard rail heights in non-construction activities should be a minimum of 950 mm. Any protection below this height should be justified on the basis of a risk assessment.
+
+For buildings, factories, warehouses, offices, public buildings, retail premises etc, sufficient dimensions for guard rails or similar barriers will be achieved by complying with the Building Regulations – which require guard rails to be 1100 mm.
+
+For plant, machinery, equipment etc, sufficient dimensions will be achieved by compliance with any relevant EN standard. For example, BS EN 14122-3:2013 (covering the safety of machinery access) specifies a top guard rail of 1100 mm; while the essential health and safety requirements of the Supply of Machinery (Safety) Regulations 1992 specify that such equipment is 'designed and constructed to avoid falls’.
+
+### What is meant by 'collective' and 'personal' fall prevention measures?
+
+Collective protection is equipment that does not require the person working at height to act to be effective. Examples are permanent or temporary guardrails, scissor lifts and tower scaffolds.
+
+Personal protection is equipment that requires the individual to act to be effective. An example is putting on a safety harness correctly and connecting it, via an energy-absorbing lanyard, to a suitable anchor point.
+
+## Mobile Elevated Work Platforms (MEWPs)
+
+### What do I need to know about using a MEWP?
+
+If you are thinking of using a MEWP, consider the following questions:
+
+- Height – How high is the job from the ground?
+
+- Application – Do you have the appropriate MEWP for the job? (If you're not sure, check with the hirer or manufacturer)
+
+- Conditions – What are the ground conditions like? Is there a risk of the MEWP becoming unstable or overturning?
+
+- Operators – Are the people using the MEWP trained, competent and fit to do so?
+
+- Obstructions – Could the MEWP be caught on any protruding features or overhead hazards, eg steelwork, tree branches or power lines?
+
+- Traffic – Is there passing traffic and, if so, what do you need to do to prevent collisions?
+
+- Restraint – Do you need to use either work restraint (to prevent people climbing out of the MEWP) or a fall arrest system (which will stop a person hitting the ground if they fall out)? Allowing people to climb out of the basket is not normally recommended – do you need to do this as part of the job?
+
+- Checks – Has the MEWP been examined, inspected and maintained as required by the manufacturer's instructions and have daily checks been carried out?
+
+For more information from industry, see:
+
+- MEWPs – Avoiding trapping / crushing injuries The selection and management of mobile elevating work platforms
+
+## Scaffolding
+
+### What do I need to know about scaffolding?
+
+For information and answers to common questions about scaffolding, see:
+
+- Scaffolding
+
+- Health and safety in the construction industry
+
+### What should I do when using a Mobile Access Tower (Scaffold Tower)?
+
+#### If you are thinking of using a Tower
+
+You need to be competent to build, inspect, use and dismantle a tower
+
+**The following are all essential safety features that should be supplied upon purchase or hire of the tower:**
+
+- purpose built platforms with trapdoor entry and exit. There must be enough platforms so that they can be installed at 2m height intervals during assembly and dismantling.
+
+- guardrails fitted all the way around every platform at a minimum height of 950mm and with a maximum 470mm vertical gap between the guardrails and the platform
+
+- a built in access ladder or staircase for safe ascent and descent
+
+- 4 stabilisers of the correct size for the height of the tower
+
+- toe boards to prevent the fall of any materials
+
+- user instructions which show one of the two recognised safe assembly and dismantling methods
+
+**You should use one of the 2 recognised safe methods to assemble and dismantle a tower:**
+
+- Advance Guardrail (AGR). Guardrail side frames are put in place in advance of anyone getting onto the platform. They are put in place from ground level for the first platform level, and from the protected position of a platform below for the higher platform levels.
+
+- Through The Trap (3T). Guardrails are put in place before stepping onto the platform. The operator positions themselves within the open trap door, seated on the platform, from where they install or remove the guardrails.
+
+**Once the tower is built it must be inspected by a competent person**
+
+- before it is first used
+
+- at suitable intervals depending on the environment and use
+
+- every time something happens that may affect its stability or safety
+
+#### Further information
+
+- PASMA – the Prefabricated Access Suppliers’ and Manufacturers’ Association
+
+## Competence
+
+### How do you decide if someone is 'competent' to work at height?
+
+You should make sure that people with sufficient skills, knowledge and experience are employed to perform the task, or, if they are being trained, that they work under the supervision of somebody competent to do it.
+
+In the case of low-risk, short duration tasks involving ladders, competence requirements may be no more than making sure employees receive instruction on how to use the equipment safely (eg how to tie a ladder properly) and appropriate training. Training often takes place on the job, it does not always take place in a classroom.
+
+When a more technical level of competence is required, for example drawing up a plan for assembling a complex scaffold, existing training and certification schemes drawn up by trade associations and industry is one way to help demonstrate competence.
+
+## Resources
+
+- Working at height - A brief guide
+
+- Safe use of ladders and stepladders - A brief guide
+
+- Step-by-step guide
+
+More resources

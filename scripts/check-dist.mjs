@@ -129,13 +129,12 @@ for (const [path, n] of inbound) {
   if (path !== "/" && path !== "/404" && n === 0) err(path, "orphan page: no other page links to it");
 }
 
-// Per-language structure: every post in a translated language must have its English original.
-for (const p of pages) {
-  const m = p.path.match(/^\/(fr|de)\/blog\//);
-  if (m) {
-    const en = (hreflangs.get(p.path) ?? []).find(([l]) => l === "en");
-    if (!en) err(p.path, "translation has no English hreflang alternate (translationOf missing or wrong)");
-  }
+// hreflang clusters: a noindexed page is never in one, and never points at one.
+const noindexed = new Set(pages.filter((p) => /<meta name="robots" content="noindex/.test(p.html)).map((p) => p.path));
+for (const [path, alts] of hreflangs) {
+  const others = alts.filter(([l, h]) => l !== "x-default" && h !== `${site}${path === "/" ? "/" : path}`);
+  if (noindexed.has(path) && others.length) err(path, "noindexed page is in an hreflang cluster");
+  for (const [l, h] of others) if (noindexed.has(h.slice(site.length) || "/")) err(path, `hreflang ${l} points at a noindexed page`);
 }
 
 // Generated files.

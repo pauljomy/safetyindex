@@ -1,0 +1,130 @@
+url: https://www.ccohs.ca/oshanswers/safety_haz/ladders/portable.html
+snapshot: 20191215025202
+words: 1059
+status: ok
+---
+## What are portable ladders?
+
+Portable ladder is a ladder than can be easily moved or carried. Portable ladders are available in various grades: light duty or grade 3; medium duty or grade 2; heavy duty or grade 1.
+
+## What should you know about portable ladders before using them?
+
+Falls from portable ladders are a major source of serious injury. Be aware of the hazards and take proper precautions to prevent falling.
+
+Incidents/accidents involving ladders are usually caused by:
+
+- Using the wrong ladder for the specific job.
+
+- Using ladders that are defective or in poor condition.
+
+- Improper care or use including incorrect positioning, not securing the ladder properly, placing on poor footing, etc.
+
+- Workers not being trained adequately to maintain, use or work from ladders safely.
+
+## What should you do before using a portable ladder?
+
+- Use a ladder designed for your task. Consider the strength, type, length and the Canadian Standards Association (CSA) approval.
+
+- Read and follow all the labels and markings on the ladder.
+
+- Inspect the ladder before and after each use.
+
+- Reject and tag any ladders that have defects. Have faulty ladders repaired or thrown out.
+
+- Get help when handling a heavy or long ladder.
+
+- Keep ladders away from power wires.
+
+- Tie off extension or straight ladders at the top and secure bottom to prevent them from slipping.
+
+- Set up barricades and warning signs when using a ladder in a doorway or passageway.
+
+- Before mounting a ladder, clean the boot soles if they are muddy or slippery. Avoid climbing with wet soles. Ensure that footwear is in good condition.
+
+- Face the ladder when going up or down and when working from it.
+
+- Keep the centre of your body within the side rails.
+
+Refer to safety regulations for specific measurement requirements. Refer to CSA Z11-12 Portable ladders standard or most current version for more requirements.
+
+## What should you avoid when using a portable ladder?
+
+- Do not use a ladder in a horizontal position as a scaffold plank or runway.
+
+- Do not carry objects in your hands while on a ladder. Hoist materials or attach tools to a belt.
+
+- Do not work from top three rungs. The higher a person goes on a ladder, the greater the possibility that the ladder will slip out at the base.
+
+- Do not use items such as a chair, barrel or box as a makeshift ladder.
+
+- Do not use a portable ladder when other equipment and safe means of access is available. Replace a ladder with a fixed stairway or scaffold.
+
+- Do not join two short ladders to make a longer ladder. Side rails are not strong enough to support the extra load.
+
+- Do not paint wooden ladders. Defects may be hidden by the paint. Wood preservatives or clear coatings may be used.
+
+## How should you set up the ladder?
+
+- Place the ladder feet 1/4 of the ladder's working length (i.e. distance to top support point) away from the base of the structure (e.g., for every 1.2 m (4 ft ) high, the base of the ladder should be out 0.3 m (1 ft); that means one horizontal foot from the support point).
+
+- Extend the ladder at least 1 m (3 ft) above the landing platform or the point of support.
+
+- Place the ladder on a firm, level footing. Use a ladder with slip-resistant feet or secure blocking. Brace or tie the bottom of the ladder.
+
+- Rest both side rails on the top support and secure ladder to prevent slipping.
+
+## What should you know about climbing portable ladders?
+
+- Check for overhead power lines before setting up a ladder.
+
+- Clear area around base and top of the ladder of debris, tools and other objects.
+
+- Wear a safety harness and tie the lanyard off to a proper anchor (e.g., designed fixed support, temporary fixed support, or existing structural feature or equipment) when working 3 m (10 ft) or more off the ground or when working with both hands. Make sure that you have been trained on how to use fall protection devices safely.
+
+- Tie off yourself with a safety harness when working 3 m (10 ft) or more off the ground or when working with both hands.
+
+- Ensure that only one person is on a single-width ladder. Only one person is allowed on each side of a double-width ladder.
+
+- Maintain three-point contact by keeping two hands and one foot, or two feet and one hand on the ladder at all times.
+
+- Grasp the rungs when climbing a ladder, not the side rails. If your foot slips on a ladder, holding onto rungs is easier than holding onto the side rails.
+
+- Wear protective footwear with slip-resistant soles and heels.
+
+- Ensure that all electrical equipment used during ladder work is in good condition and properly grounded.
+
+- Rest frequently to avoid arm fatigue and disorientation when the work requires you to look up and reach above your head.
+
+- Drape your arms over a rung and rest your head against another rung or side rail if you become dizzy or panicky. Climb down slowly.
+
+## What should you avoid when climbing portable ladders?
+
+- Do not use ladders when a safe means of access is available and practical.
+
+- Do not use a ladder in passageways, doorways, driveways or other locations where a person or vehicle can hit it. Set up suitable barricades or lock the doors shut.
+
+- Do not place a ladder against flexible or moveable surfaces.
+
+- Do not straddle the space between a ladder and another object.
+
+- Do not erect ladders on boxes, carts, tables, scaffold or other unstable surfaces.
+
+- Do not use ladders on ice.
+
+- Do not stand a ladder on any of its rungs. Ladders must rest on both side rails.
+
+- Do not allow anyone to stand under a ladder.
+
+- Do not support ladders on their rungs.
+
+- Do not overreach from a ladder; move as required.
+
+- Do not use any type of ladder near overhead power lines unless the safe distance is maintained.
+
+Document last updated on October 4, 2016
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

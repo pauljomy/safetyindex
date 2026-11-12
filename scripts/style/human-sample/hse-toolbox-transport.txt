@@ -1,0 +1,118 @@
+url: https://www.hse.gov.uk/toolbox/transport.htm
+snapshot: 20191127045937
+words: 730
+status: ok
+---
+# Workplace transport
+
+**Every year, there are accidents involving transport in the workplace, some of which result in people being killed.**
+
+**People are knocked down, run over, or crushed against fixed parts by vehicles (eg HGVs, lift trucks and tractors), plant and trailers. People also fall from vehicles – whether getting on or off, working at height, or when loading or unloading.**
+
+## Case study one
+
+A forklift truck operator was driving his truck in a yard that was poorly lit and did not have designated traffic lanes for either industrial trucks or vehicles. As the operator drove across the yard, a large industrial truck started to reverse into it.
+
+The truck driver had checked his mirrors and, although the truck was fitted with reversing alarms, they failed to detect that the forklift was in its path. The truck hit the forklift, which tipped over onto its side. The forklift operator, who was not wearing his seat belt, was trapped underneath. He was pronounced dead at the scene, despite the efforts of the plant emergency response team and the emergency medical service.
+
+### How similar accidents could be avoided
+
+- Better lighting in the yard
+
+- Designated traffic lanes
+
+- Reversing alarms that work effectively
+
+- Wearing a seat belt
+
+## What do I have to do?
+
+Think about whether there is an easier, safer way of doing the job. Your risk assessment must consider all workplace transport activities such as loading and unloading. It will help if you:
+
+- look carefully at all the vehicles and people moving round your workplace
+
+- mark the traffic and pedestrian movements on a plan so you can see where pedestrians and vehicles interact
+
+- identify improvements that will reduce the contact between pedestrians and vehicles
+
+- remember to include less frequent tasks, eg waste skip changes
+
+- make sure you consider delivery drivers as they are particularly vulnerable
+
+## Case study two
+
+While working on the construction of a new school, a maintenance engineer took a short cut across the vehicle route rather than using the pedestrian pathway.
+
+As the building work was nearing completion, banksmen were not felt to be necessary for reversing vehicles. There were no barriers in place to prevent pedestrians crossing vehicle routes, and there were no signs to warn of the dangers of moving vehicles.
+
+The maintenance engineer was struck by a reversing dumper truck whose driver had failed to see him behind the vehicle. The maintenance engineer died at the scene from multiple injuries.
+
+### How similar accidents could be avoided
+
+- Using adequately trained banksmen when needed, even when work is nearing completion
+
+- Barriers in place to keep pedestrians and vehicles apart
+
+- Signs warning of moving vehicles
+
+## How can I do it?
+
+Consider each of the following areas:
+
+### Safe site
+
+- Plan your workplace so that pedestrians are safe from vehicles
+
+- Provide a one-way system if you can
+
+- Provide separate routes for pedestrians and vehicles where possible
+
+- Avoid reversing where possible
+
+- Provide appropriate crossing points where pedestrians and traffic meet
+
+- Use ‘Highway Code’ signs to indicate vehicle routes, speed limits, pedestrian crossings etc
+
+- Make sure lighting is adequate where people and vehicles are working
+
+- Make sure road surfaces are firm and even
+
+- Make sure there are safe areas for loading and unloading
+
+- Try to provide separate car parking for visitors as they may not know your site
+
+### Safe vehicle
+
+- Ensure vehicles are suitable for the purpose for which they are used
+
+- Maintain vehicles in good repair, particularly the braking system, steering, tyres, lights, mirrors and specific safety systems
+
+- Remove the need for people to climb up on vehicles where possible, eg by providing gauges and controls that are accessible from ground level
+
+- Reduce the risk of falling when people have to climb onto a vehicle or trailer by providing well-constructed ladders, non-slip walkways and guard rails where possible
+
+- Provide reversing aids such as CCTV where appropriate
+
+- Fit rollover protective structures and use seat belts where fitted
+
+### Safe driver
+
+- Train lift truck operators
+
+- Reassess lift truck operators at regular intervals, eg every three to five years, or when new risks arise such as changes to working practices
+
+- Train drivers of other vehicles to a similar standard
+
+- Make sure all drivers are supervised (including those visiting the site)
+
+## Find out more
+
+- More HSE advice on vehicles at work
+
+## The law
+
+Workplace (Health, Safety and Welfare) Regulations 1992, regulation 17
+
+Provision and Use of Work Equipment Regulations 1998 (PUWER)
+
+Lifting Operations and Lifting Equipment Regulations 1998 (LOLER)

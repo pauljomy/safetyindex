@@ -1,0 +1,74 @@
+---
+// Yearly data report (brief sections 7g and 7h): a quotable one-sentence summary, static SVG
+// charts, tables (downloadable as CSV and Excel), the method, data source, sample size and
+// update date. Built by script from public data; no writer involved.
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Cover from "@components/Cover.astro";
+import BarChart from "@components/BarChart.astro";
+import PageNotes from "@components/PageNotes.astro";
+import RelatedBlock from "@components/RelatedBlock.astro";
+import { url, type Report } from "@lib/content";
+import { formatDate, latest } from "@lib/dates";
+import { withLinks } from "@lib/links";
+import { escapeHtml } from "@lib/linker.mjs";
+import { coverFor, socialCard } from "@lib/covers";
+import { breadcrumbList, webPage } from "@lib/schema";
+import { ui } from "../i18n/ui";
+
+interface Cell { text: string; href?: string }
+interface Section { heading: string; opening: string; chart?: { title: string; data: { label: string; value: number }[]; unit?: "usd" | "n" }; table?: { columns: string[]; rows: (string | number | Cell)[][]; download?: string }; note?: string }
+const { entry } = Astro.props as { entry: Report };
+const d = entry.data;
+const s = ui.en;
+const path = url.report(entry.id);
+const data = d.data as { sections: Section[]; sampleSize: string; dataYear: string; downloads: { label: string; file: string }[] };
+const used = new Set<string>();
+const link = async (t: string) => withLinks(escapeHtml(t), path, used);
+const summary = await link(d.summary);
+const sections = [];
+for (const sec of data.sections) sections.push({ ...sec, opening: await link(sec.opening) });
+const og = await socialCard(coverFor(d.cover));
+const crumbs = [{ label: s.home, href: "/" }, { label: "United States", href: url.market("us") }, { label: s.hubReports, href: url.reportsHub() }, { label: d.title, href: path }];
+const updated = latest(d.date, d.updated);
+const fmt = (unit?: string) => (n: number) => (unit === "usd" ? `$${n.toLocaleString("en-US")}` : n.toLocaleString("en-US"));
+const cell = (c: string | number | Cell) => (typeof c === "object" ? c : { text: typeof c === "number" ? c.toLocaleString("en-US") : c });
+---
+<Layout title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" image={og} noindex={d.noindex}
+  jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US" }), breadcrumbList(crumbs)]}>
+  <Container>
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
+    <p class="animate mb-8 mt-2 text-sm">Updated {formatDate(updated)} · Data: {data.dataYear} · Sample: {data.sampleSize}</p>
+    <Cover subject={d.cover} alt={d.coverAlt} />
+    <article class="animate" data-pagefind-body>
+      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={summary} /></p>
+      {data.downloads.length > 0 && (
+        <p class="not-prose flex flex-wrap gap-2 text-sm print:hidden">
+          {data.downloads.map((f) => <a class="rounded-md border border-black/20 px-3 py-1.5 font-medium hover:bg-black/5 dark:border-white/25" href={f.file} download data-track={f.file.endsWith(".csv") ? "download_csv" : "download_xlsx"}>{f.label}</a>)}
+        </p>
+      )}
+      {sections.map((sec) => (
+        <>
+          <h2>{sec.heading}</h2>
+          <p><Fragment set:html={sec.opening} /></p>
+          {sec.chart && <BarChart title={sec.chart.title} data={sec.chart.data} format={fmt(sec.chart.unit)} />}
+          {sec.table && (
+            <table>
+              <thead><tr>{sec.table.columns.map((c) => <th>{c}</th>)}</tr></thead>
+              <tbody>{sec.table.rows.map((r) => <tr>{r.map((c) => { const x = cell(c); return <td>{x.href ? <a href={x.href}>{x.text}</a> : x.text}</td>; })}</tr>)}</tbody>
+            </table>
+          )}
+          {sec.note && <p class="text-sm">{sec.note}</p>}
+        </>
+      ))}
+      <h2>How this report was made</h2>
+      <p>{d.method}</p>
+      <h2>{s.sources}</h2>
+      <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
+      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
+    </article>
+    <RelatedBlock />
+  </Container>
+</Layout>

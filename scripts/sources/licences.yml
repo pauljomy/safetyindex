@@ -1,0 +1,102 @@
+# Licence and attribution for every source the site uses (brief section 4).
+# `attribution` is printed under any page that cites a URL on one of `domains`
+# (src/components/PageNotes.astro); the build fails if a page cites one of these
+# domains without its line (scripts/check-dist.mjs). `use` says what we may do.
+# `checked` is when the licence page was last looked at.
+
+- id: us-federal
+  name: US federal government works (OSHA, eCFR, Federal Register, DOL, BLS, NIOSH/CDC, FDA, USDA FSIS, EPA)
+  domains: [osha.gov, ecfr.gov, federalregister.gov, govinfo.gov, dol.gov, bls.gov, cdc.gov, fda.gov, usda.gov, epa.gov, usa.gov, nih.gov, msha.gov]
+  licence: Public domain (17 U.S.C. § 105); no attribution required
+  use: quote and reuse freely; we still cite every source
+  attribution: null
+  checked: 2026-11-12
+
+- id: uk-ogl
+  name: Health and Safety Executive and legislation.gov.uk
+  domains: [hse.gov.uk, legislation.gov.uk]
+  licence: Open Government Licence v3.0
+  licence_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  use: reuse with the attribution statement
+  attribution:
+    en: "Contains public sector information licensed under the Open Government Licence v3.0."
+  checked: 2026-11-12
+
+- id: fr-licence-ouverte
+  name: Légifrance and DILA open data (Code du travail)
+  domains: [legifrance.gouv.fr, code.travail.gouv.fr, travail-emploi.gouv.fr, service-public.fr]
+  licence: Licence Ouverte / Open Licence 2.0 (Etalab)
+  licence_url: https://www.etalab.gouv.fr/licence-ouverte-open-licence/
+  use: reuse with source and date
+  attribution:
+    fr: "Textes législatifs et réglementaires : Légifrance / DILA, Licence Ouverte 2.0."
+  checked: 2026-11-12
+
+- id: fr-inrs
+  name: INRS
+  domains: [inrs.fr]
+  licence: All rights reserved
+  use: cite and paraphrase only, never copy (brief rule 5)
+  attribution: null
+  checked: 2026-11-12
+
+- id: de-gesetze
+  name: Gesetze im Internet (federal laws and ordinances)
+  domains: [gesetze-im-internet.de]
+  licence: Amtliche Werke, no copyright (§ 5 UrhG)
+  use: quote freely; cite the paragraph
+  attribution: null
+  checked: 2026-11-12
+
+- id: de-dguv-baua
+  name: DGUV, BAuA and the Berufsgenossenschaften (TRBS, TRGS, ASR, DGUV Regeln and Informationen)
+  domains: [dguv.de, baua.de, bgbau.de, bghm.de, bgn.de, bgw-online.de, bgrci.de, bghw.de, vbg.de, bgetem.de, bg-verkehr.de]
+  licence: All rights reserved (the ASR and TRBS/TRGS texts are published by BAuA; DGUV publications are copyrighted)
+  use: cite and paraphrase only, never copy (brief rule 5)
+  attribution: null
+  checked: 2026-11-12
+
+- id: au-cc-by
+  name: Safe Work Australia and the Federal Register of Legislation
+  domains: [safeworkaustralia.gov.au, legislation.gov.au]
+  licence: Creative Commons Attribution 4.0 International (unless marked otherwise)
+  licence_url: https://creativecommons.org/licenses/by/4.0/
+  use: reuse with attribution
+  attribution:
+    en: "Contains material from Safe Work Australia and the Federal Register of Legislation, licensed under CC BY 4.0."
+  checked: 2026-11-12
+
+- id: ca-justice
+  name: Justice Laws Website (Canada Labour Code, COHSR)
+  domains: [laws-lois.justice.gc.ca]
+  licence: Reproduction of Federal Law Order (reproduction permitted; must be accurate and not presented as an official version)
+  use: quote accurately; say it isn't the official version
+  attribution:
+    en: "Federal laws of Canada reproduced from the Justice Laws Website; this is not an official version."
+  checked: 2026-11-12
+
+- id: ca-ccohs
+  name: CCOHS
+  domains: [ccohs.ca]
+  licence: All rights reserved (permission needed to reproduce)
+  use: cite and paraphrase only
+  attribution: null
+  checked: 2026-11-12
+
+- id: nz-cc-by
+  name: WorkSafe New Zealand and the New Zealand Legislation website
+  domains: [worksafe.govt.nz, legislation.govt.nz]
+  licence: Creative Commons Attribution 4.0 International (Crown copyright)
+  licence_url: https://creativecommons.org/licenses/by/4.0/
+  use: reuse with attribution
+  attribution:
+    en: "Contains material from WorkSafe New Zealand and the New Zealand Legislation website, Crown copyright, licensed under CC BY 4.0."
+  checked: 2026-11-12
+
+- id: paid-standards
+  name: ANSI, NFPA, ISO, EN, BS, DIN and other paid standards
+  domains: [ansi.org, nfpa.org, iso.org, bsigroup.com, din.de, afnor.org]
+  licence: Paid standards
+  use: refer to them by number only; never reproduce text (brief rule 5)
+  attribution: null
+  checked: 2026-11-12

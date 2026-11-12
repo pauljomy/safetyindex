@@ -1,4 +1,7 @@
 ---
+topicType: regional
+keywordSource: topic sheet
+noindex: true
 title: "Casque de chantier : normes, port obligatoire et points à vérifier en France"
 seoTitle: "Casque de chantier : normes, port obligatoire, contrôles"
 subtitle: Les repères pour choisir et contrôler un casque de chantier, ce que cette page ne peut pas confirmer, et la règle américaine OSHA en comparaison.

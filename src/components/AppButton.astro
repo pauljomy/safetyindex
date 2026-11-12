@@ -1,0 +1,40 @@
+---
+// The one app button (brief section 15). Only on pages with a checklist, only in `app_markets`.
+// While `apps_live` is false: a plain, non-clickable "coming soon" note (no store badges).
+// With real IDs and `apps_live: true` in scripts/config.yml: official, unmodified store badges,
+// device detection (Android → Google Play, iPhone/iPad → App Store, desktop → both + a QR code
+// to /get-app/?c=<checklist>), no other code changes.
+import QRCode from "qrcode";
+import { config } from "../../scripts/lib/config.mjs";
+import { appLinks } from "@lib/app";
+import { langOf, marketOf, ui } from "../i18n/ui";
+const { checklistId } = Astro.props as { checklistId: string };
+const path = Astro.url.pathname;
+const market = marketOf(path);
+const s = ui[langOf(path)];
+const show = (config.app_markets as string[]).includes(market);
+const links = appLinks(market, checklistId);
+const qr = config.apps_live ? await QRCode.toString(links.redirect, { type: "svg", margin: 1, width: 120 }) : "";
+---
+{show && (
+  config.apps_live ? (
+    <div class="not-prose my-6 flex flex-wrap items-center gap-4 print:hidden" data-app-button data-market={market} data-checklist={checklistId}>
+      <span class="font-medium">{s.appGet}</span>
+      <a href={links.play} data-store="play" rel="noopener" data-track="store_click"><img src="/badges/google-play.png" alt="Get it on Google Play" height="48" width="161" /></a>
+      <a href={links.appStore} data-store="appstore" rel="noopener" data-track="store_click"><img src="/badges/app-store.svg" alt="Download on the App Store" height="48" width="144" /></a>
+      <figure class="hidden md:block" data-desktop-only><Fragment set:html={qr} /><figcaption class="text-xs">{s.appScan}</figcaption></figure>
+    </div>
+    <script>
+      const ua = navigator.userAgent;
+      const isAndroid = /Android/i.test(ua);
+      const isIos = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      document.querySelectorAll<HTMLElement>("[data-app-button]").forEach((el) => {
+        if (isAndroid) el.querySelector<HTMLElement>('[data-store="appstore"]')?.remove();
+        if (isIos) el.querySelector<HTMLElement>('[data-store="play"]')?.remove();
+        if (isAndroid || isIos) el.querySelector("[data-desktop-only]")?.remove();
+      });
+    </script>
+  ) : (
+    <p class="not-prose my-6 rounded-md border border-black/15 px-4 py-3 text-sm print:hidden dark:border-white/20" data-app-button data-app-soon>{s.appComingSoon}</p>
+  )
+)}

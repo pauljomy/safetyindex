@@ -1,0 +1,23 @@
+---
+// Current maximum OSHA penalties, from scripts/config.yml (osha_penalties), shared by every
+// standard page and /us/osha-penalties. Updated every January from osha.gov/penalties.
+import { config } from "../../scripts/lib/config.mjs";
+import { formatDate } from "@lib/dates";
+const p = config.osha_penalties;
+const usd = (n: number | null) => (n == null ? "–" : `$${n.toLocaleString("en-US")}`);
+const rows = [
+  ["Serious", `${usd(p.serious_max)} per violation`],
+  ["Other-than-serious", `${usd(p.other_than_serious_max)} per violation`],
+  ["Failure to abate", `${usd(p.failure_to_abate_per_day_max)} per day beyond the abatement date`],
+  ["Willful or repeated", `${usd(p.willful_or_repeated_max)} per violation${p.willful_or_repeated_min ? ` (minimum ${usd(p.willful_or_repeated_min)} for willful)` : ""}`],
+];
+---
+{p.serious_max != null && (
+  <>
+    <table data-penalty-table>
+      <thead><tr><th>Type of violation</th><th>Maximum penalty</th></tr></thead>
+      <tbody>{rows.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody>
+    </table>
+    <p class="text-sm">Source: <a href={p.source_url} rel="noopener">OSHA penalties</a>{p.effective_date && <>, effective {formatDate(p.effective_date)}</>}. State-plan states set their own amounts, at least as high as federal OSHA's.</p>
+  </>
+)}

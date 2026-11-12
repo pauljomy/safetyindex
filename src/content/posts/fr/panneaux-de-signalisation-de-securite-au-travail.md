@@ -1,4 +1,6 @@
 ---
+topicType: regional
+keywordSource: topic sheet
 title: "Panneaux de signalisation de sécurité au travail : ce que dit la réglementation en France"
 seoTitle: "Panneaux de signalisation de sécurité au travail : règles"
 subtitle: Les familles de panneaux de l'arrêté du 4 novembre 1993, ce que le Code du travail impose pour les secours, et ce qu'il faut vérifier chez vous.

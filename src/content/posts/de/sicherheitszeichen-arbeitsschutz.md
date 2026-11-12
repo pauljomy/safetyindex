@@ -1,4 +1,7 @@
 ---
+topicType: regional
+keywordSource: topic sheet
+noindex: true
 title: "Sicherheitszeichen Arbeitsschutz: Wo die deutschen Regeln stehen und was OSHA anders macht"
 seoTitle: "Sicherheitszeichen Arbeitsschutz: Regeln und Bedeutung"
 subtitle: Wo Sie die deutschen Vorgaben zur Sicherheitskennzeichnung finden, was das US-System (OSHA) anders regelt und wie Sie eine Unterweisung aufbauen.

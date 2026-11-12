@@ -16,7 +16,7 @@ const name = categoryName(slug, lang);
 // Hreflang only to languages whose version of this category page exists (has posts).
 const present = [];
 for (const l of langs) if ((await getPosts(l)).some((p) => p.data.categories.includes(slug))) present.push(l);
-const alternates = present.length > 1 ? Object.fromEntries(present.map((l) => [l, url.category(slug, l)])) : undefined;
+const alternates = present.length > 1 ? Object.fromEntries(present.map((l) => [l === "en" ? "us" : l, url.category(slug, l)])) : undefined;
 ---
 
 <Layout

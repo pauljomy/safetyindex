@@ -11,7 +11,7 @@ import "@fontsource/geist-mono/500.css";
 import "@fontsource/geist-mono/600.css";
 import geistLatin400 from "@fontsource/geist-sans/files/geist-sans-latin-400-normal.woff2?url";
 import { site } from "../config/site.mjs";
-import { defaultLang, langOf, meta, type Lang } from "../i18n/ui";
+import { marketMeta, marketOf, type Market } from "../i18n/ui";
 import { isoDate } from "../lib/dates";
 import { pagePath } from "../lib/paths";
 
@@ -23,8 +23,8 @@ export interface SeoProps {
   published?: Date;
   type?: "website" | "article";
   noindex?: boolean;
-  /** Paths of this page in each language it exists in, itself included. Omit when there are no translations. */
-  alternates?: Partial<Record<Lang, string>>;
+  /** Paths of this page in each market it exists in (regional equivalents only), itself included. Omit when there are none. */
+  alternates?: Partial<Record<Market, string>>;
   /** Absolute or root-relative social image; defaults to /og-default.png. */
   image?: string;
 }
@@ -32,10 +32,10 @@ export interface SeoProps {
 const { title, description, updated, published, type = "website", noindex = false, alternates, image } = Astro.props as SeoProps;
 const path = pagePath(Astro.url.pathname);
 const canonical = new URL(path, site.url).href;
-const lang = langOf(path);
-// Every language version lists all versions, itself included; x-default is the English one.
-const versions = Object.entries(alternates ?? { [lang]: path }) as [Lang, string][];
-const xDefault = alternates?.[defaultLang] ?? path;
+const market = marketOf(path);
+// Every market version lists all versions, itself included; x-default is the US English one.
+const versions = Object.entries(alternates ?? { [market]: path }) as [Market, string][];
+const xDefault = alternates?.us ?? path;
 const suffixed = `${title} | ${site.name}`;
 const fullTitle = path === "/" || title.includes(site.name) || suffixed.length > 60 ? title : suffixed;
 const ogImage = new URL(image ?? "/og-default.png", site.url).href;
@@ -57,13 +57,13 @@ if (description.length > 155) throw new Error(`Description over 155 chars on ${p
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
 <meta name="robots" content={robots} />
-{versions.map(([code, p]) => <link rel="alternate" hreflang={meta[code].hreflang} href={new URL(p, site.url).href} />)}
+{versions.map(([code, p]) => <link rel="alternate" hreflang={marketMeta[code].hreflang} href={new URL(p, site.url).href} />)}
 <link rel="alternate" hreflang="x-default" href={new URL(xDefault, site.url).href} />
 <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
 <link rel="alternate" type="application/rss+xml" title={`${site.name} blog`} href="/rss.xml" />
 <meta property="og:site_name" content={site.name} />
-<meta property="og:locale" content={meta[lang].og} />
-{versions.filter(([code]) => code !== lang).map(([code]) => <meta property="og:locale:alternate" content={meta[code].og} />)}
+<meta property="og:locale" content={marketMeta[market].og} />
+{versions.filter(([code]) => code !== market).map(([code]) => <meta property="og:locale:alternate" content={marketMeta[code].og} />)}
 <meta property="og:type" content={type} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

@@ -1,4 +1,6 @@
 ---
+topicType: regional
+keywordSource: topic sheet
 title: "Schutzhelm Arbeitsschutz: Industrieschutzhelm nach DIN EN 397, Typ 1 und Typ 2"
 seoTitle: "Schutzhelm Arbeitsschutz: DIN EN 397, Typ 1 und Typ 2"
 subtitle: Wann Kopfschutz Pflicht ist, was Typ 1 und Typ 2 der neuen DIN EN 397 bedeuten und worauf Sie bei Elektroarbeiten, Gebrauchsdauer und Kennzeichnung achten.

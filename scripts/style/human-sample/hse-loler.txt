@@ -1,0 +1,148 @@
+url: https://www.hse.gov.uk/work-equipment-machinery/loler.htm
+snapshot: 20200102210854
+words: 1729
+status: ok
+---
+# Lifting Operations and Lifting Equipment Regulations 1998 (LOLER)
+
+## Changes due to Brexit
+
+Your health and safety responsibilities will not change when the UK leaves the EU. This guidance is under review.
+
+Find the latest information on our Brexit pages
+
+These Regulations (often abbreviated to LOLER) place duties on people and companies who own, operate or have control over lifting equipment. This includes all businesses and organisations whose employees use lifting equipment, whether owned by them or not. In most cases, lifting equipment is also work equipment so the Provision and Use of Work Equipment Regulations (PUWER) will also apply (including inspection and maintenance). All lifting operations involving lifting equipment must be properly planned by a competent person, appropriately supervised and carried out in a safe manner.
+
+LOLER also requires that all equipment used for lifting is fit for purpose, appropriate for the task, suitably marked and, in many cases, subject to statutory periodic 'thorough examination'. Records must be kept of all thorough examinations and any defects found must be reported to both the person responsible for the equipment and the relevant enforcing authority.
+
+## What you should do
+
+If your business or organisation undertakes lifting operations or is involved in providing lifting equipment for others to use, you must manage and control the risks to avoid any injury or damage.
+
+Where you undertake lifting operations involving lifting equipment you must:
+
+- plan them properly
+
+- using people who are sufficiently competent
+
+- supervise them appropriately
+
+- to ensure that they are carried out in a safe manner
+
+## What you should know
+
+LOLER is supported by the Safe use of lifting equipment: Approved Code of Practice (ACOP) and additional free guidance from HSE.
+
+While the ACOP is not law, this has been produced under section 16 of the Health and Safety at Work Act (HSW Act) and has a special status (as outlined in introductory page (ii) of the ACOP). This supports not only LOLER but also the general provisions of section 2 of the HSW Act and other regulations, including the Management of Health and Safety at Work Regulations and PUWER, in relation to lifting equipment and lifting operations.
+
+Other more specific legislation may also apply, for example the Personal Protective Equipment at Work Regulations, when safety harnesses are being used for rope access work during activities such as window cleaning.
+
+Many other organisations also publish guidance material on LOLER and its application in practice, which businesses may find helpful - much of which can be found using standard web searches. Additionally, HSE has developed Open learning guidance to assist anyone who wishes to learn more about LOLER.
+
+Although LOLER has a wide application, any lifting equipment used on ships is generally excluded because there are other provisions for the safety of this equipment under merchant shipping legislation. A Memorandum of Understanding (MoU) between the HSE and Maritime and Coastguard Agency (MCA) and Marine Accident Investigation Branch (MAIB) exists to co-ordinate enforcement between the different organisations , including matters relating to lifting and lifting equipment.
+
+Most lifting equipment and lifting accessories will also fall within the scope of the Machinery Directive, as implemented by the UK Supply of Machinery (Safety) Regulations. Such equipment must have been subject to conformity assessment and be appropriately CE marked and accompanied by a Declaration of Conformity (DoC) before being placed on the market or brought into use. This includes lifting equipment whose only source of power is directly applied human effort (eg manually operated chain blocks and car jacks).
+
+The DoC, which must accompany the new product, is an important document, which should be retained by the user. The DoC may avoid the need for an initial thorough examination before first use in those cases where the safety of that equipment does not depend on the conditions of its installation or assembly.
+
+## What is a lifting operation?
+
+Regulation 8(2) of LOLER defines a lifting operation as '… an operation concerned with the lifting or lowering of a load'. A 'load' is the item or items being lifted, which includes a person or people.
+
+## What is lifting equipment?
+
+'Lifting equipment' means work equipment for lifting and lowering loads. This includes lifting accessories and attachments used for anchoring, fixing or supporting the equipment (examples of lifting equipment)
+
+## Selecting the right equipment
+
+LOLER requires that lifting equipment must be of adequate strength and stability. This adds to the general obligations under PUWER regarding the suitability of work equipment.
+
+Lifting equipment should be positioned or installed in such a way as to reduce the risk, as far as reasonably practicable, of the equipment or load striking a person, or of the load drifting, falling freely or being unintentionally released.
+
+Where people are being lifted, there are additional requirements to prevent people from being injured in / by the carrier, including more frequent thorough examinations.
+
+## Marking of lifting equipment
+
+All lifting equipment, including accessories, must be clearly marked to indicate their 'safe working loads' (SWL) - the maximum load the equipment can safely lift.
+
+Where the SWL of any equipment or accessory depends on its configuration, the information provided on the SWL must reflect all potential configurations (for example, where the hook of an engine hoist can be moved to different positions, the SWL should be shown for each position). In some cases, the information should be kept with the lifting machinery, eg the rated capacity indicator fitted to a crane, showing the operator the SWL for any of the crane's permitted lifting configurations.
+
+Accessories must also be marked to show any characteristics that might affect their safe use. This may include the weight of the parts, where their weight is significant.
+
+Where equipment is to be used to lift people, it should be marked to indicate the number of people that can be lifted in addition to the SWL of the equipment.
+
+Lifting equipment which is not designed for lifting people - but which might be used this way in error - must be clearly marked to indicate it should not be used to lift people.
+
+## Planning, organising and carrying out lifting operations
+
+All lifting operations involving lifting equipment must be:
+
+- properly planned by a competent person
+
+- appropriately supervised, and
+
+- carried out in a safe manner
+
+In planning any lifting operation, the identification and assessment of risk is key to identifying the most appropriate equipment and method for the job. Lifting operations range from:
+
+- the very simple and commonplace, where minimal on-the-job planning by trained, competent people may be all that is needed to manage risk; to
+
+- very complex operations, which require sophisticated and detailed planning / records, with very high levels of expert input, monitoring and supervision - undertaken by specially trained personnel
+
+The complexity of the plan and the extent of the resources used to manage risk must reflect the complexity and difficulty of the lifting operation.
+
+Further information on planning and organising lifting operations.
+
+## Thorough examination
+
+Lifting equipment must be thoroughly examined in a number of situations, including:
+
+- before first use (unless there is a valid Declaration of Conformity made less than 12 months earlier)
+
+- where it depends on installation, or re-installation / assembly at another site
+
+- where it is exposed to conditions causing deterioration, liable to result in danger
+
+Records of thorough examinations should be made and, where defects are identified, they should be reported to both the person using the equipment (and to any person from whom it has been hired or leased), and the relevant enforcing authority (HSE for industrial workplaces; local authorities for most other workplaces).
+
+## Lifting equipment to which LOLER may not apply
+
+LOLER only applies to lifting equipment which is used at work. Some work equipment - particularly continuous types that transport people or goods, often from one level to another - is not considered lifting equipment and so is not subject to LOLER's specific provisions. However, when used at work, the provisions of PUWER still apply (including selection, inspection, maintenance, and training). Examples of work equipment which does not come under LOLER but still comes under the provisions of PUWER include escalators and moving walkways, many conveyor systems and simple pallet trucks (that only raise the load just clear of the ground so it can be moved).
+
+Some lifting equipment may not be used by people at work, such as stair lifts installed in private dwellings and platform lifts in shops for disabled customer access - which are not subject to LOLER or PUWER in these circumstances. However, this equipment fitted in places with public access is subject to the HSW Act, and should be thoroughly examined and inspected for safety, using LOLER and PUWER requirements as a guide.
+
+Other equipment, such as lifts in shopping centres, may be installed primarily for the use of customers who are not at work. Nevertheless, upon installation, this equipment must meet the requirements of all relevant European Product Supply Directives and so be safe by design and construction when placed on the market. For example, stair lifts and platform lifts (mainly used for people with impaired mobility) come under the Machinery Directive and those over 3 m vertical distance require third party conformity assessment by a notified body. Conventional passenger lifts must meet the requirements of the Lifts Directive.
+
+Furthermore, employers and the self-employed have responsibilities, so far as reasonably practicable, for the safety of people they do not employ that may be affected by the employer's work (under section 3 of the HSW Act). This may include employees of other organisations who undertake maintenance and other work on equipment - who will usually be at work and may even need to test and use the lifting equipment during their work. Therefore, businesses allowing the public to use lifting equipment, such as passenger lifts primarily intended for use by people not at work, should still be managing the risks from this equipment - and will generally need to be to the same stringent standards as required by LOLER and PUWER. In any case, insurers may require a similarly high standard of protection to manage public liability in these situations.
+
+## Further reading
+
+- What is lifting equipment?
+
+- Planning and organising lifting operations
+
+- Lifting people
+
+- Thorough examination of lifting equipment
+
+- Passenger lifts and escalators
+
+- FAQs on lifting and LOLER
+
+## Resources
+
+- LOLER Approved Code of Practice and guidance
+
+- Open learning guidance for LOLER
+
+- Lifting equipment at work: A brief guide
+
+- Thorough examination of lifting equipment: A simple guide for employers
+
+More resources
+
+## See also
+
+- LOLER: Application to hook loader vehicles
+
+- LOLER in Agriculture

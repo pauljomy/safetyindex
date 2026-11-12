@@ -1,0 +1,26 @@
+url: https://www.hse.gov.uk/simple-health-safety/risk/index.htm
+snapshot: 20191230174420
+words: 146
+status: too short (146 words)
+---
+# Managing risks and risk assessment at work
+
+## Overview
+
+As an employer, you’re required by law to protect your employees, and others, from harm.
+
+Under the Management of Health and Safety at Work Regulations 1999, the minimum you must do is:
+
+- identify what could cause injury or illness in your business (hazards)
+
+- decide how likely it is that someone could be harmed and how seriously (the risk)
+
+- take action to eliminate the hazard, or if this isn’t possible, control the risk
+
+Assessing risk is just one part of the overall process used to control risks in your workplace.
+
+For most small, low-risk businesses the steps you need to take are straightforward and are explained in these pages.
+
+If your business is larger or higher-risk, you can find detailed guidance here.
+
+If you’re self-employed, check if health and safety law applies to you.

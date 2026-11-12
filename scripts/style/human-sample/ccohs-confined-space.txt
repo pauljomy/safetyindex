@@ -1,0 +1,170 @@
+url: https://www.ccohs.ca/oshanswers/hsprograms/confinedspace_intro.html
+snapshot: 20191117194342
+words: 2256
+status: ok
+---
+## Is working in a confined space hazardous?
+
+Many workers are injured and killed each year while working in confined spaces. An estimated 60% of the fatalities have been among the would-be rescuers. A confined space can be more hazardous than regular workspaces for many reasons. To effectively control the risks associated with working in a confined space, a confined space hazard assessment and control program should be implemented for your workplace. Before putting together this program, make sure to review the specific regulations that apply to your workplace. All jurisdictions within Canada have regulations dealing with confined space entry. The regulations can vary slightly from jurisdiction to jurisdiction. A contact list for the jurisdictions is available in the OSH Answers document Canadian Government Departments Responsible for OH&S. More information about the confined space hazard assessment and control program is located in the OSH Answers document Confined Space - Program.
+
+**If the confined space cannot be made safe for the worker by taking precautions then workers should NOT enter the confined space until it is made safe to enter by additional means.** All confined spaces should be considered hazardous unless a competent person has determined otherwise through a risk assessment.
+
+## What is a confined space?
+
+Generally speaking, a confined space is a fully or partially enclosed space that:
+
+- is not primarily designed or intended for continuous human occupancy
+
+- has limited or restricted entrance or exit, or a configuration that can complicate first aid, rescue, evacuation, or other emergency response activities
+
+- Can represent a risk for the for the health and safety of anyone who enters, due to one or more of the following factors:
+
+- its design, construction, location or atmosphere
+
+- the materials or substances in it
+
+- work activities being carried out in it, or the
+
+- mechanical, process and safety hazards present
+
+Confined spaces can be below or above ground. Confined spaces can be found in almost any workplace. A confined space, despite its name, is not necessarily small. Examples of confined spaces include silos, vats, hoppers, utility vaults, tanks, water supply towers, sewers, pipes, access shafts, truck or rail tank cars, aircraft wings, boilers, manholes, pump stations, digesters, manure pits and storage bins. Ditches and trenches may also be a confined space when access or egress is limited. Barges, shipping containers and fish holds are also considered as possible confined spaces.
+
+## What are the hazards in a confined space?
+
+All hazards found in a regular workspace can also be found in a confined space. However, they can be even more hazardous in a confined space than in a regular worksite.
+
+Hazards in confined spaces can include:
+
+- Poor air quality: There may be an insufficient amount of oxygen for the worker to breathe. The atmosphere might contain a poisonous substance that could make the worker ill or even cause the worker to lose consciousness. Natural ventilation alone will often not be sufficient to maintain breathable quality air.
+
+- Hazards from asphyxiants – Simple asphyxiants are gases which can become so concentrated that they displace oxygen in the air (normally about 21 percent). Low oxygen levels (19.5 percent or less) can cause symptoms such as rapid breathing, rapid heart rate, clumsiness, emotional upset, and fatigue. As less oxygen becomes available, nausea and vomiting, collapse, convulsions, coma and death can occur. Unconsciousness or death could result within minutes following exposure to a simple asphyxiant. Asphyxiants include argon, nitrogen, or carbon monoxide.
+
+- Chemical exposures due to skin contact or ingestion as well as inhalation of 'bad' air.
+
+- Fire hazard: There may be an explosive/flammable atmosphere due to flammable liquids and gases and combustible dusts which if ignited would lead to fire or explosion.
+
+- Process-related hazards such as residual chemicals, release of contents of a supply line.
+
+- Physical hazards – noise, heat/cold, radiation, vibration, electrical, and inadequate lighting.
+
+- Safety hazards such as moving parts of equipment, structural hazards, engulfment, entanglement, slips, falls.
+
+- Vehicular and pedestrian traffic.
+
+- Shifting or collapse of bulk material.
+
+- Barrier failure resulting in a flood or release of free-flowing solid or liquid.
+
+- Visibility (e.g., smoke particles in air).
+
+- Biological hazards – viruses, bacteria from fecal matter and sludge, fungi,or moulds.
+
+## Why is working in a confined space more hazardous than working in other workspaces?
+
+Many factors need to be evaluated when looking for hazards in a confined space. There is smaller margin for error. An error in identifying or evaluating potential hazards can have more serious consequences. In some cases, the conditions in a confined space are always extremely hazardous. In other cases, conditions are life threatening under an unusual combination of circumstances. This variability and unpredictability is why the process of hazard and risk identification and assessment is extremely important and must be taken very seriously each and every time one is done.
+
+Some examples include:
+
+- The entrance/exit of the confined space might not allow the worker to get out in time should there be a flood or collapse of free-flowing solid.
+
+- Self-rescue by the worker is more difficult.
+
+- Rescue of the victim is more difficult. The interior configuration of the confined space often does not allow easy movement of people or equipment within it.
+
+- Natural ventilation alone will often not be sufficient to maintain breathable quality air. The interior configuration of the confined space does not allow easy movement of air within it.
+
+- Conditions can change very quickly.
+
+- The space outside the confined space can impact on the conditions inside the confined space and vice versa.
+
+- Work activities may introduce hazards not present initially.
+
+- Lack of communication between the workers in the space, the attendant and the emergency response team.
+
+## What should be done when preparing to enter the confined space?
+
+The important thing to remember is that each time a worker plans to enter any work space, the worker should determine if that work space is considered a confined space. Be sure the confined space hazard assessment and control program has been followed. Please see the OSH Answers document Confined Space - Program for more information.
+
+The next question to ask is - Is it absolutely necessary that the work be carried out inside the confined space? In many cases where there have been deaths in confined spaces, the work could have been done outside the confined space!
+
+Before entering any confined space, a trained and experienced person should identify and evaluate all the existing and potential hazards within the confined space. Evaluate activities both inside and outside the confined space.
+
+**Air quality testing:** The air within the confined space should be tested from outside of the confined space before entry into the confined space. Care should be taken to ensure that air is tested throughout the confined space - side-to-side and top to bottom. Continuous monitoring should be considered in situations where a worker is in a space where atmospheric conditions have the potential to change (e.g., broken or leaking pipes or vessels, work activities create a hazardous environment, isolation of a substance is not possible). A trained worker using detection equipment which has remote probes and sampling lines should do the air quality testing. Always ensure the testing equipment is properly calibrated and maintained. The sampling should show that:
+
+- The oxygen content is within safe limits - not too little and not too much.
+
+- A hazardous atmosphere (toxic gases, flammable atmosphere) is not present.
+
+- Ventilation equipment is operating properly.
+
+The results of the tests for these hazards are to be recorded on the Entry Permit along with the equipment or method(s) that were used in performing the tests. Please see the OSH Answers document Confined Space - Program for more information about entry permits.
+
+Air testing may need to be ongoing depending on the nature of the potential hazards and the nature of the work. Conditions can change while workers are inside the confined space and sometimes a hazardous atmosphere is created by the work activities in the confined space.
+
+## How are hazards controlled in confined spaces?
+
+The traditional hazard control methods found in regular worksites can be effective in a confined space. These include engineering controls, administrative controls and personal protective equipment. Engineering controls are designed to remove the hazard while administrative controls and personal protective equipment try to minimize the contact with the hazard.
+
+However, often because of the nature of the confined space and depending on the hazard, special precautions not normally required in a regular worksite may also need to be taken. The engineering control commonly used in confined spaces is mechanical ventilation. The Entry Permit system is an example of an administrative control used in confined spaces. Personal protective equipment (respirators, gloves, ear plugs) is commonly used in confined spaces as well. However, wearing of PPE sometimes may increase heat and loss of mobility. Those situations should be carefully evaluated. When using PPE, always use as part of a PPE program and be sure to evaluate all possible hazards and risks associated with PPE use.
+
+## How is air quality maintained?
+
+Natural ventilation (natural air currents) is usually not reliable and not sufficient to maintain the air quality. Mechanical ventilation (blowers, fans) is usually necessary to maintain air quality.
+
+- If mechanical ventilation is provided, there should be a warning system in place to immediately notify the worker in the event of a hazard or a failure in the ventilation equipment.
+
+- Care should be taken to make sure the air being provided by the ventilation system to the confined space is 'clean' throughout the entire space.
+
+- Ease of air movement throughout the confined space should be considered because of the danger of pockets of toxic gases still remaining even with the use of mechanical ventilation.
+
+- Do not substitute oxygen for fresh air. Increasing the oxygen content will significantly increase the risk of fire and explosion.
+
+- The use of mechanical ventilation should be noted on the entry permit.
+
+- Ensure air being removed from the confined space is exhausted away from workers on the outside.
+
+## How are fire and explosion prevented?
+
+Work where a flame is used or a source of ignition may be produced (hot work) should not normally be performed in a confined space unless:
+
+- All flammable gases, liquids and vapors are removed before the start of any hot work. Mechanical ventilation is usually used to
+
+- Keep the concentration of any explosive or flammable hazardous substance less than 10% of its Lower Explosive Limit AND
+
+- Make sure that the oxygen content in the confined space is not enriched. Oxygen content should be less than 23% but maintained at levels greater than 19.5%. (These numbers can vary slightly from jurisdiction to jurisdiction.)
+
+- Surfaces coated with combustible material should be cleaned or shielded to prevent ignition.
+
+- Do not bring fuel or fuel containers into the confined space (e.g., gasoline, propane), if possible. Ensure welding equipment is in good condition.
+
+- Where appropriate, use spark-resistant tools, and make sure all equipment is bonded or grounded properly.
+
+While doing the hot work, the concentrations of oxygen and combustible materials must be monitored to make certain that the oxygen levels remain in the proper range and the levels of the combustible materials do not get higher than 10% of the Lower Explosive Limit. In special cases it may not be possible, and additional precautions must be taken to ensure the safety of the worker prior to entering the confined space.
+
+If potential flammable atmosphere hazards are identified during the initial testing, the air in the confined space should be cleaned or purged, ventilated and then tested again before entry to the confined space is allowed. Only after the air testing is within allowable limits should entry occur as the gases used for purging can also be extremely hazardous.
+
+## How are energy sources controlled?
+
+All potentially hazardous energy sources such as electrical, mechanical, hydraulic, pneumatic, chemical, or thermal must be de-energized (or isolated) and locked out prior to entry to the confined space so that equipment cannot be turned on accidentally. If lock out is not possible, the hazardous energy must be controlled in a way that eliminates or minimizes worker exposure to the hazards before workers are allowed to enter the confined space. It is important that any method of control other than isolation and lockout must be evaluated and the effectiveness for controlling the hazardous energy must be demonstrated.
+
+## What are other safety precautions?
+
+Many other situations or hazards may be present in a confined space. Be sure that all hazards are controlled, for example:
+
+- Any liquids or free-flowing solids should be removed from the confined space to eliminate the risk of drowning or suffocation.
+
+- All pipes should be physically disconnected or isolation blanks bolted in place. Closing valves is not sufficient.
+
+- Use two blocking valves, with an open vent or bleed valve between the blocking valves when isolating pipelines or similar conveyances to prevent entry of materials and hazardous contaminants.
+
+- A barrier is present to prevent any liquids or free-flowing solids from entering the confined space.
+
+- The opening for entry into and exit from the confined space must be large enough to allow the passage of a person using protective equipment.
+
+Document last updated on October 3, 2017
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

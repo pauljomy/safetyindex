@@ -1,4 +1,8 @@
 ---
+topicType: regional
+keywordSource: topic sheet
+linkPhrases:
+  - personal protective equipment
 title: What Does PPE Stand For? Personal Protective Equipment Explained, With Types and Examples
 seoTitle: What Does PPE Stand For? Meaning, Types & Examples
 subtitle: The meaning of PPE, OSHA's definition, the main types with the rule behind each, real job examples, and who has to pay for it.

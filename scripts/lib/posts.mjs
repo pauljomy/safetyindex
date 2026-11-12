@@ -37,8 +37,8 @@ export function postFile(lang, slug) {
 
 export function toMarkdown(data, body) {
   const ordered = Object.fromEntries(
-    ["title", "seoTitle", "subtitle", "description", "date", "coverImage", "coverAlt", "categories", "tags", "keyword", "translationOf", "summary", "keyTakeaways", "faq", "sources", "relatedPosts"]
-      .filter((k) => data[k] !== undefined && !(Array.isArray(data[k]) && !data[k].length && k === "relatedPosts"))
+    ["noindex", "title", "seoTitle", "subtitle", "description", "date", "updated", "generatedOn", "releaseDate", "dataAsOf", "coverImage", "cover", "coverAlt", "categories", "tags", "keyword", "translationOf", "topicType", "keywordSource", "clusterVolume", "kd", "goNoGo", "checkPass", "localRule", "checklist", "linkPhrases", "summary", "keyTakeaways", "faq", "sources", "relatedPosts", "changes"]
+      .filter((k) => data[k] !== undefined && data[k] !== false && !(Array.isArray(data[k]) && !data[k].length && ["relatedPosts", "changes", "linkPhrases"].includes(k)))
       .map((k) => [k, data[k]]),
   );
   return `---\n${YAML.stringify(ordered, { lineWidth: 0 })}---\n\n${body.trim()}\n`;

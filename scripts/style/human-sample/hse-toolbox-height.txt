@@ -1,0 +1,82 @@
+url: https://www.hse.gov.uk/toolbox/height.htm
+snapshot: 20191115175710
+words: 723
+status: ok
+---
+# Working at height
+
+**Working at height remains one of the biggest causes of fatalities and major injuries. Common cases include falls from ladders and through fragile surfaces. ‘Work at height’ means work in any place where, if there were no precautions in place, a person could fall a distance liable to cause personal injury (for example a fall through a fragile roof).**
+
+**This section shows how employers can take simple, practical measures to reduce the risk of any of their workers falling while working at height.**
+
+## Case study
+
+### Preventing falls from ladders
+
+A large, independent installer of digital terrestrial and satellite equipment recognised it could be doing more to tackle falls, especially as engineers were installing aerials and dishes at a variety of heights from portable leaning ladders and roof ladders.
+
+### The solution
+
+They took measures including making sure ladders were secured using an eyebolt and ratchet strap, and equipping appropriately trained workers with specialist kit, such as a flexible safety line that can be attached to the secured ladder.
+
+Trained workers now wear a fall-arrest harness that can be attached to the line and the ladder. This means that the ladder cannot slip during use and, even if the engineer slips and falls from the ladder, the fall will be stopped.
+
+## What do I have to do?
+
+You must make sure work is properly planned, supervised and carried out by competent people with the skills, knowledge and experience to do the job. You must use the right type of equipment for working at height.
+
+Take a sensible approach when considering precautions. Low-risk, relatively straightforward tasks will require less effort when it comes to planning and there may be some low-risk situations where common sense tells you no particular precautions are necessary.
+
+### Control measures
+
+First assess the risks. Factors to weigh up include the height of the task, the duration and frequency, and the condition of the surface being worked on.
+
+Before working at height work through these simple steps:
+
+- **avoid** work at height where it's reasonably practicable This means balancing the level of risk against the measures needed to control the real risk in terms of money, time or trouble. However, you do not need to take action if it would be grossly disproportionate to the level of risk. to do so
+
+- where work at height cannot be easily avoided, **prevent** falls using either an existing place of work that is already safe or the right type of equipment
+
+- **minimise**the distance and consequences of a fall, by using the right type of equipment where the risk cannot be eliminated
+
+For each step, always consider measures that protect everyone at risk (collective protection) before measures that only protect the individual (personal protection).
+
+Collective protection is equipment that does not require the person working at height to act for it to be effective. Examples are permanent or temporary guardrails, scissor lifts and tower scaffolds.
+
+Personal protection is equipment that requires the individual to act for it to be effective. An example is putting on a safety harness correctly and connecting it, with an energy-absorbing lanyard, to a suitable anchor point.
+
+## Dos and don’ts of working at height
+
+### Do….
+
+- as much work as possible from the ground
+
+- ensure workers can get safely to and from where they work at height
+
+- ensure equipment is suitable, stable and strong enough for the job, maintained and checked regularly
+
+- take precautions when working on or near fragile surfaces
+
+- provide protection from falling objects
+
+- consider emergency evacuation and rescue procedures
+
+### Don’t…
+
+- overload ladders – consider the equipment or materials workers are carrying before working at height. Check the pictogram or label on the ladder for information
+
+- overreach on ladders or stepladders
+
+- rest a ladder against weak upper surfaces, eg glazing or plastic gutters
+
+- use ladders or stepladders for strenuous or heavy tasks, only use them for light work of short duration (a maximum of 30 minutes at a time)
+
+- let anyone who is not competent (who doesn’t have the skills, knowledge and experience to do the job) work at height
+
+## Find out more
+
+HSE’s work at height website provides further practical advice on how to comply with the law, and the safe use of ladders and stepladders. It also contains useful links to industry-specific guidance.
+
+## The law
+
+Work at Height Regulations 2005

@@ -1,0 +1,228 @@
+url: https://www.hse.gov.uk/electricity/faq.htm
+snapshot: 20191125032322
+words: 2745
+status: ok
+---
+# Electrical FAQs
+
+## Contents
+
+- Is it safe?
+
+- Working with electricity
+
+- Maintaining it safely
+
+## Is it safe?
+
+### Which is safer; alternating current (AC) or direct current (DC)?
+
+Alternating current (AC) and direct current (DC) have slightly different effects on the human body, but both are dangerous above a certain voltage. The risk of injury changes according to the frequency of the AC, and it is common for DC to have an AC component (called ripple). Someone with special equipment can measure this, but the effect on a particular person is very difficult to predict as it depends upon a large number of factors. As a consequence you should always avoid contact with high-voltage electrical conductors, regardless of the type of electrical current they are carrying.
+
+More detailed technical information on electrical injury is given in the standard BS PD 6519 'Guide to the effects of current on human beings and livestock - Part 1: General aspects' see: British Standards Institution (BSI) for more information.
+
+### Everyone gets a 'belt' from electricity every now and then, don't they?
+
+No, not if they are careful and follow the simple rules to securely isolate electrical equipment, and check it is dead before they start work. If you received an electric shock but were not injured then you were lucky. Next time a slight change in events may lead to a very different result. No-one is immune to injury from electricity.
+
+For more information, see:
+
+- Electrical injuries
+
+- Electrical safety and you
+
+- Electrical safety and you (Welsh version)
+
+- Electricity at work: Safe working practices
+
+### How do I know if my electrical equipment is safe?
+
+You can find out if your electrical equipment is safe by carrying out suitable checks, such as inspection and / or testing. The level of inspection and / or testing should depend upon the risks. A simple visual inspection is likely to be sufficient for equipment used in a clean, dry environment. In addition, equipment that is more likely to become damaged, or is operated in a harsh environment, is likely to require more demanding electrical tests. For further information, see: Maintaining portable and transportable electrical equipment.
+
+Checks should be carried out often enough to ensure there is little chance the equipment will become unsafe between checks. It is good practice to make a decision on how often each piece of equipment should be checked, write this down, make sure checks are carried out accordingly and write down the results. You should change how often you carry out checks, according to the number and severity of faults found.
+
+The best way to find out if specialised equipment is safe is to have it inspected and tested by a person with specific competence on that type of equipment. This may be the original manufacturer or their authorised service and repair agent. A reputable servicing company that deals with that type of equipment should also be competent to check its safety.
+
+For more information, see: Electrical safety and you, or the detailed guidance in: Resources.
+
+### How do I know if my electrical installation is safe?
+
+The best way to find out if your electrical installation is safe is to have it inspected and tested by a person who has the competence to do so. Electrical Safety First provide advice on selecting an electrician.
+
+It is possible to do simple checks on your installation, using an electrical socket tester. This is a device that can be plugged into a socket outlet to identify if there is a wiring fault. However, be aware that many types of socket tester can't detect certain types of fault, and could indicate the socket is safe when it actually isn't. For further information on socket testers, see the Electrical Safety First's Best Practice Guide.
+
+### Who should I talk to about electrical safety?
+
+In the first instance, a competent electrical contractor should be able to give advice on electrical safety and should also be able to direct you to a suitable electrical engineer for advice about specialist areas. If you can't get satisfactory answers, contact HSE.
+
+### What voltages are dangerous?
+
+A wide range of voltages can be dangerous for different reasons. A very low voltage (such as that produced by a single torch battery) can produce a spark powerful enough to ignite an explosive atmosphere. Batteries (such as those in motor vehicles) can also overheat or explode if they are shorted.
+
+If a person comes into contact with a voltage above about 50 volts AC, they can receive a range of injuries, including those directly resulting from electrical shock (problems with breathing, heart function etc); and indirect effects resulting from loss of control (such as falling from height or coming into contact with moving machinery). The chance of being injured by an electric shock increases where it is damp or where there is a lot of metalwork.
+
+Electrical or thermal burns can also occur from the flow of electrical current or hot surfaces, see: Electrical injuries.
+
+### What should I do if I think I have seen an unsafe electrical installation or equipment?
+
+If you think you have an unsafe electrical installation you should first warn everyone to stay away from it and - if safe to do so - switch it off. You should then contact a competent person, such as an approved contractor from:
+
+- Electrical Contractors' Association (ECA)
+
+- National Association for Professional Inspectors and Testers (NAPIT)
+
+- National Inspection Council for Electrical Installation Contracting (NICEIC)
+
+- The Electrical Contractors' Association of Scotland (SELECT)
+
+If the installation you think is unsafe is not owned by you or under your control, you should try to find out who owns it and then contact them. Electrical distribution poles, pylons and equipment should have a contact telephone number attached to them.
+
+If you can't find out who owns or controls an electrical installation that you think is unsafe, you should contact your local authority or HSE.
+
+## Working with electricity
+
+### How do I know if someone is competent to do electrical work?
+
+A person can demonstrate competence to perform electrical work if they have successfully completed an assessed training course, run by an accredited training organisation, that included the type of work being considered. As part of that course, this person should have demonstrated an ability to understand electrical theory and put this into practice.
+
+A successfully completed electrical apprenticeship, with some post-apprenticeship experience, is a good way of demonstrating competence for general electrical work. More specialised work, such as maintenance of high-voltage switchgear or control system modification, is almost certainly likely to require additional training and experience.
+
+Issues of competence are covered in:
+
+- Memorandum of guidance on the Electricity at Work Regulations 1989. Guidance on Regulations
+
+- Electricity at work: Safe working practices
+
+- Electrical safety at work: Resources
+
+### Can I do my own electrical work?
+
+You can do your own electrical work if you are competent to do so. Simple tasks such as wiring a plug are within the grasp of many people but more complex tasks, such as modifying an electrical installation, may not be.
+
+It is particularly important that anyone who undertakes electrical work is able to satisfy the requirements of the Health and Safety at Work etc Act 1974 and the Electricity at Work Regulations 1989.
+
+For work on electrical installations below 1000 volts AC, you should be able to work within the guidelines set out in BS7671 'Requirements for electrical installations. IET Wiring Regulations. Seventeenth edition'. For details, see: British Standards Institution. Other work should be carried out according to the guidelines set out in the relevant industry standard.
+
+Those who wish to undertake electrical testing work would normally be expected to have more knowledge and be able to demonstrate competence through the successful completion of a suitable training course.
+
+More complex electrical tasks, such as motor repair or maintenance of radio frequency heating equipment, should only be carried out by someone who has been trained to do them.
+
+issues of competence are covered in:
+
+- Memorandum of guidance on the Electricity at Work Regulations 1989. Guidance on Regulations
+
+- Electricity at work: Safe working practices
+
+- Electrical safety at work: Resources
+
+### When should I use a residual current device?
+
+It is advisable to use a residual current device (RCD) whenever possible but particularly in wet or damp locations, such as outdoors. An RCD rated at no more than 30 mA limits the energy in a particular type of electric shock and can save your life. However, an RCD cannot protect you from every type of electric shock, so you should still make sure that circuits are securely isolated before you work on them.
+
+It is best to use an RCD that is incorporated into the switchboard of your installation. This means that all circuits fed from that RCD are protected by it. An RCD that is incorporated into an ordinary mains socket, or plugged into it, will protect anything attached to that socket, but it is possible that equipment may be plugged into another, unprotected socket.
+
+RCDs should be regularly tested by pressing the 'test' button and making sure the RCD trips. Faulty or inoperative RCDs should be removed from use.
+
+RCDs rated above 30 mA provide very limited protection against harm from an electric shock. For further guidance, see: information on RCDs.
+
+If you use electrical equipment in particularly harsh conditions, it is worth selecting lower voltage equipment powered by a transformer with an output centre tapped to earth, or powered by a battery. Additional precautions may also be required, depending on the specific location. See Section 7 of BS7671 'Requirements for Electrical Installations, IET Wiring Regulations. Seventeenth edition' for guidance on this. For details, see: British Standards Institution.
+
+### When should I report an electrical accident to HSE?
+
+You should report any work-related accident that comes under the requirements of the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations (RIDDOR) 2013.
+
+In general, an electrical accident is reportable in any of the following circumstances:
+
+- the person dies as a result of their injuries
+
+- the person suffers a specified injury
+
+- as a result of their injury, the person is away from work for more than seven days, or can't undertake their full range of normal duties for more than seven days
+
+- plant or equipment comes into contact with, or close proximity to overhead power lines
+
+- there is an electrical incident causing explosion or fire
+
+For more information on when you should report an accident or dangerous occurrence, see: RIDDOR: Who must report an incident?
+
+### What should I do if I think someone is working unsafely?
+
+If you think someone is working unsafely, you should ask them to stop immediately and tell a manager. If you are still believe they are working unsafely, you should notify HSE.
+
+### What should I do to avoid danger from underground cables or wires?
+
+Further information on underground cables is available on the underground cables page.
+
+### How do I work safely near overhead lines?
+
+It can be difficult to identify the voltage of overhead lines so you should always assume overhead lines are dangerous when planning work near them. For more information, see: Avoiding danger from overhead power lines or Safe working near overhead power lines in agriculture.
+
+### What should I do if I touch an overhead power line?
+
+Guidance on what you should do if yourself or another person touches an overhead power line is available in: Safe working near overhead power lines in agriculture. Your local electricity distribution company can generally supply stickers which detail emergency procedures and contact numbers. These can be stuck in the cabs of vehicles likely to be used near overhead power lines.
+
+### When is it safe to work on live electrical equipment?
+
+It is never absolutely safe to work on live electrical equipment. There are few circumstances where it is necessary to work live, and this must only be done after it has been determined that it is unreasonable for the work to be done dead. Even if working live can be justified, many precautions are needed to make sure that the risk is reduced 'so far as is reasonably practicable'. See: Electricity at work: Safe working practices for more details.
+
+The Electrical Safety Council has also produced a Best Practice Guide on safe isolation procedures.
+
+### How do I make my electrical equipment safe to work on?
+
+You can be reasonably sure that your electrical equipment is safe to work on if all sources of energy (electrical, mechanical, gas, pneumatic, hydraulic, pressure etc) have been securely isolated and any stored energy has been released from the equipment. You should always follow the procedure, as set down in the instructions provided by the equipment manufacturer, and any local safety rules. If you can't find the instructions, contact the manufacturer and get them to send you instructions before you start work.
+
+Equipment containing dangerous chemicals or other substances may have to be decontaminated before it is safe to work on. You should ask a competent person what to do in these instances. Further information on chemicals and substances is available in HSE's COSHH pages.
+
+It is important to ensure that there is no chance a source of energy can be deliberately or inadvertently reconnected to the equipment while being worked on. This can be achieved by applying a lock to each isolation device. The person doing the maintenance should have all the keys to these locks in their possession. Warning notices should be posted at the points of isolation.
+
+If work is to be carried out on or near exposed conductors, the conductors should be proven dead, using appropriate test equipment, before work commences.
+
+The Electrical Safety Council has produced a Best Practice Guide on safe isolation procedures, or see also: secure isolations .
+
+### Who has the responsibility to make sure everyone works safely?
+
+It is the responsibility of everyone to make sure that work is safely undertaken. Managers have a responsibility to provide the resources, instruction and training necessary to enable their workers to work safely and in a manner that does not endanger others. Workers have a responsibility to make sure they keep themselves and others safe.
+
+### I may have a colour vision deficiency which could affect my ability to do electrical work. Is there any guidance available?
+
+HSE has published guidance on this issue, see: Colour vision examination: A guide for employers.
+
+### There may be asbestos in or near the equipment I am working on. Is there any guidance available?
+
+Detailed guidance is available in HSE's Asbestos microsite, or see also: A short guide to managing asbestos in premises.
+
+## Maintaining it safely
+
+### How often should I test my electrical equipment?
+
+Electrical equipment should be visually checked to spot early signs of damage or deterioration. Equipment should be more thoroughly tested by a competent person often enough that there is little chance the equipment will become dangerous between tests. Equipment used in a harsh environment should be tested more frequently than equipment that is less likely to become damaged or unsafe.
+
+It is good practice to make a decision on how often each piece of equipment should be checked, write this down, make sure checks are carried out accordingly and write down the results. You should change how often you carry out checks, according to the number and severity of faults found.
+
+For more information, see: Electrical safety and you: A brief guide, or the detailed guidance in: Resources. See also: FAQs on portable appliance testing.
+
+### How often should I get my electrical installation tested?
+
+Electrical installations should be tested often enough that there is little chance of deterioration leading to danger. Any part of an installation that has become obviously defective between tests should be de-energised until the fault can be fixed.
+
+You should have your electrical installation inspected and tested by a person who has the competence to do so, Electrical Safety First provide advice on selecting an electrician.
+
+It is possible to do simple checks on your installation using an electrical socket tester. This is a device that can be plugged into a socket outlet to identify if there is a wiring fault. However, please be aware that many types of socket tester cannot detect certain types of fault, and could indicate the socket is safe when it actually isn't. For further information on socket testers, see the Electrical Safety First's Best Practice Guide.
+
+## Events
+
+## Resources
+
+- Memorandum of guidance on the Electricity at Work Regulations 1989
+
+- Electricity at work: Safe working practices
+
+- Safety in electrical testing at work
+
+- Avoiding danger from underground services
+
+More resources
+
+## See also
+
+- HSE Books

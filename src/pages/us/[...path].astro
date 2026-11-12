@@ -1,0 +1,88 @@
+---
+// Every /us/… page: the US market home, the hubs, standard, industry and report pages and the
+// penalties page. A hub is only built when it lists at least one live page.
+import StandardView from "../../views/StandardView.astro";
+import IndustryView from "../../views/IndustryView.astro";
+import HubView from "../../views/HubView.astro";
+import MarketHomeView from "../../views/MarketHomeView.astro";
+import ReportView from "../../views/ReportView.astro";
+import PenaltiesView from "../../views/PenaltiesView.astro";
+import { categoryName, getIndustries, getReports, getStandards, livePages, url } from "../../lib/content";
+import { categories } from "../../data/categories.mjs";
+import { latest } from "../../lib/dates";
+import { ui } from "../../i18n/ui";
+import { site } from "../../config/site.mjs";
+
+export async function getStaticPaths() {
+  const standards = await getStandards();
+  const industries = await getIndustries();
+  const reports = await getReports();
+  const pages = await livePages();
+  const out: { params: { path: string | undefined }; props: Record<string, unknown> }[] = [{ params: { path: undefined }, props: { view: "home" } }];
+  if (standards.some((s) => !s.data.noindex)) out.push({ params: { path: "standards" }, props: { view: "standards-hub" } });
+  for (const entry of standards) out.push({ params: { path: `standards/${entry.id}` }, props: { view: "standard", entry } });
+  if (industries.some((s) => !s.data.noindex)) out.push({ params: { path: "industries" }, props: { view: "industries-hub" } });
+  for (const entry of industries) out.push({ params: { path: `industries/${entry.id}` }, props: { view: "industry", entry } });
+  if (pages.some((p) => p.market === "us" && p.kind === "guide")) out.push({ params: { path: "guides" }, props: { view: "guides-hub" } });
+  if (reports.some((r) => r.data.kind !== "penalties" && !r.data.noindex)) out.push({ params: { path: "reports" }, props: { view: "reports-hub" } });
+  for (const entry of reports)
+    out.push(entry.data.kind === "penalties" ? { params: { path: "osha-penalties" }, props: { view: "penalties", entry } } : { params: { path: `reports/${entry.id}` }, props: { view: "report", entry } });
+  return out;
+}
+
+const { view, entry } = Astro.props as { view: string; entry?: any };
+const s = ui.en;
+const live = (await livePages()).filter((p) => p.market === "us");
+const home = { label: s.home, href: "/" };
+const us = { label: "United States", href: url.market("us") };
+const newest = (kind: string) => latest(new Date(site.updated), ...live.filter((p) => p.kind === kind).map((p) => p.updated));
+
+let hub: any;
+if (view === "standards-hub") {
+  const st = (await getStandards()).filter((x) => !x.data.noindex);
+  const groups = new Map<string, any[]>();
+  for (const x of [...st].sort((a, b) => a.data.section.localeCompare(b.data.section, "en", { numeric: true }))) {
+    const key = `Part ${x.data.part}${x.data.subpart ? `, Subpart ${x.data.subpart}${x.data.subpartTitle ? `: ${x.data.subpartTitle}` : ""}` : ""}`;
+    (groups.get(key) ?? groups.set(key, []).get(key)!).push({ path: url.standard(x.id), title: x.data.title, extra: x.data.stats.citations.toLocaleString("en-US") });
+  }
+  hub = {
+    title: "OSHA standards: requirements and checklists", description: "Every OSHA standard page on Safety Index: plain-language requirements, enforcement data and a checklist for each, grouped by CFR part and subpart.",
+    intro: "Each page explains what the standard requires, clause by clause, shows how often OSHA cites it and with what penalties, and has a checklist you can tick, print or download.",
+    groups: [...groups].map(([heading, rows]) => ({ heading, rows })), extraHeader: "Citations (5 FY)", crumbs: [home, us, { label: s.hubStandards, href: url.standardsHub() }], updated: newest("standard"),
+  };
+} else if (view === "industries-hub") {
+  const ind = (await getIndustries()).filter((x) => !x.data.noindex);
+  const groups = new Map<string, any[]>();
+  for (const x of ind) {
+    const key = `NAICS ${x.data.naics.slice(0, 2)}`;
+    (groups.get(key) ?? groups.set(key, []).get(key)!).push({ path: url.industry(x.id), title: x.data.title, extra: x.data.stats.inspections.toLocaleString("en-US") });
+  }
+  hub = {
+    title: "OSHA citations by industry", description: "The OSHA standards cited most in each industry, with citation counts, the most-cited paragraphs and penalty patterns, by NAICS code.",
+    intro: "Each industry page ranks the OSHA standards cited most in that industry over the last five complete fiscal years and links to the standard pages.",
+    groups: [...groups].sort(([a], [b]) => a.localeCompare(b)).map(([heading, rows]) => ({ heading, rows })), extraHeader: "Inspections (5 FY)", crumbs: [home, us, { label: s.hubIndustries, href: url.industriesHub() }], updated: newest("industry"),
+  };
+} else if (view === "guides-hub") {
+  const guides = live.filter((p) => p.kind === "guide");
+  const groups = categories.map((c) => ({ heading: categoryName(c.slug, "en"), rows: guides.filter((g) => g.category === c.slug).map((g) => ({ path: g.path, title: g.title, description: g.description })) })).filter((g) => g.rows.length);
+  hub = {
+    title: s.guidesHubTitle("the United States"), description: s.guidesHubDescription("the United States"),
+    intro: "How-to guides for US workplaces, written from OSHA regulations and guidance. For the regulation text and enforcement data behind each topic, see the standard pages.",
+    groups, crumbs: [home, us, { label: s.hubGuides, href: url.guidesHub("us") }], updated: newest("guide"),
+  };
+} else if (view === "reports-hub") {
+  const reps = live.filter((p) => p.kind === "report");
+  hub = {
+    title: "Workplace safety data reports", description: "Yearly reports built from public OSHA enforcement data and Bureau of Labor Statistics injury data, with charts and downloadable tables.",
+    intro: "Reports built from public data, with the method, sample size and downloadable tables on each page.",
+    groups: [{ heading: "Reports", rows: reps.map((r) => ({ path: r.path, title: r.title, description: r.description })) }], crumbs: [home, us, { label: s.hubReports, href: url.reportsHub() }], updated: newest("report"),
+    featured: live.filter((p) => p.kind === "penalties").map((p) => ({ path: p.path, title: p.title, description: p.description })),
+  };
+}
+---
+{view === "home" && <MarketHomeView market="us" />}
+{hub && <HubView {...hub} />}
+{view === "standard" && <StandardView entry={entry} />}
+{view === "industry" && <IndustryView entry={entry} />}
+{view === "report" && <ReportView entry={entry} />}
+{view === "penalties" && <PenaltiesView entry={entry} />}

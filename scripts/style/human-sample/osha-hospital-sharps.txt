@@ -1,0 +1,342 @@
+url: https://www.osha.gov/SLTC/etools/hospital/hazards/sharps/sharps.html
+snapshot: 20191120183733
+words: 2687
+status: ok
+---
+eTools Home :Hospital |
+
+Scope | Glossary | References | Site Map | Credits |
+
+Hospital eTool
+
+Healthcare Wide Hazards
+
+Needlestick/Sharps Injuries
+
+Syringe with a Retractable Needle
+
+Needlesticks and other sharps-related injuries which expose workers to bloodborne pathogens continue to be a significant hazard for hospital employees. OSHA estimates that 5.6 million workers in the healthcare industry and related occupations are at risk of occupational exposure to bloodborne pathogens. **Bloodborne pathogens** are pathogenic microorganisms that are present in human blood and can cause disease in humans. These pathogens include Human Immunodeficiency Virus (HIV), Hepatitis B Virus (HBV),
+
+Hepatitis C Virus (HCV), and others.
+
+Any worker handling sharp devices or equipment such as scalpels, sutures, hypodermic needles, blood collection devices, or phlebotomy devices is at risk. Nursing staff are most frequently injured. Exposure Prevention Information Network (EPINET) data shows that needlestick injuries occur most frequently in the operating room and in patient rooms.
+
+**Common safety and health topics:**
+
+- Bloodborne Pathogens
+
+Needlestick/Sharps Injuries
+
+- Other Sharps Injury
+
+- Safer Needle Devices
+
+**Bloodborne Pathogens**
+
+Definitions for bloodborne pathogens, other potentially infectious materials (OPIM), and occupational exposure are found in the Bloodborne Pathogens Standard, Definitions
+
+29 CFR 1910.1030(b).
+
+**Potential Hazard**
+
+Exposure to blood and OPIM from contaminated sharps injuries.
+
+**Possible Solutions**
+
+**Follow the requirements of the Bloodborne Pathogens Standard and implement** engineering and work practice controls to minimize exposure to blood and bloodborne pathogens.
+
+- Engineering and Work Practice Controls must be the primary means used to eliminate or minimize exposure to bloodborne pathogens. Where engineering controls will reduce employee exposure either by removing, eliminating, or isolating the hazard, they must be used, and documented in the Exposure Control Plan (ECP). [29 CFR 1910.1030(c)(1)(iv),
+
+29 CFR 1910.1030(c)(1)(iv)(B), 29 CFR 1910.1030(d)(2)(i), OSHA Directive CPL 02-02-069 [CPL 2-2.69].
+
+- Engineering Controls are measures (e.g., sharps disposal containers, self-sheathing needles, safer medical devices, such as sharps injury protections and needleless systems) that isolate or remove the bloodborne pathogens hazard from the workplace [29 CFR 1910.1030(b)].
+
+- NOTE: The exposure control plan must document consideration and implementation of appropriate commercially available and effective engineering controls designed to eliminate or minimize exposure [OSHA Directive OSHA Directive CPL 02-02-069 [CPL 2-2.69]], and revised Standard Exposure Control Plan [29 CFR 1910.1030(c)(1)(iv)(B)].
+
+- Work Practice Controls are measures that reduce the likelihood of exposure by altering the manner in which a task is performed (e.g., prohibiting recapping of needles by a two-handed technique).
+
+- The revised Bloodborne Pathogens and NeedleStick Prevention Standard requirements (effective date April 18, 2001) include:
+
+- The review and update of the Exposure Control Plan must reflect changes in technology that eliminate or reduce exposure to bloodborne pathogens and document annually consideration and implementation of appropriate commercially available and effective safer medical devices designed to eliminate or minimize occupational exposure [29 CFR 1910.1030(c)(1)(iv)(A), 29 CFR 1910.1030(c)(1)(iv)(B)].
+
+- Employers must get input in the identification, evaluation and selection of engineering and work practice controls from employees responsible for direct patient care in [29 CFR 1910.1030(c)(1)(v)]. This input must be documented.
+
+- Employers must maintain a log of injuries from contaminated sharps 29 CFR 1910.1030(h)(5)(i).
+
+- The Recordkeeping Standard 29 CFR 1904.8 also requires needlestick injuries to be recorded on the OSHA 300 Log. This includes all work related needlestick injuries and cuts from sharp objects that are contaminated with another person's blood or other potentially infectious materials (OPIM).
+
+- If this recorded employee injury is later diagnosed with an infectious bloodborne disease the OSHA 300 log must be updated.
+
+Other Bloodborne Pathogens Standard requirements include:
+
+- Compliance with Universal Precautions (an infection control principle that treats all human blood and other potentially infectious materials (OPIM) as infectious) [29 CFR 1910.1030(d)(1)].
+
+- Personal Protective Equipment (PPE). Engineering and work practice controls shall be used to eliminate or minimize employee exposure. Where occupational exposure remains after institution of these controls, PPE shall also be used [29 CFR 1910.1030(d)(2)(i)].
+
+- Worker training in appropriate engineering controls and work practices, to eliminate or minimize worker exposure. [29 CFR 1910.1030(g)(2)].
+
+- Proper handling and containerization of sharps.
+
+- Hepatitis B vaccine and vaccination series made available to all employees with occupational exposure.
+
+- Post-exposure evaluation and follow-up, including post-exposure prophylaxis when appropriate [29 CFR 1910.1030(f)(3)].
+
+For additional information, see **Healthcare Wide Hazards - Bloodborne Pathogens**.
+
+Back to Top
+
+**Needlestick/Sharps Injuries**
+
+According to the Centers for Disease Control and Prevention (CDC), about 385,000 sharps injuries occur annually to hospital employees.
+
+**Potential Hazard**
+
+Exposure to blood and other potentially infectious materials (OPIM) because of:
+
+- Unsafe needle devices.
+
+- Improper handling and disposal of needles and other sharps.
+
+**Possible Solutions**
+
+- Use safer needle devices and needleless devices to decrease needlestick or other sharps exposures. See Safer Needle Devices.
+
+- Properly handle and dispose of needles and other sharps according to the Bloodborne Pathogens Standard.
+
+- **Handling Needles/Sharps:**
+
+- Do not bend, recap, or remove contaminated needles and other sharps unless such an act is required by a specific procedure or has no feasible alternative [29 CFR 1910.1030(d)(2)(vii)].
+
+- Do not shear or break contaminated sharps. (OSHA defines contaminated as the presence or the reasonably anticipated presence of blood or other potentially infectious materials on an item or surface) [29 CFR 1910.1030(d)(2)(vii)].
+
+- **Containerization:**
+
+- Have needle containers available near areas where needles may be found. [29 CFR 1910.1030(d)(4)(iii)(A)(2)].
+
+- Discard contaminated sharps immediately [29 CFR 1910.1030(d)(4)(iii)(A)(1)] or as soon as feasible into appropriate containers.
+
+- Sharps containers [29 CFR 1910.1030(d)(4)(iii)(A)(1)], must be:
+
+- Closable, puncture-resistant, and leak-proof on sides and bottom.
+
+- Accessible, maintained upright, and not allowed to overfill.
+
+- Labeled or color coded according to 29 CFR 1910.1030(g)(1)(i)
+
+- Colored red or labeled with the biohazard symbol [4 KB GIF]
+
+- Labeled in fluorescent orange or orange-red, with lettering and symbols in a contrasting color [29 CFR 1910.1030(g)(1)(i)(C)]. Red bags or containers may be substituted for labels [29 CFR 1910.1030(g)(1)(i)(E)].
+
+**Additional Information:**
+
+Exposure Prevention Information Network (EPINET). International Healthcare Worker Safety Center, U.Va. Health System. Conducts epidemiological research on needlesticks and blood exposures, advocates for a safer health care workplace and provides resources:
+
+- Fact Sheet: Percutaneous Injuries From Suture Needles. (2006, June). Identifies suture needles are the main source of needlesticks to OR personnel, causing 51% of all sharps injuries in surgical settings.
+
+Back to Top
+
+**Other Sharps Injury**
+
+"Contaminated Sharps" means any contaminated object that can penetrate the skin including, but not limited to, needles, scalpels, broken glass, broken capillary tubes, and exposed ends of dental wires [29 CFR 1910.1030(b)].
+
+**Potential Hazard**
+
+Exposure to blood and other potentially infectious materials (OPIM), from contaminated sharps for example:
+
+- **Used Disposable Razors** that could be contaminated with blood.
+
+- **I.V. Connector Systems** that use needles to connect I.V. setups.
+
+**Possible Solutions**
+
+Follow the requirements of the Bloodborne Pathogens Standard 1910.1030 and implement engineering and work practice controls to help prevent needlesticks or other sharps exposures.
+
+- **Used Disposable Razors** should be considered contaminated waste and disposed of properly in appropriate sharps containers.
+
+- **I.V. connector systems:** Use needleless connector systems with I.V. setups to minimize occupational exposure to needles and bloodborne pathogens. Avoid using needles where safe and effective alternatives are available.
+
+(Figure 1) Needleless I.V. Connector. |
+
+The FDA urges using needleless systems, or recessed needle systems to reduce the risk of needlestick injuries.
+
+These connectors use devices other than needles to connect one I.V. to another. This example shows the plunger-type s.
+
+Back to Top
+
+**Safer Needle Devices**
+
+Most needlestick injuries result from unsafe needle devices rather than carelessness by healthcare workers (JSHQ, 1998, Summer).
+
+Safer needle devices have built-in safety control devices, such as those that use a self-sheathing needle, to help prevent injuries before, during, and after use through safer design features.
+
+The Centers for Disease Control and Prevention (CDC) estimated in March of 2000 that 62 to 88 percent of sharps injuries in the hospital setting could be preventing by using safer medical devices.
+
+**Potential Hazard**
+
+According to the
+
+Bloodborne Pathogens Standard, employers with the help of employees, must select safer needle devices to use in work environments.
+
+- There are different types of safety features that are available for safer needle devices such as:
+
+- **Needleless devices**
+
+- **Passive safety features:** remain in effect before, during and after use.
+
+- **Integrated safety design:** have a safety feature that is built in as an integral part of the device and cannot be removed. This design feature is usually preferred.
+
+- **Active devices:** require the worker to activate the safety mechanism.
+
+- **Accessory safety devices:** have safety features that are external to the device and must be carried to, or be temporarily or permanently fixed to, the point of use. This design is dependent on employee compliance and according to some researchers, is less desirable.
+
+- **Desirable Characteristics of Safety Devices include:**
+
+- The device is needleless.
+
+- The safety feature is an integral part of the device.
+
+- The device is easy to use and practical.
+
+- The device performs reliably.
+
+- The safety feature cannot be deactivated and remains protective through disposal.
+
+- The devices work effectively and reliably, and are acceptable to the healthcare worker, and do not adversely affect patient care.
+
+- The Food and Drug Administration (FDA) is responsible for clearing medical devices for marketing in the US. It recommends safer needle devices with a fixed safety feature that:
+
+- Provides a barrier between the hands and the needle after use; the safety feature should allow or require the worker's hands to remain behind the needle at all times.
+
+- Is an integral part of the device and not an accessory.
+
+- Is in effect before disassembly and remains in effect after disposal to protect users and trash handlers, and for environmental safety.
+
+- Is as simple as possible, and requires little or no training to use effectively.
+
+- **Examples of Safety Device Designs**
+
+There are many types of safety devices. Some examples of safety device designs include:
+
+- **Needleless Connector Systems:** Needleless connectors for IV delivery systems (e.g., blunt cannula for use with pre-pierced ports and valved connectors that accept tapered or luer ends of IV tubing) (Figure 1).
+
+- **Self-Sheathing Safety Feature:** Sliding needle shields attached to disposable syringes and vacuum tube holders (Figures 2A and 2B).
+
+- Disposable scalpels with safety features such as a sliding blade shield (Figure 6).
+
+- **Retractable Technology:** Needles or sharps that retract into a syringe, vacuum tube holder, or back into the device.
+
+- Syringe with a retractable needle (Figure 3).
+
+- Retractable finger/heel-stick lancets (Figure 8).
+
+- **Self Blunting Technology:** Self-blunting phlebotomy and winged-steel "butterfly" needles (a blunt cannula seated inside the phlebotomy needle is advanced beyond the needle tip before the needle is withdrawn from the vein (Figure 4), (Figure 5).
+
+- **Hinged Safety Feature:** Hinged or sliding shields attached to phlebotomy needles, winged steel needles, and blood gas needles (Figure 7).
+
+**Example Devices with Safety Features** |
+
+(Figure 2A) Self Re-sheathing Needles. Before Use.
+
+**(Figure 2B) Self Re-sheathing Needles. After Use.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only. |
+
+**Self Re-sheathing Needles** |
+
+As seen in this animation, initially the sleeve is located over the barrel of the syringe with the needle exposed for use.
+
+- After the device is used, the user slides the sleeve forward over the needle where it locks in place and provides a guard around the used needle.
+
+**(Figure 3) Syringe with Retractable Needles. The used needle retracts into the barrel of the syringe.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only. |
+
+**Syringe with Retractable Needles** |
+
+As seen in this animation, after the needle is used, an extra push on the plunger retracts the needle into the syringe, removing the hazard of needle exposure.
+
+**(Figure 4) Blunt-Tipped Blood Drawing Needles. Blood collection tube and blood drawing syringe.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only. |
+
+**Blunt-Tipped Blood Drawing Needles** |
+
+As seen in this animation, after blood is drawn, a push on the collection tube moves the blunt tip needle forward through the needle and past the sharp needle point.
+
+The blunt point tip of this needle can be activated before it is removed from the vein or artery.
+
+**(Figure 5) Winged Steel Needles. Blunt-tipped winged steel needle.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only.
+
+**Winged Steel Needles**
+
+As seen in this animation, after placement, the third wing is rotated to flat position which blunts the needle point before it is removed from the patient.
+
+**(Figure 6) Re-sheathing Disposable Scalpels. Re-sheathing scalpel.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only. |
+
+**Re-sheathing Disposable Scalpels** |
+
+As seen in this animation, single-use disposable scalpels have a shield that is advanced forward over the blade after use, containing and removing the hazard.
+
+**(Figure 7) "Add on" Safety Feature.
+
+"Add on" sliding shield.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only. |
+
+**"Add on" Safety Feature** |
+
+As seen in this animation, hinged or sliding shields attached to phlebotomy needles, winged steel needles, and blood gas needles, act as an "add on" safety feature.
+
+**(Figure 8) Retracting Finger Prick Lancets.
+
+**Please note these safety devices lock in place and do not reset in actual use situations. The animation resets for viewer convenience only. |
+
+**Retracting Finger Prick Lancets** |
+
+As seen in this animation, this single use lancet retracts automatically after use, containing and removing the hazard.
+
+(These drawings are presented for educational purposes and do not imply endorsement of a particular product).
+
+According to NIOSH's Preventing Needlestick Injuries in Health Care Settings the process for selecting and evaluating needle devices with safety features includes:
+
+- Form a multidisciplinary team that includes workers to (1) develop, implement, and evaluate a plan to reduce needlestick injuries in the institution, and (2) evaluate needle devices with safety features.
+
+- Identify priorities based on assessments of how needlestick injuries are occurring, patterns of device use in the institution, and local and national data on injury and disease transmission trends. Give the highest priority to needle devices with safety features that will have the greatest impact on preventing occupational infection (e.g., hollow-bore needles used in veins and arteries).
+
+- When selecting a safer device, identify its intended scope of use in the healthcare facility and any special technique or design factors that will influence its safety, efficiency, and user acceptability. Seek published, Internet, or other sources of data on the safety and overall performance of the device.
+
+- Conduct a product evaluation, making sure that the participants represent the scope of eventual product users. The following steps will contribute to a successful product evaluation:
+
+- Train healthcare workers in the correct use of the new device.
+
+- Establish clear criteria and measures to evaluate the device with regard to both healthcare worker safety and patient care. (Safety feature evaluation forms are available from the references cited earlier.)
+
+- Conduct onsite follow-up to obtain informal feedback, identify problems, and provide additional guidance.
+
+- Monitor the use of a new device after it is implemented to determine the need for additional training, solicit informal feedback on healthcare worker experience with the device (e.g., using a suggestion box), and identify possible adverse effects of the device on patient care.
+
+OSHA Directive CPL 02-02-069 [CPL 2-2.69] provides suggested non-mandatory forms to help employers evaluate engineering controls such as safety syringes, I.V. access devices, and sharps containers.
+
+- The appendix includes the sample evaluation form developed by the Emergency Care Research Institute (ECRI). [Appendix B, OSHA Directive CPL 02-02-069 [CPL 2-2.69].
+
+**Additional Information:**
+
+- Bloodborne Pathogens and Needlestick Prevention. OSHA Safety and Health Topics Page.
+
+- Preventing Needlestick Injuries in Health Care Settings. US Department of Health and Human Services (DHHS), National Institute for Occupational Safety and Health (NIOSH) Publication No. 2000-108, (1999, November).
+
+What Every Worker Should Know--How to Protect Yourself From Needlestick Injuries. US Department of Health and Human Services (DHHS), National Institute for Occupational Safety and Health (NIOSH) Publication No. 2000-135, (2000, August 11).
+
+Back to Top
+
+Administration | Central Supply | Clinical Services | Dietary | Emergency | Engineering Healthcare Wide Hazards
+
+Heliport | Housekeeping | ICU | Laboratory | Laundry | Pharmacy | Surgical Suite | Expert Systems
+
+eTools Home :Hospital |
+
+Scope | Glossary | References | Site Map | Credits |

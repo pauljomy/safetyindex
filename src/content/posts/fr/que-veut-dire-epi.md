@@ -1,4 +1,6 @@
 ---
+topicType: regional
+keywordSource: topic sheet
 title: Que veut dire EPI ? Définition, exemples et règles des EPI en France
 seoTitle: Que veut dire EPI ? Définition, exemples et règles
 subtitle: Le sens du sigle EPI, sa définition légale, des exemples concrets, la différence avec les EPC, qui paie, la formation et les vérifications, d'après l'INRS.

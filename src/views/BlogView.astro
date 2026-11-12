@@ -2,7 +2,9 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
-import { getPosts, hubAlternates, url, type Post } from "@lib/content";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import { categoryName, getPosts, hubAlternates, url } from "@lib/content";
+import { categories } from "../data/categories.mjs";
 import { latest } from "@lib/dates";
 import { breadcrumbList } from "@lib/schema";
 import { inLang, ui, type Lang } from "../i18n/ui";
@@ -11,8 +13,9 @@ import { site } from "../config/site.mjs";
 const { lang } = Astro.props as { lang: Lang };
 const s = ui[lang];
 const posts = await getPosts(lang);
-const byYear = Object.groupBy(posts, (p: Post) => String(p.data.date.getUTCFullYear()));
-const years = Object.keys(byYear).sort((a, b) => +b - +a);
+// The language's guides hub: every guide, grouped by topic (category), newest first within a topic.
+const groups = categories.map((c) => ({ slug: c.slug, name: categoryName(c.slug, lang), posts: posts.filter((p) => p.data.categories[0] === c.slug) })).filter((g) => g.posts.length);
+const crumbs = [{ label: s.home, href: inLang("/", lang) }, { label: s.blog, href: url.blog(lang) }];
 ---
 
 <Layout
@@ -20,17 +23,18 @@ const years = Object.keys(byYear).sort((a, b) => +b - +a);
   description={s.blogDescription}
   updated={latest(site.updated, ...posts.map((p) => latest(p.data.date, p.data.updated)))}
   alternates={hubAlternates("/blog")}
-  jsonLd={[breadcrumbList([{ label: s.home, href: inLang("/", lang) }, { label: s.blog, href: url.blog(lang) }])]}
+  jsonLd={[breadcrumbList(crumbs)]}
 >
   <Container>
+    <Breadcrumbs crumbs={crumbs} />
     <aside data-pagefind-ignore>
       <h1 class="animate mb-8 font-semibold text-black dark:text-white">{s.blogTitle}</h1>
       <div class="space-y-10">
         {
-          years.map((year) => (
+          groups.map((g) => (
             <section class="animate space-y-4">
-              <div class="font-semibold text-black dark:text-white">{year}</div>
-              <ul class="not-prose flex flex-col gap-4">{byYear[year]!.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
+              <h2 class="font-semibold text-black dark:text-white"><a href={url.category(g.slug, lang)}>{g.name}</a></h2>
+              <ul class="not-prose flex flex-col gap-4">{g.posts.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
             </section>
           ))
         }

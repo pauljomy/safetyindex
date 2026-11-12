@@ -1,0 +1,90 @@
+url: https://www.osha.gov/SLTC/respiratoryprotection/index.html
+snapshot: 20200101034938
+words: 636
+status: ok
+---
+- Safety and Health Topics
+
+- /
+
+- Respiratory Protection
+
+### Respiratory Protection
+
+**Respiratory Protection Menu**
+
+#### Overview
+
+Millions of workers are required to wear respirators in various workplaces throughout the United States. Respirators protect workers against insufficient oxygen environments, harmful dusts, fogs, smokes, mists, gases, vapors, and sprays. These hazards may cause cancer, lung impairment, diseases, or death. Compliance with the OSHA Respiratory Protection Standard could avert hundreds of deaths and thousands of illnesses annually.
+
+Respirators protect the user in two basic ways. The first is by the removal of contaminants from the air. Respirators of this type include particulate respirators, which filter out airborne particles, and air-purifying respirators with cartridges/canisters which filter out chemicals and gases. Other respirators protect by supplying clean respirable air from another source. Respirators that fall into this category include airline respirators, which use compressed air from a remote source, and self-contained breathing apparatus (SCBA), which include their own air supply.
+
+##### General Guidance
+
+Provides links to a variety of guidance documents, web pages, and online tools related to respiratory protection.
+
+More
+
+##### Training Videos
+
+Links to a variety of training videos related to respiratory protection.
+
+More
+
+##### Standards
+
+Respiratory protection is addressed in specific OSHA standards for general industry, shipyard employment, marine terminals, longshoring and construction.
+
+More
+
+##### Enforcement
+
+Highlights the most commonly used OSHA directives (instructions to OSHA staff) and letters of interpretation (official letters of interpretation of the standards) related to respiratory protection.
+
+More
+
+##### Additional Resources
+
+Provides links to a variety of resources, such as documents, web pages, and online tools, related to respiratory protection.
+
+More
+
+##### Spanish Resources
+
+Provides links and references to additional resources related to respiratory protection in Spanish.
+
+More
+
+##### Workers' Rights
+
+Workers have the right to:
+
+- Working conditions that do not pose a risk of serious harm.
+
+- Receive information and training (in a language and vocabulary the worker understands) about workplace hazards, methods to prevent them, and the OSHA standards that apply to their workplace.
+
+- Review records of work-related injuries and illnesses.
+
+- File a complaint asking OSHA to inspect their workplace if they believe there is a serious hazard or that their employer is not following OSHA's rules. OSHA will keep all identities confidential.
+
+- Exercise their rights under the law without retaliation, including reporting an injury or raising health and safety concerns with their employer or OSHA. If a worker has been retaliated against for using their rights, they must file a complaint with OSHA as soon as possible, but no later than 30 days.
+
+For additional information, see OSHA's Workers page.
+
+##### How to Contact OSHA
+
+Under the Occupational Safety and Health Act of 1970, employers are responsible for providing safe and healthful workplaces for their employees. OSHA's role is to help ensure these conditions for America's working men and women by setting and enforcing standards, and providing training, education and assistance. For more information, visit www.osha.gov or call OSHA at 1-800-321-OSHA (6742), TTY 1-877-889-5627.
+
+- NIOSH Respiratory Protective Device Information Notice Self-contained breathing apparatus (SCBA) user information regarding compressed breathing gas containers (cylinders), NIOSH approval holder user instructions, and Department of Transportation (DOT) permit and marking (Feb 2019).
+
+- NIOSH/OSHA/CDC Toolkit. Hospital Respiratory Protection Program Toolkit: Resources for Respirator Program Administrators (EPUB | MOBI). (2015). Assists hospitals in developing and implementing effective respiratory protection programs, with an emphasis on preventing the transmission of aerosol transmissible diseases (e.g., influenza, TB, SARS, MERS) to healthcare personnel. Appendix D is a template that can be used to customize your facilities program.
+
+- Respirator Medical Evaluation Questionnaire Infosheet. OSHA Publication No. 3789, (May 2015).
+
+- OSHA Alert: Loss of Start-Up Oxygen in CSE SR-100 Self-Contained Self-Rescuers. (April 2012).
+
+- Small Entity Compliance Guide for the Respiratory Protection Standard. (2011).
+
+- Disinfection of reusable elastomeric respirators by health care workers: A feasibility study and development of standard operating procedures. American Journal of Infection Control (AJIC), (2015).
+
+Back to Top

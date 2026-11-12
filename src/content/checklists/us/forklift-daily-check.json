@@ -1,0 +1,182 @@
+{
+  "slug": "forklift-daily-check",
+  "lang": "en",
+  "page_url": "https://safetyindex.blog/us/standards/1910-178-powered-industrial-trucks",
+  "market": "US",
+  "paper": "letter",
+  "doc_ref": "SI-US-FLT-01",
+  "revision": "Rev 1",
+  "data_as_of": "11 November 2026",
+  "title": "Forklift Daily Pre-Use Inspection Checklist",
+  "subtitle": "Powered industrial trucks: check before each shift",
+  "regulation_line": "OSHA 29 CFR 1910.178(q)(7)",
+  "safe_question": "Truck safe to operate?",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Operator name",
+      "Truck ID / unit no."
+    ],
+    [
+      "Make and model",
+      "Hour meter reading"
+    ],
+    [
+      "Site / area",
+      "Power type"
+    ]
+  ],
+  "instructions": [
+    "Inspect the truck before it is used each shift. Mark one box for every item: OK, Defect or N/A.",
+    "If any defect affects safe operation, do not use the truck. Tag it out of service, remove the key and report it to your supervisor.",
+    "Do not return the truck to service until the defect is repaired. Add any checks your manufacturer's operator manual requires."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Visual checks: power off, key removed",
+      "items": [
+        [
+          "Overall condition",
+          "No visible damage, loose or missing parts. No build-up of grease, dust or debris."
+        ],
+        [
+          "Leaks",
+          "No hydraulic oil, engine oil, coolant, fuel or battery acid under the truck."
+        ],
+        [
+          "Tyres and wheels",
+          "No cuts, gouges, chunks or embedded objects. Wheel nuts secure. Pneumatic tyres at correct pressure."
+        ],
+        [
+          "Forks",
+          "No cracks, bends or excessive heel wear. Both locking pins in place and engaged."
+        ],
+        [
+          "Mast and lift chains",
+          "Chains lubricated, no kinked, stretched or broken links. Anchor pins secure. Mast rails undamaged."
+        ],
+        [
+          "Load backrest",
+          "Fitted, secure, not bent or cracked."
+        ],
+        [
+          "Overhead guard",
+          "Fitted, secure, not bent or cracked."
+        ],
+        [
+          "Hydraulic hoses",
+          "No cracks, chafing, bulges or weeping fittings."
+        ],
+        [
+          "Capacity / data plate",
+          "Present, legible and correct for any attachment fitted."
+        ],
+        [
+          "Seat and seat belt",
+          "Seat secure. Belt latches and retracts, webbing not cut or frayed."
+        ],
+        [
+          "Fluid levels",
+          "Engine oil, hydraulic oil, coolant and brake fluid within marks, where applicable."
+        ],
+        [
+          "Decals and manual",
+          "Warning decals legible. Operator manual on the truck."
+        ],
+        [
+          "Fire extinguisher",
+          "Mounted, charged and in date, where fitted."
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Operational checks: truck running, area clear",
+      "items": [
+        [
+          "Gauges and warning lights",
+          "All read normal. No fault codes or warning lights left on."
+        ],
+        [
+          "Horn",
+          "Sounds clearly."
+        ],
+        [
+          "Lights, beacon and alarm",
+          "Headlights, beacon and travel/reversing alarm work, where fitted."
+        ],
+        [
+          "Steering",
+          "Turns smoothly lock to lock. No binding or excessive play."
+        ],
+        [
+          "Service brakes",
+          "Pedal firm. Truck stops smoothly and in a straight line."
+        ],
+        [
+          "Parking brake",
+          "Holds the truck. Warning light or alarm works, where fitted."
+        ],
+        [
+          "Seat switch / deadman",
+          "Drive and hydraulics cut out when the operator leaves the seat, where fitted."
+        ],
+        [
+          "Lift and lower",
+          "Smooth through full height. No jerking, drifting or chain slack."
+        ],
+        [
+          "Tilt",
+          "Smooth forward and back. Holds position with the lever released."
+        ],
+        [
+          "Side shift and attachments",
+          "Operate correctly and are secured to the carriage."
+        ],
+        [
+          "Unusual noise or vibration",
+          "None while travelling or using the hydraulics."
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Power source: complete the item that applies, mark the others N/A",
+      "items": [
+        [
+          "Electric: battery",
+          "Charged. Cables and connector undamaged. Terminals clean. Vent caps fitted. Battery restraint secure."
+        ],
+        [
+          "LPG: cylinder",
+          "Secured in its bracket with locating pin engaged. Relief valve at the top. Hose and fittings undamaged. No smell of gas."
+        ],
+        [
+          "Diesel / petrol: fuel",
+          "Enough fuel for the shift. Filler cap secure. No leaks. Exhaust undamaged, no heavy smoke."
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "signoff": [
+    [
+      "Operator signature",
+      "Date / time"
+    ],
+    [
+      "Supervisor review",
+      "Date / time"
+    ]
+  ],
+  "references": [
+    "29 CFR 1910.178(q)(7): trucks must be examined before being placed in service, at least daily, and after each shift where used round the clock. A truck showing any condition that affects its safety must not be placed in service.",
+    "Source: eCFR, Title 29, Part 1910, Subpart N. Checks are a general guide; follow the manufacturer's operator manual for your truck."
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

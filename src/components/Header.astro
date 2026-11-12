@@ -2,9 +2,9 @@
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
 import { site } from "../config/site.mjs";
-import { defaultLang, inLang, langOf, langs, meta, ui, type Lang } from "../i18n/ui";
+import { inLang, langOf, langs, meta, ui, type Market } from "../i18n/ui";
 
-const { alternates } = Astro.props as { alternates?: Partial<Record<Lang, string>> };
+const { alternates } = Astro.props as { alternates?: Partial<Record<Market, string>> };
 const lang = langOf(Astro.url.pathname);
 const s = ui[lang];
 ---
@@ -28,7 +28,7 @@ const s = ui[lang];
                 {l === lang ? (
                   <span class="font-semibold text-black dark:text-white" aria-current="true">{l.toUpperCase()}</span>
                 ) : (
-                  <a href={alternates?.[l] ?? inLang("/", l)} hreflang={meta[l].hreflang} lang={meta[l].hreflang} title={meta[l].label} class="hover:text-black dark:hover:text-white">{l.toUpperCase()}</a>
+                  <a href={alternates?.[l === "en" ? "us" : l] ?? inLang("/", l)} hreflang={meta[l].hreflang} lang={meta[l].hreflang} title={meta[l].label} class="hover:text-black dark:hover:text-white">{l.toUpperCase()}</a>
                 )}
               </>
             ))

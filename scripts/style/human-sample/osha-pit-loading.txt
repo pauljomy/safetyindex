@@ -1,0 +1,324 @@
+url: https://www.osha.gov/SLTC/etools/pit/operations/loadhandling.html
+snapshot: 20191215171610
+words: 1778
+status: ok
+---
+eTools Home : Powered Industrial Trucks |
+
+Safety and Health Topic Page | Credits |
+
+Operating the Forklift
+
+Pre-Operation
+
+Traveling &
+
+Maneuvering
+
+Load Handling
+
+Operating the Forklift:
+
+Load Handling
+
+Figure 1. The load center is the distance from the face of the forks to the load's center of gravity. Many forklifts are rated using a 24-inch load center, which means that the load's center of gravity must be 24 inches or less from the face of the forks. (In this illustration, the red arrow represents the fulcrum and the black and white circle under the operator's seat represents the vehicle's center of gravity.)
+
+Forklifts are used for picking up, transporting, stacking and unstacking loads. The following are safe operating rules for each step of safe load handling:
+
+- Safe Handling Preparation
+
+- Approaching
+
+- Mast Position
+
+- Fork Position
+
+- Lifting the Load
+
+- Lowering the Load
+
+- High Tiering
+
+- Truck Trailers and Railroad Cars
+
+For more on evaluating the load, see Load Composition.
+
+Safe Handling Preparation |
+
+Figure 2. A damaged carton is an unsafe load to carry.
+
+Figure 3. Improperly distributed loads may tip the forklift because the center of gravity has shifted.
+
+Potential Hazards:
+
+Before handling loads, be aware of the following:
+
+- Off-center loads which may cause tipover or falling loads.
+
+- Overloading which may cause tipover or falling loads.
+
+- Damaged or loose loads.
+
+Requirements and Recommended Practices:
+
+- Secure the load so it is safely arranged and stable. [29 CFR 1910.178(o)(1)] Do not carry damaged merchandise unless it has been secured by wrapping or banding. (Figure 2)
+
+Center the load as nearly as possible. [29 CFR 1910.178(o)(1)] Use caution when handling off-center loads that cannot be centered. [29 CFR 1910.178(o)(1)] Distribute the heaviest part of the load nearest the front wheels of the forklift.
+
+- Do not overload. Know the stated capacity of your forklift and do not exceed it. [29 CFR 1910.178(o)(2)] Only by keeping within the weight limit can you operate the forklift safely.
+
+- A forklift's capacity is rated for a specified load center. If the load is off-center, improperly distributed, or oversized, it may exceed capacity and unbalance the forklift. (Figure 3)
+
+- Use the load extension backrest.
+
+Approaching |
+
+Figure 4. Operator stops slowly in front of the load platform. |
+
+Potential Hazards:
+
+While approaching a load, be aware of the following:
+
+- Accidents may occur when:
+
+- Approaching too fast.
+
+- Turning too rapidly.
+
+Requirements and Recommended Practices:
+
+- Approach the load slowly and carefully.
+
+- Stop 20 to 30 cm (8 to 12 inches) in front of the load. (Figure 4)
+
+- Be certain that the truck is placed squarely in front of the load and that the forks are at the correct height.
+
+- Set the direction control to neutral
+
+- Do not raise or lower the forks unless the forklift is stopped and the brake is set.
+
+- Prior to raising the load, ensure there is adequate overhead clearance. Vision is obstructed after the load is elevated.
+
+- Use the inching pedal to creep the load to the stack.
+
+Mast Position |
+
+Figure 5. Operator lifts load with the mast vertical.
+
+Figure 6. Tilting the mast back reduces the load distance and makes the load safer to carry.
+
+Figure 7. Tilting the mast forward increases the load distance and makes the load less stable. |
+
+Potential Hazards:
+
+While moving the mast, be aware of the following:
+
+- Tipovers and dropped loads while moving the mast.
+
+Requirements and Recommended Practices:
+
+- Use extreme care when tilting loads. Do not tilt forward with forks elevated except when picking up or depositing a load. When stacking or tiering, tilt backward only enough to stabilize the load. [29 CFR 1910.178(o)(6)]
+
+- Use extra caution when handling loads that approach the truck's maximum rated capacity:
+
+- Tilt the mast back and position the heaviest part of the load against the carriage. (Figure 6)
+
+- Travel with the mast tilted back to keep the load stable.
+
+- Tilt the mast forward cautiously when positioning the load onto the stack. [29 CFR 1910.178 App A]
+
+- Never travel with the load tilted forward. Tilting the load forward increases the load distance and makes the load less stable (Figure 7).
+
+Fork Position |
+
+Figure 8. Operator slides the forks into the pallet until they are fully under the load. |
+
+Potential Hazards:
+
+While moving the forks into position, be aware of the following:
+
+- Tipover
+
+- Dropped load
+
+- Collision
+
+Requirements and Recommended Practices:
+
+- Level the forks before inserting them into the pallet.
+
+- The forks must be placed under the load as far as possible. [29 CFR 1910.178(o)(5)]
+
+- Slide the forks into the pallet until they are fully under the load. The forks should be at least two-thirds the length of the load
+
+- Be careful that the forks do not go through to the other side where pallets are closely stacked.
+
+- Center the weight of the load between the forks. Adjust the forks to distribute the weight evenly. Note that forks are adjustable either manually or with a fork positioner.
+
+- Tilt the mast back carefully to stabilize the load. [29 CFR 1910.178(o)(5)]
+
+- Pick up an off-center load carefully. There is a greater danger of a tipover.
+
+Lifting the Load |
+
+Figure 9. Operator is lifting the load.
+
+Potential Hazards:
+
+While lifting the load, be aware of the following:
+
+- Insufficient clearance
+
+- Falling loads
+
+- Stuck loads
+
+Requirements and Recommended Practices:
+
+- Check that there is adequate overhead clearance before raising the load. This is especially true when high tiering or in a confined space like a truck trailer. There must be sufficient headroom under overhead installations, lights, pipes, sprinkler systems, etc. [29 CFR 1910.178(m)(8)]
+
+- Carefully lift the load up above the lower stack about 10 cm (4 inches). (Figure 9)
+
+- Lift the load clear and then tilt the mast back slightly to rest the load against the load backrest extension.
+
+- Ensure that the load does not catch on any obstructions.
+
+- Slowly return the lift control lever to the neutral position.
+
+Lowering the Load |
+
+Figure 10. Tilt the mast backward to stabilize the load.
+
+Potential Hazards:
+
+While lowering the load, be aware of the following:
+
+- Falling loads.
+
+- Striking objects.
+
+Requirements and Recommended Practices:
+
+The mast must be carefully tilted backward to stabilize the load.
+
+- Ensure the load is secured before moving.
+
+- Carefully tilt the mast backward to stabilize the load. [29 CFR 1910.178(o)(5)]
+
+- Slowly move the truck to 20 to 30 cm (8 to 12 inches) away from the stack.
+
+- Stop the truck.
+
+- Return the mast to the vertical position before lowering the load.
+
+- Lower the load so that its lowest point is 15 to 20 cm (6 to 8 inches) from the floor.
+
+- While traveling, keep the load at a safe travel height. See Traveling & Maneuvering.
+
+High Tiering |
+
+Figure 11. Reach trucks maximize maneuverability in narrow aisle.
+
+Figure 12. Triple reach extends 23 feet high. The lightest loads are placed on the top tiers.
+
+Figure 13. Reach mechanism extends forward to deposit load on top tier.
+
+Reach trucks are often used for high tiering, which involves storing material in multiple tiers high off the ground.
+
+**Potential Hazard:**
+
+- Overloading
+
+- Tipover
+
+Requirements and Recommended Practices:
+
+- Set the heaviest loads on the bottom tier.
+
+- Set the lightest loads on the top tier.
+
+- Reduce the load below the capacity of the reach truck as the mast is fully extended.
+
+- Slowly and carefully extend the reach mechanism forward when depositing the load on the top tier.
+
+- Use extreme care when tilting a load forward or backward, particularly when high tiering. [29 CFR 1910.178(o)(6)]
+
+Truck Trailers and Railroad Cars |
+
+Figure 14. Wheels are chocked prior to boarding.
+
+Figure 15. Use positive protection to prevent railroad cars from being moved.
+
+Figure 16. Operator using warning light and looking in the direction of travel when exiting a truck trailer.
+
+Figure 17. Entering a truck trailer with adequate overhead clearance.
+
+Figure 18. Manual dock plate is secured into position. Always walk and inspect trailer floor before boarding. |
+
+Potential Hazards:
+
+While entering and leaving truck trailers or railroad cars, be aware of the following:
+
+- Falling off loading dock.
+
+- Moving trucks or railroad cars during loading and unloading.
+
+- Slipping or inadequate dockboards.
+
+Requirements and Recommended Practices:
+
+The OSHA Powered Industrial Trucks standard [29 CFR 1910.178] lists a number of situations in which special procedures must be followed before starting entry:
+
+- The brakes of highway trucks shall be set and wheel chocks placed under the rear wheels to prevent the trucks from rolling while they are boarded with powered industrial trucks. [29 CFR 1910.178(k)(1)]
+
+- See
+
+Chocking requirements for trailers docked to buildings with downward approaches, OSHA Standard Interpretation, (2005, November 8). The Federal Motor Carrier Safety Administration's braking regulations preempt OSHA from enforcing the requirements in 29 CFR 1910.178(k)(1) and 29 CFR 1910.178(m)(7) for commercial motor vehicles (CMVs).
+
+- Wheel stops or other recognized positive protection shall be provided to prevent railroad cars from moving during loading or unloading operations. [29 CFR 1910.178(k)(2)]
+
+- Fixed jacks may be necessary to support a semitrailer and prevent upending during the loading or unloading when the trailer is not coupled to a tractor. [29 CFR 1910.178(k)(3)]
+
+- Positive protection shall be provided to prevent railroad cars from being moved while dockboards or bridge plates are in position. [29 CFR 1910.178(k)(4)]
+
+The OSHA Walking-Working Surfaces standard [29 CFR 1910.30(a)] contains requirements for dockboards (bridge plates).
+
+- Portable and powered dockboards shall be strong enough to carry the load imposed on them. [29 CFR 1910.30(a)(1)]
+
+- Portable dockboards shall be secured in position, either by being anchored or equipped with devices which will prevent their slipping. [29 CFR 1910.30(a)(2)]
+
+- Powered dockboards shall be designed and constructed in accordance with Commercial Standard CS202-56 (1961) "Industrial Lifts and Hinged Loading Ramps" published by the U.S. Department of Commerce, which is incorporated by reference as specified in Sec. 1910.6. [29 CFR 1910.30(a)(3)]
+
+- Handholds, or other effective means, shall be provided on portable dockboards to permit safe handling. [29 CFR 1910.30(a)(4)]
+
+- Positive protection shall be provided to prevent railroad cars from being moved while dockboards or bridge plates are in position. [29 CFR 1910.30(a)(5)]
+
+Additional Trailer Loading and Unloading Procedures
+
+- Inspect the floor of the trailer to be sure that it will support the forklift and load.
+
+- Ensure that the height of the entry door is adequate to clear the height of your vehicle, taking into consideration the height of the loading platform.
+
+- Drive straight across the bridge plates when entering or exiting the truck trailer or railroad car.
+
+- Use dock lights and headlights when working in a dark trailer.
+
+- Sound the horn when entering or exiting the trailer.
+
+- In determining the capacity of the trailer floor to support a forklift, consider various factors, including floor thickness and cross-member spacing or unsupported floor area. In general, the larger the unsupported area, the lower the forklift capacity the trailer will have for the same floor thickness.
+
+- Never use the forklift to open railroad car doors unless:
+
+- It has a device designed for that purpose.
+
+- The operator is trained in the use of the device.
+
+- All other employees stand clear.
+
+29 CFR 1910.178(m)(6) Powered Industrial Trucks; Truck Operations. OSHA Directive STD 01-11-003 (STD 1-11.3), (1978, October 30).
+
+Types & Fundamentals | Operating the Forklift | Understanding the Workplace | Training Assistance |
+
+eTools Home : Powered Industrial Trucks |
+
+Safety and Health Topic Page | Credits |

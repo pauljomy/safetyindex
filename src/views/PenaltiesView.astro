@@ -1,0 +1,51 @@
+---
+// /us/osha-penalties (brief section 7d): one URL, updated in place every January, with the
+// year in the title and the date updated on the page. Amounts come from scripts/config.yml.
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Cover from "@components/Cover.astro";
+import PenaltyMaxTable from "@components/PenaltyMaxTable.astro";
+import PageNotes from "@components/PageNotes.astro";
+import RelatedBlock from "@components/RelatedBlock.astro";
+import { url, type Report } from "@lib/content";
+import { formatDate, latest } from "@lib/dates";
+import { withLinks } from "@lib/links";
+import { escapeHtml } from "@lib/linker.mjs";
+import { coverFor, socialCard } from "@lib/covers";
+import { breadcrumbList, webPage } from "@lib/schema";
+import { ui } from "../i18n/ui";
+
+const { entry } = Astro.props as { entry: Report };
+const d = entry.data;
+const s = ui.en;
+const path = url.penalties();
+const used = new Set<string>();
+const data = d.data as { sections: { heading: string; opening: string; items?: string[] }[] };
+const summary = await withLinks(escapeHtml(d.summary), path, used);
+const sections = [];
+for (const sec of data.sections) sections.push({ ...sec, opening: await withLinks(escapeHtml(sec.opening), path, used) });
+const og = await socialCard(coverFor(d.cover));
+const crumbs = [{ label: s.home, href: "/" }, { label: "United States", href: url.market("us") }, { label: s.hubPenalties, href: path }];
+const updated = latest(d.date, d.updated);
+---
+<Layout title={d.seoTitle} description={d.description} published={d.date} updated={updated} image={og}
+  jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US" }), breadcrumbList(crumbs)]}>
+  <Container>
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
+    <p class="animate mb-8 mt-2 text-sm">Updated {formatDate(updated)}</p>
+    <Cover subject={d.cover} alt={d.coverAlt} />
+    <article class="animate" data-pagefind-body>
+      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={summary} /></p>
+      <h2>What are the current maximum OSHA penalties?</h2>
+      <p>The table lists OSHA's current maximum penalty for each type of violation.</p>
+      <PenaltyMaxTable />
+      {sections.map((sec) => (<><h2>{sec.heading}</h2><p><Fragment set:html={sec.opening} /></p>{sec.items && <ul>{sec.items.map((i) => <li>{i}</li>)}</ul>}</>))}
+      <h2>{s.sources}</h2>
+      <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
+      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
+    </article>
+    <RelatedBlock />
+  </Container>
+</Layout>

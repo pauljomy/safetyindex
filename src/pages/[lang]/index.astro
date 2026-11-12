@@ -1,7 +1,18 @@
 ---
+// /fr and /de (French and German home pages) and /uk, /au, /ca, /nz (market homes, built once
+// the market has a live page).
 import HomeView from "../../views/HomeView.astro";
+import MarketHomeView from "../../views/MarketHomeView.astro";
+import { livePages } from "../../lib/content";
 import { translatedLangs } from "../../i18n/ui";
-export const getStaticPaths = () => translatedLangs.map((lang) => ({ params: { lang }, props: { lang } }));
-const { lang } = Astro.props;
+export async function getStaticPaths() {
+  const live = new Set((await livePages()).map((p) => p.market));
+  return [
+    ...translatedLangs.map((lang) => ({ params: { lang }, props: { lang, market: undefined } })),
+    ...["uk", "au", "ca", "nz"].filter((m) => live.has(m as never)).map((m) => ({ params: { lang: m }, props: { lang: undefined, market: m } })),
+  ];
+}
+const { lang, market } = Astro.props as { lang?: "fr" | "de"; market?: "uk" | "au" | "ca" | "nz" };
 ---
-<HomeView {lang} />
+{lang && <HomeView {lang} />}
+{market && <MarketHomeView {market} />}

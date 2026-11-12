@@ -1,0 +1,116 @@
+url: https://www.ccohs.ca/oshanswers/safety_haz/falls.html
+snapshot: 20191215033938
+words: 793
+status: ok
+---
+## Why is prevention of slips, trips and falls important?
+
+In Canada over 42,000 workers get injured annually due to fall incidents. This number represents about 18% of the "time-loss injuries" that were accepted by workers' compensation boards or commissions across Canada (based on statistics from Association of Workers' Compensation Boards of Canada, 2016).
+
+## How do falls happen?
+
+Statistics show that the majority (67%) of falls happen on the same level resulting from slips and trips. The remaining 30% are falls from a height. This document will summarize information on "falls on the same level" (slips and trips). Falls from an elevation, such as falls from ladders, roofs, down stairs or from jumping to a lower level, etc., is discussed in the Safety Belts, Harnesses, and Lanyards document since each type of fall requires different features in a fall prevention program.
+
+### Slips
+
+Slips happen where there is too little friction or traction between the footwear and the walking surface. Common causes of slips are:
+
+- wet or oily surfaces
+
+- occasional spills
+
+- weather hazards
+
+- loose, unanchored rugs or mats
+
+- flooring or other walking surfaces that do not have same degree of traction in all areas
+
+### Trips
+
+Trips happen when your foot collides (strikes, hits) an object causing you to lose the balance and, eventually fall. Common causes of tripping are:
+
+- obstructed view
+
+- poor lighting
+
+- clutter in your way
+
+- wrinkled carpeting
+
+- uncovered cables
+
+- bottom drawers not being closed
+
+- uneven (steps, thresholds) walking surfaces
+
+## How to prevent falls due to slips and trips?
+
+Both slips and trips result from some a kind of unintended or unexpected change in the contact between the feet and the ground or walking surface. This fact shows that good housekeeping, quality of walking surfaces (flooring), selection of proper footwear, and appropriate pace of walking are critical for preventing fall incidents.
+
+### Housekeeping
+
+Good housekeeping is the first and the most important (fundamental) level of preventing falls due to slips and trips. It includes:
+
+- cleaning all spills immediately
+
+- marking spills and wet areas
+
+- mopping or sweeping debris from floors
+
+- removing obstacles from walkways and always keeping walkways free of clutter
+
+- securing (tacking, taping, etc.) mats, rugs and carpets that do not lay flat
+
+- always closing file cabinet or storage drawers
+
+- covering cables that cross walkways
+
+- keeping working areas and walkways well lit
+
+- replacing used light bulbs and faulty switches
+
+Without good housekeeping practices, any other preventive measures such as installation of sophisticated flooring, specialty footwear or training on techniques of walking and safe falling will never be fully effective.
+
+For more information about effective housekeeping visit the OSH Answers document on Workplace Housekeeping - Basic Guide.
+
+### Flooring
+
+Changing or modifying walking surfaces is the next level of preventing slip and trips. Recoating or replacing floors, installing mats, pressure-sensitive abrasive strips or abrasive-filled paint-on coating and metal or synthetic decking can further improve safety and reduce risk of falling. However, it is critical to remember that high-tech flooring requires good housekeeping as much as any other flooring. In addition, resilient, non-slippery flooring prevents or reduces foot fatigue and contributes to slip prevention measures.
+
+### Footwear
+
+In workplaces where floors may be oily or wet or where workers spend considerable time outdoors, prevention of fall incidents should focus on selecting proper footwear. Since there is no footwear with anti-slip properties for every condition, consultation with manufacturers' is highly recommended.
+
+Properly fitting footwear increases comfort and prevents fatigue which, in turn, improves safety for the employee. For more information on footwear visit the OSH Answers document on Safety Footwear.
+
+## What can you do to avoid falling at work?
+
+**You can reduce the risk of slipping on wet flooring by:**
+
+- taking your time and paying attention to where you are going
+
+- adjusting your stride to a pace that is suitable for the walking surface and the tasks you are doing
+
+- walking with the feet pointed slightly outward
+
+- making wide turns at corners
+
+**You can reduce the risk of tripping by:**
+
+- keeping walking areas clear from clutter or obstructions
+
+- keeping flooring in good condition
+
+- always using installed light sources that provide sufficient light for your tasks
+
+- using a flashlight if you enter a dark room where there is no light
+
+- making sure that things you are carrying or pushing do not prevent you from seeing any obstructions, spills, etc.
+
+Document last updated on June 4, 2018
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

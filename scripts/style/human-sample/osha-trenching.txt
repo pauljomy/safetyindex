@@ -1,0 +1,194 @@
+url: https://www.osha.gov/SLTC/etools/construction/trenching/mainpage.html
+snapshot: 20200101035548
+words: 1521
+status: ok
+---
+versi&oacute;n en espa&ntilde;ol
+
+### Trenching and Excavation
+
+Cave-ins are perhaps the most feared trenching hazard. But other potentially fatal hazards exist, including asphyxiation due to lack of oxygen in a confined space, inhalation of toxic fumes, drowning, etc. Electrocution or explosions can occur when workers contact underground utilities.
+
+OSHA requires that workers in trenches and excavations be protected, and that safety and health programs address the variety of hazards they face. The following hazards cause the most trenching and excavation injuries:
+
+- No Protective System
+
+- Failure to Inspect Trench and Protective Systems
+
+- Unsafe Spoil-Pile Placement
+
+- Unsafe Access/Egress
+
+Show/Hide All
+
+###### No Protective System
+
+This worker is in a trench with no protective system, that is not sloped or benched and has no means of egress.
+
+**Am I In Danger?**
+
+All excavations are hazardous because they are inherently unstable. If they are restricted spaces they present the additional risks of oxygen depletion, toxic fumes, and water accumulation. If you are not using protective systems or equipment while working in trenches or excavations at your site, you are in danger of suffocating, inhaling toxic materials, fire, drowning, or being crushed by a cave-in.
+
+**How Do I Avoid Hazards?**
+
+Pre-job planning is vital to accident-free trenching; safety cannot be improvised as work progresses. The following concerns must be addressed by a competent person:
+
+- Evaluate soil conditions and select appropriate protective systems. [29 CFR 1926 Subpart P Appendix A and 29 CFR 1926 Subpart P Appendix F].
+
+- Construct protective systems in accordance with the standard requirements. [29 CFR 1926.652]
+
+- Preplan; contact utilities (gas, electric) to locate underground lines, plan for traffic control if necessary, determine proximity to structures that could affect choice of protective system.
+
+- Test for low oxygen, hazardous fumes and toxic gases, especially when gasoline engine-driven equipment is running, or the dirt has been contaminated by leaking lines or storage tanks. Insure adequate ventilation or respiratory protection if necessary.
+
+Additional Example
+
+- Provide safe access into and out of the excavation.
+
+- Provide appropriate protections if water accumulation is a problem.
+
+- Inspect the site daily at the start of each shift, following a rainstorm, or after any other hazard-increasing event.
+
+- Keep excavations open the minimum amount of time needed to complete operations.
+
+**Additional Information:**
+
+- 29 CFR 1926 Subpart P, Excavations. OSHA Standard.
+
+- 1926.652, Requirements for protective systems
+
+###### Failure to Inspect Trench and Protective Systems
+
+This excavation was properly inspected before the workers were allowed to work.
+
+**Am I In Danger?**
+
+If trenches and excavations at your site are not inspected daily for evidence of possible cave-ins, hazardous atmospheres, failure of protective systems, or other unsafe conditions, you are in danger.
+
+**How Do I Avoid Hazards?**
+
+Inspect excavations:
+
+- Before construction begins.
+
+- Daily before each shift.
+
+- As needed throughout the shift.
+
+- Following rainstorms or other hazard-increasing events (such as a vehicle or other equipment approaching the edge of an excavation).
+
+Inspections must be conducted by a competent person who:
+
+- Has training in soil analysis.
+
+- Has training in the use of protective systems.
+
+- Is knowledgeable about the OSHA requirements.
+
+- Has authority to immediately eliminate hazards.
+
+To help evaluate different protection systems and identify the warning signs of excavation failure see the Guide for Daily Inspection of Trenches and Excavations.
+
+**Additional Information:**
+
+- 29 CFR 1926 Subpart P, Excavations. OSHA Standard.
+
+- 1926.651, Specific excavation requirements
+
+- 1926.651(k), Inspections
+
+###### Unsafe Spoil-Pile Placements
+
+The spoil pile is required to be at least 2 feet from the edge of the trench and/or retained to prevent it from falling into the trench.
+
+**Am I In Danger?**
+
+Excavated material (spoils) at your site are hazardous if they are set too close to the edge of a trench/excavation. The weight of the spoils can cause a cave-in, or spoils and equipment can roll back on top of workers, causing serious injuries or death.
+
+**How Do I Avoid Hazards?**
+
+Provide protection by one or more of the following:
+
+- Set spoils and equipment at least 2 feet back from the excavation.
+
+- Use retaining devices, such as a trench box, that will extend above the top of the trench to prevent equipment and spoils from falling back into the excavation.
+
+- Where the site does not permit a 2-foot set back, spoils may need to be temporarily hauled to another location.
+
+**Additional Information:**
+
+- 29 CFR 1926 Subpart P Excavations. OSHA Standard.
+
+- 1926.651 Specific excavation requirements
+
+1926.651(j)(2)
+
+###### Unsafe Access/Egress
+
+These workers are not protected from a cave-in, nor do they have any apparent safe access or egress from the trench.
+
+**Am I In Danger?**
+
+To avoid fall injuries during normal entry and exit of a trench or excavation at your job site, ladders, stairways, or ramps are required. In some circumstances, when conditions in a trench or excavation become hazardous, survival may even depend on how quickly you can climb out.
+
+**How Do I Avoid Hazards?**
+
+- Provide stairways, ladders, ramps, or other safe means of egress in all trenches that are 4 feet deep or more.
+
+- Position means of egress within 25 lateral feet of workers.
+
+- Structural ramps that are used solely for access or egress from excavations must be designed by a competent person.
+
+- When two or more components form a ramp or runway, they must be connected to prevent displacement, and be of uniform thickness.
+
+- Cleats or other means of connecting runway components must be attached in a way that would not cause tripping (e.g., to the bottom of the structure).
+
+- Structural ramps used in place of steps must have a non-slip surface.
+
+- Use earthen ramps as a means of egress only if a worker can walk them in an upright position, and only if they have been evaluated by a competent person.
+
+**Additional Information:**
+
+- 29 CFR 1926 Subpart P, Excavations. OSHA Standard.
+
+- 1926.651 Specific excavation requirements
+
+1926.651(c)
+
+Additional Examples
+
+Additional Examples
+
+**Case Reports:**
+
+The following Case Reports of trenching accidents investigated by OSHA illustrate how seemingly innocent workplace activities can have deadly consequences.
+
+- Two employees were installing 6" PVC pipe in a trench 40' long x 9' deep x 2' wide. No means of protection was provided in the vertical wall trench. A cave-in occurred, fatally injuring one employee and causing serious facial injuries to the other.
+
+- An inadequately protected trench wall collapsed, killing one employee who had just gotten into the trench to check grade for installation of an 8" sewer line. The trench was 20-25 feet deep and had been benched about one bucket-width (4 feet) on each side. At the time of the collapse a backhoe was still extracting soil from the trench.
+
+- Four employees were in an excavation 32' long x 7' deep x 9' wide boring a hole under a road. Eight-foot steel plates used as shoring were placed against the side walls of the excavation at about 30-degree angles. No horizontal bracing was used. One of the plates tipped over, crushing an employee.
+
+**Case Reports:**
+
+The following Case Reports of trenching accidents investigated by OSHA illustrate how seemingly innocent workplace activities can have deadly consequences.
+
+- An employee was in a trench installing forms for concrete footers when it caved-in, causing fatal injuries. The trench, which was 71&frasl;2 feet deep, was in loose, sandy (Type C) soil, and no inspection was conducted prior to the start of the shift.
+
+- In a trench 6 feet deep x 32 inches wide, an employee was applying a waterproofing primer containing methyl chloroform and 1,4-dioxane to the foundation of a house. The employee was overcome by the fumes, and later died of trichloroethane intoxication. No one had tested the atmosphere in the trench, the employees were not provided with respiratory protection, and mechanical ventilation was not used.
+
+**Case Report:**
+
+The following Case Reports of trenching accidents investigated by OSHA illustrate how seemingly innocent workplace activities can have deadly consequences.
+
+- A spoil-pile had been placed on top of a curb which formed the west face of a trench. A backhoe was spotted on top of the spoil-pile. The west face of the trench collapsed on two employees who were installing sewer pipe. One employee was killed; the other received back injuries. The trench was 8 feet deep with vertical walls. No other protection was provided. The superimposed loads of the spoil-pile and backhoe may have caused the collapse.
+
+**Case Reports:**
+
+The following Case Reports of trenching accidents investigated by OSHA illustrate how seemingly innocent workplace activities can have deadly consequences.
+
+- Two employees were laying pipe in a trench 12-feet deep, when one of the employees saw the bottom face of the trench move. He jumped out of the way along the length of the trench; the other employee was fatally injured as the wall caved-in. The walls of the trench were not sloped, and no means of emergency egress were provided.
+
+- In a 15-foot deep trench, which was not shored or sloped properly, two workers were laying sewer pipe. The only means of egress was by climbing the backfill. While exiting the trench, one of the workers was trapped by a small cave-in.The second employee tried to extricate him, but a second cave-in occurred, trapping the second employee at the waist. The second cave-in actually caused the death of the first employee; the second employee sustained a hip injury.
+
+Back to Top

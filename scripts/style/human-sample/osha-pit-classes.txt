@@ -1,0 +1,128 @@
+url: https://www.osha.gov/SLTC/etools/pit/forklift/types/classes.html
+snapshot: 20191210004219
+words: 549
+status: ok
+---
+eTools Home : Powered Industrial Trucks |
+
+Safety and Health Topic Page | Credits |
+
+Types & Fundamentals:
+
+Forklift Classifications
+
+- Class I: Electric Motor Rider Trucks
+
+- Class II: Electric Motor Narrow Aisle Trucks
+
+- Class III: Electric Motor Hand Trucks or Hand/Rider Trucks
+
+- Class IV: Internal Combustion Engine Trucks (Solid/Cushion Tires)
+
+- Class V: Internal Combustion Engine Trucks (Pneumatic Tires)
+
+- Class VI: Electric and Internal Combustion Engine Tractors
+
+- Class VII: Rough Terrain Forklift Trucks
+
+Class I: Electric Motor Rider Trucks |
+
+The following are examples of Class I powered industrial trucks.
+
+Lift Code 1: Counterbalanced Rider Type, Stand Up. |
+
+Lift Code 4: Three Wheel Electric Trucks, Sit Down.
+
+Lift Code 5: Counterbalanced Rider, Cushion Tires, Sit Down. |
+
+Lift Code 6: Counterbalanced Rider, Pneumatic or Either Type Tire, Sit Down. |
+
+Class II: Electric Motor Narrow Aisle Trucks |
+
+The following are examples of Class II powered industrial trucks.
+
+Lift Code 1: High Lift Straddle.
+
+Lift Code 2: Order Picker. |
+
+Lift Code 3: Reach Type Outrigger. |
+
+Lift Code 4: Side Loaders: Platforms.
+
+Lift Code 4: Side Loaders: High Lift Pallet. |
+
+Lift Code 4: Turret Trucks. |
+
+Lift Code 6: Low Lift Platform. |
+
+Lift Code 6: Low Lift Pallet. |
+
+Class III: Electric Motor Hand Trucks or Hand/Rider Trucks |
+
+The following are examples of Class III powered industrial trucks.
+
+Lift Code 1: Low Lift Platform. |
+
+Lift Code 2: Low Lift Walkie Pallet. |
+
+Lift Code 3: Tractors |
+
+Lift Code 4: Low Lift Walkie/Center Control. |
+
+Lift Code 5: Reach Type Outrigger. |
+
+Lift Code 6: High Lift Straddle. |
+
+Lift Code 6: Single Face Pallet. |
+
+Lift Code 6: High Lift Platform. |
+
+Lift Code 7: High Lift Counterbalanced. |
+
+Lift Code 8: Low Lift Walkie/Rider
+
+Pallet and End Control. |
+
+Class IV: Internal Combustion Engine Trucks (Solid/Cushion Tires) |
+
+The following are examples of Class IV powered industrial trucks.
+
+Lift Code 3: Fork, Counterbalanced (Cushion Tire). |
+
+Class V: Internal Combustion Engine Trucks (Pneumatic Tires) |
+
+The following are examples of Class V powered industrial trucks.
+
+Lift Code 4: Fork, Counterbalanced (Pneumatic Tire). |
+
+Class VI: Electric and Internal Combustion Engine Tractors |
+
+The following are examples of Class VI powered industrial trucks.
+
+Lift Code 1: Sit-Down Rider
+
+(Draw Bar Pull Over 999 lbs.). |
+
+Class VII: Rough Terrain Forklift Trucks |
+
+Class VII � Rough terrain forklift is a generic term used to describe forklifts typically intended for use on unimproved natural terrain and disturbed terrain construction sites. However, the term �rough terrain� does not imply that the forklift can be safely operated on every conceivable type of terrain.
+
+There are three basic types of rough terrain forklift:
+
+Vertical mast type.
+
+This is an example of a ruggedly constructed forklift and is designed to be used primarily outdoors. |
+
+Variable reach type.
+
+This is an example of a vehicle equipped with a telescoping boom, which enables it to pick and place loads at various distances and lift heights in front of the machine. The ability to reach out in front of the forklift allows the operator flexibility in the placement of a load. |
+
+Truck/trailer mounted. |
+
+This is an example of a portable self-propelled rough terrain forklift that is typically transported to the job site. It is mounted on a carrier to the back of a truck/trailer and is used to unload heavy items from the truck/trailer at the job site. Note that not all truck/trailer mounted forklifts are rough terrain forklifts. |
+
+Types & Fundamentals | Operating the Forklift | Understanding the Workplace | Training Assistance |
+
+eTools Home : Powered Industrial Trucks |
+
+Safety and Health Topic Page | Credits |

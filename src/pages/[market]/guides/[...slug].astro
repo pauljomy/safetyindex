@@ -1,0 +1,35 @@
+---
+// Guides for the UK, Australia, Canada and New Zealand: /uk/guides/<slug> and the /uk/guides hub.
+import PostView from "../../../views/PostView.astro";
+import HubView from "../../../views/HubView.astro";
+import { categoryName, getGuides, url } from "../../../lib/content";
+import { categories } from "../../../data/categories.mjs";
+import { latest } from "../../../lib/dates";
+import { marketMeta, ui, type Market } from "../../../i18n/ui";
+import { site } from "../../../config/site.mjs";
+export async function getStaticPaths() {
+  const out = [];
+  for (const market of ["uk", "au", "ca", "nz"] as Market[]) {
+    const guides = await getGuides(market);
+    if (!guides.some((g) => !g.data.noindex)) continue;
+    out.push({ params: { market, slug: undefined }, props: { market, post: undefined } });
+    for (const post of guides) out.push({ params: { market, slug: post.id.slice(3) }, props: { market, post } });
+  }
+  return out;
+}
+const { market, post } = Astro.props as { market: Market; post?: any };
+const s = ui.en;
+const name = marketMeta[market].name;
+let hub: any;
+if (!post) {
+  const guides = (await getGuides(market)).filter((g) => !g.data.noindex);
+  hub = {
+    title: s.guidesHubTitle(name), description: s.guidesHubDescription(name).slice(0, 155),
+    intro: `How-to guides for workplaces in ${name}, each written from ${name}'s own regulations and regulator guidance.`,
+    groups: categories.map((c) => ({ heading: categoryName(c.slug, "en"), rows: guides.filter((g) => g.data.categories[0] === c.slug).map((g) => ({ path: url.post(g.id), title: g.data.title, description: g.data.description })) })).filter((g) => g.rows.length),
+    crumbs: [{ label: s.home, href: "/" }, { label: name, href: url.market(market) }, { label: s.hubGuides, href: url.guidesHub(market) }],
+    updated: latest(new Date(site.updated), ...guides.map((g) => latest(g.data.date, g.data.updated))),
+  };
+}
+---
+{post ? <PostView {post} /> : <HubView {...hub} />}

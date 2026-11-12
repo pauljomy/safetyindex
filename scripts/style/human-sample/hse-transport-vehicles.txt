@@ -1,0 +1,78 @@
+url: https://www.hse.gov.uk/workplacetransport/information/vehicles.htm
+snapshot: 20191123231508
+words: 434
+status: ok
+---
+# Vehicle safety
+
+## Introduction
+
+Employers have to make sure that work equipment, including vehicles, is suitable and safe. The following is a basic guide to how you should address your responsibilities.
+
+## Guidance
+
+- Vehicle Design
+
+- Maintenance
+
+## Vehicle design
+
+The design of vehicles used on public roads has to meet strict legal standards, and vehicles used in workplaces should be at least as good, and higher where workplaces are likely to be more dangerous (for example building sites).
+
+Vehicles used at the workplace should, wherever possible, have the following important features:
+
+- Very stable under working conditions.
+
+- Provide a safe way to get in and out, or on and off.
+
+- Suitable and effective brakes.
+
+- Windows, mirrors and sometimes CCTV providing good all-round visibility.
+
+- Suitable warning devices (for example horns, rotating beacons, reversing alarms) should be considered.
+
+- Painting and markings to make the vehicle stand out.
+
+- Seats and seat belts (where necessary) that are safe and comfortable.
+
+- Guards on dangerous parts.
+
+- Driver protection from bad weather, or an unpleasant working environment (for example low temperatures, dirt, fumes, or too much noise or vibration)
+
+- Driver protection to prevent injury should the vehicle tip over, and to prevent the driver being hit by falling objects.
+
+## Maintenance
+
+Employers are legally obliged to make sure that work equipment, including vehicles, is in good working order.
+
+It is important that vehicles are maintained so that they remain mechanically sound.
+
+You should consider how to make sure that vehicles are kept in good order. Inspections could range from basic safety checks by drivers before using the vehicle (checking that the tyres are properly inflated, etc.), to regular maintenance inspections carried out based on time or mileage.
+
+Employers may find it helpful to provide drivers with a list of daily checks for their vehicles, for them to sign off.
+
+Preventive maintenance is also needed to help avoid failures during use. This should be thorough, regular and frequent enough to meet the manufacturer's guidelines and common sense. Special attention needs to be paid to: the braking system; the steering system; the tyres; Mirrors; windscreen washers and wipers; any warning devices; specific safety systems, racking, securing points for ropes, etc.
+
+Follow HSE guidelines for Safety in Motor Vehicle Repair, available separately.
+
+Require visiting drivers to report to the site office. It should be made clear to everyone that driving in the workplace calls for the same standards as on public roads, and often requires even more skill and care.
+
+## Resources
+
+- Workplace transport safety – an overview
+
+- Rider-operated lift trucks
+
+- Use lift trucks safely
+
+More resources
+
+## See also
+
+- Falls from vehicles
+
+- Statistics
+
+- Science and research
+
+- Safety bulletin

@@ -1,4 +1,8 @@
 ---
+topicType: regional
+keywordSource: topic sheet
+linkPhrases:
+  - safety signs
 title: "Safety Signals: How to Read Workplace Safety Signs, Symbols and Colours (OSHA)"
 seoTitle: "Safety Signals: Signs, Symbols and Colours (OSHA Guide)"
 subtitle: Three separate US systems cover safety signs, accident prevention tags and chemical pictograms. Learn which rule applies to each and what employees must be told.

@@ -10,3 +10,7 @@ dist/
 .env.*
 !.env.example
 temp/
+data/raw/
+
+# Python env for scripts/downloads (pip install -r scripts/downloads/requirements.txt)
+.venv/

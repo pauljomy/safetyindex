@@ -1,0 +1,156 @@
+url: https://www.hse.gov.uk/electricity/information/overhead.htm
+snapshot: 20191125032202
+words: 1340
+status: ok
+---
+# Overhead power lines
+
+- What you need to know
+
+- What you need to do
+
+- Planning and preparation
+
+- Controlling the work
+
+- Find out more
+
+- General electrical information
+
+## What you need to know
+
+Accidental contact with live overhead power lines kills people and causes many serious injuries every year. People are also harmed when a person or object gets too close to a line and a flashover occurs. Work involving high vehicles or long equipment is particularly high risk, such as;
+
+In Construction – Lorry mounted cranes (such as Hiabs or Palingers), Mobile Elevated Work Platforms (MEWP's), scaffold poles, tipper vehicles, cranes, ladders;
+
+In Agriculture – combines, sprayer booms, materials handlers, tipper vehicles, ladders, irrigation pipes, polytunnels; Remember:
+
+- going close to a live overhead line can result in a flashover that may kill. Touching a power line is not necessary for danger;
+
+- voltages lower than 230 volts can kill and injure people;
+
+- do not mistake overhead power lines on wooden poles for telephone wires; and
+
+- electricity can bypass wood, plastic or rubber, if it is damp or dirty, and cause fatal shocks. Don't rely on gloves or rubber boots to protect you.
+
+The guidance note "Avoiding danger from overhead power lines" describes how to work safely near overhead power lines in a range of industries.
+
+The Electricity Networks Association (ENA) publications:
+
+- Safety Information for Farmers and Agricultural Contractors
+
+- Watch It! In the Vicinity of Overhead Lines
+
+- Safety Information for Farmers Utilising Polytunnels
+
+- Safe tree working in proximity to overhead electric lines ENA Engineering Recommendation G55/1
+
+- The ENA also provide advice on what to do if machinery comes into contact with an overhead power line.
+
+## What you need to do
+
+Plan and manage work near electric overhead power lines so that risks from accidental contact or close proximity to the lines are adequately controlled.
+
+Safety precautions will depend on the nature of the work and will be essential even when work near the line is of short duration.
+
+Safety can be achieved by a combination of measures:
+
+- Planning and preparation
+
+- Eliminating the danger
+
+- Controlling the access
+
+- Controlling the work
+
+## Planning and preparation
+
+The first step is to find out whether there is any overhead power line within or immediately next to the work area, or across any access route.
+
+Information will be available from the local electricity supplier or Distribution Network Operator (DNO). If any overhead lines are found, you should assume that they are live unless proved otherwise by their owners.
+
+If there are any overhead lines over the work area, near the site boundaries, or over access roads to the work area, consult the owners of the lines so that the proposed plan of work can be discussed.
+
+Allow sufficient time for lines to be diverted or made dead, or for other precautions to be taken as described below.
+
+### Eliminating the danger
+
+You can eliminate the danger by:
+
+- **Avoidance** – find out if the work really has to be carried out under or near overhead lines, and can't be done somewhere else. Make sure materials (such as bales or spoil) are not placed near overhead lines, and temporary structures (such as polytunnels) are erected outside safe clearance distances;
+
+- **Diversion** – arrange for overhead lines to be diverted away from the work area; or Isolation – arrange for lines to be made dead while the work is being done.
+
+In some cases you may need to use a suitable combination of these measures, particularly where overhead lines pass over permanent work areas.
+
+If the danger cannot be eliminated, you should manage the risk by controlling access to, and work beneath, overhead power lines.
+
+### Controlling the access
+
+Where there is no scheduled work or requirement for access under the lines, barriers should be erected at the correct clearance distance away from the line to prevent close approach. The safe clearance distance should be ascertained from the Distribution Network Operator (DNO). HSE guidance documents Avoidance of danger from overhead electric power lines and Electricity at Work: Forestry and Arboriculture also provide advice on safe clearance distances and how barriers should be constructed. Where there is a requirement to pass beneath the lines, defined passageways should be made.
+
+The danger area should be made as small as possible by restricting the width of the passageway to the minimum needed for the safe crossing of plant. The passageway should cross the route of the overhead line at right angles if possible.
+
+## Controlling the work
+
+If work beneath live overhead power lines cannot be avoided, barriers, goal posts and warning notices should be provided. Where field work is taking place it may be impractical to erect barriers and goal posts around the overhead lines - these are more appropriate for use at gateways, on tracks and at access points to farm yards.
+
+The following precautions may also be needed to manage the risk:
+
+- **Clearance** – the safe clearance required beneath the overhead lines should be found by contacting the Distribution Network Operator (DNO);
+
+- **Exclusion** – vehicles, plant, machinery, equipment, or materials that could reach beyond the safe clearance distance should not be taken near the line;
+
+- **Modifications** – Vehicles such as cranes, excavators and tele-handlers should be modified by the addition of suitable physical restraints so that they cannot reach beyond the safe clearance distances, measures should be put in place to ensure these restraints are effective and cannot be altered or tampered with;
+
+- **Maintenance** – operators of high machinery should be instructed not carry out any work on top of the machinery near overhead power lines;
+
+- **Supervision** – access for plant and materials and the working of plant should be under the direct supervision of a suitable person appointed to ensure that safety precautions are observed.
+
+### What to do if you come into contact with an OHPL
+
+- If part of a vehicle or load is in contact with an OHPL, you should remain in the cab and inform the Distribution Network Operator (DNO) immediately (stick the number in a visible place in the cab and keep it on your mobile phone).
+
+- Warn others to stay away.
+
+- Try to drive clear. If this is not possible, and you need to leave the vehicle to escape fire, JUMP CLEAR – do not dismount by climbing down the steps.
+
+- Never try to disentangle equipment until the owner of the line has confirmed that it has been de-energised and made safe.
+
+**WARNING:** Contact with an overhead power line may cause the power to 'trip out' temporarily and it may be re-energised automatically, without warning.
+
+Your local Distribution Network Operator (DNO) can generally supply stickers describing emergency procedures and containing contact numbers that can be stuck in the cabs of vehicles likely to be used near overhead power lines.
+
+The leaflet called Safe working near overhead power lines in agriculture and the Electricity Networks Association (ENA) publications Safety Information for Farmers and Agricultural Contractors and Watch It! In the Vicinity of Overhead Lines provide advice on what to do if machinery or equipment comes into contact with an overhead power line.
+
+## Find out more
+
+- Working safely near overhead power lines
+
+This 4 page information sheet gives lots of practical guidance on how to avoid danger when working near overhead power lines. It is aimed at those working in agriculture, but many of the principles described are applicable to other work activities. Topics covered include safe working distances from overhead lines, assessing and reducing the risks from overhead lines, use of barriers and goalposts, operating vehicles near overhead lines, ladders, and the safe stacking of materials.
+
+- Avoiding danger from overhead power lines
+
+## General electrical information
+
+There is also a priced interactive CD produced by HSE that provides a lot of general advice regarding electrical matters.
+
+The Simple Precautions and Frequently asked Questions web pages will help you to select the best guidance on working with electricity.
+
+Many other organisations provide information about electrical matters.
+
+Information on accident statistics is also available from a number of sources.
+
+## Resources
+
+Electricity at work: Safe working practices
+
+Avoiding danger from overhead power lines
+
+Working safely near overhead power lines
+
+More resources
+
+## See also
+
+- HSE Books

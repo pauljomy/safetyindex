@@ -5,11 +5,11 @@ import Footer from "@components/Footer.astro";
 import Pagefind from "@components/PageFind.astro";
 import JsonLd from "@components/JsonLd.astro";
 import type { SeoProps } from "@components/Head.astro";
-import { langOf } from "../i18n/ui";
+import { hreflangOf } from "../i18n/ui";
 
 type Props = SeoProps & { /** Schema.org nodes for this page. */ jsonLd?: Record<string, unknown>[] };
 const { jsonLd = [], ...seo } = Astro.props;
-const lang = langOf(Astro.url.pathname);
+const lang = hreflangOf(Astro.url.pathname);
 ---
 
 <!doctype html>

@@ -4,7 +4,8 @@ import Container from "@components/Container.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import Chip from "@components/Chip.astro";
-import { getCategories, getPosts, hubAlternates, url } from "@lib/content";
+import { getCategories, getPosts, hubAlternates, liveMarkets, livePages, marketHubs, url } from "@lib/content";
+import { marketMeta } from "../i18n/ui";
 import { latest } from "@lib/dates";
 import { organization } from "@lib/schema";
 import { inLang, ui, type Lang } from "../i18n/ui";
@@ -14,6 +15,9 @@ const { lang } = Astro.props as { lang: Lang };
 const s = ui[lang];
 const posts = await getPosts(lang);
 const categories = await getCategories(lang);
+const markets = lang === "en" ? (await liveMarkets()).filter((m) => m !== "fr" && m !== "de") : [];
+const usHubs = lang === "en" ? await marketHubs("us") : [];
+const reports = lang === "en" ? (await livePages()).filter((p) => p.market === "us" && (p.kind === "report" || p.kind === "penalties")) : [];
 const updated = latest(site.updated, ...posts.map((p) => latest(p.data.date, p.data.updated)));
 ---
 
@@ -29,6 +33,24 @@ const updated = latest(site.updated, ...posts.map((p) => latest(p.data.date, p.d
       <h1 class="animate text-2xl font-semibold text-black dark:text-white">{s.heroTitle}</h1>
       <div class="mt-6 space-y-16">
         <p class="animate">{s.heroText}</p>
+        {
+          lang === "en" && (
+            <section class="animate space-y-3" data-markets>
+              <h2 class="font-semibold text-black dark:text-white">United States</h2>
+              <ul class="not-prose flex flex-wrap gap-2">
+                <li><Chip href={url.market("us")}>US overview</Chip></li>
+                {usHubs.map((h) => <li><Chip href={h.path}>{h.label}</Chip></li>)}
+              </ul>
+              {reports.length > 0 && <ul class="not-prose space-y-1 text-sm">{reports.map((r) => <li><a class="underline decoration-black/30 underline-offset-2" href={r.path}>{r.title}</a></li>)}</ul>}
+              {markets.length > 1 && (
+                <>
+                  <h2 class="pt-4 font-semibold text-black dark:text-white">Other countries</h2>
+                  <ul class="not-prose flex flex-wrap gap-2">{markets.filter((m) => m !== "us").map((m) => <li><Chip href={url.market(m)}>{marketMeta[m].name}</Chip></li>)}</ul>
+                </>
+              )}
+            </section>
+          )
+        }
         {
           categories.length > 0 && (
             <section class="animate space-y-3">

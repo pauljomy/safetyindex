@@ -1,0 +1,15 @@
+# Banned phrases (brief section 12). One per line; "#" starts a comment.
+# Matching is case-insensitive and word-boundary based; the last word also
+# matches its inflections ("delve" catches "delves", "delving", "delved").
+# Keep this list short: most AI-sounding writing comes from sentence shapes,
+# which scripts/style/patterns.mjs checks.
+delve
+tapestry
+meticulous
+In today's fast-paced
+It's important to note
+Moreover
+Furthermore
+In conclusion
+navigate the complexities
+comprehensive guide

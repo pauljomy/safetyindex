@@ -2,10 +2,11 @@
 // releases, the weekly loop and the app button. Shared by Node scripts and the
 // Astro build (both run in Node), so there is no second copy of any setting.
 import { readFileSync, writeFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
 import YAML from "yaml";
 
-export const CONFIG_FILE = fileURLToPath(new URL("../config.yml", import.meta.url));
+// Resolved from the repo root: scripts and the Astro build both run there, and bundling moves import.meta.url.
+export const CONFIG_FILE = join(process.env.SAFETYINDEX_ROOT ?? process.cwd(), "scripts/config.yml");
 
 function load() {
   const c = YAML.parse(readFileSync(CONFIG_FILE, "utf8"));

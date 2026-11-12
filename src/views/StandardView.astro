@@ -1,0 +1,146 @@
+---
+// US standard page (brief section 7b), in this order: opening answer, enforcement picture,
+// what the standard requires (clause on every requirement), checklist, maximum penalties,
+// related standards/industries/guides, sources + data-as-of + not-legal-advice + attribution.
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Cover from "@components/Cover.astro";
+import BarChart from "@components/BarChart.astro";
+import ChecklistBlock from "@components/ChecklistBlock.astro";
+import PenaltyMaxTable from "@components/PenaltyMaxTable.astro";
+import PageNotes from "@components/PageNotes.astro";
+import RelatedBlock from "@components/RelatedBlock.astro";
+import { getChecklist, getIndustries, livePages, url, type Standard } from "@lib/content";
+import { latest } from "@lib/dates";
+import { withLinks } from "@lib/links";
+import { escapeHtml } from "@lib/linker.mjs";
+import { coverFor, socialCard } from "@lib/covers";
+import { breadcrumbList, faqPage, webPage } from "@lib/schema";
+import { ui } from "../i18n/ui";
+
+const { entry } = Astro.props as { entry: Standard };
+const d = entry.data;
+const s = ui.en;
+const path = url.standard(entry.id);
+const st = d.stats;
+const fy = (y: number | string) => `FY${y}`;
+const span = `${fy(st.fiscalYears[0])}–${fy(st.fiscalYears.at(-1)!)}`;
+const usd = (n: number | null) => (n == null ? "–" : `$${n.toLocaleString("en-US")}`);
+const pct = (x: number) => `${Math.round(x * 100)}%`;
+const ecfr = (clause: string) => `https://www.ecfr.gov/current/title-29/section-${d.section}#p-${clause.startsWith(d.section) ? clause : `${d.section}${clause}`}`;
+const used = new Set<string>();
+const link = async (text: string) => withLinks(escapeHtml(text), path, used);
+const industries = await getIndustries();
+const industryPath = (naics: string) => { const i = industries.find((x) => x.data.naics === naics && !x.data.noindex); return i ? url.industry(i.id) : undefined; };
+const guides = (await livePages()).filter((p) => p.kind === "guide" && p.market === "us" && p.sections.includes(d.section));
+const checklist = await getChecklist(d.checklist);
+const og = await socialCard(coverFor(d.cover));
+const crumbs = [{ label: s.home, href: "/" }, { label: "United States", href: url.market("us") }, { label: s.hubStandards, href: url.standardsHub() }, { label: d.title, href: path }];
+const opening = await link(d.opening);
+const enforcementSummary = await link(d.enforcementSummary);
+const requirementsIntro = await link(d.requirementsIntro);
+const groups = [];
+for (const g of d.requirements) groups.push({ heading: g.heading, intro: await link(g.intro), items: await Promise.all(g.items.map(async (it) => ({ text: await link(it.text), clause: it.clause }))) });
+const checklistIntro = await link(d.checklistIntro);
+const updated = latest(d.date, d.updated);
+const short = d.section;
+---
+
+<Layout
+  title={d.seoTitle}
+  description={d.description}
+  published={d.date}
+  updated={updated}
+  type="article"
+  noindex={d.noindex}
+  image={og}
+  jsonLd={[
+    webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US", about: `29 CFR ${d.section}` }),
+    breadcrumbList(crumbs),
+    ...(d.faq.length ? [faqPage(d.faq)] : []),
+  ]}
+>
+  <Container>
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
+    <p class="animate mb-8 mt-2 text-sm">29 CFR {d.section}: {d.heading.replace(/\.$/, "")}{d.subpartTitle && <> · Subpart {d.subpart}, {d.subpartTitle}</>}</p>
+    <Cover subject={d.cover} alt={d.coverAlt} />
+    <article class="animate" data-pagefind-body>
+      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={opening} /></p>
+
+      <h2 id="enforcement">How often does OSHA cite {short}?</h2>
+      <p>OSHA cited {short} {st.citations.toLocaleString("en-US")} times in {span} ({st.fiscalYearCount} complete fiscal years), in {st.inspections.toLocaleString("en-US")} inspections.</p>
+      <p><Fragment set:html={enforcementSummary} /></p>
+      <BarChart title={`Citations of ${short} per fiscal year, ${span}`} data={st.fiscalYears.map((y) => ({ label: fy(y), value: st.byFy[String(y)] ?? 0 }))} />
+      {st.topParagraphs.length > 0 && (
+        <>
+          <h3>Which paragraphs of {short} are cited most?</h3>
+          <p>The most-cited paragraph of {short} in {span} was {short}{st.topParagraphs[0].paragraph}, cited {Number(st.topParagraphs[0].count).toLocaleString("en-US")} times.</p>
+          <table>
+            <thead><tr><th>Paragraph</th><th>Citations</th></tr></thead>
+            <tbody>{st.topParagraphs.map((p) => <tr><td><a href={ecfr(String(p.paragraph))} rel="noopener">{short}{p.paragraph}</a></td><td>{Number(p.count).toLocaleString("en-US")}</td></tr>)}</tbody>
+          </table>
+        </>
+      )}
+      <h3>What penalties does OSHA propose for {short}?</h3>
+      <p>The median initial penalty for a {short} citation with a penalty was {usd(st.penalties.median)} in {span}; the middle half ran from {usd(st.penalties.p25)} to {usd(st.penalties.p75)}. Penalties can be reduced on settlement or after a contest, so final amounts are often lower.</p>
+      <table>
+        <thead><tr><th>Classification</th><th>Share of citations</th></tr></thead>
+        <tbody>
+          <tr><td>Serious</td><td>{pct(st.typeShares.serious)}</td></tr>
+          <tr><td>Willful</td><td>{pct(st.typeShares.willful)}</td></tr>
+          <tr><td>Repeat</td><td>{pct(st.typeShares.repeat)}</td></tr>
+          <tr><td>Other-than-serious</td><td>{pct(st.typeShares.otherThanSerious)}</td></tr>
+        </tbody>
+      </table>
+      {st.topIndustries.length > 0 && (
+        <>
+          <h3>Which industries are cited most under {short}?</h3>
+          <p>{st.topIndustries[0].title ?? `NAICS ${st.topIndustries[0].naics}`} received the most {short} citations in {span}.</p>
+          <table>
+            <thead><tr><th>Industry (NAICS)</th><th>Citations</th></tr></thead>
+            <tbody>{st.topIndustries.slice(0, 8).map((i) => { const href = industryPath(String(i.naics)); const name = `${i.title ?? "NAICS"} (${i.naics})`; return <tr><td>{href ? <a href={href}>{name}</a> : name}</td><td>{Number(i.count).toLocaleString("en-US")}</td></tr>; })}</tbody>
+          </table>
+        </>
+      )}
+
+      <h2 id="requirements">What does {short} require?</h2>
+      <p><Fragment set:html={requirementsIntro} /></p>
+      {groups.map((g) => (
+        <>
+          <h3>{g.heading}</h3>
+          <p><Fragment set:html={g.intro} /></p>
+          <ul>{g.items.map((it) => <li><Fragment set:html={it.text} /> <a href={ecfr(it.clause)} rel="noopener" class="whitespace-nowrap text-sm" data-clause>{it.clause.startsWith(d.section) ? it.clause : `${d.section}${it.clause}`}</a></li>)}</ul>
+        </>
+      ))}
+
+      <h2 id="checklist-heading">{short} checklist</h2>
+      <p><Fragment set:html={checklistIntro} /></p>
+      {checklist && <ChecklistBlock checklist={checklist} />}
+
+      <h2 id="penalties">What are the maximum OSHA penalties?</h2>
+      <p>These are the current federal maximums for any standard, including {short}; see <a href={url.penalties()}>OSHA penalty amounts</a> for how they change each year.</p>
+      <PenaltyMaxTable />
+
+      {guides.length > 0 && (
+        <>
+          <h2 id="guides">{s.guidesUsingStandard}</h2>
+          <ul data-guides-using>{guides.map((g) => <li><a href={g.path}>{g.title}</a></li>)}</ul>
+        </>
+      )}
+
+      {d.faq.length > 0 && (
+        <>
+          <h2>{s.faq}</h2>
+          {d.faq.map((f) => (<><h3>{f.question}</h3><p>{f.answer}</p></>))}
+        </>
+      )}
+      <h2>{s.sources}</h2>
+      <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
+      <p class="text-sm">Regulation text from the eCFR as of {d.ecfrDate}. Enforcement data: U.S. Department of Labor OSHA inspection and violation datasets, {span}.</p>
+      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
+    </article>
+    <RelatedBlock exclude={guides.map((g) => g.path)} />
+  </Container>
+</Layout>

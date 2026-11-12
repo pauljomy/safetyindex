@@ -1,0 +1,66 @@
+---
+// The on-page checklist, from the same JSON as the PDF and Excel downloads
+// (src/content/checklists/<market>/<slug>.json), so the two never drift apart.
+// Tick boxes work client-side only; the page prints cleanly; downloads need no sign-up.
+import type { Checklist } from "@lib/content";
+import AppButton from "@components/AppButton.astro";
+import { langOf, ui } from "../i18n/ui";
+const { checklist, linkify } = Astro.props as { checklist: Checklist; linkify?: (s: string) => string };
+const d = checklist.data;
+const s = ui[langOf(Astro.url.pathname)];
+const base = `/downloads/${checklist.id}`;
+const total = d.sections.reduce((n, sec) => n + sec.items.length, 0);
+let n = 0;
+---
+<section class="checklist not-prose my-8" data-checklist={checklist.id} id="checklist">
+  <h2 class="mb-2 text-xl font-semibold text-black dark:text-white">{d.title}</h2>
+  {d.regulation_line && <p class="mb-2 text-sm">{d.regulation_line}</p>}
+  <p class="mb-4 text-sm">{s.checklistNote}</p>
+  <div class="mb-4 flex flex-wrap gap-2 print:hidden">
+    <a class="rounded-md border border-black/20 px-3 py-1.5 text-sm font-medium hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" href={`${base}.pdf`} download data-track="download_pdf">{s.downloadPdf}</a>
+    <a class="rounded-md border border-black/20 px-3 py-1.5 text-sm font-medium hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" href={`${base}.xlsx`} download data-track="download_xlsx">{s.downloadExcel}</a>
+    <button type="button" class="rounded-md border border-black/20 px-3 py-1.5 text-sm font-medium hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" data-print>{s.print}</button>
+    <button type="button" class="rounded-md border border-black/20 px-3 py-1.5 text-sm hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" data-reset>{s.resetChecklist}</button>
+    <span class="self-center text-sm" data-count aria-live="polite">{s.checked(0, total)}</span>
+  </div>
+  {d.sections.map((sec) => (
+    <fieldset class="mb-6 break-inside-avoid-page">
+      <legend class="mb-2 font-semibold text-black dark:text-white">{sec.code}. {sec.title}</legend>
+      <ol class="space-y-2">
+        {sec.items.map(([name, check, clause]) => {
+          n += 1;
+          const id = `ck-${n}`;
+          return (
+            <li class="flex gap-3 rounded-md border border-black/10 p-3 dark:border-white/15">
+              <input type="checkbox" id={id} class="mt-1 size-4 shrink-0 accent-amber-600" />
+              <label for={id} class="space-y-0.5">
+                <span class="block font-medium text-black dark:text-white">{n}. {name}</span>
+                <span class="block text-sm"><span class="sr-only">{s.whatToLookFor}: </span>{check}</span>
+                {clause && <span class="block text-xs" data-clause>{s.reference} <Fragment set:html={linkify ? linkify(clause) : clause} /></span>}
+              </label>
+            </li>
+          );
+        })}
+      </ol>
+    </fieldset>
+  ))}
+  {d.instructions.length > 0 && <ul class="mb-2 list-disc pl-5 text-sm">{d.instructions.map((i) => <li>{i}</li>)}</ul>}
+  <AppButton checklistId={checklist.id} />
+</section>
+<script>
+  function setup() {
+    document.querySelectorAll<HTMLElement>("[data-checklist]").forEach((root) => {
+      if (root.dataset.ready) return;
+      root.dataset.ready = "1";
+      const boxes = [...root.querySelectorAll<HTMLInputElement>('input[type="checkbox"]')];
+      const count = root.querySelector<HTMLElement>("[data-count]");
+      const template = count?.textContent ?? "";
+      const update = () => { if (count) count.textContent = template.replace(/^\d+/, String(boxes.filter((b) => b.checked).length)); };
+      boxes.forEach((b) => b.addEventListener("change", update));
+      root.querySelector("[data-reset]")?.addEventListener("click", () => { boxes.forEach((b) => (b.checked = false)); update(); });
+      root.querySelector("[data-print]")?.addEventListener("click", () => window.print());
+    });
+  }
+  setup();
+  document.addEventListener("astro:after-swap", setup);
+</script>

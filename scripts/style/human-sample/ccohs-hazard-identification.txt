@@ -1,0 +1,234 @@
+url: https://www.ccohs.ca/oshanswers/hsprograms/hazard_identification.html
+snapshot: 20191209160406
+words: 1165
+status: ok
+---
+## What is a hazard?
+
+There are many definitions for hazard but the most common definition when talking about workplace health and safety is “A hazard is any source of potential damage, harm or adverse health effects on something or someone.”
+
+The CSA Z1002 Standard "Occupational health and safety - Hazard identification and elimination and risk assessment and control" uses the following terms:
+
+- Harm – physical injury or damage to health.
+
+- Hazard – a potential source of harm to a worker.
+
+Basically, a hazard is the potential for harm or an adverse effect (for example, to people as health effects, to organizations as property or equipment losses, or to the environment).
+
+Please see the OSH Answers on Hazard and Risk for more information.
+
+## What is hazard identification?
+
+Hazard identification is part of the process used to evaluate if any particular situation, item, thing, etc. may have the potential to cause harm. The term often used to describe the full process is risk assessment:
+
+- Identify hazards and risk factors that have the potential to cause harm (hazard identification).
+
+- Analyze and evaluate the risk associated with that hazard (risk analysis, and risk evaluation).
+
+- Determine appropriate ways to eliminate the hazard, or control the risk when the hazard cannot be eliminated (risk control).
+
+Overall, the goal of hazard identification is to find and record possible hazards that may be present in your workplace. It may help to work as a team and include both people familiar with the work area, as well as people who are not – this way you have both the experienced and fresh eye to conduct the inspection.
+
+## When should hazard identification be done?
+
+Hazard identification can be done:
+
+- During design and implementation
+
+- Designing a new process or procedure
+
+- Purchasing and installing new machinery
+
+- Before tasks are done
+
+- Checking equipment or following processes
+
+- Reviewing surroundings before each shift
+
+- While tasks are being done
+
+- Be aware of changes, abnormal conditions, or sudden emissions
+
+- During inspections
+
+- Formal, informal, supervisor, health and safety committee
+
+- After incidents
+
+- Near misses or minor events
+
+- Injuries
+
+To be sure that all hazards are found:
+
+- Look at all aspects of the work and include non-routine activities such as maintenance, repair, or cleaning.
+
+- Look at the physical work environment, equipment, materials, products, etc. that are used.
+
+- Include how the tasks are done.
+
+- Look at injury and incident records.
+
+- Talk to the workers: they know their job and its hazards best.
+
+- Include all shifts, and people who work off site either at home, on other job sites, drivers, teleworkers, with clients, etc.
+
+- Look at the way the work is organized or done (include experience of people doing the work, systems being used, etc).
+
+- Look at foreseeable unusual conditions (for example: possible impact on hazard control procedures that may be unavailable in an emergency situation, power outage, etc.).
+
+- Determine whether a product, machine or equipment can be intentionally or unintentionally changed (e.g., a safety guard that could be removed).
+
+- Review all of the phases of the lifecycle.
+
+- Examine risks to visitors or the public.
+
+- Consider the groups of people that may have a different level of risk such as young or inexperienced workers, persons with disabilities, or new or expectant mothers.
+
+## What types of hazards are there?
+
+A common way to classify hazards is by category:
+
+- biological – bacteria, viruses, insects, plants, birds, animals, and humans, etc.,
+
+- chemical – depends on the physical, chemical and toxic properties of the chemical,
+
+- ergonomic – repetitive movements, improper set up of workstation, etc.,
+
+- physical – radiation, magnetic fields, temperature extremes, pressure extremes (high pressure or vacuum), noise, etc.,
+
+- psychosocial – stress, violence, etc.,
+
+- safety – slipping/tripping hazards, inappropriate machine guarding, equipment malfunctions or breakdowns.
+
+## How do I know what is a hazard?
+
+Another way to look at health and safety in your workplace is to ask yourself the following questions. These are examples only. You may find other items or situations that can be a hazard. List any item that should be examined. During the risk assessment process, the level of harm will be assessed.
+
+What materials or situations do I come into contact with? Possibilities could include:
+
+- electricity
+
+- chemicals (liquids, gases, solids, mists, vapours, etc.)
+
+- temperature extremes of heat or cold (e.g., bakeries, foundries, meat processing)
+
+- ionizing/non-ionizing radiation (e.g., x-rays, ultraviolet (sun) rays)
+
+- oxygen deficiency
+
+- water
+
+What materials or equipment could I be struck by?
+
+- moving objects (e.g., forklifts, overhead cranes, vehicles)
+
+- flying objects (e.g., sparks or shards from grinding)
+
+- falling material (e.g., equipment from above)
+
+What objects or equipment could I strike or hit my body upon, or that part of my body might be caught in, on, or between?
+
+- stationary or moving objects
+
+- protruding objects
+
+- sharp or jagged edges
+
+- pinch points on machines (places where parts are very close together)
+
+- objects that stick out (protrude)
+
+- moving objects (conveyors, chains, belts, ropes, etc.)
+
+What could I fall from? (e.g., falls to lower levels)
+
+- objects, structures, tanks, silos, lofts
+
+- ladders, overhead walkways
+
+- roofs
+
+- trees, cliffs
+
+What could I slip or trip on? (e.g., falls on same level)
+
+- obstructions on floor, stairs
+
+- surface issues (wet, oily, icy)
+
+- footwear that is in poor condition
+
+How could I overexert myself?
+
+- lifting
+
+- pulling
+
+- pushing
+
+- carrying
+
+- repetitive motions
+
+What other situations could I come across?
+
+- unknown/unauthorized people in area
+
+- a potentially violent situation
+
+- working alone
+
+- confined space
+
+- missing/damaged materials
+
+- new equipment/procedure at work site
+
+- fire/explosion
+
+- chemical spill or release
+
+## Where can I find more information about hazards?
+
+It may be necessary to research about what might be a hazard as well as how much harm that hazard might cause. Sources of information include:
+
+- Safety Data Sheets (SDSs).
+
+- Manufacturer’s operating instructions, manuals, etc.
+
+- Test or monitor for exposure (occupational hygiene testing such as chemical or noise exposure).
+
+- Results of any job safety analysis.
+
+- Experiences of other organizations similar to yours.
+
+- Trade or safety associations.
+
+- Information, publications, alerts, etc. as published by reputable organizations, labour unions, or government agencies.
+
+## What if I am new to the workplace?
+
+If you are new to your workplace, to learn about the hazards of your job, you can:
+
+- ask your supervisor
+
+- ask a member of the health and safety committee or your health and safety representative
+
+- ask about standard operating procedures and precautions for your job
+
+- check product labels and safety data sheets
+
+- pay attention to signs and other warnings in your work
+
+- watch for posters or instructions at the entrance of a chemical storage room to warn of hazardous products
+
+- ask about operating instructions, safe work procedures, processes, etc.
+
+Document last updated on May 4, 2018
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

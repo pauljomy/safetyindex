@@ -1,0 +1,90 @@
+url: https://www.hse.gov.uk/noise/employers.htm
+snapshot: 20191120015529
+words: 424
+status: ok
+---
+# Employers' responsibilities - legal duties
+
+- What do the regulations require you to do?
+
+- Noise levels
+
+## What do the regulations require you to do?
+
+The Control of Noise at Work Regulations 2005 (Noise Regulations 2005) require employers to prevent or reduce risks to health and safety from exposure to noise at work. Employees have duties under the Regulations too. The Regulations require you as an employer to:
+
+- Assess the risks to your employees from noise at work;
+
+- Take action to reduce the noise exposure that produces those risks;
+
+- Provide your employees with hearing protection if you cannot reduce the noise exposure enough by using other methods;
+
+- Make sure the legal limits on noise exposure are not exceeded;
+
+- Provide your employees with information, instruction and training;
+
+- Carry out health surveillance where there is a risk to health.
+
+The Regulations do not apply to:
+
+- members of the public exposed to noise from their non-work activities, or making an informed choice to go to noisy places;
+
+- low-level noise that is a nuisance but causes no risk of hearing damage.
+
+Employers in the music and entertainment sectors have until 6 April 2008 to comply with the Noise Regulations 2005. Meanwhile they must continue to comply with the Noise at Work Regulations 1989, which the 2005 Regulations replace for all other workplaces.
+
+- More information about noise at work in the music and entertainment sector
+
+## Noise levels
+
+### What are the action levels and limit values?
+
+The Noise Regulations require you to take specific action at certain action values. These relate to:
+
+- the levels of exposure to noise of your employees averaged over a working day or week; and
+
+- the maximum noise (peak sound pressure) to which employees are exposed in a working day.
+
+The values are:
+
+- lower exposure action values:
+
+- daily or weekly exposure of 80 dB;
+
+- peak sound pressure of 135 dB;
+
+- upper exposure action values:
+
+- daily or weekly exposure of 85 dB;
+
+- peak sound pressure of 137 dB.
+
+The actions you need to take are described in the rest of the employers' web pages. The flow chart in Figure 1 will also help you decide what you need to do.
+
+There are also levels of noise exposure which must not be exceeded. These are called exposure limit values:
+
+- daily or weekly exposure of 87 dB;
+
+- peak sound pressure of 140 dB.
+
+- Health surveillance
+
+- Hearing protection
+
+- How to assess the risks
+
+- How to protect your workers
+
+- How noise is measured
+
+## Resources
+
+Noise: Don't lose your hearing
+
+Noise at work: A brief guide to controlling the risks
+
+Myth-buster on noise in music and entertainment
+
+Hearing loss - what's it like?
+
+More resources

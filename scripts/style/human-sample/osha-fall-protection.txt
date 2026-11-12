@@ -1,0 +1,136 @@
+url: https://www.osha.gov/SLTC/fallprotection/index.html
+snapshot: 20190101043342
+words: 795
+status: ok
+---
+- Safety and Health Topics
+
+- /
+
+- Fall Protection
+
+### Fall Protection
+
+**Fall Protection**
+
+#### Overview
+
+OSHA has developed this webpage to provide workers and employers useful, up-to-date information on fall protection.
+
+##### Why is fall protection important?
+
+Falls are among the most common causes of serious work related injuries and deaths. Employers must set up the work place to prevent employees from falling off of overhead platforms, elevated work stations or into holes in the floor and walls.
+
+##### What can be done to reduce falls?
+
+Employers must set up the work place to prevent employees from falling off of overhead platforms, elevated work stations or into holes in the floor and walls. OSHA requires that fall protection be provided at elevations of four feet in general industry workplaces, five feet in shipyards, six feet in the construction industry and eight feet in longshoring operations. In addition, OSHA requires that fall protection be provided when working over dangerous equipment and machinery, regardless of the fall distance.
+
+To prevent employees from being injured from falls, employers must:
+
+- Guard every floor hole into which a worker can accidentally walk (using a railing and toe-board or a floor hole cover).
+
+- Provide a guard rail and toe-board around every elevated open sided platform, floor or runway.
+
+- Regardless of height, if a worker can fall into or onto dangerous machines or equipment (such as a vat of acid or a conveyor belt) employers must provide guardrails and toe-boards to prevent workers from falling and getting injured.
+
+- Other means of fall protection that may be required on certain jobs include safety harness and line, safety nets, stair railings and hand rails.
+
+OSHA requires employers to:
+
+- Provide working conditions that are free of known dangers.
+
+- Keep floors in work areas in a clean and, so far as possible, a dry condition.
+
+- Select and provide required personal protective equipment at no cost to workers.
+
+- Train workers about job hazards in a language that they can understand.
+
+##### Construction Standards and Resources
+
+Fall protection is addressed in specific OSHA standards for Construction. Provides fall protection information related to Construction.
+
+More
+
+##### Non-Construction Standards/Policy
+
+Fall protection, for activities not in the construction industry is addressed in specific OSHA standards for General Industry, Shipyard Employment, Marine Terminals and Longshoring Industry.
+
+More
+
+##### Protecting Workers from Falls
+
+Provides references that may aid in recognizing and evaluating fall protection hazards in the workplace.
+
+More
+
+##### Additional Resources
+
+Provides links and references to additional resources related to fall protection.
+
+More
+
+##### Workers' Rights
+
+Workers have the right to:
+
+- Working conditions that do not pose a risk of serious harm.
+
+- Receive information and training (in a language and vocabulary the worker understands) about workplace hazards, methods to prevent them, and the OSHA standards that apply to their workplace.
+
+- Review records of work-related injuries and illnesses.
+
+- File a complaint asking OSHA to inspect their workplace if they believe there is a serious hazard or that their employer is not following OSHA's rules. OSHA will keep all identities confidential.
+
+- Exercise their rights under the law without retaliation, including reporting an injury or raising health and safety concerns with their employer or OSHA. If a worker has been retaliated against for using their rights, they must file a complaint with OSHA as soon as possible, but no later than 30 days.
+
+For additional information, see OSHA's Workers page.
+
+##### How to Contact OSHA
+
+Under the Occupational Safety and Health Act of 1970, employers are responsible for providing safe and healthful workplaces for their employees. OSHA's role is to ensure these conditions for America's working men and women by setting and enforcing standards, and providing training, education and assistance. For more information, visit www.osha.gov or call OSHA at 1-800-321-OSHA (6742), TTY 1-877-889-5627.
+
+#### National Safety Stand Down
+
+Find Out More! Photo: National Framers Council
+
+**In Spanish**
+
+- Engulfment in a Sugar Hopper. OSHA Fatal Facts No. 10, (2015).
+
+- Protecting Roofing Workers. OSHA Publication 3755, (2015).
+
+- Fall Protection in Construction. OSHA Publication 3146, (2015).
+
+- Narrow Frame Scaffolds. OSHA Fact Sheet (Publication 3722), (April 2014).
+
+- Material Hoist Collapse. OSHA Fatal Facts No. 8, (2014).
+
+- Falling Off Ladders Can Kill: Use Them Safely | Las ca&iacute;das desde escaleras pueden ser mortales: &Uacute;selas de forma segura (EPUB| MOBI). OSHA Publication 3625, (2013).
+
+- Prevention Videos (v-Tools): Construction Hazards. OSHA.
+
+- Fall Protection in Residential Construction (PDF). OSHA Guidance Document. Also available in Spanish.
+
+- Fall Protection in Residential Construction. OSHA, (2011). Provides links to OSHA tools and resources (Regulations, Directives, Letters of Interpretation, Compliance Assistance materials) to help prevent falls in residential construction.
+
+- Fall Protection Safety for Commercial Fishing. OSHA Fact Sheet, (2011).
+
+- Fall Protection in General Industry. OSHA QuickCard&trade; (Publication 3257), (2010).
+
+- Fall Prevention/Protection. OSHA Publications. Contains fall prevention materials in English and Spanish.
+
+- Construction Industry
+
+- Electrical
+
+- Electrical Contractors Industry
+
+- Powered Industrial Trucks
+
+- Residential Construction Industry
+
+- Sealant, Waterproofing, and Restoration Industry
+
+- Scaffolding
+
+Back to Top

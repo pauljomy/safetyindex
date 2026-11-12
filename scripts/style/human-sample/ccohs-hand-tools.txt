@@ -1,0 +1,76 @@
+url: https://www.ccohs.ca/oshanswers/safety_haz/hand_tools/general.html
+snapshot: 20191019153418
+words: 604
+status: ok
+---
+## What are some basic tips when using hand tools?
+
+- Ensure that employees are properly trained in the safe use of hand tools.
+
+- Always provide training on how to choose the right tool for the job, how to correctly use each tool, and how to identify when tools need repair.
+
+- Select the right tool for the job. Substitutes increase the chance of having an accident.
+
+- Use tools designed to allow wrist to stay straight. Avoid using hand tools with your wrist bent.
+
+- Use good quality tools.
+
+- Keep tools in good condition at all times.
+
+- Inspect tools for defects before use. Replace or repair defective tools.
+
+- Keep cutting tools sharp and cover sharp edges with a suitable covering to protect the tool and to prevent injuries from unintended contact.
+
+- Replace cracked, splintered, or broken handles on files, hammers, screwdrivers, or sledges.
+
+- Ensure that the handles of tools like hammers and axes fit tightly into the head of the tool.
+
+- Replace worn jaws on wrenches, pipe tools and pliers.
+
+- Redress burred or mushroomed heads of striking tools.
+
+- Pull on a wrench or pliers. Never push unless you hold the tool with your palm open.
+
+- Point sharp tools (e.g., saws, chisels, knives) laying on benches away from aisles and handles should not extend over the edge of the bench top.
+
+- Maintain tools carefully. Keep them clean and dry, and store them properly after each use.
+
+- Carry tools in a sturdy tool box to and from the worksite.
+
+- Wear safety glasses or goggles, or a faceshield (with safety glasses or goggles) and well-fitting gloves appropriate for the hazards to which you may be exposed when doing various tasks.
+
+- Keep the work environment clean and tidy to avoid clutter which may cause accidents.
+
+- Use a heavy belt or apron and hang tools pointed down at your sides, not behind your back.
+
+- Keep the work space tidy. Store tools properly when not in use.
+
+## What should I avoid when using hand tools?
+
+- Do not use tools for jobs they are not intended to do. For example, do not use a slot screw driver as a chisel, pry bar, wedge or punch, or wrenches as hammers.
+
+- Do not apply excessive force or pressure on tools.
+
+- Do not cut towards yourself when using cutting tools.
+
+- Do not hold the stock in the palm of your hand when using a cutting tool or a screwdriver. Always lay it on a workbench or in a vice.
+
+- Do not wear bulky gloves to operate hand tools.
+
+- Do not throw tools. Hand them, handle first, directly to other workers.
+
+- Do not carry tools in a way that interferes with using both hands on a ladder, while climbing on a structure, or when doing any hazardous work. If working on a ladder or scaffold, tools should be raised and lowered using a bucket and hand line.
+
+- Do not carry a sharp tool in your pocket.
+
+- Do not use tools during electrical work unless they are designed for electrical work (e.g., properly insulated).
+
+- Do not leave tools lying around on elevated structures such as a platform or scaffold as they may be bumped and fall.
+
+Document last updated on August 1, 2017
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.

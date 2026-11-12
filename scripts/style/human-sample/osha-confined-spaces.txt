@@ -1,0 +1,82 @@
+url: https://www.osha.gov/SLTC/confinedspaces/index.html
+snapshot: 20191214000236
+words: 642
+status: ok
+---
+- Safety and Health Topics
+
+- /
+
+- Confined Spaces
+
+### Confined Spaces
+
+**Confined Spaces Menu**
+
+#### Overview
+
+##### Visit the Confined Spaces in Construction - Final Rule Page for information on the final rule.
+
+##### What are confined spaces?
+
+Ventilation hoses provide air and exhaust toxic vapors during confined space entry. A guardrail would also be necessary to protect workers from potential falls.
+
+Many workplaces contain areas that are considered "confined spaces" because while they are not necessarily designed for people, they are large enough for workers to enter and perform certain jobs. A confined space also has limited or restricted means for entry or exit and is not designed for continuous occupancy. Confined spaces include, but are not limited to, tanks, vessels, silos, storage bins, hoppers, vaults, pits, manholes, tunnels, equipment housings, ductwork, pipelines, etc.
+
+OSHA uses the term "permit-required confined space" (permit space) to describe a confined space that has one or more of the following characteristics: contains or has the potential to contain a hazardous atmosphere; contains material that has the potential to engulf an entrant; has walls that converge inward or floors that slope downward and taper into a smaller area which could trap or asphyxiate an entrant; or contains any other recognized safety or health hazard, such as unguarded machinery, exposed live wires, or heat stress.
+
+##### Standards and Enforcement
+
+Confined spaces are addressed in specific OSHA standards for general industry, shipyard employment and construction.
+
+More
+
+##### Hazards and Solutions
+
+Provides references that may aid in recognizing and evaluating hazards and possible solutions related to confined spaces.
+
+More
+
+##### Construction
+
+Provides construction information related to confined spaces.
+
+More
+
+##### Additional Resources
+
+Provides links and references to additional resources related to confined spaces.
+
+More
+
+- Calibrating and Testing Direct-Reading Portable Gas Monitors. OSHA Safety and Health Information Bulletin (SHIB), (September 30, 2013). Provides workers and employers guidance on calibrating and testing direct-reading portable gas monitors (hereafter, "DRPGMs" or "instruments").
+
+- Loss of Start-Up Oxygen in CSE SR-100 Self-Contained Self-Rescuers. OSHA Alert, (April 2012). Alerts employers and workers using the CSE Corporation's SR-100 Self-Contained Self-Rescuer (SCSR) to potential failure problems with these respirators.
+
+- Permit-Required Confined Spaces in General Industry. OSHA QuickCard&trade;. Explains what workers should do before entering a confined space, such as an underground vaults, tanks, storage bins, silos or manholes.
+
+- Shipyard Employment. OSHA eTool. Confined and enclosed space operations have a greater likelihood of causing fatalities, severe injuries, and illnesses than any other type of shipyard work.
+
+- Confined or Enclosed Spaces and Other Dangerous Atmospheres. Helps workers identify and control the hazards that cause the most serious confined space-related injuries.
+
+##### Workers' Rights
+
+Workers have the right to:
+
+- Working conditions that do not pose a risk of serious harm.
+
+- Receive information and training (in a language and vocabulary the worker understands) about workplace hazards, methods to prevent them, and the OSHA standards that apply to their workplace.
+
+- Review records of work-related injuries and illnesses.
+
+- File a complaint asking OSHA to inspect their workplace if they believe there is a serious hazard or that their employer is not following OSHA's rules. OSHA will keep all identities confidential.
+
+- Exercise their rights under the law without retaliation, including reporting an injury or raising health and safety concerns with their employer or OSHA. If a worker has been retaliated against for using their rights, they must file a complaint with OSHA as soon as possible, but no later than 30 days.
+
+For additional information, see OSHA's Workers page.
+
+##### How to Contact OSHA
+
+Under the Occupational Safety and Health Act of 1970, employers are responsible for providing safe and healthful workplaces for their employees. OSHA's role is to help ensure these conditions for America's working men and women by setting and enforcing standards, and providing training, education and assistance. For more information, visit www.osha.gov or call OSHA at 1-800-321-OSHA (6742), TTY 1-877-889-5627.
+
+Back to Top

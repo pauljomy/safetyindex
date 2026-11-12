@@ -1,4 +1,7 @@
 ---
+topicType: country-only
+keywordSource: topic sheet
+noindex: true
 title: "OSHA Bedeutung: Was die Abkürzung heißt und wer in Deutschland zuständig ist"
 seoTitle: "OSHA Bedeutung: Was bedeutet OSHA im Arbeitsschutz?"
 subtitle: "OSHA übersetzt, die US-Behörde eingeordnet und erklärt, wer in Deutschland für Arbeitsschutz zuständig ist: Berufsgenossenschaften, Unfallkassen und Länderbehörden."

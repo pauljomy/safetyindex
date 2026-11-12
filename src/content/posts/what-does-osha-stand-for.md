@@ -1,4 +1,8 @@
 ---
+topicType: country-only
+keywordSource: topic sheet
+linkPhrases:
+  - OSH Act
 title: What Does OSHA Stand For? Meaning, Mission and What It Does
 seoTitle: What Does OSHA Stand For? Meaning, Mission, Role
 subtitle: The OSHA acronym spelled out, plus what the US agency does, who it covers, how state plans fit in, and where to contact it.

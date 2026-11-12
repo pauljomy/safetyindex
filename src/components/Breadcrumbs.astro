@@ -1,0 +1,17 @@
+---
+// Visible breadcrumb trail (Home → market → hub → page). The same list feeds BreadcrumbList JSON-LD in the view.
+import type { Crumb } from "@lib/schema";
+import { langOf, ui } from "../i18n/ui";
+const { crumbs } = Astro.props as { crumbs: Crumb[] };
+const s = ui[langOf(Astro.url.pathname)];
+---
+<nav aria-label={s.breadcrumb} class="animate not-prose mb-6 text-sm" data-pagefind-ignore>
+  <ol class="flex flex-wrap items-center gap-1">
+    {crumbs.map((c, i) => (
+      <li class="flex items-center gap-1">
+        {i > 0 && <span aria-hidden="true">›</span>}
+        {i < crumbs.length - 1 ? <a href={c.href} class="underline decoration-black/30 underline-offset-2 hover:text-black dark:decoration-white/30 dark:hover:text-white">{c.label}</a> : <span aria-current="page">{c.label}</span>}
+      </li>
+    ))}
+  </ol>
+</nav>

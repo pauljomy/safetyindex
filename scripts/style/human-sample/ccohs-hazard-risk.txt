@@ -1,0 +1,153 @@
+url: https://www.ccohs.ca/oshanswers/hsprograms/hazard_risk.html
+snapshot: 20200115225928
+words: 1211
+status: ok
+---
+## What is a hazard?
+
+The meaning of the word hazard can be confusing. Often dictionaries do not give specific definitions or combine it with the term "risk". For example, one dictionary defines hazard as "a danger or risk" which helps explain why many people use the terms interchangeably.
+
+There are many definitions for hazard but the most common definition when talking about workplace health and safety is:
+
+A **hazard**is any source of **potential** damage, harm or adverse health effects on something or someone.
+
+The CSA Z1002 Standard "Occupational health and safety - Hazard identification and elimination and risk assessment and control" uses the following terms:
+
+**Harm**- physical injury or damage to health.
+
+**Hazard**- a potential source of harm to a worker.
+
+Basically, a hazard is the potential for harm or an adverse effect (for example, to people as health effects, to organizations as property or equipment losses, or to the environment).
+
+Sometimes the resulting harm is referred to as the hazard instead of the actual source of the hazard. For example, the disease tuberculosis (TB) might be called a "hazard" by some but, in general, the TB-causing bacteria (Mycobacterium tuberculosis) would be considered the "hazard" or "hazardous biological agent".
+
+## What are examples of a hazard?
+
+Workplace hazards can come from a wide range of sources. General examples include any substance, material, process, practice, etc. that has the ability to cause harm or adverse health effect to a person or property. See Table 1.
+
+| Table 1
+
+Examples of Hazards and Their Effects |
+| Workplace Hazard | Example of Hazard | Example of Harm Caused |
+| Thing | Knife | Cut |
+| Substance | Benzene | Leukemia |
+| Material | Mycobacterium tuberculosis | Tuberculosis |
+| Source of Energy | Electricity | Shock, electrocution |
+| Condition | Wet floor | Slips, falls |
+| Process | Welding | Metal fume fever |
+| Practice | Hard rock mining | Silicosis |
+| Behaviour | Bullying | Anxiety, fear, depression |
+
+Workplace hazards also include practices or conditions that release uncontrolled energy like:
+
+- an object that could fall from a height (potential or gravitational energy),
+
+- a run-away chemical reaction (chemical energy),
+
+- the release of compressed gas or steam (pressure; high temperature),
+
+- entanglement of hair or clothing in rotating equipment (kinetic energy), or
+
+- contact with electrodes of a battery or capacitor (electrical energy).
+
+## What is risk?
+
+**Risk** is the chance or probability that a person will be harmed or experience an adverse health effect if exposed to a hazard. It may also apply to situations with property or equipment loss, or harmful effects on the environment.
+
+The CSA Z1002 Standard "Occupational health and safety - Hazard identification and elimination and risk assessment and control" uses the following terms:
+
+**Risk**– the combination of the likelihood of the occurrence of a harm and the severity of that harm.
+
+**Likelihood**– the chance of something happening.
+
+**Note:**In risk assessment terminology, the word “likelihood” is used to refer to the chance of something happening, whether defined, measured, or determined objectively or subjectively, qualitatively or quantitatively, and described using general terms or mathematically (e.g., a probability or a frequency over a given time period).
+
+For example: the risk of developing cancer from smoking cigarettes could be expressed as:
+
+- "cigarette smokers are 12 times (for example) more likely to die of lung cancer than non-smokers", or
+
+- "the number per 100,000 smokers who will develop lung cancer" (actual number depends on factors such as their age and how many years they have been smoking). These risks are expressed as a probability or likelihood of developing a disease or getting injured, whereas hazard refers to the agent responsible (i.e. smoking).
+
+Factors that influence the degree or likelihood of risk are:
+
+- the nature of the exposure: how much a person is exposed to a hazardous thing or condition (e.g., several times a day or once a year),
+
+- how the person is exposed (e.g., breathing in a vapour, skin contact), and
+
+- the severity of the effect. For example, one substance may cause skin cancer, while another may cause skin irritation. Cancer is a much more serious effect than irritation.
+
+## What is a risk assessment?
+
+Risk assessment is the process where you:
+
+- Identify hazards and risk factors that have the potential to cause harm (hazard identification).
+
+- Analyze and evaluate the risk associated with that hazard (risk analysis, and risk evaluation).
+
+- Determine appropriate ways to eliminate the hazard, or control the risk when the hazard cannot be eliminated (risk control).
+
+The OSH Answers document on Risk Assessment has details on how to conduct an assessment and establish priorities.
+
+## What is an adverse health effect?
+
+A general definition of adverse health effect is "any change in body function or the structures of cells that can lead to disease or health problems".
+
+Adverse health effects include:
+
+- bodily injury,
+
+- disease,
+
+- change in the way the body functions, grows, or develops,
+
+- effects on a developing fetus (teratogenic effects, fetotoxic effects),
+
+- effects on children, grandchildren, etc. (inheritable genetic effects)
+
+- decrease in life span,
+
+- change in mental condition resulting from stress, traumatic experiences, exposure to solvents, and so on, and
+
+- effects on the ability to accommodate additional stress.
+
+## Will exposure to hazards in the workplace always cause injury, illness or other adverse health effects?
+
+Not necessarily. To answer this question, you need to know:
+
+- what hazards are present,
+
+- how a person is exposed (route of exposure, as well as how often and how much exposure occurred),
+
+- what kind of effect could result from the specific exposure a person experienced,
+
+- the risk (or likelihood) that exposure to a hazardous thing or condition would cause an injury, or disease or some incidence causing damage, and
+
+- how severe would the damage, injury or harm (adverse health effect) be from the exposure.
+
+The effects can be acute, meaning that the injury or harm can occur or be felt as soon as a person comes in contact with the hazardous agent (e.g., a splash of acid in a person's eyes). Some responses may be chronic (delayed). For example, exposure to poison ivy may cause red swelling on the skin two to six hours after contact with the plant. On the other hand, longer delays are possible: mesothelioma, a kind of cancer in the lining of the lung cavity, can develop 20 years or more after exposure to asbestos.
+
+Once the hazard is removed or eliminated, the effects may be reversible or irreversible (permanent). For example, a hazard may cause an injury that can heal completely (reversible) or result in an untreatable disease (irreversible).
+
+## What types of hazards are there?
+
+A common way to classify hazards is by category:
+
+- **biological** - bacteria, viruses, insects, plants, birds, animals, and humans, etc.,
+
+- **chemical** - depends on the physical, chemical and toxic properties of the chemical,
+
+- **ergonomic** - repetitive movements, improper set up of workstation, etc.,
+
+- **physical** - radiation, magnetic fields, pressure extremes (high pressure or vacuum), noise, etc.,
+
+- **psychosocial** - stress, violence, etc.,
+
+- **safety** - slipping/tripping hazards, inappropriate machine guarding, equipment malfunctions or breakdowns.
+
+Document last updated on February 2, 2017
+
+Add a badge to your website or intranet so your workers can quickly find answers to their health and safety questions.
+
+### Disclaimer
+
+Although every effort is made to ensure the accuracy, currency and completeness of the information, CCOHS does not guarantee, warrant, represent or undertake that the information provided is correct, accurate or current. CCOHS is not liable for any loss, claim, or demand arising directly or indirectly from any use or reliance upon the information.
