@@ -1,0 +1,120 @@
+{
+  "slug": "safety-glasses-z87-osha-requirements",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/blog/safety-glasses-z87-osha-requirements",
+  "doc_ref": "SI-US-7",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Safety glasses pre-use inspection checklist (US, federal OSHA)",
+  "subtitle": "Check eyewear against 29 CFR 1910.133 / 1926.102 and OSHA's nonmandatory Appendix B before each shift or task.",
+  "regulation_line": "29 CFR 1910.133 Eye and face protection (general industry) and 29 CFR 1926.102 (constructi",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Check each pair before use and again whenever the task or hazard changes.",
+    "Take any pair that fails an item out of use and report it to whoever runs your hazard assessment.",
+    "Items marked Appendix B are OSHA guidance, not mandatory rule text."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Marking and compliance",
+      "items": [
+        [
+          "Manufacturer marking",
+          "The frame or lens is distinctly marked so you can identify the manufacturer.",
+          "29 CFR 1910.133(a)(4); 29 CFR 1926.102"
+        ],
+        [
+          "Accepted standard",
+          "The manufacturer's documentation shows compliance with ANSI/ISEA Z87.1-2010, ANSI Z87.1-2003 or ANSI Z87.1-1989 (R-1998), or the employer has shown the device is at least as effective.",
+          "29 CFR 1910.133(b)(1)-(2)"
+        ],
+        [
+          "Filter lenses for light radiation",
+          "Lenses used against welding or cutting light are marked or identified as filter lenses, with a shade suited to the work. A tint alone doesn't count.",
+          "29 CFR 1910.133(a)(5); Appendix B note (4)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Condition and fit",
+      "items": [
+        [
+          "Side protection",
+          "Built-in or detachable side shields are present and secure wherever flying objects are a hazard.",
+          "29 CFR 1910.133(a)(2)"
+        ],
+        [
+          "Snug fit",
+          "The eyewear fits snugly, is reasonably comfortable and doesn't unduly interfere with movement.",
+          "29 CFR 1926.102"
+        ],
+        [
+          "Seal for dust or splash",
+          "For dust or chemical splash tasks, the protector seals to the face all the way around.",
+          "Appendix B, paragraph 6"
+        ],
+        [
+          "Clean, clear lenses",
+          "Lenses are clean and not fogged. Clean them as often as conditions require.",
+          "Appendix B note (8)"
+        ],
+        [
+          "Cleanable and disinfectable",
+          "The device can be cleaned and disinfected, especially if it is shared.",
+          "29 CFR 1926.102"
+        ],
+        [
+          "Regular maintenance",
+          "The eyewear is inspected, cleaned and maintained at regular intervals so it still gives the protection required.",
+          "Appendix B (for 1910.132(a) and (b))"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Wearer and combinations",
+      "items": [
+        [
+          "Prescription wearers",
+          "Either protective eyewear with the prescription built in, or protection worn over glasses without pushing either set of lenses out of position.",
+          "29 CFR 1910.133(a)(3)"
+        ],
+        [
+          "Contact lens wearers",
+          "They wear appropriate eye protection too. Watch for extra risk from dust or chemicals.",
+          "Appendix B note (6)"
+        ],
+        [
+          "Face shields and welding helmets",
+          "They are worn only over primary eye protection (spectacles or goggles).",
+          "Appendix B notes (3) and (9)"
+        ],
+        [
+          "Electrical hazard areas",
+          "Metal-frame eyewear is used with caution, or avoided, near electrical hazards.",
+          "Appendix B note (7)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.133 Eye and face protection (general industry) and 29 CFR 1926.102 (construction), OSHA",
+    "29 CFR 1910 Subpart I Appendix B, nonmandatory hazard assessment and PPE selection guidance, OSHA"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
