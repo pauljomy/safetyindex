@@ -107,6 +107,30 @@
    "volume": 70,
    "kd": 4,
    "intent": "informational"
+  },
+  {
+   "keyword": "sicherheitszeichen farben bedeutung",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "verbotszeichen gebotszeichen warnzeichen",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "warnzeichen arbeitsschutz",
+   "volume": 170,
+   "kd": 2,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sicherheitszeichen iso 7010",
+   "volume": 10,
+   "kd": null,
+   "intent": "transactional"
   }
  ],
  "source": "OpenSEO get_keyword_metrics",

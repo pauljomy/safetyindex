@@ -1,0 +1,1752 @@
+{
+ "ppe": {
+  "seed": "personal protective equipment",
+  "rows": [
+   {
+    "keyword": "personal protective equipment",
+    "volume": 8100,
+    "kd": 40,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal.protective equipment",
+    "volume": 74000,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "what are personal protective equipment",
+    "volume": 14800,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "what is personal protective equipment",
+    "volume": 14800,
+    "kd": 33,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety equipment",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "what is personal protective equipment ppe",
+    "volume": 14800,
+    "kd": 25,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment ppe",
+    "volume": 8100,
+    "kd": 40,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective safety equipment",
+    "volume": 8100,
+    "kd": 31,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "donning and doffing ppe",
+    "volume": 3600,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "equipment ppe",
+    "volume": 8100,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective clothing equipment",
+    "volume": 6600,
+    "kd": 30,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "droplet precautions ppe",
+    "volume": 4400,
+    "kd": 3,
+    "intent": "informational"
+   },
+   {
+    "keyword": "definition of personal protective equipment",
+    "volume": 5400,
+    "kd": 27,
+    "intent": "informational"
+   },
+   {
+    "keyword": "donning ppe order",
+    "volume": 5400,
+    "kd": 1,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment ppe definition",
+    "volume": 5400,
+    "kd": 40,
+    "intent": "informational"
+   },
+   {
+    "keyword": "fall protection equipment",
+    "volume": 4400,
+    "kd": 16,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment define",
+    "volume": 5400,
+    "kd": 27,
+    "intent": "informational"
+   },
+   {
+    "keyword": "doffing ppe order",
+    "volume": 3600,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "donning and doffing personal protective equipment",
+    "volume": 3600,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "protective put",
+    "volume": 1600,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for bloodborne pathogens",
+    "volume": 3600,
+    "kd": 13,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "define protective equipment",
+    "volume": 5400,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective clothing and equipment",
+    "volume": 2900,
+    "kd": 19,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "contact precautions ppe",
+    "volume": 2900,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for contact precautions",
+    "volume": 2900,
+    "kd": 7,
+    "intent": "informational"
+   },
+   {
+    "keyword": "protective asset protection",
+    "volume": 1900,
+    "kd": 8,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for welding",
+    "volume": 1900,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "protective components rs3",
+    "volume": 90,
+    "kd": 0,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "gloves personal protective equipment",
+    "volume": 1900,
+    "kd": 10,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "donning and doffing ppe order",
+    "volume": 2400,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "welder personal protective equipment",
+    "volume": 1900,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment ppe is the protection of",
+    "volume": 1300,
+    "kd": 30,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for airborne precautions",
+    "volume": 1900,
+    "kd": 5,
+    "intent": "informational"
+   },
+   {
+    "keyword": "ppe kit",
+    "volume": 720,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "example of personal protective equipment",
+    "volume": 1600,
+    "kd": 22,
+    "intent": "informational"
+   },
+   {
+    "keyword": "ppe suit",
+    "volume": 590,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal safety devices",
+    "volume": 1900,
+    "kd": 6,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment construction",
+    "volume": 1300,
+    "kd": 10,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "protective factors definition",
+    "volume": 1300,
+    "kd": 10,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment construction industry",
+    "volume": 1300,
+    "kd": 10,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "afa protective systems",
+    "volume": 880,
+    "kd": 6,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "what are employees responsible for regarding personal protective equipment",
+    "volume": 1000,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "protective supervision ihss",
+    "volume": 1300,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment mask",
+    "volume": 1000,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "5 protective factors",
+    "volume": 590,
+    "kd": 7,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment laboratory",
+    "volume": 880,
+    "kd": 11,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "correct order for donning ppe",
+    "volume": 880,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for infection control",
+    "volume": 880,
+    "kd": 20,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "examples of protective factors",
+    "volume": 880,
+    "kd": 10,
+    "intent": "informational"
+   },
+   {
+    "keyword": "osha personal protective equipment",
+    "volume": 880,
+    "kd": 10,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "correct order of ppe",
+    "volume": 880,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "picture of personal protective equipment",
+    "volume": 880,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "ppe required sign",
+    "volume": 390,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment healthcare",
+    "volume": 880,
+    "kd": 28,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "height safety equipment",
+    "volume": 170,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "image of personal protective equipment",
+    "volume": 880,
+    "kd": 3,
+    "intent": "informational"
+   },
+   {
+    "keyword": "proper ppe",
+    "volume": 880,
+    "kd": 32,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment for tuberculosis",
+    "volume": 880,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "list of personal protective equipment ppe",
+    "volume": 720,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "personal protective equipment for mrsa",
+    "volume": 880,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "standard precautions ppe",
+    "volume": 590,
+    "kd": 6,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for tb",
+    "volume": 880,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "lab protective equipment",
+    "volume": 880,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment for ebola",
+    "volume": 880,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "ppe use",
+    "volume": 260,
+    "kd": 29,
+    "intent": "informational"
+   },
+   {
+    "keyword": "lab personal protective equipment",
+    "volume": 880,
+    "kd": 11,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal defence devices",
+    "volume": 1300,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment required",
+    "volume": 880,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "medical guardian fall detection devices",
+    "volume": 1300,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "personal protective equipment health care",
+    "volume": 880,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "ca ihss protective supervision",
+    "volume": 1300,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment in nursing",
+    "volume": 720,
+    "kd": 22,
+    "intent": "informational"
+   },
+   {
+    "keyword": "protective solutions",
+    "volume": 480,
+    "kd": 0,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "personal protective equipment in hospital",
+    "volume": 720,
+    "kd": 28,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "sf86 protective order",
+    "volume": null,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "firefighter personal protective equipment",
+    "volume": 720,
+    "kd": 1,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment list",
+    "volume": 720,
+    "kd": 16,
+    "intent": "informational"
+   },
+   {
+    "keyword": "levels of personal protective equipment",
+    "volume": 720,
+    "kd": 9,
+    "intent": "informational"
+   },
+   {
+    "keyword": "doffing ppe order cdc",
+    "volume": 480,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment electrical",
+    "volume": 720,
+    "kd": 3,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal safety gear",
+    "volume": 30,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "lab ppe equipment",
+    "volume": 880,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "what personal protective equipment",
+    "volume": 590,
+    "kd": 40,
+    "intent": "informational"
+   },
+   {
+    "keyword": "loc protective styles",
+    "volume": 590,
+    "kd": 0,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "what article comes first when putting on personal protective equipment",
+    "volume": 590,
+    "kd": 9,
+    "intent": "informational"
+   },
+   {
+    "keyword": "ppe for hot surfaces",
+    "volume": null,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment vending machine",
+    "volume": 590,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "visibility and protective systems answers",
+    "volume": 1000,
+    "kd": 29,
+    "intent": "informational"
+   },
+   {
+    "keyword": "types of personal protective equipment",
+    "volume": 590,
+    "kd": 22,
+    "intent": "informational"
+   },
+   {
+    "keyword": "putting on personal protective equipment",
+    "volume": 260,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment suits",
+    "volume": 590,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "safeguard equipment",
+    "volume": 110,
+    "kd": 5,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "what is personal protective equipment in healthcare",
+    "volume": 590,
+    "kd": 31,
+    "intent": "informational"
+   },
+   {
+    "keyword": "if the employee provides protective equipment",
+    "volume": 10,
+    "kd": 5,
+    "intent": "informational"
+   },
+   {
+    "keyword": "training personal protective equipment",
+    "volume": 480,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "donning doffing ppe cdc",
+    "volume": 720,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "how to put on personal protective equipment",
+    "volume": 480,
+    "kd": 15,
+    "intent": "informational"
+   },
+   {
+    "keyword": "practice osha 10 test",
+    "volume": 880,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "3m personal protective equipment",
+    "volume": 480,
+    "kd": 12,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "protective isolation precautions",
+    "volume": 320,
+    "kd": 3,
+    "intent": "informational"
+   },
+   {
+    "keyword": "full personal protective equipment",
+    "volume": 480,
+    "kd": 50,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "western protective solutions",
+    "volume": 70,
+    "kd": 0,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "osha personal protective equipment standard",
+    "volume": 480,
+    "kd": 56,
+    "intent": "informational"
+   },
+   {
+    "keyword": "correct order to put on ppe",
+    "volume": 590,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical personal protective equipment",
+    "volume": 480,
+    "kd": 46,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "3m personal safety division",
+    "volume": 50,
+    "kd": 0,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "why personal protective equipment is important",
+    "volume": 390,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment includes",
+    "volume": 390,
+    "kd": 28,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "all respiratory protection equipment must be approved by",
+    "volume": 10,
+    "kd": 8,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment in the workplace",
+    "volume": 390,
+    "kd": 32,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment ppe includes",
+    "volume": 390,
+    "kd": 40,
+    "intent": "informational"
+   },
+   {
+    "keyword": "tb ppe precautions",
+    "volume": 480,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment respiratory",
+    "volume": 390,
+    "kd": 36,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal protective equipment regulations 2002",
+    "volume": 10,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "respirator personal protective equipment",
+    "volume": 390,
+    "kd": 15,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chapter 3 personal protective equipment quizlet",
+    "volume": 10,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment removal",
+    "volume": 390,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "personal fall arrest system pfas",
+    "volume": 720,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "personal protective equipment distributors",
+    "volume": 320,
+    "kd": 14,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "personal protective equipment poster",
+    "volume": 320,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "under which of these circumstances is a protective system required",
+    "volume": 170,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "how to remove personal protective equipment",
+    "volume": 320,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "ppe safety equipment",
+    "volume": 320,
+    "kd": 29,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "why wear personal protective equipment",
+    "volume": 260,
+    "kd": 18,
+    "intent": "informational"
+   },
+   {
+    "keyword": "wear personal protective equipment",
+    "volume": 210,
+    "kd": 23,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment usage",
+    "volume": 260,
+    "kd": 22,
+    "intent": "informational"
+   },
+   {
+    "keyword": "what ppe for airborne precautions",
+    "volume": 390,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "toolbox talk personal protective equipment",
+    "volume": 260,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "definition of protective clothing",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "what are employees responsible for regarding personal protective equipment ppe",
+    "volume": 260,
+    "kd": 9,
+    "intent": "informational"
+   },
+   {
+    "keyword": "osha ppe standard",
+    "volume": 480,
+    "kd": 56,
+    "intent": "informational"
+   },
+   {
+    "keyword": "medical personal protective equipment",
+    "volume": 260,
+    "kd": 36,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "ppe order on and off",
+    "volume": 140,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "what is the purpose of personal protective equipment",
+    "volume": 260,
+    "kd": 18,
+    "intent": "informational"
+   },
+   {
+    "keyword": "close protection training",
+    "volume": 110,
+    "kd": 2,
+    "intent": "informational"
+   },
+   {
+    "keyword": "personal protective equipment standards",
+    "volume": 260,
+    "kd": 39,
+    "intent": "informational"
+   },
+   {
+    "keyword": "cat4 ppe",
+    "volume": 110,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "which of the following pieces of personal protective equipment",
+    "volume": 260,
+    "kd": 8,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "construction safety harness equipment",
+    "volume": 10,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "items of personal protective equipment",
+    "volume": 260,
+    "kd": 20,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "lineman safety equipment",
+    "volume": 50,
+    "kd": 0,
+    "intent": "transactional"
+   }
+  ]
+ },
+ "hazards-chemicals": {
+  "seed": "chemical safety",
+  "rows": [
+   {
+    "keyword": "chemical safety",
+    "volume": 1300,
+    "kd": 84,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety insurance",
+    "volume": 40500,
+    "kd": 8,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "chemical safety data sheet pdf",
+    "volume": 1600,
+    "kd": 14,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety culture",
+    "volume": 18100,
+    "kd": 23,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety board",
+    "volume": 1600,
+    "kd": 20,
+    "intent": "informational"
+   },
+   {
+    "keyword": "super safety",
+    "volume": 22200,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety goggles",
+    "volume": 590,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "federal motor carrier safety portal",
+    "volume": 74000,
+    "kd": null,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety symbols",
+    "volume": 590,
+    "kd": 24,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety not guaranteed",
+    "volume": 14800,
+    "kd": 30,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety board videos",
+    "volume": 480,
+    "kd": 33,
+    "intent": "informational"
+   },
+   {
+    "keyword": "midwest safety",
+    "volume": 14800,
+    "kd": 26,
+    "intent": "informational"
+   },
+   {
+    "keyword": "what is chemical safety",
+    "volume": 480,
+    "kd": 23,
+    "intent": "informational"
+   },
+   {
+    "keyword": "super safety trigger",
+    "volume": 22200,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chemical safety courses",
+    "volume": 390,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "family safety",
+    "volume": 3600,
+    "kd": 45,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety training",
+    "volume": 390,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "osha training",
+    "volume": 12100,
+    "kd": 34,
+    "intent": "informational"
+   },
+   {
+    "keyword": "us chemical safety board",
+    "volume": 390,
+    "kd": 25,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety vest",
+    "volume": 22200,
+    "kd": 15,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chemical safety and hazard investigation board",
+    "volume": 320,
+    "kd": 20,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety prescription frames",
+    "volume": 49500,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "chemical safety glasses",
+    "volume": 320,
+    "kd": 2,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "link safety checker",
+    "volume": 5400,
+    "kd": 48,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety in chemical laboratory",
+    "volume": 260,
+    "kd": 20,
+    "intent": "informational"
+   },
+   {
+    "keyword": "national safety council",
+    "volume": 9900,
+    "kd": 59,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety in chemical lab",
+    "volume": 260,
+    "kd": 14,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety plan",
+    "volume": 9900,
+    "kd": 37,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety com sds search",
+    "volume": 260,
+    "kd": 37,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "osha 10 certification online",
+    "volume": 12100,
+    "kd": 32,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety sds search",
+    "volume": 210,
+    "kd": 27,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "federal motor carrier safety administration",
+    "volume": 12100,
+    "kd": 28,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety board investigations",
+    "volume": 170,
+    "kd": 33,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety signs",
+    "volume": 12100,
+    "kd": 23,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety chemical labels",
+    "volume": 170,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "idrive safety",
+    "volume": 33100,
+    "kd": 16,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "international chemical safety cards",
+    "volume": 170,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "msa safety",
+    "volume": 8100,
+    "kd": 42,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety cards",
+    "volume": 170,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "consumer product safety commission",
+    "volume": 14800,
+    "kd": 64,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety diamond",
+    "volume": 170,
+    "kd": 8,
+    "intent": "informational"
+   },
+   {
+    "keyword": "aviation safety network",
+    "volume": 8100,
+    "kd": 34,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical laboratory safety rules",
+    "volume": 140,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety harness",
+    "volume": 9900,
+    "kd": 8,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "american chemical society safety video",
+    "volume": 140,
+    "kd": 3,
+    "intent": "informational"
+   },
+   {
+    "keyword": "walmart fire safety cbl answers",
+    "volume": 22200,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety signs",
+    "volume": 140,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "material safety and data sheet",
+    "volume": 22200,
+    "kd": null,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical lab safety rules",
+    "volume": 140,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "total safety",
+    "volume": 8100,
+    "kd": 22,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety signage",
+    "volume": 140,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety squat bar",
+    "volume": 9900,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "safety goggles chemical splash",
+    "volume": 110,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "safety unlimited",
+    "volume": 3600,
+    "kd": 16,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety gloves",
+    "volume": 110,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "safety culture login",
+    "volume": 4400,
+    "kd": 16,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety equipment",
+    "volume": 110,
+    "kd": 11,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "osha 10 hour training",
+    "volume": 14800,
+    "kd": 38,
+    "intent": "informational"
+   },
+   {
+    "keyword": "us chemical safety and hazard investigation board",
+    "volume": 110,
+    "kd": 23,
+    "intent": "informational"
+   },
+   {
+    "keyword": "osha 10 hrs training",
+    "volume": 18100,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "safety data sheet for chemical products",
+    "volume": 110,
+    "kd": 37,
+    "intent": "informational"
+   },
+   {
+    "keyword": "stanley brown safety plan",
+    "volume": 4400,
+    "kd": 16,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical process safety fundamentals with applications",
+    "volume": 110,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "occupational safety and health administration",
+    "volume": 8100,
+    "kd": 47,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical process safety book",
+    "volume": 110,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "faa safety",
+    "volume": 4400,
+    "kd": 37,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety cabinet",
+    "volume": 90,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "osha 10 training",
+    "volume": 6600,
+    "kd": 38,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical resistant safety boots",
+    "volume": 90,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "safety equipment",
+    "volume": 2900,
+    "kd": 24,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chemical storage safety",
+    "volume": 70,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "american safety council",
+    "volume": 3600,
+    "kd": 51,
+    "intent": "informational"
+   },
+   {
+    "keyword": "food safety chemical",
+    "volume": 70,
+    "kd": 14,
+    "intent": "informational"
+   },
+   {
+    "keyword": "alliance safety council",
+    "volume": 8100,
+    "kd": 16,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety osha",
+    "volume": 70,
+    "kd": 29,
+    "intent": "informational"
+   },
+   {
+    "keyword": "florida safety council",
+    "volume": 6600,
+    "kd": 45,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "frank r lautenberg chemical safety for the 21st century act",
+    "volume": 70,
+    "kd": 29,
+    "intent": "informational"
+   },
+   {
+    "keyword": "earthquake safety information",
+    "volume": 14800,
+    "kd": 31,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety rules",
+    "volume": 70,
+    "kd": 26,
+    "intent": "informational"
+   },
+   {
+    "keyword": "factor of safety formula",
+    "volume": 2400,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical food safety hazards",
+    "volume": 70,
+    "kd": 3,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety definition",
+    "volume": 12100,
+    "kd": 5,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety technology",
+    "volume": 70,
+    "kd": 7,
+    "intent": "informational"
+   },
+   {
+    "keyword": "osha 30 training",
+    "volume": 6600,
+    "kd": 27,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety technology inc",
+    "volume": 70,
+    "kd": 7,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "safety topics",
+    "volume": 6600,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical peel safety",
+    "volume": 70,
+    "kd": 29,
+    "intent": "informational"
+   },
+   {
+    "keyword": "american safety institute",
+    "volume": 2900,
+    "kd": 20,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical safety shower",
+    "volume": 70,
+    "kd": 3,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "united rentals trench safety",
+    "volume": 14800,
+    "kd": 7,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "chemical lab safety equipment",
+    "volume": 70,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "neutral safety switch",
+    "volume": 8100,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "center for chemical process safety",
+    "volume": 70,
+    "kd": 3,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "safety plan template",
+    "volume": 4400,
+    "kd": 19,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical lab safety poster",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "nasbla-approved boating safety course",
+    "volume": 14800,
+    "kd": 62,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "chemical safety data sheet example",
+    "volume": 50,
+    "kd": 9,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety not",
+    "volume": 14800,
+    "kd": null,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "chemistry and chemical safety milady",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety tv series",
+    "volume": 14800,
+    "kd": 50,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety data sheet sample",
+    "volume": 50,
+    "kd": 8,
+    "intent": "informational"
+   },
+   {
+    "keyword": "national trench safety",
+    "volume": 8100,
+    "kd": 1,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety images",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "eld standards california",
+    "volume": 2400,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical hazards and safety",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "midwest safety youtube",
+    "volume": 3600,
+    "kd": 11,
+    "intent": "informational"
+   },
+   {
+    "keyword": "definition of chemical safety",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety eyes",
+    "volume": 4400,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety data",
+    "volume": 50,
+    "kd": 37,
+    "intent": "informational"
+   },
+   {
+    "keyword": "factor of safety",
+    "volume": 2400,
+    "kd": 3,
+    "intent": "informational"
+   },
+   {
+    "keyword": "sds chemical safety",
+    "volume": 50,
+    "kd": 53,
+    "intent": "informational"
+   },
+   {
+    "keyword": "committee of public safety",
+    "volume": 4400,
+    "kd": 2,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety photos",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "thompson safety",
+    "volume": 5400,
+    "kd": 11,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "swimming pool chemical safety",
+    "volume": 50,
+    "kd": 16,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety training",
+    "volume": 4400,
+    "kd": 32,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety database",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "iihs safety ratings",
+    "volume": 3600,
+    "kd": 4,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety hazard",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "osha 360 training",
+    "volume": 5400,
+    "kd": 25,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical safety pictures",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety shorts",
+    "volume": 2900,
+    "kd": 0,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chemical laboratory safety posters",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety 1st grow and go",
+    "volume": 9900,
+    "kd": 2,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical splash goggles vs safety goggles",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "family care safety registry",
+    "volume": 2900,
+    "kd": 0,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "frank lautenberg chemical safety act",
+    "volume": 40,
+    "kd": 27,
+    "intent": "informational"
+   },
+   {
+    "keyword": "walmart product recalls safety notice",
+    "volume": 12100,
+    "kd": null,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chemical safety jobs",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "national transportation safety board",
+    "volume": 2900,
+    "kd": 31,
+    "intent": "informational"
+   },
+   {
+    "keyword": "employees are responsible for hazardous chemical safety including",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "able safety",
+    "volume": 1900,
+    "kd": 19,
+    "intent": "informational"
+   },
+   {
+    "keyword": "chemical fume hood vs biological safety cabinet",
+    "volume": 40,
+    "kd": 0,
+    "intent": "commercial"
+   },
+   {
+    "keyword": "osha standards",
+    "volume": 2400,
+    "kd": 51,
+    "intent": "informational"
+   },
+   {
+    "keyword": "where can information regarding specific chemical safety be found",
+    "volume": 40,
+    "kd": 15,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safe schools training",
+    "volume": 2400,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "lautenberg chemical safety act",
+    "volume": 40,
+    "kd": 26,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety cones",
+    "volume": 5400,
+    "kd": 14,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "safety topics for chemical plants",
+    "volume": 40,
+    "kd": 5,
+    "intent": "informational"
+   },
+   {
+    "keyword": "kitchen safety",
+    "volume": 4400,
+    "kd": 20,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety goggles for chemical handling",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety poster",
+    "volume": 8100,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "food safety and chemical disclosure act",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "mine safety appliances",
+    "volume": 8100,
+    "kd": 3,
+    "intent": "transactional"
+   },
+   {
+    "keyword": "chemical safety drawing",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+   },
+   {
+    "keyword": "safety restore",
+    "volume": 2900,
+    "kd": 20,
+    "intent": "informational"
+   },
+   {
+    "keyword": "american chemical society safety",
+    "volume": 40,
+    "kd": 25,
+    "intent": "navigational"
+   },
+   {
+    "keyword": "safety 1st",
+    "volume": 3600,
+    "kd": 15,
+    "intent": "informational"
+   },
+   {
+    "keyword": "roller coaster safety slime tutorial",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+   }
+  ]
+ }
+}

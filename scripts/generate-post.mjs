@@ -75,7 +75,8 @@ export async function writeGuide(topic, market, { log = console.log, replace } =
   const keyword = (market === "us" ? topic.keyword : plan.keyword || topic.keyword).toLowerCase();
   // 2. Go/no-go.
   const gate = goNoGo(plan.serp);
-  if (!gate.go) return { status: "skipped", reason: gate.text, goNoGo: gate.text, keyword };
+  // A rewrite keeps an existing URL: the go/no-go result is recorded, but it doesn't stop the rewrite.
+  if (!gate.go && !replace) return { status: "skipped", reason: gate.text, goNoGo: gate.text, keyword };
   // 3. Keyword demand for non-US markets (US rows carry the sheet's keyword data).
   let kw = { source: topic.keywordSource || "topic sheet", clusterVolume: topic.clusterVolume ?? null, kd: topic.kd ?? null };
   if (market !== "us") {
