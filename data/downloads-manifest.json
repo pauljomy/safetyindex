@@ -40,6 +40,16 @@
       "pdf": "/downloads/us/1926-451-scaffolds.pdf",
       "xlsx": "/downloads/us/1926-451-scaffolds.xlsx"
     },
+    "us/1926-501-duty-have-fall-protection": {
+      "hash": "fbc89da1891a0fe9ac80d0bb70e504c0bdf457f156e924529f97a15d429d7a7f",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 29,
+      "page_url": "https://safetyindex.blog/us/standards/1926-501-duty-have-fall-protection",
+      "pdf": "/downloads/us/1926-501-duty-have-fall-protection.pdf",
+      "xlsx": "/downloads/us/1926-501-duty-have-fall-protection.xlsx"
+    },
     "us/safety-glasses-z87-osha-requirements": {
       "hash": "1768ade2fd0731424a4fe718c8e75811123c58196765fd5b0d5ec40abb508962",
       "lang": "en",

@@ -1,0 +1,212 @@
+{
+  "slug": "1926-501-duty-have-fall-protection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-501-duty-have-fall-protection",
+  "doc_ref": "SI-US-1926-501",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Fall Protection Inspection (29 CFR 1926.501)",
+  "subtitle": "A suggested site walk-round (1926.501 sets no inspection frequency): use it before work at height and after changes to edges, openings, roofs or hoisting.",
+  "regulation_line": "OSHA 29 CFR 1926.501",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A. Use N/A only where that work or feature is not on site.",
+    "For any Defect, stop the exposed work at that spot until protection is in place, then record what was fixed and when.",
+    "The equipment manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Surfaces, edges and openings",
+      "items": [
+        [
+          "Systems meet § 1926.502",
+          "Each guardrail, net and fall arrest system in use has been checked against the criteria in § 1926.502.",
+          "1926.501(a)(1)"
+        ],
+        [
+          "Surface strength",
+          "The employer has determined that the surface can support employees safely, and no one is working on a surface that has not been confirmed.",
+          "1926.501(a)(2)"
+        ],
+        [
+          "Unprotected sides and edges",
+          "Every side or edge 6 ft (1.8 m) or more above a lower level has a guardrail, a safety net, or workers tied off with personal fall arrest.",
+          "1926.501(b)(1)"
+        ],
+        [
+          "Ramps, runways and walkways",
+          "Guardrail systems are in place wherever a walkway user could fall 6 ft or more to a lower level.",
+          "1926.501(b)(6)"
+        ],
+        [
+          "Wall openings",
+          "Openings with an outside bottom edge at least 6 ft above a lower level and an inside bottom edge under 39 in (1.0 m) above the floor have a guardrail, a net, or workers using fall arrest.",
+          "1926.501(b)(14)"
+        ],
+        [
+          "Hoist areas",
+          "Hoist area edges with a drop of 6 ft or more have guardrails, or workers there are using personal fall arrest.",
+          "1926.501(b)(3)"
+        ],
+        [
+          "Leaning out at hoist openings",
+          "Anyone leaning through or out over an access opening where the guardrail, chain or gate has been removed is wearing personal fall arrest.",
+          "1926.501(b)(3)"
+        ],
+        [
+          "Other elevated surfaces",
+          "Any surface 6 ft or higher that is not covered by another paragraph has a guardrail, net or personal fall arrest system.",
+          "1926.501(b)(15)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Holes, excavations and dangerous equipment",
+      "items": [
+        [
+          "Holes and skylights (falls through)",
+          "Holes and skylights more than 6 ft above a lower level have covers or guardrails around them, or workers nearby are using personal fall arrest.",
+          "1926.501(b)(4)(i)"
+        ],
+        [
+          "Holes (trips and steps)",
+          "Covers are in place over holes and skylights where someone could trip in or step into or through them.",
+          "1926.501(b)(4)(ii)"
+        ],
+        [
+          "Holes (falling objects)",
+          "Covers are in place over holes and skylights where objects could fall through onto employees.",
+          "1926.501(b)(4)(iii)"
+        ],
+        [
+          "Hidden excavation edges",
+          "Excavations at least 6 ft deep that are hidden by plants or another visual barrier have guardrails, fences or barricades at the edge.",
+          "1926.501(b)(7)(i)"
+        ],
+        [
+          "Wells, pits and shafts",
+          "Wells, pits, shafts and similar excavations 6 ft or more deep have guardrails, fences, barricades or covers.",
+          "1926.501(b)(7)(ii)"
+        ],
+        [
+          "Dangerous equipment (under 6 ft)",
+          "Where workers are less than 6 ft above dangerous equipment, guardrails or equipment guards stop them from falling into or onto it.",
+          "1926.501(b)(8)(i)"
+        ],
+        [
+          "Dangerous equipment (6 ft or more)",
+          "Where workers are 6 ft or higher above dangerous equipment, a guardrail, safety net or personal fall arrest system is in place.",
+          "1926.501(b)(8)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Roofs and leading edges",
+      "items": [
+        [
+          "Low-slope roof edges",
+          "Roof edges 6 ft or higher have guardrails, a net or personal fall arrest, or a warning line combined with guardrail, net, fall arrest or a safety monitor.",
+          "1926.501(b)(10)"
+        ],
+        [
+          "Safety monitor without warning line",
+          "A safety monitor is used alone only on a low-slope roof 50 ft (15.25 m) or less in width.",
+          "1926.501(b)(10)"
+        ],
+        [
+          "Steep roof edges",
+          "Steep roofs have guardrails with toeboards or a safety net, or workers are using personal fall arrest.",
+          "1926.501(b)(11)"
+        ],
+        [
+          "Leading edge crew",
+          "Workers building a leading edge 6 ft or higher use a guardrail, net or personal fall arrest system. A § 1926.502(k) plan is used instead only where the employer can demonstrate that these systems are infeasible or that using them creates a greater hazard.",
+          "1926.501(b)(2)(i)"
+        ],
+        [
+          "Others near leading edges",
+          "Workers on a surface 6 ft or more above a lower level who are not doing the leading edge work have a guardrail, safety net or personal fall arrest system. A control line stands in for a guardrail only where a guardrail system was chosen, a controlled access zone has already been established for the leading edge work, and only along the edge that parallels the leading edge.",
+          "1926.501(b)(2)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Residential, precast, formwork and bricklaying",
+      "items": [
+        [
+          "Residential construction",
+          "Workers at 6 ft or higher have guardrails, safety nets or personal fall arrest, or another measure that paragraph (b) allows. A § 1926.502(k) plan is acceptable only if the employer has shown the listed systems to be infeasible or more dangerous for this work; the employer carries that burden.",
+          "1926.501(b)(13)"
+        ],
+        [
+          "Precast concrete erection",
+          "Workers erecting or grouting precast members at 6 ft or higher are protected by guardrail systems, safety nets or fall arrest, or by an alternative that paragraph (b) allows. A § 1926.502(k) plan replaces them only where the employer shows that using them is not feasible or would be more hazardous.",
+          "1926.501(b)(12)"
+        ],
+        [
+          "Formwork and reinforcing steel",
+          "Workers on the face of formwork or rebar with a drop of 6 ft or more use personal fall arrest, a safety net or a positioning device system.",
+          "1926.501(b)(5)"
+        ],
+        [
+          "Overhand bricklaying",
+          "Bricklayers at 6 ft or higher are protected by a guardrail, net or fall arrest system, or are working in a controlled access zone.",
+          "1926.501(b)(9)(i)"
+        ],
+        [
+          "Reaching below the work surface",
+          "Anyone reaching more than 10 in (25 cm) below their working surface has a guardrail, safety net or personal fall arrest system.",
+          "1926.501(b)(9)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Falling objects",
+      "items": [
+        [
+          "Hard hats",
+          "Every employee exposed to falling objects is wearing a hard hat, and one of the measures below is in place.",
+          "1926.501(c)"
+        ],
+        [
+          "Toeboards, screens or guardrails",
+          "If this option is used, toeboards, screens or guardrails at the higher level stop objects from falling.",
+          "1926.501(c)(1)"
+        ],
+        [
+          "Canopy",
+          "If this option is used, a canopy structure is in place and materials above are kept far enough from the edge that they would not go over if knocked.",
+          "1926.501(c)(2)"
+        ],
+        [
+          "Barricaded drop zone",
+          "If this option is used, the drop zone is barricaded, no one enters it, and materials above are kept back from the edge.",
+          "1926.501(c)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.501: Duty to have fall protection (Part 1926 Subpart M: Fall Protection)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
