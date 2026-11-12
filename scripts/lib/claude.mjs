@@ -177,9 +177,20 @@ import { config as engineConfig } from "./config.mjs";
 const LIMIT_RE = /usage limit|rate limit|rate_limit|overloaded|429|529|quota|too many requests|limit reached|try again later/i;
 const sleepMs = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/**
+ * Environment for headless `claude` runs: never an Anthropic API key. With ANTHROPIC_API_KEY set, the CLI
+ * bills the API instead of the Claude subscription and the claude.ai connectors (OpenSEO) aren't loaded.
+ * The build makes no Anthropic API calls (brief section 1 / intro), so the key is always removed here.
+ */
+export function cliEnv() {
+  const env = { ...process.env };
+  for (const k of ["ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "CLAUDE_CODE_SIMPLE"]) delete env[k];
+  return env;
+}
+
 function runCli(args, input, { cwd, timeoutMs = 30 * 60_000 }) {
   return new Promise((resolve) => {
-    const child = spawn("claude", args, { cwd, env: { ...process.env, CLAUDE_CODE_SIMPLE: undefined }, stdio: ["pipe", "pipe", "pipe"] });
+    const child = spawn("claude", args, { cwd, env: cliEnv(), stdio: ["pipe", "pipe", "pipe"] });
     let out = "", err = "";
     const timer = setTimeout(() => child.kill("SIGTERM"), timeoutMs);
     child.stdout.on("data", (d) => (out += d));
@@ -230,6 +241,8 @@ export async function complete(o) {
       }
       throw new Error(`${o.label}: claude -p failed: ${why.trim()}`);
     }
+    // Guard: a subscription (OAuth) session reports credential_expires_at; an API-key session doesn't.
+    if (!("credential_expires_at" in res) && process.env.SAFETYINDEX_ALLOW_API_CLI !== "1") throw new Error(`${o.label}: claude -p ran without the Claude subscription login (API-key billing?). Log in with \`claude\` and make sure ANTHROPIC_API_KEY isn't set.`);
     const data = res.structured_output ?? parseJson(text, o.label);
     const urls = o.tools === "websearch" ? [...text.matchAll(/https?:\/\/[^\s)"'\]]+/g)].map((m) => ({ url: m[0], title: "" })) : [];
     log(`  · ${o.label} [cli${model ? ` ${model}` : ""}]: ${Math.round((Date.now() - started) / 1000)}s, $${(res.total_cost_usd ?? 0).toFixed(2)} equiv.`);

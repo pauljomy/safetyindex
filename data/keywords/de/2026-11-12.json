@@ -1,0 +1,36 @@
+{
+ "rows": [
+  {
+   "keyword": "sicherheitskennzeichnung arbeitsplatz test1",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "sicherheitskennzeichnung arbeitsplatz test2",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "sicherheitskennzeichnung arbeitsplatz test3",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "sicherheitskennzeichnung arbeitsplatz test4",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "sicherheitskennzeichnung arbeitsplatz test5",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  }
+ ],
+ "source": "OpenSEO get_keyword_metrics",
+ "market": "de"
+}

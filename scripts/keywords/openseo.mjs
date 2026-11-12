@@ -6,6 +6,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 
 import { join } from "node:path";
 import { spawn } from "node:child_process";
 import { config } from "../lib/config.mjs";
+import { cliEnv } from "../lib/claude.mjs";
 
 const DIR = "data/keywords";
 const LEDGER = join(DIR, "ledger.json");
@@ -61,7 +62,7 @@ export function save(market, rows, meta = {}) {
 
 function claude(args, input) {
   return new Promise((resolve) => {
-    const c = spawn("claude", args, { stdio: ["pipe", "pipe", "pipe"] });
+    const c = spawn("claude", args, { env: cliEnv(), stdio: ["pipe", "pipe", "pipe"] });
     let out = "", err = "";
     c.stdout.on("data", (d) => (out += d));
     c.stderr.on("data", (d) => (err += d));

@@ -19,7 +19,7 @@
     "downloads": "node scripts/downloads/build.mjs",
     "downloads:verify": "node scripts/downloads/verify.mjs",
     "bls": "node scripts/data/bls.mjs",
-    "engine": "node --env-file-if-exists=.env scripts/engine/run.mjs",
+    "engine": "node scripts/engine/run.mjs",
     "engine:status": "node scripts/engine/status.mjs",
     "build:preview": "PREVIEW_ALL=1 astro build && node scripts/build/postbuild.mjs",
     "covers": "node --env-file-if-exists=.env scripts/covers.mjs",
