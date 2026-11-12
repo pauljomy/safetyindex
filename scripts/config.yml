@@ -1,0 +1,85 @@
+# Safety Index: the one settings file for the pipeline, the engine, the release
+# schedule, the weekly loop and the app button. Read through scripts/lib/config.mjs
+# (Node scripts) and by the Astro site at build time. Env variables named here
+# override the value for one run.
+
+# --- Writing engine (section 11) -------------------------------------------
+writer: cli                  # cli (headless `claude -p`) or api (Anthropic API); env WRITER overrides
+writer_model: ""             # "" = the CLI's default model; env WRITER_MODEL overrides
+checker_model: ""            # model for the independent checking pass; "" = same as writer_model
+workers: 3                   # parallel jobs; env WORKERS overrides
+max_backoff_minutes: 60      # longest wait between retries after a usage/rate limit
+template_drop_pause_share: 0.10   # pause a template when more than this share of a batch is dropped
+template_drop_min_batch: 10       # ...counted over at least this many finished jobs
+
+# --- Keyword research (section 6) ------------------------------------------
+openseo_project_id: 002ad952-1f16-4c95-821e-83a08aec03b2
+keyword_credits_per_run: 1500
+keyword_credit_floor: 500
+keyword_batch_max_credits: 2000
+guide_thresholds:            # cluster volume floor and "KD under" per market
+  us: { volume: 500, kd_under: 15 }
+  uk: { volume: 150, kd_under: 15 }
+  au: { volume: 150, kd_under: 15 }
+  ca: { volume: 150, kd_under: 15 }
+  de: { volume: 200, kd_under: 15 }
+  fr: { volume: 200, kd_under: 15 }
+  nz: { volume: 50, kd_under: 15 }
+location_codes: { us: 2840, uk: 2826, de: 2276, fr: 2250, au: 2036, ca: 2124, nz: 2554 }
+language_codes: { us: en, uk: en, de: de, fr: fr, au: en, ca: en, nz: en }
+standard_page_keywords: { volume: 50, kd_under: 15 }
+industry_page_keywords: { volume: 50, kd_under: 15 }
+
+# --- Page thresholds (section 7e) -------------------------------------------
+fiscal_years: 5                         # complete federal fiscal years of enforcement data
+standard_citation_floor: 30             # citations nationally in the last 5 fiscal years
+industry_inspection_floor: 200          # inspections per 4-digit NAICS code
+industry_min_standards: 10              # distinct standards...
+industry_min_citations_per_standard: 5  # ...each cited at least this many times
+similarity_max: 0.8                     # two market versions above this are mis-sorted
+
+# --- Cover images (section 9) ---------------------------------------------
+max_images_per_run: 150
+
+# --- Release schedule (section 14) -----------------------------------------
+release_per_week: 75         # 0 = release everything at once
+first_wave:
+  top_us_standard_pages: 50
+  include: [reports, penalties, hubs]
+release_gate_min_share: 0.6
+release_gate_min_age_days: 21
+indexing_gate_max_unindexed_share: 0.3
+indexing_gate_age_days: 28
+
+# --- Search Console loop (section 16) -----------------------------------------
+improve_max_changes_per_week: 20
+improve_auto_push: true      # only after the build and every check pass
+weekly_new_pages: 10
+zero_impression_months: 3
+
+# --- App button (section 15) --------------------------------------------------
+android_package: "PLACEHOLDER_ANDROID_PACKAGE"
+ios_app_id: "PLACEHOLDER_IOS_APP_ID"
+ios_provider_token: "PLACEHOLDER_PROVIDER_TOKEN"
+apps_live: false
+app_markets: [us, uk, au, ca, nz]   # German and French stay off until the app is localised
+
+# --- Lighthouse (section 13) ----------------------------------------------------
+lighthouse:
+  sample_pages: 10
+  runs_per_page: 3
+  min_performance: 80
+  warn_performance_below: 90
+  min_accessibility: 95
+
+# --- OSHA maximum penalties (section 7d) -------------------------------------
+# From https://www.osha.gov/penalties (checked when the page is built; update every January).
+osha_penalties:
+  source_url: https://www.osha.gov/penalties
+  effective_date: ""         # filled from OSHA's penalties page by scripts/data/osha-penalties.mjs
+  checked_on: ""
+  serious_max: null
+  other_than_serious_max: null
+  failure_to_abate_per_day_max: null
+  willful_or_repeated_max: null
+  willful_or_repeated_min: null

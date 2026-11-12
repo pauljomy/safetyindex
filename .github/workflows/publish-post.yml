@@ -1,4 +1,4 @@
-# Publishes one guide (English + French + German) when one is due.
+# Manual only. Publishes one guide (English + its market versions) through the API writer.
 # It wakes every hour; data/schedule.json holds the next due time, set a random
 # 24–36 hours after each post, so posts never land on a fixed rhythm.
 # Secrets: ANTHROPIC_API_KEY and GOOGLE_CLOUD_API_KEY (required); SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS
@@ -6,8 +6,8 @@
 name: Publish post
 
 on:
-  schedule:
-    - cron: "17 * * * *"
+  # The hourly schedule (cron "17 * * * *") was turned off for the build-out:
+  # the CLI engine and the weekly workflow replace it. Manual runs still work.
   workflow_dispatch:
     inputs:
       force:

@@ -1,6 +1,18 @@
 # Safety Index blog
 
-Static Astro site on the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme (MIT). Posts are researched and written by Claude Sonnet 5.5 through `scripts/generate-post.mjs`, which a GitHub Action runs on a random 24–36 hour schedule. See README.md for where things live.
+Static Astro site on the [astro-micro](https://github.com/trevortylerlee/astro-micro) theme (MIT). Pages are written by Claude Code running headless (`claude -p`, `WRITER=cli`, the default) through the engine in `scripts/engine/`, which reuses the guide pipeline in `scripts/generate-post.mjs`; `WRITER=api` uses the Anthropic API instead. Every setting lives in `scripts/config.yml`. The old hourly GitHub Action (`publish-post.yml`) is manual-only now; the weekly workflow (`weekly.yml`) pulls Search Console data, runs the release gates, makes cover images, builds, deploys and pings IndexNow. See README.md for where things live and PROGRESS.md for the build-out log.
+
+## Non-negotiable rules (these win over everything else here)
+
+1. Safety Index is a standalone safety reference for the US, UK, Germany, France, Australia, Canada and New Zealand.
+2. **Never link or redirect to conform.so**, anywhere: pages, downloads, metadata, structured data or redirects. The only app links are the store links built from `scripts/config.yml`.
+3. Every page must be fully useful to someone who never installs the app. Checklists work on the page, print cleanly, and download as PDF and Excel with no sign-up.
+4. Content is written **only** from the regulation text and data supplied for that page, never from memory. Any clause number or figure that isn't in the supplied material makes the page fail.
+5. Never reproduce text from ANSI, NFPA, ISO, EN, BS, DIN or other paid standards. Refer to them by number only. DGUV and INRS publications: cite and paraphrase, never copy.
+6. No "safety checklist in {city}" pages, no pages where only a name or country changes, no translated pages, no Conform comparisons, no link networks.
+7. Every page shows a "data as of" date and a not-legal-advice note. The visible "updated" date changes only for an upgrade (15–70% of the main content changed) or a rewrite (over 70%). Small edits never change it.
+8. German and French pages are written directly in German and French for that country, from that country's own regulators. They're never US or UK content translated.
+9. No named reviewer, no "reviewed by" claims and no invented credentials or authors anywhere on the site.
 
 `temp/` (local reference copy of conform-blog) and `.env` are git-ignored; never commit them.
 
@@ -14,7 +26,7 @@ The writer returns `coverPrompt` (English, the scene only: no text, labels, numb
 
 ### Topic sheet and categories
 
-`docs/Safety_Blog_Topics.xlsx` (sheet "Blog Topics") lists the planned posts in publishing order: Category, Blog Post Title, Primary Keyword, Supporting Keywords, Status, Published URL. The generator takes the first row that isn't `Published`, sets `keyword` to the Primary Keyword and `categories` to the row's Category mapped through `src/data/categories.mjs`, and after publishing sets Status to Published and fills Published URL. Supporting keywords are covered inside the same post (headings, FAQ), never as separate posts. Keywords come from US competitor sites, so facts come from current OSHA/ANSI/NFPA/NIOSH sources, never from the keyword list.
+`docs/Safety_Blog_Topics.xlsx` (sheet "Blog Topics") is the guide queue, in publishing order: Category, Blog Post Title, Primary Keyword, Supporting Keywords, Status, Published URL, then Topic type, Markets, Main page for keyword, Overlaps, Cluster volume, KD, Intent, Checked on, Keyword source, Go/no-go and Notes (explained on the "How to Use" sheet). Only `Not started` rows are written; `Published`, `Dropped`, `Waiting: low demand`, `Waiting: high competition` and `Skipped: search results` are skipped, and the weekly run rechecks the two `Waiting` statuses monthly. A guide needs real demand (cluster volume and KD under 15, thresholds per market in `scripts/config.yml`) and a passing go/no-go check of the search results before it is written. Where a guide and a standard page cover the same subject, the guide owns the how-to search and the standard page owns the requirements and regulation-number searches (`Main page for keyword`, `Overlaps`). The generator sets `keyword` to the Primary Keyword and `categories` to the row's Category mapped through `src/data/categories.mjs`, and after publishing sets Status to Published and fills Published URL.
 
 ### Writing with AI without getting penalised
 
@@ -27,20 +39,21 @@ Google ranks content on whether it helps people, not on how it was made. What it
 5. **Write for the reader, not a word count.** No filler or stock AI phrasing. The validator's 1,200-word floor only stops thin pages.
 6. **YMYL.** Name the country/regulator for every rule, link it, don't go beyond the source, and point readers to their regulator or a competent person (the disclaimer under every post says so too).
 7. **Dates are honest.** `date` is the publish day; set `updated` only when content changes in substance.
-8. **Pace.** Exactly one topic per run (English + its translations), at random 24–36 hour gaps (`scripts/lib/schedule.mjs`). Never publish a batch. If Search Console shows indexing slowing or pages dropping out ("Crawled – currently not indexed"), pause the workflow and improve existing posts.
+8. **Release schedule.** Generating a page and releasing it are separate. Each page gets a `releaseDate`; the build only includes pages whose date has passed (sitemaps, hubs, internal links and IndexNow follow). `release_per_week` (default 75) pages go out per weekly wave, after a `first_wave` (top 50 US standard pages, the reports, the penalties page, the hubs). **Impressions gate:** the weekly run looks at the latest wave released at least `release_gate_min_age_days` (21) before the last day of Search Console data, and releases the next wave only if at least `release_gate_min_share` (0.6) of its URLs have impressions; otherwise it holds and logs. No old-enough wave or no data: release and log that the gate was skipped. **Indexing gate:** if more than 30% of a wave isn't indexed 4 weeks after release, hold and improve the template. Pages live before the build keep their original date as `releaseDate`.
 9. **Disclosure stays true.** The site says AI writes the posts and makes the featured images and that they are not reviewed line by line (`howMade` in `src/i18n/ui.ts`, `/about#how-we-write`). If a person starts reviewing posts, change those words; if the process changes, change them too.
 
-### Translations (French, German)
+### Markets (topic types, versions and hreflang)
 
-Every English post ships with a French (France) and German (Germany) version in the same run. Translations count as scaled content when they add nothing, so each is a rewrite for that market:
+Before anything is written, every topic in the sheet gets a `Topic type` and a `Markets` list:
 
-- Research the keyword people there actually search (in that language) before writing; use it in the title, first 100 words, one H2 and the slug.
-- Write the way a practitioner there talks, keeping the industry terms they really use.
-- Localise every field: title, seoTitle, subtitle, description, summary, keyTakeaways, tags, FAQ, headings, table text, slug.
-- Cite local regulators (France: INRS, Code du travail on Légifrance, Ministère du Travail; Germany: DGUV, BAuA, ArbSchG/BetrSichV on gesetze-im-internet.de). Where a rule is US-only, say so and label English sources "(en anglais)" / "(auf Englisch)".
-- Same categories as the English post; `relatedPosts` uses English slugs; internal links stay in the same language.
-- Hreflang follows [Google's rules](https://developers.google.com/search/docs/specialty/international/localized-versions): reciprocal, self-referencing, `x-default` = English, every version canonical to itself (the build fails otherwise).
-- Ask a French and a German speaker to spot-check translations when you can; the build checks structure, not language quality.
+1. **Country-only**: the topic exists under one country's law (an OSHA standard, a specific HSE regulation). One page in that market only, no hreflang cluster, no French or German version.
+2. **Same everywhere**: the safe practice doesn't depend on the law. One English page in the most relevant market, no copies in other English markets (they link to it). A German or French version only when it cites that country's own rules; if the local search finds no local regulator source, that version is not made.
+3. **Regional**: the duty, interval, record or legal reference differs by country. A separate page per market, each built from that market's own law, with a short "In [country]" line near the top giving the rule and its reference. Only these pages get hreflang clusters.
+
+- `generate-post.mjs` writes only the markets in the `Markets` column. Similarity backstop: if two market versions come out more than 80% similar, keep the one with richer sources, don't make the other, and log the topic as mis-sorted.
+- hreflang links only regional equivalents plus `x-default` (English), reciprocal and self-referencing, each version canonical to itself. Noindexed and unreleased pages are never in a cluster.
+- French and German pages are written directly for France and Germany from local sources (France: INRS, Code du travail on Légifrance, Ministère du Travail; Germany: DGUV, BAuA, ArbSchG/BetrSichV on gesetze-im-internet.de). Research the local keyword first and use it in the title, first 100 words, one H2 and the slug. Where a rule is US-only, say so and label English sources "(en anglais)" / "(auf Englisch)". Same categories as the English post; `relatedPosts` uses English slugs; internal links stay in the same language and market.
+- A French or German page whose **main** sources are from another country is noindexed and rewritten from local sources (mentioning OSHA in a labelled comparison is fine).
 
 ### Structure of a post
 
