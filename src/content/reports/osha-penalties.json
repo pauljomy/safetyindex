@@ -24,6 +24,10 @@
         "opening": "States that run their own OSHA-approved plans must adopt maximum penalties at least as effective as federal OSHA's, and state plans don't have to fine state and local government employers."
       },
       {
+        "heading": "How much does OSHA propose in practice?",
+        "opening": "Across 459,547 citations of 29 CFR standards in FY2022–FY2026, the median initial penalty for a citation with a penalty was $3,972, and the middle half ran from $2,000 to $6,620; penalties can be reduced on settlement or after a contest."
+      },
+      {
         "heading": "Where do the amounts come from?",
         "opening": "OSHA adjusts its maximum penalties for inflation every January; the amounts above apply to penalties assessed after Jan. 15, 2026, as published on OSHA's penalties page."
       }
@@ -34,6 +38,10 @@
     {
       "title": "OSHA penalties",
       "url": "https://www.osha.gov/penalties"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
     }
   ]
 }

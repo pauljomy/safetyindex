@@ -1,5 +1,5 @@
 {
-  "balance": 2566,
+  "balance": 2020,
   "balanceCheckedOn": "2026-11-12",
   "runs": {
     "2026-11-12 topic sheet": 184,
@@ -11,7 +11,11 @@
     "2026-11-12T19:48-17282": 5,
     "2026-11-12T20:02-19472": 2,
     "2026-11-12T20:16-20663": 5,
-    "2026-11-12T20:18-21016": 3
+    "2026-11-12T20:18-21016": 3,
+    "2026-11-12T22:21-28521": 305,
+    "2026-11-12T22:30-29160": 289,
+    "2026-11-12T22:39-30207": 86,
+    "2026-11-12T22:44-31049": 114
   },
   "log": [
     {
@@ -178,6 +182,166 @@
       "at": "2026-11-12T20:29:33.102Z",
       "credits": 54,
       "note": "research confined-space"
+    },
+    {
+      "at": "2026-11-12T22:23:13.752Z",
+      "credits": 62,
+      "note": "us: 243 keywords"
+    },
+    {
+      "at": "2026-11-12T22:24:37.666Z",
+      "credits": 64,
+      "note": "us: 249 keywords"
+    },
+    {
+      "at": "2026-11-12T22:25:02.949Z",
+      "credits": 15,
+      "note": "us: 54 keywords"
+    },
+    {
+      "at": "2026-11-12T22:27:01.264Z",
+      "credits": 64,
+      "note": "us: 249 keywords"
+    },
+    {
+      "at": "2026-11-12T22:28:27.208Z",
+      "credits": 64,
+      "note": "us: 250 keywords"
+    },
+    {
+      "at": "2026-11-12T22:29:16.323Z",
+      "credits": 36,
+      "note": "us: 139 keywords"
+    },
+    {
+      "at": "2026-11-12T22:32:29.159Z",
+      "credits": 50,
+      "note": "us: 194 keywords"
+    },
+    {
+      "at": "2026-11-12T22:33:44.824Z",
+      "credits": 52,
+      "note": "us: 203 keywords"
+    },
+    {
+      "at": "2026-11-12T22:34:57.507Z",
+      "credits": 51,
+      "note": "us: 199 keywords"
+    },
+    {
+      "at": "2026-11-12T22:36:09.828Z",
+      "credits": 52,
+      "note": "us: 201 keywords"
+    },
+    {
+      "at": "2026-11-12T22:37:19.738Z",
+      "credits": 50,
+      "note": "us: 195 keywords"
+    },
+    {
+      "at": "2026-11-12T22:37:41.468Z",
+      "credits": 11,
+      "note": "us: 38 keywords"
+    },
+    {
+      "at": "2026-11-12T22:38:25.324Z",
+      "credits": 8,
+      "note": "us: 28 keywords"
+    },
+    {
+      "at": "2026-11-12T22:38:47.102Z",
+      "credits": 12,
+      "note": "us: 44 keywords"
+    },
+    {
+      "at": "2026-11-12T22:39:00.719Z",
+      "credits": 3,
+      "note": "us: 8 keywords"
+    },
+    {
+      "at": "2026-11-12T22:41:04.606Z",
+      "credits": 9,
+      "note": "us: 29 keywords"
+    },
+    {
+      "at": "2026-11-12T22:41:23.297Z",
+      "credits": 8,
+      "note": "us: 28 keywords"
+    },
+    {
+      "at": "2026-11-12T22:41:51.712Z",
+      "credits": 16,
+      "note": "us: 60 keywords"
+    },
+    {
+      "at": "2026-11-12T22:42:18.479Z",
+      "credits": 16,
+      "note": "us: 58 keywords"
+    },
+    {
+      "at": "2026-11-12T22:42:46.242Z",
+      "credits": 16,
+      "note": "us: 59 keywords"
+    },
+    {
+      "at": "2026-11-12T22:43:26.371Z",
+      "credits": 6,
+      "note": "us: 18 keywords"
+    },
+    {
+      "at": "2026-11-12T22:43:46.006Z",
+      "credits": 10,
+      "note": "us: 36 keywords"
+    },
+    {
+      "at": "2026-11-12T22:44:00.422Z",
+      "credits": 5,
+      "note": "us: 16 keywords"
+    },
+    {
+      "at": "2026-11-12T22:45:54.754Z",
+      "credits": 8,
+      "note": "us: 27 keywords"
+    },
+    {
+      "at": "2026-11-12T22:46:10.025Z",
+      "credits": 7,
+      "note": "us: 22 keywords"
+    },
+    {
+      "at": "2026-11-12T22:46:28.346Z",
+      "credits": 9,
+      "note": "us: 30 keywords"
+    },
+    {
+      "at": "2026-11-12T22:47:04.279Z",
+      "credits": 23,
+      "note": "us: 87 keywords"
+    },
+    {
+      "at": "2026-11-12T22:47:28.742Z",
+      "credits": 13,
+      "note": "us: 46 keywords"
+    },
+    {
+      "at": "2026-11-12T22:47:39.642Z",
+      "credits": 2,
+      "note": "us: 3 keywords"
+    },
+    {
+      "at": "2026-11-12T22:48:41.969Z",
+      "credits": 19,
+      "note": "us: 72 keywords"
+    },
+    {
+      "at": "2026-11-12T22:49:12.980Z",
+      "credits": 19,
+      "note": "us: 72 keywords"
+    },
+    {
+      "at": "2026-11-12T22:49:37.507Z",
+      "credits": 14,
+      "note": "us: 49 keywords"
     }
   ]
 }

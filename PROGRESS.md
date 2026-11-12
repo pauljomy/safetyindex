@@ -6,7 +6,7 @@ Plain-English log of the build-out on the `build-out` branch (brief: `safetyinde
 
 - **Step 1 (audit, schedule off, CLAUDE.md, topic sheet): done.**
 - **Step 2 (fixes to the existing site): done.** See "Step 2" below.
-- **Step 3 (US data and keywords): in progress.** eCFR text indexed; topic sheet keyword data done; the DOL enforcement pull is running (the API rate-limits hard, so it takes a few hours); standard and industry pages are planned once it finishes.
+- **Step 3 (US data and keywords): done.** DOL enforcement data FY2022–FY2026 pulled and aggregated; 46 standard pages and 19 industry pages pass the thresholds; keyword research done (OpenSEO balance 2,020 credits).
 - **Step 4 (engine): built; testing on 10 pages.**
 
 ## Things for Paul to do
@@ -114,7 +114,7 @@ Cloudflare **Workers static assets** with git integration (`wrangler.jsonc`, ass
 - **hreflang codes are now per market** (`en-US`, `fr-FR`, `de-DE`, and `en-GB`, `en-AU`, `en-CA`, `en-NZ` for the new markets), with `<html lang>` to match. Only regional topics form clusters. The existing hard hat and PPE posts are regional; "What does OSHA stand for" is country-only, so its French page is a standalone French page.
 - **New site structure** (nothing existing moved): `/us` (US home), `/us/standards/…`, `/us/industries/…`, `/us/guides` (hub of the `/blog` guides by topic), `/us/reports/…`, `/us/osha-penalties`, `/uk|au|ca|nz` and `/uk|au|ca|nz/guides/…`. Hubs are only built once they list a live page. `/blog`, `/fr/blog` and `/de/blog` now group guides by topic instead of by year. Every page has a visible breadcrumb trail (Home → market → hub → page). URLs keep the site's existing no-trailing-slash style (`/us/standards/1926-501-…`, not `…/`).
 
-## Step 3: US data and keywords (in progress)
+## Step 3: US data and keywords
 
 ### Sources checked
 
@@ -192,3 +192,36 @@ Cloudflare **Workers static assets** with git integration (`wrangler.jsonc`, ass
 - `scripts/maintenance/impressions.mjs` (zero impressions for 3 months → merge, noindex or, with analytics evidence only, 410), `audit.mjs` (quarterly CSV in `data/audit/`), `rule-changes.mjs` (weekly eCFR amendment check for every cited section; affected pages go to the rewrite queue), `scripts/gsc/report.mjs` (weekly report per market in this file), `ai-answers.mjs` (20 questions per market).
 - `npm run weekly` (`scripts/weekly.mjs`) works on the `weekly-improve` branch, rebased on the latest main. It runs the pull, the improve loop, the zero-impression check, rule changes, the monthly recheck of `Waiting` rows, up to 10 new pages through the engine, the report and the full build. If everything passes and `improve_auto_push` is true, it merges into main and pushes; otherwise it leaves the branch and notes why here.
 - Not wired yet: legislation change feeds for the UK, Australia, Canada, New Zealand, France and Germany. The weekly report carries a reminder; legislation.gov.uk's Atom feeds would be the first to add.
+
+### Enforcement data and the page thresholds (section 7e)
+
+- **DOL data, FY2022–FY2026** (`data/pages/us/enforcement.json`): 459,547 citations under 29 CFR standards in 358,585 inspections (federal and state-plan inspections that cite 29 CFR). Excluded: 192,165 items cited under state-plan or non-29 CFR codes (including the General Duty Clause) and 29,976 deleted items. Median initial penalty for an item with a penalty: $3,972 (middle half $2,000–$6,620). The pull took about 4 hours because the DOL API rate-limits hard.
+- The top of the list matches OSHA's own yearly lists: 1926.501 (41,926), 1910.1200 (38,209), 1910.134 (23,896), 1910.147 (21,762), 1926.1053 (18,168), 1910.178 (16,608), 1926.503, 1926.451, 1910.303, 1910.305.
+
+**Standard pages** (at least 30 citations in 5 fiscal years, text on eCFR, keyword rule):
+
+| Stage | Standards |
+|---|---|
+| Cited at all in FY2022–FY2026 | 489 |
+| 30+ citations | 209 |
+| …and text on eCFR (not reserved) | 205 |
+| …and measurable cluster volume 50+ with a main keyword under KD 15: **written** | **46** |
+| Waiting: every measurable phrase has KD 15+ (e.g. 1910.1200 hazard communication, 1910.134 respiratory protection) | 14 |
+| Below the 50-search cluster floor | 145 |
+
+That's fewer than the 50 the first wave expects, so the first wave holds all 46. Keyword phrases follow the brief's patterns ("osha {name} requirements", "{name} checklist", "{name} inspection", "osha {number}"), built on each standard's everyday name. A headless call suggests the name, because the formal headings score nothing ("osha scaffolds requirements" has no volume; "osha scaffold requirements" has 480). Two rules keep one page per search: a phrase belongs to the most-cited standard that uses it, and any phrase that is a topic-sheet row's keyword stays with that guide (so "fire extinguisher inspection" stays with guide row 23). Requirements and regulation-number phrases come first as a standard page's main keyword. One weak spot to watch in Search Console: 1926.1101 (asbestos in construction) only qualifies on "asbestos inspection", which many homeowners search too.
+
+**Industry pages** (4-digit NAICS with 200+ inspections and 10+ standards cited 5+ times each, plus the keyword rule):
+
+| Stage | Industries |
+|---|---|
+| 4-digit NAICS codes with inspections | 320 |
+| 200+ inspections | 199 |
+| …and 10+ standards cited 5+ times | 171 |
+| …and the keyword rule: **written** | **19** |
+| Waiting (KD 15+) | 13 |
+| Below the cluster floor | 139 |
+
+NAICS titles aren't searched ("foundation, structure, and building exterior contractors"), so phrases use the everyday trade name ("roofing safety", "osha roofing regulations"). Trades whose "safety" searches mostly come from the public (airlines, car rental, amusement parks, hotels) only count employer phrases ("osha … regulations").
+
+Keyword credits for step 3: about 1,630 in total (topic sheet 184, category research about 1,080, standard and industry phrases about 545 over three planning passes). Balance: **2,020**.

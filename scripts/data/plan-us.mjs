@@ -43,7 +43,26 @@ for (const s of enf.standards) {
   cands.push({ section: s.section, citations: s.citations, heading: sec.heading, part: sec.part, subpart: sec.subpart, subpartTitle: sec.subpartTitle, name, slug: standardSlug(s.section, sec.heading.match(/^General requirements/i) && sec.subpartTitle ? `${sec.subpartTitle} ${sec.heading}` : sec.heading), phrases: [...new Set([`osha ${name} requirements`, `${name} checklist`, `osha ${s.section}`])] });
 }
 const kw = new Map();
+// Formal headings aren't what people type ("osha scaffolds requirements" has no volume; "osha scaffold
+// requirements" has 480 a month). One headless call per batch suggests each standard's everyday name, used in
+// the brief's phrase patterns. It only proposes search wording; no facts.
 if (!noKeywords) {
+  for (let i = 0; i < cands.length; i += 60) {
+    const batch = cands.slice(i, i + 60);
+    const res = await complete({
+      system: "You know how safety managers search Google for OSHA rules. You return only JSON.",
+      schema: { type: "object", additionalProperties: false, required: ["items"], properties: { items: { type: "array", items: { type: "object", additionalProperties: false, required: ["section", "names"], properties: { section: { type: "string" }, names: { type: "array", items: { type: "string" } } } } } } },
+      label: `standard names ${i / 60 + 1}`, effort: "low",
+      prompt: `For each OSHA standard, give 1–2 everyday names people use in searches for what that specific section covers: lowercase, singular where people say it that way, 1–4 words (e.g. 1926.451 General requirements, Subpart L Scaffolds → "scaffold"; 1910.178 Powered industrial trucks → "forklift"; 1926.503 Training requirements, Subpart M Fall Protection → "fall protection training"; 1910.1200 Hazard communication → "hazcom", "hazard communication"). Make the names specific enough that two sections don't share one.\n${batch.map((c) => `${c.section} ${c.heading} (Subpart ${c.subpart ?? "-"}: ${c.subpartTitle ?? ""})`).join("\n")}`,
+    });
+    for (const it of res.data.items) {
+      const c = cands.find((x) => x.section === it.section);
+      if (!c) continue;
+      const names = [...new Set(it.names.map((n) => n.toLowerCase().trim()).filter(Boolean))].slice(0, 2);
+      c.name = names[0] ?? c.name;
+      c.phrases = [...new Set([...names.flatMap((n) => [`osha ${n} requirements`, `${n} checklist`, `${n} inspection`]), `osha ${c.section}`])];
+    }
+  }
   const phrases = [...new Set(cands.flatMap((c) => c.phrases))];
   console.log(`scoring ${phrases.length} phrases for ${cands.length} standards`);
   for (let i = 0; i < phrases.length; i += 250) {
@@ -53,17 +72,26 @@ if (!noKeywords) {
   }
 }
 const t = config.standard_page_keywords;
+// Guides own the topic sheet's searches (brief section 5): a phrase that is a row's primary or supporting
+// keyword never goes to a standard or industry page.
+const sheetForKeywords = await loadTopics();
+const guideOwned = new Set(sheetForKeywords.topics.filter((t) => t.status !== "Dropped").flatMap((t) => [t.keyword, ...t.supporting].map((k) => k.toLowerCase().trim())));
+// One main page per search (brief section 5): a phrase belongs to the most-cited standard that uses it.
+const owner = new Map();
+for (const c of [...cands].sort((a, b) => b.citations - a.citations)) for (const p of c.phrases) if (!owner.has(p) && !guideOwned.has(p)) owner.set(p, c.section);
+/** Standard pages own requirements and regulation-number searches: those come first as the main keyword. */
+const rank = (x) => (/\bosha\b|requirements|\b19\d\d\./.test(x.keyword) ? 1 : 0);
 const pages = cands.map((c) => {
-  const cluster = c.phrases.map((p) => kw.get(p) ?? { keyword: p, volume: null, kd: null });
+  const cluster = c.phrases.filter((p) => owner.get(p) === c.section).map((p) => kw.get(p) ?? { keyword: p, volume: null, kd: null });
   const volume = cluster.reduce((n, x) => n + (x.volume ?? 0), 0);
-  const easy = cluster.filter((x) => x.kd != null && x.kd < t.kd_under && (x.volume ?? 0) > 0).sort((a, b) => b.volume - a.volume)[0];
+  const easy = cluster.filter((x) => x.kd != null && x.kd < t.kd_under && (x.volume ?? 0) > 0).sort((a, b) => rank(b) - rank(a) || b.volume - a.volume)[0];
   let status = "write", reason = "";
   if (noKeywords) status = "write";
   else if (volume < t.volume) { status = "below"; reason = `cluster volume ${volume} (< ${t.volume})`; dist.lowVolume++; }
   else if (!easy) { status = "waiting"; reason = `every measurable phrase has KD ${t.kd_under}+`; dist.waitingKd++; }
   if (status === "write") dist.write++;
-  const main = easy?.keyword ?? c.phrases[0];
-  const title = `${main.replace(/\bosha\b/g, "OSHA").replace(/^./, (m) => m.toUpperCase())}${main.includes(c.section) ? "" : ` (29 CFR ${c.section})`}`;
+  const main = easy?.keyword ?? cluster[0]?.keyword ?? c.phrases[0];
+  const title = main === `osha ${c.section}` ? `OSHA ${c.name} requirements (29 CFR ${c.section})` : `${main.replace(/\bosha\b/g, "OSHA").replace(/\b(ppe|lpg|gfci)\b/g, (m) => m.toUpperCase()).replace(/^./, (m) => m.toUpperCase())}${main.includes(c.section) ? "" : ` (29 CFR ${c.section})`}`;
   return { ...c, keyword: main, cluster, clusterVolume: volume, kd: easy?.kd ?? null, titleHint: title, keywordSource: noKeywords ? "enforcement data" : "OpenSEO", status, reason };
 });
 
@@ -97,13 +125,15 @@ for (const i of enf.industries) {
 if (!noKeywords && icands.length) {
   const res = await complete({
     system: "You map NAICS industry titles to the everyday words people type into Google about workplace safety in that trade. You return only JSON.",
-    schema: { type: "object", additionalProperties: false, required: ["items"], properties: { items: { type: "array", items: { type: "object", additionalProperties: false, required: ["naics", "trade"], properties: { naics: { type: "string" }, trade: { type: "string" } } } } } },
+    schema: { type: "object", additionalProperties: false, required: ["items"], properties: { items: { type: "array", items: { type: "object", additionalProperties: false, required: ["naics", "trade", "publicIntent"], properties: { naics: { type: "string" }, trade: { type: "string" }, publicIntent: { type: "boolean" } } } } } },
     label: "industry names", effort: "low",
-    prompt: `For each NAICS code, give the everyday trade name a safety manager would type in a search, lowercase, 1–3 words (e.g. 2381 Foundation, Structure, and Building Exterior Contractors → "roofing"; 2361 Residential Building Construction → "residential construction"; 4931 Warehousing and Storage → "warehouse"). Pick the most common trade in the code.\n${icands.map((c) => `${c.naics} ${c.title}`).join("\n")}`,
+    prompt: `For each NAICS code, give the everyday trade name a safety manager would type in a search, lowercase, 1–3 words (e.g. 2381 Foundation, Structure, and Building Exterior Contractors → "roofing"; 2361 Residential Building Construction → "residential construction"; 4931 Warehousing and Storage → "warehouse"). Pick the most common trade in the code. publicIntent = true when searches for "<trade> safety" are mostly by customers, passengers or the public rather than employers and workers (e.g. airline, car rental, amusement park, hotel).\n${icands.map((c) => `${c.naics} ${c.title}`).join("\n")}`,
   });
   for (const it of res.data.items) {
     const c = icands.find((x) => x.naics === it.naics);
-    if (c && it.trade) { c.trade = it.trade.toLowerCase(); c.phrases = [...new Set([`${c.trade} safety`, `osha ${c.trade} regulations`, `${c.trade} safety checklist`, `${c.trade} osha`])]; }
+    // Industry pages rank cited standards; they have no checklist, so no "checklist" phrases. Public-facing trades
+    // only get employer phrases (osha / regulations).
+    if (c && it.trade) { c.trade = it.trade.toLowerCase(); c.publicIntent = it.publicIntent; c.phrases = [...new Set([...(it.publicIntent ? [] : [`${c.trade} safety`]), `osha ${c.trade} regulations`, `${c.trade} osha`, `osha ${c.trade} requirements`])]; }
   }
 }
 if (!noKeywords) {
@@ -116,8 +146,10 @@ if (!noKeywords) {
   }
 }
 const ti = config.industry_page_keywords;
+const iowner = new Map();
+for (const c of [...icands].sort((a, b) => b.inspections - a.inspections)) for (const p of c.phrases) if (!iowner.has(p) && !owner.has(p) && !guideOwned.has(p)) iowner.set(p, c.naics);
 const ipages = icands.map((c) => {
-  const cluster = c.phrases.map((p) => kw.get(p) ?? { keyword: p, volume: null, kd: null });
+  const cluster = c.phrases.filter((p) => iowner.get(p) === c.naics).map((p) => kw.get(p) ?? { keyword: p, volume: null, kd: null });
   const volume = cluster.reduce((n, x) => n + (x.volume ?? 0), 0);
   const easy = cluster.filter((x) => x.kd != null && x.kd < ti.kd_under && (x.volume ?? 0) > 0).sort((a, b) => b.volume - a.volume)[0];
   let status = "write", reason = "";
@@ -125,7 +157,7 @@ const ipages = icands.map((c) => {
   else if (volume < ti.volume) { status = "below"; reason = `cluster volume ${volume} (< ${ti.volume})`; idist.lowVolume++; }
   else if (!easy) { status = "waiting"; reason = `every measurable phrase has KD ${ti.kd_under}+`; idist.waitingKd++; }
   if (status === "write") idist.write++;
-  return { ...c, keyword: easy?.keyword ?? c.phrases[0], cluster, clusterVolume: volume, kd: easy?.kd ?? null, keywordSource: noKeywords ? "enforcement data" : "OpenSEO", status, reason };
+  return { ...c, keyword: easy?.keyword ?? cluster[0]?.keyword ?? c.phrases[0], cluster, clusterVolume: volume, kd: easy?.kd ?? null, keywordSource: noKeywords ? "enforcement data" : "OpenSEO", status, reason };
 });
 writeFileSync("data/pages/us/industries-plan.json", `${JSON.stringify({ planned: new Date().toISOString().slice(0, 10), thresholds: { inspections: config.industry_inspection_floor, standards: config.industry_min_standards, ...ti }, distribution: idist, pages: ipages }, null, 1)}\n`);
 console.log("standards:", dist);
