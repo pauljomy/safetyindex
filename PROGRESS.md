@@ -6,7 +6,7 @@ Plain-English log of the build-out on the `build-out` branch (brief: `safetyinde
 
 - **Step 1 (audit, schedule off, CLAUDE.md, topic sheet): done.**
 - **Step 2 (fixes to the existing site): done.** See "Step 2" below.
-- **Step 3 (US data and keywords): done.** DOL enforcement data FY2022–FY2026 pulled and aggregated; 46 standard pages and 19 industry pages pass the thresholds; keyword research done (OpenSEO balance 2,020 credits).
+- **Step 3 (US data and keywords): done.** DOL enforcement data FY2022–FY2026 pulled and aggregated; 55 standard pages and 19 industry pages pass the thresholds; keyword research done (OpenSEO balance 2,020 credits).
 - **Step 4 (engine): built; testing on 10 pages.**
 
 ## Things for Paul to do
@@ -205,11 +205,11 @@ Cloudflare **Workers static assets** with git integration (`wrangler.jsonc`, ass
 | Cited at all in FY2022–FY2026 | 489 |
 | 30+ citations | 209 |
 | …and text on eCFR (not reserved) | 205 |
-| …and measurable cluster volume 50+ with a main keyword under KD 15: **written** | **46** |
-| Waiting: every measurable phrase has KD 15+ (e.g. 1910.1200 hazard communication, 1910.134 respiratory protection) | 14 |
-| Below the 50-search cluster floor | 145 |
+| …and measurable cluster volume 50+ with a main keyword under KD 15: **written** | **55** |
+| Waiting: every measurable phrase has KD 15+ (e.g. 1910.1200 hazard communication, 1910.134 respiratory protection) | 15 |
+| Below the 50-search cluster floor | 135 |
 
-That's fewer than the 50 the first wave expects, so the first wave holds all 46. Keyword phrases follow the brief's patterns ("osha {name} requirements", "{name} checklist", "{name} inspection", "osha {number}"), built on each standard's everyday name. A headless call suggests the name, because the formal headings score nothing ("osha scaffolds requirements" has no volume; "osha scaffold requirements" has 480). Two rules keep one page per search: a phrase belongs to the most-cited standard that uses it, and any phrase that is a topic-sheet row's keyword stays with that guide (so "fire extinguisher inspection" stays with guide row 23). Requirements and regulation-number phrases come first as a standard page's main keyword. One weak spot to watch in Search Console: 1926.1101 (asbestos in construction) only qualifies on "asbestos inspection", which many homeowners search too.
+The first wave takes the top 50 in queue order. The suggested names are cached (`data/pages/us/standard-names.json`, `industry-names.json`) so the plan doesn't change between runs. Keyword phrases follow the brief's patterns ("osha {name} requirements", "{name} checklist", "{name} inspection", "osha {number}"), built on each standard's everyday name. A headless call suggests the name, because the formal headings score nothing ("osha scaffolds requirements" has no volume; "osha scaffold requirements" has 480). Two rules keep one page per search: a phrase belongs to the most-cited standard that uses it, and any phrase that is a topic-sheet row's keyword stays with that guide (so "fire extinguisher inspection" stays with guide row 23). Requirements and regulation-number phrases come first as a standard page's main keyword. One weak spot to watch in Search Console: 1926.1101 (asbestos in construction) only qualifies on "asbestos inspection", which many homeowners search too.
 
 **Industry pages** (4-digit NAICS with 200+ inspections and 10+ standards cited 5+ times each, plus the keyword rule):
 
@@ -219,8 +219,8 @@ That's fewer than the 50 the first wave expects, so the first wave holds all 46.
 | 200+ inspections | 199 |
 | …and 10+ standards cited 5+ times | 171 |
 | …and the keyword rule: **written** | **19** |
-| Waiting (KD 15+) | 13 |
-| Below the cluster floor | 139 |
+| Waiting (KD 15+) | 9 |
+| Below the cluster floor | 143 |
 
 NAICS titles aren't searched ("foundation, structure, and building exterior contractors"), so phrases use the everyday trade name ("roofing safety", "osha roofing regulations"). Trades whose "safety" searches mostly come from the public (airlines, car rental, amusement parks, hotels) only count employer phrases ("osha … regulations").
 

@@ -9,9 +9,9 @@
   "cited": 489,
   "floor": 209,
   "onEcfr": 205,
-  "write": 46,
-  "waitingKd": 14,
-  "lowVolume": 145
+  "write": 55,
+  "waitingKd": 15,
+  "lowVolume": 135
  },
  "pages": [
   {
@@ -30,9 +30,12 @@
     "osha fall protection requirements requirements",
     "fall protection requirements checklist",
     "fall protection requirements inspection",
+    "osha fall protection requirements",
+    "fall protection checklist",
+    "fall protection inspection",
     "osha 1926.501"
    ],
-   "keyword": "osha construction fall protection requirements",
+   "keyword": "fall protection inspection",
    "cluster": [
     {
      "keyword": "osha construction fall protection requirements",
@@ -77,6 +80,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha fall protection requirements",
+     "volume": 320,
+     "kd": 69,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fall protection checklist",
+     "volume": 30,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fall protection inspection",
+     "volume": 170,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.501",
      "volume": null,
      "kd": null,
@@ -84,12 +108,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 10,
-   "kd": null,
-   "titleHint": "OSHA construction fall protection requirements (29 CFR 1926.501)",
+   "clusterVolume": 530,
+   "kd": 0,
+   "titleHint": "Fall protection inspection (29 CFR 1926.501)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 10 (< 50)",
+   "status": "write",
+   "reason": "",
    "guides": [
     "Fall Protection: OSHA Requirements, Trigger Heights and Systems"
    ]
@@ -347,6 +371,9 @@
     "osha construction ladder requirements",
     "construction ladder checklist",
     "construction ladder inspection",
+    "osha ladders requirements",
+    "ladders checklist",
+    "ladders inspection",
     "osha 1926.1053"
    ],
    "keyword": "ladder inspection",
@@ -387,6 +414,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha ladders requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "ladders checklist",
+     "volume": 480,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "ladders inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1053",
      "volume": null,
      "kd": null,
@@ -394,7 +442,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 1070,
+   "clusterVolume": 1550,
    "kd": 0,
    "titleHint": "Ladder inspection (29 CFR 1926.1053)",
    "keywordSource": "OpenSEO",
@@ -420,6 +468,9 @@
     "osha powered industrial truck requirements",
     "powered industrial truck checklist",
     "powered industrial truck inspection",
+    "osha powered industrial trucks requirements",
+    "powered industrial trucks checklist",
+    "powered industrial trucks inspection",
     "osha 1910.178"
    ],
    "keyword": "forklift inspection",
@@ -460,6 +511,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha powered industrial trucks requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "powered industrial trucks checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "powered industrial trucks inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.178",
      "volume": null,
      "kd": null,
@@ -490,6 +562,9 @@
     "osha fall protection training requirements",
     "fall protection training checklist",
     "fall protection training inspection",
+    "osha fall protection requirements",
+    "fall protection checklist",
+    "fall protection inspection",
     "osha 1926.503"
    ],
    "keyword": "osha fall protection training requirements",
@@ -546,6 +621,9 @@
     "osha scaffolding requirements",
     "scaffolding checklist",
     "scaffolding inspection",
+    "osha scaffolds requirements",
+    "scaffolds checklist",
+    "scaffolds inspection",
     "osha 1926.451"
    ],
    "keyword": "osha scaffold requirements",
@@ -593,6 +671,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha scaffolds requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "scaffolds checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "scaffolds inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.451",
      "volume": null,
      "kd": null,
@@ -626,9 +725,12 @@
     "osha electrical clearance requirements",
     "electrical clearance checklist",
     "electrical clearance inspection",
+    "osha electrical requirements",
+    "electrical checklist",
+    "electrical inspection",
     "osha 1910.303"
    ],
-   "keyword": "electrical safety checklist",
+   "keyword": "electrical inspection",
    "cluster": [
     {
      "keyword": "osha electrical safety requirements",
@@ -666,6 +768,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha electrical requirements",
+     "volume": 50,
+     "kd": 32,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electrical checklist",
+     "volume": 20,
+     "kd": 3,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electrical inspection",
+     "volume": 4400,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.303",
      "volume": null,
      "kd": null,
@@ -673,9 +796,9 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 170,
+   "clusterVolume": 4640,
    "kd": 0,
-   "titleHint": "Electrical safety checklist (29 CFR 1910.303)",
+   "titleHint": "Electrical inspection (29 CFR 1910.303)",
    "keywordSource": "OpenSEO",
    "status": "write",
    "reason": ""
@@ -696,6 +819,9 @@
     "osha electrical wiring requirements",
     "electrical wiring checklist",
     "electrical wiring inspection",
+    "osha wiring methods components and equipment for general use requirements",
+    "wiring methods components and equipment for general use checklist",
+    "wiring methods components and equipment for general use inspection",
     "osha 1910.305"
    ],
    "keyword": "electrical wiring inspection",
@@ -743,6 +869,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha wiring methods components and equipment for general use requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wiring methods components and equipment for general use checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wiring methods components and equipment for general use inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.305",
      "volume": null,
      "kd": null,
@@ -770,6 +917,9 @@
     "osha machine guarding requirements",
     "machine guarding checklist",
     "machine guarding inspection",
+    "osha all machines requirements",
+    "all machines checklist",
+    "all machines inspection",
     "osha 1910.212"
    ],
    "keyword": "machine guarding checklist",
@@ -790,6 +940,27 @@
     },
     {
      "keyword": "machine guarding inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha all machines requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "all machines checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "all machines inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -829,6 +1000,9 @@
     "osha construction eye protection requirements",
     "construction eye protection checklist",
     "construction eye protection inspection",
+    "osha eye and face protection requirements",
+    "eye and face protection checklist",
+    "eye and face protection inspection",
     "osha 1926.102"
    ],
    "keyword": "osha construction safety glasses requirements",
@@ -876,6 +1050,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha eye and face protection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "eye and face protection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "eye and face protection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.102",
      "volume": null,
      "kd": null,
@@ -906,6 +1101,9 @@
     "osha ppe hazard assessment requirements",
     "ppe hazard assessment checklist",
     "ppe hazard assessment inspection",
+    "osha personal protective equipment requirements",
+    "personal protective equipment checklist",
+    "personal protective equipment inspection",
     "osha 1910.132"
    ],
    "keyword": "ppe inspection",
@@ -953,6 +1151,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha personal protective equipment requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "personal protective equipment checklist",
+     "volume": 90,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "personal protective equipment inspection",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.132",
      "volume": null,
      "kd": null,
@@ -960,7 +1179,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 730,
+   "clusterVolume": 830,
    "kd": 8,
    "titleHint": "PPE inspection (29 CFR 1910.132)",
    "keywordSource": "OpenSEO",
@@ -983,6 +1202,9 @@
     "osha fire extinguisher inspection requirements",
     "fire extinguisher inspection checklist",
     "fire extinguisher inspection inspection",
+    "osha portable fire extinguishers requirements",
+    "portable fire extinguishers checklist",
+    "portable fire extinguishers inspection",
     "osha 1910.157"
    ],
    "keyword": "osha fire extinguisher inspection requirements",
@@ -1023,6 +1245,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha portable fire extinguishers requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "portable fire extinguishers checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "portable fire extinguishers inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.157",
      "volume": null,
      "kd": null,
@@ -1053,6 +1296,9 @@
     "osha blocked exit requirements",
     "blocked exit checklist",
     "blocked exit inspection",
+    "osha maintenance safeguards and operational features for exit routes requirements",
+    "maintenance safeguards and operational features for exit routes checklist",
+    "maintenance safeguards and operational features for exit routes inspection",
     "osha 1910.37"
    ],
    "keyword": "osha exit sign requirements",
@@ -1100,6 +1346,25 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha maintenance safeguards and operational features for exit routes requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "maintenance safeguards and operational features for exit routes checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "maintenance safeguards and operational features for exit routes inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.37",
      "volume": 70,
      "kd": null,
@@ -1130,6 +1395,9 @@
     "osha competent person requirements",
     "competent person checklist",
     "competent person inspection",
+    "osha general safety and health provisions requirements",
+    "general safety and health provisions checklist",
+    "general safety and health provisions inspection",
     "osha 1926.20"
    ],
    "keyword": "osha competent person requirements",
@@ -1174,6 +1442,27 @@
      "volume": null,
      "kd": null,
      "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha general safety and health provisions requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "general safety and health provisions checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "general safety and health provisions inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -1284,6 +1573,9 @@
     "osha hard hat requirements",
     "hard hat checklist",
     "hard hat inspection",
+    "osha head protection requirements",
+    "head protection checklist",
+    "head protection inspection",
     "osha 1926.100"
    ],
    "keyword": "hard hat inspection",
@@ -1303,6 +1595,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha head protection requirements",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "head protection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "head protection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.100",
      "volume": null,
      "kd": null,
@@ -1310,7 +1623,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 880,
+   "clusterVolume": 890,
    "kd": 0,
    "titleHint": "Hard hat inspection (29 CFR 1926.100)",
    "keywordSource": "OpenSEO",
@@ -1333,6 +1646,9 @@
     "osha housekeeping requirements",
     "housekeeping checklist",
     "housekeeping inspection",
+    "osha walking-working surfaces requirements",
+    "walking-working surfaces checklist",
+    "walking-working surfaces inspection",
     "osha 1910.22"
    ],
    "keyword": "housekeeping checklist",
@@ -1380,6 +1696,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha walking-working surfaces requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "walking-working surfaces checklist",
+     "volume": 10,
+     "kd": 47,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "walking-working surfaces inspection",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.22",
      "volume": 140,
      "kd": 18,
@@ -1387,7 +1724,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 730,
+   "clusterVolume": 740,
    "kd": 9,
    "titleHint": "Housekeeping checklist (29 CFR 1910.22)",
    "keywordSource": "OpenSEO",
@@ -1410,6 +1747,9 @@
     "osha guardrail height requirements",
     "guardrail height checklist",
     "guardrail height inspection",
+    "osha fall protection and falling object protection requirements",
+    "fall protection and falling object protection checklist",
+    "fall protection and falling object protection inspection",
     "osha 1910.28"
    ],
    "keyword": "osha general industry fall protection requirements",
@@ -1457,6 +1797,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha fall protection and falling object protection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fall protection and falling object protection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fall protection and falling object protection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.28",
      "volume": 260,
      "kd": 19,
@@ -1487,6 +1848,9 @@
     "osha personal fall arrest system requirements",
     "personal fall arrest system checklist",
     "personal fall arrest system inspection",
+    "osha fall protection systems criteria and practices requirements",
+    "fall protection systems criteria and practices checklist",
+    "fall protection systems criteria and practices inspection",
     "osha 1926.502"
    ],
    "keyword": "personal fall arrest system inspection",
@@ -1527,6 +1891,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha fall protection systems criteria and practices requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fall protection systems criteria and practices checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fall protection systems criteria and practices inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.502",
      "volume": null,
      "kd": null,
@@ -1560,6 +1945,9 @@
     "osha trench safety requirements",
     "trench safety checklist",
     "trench safety inspection",
+    "osha specific excavation requirements requirements",
+    "specific excavation requirements checklist",
+    "specific excavation requirements inspection",
     "osha 1926.651"
    ],
    "keyword": "osha excavation requirements",
@@ -1607,6 +1995,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha specific excavation requirements requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "specific excavation requirements checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "specific excavation requirements inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.651",
      "volume": null,
      "kd": null,
@@ -1640,6 +2049,9 @@
     "osha table 1 silica requirements",
     "table 1 silica checklist",
     "table 1 silica inspection",
+    "osha respirable crystalline silica requirements",
+    "respirable crystalline silica checklist",
+    "respirable crystalline silica inspection",
     "osha 1926.1153"
    ],
    "keyword": "osha construction silica requirements",
@@ -1687,6 +2099,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha respirable crystalline silica requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "respirable crystalline silica checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "respirable crystalline silica inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1153",
      "volume": null,
      "kd": null,
@@ -1717,6 +2150,9 @@
     "osha eyewash station requirements",
     "eyewash station checklist",
     "eyewash station inspection",
+    "osha medical services and first aid requirements",
+    "medical services and first aid checklist",
+    "medical services and first aid inspection",
     "osha 1910.151"
    ],
    "keyword": "osha eyewash station requirements",
@@ -1747,6 +2183,27 @@
      "volume": 110,
      "kd": 0,
      "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha medical services and first aid requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "medical services and first aid checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "medical services and first aid inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -1784,6 +2241,9 @@
     "osha bench grinder requirements",
     "bench grinder checklist",
     "bench grinder inspection",
+    "osha abrasive wheel machinery requirements",
+    "abrasive wheel machinery checklist",
+    "abrasive wheel machinery inspection",
     "osha 1910.215"
    ],
    "keyword": "osha bench grinder requirements",
@@ -1831,6 +2291,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha abrasive wheel machinery requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "abrasive wheel machinery checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "abrasive wheel machinery inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.215",
      "volume": null,
      "kd": null,
@@ -1858,9 +2339,12 @@
     "osha osha reporting requirements",
     "osha reporting checklist",
     "osha reporting inspection",
-    "osha report injury to osha requirements",
-    "report injury to osha checklist",
-    "report injury to osha inspection",
+    "osha reporting requirements",
+    "reporting checklist",
+    "reporting inspection",
+    "osha reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha requirements",
+    "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha checklist",
+    "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha inspection",
     "osha 1904.39"
    ],
    "keyword": "osha osha reporting requirements",
@@ -1887,25 +2371,33 @@
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha report injury to osha requirements",
+     "keyword": "reporting checklist",
+     "volume": 20,
+     "kd": 31,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "reporting inspection",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "report injury to osha checklist",
+     "keyword": "osha reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha requirements",
      "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
+     "kd": null
     },
     {
-     "keyword": "report injury to osha inspection",
+     "keyword": "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha checklist",
      "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
+     "kd": null
+    },
+    {
+     "keyword": "reporting fatalities hospitalizations amputations and losses of an eye as a result of work-related incidents to osha inspection",
+     "volume": null,
+     "kd": null
     },
     {
      "keyword": "osha 1904.39",
@@ -1915,12 +2407,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 20,
    "kd": null,
    "titleHint": "OSHA OSHA reporting requirements (29 CFR 1904.39)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 20 (< 50)"
   },
   {
    "section": "1910.219",
@@ -1938,6 +2430,9 @@
     "osha pulley guard requirements",
     "pulley guard checklist",
     "pulley guard inspection",
+    "osha mechanical power-transmission apparatus requirements",
+    "mechanical power-transmission apparatus checklist",
+    "mechanical power-transmission apparatus inspection",
     "osha 1910.219"
    ],
    "keyword": "osha belt guard requirements",
@@ -1985,6 +2480,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha mechanical power-transmission apparatus requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "mechanical power-transmission apparatus checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "mechanical power-transmission apparatus inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.219",
      "volume": null,
      "kd": null,
@@ -2015,6 +2531,9 @@
     "osha confined space permit requirements",
     "confined space permit checklist",
     "confined space permit inspection",
+    "osha permit-required confined spaces requirements",
+    "permit-required confined spaces checklist",
+    "permit-required confined spaces inspection",
     "osha 1910.146"
    ],
    "keyword": "osha confined space requirements",
@@ -2062,6 +2581,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha permit-required confined spaces requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "permit-required confined spaces checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "permit-required confined spaces inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.146",
      "volume": null,
      "kd": null,
@@ -2095,6 +2635,9 @@
     "osha boom lift requirements",
     "boom lift checklist",
     "boom lift inspection",
+    "osha aerial lifts requirements",
+    "aerial lifts checklist",
+    "aerial lifts inspection",
     "osha 1926.453"
    ],
    "keyword": "osha aerial lift requirements",
@@ -2142,6 +2685,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha aerial lifts requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "aerial lifts checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "aerial lifts inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.453",
      "volume": null,
      "kd": null,
@@ -2172,6 +2736,9 @@
     "osha shoring requirements",
     "shoring checklist",
     "shoring inspection",
+    "osha protective systems requirements",
+    "protective systems checklist",
+    "protective systems inspection",
     "osha 1926.652"
    ],
    "keyword": "osha trench box requirements",
@@ -2219,6 +2786,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha protective systems requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "protective systems checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "protective systems inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.652",
      "volume": null,
      "kd": null,
@@ -2252,6 +2840,9 @@
     "osha noise exposure requirements",
     "noise exposure checklist",
     "noise exposure inspection",
+    "osha occupational noise exposure requirements",
+    "occupational noise exposure checklist",
+    "occupational noise exposure inspection",
     "osha 1910.95"
    ],
    "keyword": "osha hearing conservation requirements",
@@ -2293,6 +2884,27 @@
     },
     {
      "keyword": "noise exposure inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha occupational noise exposure requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "occupational noise exposure checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "occupational noise exposure inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -2406,6 +3018,9 @@
     "osha general industry silica requirements",
     "general industry silica checklist",
     "general industry silica inspection",
+    "osha respirable crystalline silica requirements",
+    "respirable crystalline silica checklist",
+    "respirable crystalline silica inspection",
     "osha 1910.1053"
    ],
    "keyword": "osha silica requirements",
@@ -2480,12 +3095,15 @@
     "osha osha 300 log requirements",
     "osha 300 log checklist",
     "osha 300 log inspection",
-    "osha osha 301 requirements",
-    "osha 301 checklist",
-    "osha 301 inspection",
+    "osha 300 log requirements",
+    "300 log checklist",
+    "300 log inspection",
+    "osha forms requirements",
+    "forms checklist",
+    "forms inspection",
     "osha 1904.29"
    ],
-   "keyword": "osha osha 300 log requirements",
+   "keyword": "osha 300 log requirements",
    "cluster": [
     {
      "keyword": "osha osha 300 log requirements",
@@ -2509,21 +3127,42 @@
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha osha 301 requirements",
+     "keyword": "osha 300 log requirements",
+     "volume": 480,
+     "kd": 9,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "300 log checklist",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha 301 checklist",
+     "keyword": "300 log inspection",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha 301 inspection",
+     "keyword": "osha forms requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "forms checklist",
+     "volume": 50,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "forms inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -2537,12 +3176,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA OSHA 300 log requirements (29 CFR 1904.29)",
+   "clusterVolume": 530,
+   "kd": 9,
+   "titleHint": "OSHA 300 log requirements (29 CFR 1904.29)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1926.21",
@@ -2557,6 +3196,9 @@
     "osha construction safety training requirements",
     "construction safety training checklist",
     "construction safety training inspection",
+    "osha safety training and education requirements",
+    "safety training and education checklist",
+    "safety training and education inspection",
     "osha 1926.21"
    ],
    "keyword": "osha construction safety training requirements",
@@ -2577,6 +3219,27 @@
     },
     {
      "keyword": "construction safety training inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha safety training and education requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "safety training and education checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "safety training and education inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -2613,6 +3276,9 @@
     "osha woodworking machine requirements",
     "woodworking machine checklist",
     "woodworking machine inspection",
+    "osha woodworking machinery requirements requirements",
+    "woodworking machinery requirements checklist",
+    "woodworking machinery requirements inspection",
     "osha 1910.213"
    ],
    "keyword": "osha table saw requirements",
@@ -2660,6 +3326,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha woodworking machinery requirements requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "woodworking machinery requirements checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "woodworking machinery requirements inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.213",
      "volume": null,
      "kd": null,
@@ -2690,6 +3377,9 @@
     "osha eye protection requirements",
     "eye protection checklist",
     "eye protection inspection",
+    "osha eye and face protection requirements",
+    "eye and face protection checklist",
+    "eye and face protection inspection",
     "osha 1910.133"
    ],
    "keyword": "osha safety glasses requirements",
@@ -2767,6 +3457,9 @@
     "osha stairway training requirements",
     "stairway training checklist",
     "stairway training inspection",
+    "osha stairways and ladders requirements",
+    "stairways and ladders checklist",
+    "stairways and ladders inspection",
     "osha 1926.1060"
    ],
    "keyword": "osha ladder training requirements",
@@ -2814,6 +3507,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha stairways and ladders requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "stairways and ladders checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "stairways and ladders inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1060",
      "volume": null,
      "kd": null,
@@ -2841,6 +3555,9 @@
     "osha scaffold training requirements",
     "scaffold training checklist",
     "scaffold training inspection",
+    "osha scaffolds requirements",
+    "scaffolds checklist",
+    "scaffolds inspection",
     "osha 1926.454"
    ],
    "keyword": "osha scaffold training requirements",
@@ -2897,6 +3614,9 @@
     "osha portable ladder requirements",
     "portable ladder checklist",
     "portable ladder inspection",
+    "osha ladders requirements",
+    "ladders checklist",
+    "ladders inspection",
     "osha 1910.23"
    ],
    "keyword": "osha fixed ladder requirements",
@@ -2974,6 +3694,9 @@
     "osha flammable cabinet requirements",
     "flammable cabinet checklist",
     "flammable cabinet inspection",
+    "osha flammable liquids requirements",
+    "flammable liquids checklist",
+    "flammable liquids inspection",
     "osha 1910.106"
    ],
    "keyword": "osha flammable liquid storage requirements",
@@ -3021,6 +3744,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha flammable liquids requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "flammable liquids checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "flammable liquids inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.106",
      "volume": null,
      "kd": null,
@@ -3051,6 +3795,9 @@
     "osha spray painting requirements",
     "spray painting checklist",
     "spray painting inspection",
+    "osha spray finishing using flammable and combustible materials requirements",
+    "spray finishing using flammable and combustible materials checklist",
+    "spray finishing using flammable and combustible materials inspection",
     "osha 1910.107"
    ],
    "keyword": "osha spray booth requirements",
@@ -3092,6 +3839,27 @@
     },
     {
      "keyword": "spray painting inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha spray finishing using flammable and combustible materials requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "spray finishing using flammable and combustible materials checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "spray finishing using flammable and combustible materials inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -3205,6 +3973,9 @@
     "osha aisle clearance requirements",
     "aisle clearance checklist",
     "aisle clearance inspection",
+    "osha handling materialsgeneral requirements",
+    "handling materialsgeneral checklist",
+    "handling materialsgeneral inspection",
     "osha 1910.176"
    ],
    "keyword": "osha material storage requirements",
@@ -3252,6 +4023,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha handling materialsgeneral requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "handling materialsgeneral checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "handling materialsgeneral inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.176",
      "volume": null,
      "kd": null,
@@ -3282,6 +4074,9 @@
     "osha construction extension cord requirements",
     "construction extension cord checklist",
     "construction extension cord inspection",
+    "osha wiring methods components and equipment for general use requirements",
+    "wiring methods components and equipment for general use checklist",
+    "wiring methods components and equipment for general use inspection",
     "osha 1926.405"
    ],
    "keyword": "osha temporary wiring requirements",
@@ -3359,6 +4154,9 @@
     "osha grounding requirements",
     "grounding checklist",
     "grounding inspection",
+    "osha wiring design and protection requirements",
+    "wiring design and protection checklist",
+    "wiring design and protection inspection",
     "osha 1910.304"
    ],
    "keyword": "osha gfci requirements",
@@ -3406,6 +4204,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha wiring design and protection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wiring design and protection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wiring design and protection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.304",
      "volume": null,
      "kd": null,
@@ -3436,6 +4255,9 @@
     "osha psm requirements",
     "psm checklist",
     "psm inspection",
+    "osha process safety management of highly hazardous chemicals requirements",
+    "process safety management of highly hazardous chemicals checklist",
+    "process safety management of highly hazardous chemicals inspection",
     "osha 1910.119"
    ],
    "keyword": "osha process safety management requirements",
@@ -3483,6 +4305,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha process safety management of highly hazardous chemicals requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "process safety management of highly hazardous chemicals checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "process safety management of highly hazardous chemicals inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.119",
      "volume": null,
      "kd": null,
@@ -3510,6 +4353,9 @@
     "osha providing osha records requirements",
     "providing osha records checklist",
     "providing osha records inspection",
+    "osha providing records to government representatives requirements",
+    "providing records to government representatives checklist",
+    "providing records to government representatives inspection",
     "osha 1904.40"
    ],
    "keyword": "osha providing osha records requirements",
@@ -3530,6 +4376,27 @@
     },
     {
      "keyword": "providing osha records inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha providing records to government representatives requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "providing records to government representatives checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "providing records to government representatives inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -3563,12 +4430,15 @@
     "osha osha ita requirements",
     "osha ita checklist",
     "osha ita inspection",
-    "osha electronic injury reporting requirements",
-    "electronic injury reporting checklist",
-    "electronic injury reporting inspection",
+    "osha ita requirements",
+    "ita checklist",
+    "ita inspection",
+    "osha reporting fatality injury and illness information to the government requirements",
+    "reporting fatality injury and illness information to the government checklist",
+    "reporting fatality injury and illness information to the government inspection",
     "osha 1904.41"
    ],
-   "keyword": "osha osha ita requirements",
+   "keyword": "ita inspection",
    "cluster": [
     {
      "keyword": "osha osha ita requirements",
@@ -3592,21 +4462,40 @@
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha electronic injury reporting requirements",
+     "keyword": "osha ita requirements",
+     "volume": 20,
+     "kd": 41,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "ita checklist",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "electronic injury reporting checklist",
+     "keyword": "ita inspection",
+     "volume": 10,
+     "kd": 0,
+     "intent": "navigational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha reporting fatality injury and illness information to the government requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "reporting fatality injury and illness information to the government checklist",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "electronic injury reporting inspection",
+     "keyword": "reporting fatality injury and illness information to the government inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -3620,12 +4509,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA OSHA ita requirements (29 CFR 1904.41)",
+   "clusterVolume": 30,
+   "kd": 0,
+   "titleHint": "Ita inspection (29 CFR 1904.41)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 30 (< 50)"
   },
   {
    "section": "1926.416",
@@ -3640,6 +4529,9 @@
     "osha construction electrical safety requirements",
     "construction electrical safety checklist",
     "construction electrical safety inspection",
+    "osha electrical requirements",
+    "electrical checklist",
+    "electrical inspection",
     "osha 1926.416"
    ],
    "keyword": "osha construction electrical safety requirements",
@@ -3696,6 +4588,9 @@
     "osha emergency exit requirements",
     "emergency exit checklist",
     "emergency exit inspection",
+    "osha design and construction requirements for exit routes requirements",
+    "design and construction requirements for exit routes checklist",
+    "design and construction requirements for exit routes inspection",
     "osha 1910.36"
    ],
    "keyword": "osha emergency exit requirements",
@@ -3743,6 +4638,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha design and construction requirements for exit routes requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "design and construction requirements for exit routes checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "design and construction requirements for exit routes inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.36",
      "volume": null,
      "kd": null,
@@ -3773,6 +4689,9 @@
     "osha construction stairs requirements",
     "construction stairs checklist",
     "construction stairs inspection",
+    "osha stairways requirements",
+    "stairways checklist",
+    "stairways inspection",
     "osha 1926.1052"
    ],
    "keyword": "osha stairway requirements",
@@ -3820,6 +4739,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha stairways requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "stairways checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "stairways inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1052",
      "volume": null,
      "kd": null,
@@ -3850,6 +4790,9 @@
     "osha gas cylinder storage requirements",
     "gas cylinder storage checklist",
     "gas cylinder storage inspection",
+    "osha oxygen-fuel gas welding and cutting requirements",
+    "oxygen-fuel gas welding and cutting checklist",
+    "oxygen-fuel gas welding and cutting inspection",
     "osha 1910.253"
    ],
    "keyword": "osha oxygen acetylene requirements",
@@ -3897,6 +4840,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha oxygen-fuel gas welding and cutting requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "oxygen-fuel gas welding and cutting checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "oxygen-fuel gas welding and cutting inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.253",
      "volume": null,
      "kd": null,
@@ -3927,9 +4891,12 @@
     "osha cord inspection requirements",
     "cord inspection checklist",
     "cord inspection inspection",
+    "osha equipment requirements",
+    "equipment checklist",
+    "equipment inspection",
     "osha 1910.334"
    ],
-   "keyword": "osha electrical equipment use requirements",
+   "keyword": "equipment checklist",
    "cluster": [
     {
      "keyword": "osha electrical equipment use requirements",
@@ -3974,6 +4941,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha equipment requirements",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "equipment checklist",
+     "volume": 210,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "equipment inspection",
+     "volume": 210,
+     "kd": 3,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.334",
      "volume": null,
      "kd": null,
@@ -3981,12 +4969,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA electrical equipment use requirements (29 CFR 1910.334)",
+   "clusterVolume": 430,
+   "kd": 0,
+   "titleHint": "Equipment checklist (29 CFR 1910.334)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1910.242",
@@ -4004,6 +4992,9 @@
     "osha power tool requirements",
     "power tool checklist",
     "power tool inspection",
+    "osha hand and portable powered tools and equipment general requirements",
+    "hand and portable powered tools and equipment general checklist",
+    "hand and portable powered tools and equipment general inspection",
     "osha 1910.242"
    ],
    "keyword": "osha compressed air requirements",
@@ -4048,6 +5039,27 @@
      "volume": 20,
      "kd": 45,
      "intent": "commercial",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha hand and portable powered tools and equipment general requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hand and portable powered tools and equipment general checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hand and portable powered tools and equipment general inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -4155,6 +5167,9 @@
     "osha osha 300a requirements",
     "osha 300a checklist",
     "osha 300a inspection",
+    "osha 300a requirements",
+    "300a checklist",
+    "300a inspection",
     "osha annual summary requirements",
     "annual summary checklist",
     "annual summary inspection",
@@ -4178,6 +5193,27 @@
     },
     {
      "keyword": "osha 300a inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha 300a requirements",
+     "volume": 70,
+     "kd": 58,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "300a checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "300a inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -4212,12 +5248,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 70,
    "kd": null,
    "titleHint": "OSHA OSHA 300a requirements (29 CFR 1904.32)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "waiting",
+   "reason": "every measurable phrase has KD 15+"
   },
   {
    "section": "1910.179",
@@ -4235,6 +5271,9 @@
     "osha gantry crane requirements",
     "gantry crane checklist",
     "gantry crane inspection",
+    "osha overhead and gantry cranes requirements",
+    "overhead and gantry cranes checklist",
+    "overhead and gantry cranes inspection",
     "osha 1910.179"
    ],
    "keyword": "overhead crane inspection",
@@ -4282,6 +5321,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha overhead and gantry cranes requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "overhead and gantry cranes checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "overhead and gantry cranes inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.179",
      "volume": null,
      "kd": null,
@@ -4312,6 +5372,9 @@
     "osha mobile scaffold requirements",
     "mobile scaffold checklist",
     "mobile scaffold inspection",
+    "osha additional requirements applicable to specific types of scaffolds requirements",
+    "additional requirements applicable to specific types of scaffolds checklist",
+    "additional requirements applicable to specific types of scaffolds inspection",
     "osha 1926.452"
    ],
    "keyword": "osha mobile scaffold requirements",
@@ -4359,6 +5422,25 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha additional requirements applicable to specific types of scaffolds requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "additional requirements applicable to specific types of scaffolds checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "additional requirements applicable to specific types of scaffolds inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.452",
      "volume": null,
      "kd": null,
@@ -4389,6 +5471,9 @@
     "osha rigging sling requirements",
     "rigging sling checklist",
     "rigging sling inspection",
+    "osha slings requirements",
+    "slings checklist",
+    "slings inspection",
     "osha 1910.184"
    ],
    "keyword": "sling inspection",
@@ -4436,6 +5521,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha slings requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "slings checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "slings inspection",
+     "volume": 90,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.184",
      "volume": null,
      "kd": null,
@@ -4443,7 +5549,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 110,
+   "clusterVolume": 200,
    "kd": 4,
    "titleHint": "Sling inspection (29 CFR 1910.184)",
    "keywordSource": "OpenSEO",
@@ -4466,6 +5572,9 @@
     "osha falling object protection requirements",
     "falling object protection checklist",
     "falling object protection inspection",
+    "osha fall protection systems and falling object protectioncriteria and practices requirements",
+    "fall protection systems and falling object protectioncriteria and practices checklist",
+    "fall protection systems and falling object protectioncriteria and practices inspection",
     "osha 1910.29"
    ],
    "keyword": "osha 1910.29",
@@ -4490,6 +5599,21 @@
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha fall protection systems and falling object protectioncriteria and practices requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection systems and falling object protectioncriteria and practices checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "fall protection systems and falling object protectioncriteria and practices inspection",
+     "volume": null,
+     "kd": null
     },
     {
      "keyword": "osha 1910.29",
@@ -4519,6 +5643,9 @@
     "osha walking working surfaces training requirements",
     "walking working surfaces training checklist",
     "walking working surfaces training inspection",
+    "osha walking-working surfaces requirements",
+    "walking-working surfaces checklist",
+    "walking-working surfaces inspection",
     "osha 1910.30"
    ],
    "keyword": "osha walking working surfaces training requirements",
@@ -4575,6 +5702,9 @@
     "osha earthmoving equipment requirements",
     "earthmoving equipment checklist",
     "earthmoving equipment inspection",
+    "osha material handling equipment requirements",
+    "material handling equipment checklist",
+    "material handling equipment inspection",
     "osha 1926.602"
    ],
    "keyword": "osha construction forklift requirements",
@@ -4622,6 +5752,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha material handling equipment requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "material handling equipment checklist",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "material handling equipment inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.602",
      "volume": null,
      "kd": null,
@@ -4649,6 +5800,9 @@
     "osha construction electrical safety requirements",
     "construction electrical safety checklist",
     "construction electrical safety inspection",
+    "osha electrical requirements",
+    "electrical checklist",
+    "electrical inspection",
     "osha 1926.403"
    ],
    "keyword": "osha 1926.403",
@@ -4684,6 +5838,9 @@
     "osha hot work requirements",
     "hot work checklist",
     "hot work inspection",
+    "osha welding cutting and brazing requirements",
+    "welding cutting and brazing checklist",
+    "welding cutting and brazing inspection",
     "osha 1910.252"
    ],
    "keyword": "welding safety checklist",
@@ -4731,6 +5888,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha welding cutting and brazing requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "welding cutting and brazing checklist",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "welding cutting and brazing inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.252",
      "volume": null,
      "kd": null,
@@ -4758,6 +5936,9 @@
     "osha construction first aid requirements",
     "construction first aid checklist",
     "construction first aid inspection",
+    "osha medical services and first aid requirements",
+    "medical services and first aid checklist",
+    "medical services and first aid inspection",
     "osha 1926.50"
    ],
    "keyword": "osha construction first aid requirements",
@@ -4888,6 +6069,9 @@
     "osha hexavalent chromium requirements",
     "hexavalent chromium checklist",
     "hexavalent chromium inspection",
+    "osha toxic and hazardous substances requirements",
+    "toxic and hazardous substances checklist",
+    "toxic and hazardous substances inspection",
     "osha 1910.1026"
    ],
    "keyword": "osha hexavalent chromium requirements",
@@ -4908,6 +6092,27 @@
     },
     {
      "keyword": "hexavalent chromium inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha toxic and hazardous substances requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "toxic and hazardous substances checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "toxic and hazardous substances inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -4941,6 +6146,9 @@
     "osha electrical safe work practices requirements",
     "electrical safe work practices checklist",
     "electrical safe work practices inspection",
+    "osha selection and use of work practices requirements",
+    "selection and use of work practices checklist",
+    "selection and use of work practices inspection",
     "osha 1910.333"
    ],
    "keyword": "osha electrical safe work practices requirements",
@@ -4961,6 +6169,27 @@
     },
     {
      "keyword": "electrical safe work practices inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha selection and use of work practices requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "selection and use of work practices checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "selection and use of work practices inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -4994,6 +6223,9 @@
     "osha emergency action plan requirements",
     "emergency action plan checklist",
     "emergency action plan inspection",
+    "osha emergency action plans requirements",
+    "emergency action plans checklist",
+    "emergency action plans inspection",
     "osha 1910.38"
    ],
    "keyword": "osha emergency action plan requirements",
@@ -5014,6 +6246,27 @@
     },
     {
      "keyword": "emergency action plan inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha emergency action plans requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "emergency action plans checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "emergency action plans inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -5047,9 +6300,12 @@
     "osha compressed gas cylinder requirements",
     "compressed gas cylinder checklist",
     "compressed gas cylinder inspection",
+    "osha hazardous materials requirements",
+    "hazardous materials checklist",
+    "hazardous materials inspection",
     "osha 1910.101"
    ],
-   "keyword": "osha compressed gas cylinder requirements",
+   "keyword": "hazardous materials inspection",
    "cluster": [
     {
      "keyword": "osha compressed gas cylinder requirements",
@@ -5073,6 +6329,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha hazardous materials requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hazardous materials checklist",
+     "volume": 20,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hazardous materials inspection",
+     "volume": 40,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.101",
      "volume": null,
      "kd": null,
@@ -5080,12 +6357,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 10,
-   "kd": null,
-   "titleHint": "OSHA compressed gas cylinder requirements (29 CFR 1910.101)",
+   "clusterVolume": 70,
+   "kd": 0,
+   "titleHint": "Hazardous materials inspection (29 CFR 1910.101)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 10 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1926.62",
@@ -5100,6 +6377,9 @@
     "osha lead in construction requirements",
     "lead in construction checklist",
     "lead in construction inspection",
+    "osha lead requirements",
+    "lead checklist",
+    "lead inspection",
     "osha 1926.62"
    ],
    "keyword": "osha lead in construction requirements",
@@ -5153,9 +6433,12 @@
     "osha construction fire extinguisher requirements",
     "construction fire extinguisher checklist",
     "construction fire extinguisher inspection",
+    "osha fire protection requirements",
+    "fire protection checklist",
+    "fire protection inspection",
     "osha 1926.150"
    ],
-   "keyword": "osha construction fire extinguisher requirements",
+   "keyword": "fire protection inspection",
    "cluster": [
     {
      "keyword": "osha construction fire extinguisher requirements",
@@ -5179,6 +6462,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha fire protection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire protection checklist",
+     "volume": 10,
+     "kd": 50,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire protection inspection",
+     "volume": 390,
+     "kd": 0,
+     "intent": "commercial",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.150",
      "volume": null,
      "kd": null,
@@ -5186,12 +6490,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA construction fire extinguisher requirements (29 CFR 1926.150)",
+   "clusterVolume": 400,
+   "kd": 0,
+   "titleHint": "Fire protection inspection (29 CFR 1926.150)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1910.1001",
@@ -5238,6 +6542,9 @@
     "osha hazwoper requirements",
     "hazwoper checklist",
     "hazwoper inspection",
+    "osha hazardous waste operations and emergency response requirements",
+    "hazardous waste operations and emergency response checklist",
+    "hazardous waste operations and emergency response inspection",
     "osha 1910.120"
    ],
    "keyword": "osha hazwoper requirements",
@@ -5258,6 +6565,27 @@
     },
     {
      "keyword": "hazwoper inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha hazardous waste operations and emergency response requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hazardous waste operations and emergency response checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hazardous waste operations and emergency response inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -5291,6 +6619,9 @@
     "osha construction stairway requirements",
     "construction stairway checklist",
     "construction stairway inspection",
+    "osha stairways and ladders requirements",
+    "stairways and ladders checklist",
+    "stairways and ladders inspection",
     "osha 1926.1051"
    ],
    "keyword": "osha construction stairway requirements",
@@ -5347,6 +6678,9 @@
     "osha abrasive blast nozzle requirements",
     "abrasive blast nozzle checklist",
     "abrasive blast nozzle inspection",
+    "osha other portable tools and equipment requirements",
+    "other portable tools and equipment checklist",
+    "other portable tools and equipment inspection",
     "osha 1910.244"
    ],
    "keyword": "osha jack safety requirements",
@@ -5394,6 +6728,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha other portable tools and equipment requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "other portable tools and equipment checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "other portable tools and equipment inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.244",
      "volume": null,
      "kd": null,
@@ -5424,6 +6779,9 @@
     "osha assured equipment grounding requirements",
     "assured equipment grounding checklist",
     "assured equipment grounding inspection",
+    "osha wiring design and protection requirements",
+    "wiring design and protection checklist",
+    "wiring design and protection inspection",
     "osha 1926.404"
    ],
    "keyword": "osha assured equipment grounding requirements",
@@ -5480,6 +6838,9 @@
     "osha grinder guard requirements",
     "grinder guard checklist",
     "grinder guard inspection",
+    "osha guarding of portable powered tools requirements",
+    "guarding of portable powered tools checklist",
+    "guarding of portable powered tools inspection",
     "osha 1910.243"
    ],
    "keyword": "osha power tool guarding requirements",
@@ -5527,6 +6888,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha guarding of portable powered tools requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of portable powered tools checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of portable powered tools inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.243",
      "volume": null,
      "kd": null,
@@ -5557,6 +6939,9 @@
     "osha lpg requirements",
     "lpg checklist",
     "lpg inspection",
+    "osha storage and handling of liquefied petroleum gases requirements",
+    "storage and handling of liquefied petroleum gases checklist",
+    "storage and handling of liquefied petroleum gases inspection",
     "osha 1910.110"
    ],
    "keyword": "osha propane storage requirements",
@@ -5604,6 +6989,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha storage and handling of liquefied petroleum gases requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "storage and handling of liquefied petroleum gases checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "storage and handling of liquefied petroleum gases inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.110",
      "volume": null,
      "kd": null,
@@ -5631,6 +7037,9 @@
     "osha power tool safety requirements",
     "power tool safety checklist",
     "power tool safety inspection",
+    "osha toolshand and power requirements",
+    "toolshand and power checklist",
+    "toolshand and power inspection",
     "osha 1926.300"
    ],
    "keyword": "osha power tool safety requirements",
@@ -5651,6 +7060,27 @@
     },
     {
      "keyword": "power tool safety inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha toolshand and power requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "toolshand and power checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "toolshand and power inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -5687,6 +7117,9 @@
     "osha punch press requirements",
     "punch press checklist",
     "punch press inspection",
+    "osha mechanical power presses requirements",
+    "mechanical power presses checklist",
+    "mechanical power presses inspection",
     "osha 1910.217"
    ],
    "keyword": "osha power press requirements",
@@ -5734,6 +7167,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha mechanical power presses requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "mechanical power presses checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "mechanical power presses inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.217",
      "volume": null,
      "kd": null,
@@ -5764,6 +7218,9 @@
     "osha rebar cap requirements",
     "rebar cap checklist",
     "rebar cap inspection",
+    "osha concrete and masonry construction requirements",
+    "concrete and masonry construction checklist",
+    "concrete and masonry construction inspection",
     "osha 1926.701"
    ],
    "keyword": "osha rebar cap requirements",
@@ -5811,6 +7268,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha concrete and masonry construction requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "concrete and masonry construction checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "concrete and masonry construction inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.701",
      "volume": null,
      "kd": null,
@@ -5838,6 +7316,9 @@
     "osha fire brigade requirements",
     "fire brigade checklist",
     "fire brigade inspection",
+    "osha fire brigades requirements",
+    "fire brigades checklist",
+    "fire brigades inspection",
     "osha 1910.156"
    ],
    "keyword": "fire brigade inspection",
@@ -5861,6 +7342,27 @@
      "volume": 10,
      "kd": 3,
      "intent": "navigational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha fire brigades requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire brigades checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire brigades inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -5891,6 +7393,9 @@
     "osha construction housekeeping requirements",
     "construction housekeeping checklist",
     "construction housekeeping inspection",
+    "osha housekeeping requirements",
+    "housekeeping checklist",
+    "housekeeping inspection",
     "osha 1926.25"
    ],
    "keyword": "osha construction housekeeping requirements",
@@ -5947,6 +7452,9 @@
     "osha aerial lift requirements",
     "aerial lift checklist",
     "aerial lift inspection",
+    "osha vehicle-mounted elevating and rotating work platforms requirements",
+    "vehicle-mounted elevating and rotating work platforms checklist",
+    "vehicle-mounted elevating and rotating work platforms inspection",
     "osha 1910.67"
    ],
    "keyword": "osha 1910.67",
@@ -5970,6 +7478,27 @@
      "volume": 110,
      "kd": 0,
      "intent": "commercial",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha vehicle-mounted elevating and rotating work platforms requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "vehicle-mounted elevating and rotating work platforms checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "vehicle-mounted elevating and rotating work platforms inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -6000,6 +7529,9 @@
     "osha construction ppe requirements requirements",
     "construction ppe requirements checklist",
     "construction ppe requirements inspection",
+    "osha criteria for personal protective equipment requirements",
+    "criteria for personal protective equipment checklist",
+    "criteria for personal protective equipment inspection",
     "osha 1926.95"
    ],
    "keyword": "osha construction ppe requirements requirements",
@@ -6020,6 +7552,27 @@
     },
     {
      "keyword": "construction ppe requirements inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha criteria for personal protective equipment requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "criteria for personal protective equipment checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "criteria for personal protective equipment inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6053,6 +7606,9 @@
     "osha steel erection fall protection requirements",
     "steel erection fall protection checklist",
     "steel erection fall protection inspection",
+    "osha fall protection requirements",
+    "fall protection checklist",
+    "fall protection inspection",
     "osha 1926.760"
    ],
    "keyword": "osha steel erection fall protection requirements",
@@ -6109,6 +7665,9 @@
     "osha danger tag requirements",
     "danger tag checklist",
     "danger tag inspection",
+    "osha specifications for accident prevention signs and tags requirements",
+    "specifications for accident prevention signs and tags checklist",
+    "specifications for accident prevention signs and tags inspection",
     "osha 1910.145"
    ],
    "keyword": "osha safety sign requirements",
@@ -6150,6 +7709,27 @@
     },
     {
      "keyword": "danger tag inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha specifications for accident prevention signs and tags requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "specifications for accident prevention signs and tags checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "specifications for accident prevention signs and tags inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6242,6 +7822,9 @@
     "osha pel requirements",
     "pel checklist",
     "pel inspection",
+    "osha air contaminants requirements",
+    "air contaminants checklist",
+    "air contaminants inspection",
     "osha 1910.1000"
    ],
    "keyword": "osha permissible exposure limit requirements",
@@ -6289,6 +7872,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha air contaminants requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "air contaminants checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "air contaminants inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.1000",
      "volume": null,
      "kd": null,
@@ -6322,6 +7926,9 @@
     "osha arc flash ppe requirements",
     "arc flash ppe checklist",
     "arc flash ppe inspection",
+    "osha safeguards for personnel protection requirements",
+    "safeguards for personnel protection checklist",
+    "safeguards for personnel protection inspection",
     "osha 1910.335"
    ],
    "keyword": "osha arc flash ppe requirements",
@@ -6369,6 +7976,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha safeguards for personnel protection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "safeguards for personnel protection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "safeguards for personnel protection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.335",
      "volume": null,
      "kd": null,
@@ -6399,6 +8027,9 @@
     "osha sling requirements",
     "sling checklist",
     "sling inspection",
+    "osha rigging equipment for material handling requirements",
+    "rigging equipment for material handling checklist",
+    "rigging equipment for material handling inspection",
     "osha 1926.251"
    ],
    "keyword": "osha rigging requirements",
@@ -6422,6 +8053,27 @@
      "volume": 140,
      "kd": 0,
      "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha rigging equipment for material handling requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "rigging equipment for material handling checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "rigging equipment for material handling inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -6455,6 +8107,9 @@
     "osha grain elevator requirements",
     "grain elevator checklist",
     "grain elevator inspection",
+    "osha grain handling facilities requirements",
+    "grain handling facilities checklist",
+    "grain handling facilities inspection",
     "osha 1910.272"
    ],
    "keyword": "osha grain bin requirements",
@@ -6502,6 +8157,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha grain handling facilities requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "grain handling facilities checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "grain handling facilities inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.272",
      "volume": null,
      "kd": null,
@@ -6529,6 +8205,9 @@
     "osha recordable injury requirements",
     "recordable injury checklist",
     "recordable injury inspection",
+    "osha recording criteria requirements",
+    "recording criteria checklist",
+    "recording criteria inspection",
     "osha 1904.4"
    ],
    "keyword": "osha recordable injury requirements",
@@ -6549,6 +8228,27 @@
     },
     {
      "keyword": "recordable injury inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha recording criteria requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "recording criteria checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "recording criteria inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6582,6 +8282,9 @@
     "osha stair requirements requirements",
     "stair requirements checklist",
     "stair requirements inspection",
+    "osha stairways requirements",
+    "stairways checklist",
+    "stairways inspection",
     "osha 1910.25"
    ],
    "keyword": "osha 1910.25",
@@ -6635,6 +8338,9 @@
     "osha logging safety requirements",
     "logging safety checklist",
     "logging safety inspection",
+    "osha logging operations requirements",
+    "logging operations checklist",
+    "logging operations inspection",
     "osha 1910.266"
    ],
    "keyword": "osha logging safety requirements",
@@ -6655,6 +8361,27 @@
     },
     {
      "keyword": "logging safety inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha logging operations requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "logging operations checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "logging operations inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6691,6 +8418,9 @@
     "osha utility lineman safety requirements",
     "utility lineman safety checklist",
     "utility lineman safety inspection",
+    "osha electric power generation transmission and distribution requirements",
+    "electric power generation transmission and distribution checklist",
+    "electric power generation transmission and distribution inspection",
     "osha 1910.269"
    ],
    "keyword": "osha power line work requirements",
@@ -6738,6 +8468,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha electric power generation transmission and distribution requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electric power generation transmission and distribution checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electric power generation transmission and distribution inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.269",
      "volume": null,
      "kd": null,
@@ -6768,6 +8519,9 @@
     "osha personal fall arrest requirements",
     "personal fall arrest checklist",
     "personal fall arrest inspection",
+    "osha personal fall protection systems requirements",
+    "personal fall protection systems checklist",
+    "personal fall protection systems inspection",
     "osha 1910.140"
    ],
    "keyword": "safety harness inspection",
@@ -6815,6 +8569,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha personal fall protection systems requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "personal fall protection systems checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "personal fall protection systems inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.140",
      "volume": null,
      "kd": null,
@@ -6842,9 +8617,12 @@
     "osha covid healthcare standard requirements",
     "covid healthcare standard checklist",
     "covid healthcare standard inspection",
+    "osha healthcare requirements",
+    "healthcare checklist",
+    "healthcare inspection",
     "osha 1910.502"
    ],
-   "keyword": "osha covid healthcare standard requirements",
+   "keyword": "healthcare checklist",
    "cluster": [
     {
      "keyword": "osha covid healthcare standard requirements",
@@ -6868,6 +8646,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha healthcare requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "healthcare checklist",
+     "volume": 40,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "healthcare inspection",
+     "volume": 40,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.502",
      "volume": null,
      "kd": null,
@@ -6875,12 +8674,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA covid healthcare standard requirements (29 CFR 1910.502)",
+   "clusterVolume": 80,
+   "kd": 0,
+   "titleHint": "Healthcare checklist (29 CFR 1910.502)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1904.33",
@@ -6895,6 +8694,12 @@
     "osha osha log retention requirements",
     "osha log retention checklist",
     "osha log retention inspection",
+    "osha log retention requirements",
+    "log retention checklist",
+    "log retention inspection",
+    "osha retention and updating requirements",
+    "retention and updating checklist",
+    "retention and updating inspection",
     "osha 1904.33"
    ],
    "keyword": "osha osha log retention requirements",
@@ -6915,6 +8720,48 @@
     },
     {
      "keyword": "osha log retention inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha log retention requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "log retention checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "log retention inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha retention and updating requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "retention and updating checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "retention and updating inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -7004,6 +8851,9 @@
     "osha qualified person training requirements",
     "qualified person training checklist",
     "qualified person training inspection",
+    "osha electrical requirements",
+    "electrical checklist",
+    "electrical inspection",
     "osha 1910.332"
    ],
    "keyword": "osha electrical safety training requirements",
@@ -7078,6 +8928,9 @@
     "osha hard hat requirements",
     "hard hat checklist",
     "hard hat inspection",
+    "osha head protection requirements",
+    "head protection checklist",
+    "head protection inspection",
     "osha 1910.135"
    ],
    "keyword": "osha 1910.135",
@@ -7113,6 +8966,9 @@
     "osha class 1 div 1 requirements",
     "class 1 div 1 checklist",
     "class 1 div 1 inspection",
+    "osha classified requirements",
+    "classified checklist",
+    "classified inspection",
     "osha 1910.307"
    ],
    "keyword": "osha hazardous location requirements",
@@ -7154,6 +9010,27 @@
     },
     {
      "keyword": "class 1 div 1 inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha classified requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "classified checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "classified inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -7243,6 +9120,9 @@
     "osha construction sanitation requirements",
     "construction sanitation checklist",
     "construction sanitation inspection",
+    "osha sanitation requirements",
+    "sanitation checklist",
+    "sanitation inspection",
     "osha 1926.51"
    ],
    "keyword": "osha jobsite toilet requirements",
@@ -7320,6 +9200,9 @@
     "osha barricade tape requirements",
     "barricade tape checklist",
     "barricade tape inspection",
+    "osha accident prevention signs and tags requirements",
+    "accident prevention signs and tags checklist",
+    "accident prevention signs and tags inspection",
     "osha 1926.200"
    ],
    "keyword": "osha barricade tape requirements",
@@ -7367,6 +9250,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha accident prevention signs and tags requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "accident prevention signs and tags checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "accident prevention signs and tags inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.200",
      "volume": null,
      "kd": null,
@@ -7394,6 +9298,9 @@
     "osha construction ppe requirements",
     "construction ppe checklist",
     "construction ppe inspection",
+    "osha personal protective equipment requirements",
+    "personal protective equipment checklist",
+    "personal protective equipment inspection",
     "osha 1926.28"
    ],
    "keyword": "construction ppe checklist",
@@ -7450,9 +9357,12 @@
     "osha steel toe boot requirements",
     "steel toe boot checklist",
     "steel toe boot inspection",
+    "osha foot protection requirements",
+    "foot protection checklist",
+    "foot protection inspection",
     "osha 1910.136"
    ],
-   "keyword": "osha safety shoe requirements",
+   "keyword": "osha foot protection requirements",
    "cluster": [
     {
      "keyword": "osha safety shoe requirements",
@@ -7497,6 +9407,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha foot protection requirements",
+     "volume": 30,
+     "kd": 14,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "foot protection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "foot protection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.136",
      "volume": null,
      "kd": null,
@@ -7504,12 +9435,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 70,
-   "kd": null,
-   "titleHint": "OSHA safety shoe requirements (29 CFR 1910.136)",
+   "clusterVolume": 100,
+   "kd": 14,
+   "titleHint": "OSHA foot protection requirements (29 CFR 1910.136)",
    "keywordSource": "OpenSEO",
-   "status": "waiting",
-   "reason": "every measurable phrase has KD 15+"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1910.1450",
@@ -7527,6 +9458,9 @@
     "osha chemical hygiene plan requirements",
     "chemical hygiene plan checklist",
     "chemical hygiene plan inspection",
+    "osha occupational exposure to hazardous chemicals in laboratories requirements",
+    "occupational exposure to hazardous chemicals in laboratories checklist",
+    "occupational exposure to hazardous chemicals in laboratories inspection",
     "osha 1910.1450"
    ],
    "keyword": "osha lab standard requirements",
@@ -7574,6 +9508,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha occupational exposure to hazardous chemicals in laboratories requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "occupational exposure to hazardous chemicals in laboratories checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "occupational exposure to hazardous chemicals in laboratories inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.1450",
      "volume": null,
      "kd": null,
@@ -7601,6 +9556,9 @@
     "osha crane inspection requirements",
     "crane inspection checklist",
     "crane inspection inspection",
+    "osha inspections requirements",
+    "inspections checklist",
+    "inspections inspection",
     "osha 1926.1412"
    ],
    "keyword": "osha crane inspection requirements",
@@ -7627,6 +9585,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha inspections requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "inspections checklist",
+     "volume": 1000,
+     "kd": 11,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "inspections inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1412",
      "volume": null,
      "kd": null,
@@ -7634,7 +9613,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 640,
+   "clusterVolume": 1640,
    "kd": 14,
    "titleHint": "OSHA crane inspection requirements (29 CFR 1926.1412)",
    "keywordSource": "OpenSEO",
@@ -7657,6 +9636,9 @@
     "osha pneumatic tool requirements",
     "pneumatic tool checklist",
     "pneumatic tool inspection",
+    "osha power-operated hand tools requirements",
+    "power-operated hand tools checklist",
+    "power-operated hand tools inspection",
     "osha 1926.302"
    ],
    "keyword": "osha nail gun requirements",
@@ -7704,6 +9686,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha power-operated hand tools requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "power-operated hand tools checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "power-operated hand tools inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.302",
      "volume": null,
      "kd": null,
@@ -7731,6 +9734,9 @@
     "osha multiple establishment recordkeeping requirements",
     "multiple establishment recordkeeping checklist",
     "multiple establishment recordkeeping inspection",
+    "osha multiple business establishments requirements",
+    "multiple business establishments checklist",
+    "multiple business establishments inspection",
     "osha 1904.30"
    ],
    "keyword": "osha multiple establishment recordkeeping requirements",
@@ -7751,6 +9757,27 @@
     },
     {
      "keyword": "multiple establishment recordkeeping inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha multiple business establishments requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "multiple business establishments checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "multiple business establishments inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -7787,6 +9814,9 @@
     "osha gas can requirements",
     "gas can checklist",
     "gas can inspection",
+    "osha flammable liquids requirements",
+    "flammable liquids checklist",
+    "flammable liquids inspection",
     "osha 1926.152"
    ],
    "keyword": "osha gas can requirements",
@@ -7843,6 +9873,9 @@
     "osha rim wheel servicing requirements",
     "rim wheel servicing checklist",
     "rim wheel servicing inspection",
+    "osha servicing multi-piece and single piece rim wheels requirements",
+    "servicing multi-piece and single piece rim wheels checklist",
+    "servicing multi-piece and single piece rim wheels inspection",
     "osha 1910.177"
    ],
    "keyword": "osha tire changing requirements",
@@ -7890,6 +9923,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha servicing multi-piece and single piece rim wheels requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "servicing multi-piece and single piece rim wheels checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "servicing multi-piece and single piece rim wheels inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.177",
      "volume": null,
      "kd": null,
@@ -7917,6 +9971,9 @@
     "osha sawmill requirements",
     "sawmill checklist",
     "sawmill inspection",
+    "osha sawmills requirements",
+    "sawmills checklist",
+    "sawmills inspection",
     "osha 1910.265"
    ],
    "keyword": "osha sawmill requirements",
@@ -7937,6 +9994,27 @@
     },
     {
      "keyword": "sawmill inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha sawmills requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "sawmills checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "sawmills inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -7973,6 +10051,9 @@
     "osha construction elevator requirements",
     "construction elevator checklist",
     "construction elevator inspection",
+    "osha material hoists personnel hoists and elevators requirements",
+    "material hoists personnel hoists and elevators checklist",
+    "material hoists personnel hoists and elevators inspection",
     "osha 1926.552"
    ],
    "keyword": "osha construction elevator requirements",
@@ -8020,6 +10101,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha material hoists personnel hoists and elevators requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "material hoists personnel hoists and elevators checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "material hoists personnel hoists and elevators inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.552",
      "volume": null,
      "kd": null,
@@ -8047,6 +10149,9 @@
     "osha confined space construction requirements",
     "confined space construction checklist",
     "confined space construction inspection",
+    "osha confined spaces in construction requirements",
+    "confined spaces in construction checklist",
+    "confined spaces in construction inspection",
     "osha 1926.1203"
    ],
    "keyword": "osha confined space construction requirements",
@@ -8067,6 +10172,27 @@
     },
     {
      "keyword": "confined space construction inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha confined spaces in construction requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "confined spaces in construction checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "confined spaces in construction inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -8103,6 +10229,9 @@
     "osha farm equipment guarding requirements",
     "farm equipment guarding checklist",
     "farm equipment guarding inspection",
+    "osha guarding of farm field equipment farmstead equipment and cotton gins requirements",
+    "guarding of farm field equipment farmstead equipment and cotton gins checklist",
+    "guarding of farm field equipment farmstead equipment and cotton gins inspection",
     "osha 1928.57"
    ],
    "keyword": "osha pto guard requirements",
@@ -8150,6 +10279,25 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha guarding of farm field equipment farmstead equipment and cotton gins requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "guarding of farm field equipment farmstead equipment and cotton gins checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of farm field equipment farmstead equipment and cotton gins inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1928.57",
      "volume": null,
      "kd": null,
@@ -8180,6 +10328,9 @@
     "osha crane operator training requirements",
     "crane operator training checklist",
     "crane operator training inspection",
+    "osha operator training certification and evaluation requirements",
+    "operator training certification and evaluation checklist",
+    "operator training certification and evaluation inspection",
     "osha 1926.1427"
    ],
    "keyword": "osha crane operator certification requirements",
@@ -8227,6 +10378,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha operator training certification and evaluation requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "operator training certification and evaluation checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "operator training certification and evaluation inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1427",
      "volume": null,
      "kd": null,
@@ -8257,6 +10429,9 @@
     "osha demolition preparation requirements",
     "demolition preparation checklist",
     "demolition preparation inspection",
+    "osha preparatory operations requirements",
+    "preparatory operations checklist",
+    "preparatory operations inspection",
     "osha 1926.850"
    ],
    "keyword": "osha demolition engineering survey requirements",
@@ -8298,6 +10473,27 @@
     },
     {
      "keyword": "demolition preparation inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha preparatory operations requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "preparatory operations checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "preparatory operations inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -8411,6 +10607,9 @@
     "osha welding machine safety requirements",
     "welding machine safety checklist",
     "welding machine safety inspection",
+    "osha arc welding and cutting requirements",
+    "arc welding and cutting checklist",
+    "arc welding and cutting inspection",
     "osha 1910.254"
    ],
    "keyword": "osha arc welding requirements",
@@ -8458,6 +10657,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha arc welding and cutting requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "arc welding and cutting checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "arc welding and cutting inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.254",
      "volume": null,
      "kd": null,
@@ -8488,6 +10708,9 @@
     "osha abrasive wheel requirements",
     "abrasive wheel checklist",
     "abrasive wheel inspection",
+    "osha abrasive wheels and tools requirements",
+    "abrasive wheels and tools checklist",
+    "abrasive wheels and tools inspection",
     "osha 1926.303"
    ],
    "keyword": "osha grinder safety requirements",
@@ -8535,6 +10758,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha abrasive wheels and tools requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "abrasive wheels and tools checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "abrasive wheels and tools inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.303",
      "volume": null,
      "kd": null,
@@ -8565,6 +10809,9 @@
     "osha truck crane requirements",
     "truck crane checklist",
     "truck crane inspection",
+    "osha crawler locomotive and truck cranes requirements",
+    "crawler locomotive and truck cranes checklist",
+    "crawler locomotive and truck cranes inspection",
     "osha 1910.180"
    ],
    "keyword": "mobile crane inspection",
@@ -8612,6 +10859,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha crawler locomotive and truck cranes requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "crawler locomotive and truck cranes checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "crawler locomotive and truck cranes inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.180",
      "volume": null,
      "kd": null,
@@ -8642,6 +10910,9 @@
     "osha connector training requirements",
     "connector training checklist",
     "connector training inspection",
+    "osha steel erection requirements",
+    "steel erection checklist",
+    "steel erection inspection",
     "osha 1926.761"
    ],
    "keyword": "osha steel erection training requirements",
@@ -8689,6 +10960,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha steel erection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "steel erection checklist",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "steel erection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.761",
      "volume": null,
      "kd": null,
@@ -8696,12 +10988,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "titleHint": "OSHA steel erection training requirements (29 CFR 1926.761)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "section": "1910.142",
@@ -8719,6 +11011,9 @@
     "osha worker housing requirements",
     "worker housing checklist",
     "worker housing inspection",
+    "osha temporary labor camps requirements",
+    "temporary labor camps checklist",
+    "temporary labor camps inspection",
     "osha 1910.142"
    ],
    "keyword": "osha temporary labor camp requirements",
@@ -8766,6 +11061,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha temporary labor camps requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "temporary labor camps checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "temporary labor camps inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.142",
      "volume": null,
      "kd": null,
@@ -8796,6 +11112,9 @@
     "osha cadmium standard requirements",
     "cadmium standard checklist",
     "cadmium standard inspection",
+    "osha cadmium requirements",
+    "cadmium checklist",
+    "cadmium inspection",
     "osha 1910.1027"
    ],
    "keyword": "osha cadmium exposure requirements",
@@ -8843,6 +11162,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha cadmium requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cadmium checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cadmium inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.1027",
      "volume": null,
      "kd": null,
@@ -8873,6 +11213,9 @@
     "osha osha recordable criteria requirements",
     "osha recordable criteria checklist",
     "osha recordable criteria inspection",
+    "osha general recording criteria requirements",
+    "general recording criteria checklist",
+    "general recording criteria inspection",
     "osha 1904.7"
    ],
    "keyword": "osha osha recordable criteria requirements",
@@ -8893,6 +11236,27 @@
     },
     {
      "keyword": "osha recordable criteria inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha general recording criteria requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "general recording criteria checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "general recording criteria inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -8929,6 +11293,9 @@
     "osha workplace alarm requirements",
     "workplace alarm checklist",
     "workplace alarm inspection",
+    "osha employee alarm systems requirements",
+    "employee alarm systems checklist",
+    "employee alarm systems inspection",
     "osha 1910.165"
    ],
    "keyword": "osha employee alarm system requirements",
@@ -8976,6 +11343,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha employee alarm systems requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "employee alarm systems checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "employee alarm systems inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.165",
      "volume": null,
      "kd": null,
@@ -9006,6 +11394,9 @@
     "osha heavy equipment requirements",
     "heavy equipment checklist",
     "heavy equipment inspection",
+    "osha equipment requirements",
+    "equipment checklist",
+    "equipment inspection",
     "osha 1926.600"
    ],
    "keyword": "heavy equipment inspection",
@@ -9083,6 +11474,9 @@
     "osha permit space program requirements",
     "permit space program checklist",
     "permit space program inspection",
+    "osha permit-required confined space program requirements",
+    "permit-required confined space program checklist",
+    "permit-required confined space program inspection",
     "osha 1926.1204"
    ],
    "keyword": "osha confined space program requirements",
@@ -9130,6 +11524,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha permit-required confined space program requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "permit-required confined space program checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "permit-required confined space program inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1204",
      "volume": null,
      "kd": null,
@@ -9160,6 +11575,9 @@
     "osha abrasive blasting ventilation requirements",
     "abrasive blasting ventilation checklist",
     "abrasive blasting ventilation inspection",
+    "osha ventilation requirements",
+    "ventilation checklist",
+    "ventilation inspection",
     "osha 1910.94"
    ],
    "keyword": "osha 1910.94",
@@ -9207,6 +11625,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha ventilation requirements",
+     "volume": 50,
+     "kd": 55,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "ventilation checklist",
+     "volume": 10,
+     "kd": 43,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "ventilation inspection",
+     "volume": 40,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.94",
      "volume": 30,
      "kd": 0,
@@ -9214,7 +11653,7 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 70,
+   "clusterVolume": 170,
    "kd": 0,
    "titleHint": "OSHA local exhaust ventilation requirements (29 CFR 1910.94)",
    "keywordSource": "OpenSEO",
@@ -9237,6 +11676,9 @@
     "osha crane fall zone requirements",
     "crane fall zone checklist",
     "crane fall zone inspection",
+    "osha keeping clear of the load requirements",
+    "keeping clear of the load checklist",
+    "keeping clear of the load inspection",
     "osha 1926.1425"
    ],
    "keyword": "osha working under suspended load requirements",
@@ -9284,6 +11726,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha keeping clear of the load requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "keeping clear of the load checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "keeping clear of the load inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1425",
      "volume": null,
      "kd": null,
@@ -9314,6 +11777,9 @@
     "osha telecom tower work requirements",
     "telecom tower work checklist",
     "telecom tower work inspection",
+    "osha telecommunications requirements",
+    "telecommunications checklist",
+    "telecommunications inspection",
     "osha 1910.268"
    ],
    "keyword": "osha telecommunications safety requirements",
@@ -9361,6 +11827,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha telecommunications requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "telecommunications checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "telecommunications inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.268",
      "volume": null,
      "kd": null,
@@ -9391,6 +11878,9 @@
     "osha dump truck backup alarm requirements",
     "dump truck backup alarm checklist",
     "dump truck backup alarm inspection",
+    "osha motor vehicles requirements",
+    "motor vehicles checklist",
+    "motor vehicles inspection",
     "osha 1926.601"
    ],
    "keyword": "osha construction vehicle requirements",
@@ -9438,6 +11928,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha motor vehicles requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "motor vehicles checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "motor vehicles inspection",
+     "volume": 6600,
+     "kd": 46,
+     "intent": "commercial",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.601",
      "volume": null,
      "kd": null,
@@ -9445,12 +11956,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 6600,
    "kd": null,
    "titleHint": "OSHA construction vehicle requirements (29 CFR 1926.601)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "waiting",
+   "reason": "every measurable phrase has KD 15+"
   },
   {
    "section": "1910.39",
@@ -9465,6 +11976,9 @@
     "osha fire prevention plan requirements",
     "fire prevention plan checklist",
     "fire prevention plan inspection",
+    "osha fire prevention plans requirements",
+    "fire prevention plans checklist",
+    "fire prevention plans inspection",
     "osha 1910.39"
    ],
    "keyword": "osha 1910.39",
@@ -9485,6 +11999,27 @@
     },
     {
      "keyword": "fire prevention plan inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha fire prevention plans requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire prevention plans checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire prevention plans inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -9521,6 +12056,9 @@
     "osha means of egress construction requirements",
     "means of egress construction checklist",
     "means of egress construction inspection",
+    "osha means of egress requirements",
+    "means of egress checklist",
+    "means of egress inspection",
     "osha 1926.34"
    ],
    "keyword": "osha construction exit requirements",
@@ -9568,6 +12106,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha means of egress requirements",
+     "volume": 10,
+     "kd": 16,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "means of egress checklist",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "means of egress inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.34",
      "volume": null,
      "kd": null,
@@ -9575,12 +12134,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 20,
    "kd": null,
    "titleHint": "OSHA construction exit requirements (29 CFR 1926.34)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 20 (< 50)"
   },
   {
    "section": "1910.27",
@@ -9598,6 +12157,9 @@
     "osha general industry scaffold requirements",
     "general industry scaffold checklist",
     "general industry scaffold inspection",
+    "osha scaffolds and rope descent systems requirements",
+    "scaffolds and rope descent systems checklist",
+    "scaffolds and rope descent systems inspection",
     "osha 1910.27"
    ],
    "keyword": "osha 1910.27",
@@ -9645,6 +12207,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha scaffolds and rope descent systems requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "scaffolds and rope descent systems checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "scaffolds and rope descent systems inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.27",
      "volume": 90,
      "kd": 0,
@@ -9675,6 +12258,9 @@
     "osha gas cylinder storage requirements",
     "gas cylinder storage checklist",
     "gas cylinder storage inspection",
+    "osha gas welding and cutting requirements",
+    "gas welding and cutting checklist",
+    "gas welding and cutting inspection",
     "osha 1926.350"
    ],
    "keyword": "osha oxy acetylene torch requirements",
@@ -9698,6 +12284,27 @@
      "volume": null,
      "kd": null,
      "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha gas welding and cutting requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "gas welding and cutting checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "gas welding and cutting inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
@@ -9731,6 +12338,9 @@
     "osha lp gas storage requirements",
     "lp gas storage checklist",
     "lp gas storage inspection",
+    "osha lp-gas requirements",
+    "lp-gas checklist",
+    "lp-gas inspection",
     "osha 1926.153"
    ],
    "keyword": "osha propane tank construction requirements",
@@ -9778,6 +12388,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha lp-gas requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "lp-gas checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "lp-gas inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.153",
      "volume": null,
      "kd": null,
@@ -9808,6 +12439,9 @@
     "osha life jacket construction requirements",
     "life jacket construction checklist",
     "life jacket construction inspection",
+    "osha working over or near water requirements",
+    "working over or near water checklist",
+    "working over or near water inspection",
     "osha 1926.106"
    ],
    "keyword": "osha working over water requirements",
@@ -9855,6 +12489,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha working over or near water requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "working over or near water checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "working over or near water inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.106",
      "volume": null,
      "kd": null,
@@ -9885,6 +12540,9 @@
     "osha sprinkler clearance requirements",
     "sprinkler clearance checklist",
     "sprinkler clearance inspection",
+    "osha automatic sprinkler systems requirements",
+    "automatic sprinkler systems checklist",
+    "automatic sprinkler systems inspection",
     "osha 1910.159"
    ],
    "keyword": "osha sprinkler clearance requirements",
@@ -9925,6 +12583,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha automatic sprinkler systems requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "automatic sprinkler systems checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "automatic sprinkler systems inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.159",
      "volume": null,
      "kd": null,
@@ -9955,6 +12634,9 @@
     "osha electrical tagout construction requirements",
     "electrical tagout construction checklist",
     "electrical tagout construction inspection",
+    "osha lockout and tagging of circuits requirements",
+    "lockout and tagging of circuits checklist",
+    "lockout and tagging of circuits inspection",
     "osha 1926.417"
    ],
    "keyword": "osha circuit lockout construction requirements",
@@ -10002,6 +12684,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha lockout and tagging of circuits requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "lockout and tagging of circuits checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "lockout and tagging of circuits inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.417",
      "volume": null,
      "kd": null,
@@ -10032,9 +12735,12 @@
     "osha crane inspection log requirements",
     "crane inspection log checklist",
     "crane inspection log inspection",
+    "osha operation requirements",
+    "operation checklist",
+    "operation inspection",
     "osha 1926.1417"
    ],
-   "keyword": "osha crane operation requirements",
+   "keyword": "operation checklist",
    "cluster": [
     {
      "keyword": "osha crane operation requirements",
@@ -10079,6 +12785,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha operation requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "operation checklist",
+     "volume": 70,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "operation inspection",
+     "volume": 20,
+     "kd": 11,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1417",
      "volume": null,
      "kd": null,
@@ -10086,12 +12813,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA crane operation requirements (29 CFR 1926.1417)",
+   "clusterVolume": 90,
+   "kd": 0,
+   "titleHint": "Operation checklist (29 CFR 1926.1417)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1926.55",
@@ -10109,6 +12836,9 @@
     "osha construction dust fumes requirements",
     "construction dust fumes checklist",
     "construction dust fumes inspection",
+    "osha gases vapors fumes dusts and mists requirements",
+    "gases vapors fumes dusts and mists checklist",
+    "gases vapors fumes dusts and mists inspection",
     "osha 1926.55"
    ],
    "keyword": "osha construction exposure limit requirements",
@@ -10156,6 +12886,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha gases vapors fumes dusts and mists requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "gases vapors fumes dusts and mists checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "gases vapors fumes dusts and mists inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.55",
      "volume": null,
      "kd": null,
@@ -10186,6 +12937,9 @@
     "osha egregious violation requirements",
     "egregious violation checklist",
     "egregious violation inspection",
+    "osha compliance duties owed to each employee requirements",
+    "compliance duties owed to each employee checklist",
+    "compliance duties owed to each employee inspection",
     "osha 1910.9"
    ],
    "keyword": "osha per employee citation requirements",
@@ -10233,6 +12987,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha compliance duties owed to each employee requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "compliance duties owed to each employee checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "compliance duties owed to each employee inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.9",
      "volume": null,
      "kd": null,
@@ -10263,6 +13038,9 @@
     "osha employee medical records requirements",
     "employee medical records checklist",
     "employee medical records inspection",
+    "osha access to employee exposure and medical records requirements",
+    "access to employee exposure and medical records checklist",
+    "access to employee exposure and medical records inspection",
     "osha 1910.1020"
    ],
    "keyword": "osha exposure records access requirements",
@@ -10310,6 +13088,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha access to employee exposure and medical records requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "access to employee exposure and medical records checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "access to employee exposure and medical records inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.1020",
      "volume": null,
      "kd": null,
@@ -10340,6 +13139,9 @@
     "osha crane signal person requirements",
     "crane signal person checklist",
     "crane signal person inspection",
+    "osha signal person qualifications requirements",
+    "signal person qualifications checklist",
+    "signal person qualifications inspection",
     "osha 1926.1428"
    ],
    "keyword": "osha signal person qualification requirements",
@@ -10387,6 +13189,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha signal person qualifications requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "signal person qualifications checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "signal person qualifications inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1428",
      "volume": null,
      "kd": null,
@@ -10417,6 +13240,9 @@
     "osha construction hazard communication requirements",
     "construction hazard communication checklist",
     "construction hazard communication inspection",
+    "osha hazard communication requirements",
+    "hazard communication checklist",
+    "hazard communication inspection",
     "osha 1926.59"
    ],
    "keyword": "osha construction hazcom requirements",
@@ -10494,6 +13320,9 @@
     "osha osha color code requirements",
     "osha color code checklist",
     "osha color code inspection",
+    "osha safety color code for marking physical hazards requirements",
+    "safety color code for marking physical hazards checklist",
+    "safety color code for marking physical hazards inspection",
     "osha 1910.144"
    ],
    "keyword": "osha safety color code requirements",
@@ -10541,6 +13370,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha safety color code for marking physical hazards requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "safety color code for marking physical hazards checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "safety color code for marking physical hazards inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.144",
      "volume": null,
      "kd": null,
@@ -10571,6 +13421,9 @@
     "osha dipping and coating requirements",
     "dipping and coating checklist",
     "dipping and coating inspection",
+    "osha dipping and coating operations requirements",
+    "dipping and coating operations checklist",
+    "dipping and coating operations inspection",
     "osha 1910.124"
    ],
    "keyword": "osha dip tank requirements",
@@ -10618,6 +13471,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha dipping and coating operations requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "dipping and coating operations checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "dipping and coating operations inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.124",
      "volume": null,
      "kd": null,
@@ -10648,6 +13522,9 @@
     "osha minimum approach distance requirements",
     "minimum approach distance checklist",
     "minimum approach distance inspection",
+    "osha working on or near exposed energized parts requirements",
+    "working on or near exposed energized parts checklist",
+    "working on or near exposed energized parts inspection",
     "osha 1926.960"
    ],
    "keyword": "osha energized line work requirements",
@@ -10695,6 +13572,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha working on or near exposed energized parts requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "working on or near exposed energized parts checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "working on or near exposed energized parts inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.960",
      "volume": null,
      "kd": null,
@@ -10725,6 +13623,9 @@
     "osha confined space training requirements",
     "confined space training checklist",
     "confined space training inspection",
+    "osha confined spaces in construction requirements",
+    "confined spaces in construction checklist",
+    "confined spaces in construction inspection",
     "osha 1926.1207"
    ],
    "keyword": "osha confined space training construction requirements",
@@ -10802,6 +13703,9 @@
     "osha waste disposal construction requirements",
     "waste disposal construction checklist",
     "waste disposal construction inspection",
+    "osha disposal of waste materials requirements",
+    "disposal of waste materials checklist",
+    "disposal of waste materials inspection",
     "osha 1926.252"
    ],
    "keyword": "osha construction debris chute requirements",
@@ -10849,6 +13753,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha disposal of waste materials requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "disposal of waste materials checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "disposal of waste materials inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.252",
      "volume": null,
      "kd": null,
@@ -10879,6 +13804,9 @@
     "osha osha 300 exemption requirements",
     "osha 300 exemption checklist",
     "osha 300 exemption inspection",
+    "osha partial exemption for employers with 10 or fewer employees requirements",
+    "partial exemption for employers with 10 or fewer employees checklist",
+    "partial exemption for employers with 10 or fewer employees inspection",
     "osha 1904.1"
    ],
    "keyword": "osha small employer recordkeeping exemption requirements",
@@ -10926,6 +13854,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha partial exemption for employers with 10 or fewer employees requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "partial exemption for employers with 10 or fewer employees checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "partial exemption for employers with 10 or fewer employees inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1904.1",
      "volume": null,
      "kd": null,
@@ -10956,6 +13905,9 @@
     "osha air compressor tank requirements",
     "air compressor tank checklist",
     "air compressor tank inspection",
+    "osha air receivers requirements",
+    "air receivers checklist",
+    "air receivers inspection",
     "osha 1926.306"
    ],
    "keyword": "air compressor tank inspection",
@@ -11003,6 +13955,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha air receivers requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "air receivers checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "air receivers inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.306",
      "volume": null,
      "kd": null,
@@ -11033,6 +14006,9 @@
     "osha crane near power line requirements",
     "crane near power line checklist",
     "crane near power line inspection",
+    "osha power line safety up to 350 kvequipment operations requirements",
+    "power line safety up to 350 kvequipment operations checklist",
+    "power line safety up to 350 kvequipment operations inspection",
     "osha 1926.1408"
    ],
    "keyword": "osha crane power line clearance requirements",
@@ -11080,6 +14056,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha power line safety up to 350 kvequipment operations requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "power line safety up to 350 kvequipment operations checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "power line safety up to 350 kvequipment operations inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1408",
      "volume": null,
      "kd": null,
@@ -11110,6 +14107,9 @@
     "osha beryllium standard requirements",
     "beryllium standard checklist",
     "beryllium standard inspection",
+    "osha beryllium requirements",
+    "beryllium checklist",
+    "beryllium inspection",
     "osha 1910.1024"
    ],
    "keyword": "osha beryllium exposure requirements",
@@ -11157,6 +14157,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha beryllium requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "beryllium checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "beryllium inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.1024",
      "volume": null,
      "kd": null,
@@ -11187,6 +14208,9 @@
     "osha covered employees recordkeeping requirements",
     "covered employees recordkeeping checklist",
     "covered employees recordkeeping inspection",
+    "osha covered employees requirements",
+    "covered employees checklist",
+    "covered employees inspection",
     "osha 1904.31"
    ],
    "keyword": "osha temporary worker recordkeeping requirements",
@@ -11228,6 +14252,27 @@
     },
     {
      "keyword": "covered employees recordkeeping inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha covered employees requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "covered employees checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "covered employees inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -11341,6 +14386,9 @@
     "osha construction arc welding requirements",
     "construction arc welding checklist",
     "construction arc welding inspection",
+    "osha arc welding and cutting requirements",
+    "arc welding and cutting checklist",
+    "arc welding and cutting inspection",
     "osha 1926.351"
    ],
    "keyword": "osha welding cable requirements",
@@ -11649,6 +14697,9 @@
     "osha power transmission guarding requirements",
     "power transmission guarding checklist",
     "power transmission guarding inspection",
+    "osha mechanical power-transmission apparatus requirements",
+    "mechanical power-transmission apparatus checklist",
+    "mechanical power-transmission apparatus inspection",
     "osha 1926.307"
    ],
    "keyword": "osha belt and pulley guard requirements",
@@ -11726,6 +14777,9 @@
     "osha ship deck guardrail requirements",
     "ship deck guardrail checklist",
     "ship deck guardrail inspection",
+    "osha guarding of deck openings and edges requirements",
+    "guarding of deck openings and edges checklist",
+    "guarding of deck openings and edges inspection",
     "osha 1915.73"
    ],
    "keyword": "osha shipyard deck opening requirements",
@@ -11773,6 +14827,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha guarding of deck openings and edges requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of deck openings and edges checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of deck openings and edges inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1915.73",
      "volume": null,
      "kd": null,
@@ -11803,6 +14878,9 @@
     "osha construction cadmium exposure requirements",
     "construction cadmium exposure checklist",
     "construction cadmium exposure inspection",
+    "osha cadmium requirements",
+    "cadmium checklist",
+    "cadmium inspection",
     "osha 1926.1127"
    ],
    "keyword": "osha cadmium construction requirements",
@@ -11880,6 +14958,9 @@
     "osha welding fire prevention requirements",
     "welding fire prevention checklist",
     "welding fire prevention inspection",
+    "osha fire prevention requirements",
+    "fire prevention checklist",
+    "fire prevention inspection",
     "osha 1926.352"
    ],
    "keyword": "osha hot work fire watch requirements",
@@ -11927,6 +15008,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha fire prevention requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire prevention checklist",
+     "volume": 880,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fire prevention inspection",
+     "volume": 140,
+     "kd": 0,
+     "intent": "commercial",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.352",
      "volume": null,
      "kd": null,
@@ -11934,12 +15036,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 20,
+   "clusterVolume": 1040,
    "kd": 0,
    "titleHint": "OSHA hot work fire watch requirements (29 CFR 1926.352)",
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 20 (< 50)"
+   "status": "write",
+   "reason": ""
   },
   {
    "section": "1910.137",
@@ -11957,6 +15059,9 @@
     "osha electrical gloves testing requirements",
     "electrical gloves testing checklist",
     "electrical gloves testing inspection",
+    "osha electrical protective equipment requirements",
+    "electrical protective equipment checklist",
+    "electrical protective equipment inspection",
     "osha 1910.137"
    ],
    "keyword": "osha rubber insulating gloves requirements",
@@ -12004,6 +15109,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha electrical protective equipment requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electrical protective equipment checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electrical protective equipment inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.137",
      "volume": null,
      "kd": null,
@@ -12034,6 +15160,9 @@
     "osha crane wire rope requirements",
     "crane wire rope checklist",
     "crane wire rope inspection",
+    "osha wire ropeinspection requirements",
+    "wire ropeinspection checklist",
+    "wire ropeinspection inspection",
     "osha 1926.1413"
    ],
    "keyword": "crane wire rope inspection",
@@ -12081,6 +15210,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha wire ropeinspection requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wire ropeinspection checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wire ropeinspection inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1413",
      "volume": null,
      "kd": null,
@@ -12111,6 +15261,9 @@
     "osha shoring concrete requirements",
     "shoring concrete checklist",
     "shoring concrete inspection",
+    "osha cast-in-place concrete requirements",
+    "cast-in-place concrete checklist",
+    "cast-in-place concrete inspection",
     "osha 1926.703"
    ],
    "keyword": "osha concrete formwork requirements",
@@ -12158,6 +15311,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha cast-in-place concrete requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cast-in-place concrete checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cast-in-place concrete inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.703",
      "volume": null,
      "kd": null,
@@ -12188,6 +15362,9 @@
     "osha traffic flagger requirements",
     "traffic flagger checklist",
     "traffic flagger inspection",
+    "osha signaling requirements",
+    "signaling checklist",
+    "signaling inspection",
     "osha 1926.201"
    ],
    "keyword": "osha flagger requirements",
@@ -12235,6 +15412,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha signaling requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "signaling checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "signaling inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.201",
      "volume": null,
      "kd": null,
@@ -12265,6 +15463,9 @@
     "osha fixed extinguishing system requirements",
     "fixed extinguishing system checklist",
     "fixed extinguishing system inspection",
+    "osha fixed extinguishing systems general requirements",
+    "fixed extinguishing systems general checklist",
+    "fixed extinguishing systems general inspection",
     "osha 1910.160"
    ],
    "keyword": "osha fixed fire suppression system requirements",
@@ -12312,6 +15513,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha fixed extinguishing systems general requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fixed extinguishing systems general checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "fixed extinguishing systems general inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.160",
      "volume": null,
      "kd": null,
@@ -12342,6 +15564,9 @@
     "osha dockboard requirements",
     "dockboard checklist",
     "dockboard inspection",
+    "osha dockboards requirements",
+    "dockboards checklist",
+    "dockboards inspection",
     "osha 1910.26"
    ],
    "keyword": "osha dock plate requirements",
@@ -12389,6 +15614,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha dockboards requirements",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "dockboards checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "dockboards inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.26",
      "volume": null,
      "kd": null,
@@ -12419,6 +15665,9 @@
     "osha marine terminal life ring requirements",
     "marine terminal life ring checklist",
     "marine terminal life ring inspection",
+    "osha first aid and lifesaving facilities requirements",
+    "first aid and lifesaving facilities checklist",
+    "first aid and lifesaving facilities inspection",
     "osha 1917.26"
    ],
    "keyword": "osha marine terminal first aid requirements",
@@ -12460,6 +15709,27 @@
     },
     {
      "keyword": "marine terminal life ring inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha first aid and lifesaving facilities requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "first aid and lifesaving facilities checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "first aid and lifesaving facilities inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -12573,6 +15843,9 @@
     "osha dock edge guardrail requirements",
     "dock edge guardrail checklist",
     "dock edge guardrail inspection",
+    "osha guarding of edges requirements",
+    "guarding of edges checklist",
+    "guarding of edges inspection",
     "osha 1917.112"
    ],
    "keyword": "osha marine terminal edge guarding requirements",
@@ -12620,6 +15893,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha guarding of edges requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of edges checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "guarding of edges inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1917.112",
      "volume": null,
      "kd": null,
@@ -12650,6 +15944,9 @@
     "osha acetylene storage requirements",
     "acetylene storage checklist",
     "acetylene storage inspection",
+    "osha acetylene requirements",
+    "acetylene checklist",
+    "acetylene inspection",
     "osha 1910.102"
    ],
    "keyword": "osha acetylene cylinder requirements",
@@ -12697,6 +15994,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha acetylene requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "acetylene checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "acetylene inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.102",
      "volume": null,
      "kd": null,
@@ -12727,6 +16045,9 @@
     "osha shipyard ppe hazard assessment requirements",
     "shipyard ppe hazard assessment checklist",
     "shipyard ppe hazard assessment inspection",
+    "osha personal protective equipment ppe requirements",
+    "personal protective equipment ppe checklist",
+    "personal protective equipment ppe inspection",
     "osha 1915.152"
    ],
    "keyword": "osha shipyard ppe requirements",
@@ -12774,6 +16095,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha personal protective equipment ppe requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "personal protective equipment ppe checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "personal protective equipment ppe inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1915.152",
      "volume": null,
      "kd": null,
@@ -12804,6 +16146,9 @@
     "osha crane work zone barricade requirements",
     "crane work zone barricade checklist",
     "crane work zone barricade inspection",
+    "osha work area control requirements",
+    "work area control checklist",
+    "work area control inspection",
     "osha 1926.1424"
    ],
    "keyword": "osha crane swing radius requirements",
@@ -12851,6 +16196,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha work area control requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "work area control checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "work area control inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1424",
      "volume": null,
      "kd": null,
@@ -12881,6 +16247,9 @@
     "osha pulp mill requirements",
     "pulp mill checklist",
     "pulp mill inspection",
+    "osha pulp paper and paperboard mills requirements",
+    "pulp paper and paperboard mills checklist",
+    "pulp paper and paperboard mills inspection",
     "osha 1910.261"
    ],
    "keyword": "osha paper mill safety requirements",
@@ -12928,6 +16297,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha pulp paper and paperboard mills requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "pulp paper and paperboard mills checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "pulp paper and paperboard mills inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.261",
      "volume": null,
      "kd": null,
@@ -12958,6 +16348,9 @@
     "osha steel erection hoisting requirements",
     "steel erection hoisting checklist",
     "steel erection hoisting inspection",
+    "osha hoisting and rigging requirements",
+    "hoisting and rigging checklist",
+    "hoisting and rigging inspection",
     "osha 1926.753"
    ],
    "keyword": "osha steel erection rigging requirements",
@@ -13005,6 +16398,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha hoisting and rigging requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hoisting and rigging checklist",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "hoisting and rigging inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.753",
      "volume": null,
      "kd": null,
@@ -13012,12 +16426,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "titleHint": "OSHA steel erection rigging requirements (29 CFR 1926.753)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "section": "1926.1404",
@@ -13035,6 +16449,9 @@
     "osha crane assembly requirements",
     "crane assembly checklist",
     "crane assembly inspection",
+    "osha applies to all assembly and disassembly operations requirements",
+    "applies to all assembly and disassembly operations checklist",
+    "applies to all assembly and disassembly operations inspection",
     "osha 1926.1404"
    ],
    "keyword": "osha crane assembly disassembly requirements",
@@ -13082,6 +16499,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha applies to all assembly and disassembly operations requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "applies to all assembly and disassembly operations checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "applies to all assembly and disassembly operations inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1404",
      "volume": null,
      "kd": null,
@@ -13112,6 +16550,9 @@
     "osha standard threshold shift requirements",
     "standard threshold shift checklist",
     "standard threshold shift inspection",
+    "osha recording criteria for cases involving occupational hearing loss requirements",
+    "recording criteria for cases involving occupational hearing loss checklist",
+    "recording criteria for cases involving occupational hearing loss inspection",
     "osha 1904.10"
    ],
    "keyword": "osha recordable hearing loss requirements",
@@ -13159,6 +16600,25 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha recording criteria for cases involving occupational hearing loss requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "recording criteria for cases involving occupational hearing loss checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "recording criteria for cases involving occupational hearing loss inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1904.10",
      "volume": null,
      "kd": null,
@@ -13189,6 +16649,9 @@
     "osha material stacking requirements",
     "material stacking checklist",
     "material stacking inspection",
+    "osha storage requirements",
+    "storage checklist",
+    "storage inspection",
     "osha 1926.250"
    ],
    "keyword": "osha construction material storage requirements",
@@ -13236,6 +16699,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha storage requirements",
+     "volume": 20,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "storage checklist",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "storage inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.250",
      "volume": null,
      "kd": null,
@@ -13243,12 +16727,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 30,
    "kd": null,
    "titleHint": "OSHA construction material storage requirements (29 CFR 1926.250)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 30 (< 50)"
   },
   {
    "section": "1910.421",
@@ -13266,6 +16750,9 @@
     "osha pre-dive procedure requirements",
     "pre-dive procedure checklist",
     "pre-dive procedure inspection",
+    "osha pre-dive procedures requirements",
+    "pre-dive procedures checklist",
+    "pre-dive procedures inspection",
     "osha 1910.421"
    ],
    "keyword": "osha pre-dive checklist requirements",
@@ -13313,6 +16800,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha pre-dive procedures requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "pre-dive procedures checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "pre-dive procedures inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.421",
      "volume": null,
      "kd": null,
@@ -13343,6 +16851,9 @@
     "osha dip tank requirements",
     "dip tank checklist",
     "dip tank inspection",
+    "osha additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 1994 f 93 c requirements",
+    "additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 1994 f 93 c checklist",
+    "additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 1994 f 93 c inspection",
     "osha 1910.125"
    ],
    "keyword": "osha flammable dip tank requirements",
@@ -13367,6 +16878,21 @@
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 1994 f 93 c requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 1994 f 93 c checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "additional requirements for dipping and coating operations that use flammable liquids or liquids with flashpoints greater than 1994 f 93 c inspection",
+     "volume": null,
+     "kd": null
     },
     {
      "keyword": "osha 1910.125",
@@ -13399,6 +16925,9 @@
     "osha forging press requirements",
     "forging press checklist",
     "forging press inspection",
+    "osha forging machines requirements",
+    "forging machines checklist",
+    "forging machines inspection",
     "osha 1910.218"
    ],
    "keyword": "osha forging machine requirements",
@@ -13446,6 +16975,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha forging machines requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "forging machines checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "forging machines inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1910.218",
      "volume": null,
      "kd": null,
@@ -13476,6 +17026,9 @@
     "osha confined space rescue requirements",
     "confined space rescue checklist",
     "confined space rescue inspection",
+    "osha rescue and emergency services requirements",
+    "rescue and emergency services checklist",
+    "rescue and emergency services inspection",
     "osha 1926.1211"
    ],
    "keyword": "osha confined space rescue requirements",
@@ -13517,6 +17070,27 @@
     },
     {
      "keyword": "confined space rescue inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha rescue and emergency services requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "rescue and emergency services checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "rescue and emergency services inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -13707,6 +17281,9 @@
     "osha compressed air tank requirements",
     "compressed air tank checklist",
     "compressed air tank inspection",
+    "osha air receivers requirements",
+    "air receivers checklist",
+    "air receivers inspection",
     "osha 1910.169"
    ],
    "keyword": "compressed air tank inspection",
@@ -13763,9 +17340,12 @@
     "osha tractor rollover protection requirements",
     "tractor rollover protection checklist",
     "tractor rollover protection inspection",
+    "osha rops requirements",
+    "rops checklist",
+    "rops inspection",
     "osha 1928.51"
    ],
-   "keyword": "osha tractor rops requirements",
+   "keyword": "rops inspection",
    "cluster": [
     {
      "keyword": "osha tractor rops requirements",
@@ -13810,6 +17390,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha rops requirements",
+     "volume": 10,
+     "kd": 17,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "rops checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "rops inspection",
+     "volume": 10,
+     "kd": 0,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1928.51",
      "volume": null,
      "kd": null,
@@ -13817,12 +17418,12 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
-   "titleHint": "OSHA tractor rops requirements (29 CFR 1928.51)",
+   "clusterVolume": 20,
+   "kd": 0,
+   "titleHint": "Rops inspection (29 CFR 1928.51)",
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 20 (< 50)"
   },
   {
    "section": "1917.50",
@@ -13840,6 +17441,9 @@
     "osha cargo gear certification requirements",
     "cargo gear certification checklist",
     "cargo gear certification inspection",
+    "osha see also mandatory appendix i of this part requirements",
+    "see also mandatory appendix i of this part checklist",
+    "see also mandatory appendix i of this part inspection",
     "osha 1917.50"
    ],
    "keyword": "osha marine terminal crane certification requirements",
@@ -13887,6 +17491,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha see also mandatory appendix i of this part requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "see also mandatory appendix i of this part checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "see also mandatory appendix i of this part inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1917.50",
      "volume": null,
      "kd": null,
@@ -13917,6 +17542,9 @@
     "osha longshoring gangway requirements",
     "longshoring gangway checklist",
     "longshoring gangway inspection",
+    "osha gangways requirements",
+    "gangways checklist",
+    "gangways inspection",
     "osha 1918.22"
    ],
    "keyword": "osha ship gangway requirements",
@@ -13964,6 +17592,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha gangways requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "gangways checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "gangways inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1918.22",
      "volume": null,
      "kd": null,
@@ -13994,6 +17643,9 @@
     "osha crane training requirements",
     "crane training checklist",
     "crane training inspection",
+    "osha cranes and derricks in construction requirements",
+    "cranes and derricks in construction checklist",
+    "cranes and derricks in construction inspection",
     "osha 1926.1430"
    ],
    "keyword": "osha crane training requirements",
@@ -14014,6 +17666,27 @@
     },
     {
      "keyword": "crane training inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha cranes and derricks in construction requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cranes and derricks in construction checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cranes and derricks in construction inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -14050,6 +17723,9 @@
     "osha ship staging requirements",
     "ship staging checklist",
     "ship staging inspection",
+    "osha scaffolds or staging requirements",
+    "scaffolds or staging checklist",
+    "scaffolds or staging inspection",
     "osha 1915.71"
    ],
    "keyword": "osha shipyard scaffold requirements",
@@ -14097,6 +17773,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha scaffolds or staging requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "scaffolds or staging checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "scaffolds or staging inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1915.71",
      "volume": null,
      "kd": null,
@@ -14127,6 +17824,9 @@
     "osha recordable needlestick requirements",
     "recordable needlestick checklist",
     "recordable needlestick inspection",
+    "osha recording criteria for needlestick and sharps injuries requirements",
+    "recording criteria for needlestick and sharps injuries checklist",
+    "recording criteria for needlestick and sharps injuries inspection",
     "osha 1904.8"
    ],
    "keyword": "osha needlestick recordkeeping requirements",
@@ -14174,6 +17874,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha recording criteria for needlestick and sharps injuries requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "recording criteria for needlestick and sharps injuries checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "recording criteria for needlestick and sharps injuries inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1904.8",
      "volume": null,
      "kd": null,
@@ -14204,6 +17925,9 @@
     "osha permit-required confined space construction requirements",
     "permit-required confined space construction checklist",
     "permit-required confined space construction inspection",
+    "osha permitting process requirements",
+    "permitting process checklist",
+    "permitting process inspection",
     "osha 1926.1205"
    ],
    "keyword": "osha confined space permit process requirements",
@@ -14251,6 +17975,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha permitting process requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "permitting process checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "permitting process inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1926.1205",
      "volume": null,
      "kd": null,
@@ -14281,6 +18026,9 @@
     "osha port crane requirements",
     "port crane checklist",
     "port crane inspection",
+    "osha cranes and derricks see also 191750 requirements",
+    "cranes and derricks see also 191750 checklist",
+    "cranes and derricks see also 191750 inspection",
     "osha 1917.45"
    ],
    "keyword": "osha marine terminal crane requirements",
@@ -14328,6 +18076,27 @@
      "checkedOn": "2026-11-12"
     },
     {
+     "keyword": "osha cranes and derricks see also 191750 requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cranes and derricks see also 191750 checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "cranes and derricks see also 191750 inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
      "keyword": "osha 1917.45",
      "volume": null,
      "kd": null,
@@ -14358,6 +18127,9 @@
     "osha blasting agent requirements",
     "blasting agent checklist",
     "blasting agent inspection",
+    "osha explosives and blasting agents requirements",
+    "explosives and blasting agents checklist",
+    "explosives and blasting agents inspection",
     "osha 1910.109"
    ],
    "keyword": "osha explosives storage requirements",
@@ -14399,6 +18171,27 @@
     },
     {
      "keyword": "blasting agent inspection",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha explosives and blasting agents requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "explosives and blasting agents checklist",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "explosives and blasting agents inspection",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -14512,6 +18305,9 @@
     "osha enclosed space entry testing requirements",
     "enclosed space entry testing checklist",
     "enclosed space entry testing inspection",
+    "osha precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres requirements",
+    "precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres checklist",
+    "precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres inspection",
     "osha 1915.12"
    ],
    "keyword": "osha shipyard confined space testing requirements",
@@ -14557,6 +18353,21 @@
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres requirements",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres checklist",
+     "volume": null,
+     "kd": null
+    },
+    {
+     "keyword": "precautions and the order of testing before entering confined and enclosed spaces and other dangerous atmospheres inspection",
+     "volume": null,
+     "kd": null
     },
     {
      "keyword": "osha 1915.12",

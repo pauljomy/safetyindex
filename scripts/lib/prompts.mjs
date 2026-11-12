@@ -329,12 +329,12 @@ export const industrySchema = {
 };
 
 /** Industry page (brief section 7c). */
-export function industryPrompt({ naics, title, keyword, stats, headings }) {
+export function industryPrompt({ naics, title, keyword, stats, headings, subs = [], trade }) {
   return `Write the US industry page for NAICS ${naics} (${title}): the OSHA standards cited most in this industry.
 
 The template already shows the ranked standards table, the most-cited paragraphs, the penalty median and range and the classification shares. You write:
-- title: H1 with the words people search, e.g. "Most-cited OSHA standards for ${title.toLowerCase()} (NAICS ${naics})". Up to 80 characters.
-- seoTitle: 30–60 characters, built on the main keyword "${keyword}".
+- title: H1 with the words people search, e.g. "Most-cited OSHA standards for ${title.toLowerCase()} (NAICS ${naics})". Up to 90 characters. The statistics cover the whole NAICS code, so the title names the code's title or one of its 6-digit industries listed below as part of it (e.g. "…: roofing, framing and other building exterior contractors (NAICS ${naics})"); never present the figures as being about one trade alone.
+- seoTitle: 30–60 characters, built on the main keyword "${keyword}"${trade ? ` (the everyday name for this code is "${trade}"; use it only together with words that make clear the data covers the whole NAICS code)` : ""}.
 - description: 120–155 characters.
 - opening: ONE sentence (max 45 words) answering "which OSHA standards are cited most in ${title.toLowerCase()}?", naming the top standard by its number and subject.
 - patternsSummary: 2–4 sentences on what the top standards have in common (e.g. falls, ladders, hazard communication), using the standard headings supplied and only numbers from the statistics JSON.
@@ -351,6 +351,11 @@ ${STYLE}
 <statistics>
 ${JSON.stringify(stats, null, 1)}
 </statistics>
+
+<naics_definition>
+NAICS ${naics} ${title} includes these 6-digit industries (U.S. Census Bureau, NAICS 2022):
+${subs.map((x) => `${x.code} ${x.title}`).join("\n")}
+</naics_definition>
 
 <standard_headings>
 ${headings.map((h) => `${h.section}: ${h.heading}`).join("\n")}

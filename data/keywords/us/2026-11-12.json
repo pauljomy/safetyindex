@@ -23531,6 +23531,1440 @@
    "volume": null,
    "kd": null,
    "intent": null
+  },
+  {
+   "keyword": "ladders inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "powered industrial trucks inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "scaffolds inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "electrical inspection",
+   "volume": 4400,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "wiring methods components and equipment for general use inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "all machines inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "eye and face protection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "personal protective equipment inspection",
+   "volume": 10,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "portable fire extinguishers inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "maintenance safeguards and operational features for exit routes inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "general safety and health provisions inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "walking-working surfaces inspection",
+   "volume": null,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fall protection and falling object protection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "fall protection systems criteria and practices inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "specific excavation requirements inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "respirable crystalline silica inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "medical services and first aid inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "abrasive wheel machinery inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha reporting requirements",
+   "volume": 880,
+   "kd": 22,
+   "intent": "informational"
+  },
+  {
+   "keyword": "reporting checklist",
+   "volume": 20,
+   "kd": 31,
+   "intent": "informational"
+  },
+  {
+   "keyword": "reporting inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "mechanical power-transmission apparatus inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "permit-required confined spaces inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "aerial lifts inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "protective systems inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "occupational noise exposure inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha 300 log requirements",
+   "volume": 480,
+   "kd": 9,
+   "intent": "informational"
+  },
+  {
+   "keyword": "300 log checklist",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "300 log inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "forms inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "safety training and education inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "woodworking machinery requirements inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "stairways and ladders inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "flammable liquids inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "spray finishing using flammable and combustible materials inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "handling materialsgeneral inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "wiring design and protection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "process safety management of highly hazardous chemicals inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "providing records to government representatives inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha ita requirements",
+   "volume": 20,
+   "kd": 41,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ita checklist",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "ita inspection",
+   "volume": 10,
+   "kd": 0,
+   "intent": "navigational"
+  },
+  {
+   "keyword": "reporting fatality injury and illness information to the government inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "design and construction requirements for exit routes inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "stairways inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "oxygen-fuel gas welding and cutting inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "equipment inspection",
+   "volume": 210,
+   "kd": 3,
+   "intent": "informational"
+  },
+  {
+   "keyword": "hand and portable powered tools and equipment general inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha 300a requirements",
+   "volume": 70,
+   "kd": 58,
+   "intent": "informational"
+  },
+  {
+   "keyword": "300a checklist",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "300a inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "overhead and gantry cranes inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "additional requirements applicable to specific types of scaffolds inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "slings inspection",
+   "volume": 90,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "material handling equipment inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "welding cutting and brazing inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "toxic and hazardous substances inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "selection and use of work practices inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "emergency action plans inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "hazardous materials inspection",
+   "volume": 40,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "fire protection inspection",
+   "volume": 390,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "hazardous waste operations and emergency response inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "other portable tools and equipment inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "guarding of portable powered tools inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "storage and handling of liquefied petroleum gases inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "toolshand and power inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "mechanical power presses inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "concrete and masonry construction inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "fire brigades inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "vehicle-mounted elevating and rotating work platforms inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "criteria for personal protective equipment inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "specifications for accident prevention signs and tags inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "air contaminants inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "safeguards for personnel protection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "rigging equipment for material handling inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "grain handling facilities inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "logging operations inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "electric power generation transmission and distribution inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "personal fall protection systems inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "healthcare inspection",
+   "volume": 40,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha log retention requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "log retention checklist",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "log retention inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "retention and updating inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "classified inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "accident prevention signs and tags inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "foot protection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "occupational exposure to hazardous chemicals in laboratories inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "inspections inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "power-operated hand tools inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "multiple business establishments inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "servicing multi-piece and single piece rim wheels inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "sawmills inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "material hoists personnel hoists and elevators inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "confined spaces in construction inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "guarding of farm field equipment farmstead equipment and cotton gins inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "operator training certification and evaluation inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "preparatory operations inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "arc welding and cutting inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "abrasive wheels and tools inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "crawler locomotive and truck cranes inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "steel erection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "temporary labor camps inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "general recording criteria inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "employee alarm systems inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "permit-required confined space program inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "ventilation inspection",
+   "volume": 40,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "keeping clear of the load inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "motor vehicles inspection",
+   "volume": 6600,
+   "kd": 46,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "fire prevention plans inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "scaffolds and rope descent systems inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "gas welding and cutting inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "lp-gas inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "working over or near water inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "automatic sprinkler systems inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "lockout and tagging of circuits inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "operation inspection",
+   "volume": 20,
+   "kd": 11,
+   "intent": "informational"
+  },
+  {
+   "keyword": "gases vapors fumes dusts and mists inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "compliance duties owed to each employee inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "access to employee exposure and medical records inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "signal person qualifications inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "safety color code for marking physical hazards inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "dipping and coating operations inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "working on or near exposed energized parts inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "disposal of waste materials inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "partial exemption for employers with 10 or fewer employees inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "air receivers inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "power line safety up to 350 kvequipment operations inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "guarding of deck openings and edges inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "fire prevention inspection",
+   "volume": 140,
+   "kd": 0,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "electrical protective equipment inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "wire ropeinspection inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "cast-in-place concrete inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "signaling inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "fixed extinguishing systems general inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "dockboards inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "first aid and lifesaving facilities inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "guarding of edges inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "personal protective equipment ppe inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "work area control inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "pulp paper and paperboard mills inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "hoisting and rigging inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "applies to all assembly and disassembly operations inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "recording criteria for cases involving occupational hearing loss inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "storage inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "pre-dive procedures inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "forging machines inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "rescue and emergency services inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "rops inspection",
+   "volume": 10,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "see also mandatory appendix i of this part inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "gangways inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "cranes and derricks in construction inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "scaffolds or staging inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "recording criteria for needlestick and sharps injuries inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "permitting process inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "cranes and derricks see also 191750 inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "explosives and blasting agents inspection",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha woodworking requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha gym regulations",
+   "volume": 10,
+   "kd": 65,
+   "intent": "informational"
+  },
+  {
+   "keyword": "gym osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha gym requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha cabinet shop requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "electrical utility safety",
+   "volume": 10,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha electrical utility regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "electrical utility osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha electrical utility requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "heavy civil safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha heavy civil regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "heavy civil osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha heavy civil requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "print shop safety",
+   "volume": 10,
+   "kd": null,
+   "intent": "commercial"
+  },
+  {
+   "keyword": "osha print shop regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "print shop osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha print shop requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha dairy plant requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha government office requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "heavy haul safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha heavy haul regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "heavy haul osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha heavy haul requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "equipment manufacturing safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha equipment manufacturing regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "equipment manufacturing osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha equipment manufacturing requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha port requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha environmental agency requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "aviation ground safety",
+   "volume": 10,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha aviation ground regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "aviation ground osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha aviation ground requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha public transit regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "public transit osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha public transit requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha automotive manufacturing requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha outpatient clinic requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha smelter requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha homeless shelter requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha electronics distribution requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha natural gas regulations",
+   "volume": 10,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "natural gas osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha natural gas requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha steel fabrication requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha wastewater treatment requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha meatpacking requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha scrap metal requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha packaging requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha equipment repair requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha farming requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha dairy requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "battery manufacturing safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha battery manufacturing regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "battery manufacturing osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha battery manufacturing requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "vegetable farming safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha vegetable farming regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "vegetable farming osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha vegetable farming requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "home health safety",
+   "volume": 30,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha home health regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "home health osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha home health requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha flour mill requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "boat dealership safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha boat dealership regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "boat dealership osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha boat dealership requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "freight forwarding safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha freight forwarding regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "freight forwarding osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha freight forwarding requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "copper smelting safety",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha copper smelting regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "copper smelting osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha copper smelting requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "research lab safety",
+   "volume": null,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "osha research lab regulations",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "research lab osha",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha research lab requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "osha logistics requirements",
+   "volume": null,
+   "kd": null,
+   "intent": null
   }
  ],
  "source": "OpenSEO get_keyword_metrics",

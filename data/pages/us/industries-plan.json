@@ -11,8 +11,8 @@
   "inspections": 199,
   "standards": 171,
   "write": 19,
-  "waitingKd": 13,
-  "lowVolume": 139
+  "waitingKd": 9,
+  "lowVolume": 143
  },
  "pages": [
   {
@@ -193,16 +193,9 @@
      "kd": 15,
      "intent": "informational",
      "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha electrical requirements",
-     "volume": 50,
-     "kd": 32,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 210,
+   "clusterVolume": 160,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "waiting",
@@ -607,38 +600,38 @@
    "inspections": 4836,
    "slug": "3323-architectural-structural-metals-manufacturing",
    "phrases": [
-    "metal fabrication safety",
-    "osha metal fabrication regulations",
-    "metal fabrication osha",
-    "osha metal fabrication requirements"
+    "steel fabrication safety",
+    "osha steel fabrication regulations",
+    "steel fabrication osha",
+    "osha steel fabrication requirements"
    ],
-   "trade": "metal fabrication",
+   "trade": "steel fabrication",
    "publicIntent": false,
-   "keyword": "metal fabrication safety",
+   "keyword": "steel fabrication safety",
    "cluster": [
     {
-     "keyword": "metal fabrication safety",
+     "keyword": "steel fabrication safety",
      "volume": 10,
      "kd": null,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha metal fabrication regulations",
+     "keyword": "osha steel fabrication regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "metal fabrication osha",
+     "keyword": "steel fabrication osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha metal fabrication requirements",
+     "keyword": "osha steel fabrication requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -807,49 +800,49 @@
    "inspections": 3297,
    "slug": "3219-other-wood-product-manufacturing",
    "phrases": [
-    "millwork safety",
-    "osha millwork regulations",
-    "millwork osha",
-    "osha millwork requirements"
+    "woodworking safety",
+    "osha woodworking regulations",
+    "woodworking osha",
+    "osha woodworking requirements"
    ],
-   "trade": "millwork",
+   "trade": "woodworking",
    "publicIntent": false,
-   "keyword": "millwork safety",
+   "keyword": "woodworking safety",
    "cluster": [
     {
-     "keyword": "millwork safety",
-     "volume": null,
-     "kd": null,
+     "keyword": "woodworking safety",
+     "volume": 170,
+     "kd": 22,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha millwork regulations",
+     "keyword": "osha woodworking regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "millwork osha",
+     "keyword": "woodworking osha",
      "volume": null,
-     "kd": null,
-     "intent": null,
+     "kd": 51,
+     "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha millwork requirements",
+     "keyword": "osha woodworking requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 170,
    "kd": null,
    "keywordSource": "OpenSEO",
-   "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "status": "waiting",
+   "reason": "every measurable phrase has KD 15+"
   },
   {
    "naics": "5613",
@@ -907,38 +900,38 @@
    "inspections": 3193,
    "slug": "9211-executive-legislative-other-general-government-support",
    "phrases": [
-    "local government safety",
-    "osha local government regulations",
-    "local government osha",
-    "osha local government requirements"
+    "government office safety",
+    "osha government office regulations",
+    "government office osha",
+    "osha government office requirements"
    ],
-   "trade": "local government",
+   "trade": "government office",
    "publicIntent": false,
-   "keyword": "local government safety",
+   "keyword": "government office safety",
    "cluster": [
     {
-     "keyword": "local government safety",
+     "keyword": "government office safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha local government regulations",
+     "keyword": "osha government office regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "local government osha",
+     "keyword": "government office osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha local government requirements",
+     "keyword": "osha government office requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -1099,12 +1092,41 @@
    "trade": "metal fabrication",
    "publicIntent": false,
    "keyword": "metal fabrication safety",
-   "cluster": [],
-   "clusterVolume": 0,
+   "cluster": [
+    {
+     "keyword": "metal fabrication safety",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha metal fabrication regulations",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "metal fabrication osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha metal fabrication requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    }
+   ],
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "2213",
@@ -1112,49 +1134,49 @@
    "inspections": 2573,
    "slug": "2213-water-sewage-other-systems",
    "phrases": [
-    "wastewater safety",
-    "osha wastewater regulations",
-    "wastewater osha",
-    "osha wastewater requirements"
+    "wastewater treatment safety",
+    "osha wastewater treatment regulations",
+    "wastewater treatment osha",
+    "osha wastewater treatment requirements"
    ],
-   "trade": "wastewater",
+   "trade": "wastewater treatment",
    "publicIntent": false,
-   "keyword": "wastewater safety",
+   "keyword": "wastewater treatment safety",
    "cluster": [
     {
-     "keyword": "wastewater safety",
+     "keyword": "wastewater treatment safety",
      "volume": 10,
-     "kd": 43,
+     "kd": 0,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha wastewater regulations",
-     "volume": 10,
-     "kd": null,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "wastewater osha",
+     "keyword": "osha wastewater treatment regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha wastewater requirements",
+     "keyword": "wastewater treatment osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha wastewater treatment requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 20,
-   "kd": null,
+   "clusterVolume": 10,
+   "kd": 0,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 20 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "6221",
@@ -1262,49 +1284,49 @@
    "inspections": 2411,
    "slug": "5629-remediation-other-waste-management-services",
    "phrases": [
-    "remediation safety",
-    "osha remediation regulations",
-    "remediation osha",
-    "osha remediation requirements"
+    "asbestos abatement safety",
+    "osha asbestos abatement regulations",
+    "asbestos abatement osha",
+    "osha asbestos abatement requirements"
    ],
-   "trade": "remediation",
+   "trade": "asbestos abatement",
    "publicIntent": false,
-   "keyword": "remediation safety",
+   "keyword": "asbestos abatement safety",
    "cluster": [
     {
-     "keyword": "remediation safety",
-     "volume": null,
+     "keyword": "asbestos abatement safety",
+     "volume": 10,
      "kd": null,
-     "intent": null,
+     "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha remediation regulations",
-     "volume": null,
+     "keyword": "osha asbestos abatement regulations",
+     "volume": 10,
      "kd": null,
-     "intent": null,
+     "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "remediation osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
+     "keyword": "asbestos abatement osha",
+     "volume": 20,
+     "kd": 39,
+     "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha remediation requirements",
+     "keyword": "osha asbestos abatement requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 40,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 40 (< 50)"
   },
   {
    "naics": "6231",
@@ -1612,41 +1634,41 @@
    "inspections": 1878,
    "slug": "7139-other-amusement-recreation-industries",
    "phrases": [
-    "osha fitness center regulations",
-    "fitness center osha",
-    "osha fitness center requirements"
+    "osha gym regulations",
+    "gym osha",
+    "osha gym requirements"
    ],
-   "trade": "fitness center",
+   "trade": "gym",
    "publicIntent": true,
-   "keyword": "osha fitness center regulations",
+   "keyword": "osha gym regulations",
    "cluster": [
     {
-     "keyword": "osha fitness center regulations",
-     "volume": null,
-     "kd": 15,
+     "keyword": "osha gym regulations",
+     "volume": 10,
+     "kd": 65,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "fitness center osha",
+     "keyword": "gym osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha fitness center requirements",
+     "keyword": "osha gym requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "3279",
@@ -1704,49 +1726,49 @@
    "inspections": 1853,
    "slug": "3116-animal-slaughtering-processing",
    "phrases": [
-    "meat processing safety",
-    "osha meat processing regulations",
-    "meat processing osha",
-    "osha meat processing requirements"
+    "meatpacking safety",
+    "osha meatpacking regulations",
+    "meatpacking osha",
+    "osha meatpacking requirements"
    ],
-   "trade": "meat processing",
+   "trade": "meatpacking",
    "publicIntent": false,
-   "keyword": "meat processing safety",
+   "keyword": "meatpacking safety",
    "cluster": [
     {
-     "keyword": "meat processing safety",
-     "volume": 10,
-     "kd": null,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha meat processing regulations",
+     "keyword": "meatpacking safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "meat processing osha",
+     "keyword": "osha meatpacking regulations",
      "volume": null,
      "kd": null,
-     "intent": "informational",
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha meat processing requirements",
+     "keyword": "meatpacking osha",
+     "volume": null,
+     "kd": null,
+     "intent": "commercial",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha meatpacking requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 10,
+   "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 10 (< 50)"
+   "reason": "cluster volume 0 (< 50)"
   },
   {
    "naics": "3371",
@@ -1904,14 +1926,22 @@
    "inspections": 1738,
    "slug": "6233-continuing-care-retirement-communities-assisted-living",
    "phrases": [
+    "assisted living safety",
     "osha assisted living regulations",
     "assisted living osha",
     "osha assisted living requirements"
    ],
    "trade": "assisted living",
-   "publicIntent": true,
-   "keyword": "osha assisted living regulations",
+   "publicIntent": false,
+   "keyword": "assisted living safety",
    "cluster": [
+    {
+     "keyword": "assisted living safety",
+     "volume": 30,
+     "kd": 1,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
     {
      "keyword": "osha assisted living regulations",
      "volume": null,
@@ -1934,11 +1964,11 @@
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
-   "kd": null,
+   "clusterVolume": 30,
+   "kd": 1,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 30 (< 50)"
   },
   {
    "naics": "3399",
@@ -2067,38 +2097,38 @@
    "inspections": 1613,
    "slug": "4239-miscellaneous-durable-goods-merchant-wholesalers",
    "phrases": [
-    "wholesale distribution safety",
-    "osha wholesale distribution regulations",
-    "wholesale distribution osha",
-    "osha wholesale distribution requirements"
+    "scrap metal safety",
+    "osha scrap metal regulations",
+    "scrap metal osha",
+    "osha scrap metal requirements"
    ],
-   "trade": "wholesale distribution",
+   "trade": "scrap metal",
    "publicIntent": false,
-   "keyword": "wholesale distribution safety",
+   "keyword": "scrap metal safety",
    "cluster": [
     {
-     "keyword": "wholesale distribution safety",
+     "keyword": "scrap metal safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha wholesale distribution regulations",
+     "keyword": "osha scrap metal regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "wholesale distribution osha",
+     "keyword": "scrap metal osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha wholesale distribution requirements",
+     "keyword": "osha scrap metal requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -2317,49 +2347,49 @@
    "inspections": 1311,
    "slug": "3222-converted-paper-product-manufacturing",
    "phrases": [
-    "packaging manufacturing safety",
-    "osha packaging manufacturing regulations",
-    "packaging manufacturing osha",
-    "osha packaging manufacturing requirements"
+    "packaging safety",
+    "osha packaging regulations",
+    "packaging osha",
+    "osha packaging requirements"
    ],
-   "trade": "packaging manufacturing",
+   "trade": "packaging",
    "publicIntent": false,
-   "keyword": "packaging manufacturing safety",
+   "keyword": "packaging safety",
    "cluster": [
     {
-     "keyword": "packaging manufacturing safety",
+     "keyword": "packaging safety",
+     "volume": 10,
+     "kd": 16,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha packaging regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha packaging manufacturing regulations",
+     "keyword": "packaging osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "packaging manufacturing osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha packaging manufacturing requirements",
+     "keyword": "osha packaging requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "4921",
@@ -3181,49 +3211,49 @@
    "inspections": 954,
    "slug": "8113-commercial-industrial-machinery-equipment-except-automotive",
    "phrases": [
-    "industrial maintenance safety",
-    "osha industrial maintenance regulations",
-    "industrial maintenance osha",
-    "osha industrial maintenance requirements"
+    "equipment repair safety",
+    "osha equipment repair regulations",
+    "equipment repair osha",
+    "osha equipment repair requirements"
    ],
-   "trade": "industrial maintenance",
+   "trade": "equipment repair",
    "publicIntent": false,
-   "keyword": "industrial maintenance safety",
+   "keyword": "equipment repair safety",
    "cluster": [
     {
-     "keyword": "industrial maintenance safety",
-     "volume": 10,
-     "kd": 0,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha industrial maintenance regulations",
+     "keyword": "equipment repair safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "industrial maintenance osha",
+     "keyword": "osha equipment repair regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha industrial maintenance requirements",
+     "keyword": "equipment repair osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha equipment repair requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 10,
-   "kd": 0,
+   "clusterVolume": 0,
+   "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 10 (< 50)"
+   "reason": "cluster volume 0 (< 50)"
   },
   {
    "naics": "6113",
@@ -3423,38 +3453,38 @@
    "inspections": 848,
    "slug": "1119-other-crop-farming",
    "phrases": [
-    "farm safety",
-    "osha farm regulations",
-    "farm osha",
-    "osha farm requirements"
+    "farming safety",
+    "osha farming regulations",
+    "farming osha",
+    "osha farming requirements"
    ],
-   "trade": "farm",
+   "trade": "farming",
    "publicIntent": false,
-   "keyword": "farm safety",
+   "keyword": "farming safety",
    "cluster": [
     {
-     "keyword": "farm safety",
+     "keyword": "farming safety",
      "volume": 320,
-     "kd": 16,
+     "kd": 6,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha farm regulations",
+     "keyword": "osha farming regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "farm osha",
+     "keyword": "farming osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha farm requirements",
+     "keyword": "osha farming requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -3462,10 +3492,10 @@
     }
    ],
    "clusterVolume": 320,
-   "kd": null,
+   "kd": 6,
    "keywordSource": "OpenSEO",
-   "status": "waiting",
-   "reason": "every measurable phrase has KD 15+"
+   "status": "write",
+   "reason": ""
   },
   {
    "naics": "3362",
@@ -3523,49 +3553,49 @@
    "inspections": 845,
    "slug": "3115-dairy-product-manufacturing",
    "phrases": [
-    "dairy processing safety",
-    "osha dairy processing regulations",
-    "dairy processing osha",
-    "osha dairy processing requirements"
+    "dairy safety",
+    "osha dairy regulations",
+    "dairy osha",
+    "osha dairy requirements"
    ],
-   "trade": "dairy processing",
+   "trade": "dairy",
    "publicIntent": false,
-   "keyword": "dairy processing safety",
+   "keyword": "dairy safety",
    "cluster": [
     {
-     "keyword": "dairy processing safety",
+     "keyword": "dairy safety",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha dairy regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha dairy processing regulations",
+     "keyword": "dairy osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "dairy processing osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha dairy processing requirements",
+     "keyword": "osha dairy requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "9261",
@@ -3573,49 +3603,20 @@
    "inspections": 839,
    "slug": "9261-administration-economic-programs",
    "phrases": [
-    "government safety",
-    "osha government regulations",
-    "government osha",
-    "osha government requirements"
+    "government office safety",
+    "osha government office regulations",
+    "government office osha",
+    "osha government office requirements"
    ],
-   "trade": "government",
+   "trade": "government office",
    "publicIntent": false,
-   "keyword": "government safety",
-   "cluster": [
-    {
-     "keyword": "government safety",
-     "volume": 110,
-     "kd": 63,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha government regulations",
-     "volume": 10,
-     "kd": null,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "government osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha government requirements",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    }
-   ],
-   "clusterVolume": 120,
+   "keyword": "government office safety",
+   "cluster": [],
+   "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
-   "status": "waiting",
-   "reason": "every measurable phrase has KD 15+"
+   "status": "below",
+   "reason": "cluster volume 0 (< 50)"
   },
   {
    "naics": "6232",
@@ -3881,7 +3882,36 @@
    "trade": "wholesale distribution",
    "publicIntent": false,
    "keyword": "wholesale distribution safety",
-   "cluster": [],
+   "cluster": [
+    {
+     "keyword": "wholesale distribution safety",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha wholesale distribution regulations",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "wholesale distribution osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha wholesale distribution requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    }
+   ],
    "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
@@ -3894,38 +3924,38 @@
    "inspections": 755,
    "slug": "3359-other-electrical-equipment-component-manufacturing",
    "phrases": [
-    "electrical manufacturing safety",
-    "osha electrical manufacturing regulations",
-    "electrical manufacturing osha",
-    "osha electrical manufacturing requirements"
+    "battery manufacturing safety",
+    "osha battery manufacturing regulations",
+    "battery manufacturing osha",
+    "osha battery manufacturing requirements"
    ],
-   "trade": "electrical manufacturing",
+   "trade": "battery manufacturing",
    "publicIntent": false,
-   "keyword": "electrical manufacturing safety",
+   "keyword": "battery manufacturing safety",
    "cluster": [
     {
-     "keyword": "electrical manufacturing safety",
+     "keyword": "battery manufacturing safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha electrical manufacturing regulations",
+     "keyword": "osha battery manufacturing regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "electrical manufacturing osha",
+     "keyword": "battery manufacturing osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha electrical manufacturing requirements",
+     "keyword": "osha battery manufacturing requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -3994,15 +4024,44 @@
    "inspections": 742,
    "slug": "1112-vegetable-melon-farming",
    "phrases": [
-    "farm safety",
-    "osha farm regulations",
-    "farm osha",
-    "osha farm requirements"
+    "vegetable farming safety",
+    "osha vegetable farming regulations",
+    "vegetable farming osha",
+    "osha vegetable farming requirements"
    ],
-   "trade": "farm",
+   "trade": "vegetable farming",
    "publicIntent": false,
-   "keyword": "farm safety",
-   "cluster": [],
+   "keyword": "vegetable farming safety",
+   "cluster": [
+    {
+     "keyword": "vegetable farming safety",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha vegetable farming regulations",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "vegetable farming osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha vegetable farming requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    }
+   ],
    "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
@@ -4165,49 +4224,49 @@
    "inspections": 719,
    "slug": "3312-steel-product-manufacturing-from-purchased-steel",
    "phrases": [
-    "steel safety",
-    "osha steel regulations",
-    "steel osha",
-    "osha steel requirements"
+    "steel mill safety",
+    "osha steel mill regulations",
+    "steel mill osha",
+    "osha steel mill requirements"
    ],
-   "trade": "steel",
+   "trade": "steel mill",
    "publicIntent": false,
-   "keyword": "steel safety",
+   "keyword": "steel mill safety",
    "cluster": [
     {
-     "keyword": "steel safety",
-     "volume": 260,
-     "kd": 22,
+     "keyword": "steel mill safety",
+     "volume": 10,
+     "kd": 45,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha steel regulations",
+     "keyword": "osha steel mill regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "steel osha",
+     "keyword": "steel mill osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha steel requirements",
+     "keyword": "osha steel mill requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 260,
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
-   "status": "waiting",
-   "reason": "every measurable phrase has KD 15+"
+   "status": "below",
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "3364",
@@ -4515,38 +4574,88 @@
    "inspections": 654,
    "slug": "4883-support-activities-for-water-transportation",
    "phrases": [
-    "longshore safety",
-    "osha longshore regulations",
-    "longshore osha",
-    "osha longshore requirements"
+    "port safety",
+    "osha port regulations",
+    "port osha",
+    "osha port requirements"
    ],
-   "trade": "longshore",
+   "trade": "port",
    "publicIntent": false,
-   "keyword": "longshore safety",
+   "keyword": "port safety",
    "cluster": [
     {
-     "keyword": "longshore safety",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha longshore regulations",
-     "volume": null,
-     "kd": null,
+     "keyword": "port safety",
+     "volume": 30,
+     "kd": 0,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "longshore osha",
+     "keyword": "osha port regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha longshore requirements",
+     "keyword": "port osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha port requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    }
+   ],
+   "clusterVolume": 30,
+   "kd": 0,
+   "keywordSource": "OpenSEO",
+   "status": "below",
+   "reason": "cluster volume 30 (< 50)"
+  },
+  {
+   "naics": "9241",
+   "title": "Administration of Environmental Quality Programs",
+   "inspections": 650,
+   "slug": "9241-administration-environmental-quality-programs",
+   "phrases": [
+    "environmental agency safety",
+    "osha environmental agency regulations",
+    "environmental agency osha",
+    "osha environmental agency requirements"
+   ],
+   "trade": "environmental agency",
+   "publicIntent": false,
+   "keyword": "environmental agency safety",
+   "cluster": [
+    {
+     "keyword": "environmental agency safety",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha environmental agency regulations",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "environmental agency osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha environmental agency requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -4558,56 +4667,6 @@
    "keywordSource": "OpenSEO",
    "status": "below",
    "reason": "cluster volume 0 (< 50)"
-  },
-  {
-   "naics": "9241",
-   "title": "Administration of Environmental Quality Programs",
-   "inspections": 650,
-   "slug": "9241-administration-environmental-quality-programs",
-   "phrases": [
-    "environmental safety",
-    "osha environmental regulations",
-    "environmental osha",
-    "osha environmental requirements"
-   ],
-   "trade": "environmental",
-   "publicIntent": false,
-   "keyword": "environmental safety",
-   "cluster": [
-    {
-     "keyword": "environmental safety",
-     "volume": 880,
-     "kd": 16,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha environmental regulations",
-     "volume": 10,
-     "kd": null,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "environmental osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha environmental requirements",
-     "volume": null,
-     "kd": null,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    }
-   ],
-   "clusterVolume": 890,
-   "kd": null,
-   "keywordSource": "OpenSEO",
-   "status": "waiting",
-   "reason": "every measurable phrase has KD 15+"
   },
   {
    "naics": "8123",
@@ -4665,14 +4724,14 @@
    "inspections": 636,
    "slug": "9231-administration-human-resource-programs",
    "phrases": [
-    "government safety",
-    "osha government regulations",
-    "government osha",
-    "osha government requirements"
+    "government office safety",
+    "osha government office regulations",
+    "government office osha",
+    "osha government office requirements"
    ],
-   "trade": "government",
+   "trade": "government office",
    "publicIntent": false,
-   "keyword": "government safety",
+   "keyword": "government office safety",
    "cluster": [],
    "clusterVolume": 0,
    "kd": null,
@@ -4786,14 +4845,14 @@
    "inspections": 618,
    "slug": "3252-resin-synthetic-rubber-artificial-synthetic-fibers",
    "phrases": [
-    "chemical plant safety",
-    "osha chemical plant regulations",
-    "chemical plant osha",
-    "osha chemical plant requirements"
+    "plastics manufacturing safety",
+    "osha plastics manufacturing regulations",
+    "plastics manufacturing osha",
+    "osha plastics manufacturing requirements"
    ],
-   "trade": "chemical plant",
+   "trade": "plastics manufacturing",
    "publicIntent": false,
-   "keyword": "chemical plant safety",
+   "keyword": "plastics manufacturing safety",
    "cluster": [],
    "clusterVolume": 0,
    "kd": null,
@@ -5007,30 +5066,30 @@
    "inspections": 584,
    "slug": "4851-urban-transit-systems",
    "phrases": [
-    "osha transit regulations",
-    "transit osha",
-    "osha transit requirements"
+    "osha public transit regulations",
+    "public transit osha",
+    "osha public transit requirements"
    ],
-   "trade": "transit",
+   "trade": "public transit",
    "publicIntent": true,
-   "keyword": "osha transit regulations",
+   "keyword": "osha public transit regulations",
    "cluster": [
     {
-     "keyword": "osha transit regulations",
+     "keyword": "osha public transit regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "transit osha",
+     "keyword": "public transit osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha transit requirements",
+     "keyword": "osha public transit requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -5049,38 +5108,38 @@
    "inspections": 577,
    "slug": "3361-motor-vehicle-manufacturing",
    "phrases": [
-    "auto manufacturing safety",
-    "osha auto manufacturing regulations",
-    "auto manufacturing osha",
-    "osha auto manufacturing requirements"
+    "automotive manufacturing safety",
+    "osha automotive manufacturing regulations",
+    "automotive manufacturing osha",
+    "osha automotive manufacturing requirements"
    ],
-   "trade": "auto manufacturing",
+   "trade": "automotive manufacturing",
    "publicIntent": false,
-   "keyword": "auto manufacturing safety",
+   "keyword": "automotive manufacturing safety",
    "cluster": [
     {
-     "keyword": "auto manufacturing safety",
+     "keyword": "automotive manufacturing safety",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha automotive manufacturing regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha auto manufacturing regulations",
+     "keyword": "automotive manufacturing osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "auto manufacturing osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha auto manufacturing requirements",
+     "keyword": "osha automotive manufacturing requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -5613,49 +5672,49 @@
    "inspections": 482,
    "slug": "6219-other-ambulatory-health-care-services",
    "phrases": [
-    "ems safety",
-    "osha ems regulations",
-    "ems osha",
-    "osha ems requirements"
+    "home health safety",
+    "osha home health regulations",
+    "home health osha",
+    "osha home health requirements"
    ],
-   "trade": "ems",
+   "trade": "home health",
    "publicIntent": false,
-   "keyword": "osha ems requirements",
+   "keyword": "home health safety",
    "cluster": [
     {
-     "keyword": "ems safety",
-     "volume": 260,
-     "kd": 18,
+     "keyword": "home health safety",
+     "volume": 30,
+     "kd": 10,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha ems regulations",
-     "volume": 10,
-     "kd": null,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "ems osha",
+     "keyword": "osha home health regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha ems requirements",
-     "volume": 10,
-     "kd": 1,
-     "intent": "informational",
+     "keyword": "home health osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha home health requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 280,
-   "kd": 1,
+   "clusterVolume": 30,
+   "kd": 10,
    "keywordSource": "OpenSEO",
-   "status": "write",
-   "reason": ""
+   "status": "below",
+   "reason": "cluster volume 30 (< 50)"
   },
   {
    "naics": "3311",
@@ -5671,41 +5730,12 @@
    "trade": "steel mill",
    "publicIntent": false,
    "keyword": "steel mill safety",
-   "cluster": [
-    {
-     "keyword": "steel mill safety",
-     "volume": 10,
-     "kd": 45,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha steel mill regulations",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "steel mill osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha steel mill requirements",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    }
-   ],
-   "clusterVolume": 10,
+   "cluster": [],
+   "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 10 (< 50)"
+   "reason": "cluster volume 0 (< 50)"
   },
   {
    "naics": "4237",
@@ -5863,38 +5893,38 @@
    "inspections": 463,
    "slug": "3112-grain-oilseed-milling",
    "phrases": [
-    "grain mill safety",
-    "osha grain mill regulations",
-    "grain mill osha",
-    "osha grain mill requirements"
+    "flour mill safety",
+    "osha flour mill regulations",
+    "flour mill osha",
+    "osha flour mill requirements"
    ],
-   "trade": "grain mill",
+   "trade": "flour mill",
    "publicIntent": false,
-   "keyword": "grain mill safety",
+   "keyword": "flour mill safety",
    "cluster": [
     {
-     "keyword": "grain mill safety",
+     "keyword": "flour mill safety",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha flour mill regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha grain mill regulations",
+     "keyword": "flour mill osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "grain mill osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha grain mill requirements",
+     "keyword": "osha flour mill requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6063,38 +6093,38 @@
    "inspections": 442,
    "slug": "4412-other-motor-vehicle-dealers",
    "phrases": [
-    "rv dealership safety",
-    "osha rv dealership regulations",
-    "rv dealership osha",
-    "osha rv dealership requirements"
+    "boat dealership safety",
+    "osha boat dealership regulations",
+    "boat dealership osha",
+    "osha boat dealership requirements"
    ],
-   "trade": "rv dealership",
+   "trade": "boat dealership",
    "publicIntent": false,
-   "keyword": "rv dealership safety",
+   "keyword": "boat dealership safety",
    "cluster": [
     {
-     "keyword": "rv dealership safety",
+     "keyword": "boat dealership safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha rv dealership regulations",
+     "keyword": "osha boat dealership regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "rv dealership osha",
+     "keyword": "boat dealership osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha rv dealership requirements",
+     "keyword": "osha boat dealership requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6721,7 +6751,36 @@
    "trade": "electrical manufacturing",
    "publicIntent": false,
    "keyword": "electrical manufacturing safety",
-   "cluster": [],
+   "cluster": [
+    {
+     "keyword": "electrical manufacturing safety",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha electrical manufacturing regulations",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "electrical manufacturing osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha electrical manufacturing requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    }
+   ],
    "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
@@ -6884,38 +6943,38 @@
    "inspections": 327,
    "slug": "4885-freight-transportation-arrangement",
    "phrases": [
-    "freight broker safety",
-    "osha freight broker regulations",
-    "freight broker osha",
-    "osha freight broker requirements"
+    "freight forwarding safety",
+    "osha freight forwarding regulations",
+    "freight forwarding osha",
+    "osha freight forwarding requirements"
    ],
-   "trade": "freight broker",
+   "trade": "freight forwarding",
    "publicIntent": false,
-   "keyword": "freight broker safety",
+   "keyword": "freight forwarding safety",
    "cluster": [
     {
-     "keyword": "freight broker safety",
+     "keyword": "freight forwarding safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha freight broker regulations",
+     "keyword": "osha freight forwarding regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "freight broker osha",
+     "keyword": "freight forwarding osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha freight broker requirements",
+     "keyword": "osha freight forwarding requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -6934,38 +6993,38 @@
    "inspections": 326,
    "slug": "3314-nonferrous-metal-except-aluminum-production-processing",
    "phrases": [
-    "copper smelter safety",
-    "osha copper smelter regulations",
-    "copper smelter osha",
-    "osha copper smelter requirements"
+    "copper smelting safety",
+    "osha copper smelting regulations",
+    "copper smelting osha",
+    "osha copper smelting requirements"
    ],
-   "trade": "copper smelter",
+   "trade": "copper smelting",
    "publicIntent": false,
-   "keyword": "copper smelter safety",
+   "keyword": "copper smelting safety",
    "cluster": [
     {
-     "keyword": "copper smelter safety",
+     "keyword": "copper smelting safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha copper smelter regulations",
+     "keyword": "osha copper smelting regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "copper smelter osha",
+     "keyword": "copper smelting osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha copper smelter requirements",
+     "keyword": "osha copper smelting requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -7027,49 +7086,49 @@
    "inspections": 315,
    "slug": "6242-community-food-housing-emergency-other-relief",
    "phrases": [
-    "food bank safety",
-    "osha food bank regulations",
-    "food bank osha",
-    "osha food bank requirements"
+    "homeless shelter safety",
+    "osha homeless shelter regulations",
+    "homeless shelter osha",
+    "osha homeless shelter requirements"
    ],
-   "trade": "food bank",
+   "trade": "homeless shelter",
    "publicIntent": false,
-   "keyword": "food bank safety",
+   "keyword": "homeless shelter safety",
    "cluster": [
     {
-     "keyword": "food bank safety",
+     "keyword": "homeless shelter safety",
+     "volume": 10,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha homeless shelter regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha food bank regulations",
+     "keyword": "homeless shelter osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "food bank osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha food bank requirements",
+     "keyword": "osha homeless shelter requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "4236",
@@ -7077,38 +7136,38 @@
    "inspections": 309,
    "slug": "4236-household-appliances-electrical-electronic-goods-merchant",
    "phrases": [
-    "electrical supply safety",
-    "osha electrical supply regulations",
-    "electrical supply osha",
-    "osha electrical supply requirements"
+    "electronics distribution safety",
+    "osha electronics distribution regulations",
+    "electronics distribution osha",
+    "osha electronics distribution requirements"
    ],
-   "trade": "electrical supply",
+   "trade": "electronics distribution",
    "publicIntent": false,
-   "keyword": "electrical supply safety",
+   "keyword": "electronics distribution safety",
    "cluster": [
     {
-     "keyword": "electrical supply safety",
+     "keyword": "electronics distribution safety",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha electrical supply regulations",
+     "keyword": "osha electronics distribution regulations",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "electrical supply osha",
+     "keyword": "electronics distribution osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha electrical supply requirements",
+     "keyword": "osha electronics distribution requirements",
      "volume": null,
      "kd": null,
      "intent": null,
@@ -7227,15 +7286,44 @@
    "inspections": 297,
    "slug": "5417-scientific-research-development-services",
    "phrases": [
-    "laboratory safety",
-    "osha laboratory regulations",
-    "laboratory osha",
-    "osha laboratory requirements"
+    "research lab safety",
+    "osha research lab regulations",
+    "research lab osha",
+    "osha research lab requirements"
    ],
-   "trade": "laboratory",
+   "trade": "research lab",
    "publicIntent": false,
-   "keyword": "laboratory safety",
-   "cluster": [],
+   "keyword": "research lab safety",
+   "cluster": [
+    {
+     "keyword": "research lab safety",
+     "volume": null,
+     "kd": null,
+     "intent": "informational",
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha research lab regulations",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "research lab osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha research lab requirements",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    }
+   ],
    "clusterVolume": 0,
    "kd": null,
    "keywordSource": "OpenSEO",
@@ -7248,49 +7336,41 @@
    "inspections": 294,
    "slug": "2212-natural-gas-distribution",
    "phrases": [
-    "gas utility safety",
-    "osha gas utility regulations",
-    "gas utility osha",
-    "osha gas utility requirements"
+    "osha natural gas regulations",
+    "natural gas osha",
+    "osha natural gas requirements"
    ],
-   "trade": "gas utility",
-   "publicIntent": false,
-   "keyword": "gas utility safety",
+   "trade": "natural gas",
+   "publicIntent": true,
+   "keyword": "osha natural gas regulations",
    "cluster": [
     {
-     "keyword": "gas utility safety",
-     "volume": null,
+     "keyword": "osha natural gas regulations",
+     "volume": 10,
      "kd": null,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha gas utility regulations",
+     "keyword": "natural gas osha",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "gas utility osha",
-     "volume": null,
-     "kd": null,
-     "intent": null,
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "osha gas utility requirements",
+     "keyword": "osha natural gas requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 0,
+   "clusterVolume": 10,
    "kd": null,
    "keywordSource": "OpenSEO",
    "status": "below",
-   "reason": "cluster volume 0 (< 50)"
+   "reason": "cluster volume 10 (< 50)"
   },
   {
    "naics": "8122",
@@ -7637,49 +7717,49 @@
    "inspections": 241,
    "slug": "4889-other-support-activities-for-transportation",
    "phrases": [
-    "transportation safety",
-    "osha transportation regulations",
-    "transportation osha",
-    "osha transportation requirements"
+    "logistics safety",
+    "osha logistics regulations",
+    "logistics osha",
+    "osha logistics requirements"
    ],
-   "trade": "transportation",
+   "trade": "logistics",
    "publicIntent": false,
-   "keyword": "transportation safety",
+   "keyword": "logistics safety",
    "cluster": [
     {
-     "keyword": "transportation safety",
-     "volume": 390,
-     "kd": 34,
+     "keyword": "logistics safety",
+     "volume": 30,
+     "kd": 0,
      "intent": "informational",
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha transportation regulations",
-     "volume": 10,
-     "kd": 45,
-     "intent": "informational",
-     "checkedOn": "2026-11-12"
-    },
-    {
-     "keyword": "transportation osha",
+     "keyword": "osha logistics regulations",
      "volume": null,
-     "kd": 29,
-     "intent": "informational",
+     "kd": null,
+     "intent": null,
      "checkedOn": "2026-11-12"
     },
     {
-     "keyword": "osha transportation requirements",
+     "keyword": "logistics osha",
+     "volume": null,
+     "kd": null,
+     "intent": null,
+     "checkedOn": "2026-11-12"
+    },
+    {
+     "keyword": "osha logistics requirements",
      "volume": null,
      "kd": null,
      "intent": null,
      "checkedOn": "2026-11-12"
     }
    ],
-   "clusterVolume": 400,
-   "kd": null,
+   "clusterVolume": 30,
+   "kd": 0,
    "keywordSource": "OpenSEO",
-   "status": "waiting",
-   "reason": "every measurable phrase has KD 15+"
+   "status": "below",
+   "reason": "cluster volume 30 (< 50)"
   },
   {
    "naics": "3271",

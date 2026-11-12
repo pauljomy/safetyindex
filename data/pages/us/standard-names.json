@@ -1,0 +1,785 @@
+{
+ "1926.501": [
+  "construction fall protection",
+  "fall protection requirements"
+ ],
+ "1910.1200": [
+  "hazcom",
+  "hazard communication"
+ ],
+ "1910.134": [
+  "respirator",
+  "respiratory protection"
+ ],
+ "1910.147": [
+  "lockout tagout",
+  "loto"
+ ],
+ "1926.1053": [
+  "ladder",
+  "construction ladder"
+ ],
+ "1910.178": [
+  "forklift",
+  "powered industrial truck"
+ ],
+ "1926.503": [
+  "fall protection training"
+ ],
+ "1926.451": [
+  "scaffold",
+  "scaffolding"
+ ],
+ "1910.303": [
+  "electrical safety",
+  "electrical clearance"
+ ],
+ "1910.305": [
+  "extension cord",
+  "electrical wiring"
+ ],
+ "1910.212": [
+  "machine guarding"
+ ],
+ "1926.102": [
+  "construction safety glasses",
+  "construction eye protection"
+ ],
+ "1910.132": [
+  "ppe",
+  "ppe hazard assessment"
+ ],
+ "1910.157": [
+  "fire extinguisher",
+  "fire extinguisher inspection"
+ ],
+ "1910.37": [
+  "exit sign",
+  "blocked exit"
+ ],
+ "1926.20": [
+  "construction safety program",
+  "competent person"
+ ],
+ "1910.1030": [
+  "bloodborne pathogens",
+  "exposure control plan"
+ ],
+ "1926.100": [
+  "hard hat"
+ ],
+ "1910.22": [
+  "walking working surfaces",
+  "housekeeping"
+ ],
+ "1910.28": [
+  "general industry fall protection",
+  "guardrail height"
+ ],
+ "1926.502": [
+  "guardrail",
+  "personal fall arrest system"
+ ],
+ "1926.651": [
+  "excavation",
+  "trench safety"
+ ],
+ "1926.1153": [
+  "construction silica",
+  "table 1 silica"
+ ],
+ "1910.151": [
+  "first aid kit",
+  "eyewash station"
+ ],
+ "1910.215": [
+  "grinder",
+  "bench grinder"
+ ],
+ "1904.39": [
+  "osha reporting",
+  "reporting"
+ ],
+ "1910.219": [
+  "belt guard",
+  "pulley guard"
+ ],
+ "1910.146": [
+  "confined space",
+  "confined space permit"
+ ],
+ "1926.453": [
+  "aerial lift",
+  "boom lift"
+ ],
+ "1926.652": [
+  "trench box",
+  "shoring"
+ ],
+ "1910.95": [
+  "hearing conservation",
+  "noise exposure"
+ ],
+ "1926.1101": [
+  "asbestos",
+  "construction asbestos"
+ ],
+ "1910.1053": [
+  "silica",
+  "general industry silica"
+ ],
+ "1904.29": [
+  "osha 300 log",
+  "300 log"
+ ],
+ "1926.21": [
+  "construction safety training"
+ ],
+ "1910.213": [
+  "table saw",
+  "woodworking machine"
+ ],
+ "1910.133": [
+  "safety glasses",
+  "eye protection"
+ ],
+ "1926.1060": [
+  "ladder training",
+  "stairway training"
+ ],
+ "1926.454": [
+  "scaffold training"
+ ],
+ "1910.23": [
+  "fixed ladder",
+  "portable ladder"
+ ],
+ "1910.106": [
+  "flammable liquid storage",
+  "flammable cabinet"
+ ],
+ "1910.107": [
+  "spray booth",
+  "spray painting"
+ ],
+ "1910.141": [
+  "workplace restroom",
+  "sanitation"
+ ],
+ "1910.176": [
+  "material storage",
+  "aisle clearance"
+ ],
+ "1926.405": [
+  "temporary wiring",
+  "construction extension cord"
+ ],
+ "1910.304": [
+  "gfci",
+  "grounding"
+ ],
+ "1910.119": [
+  "process safety management",
+  "psm"
+ ],
+ "1904.40": [
+  "providing osha records"
+ ],
+ "1904.41": [
+  "osha ita",
+  "ita"
+ ],
+ "1926.416": [
+  "construction electrical safety"
+ ],
+ "1910.36": [
+  "exit route",
+  "emergency exit"
+ ],
+ "1926.1052": [
+  "stairway",
+  "construction stairs"
+ ],
+ "1910.253": [
+  "oxygen acetylene",
+  "gas cylinder storage"
+ ],
+ "1910.334": [
+  "electrical equipment use",
+  "cord inspection"
+ ],
+ "1910.242": [
+  "compressed air",
+  "power tool"
+ ],
+ "1910.1025": [
+  "lead exposure",
+  "lead"
+ ],
+ "1904.32": [
+  "osha 300a",
+  "300a"
+ ],
+ "1910.179": [
+  "overhead crane",
+  "gantry crane"
+ ],
+ "1926.452": [
+  "suspended scaffold",
+  "mobile scaffold"
+ ],
+ "1910.184": [
+  "sling",
+  "rigging sling"
+ ],
+ "1910.29": [
+  "guardrail",
+  "falling object protection"
+ ],
+ "1910.30": [
+  "walking working surfaces training"
+ ],
+ "1926.602": [
+  "construction forklift",
+  "earthmoving equipment"
+ ],
+ "1926.403": [
+  "construction electrical safety"
+ ],
+ "1910.252": [
+  "welding safety",
+  "hot work"
+ ],
+ "1926.50": [
+  "construction first aid"
+ ],
+ "1910.138": [
+  "hand protection",
+  "safety gloves"
+ ],
+ "1910.1026": [
+  "hexavalent chromium"
+ ],
+ "1910.333": [
+  "electrical safe work practices"
+ ],
+ "1910.38": [
+  "emergency action plan"
+ ],
+ "1910.101": [
+  "compressed gas cylinder"
+ ],
+ "1926.62": [
+  "lead in construction"
+ ],
+ "1926.150": [
+  "construction fire extinguisher"
+ ],
+ "1910.1001": [
+  "asbestos"
+ ],
+ "1910.120": [
+  "hazwoper"
+ ],
+ "1926.1051": [
+  "construction stairway"
+ ],
+ "1910.244": [
+  "jack safety",
+  "abrasive blast nozzle"
+ ],
+ "1926.404": [
+  "gfci",
+  "assured equipment grounding"
+ ],
+ "1910.243": [
+  "power tool guarding",
+  "grinder guard"
+ ],
+ "1910.110": [
+  "propane storage",
+  "lpg"
+ ],
+ "1926.300": [
+  "power tool safety"
+ ],
+ "1910.217": [
+  "power press",
+  "punch press"
+ ],
+ "1926.701": [
+  "concrete construction",
+  "rebar cap"
+ ],
+ "1910.156": [
+  "fire brigade"
+ ],
+ "1926.25": [
+  "construction housekeeping"
+ ],
+ "1910.67": [
+  "bucket truck",
+  "aerial lift"
+ ],
+ "1926.95": [
+  "construction ppe requirements"
+ ],
+ "1926.760": [
+  "steel erection fall protection"
+ ],
+ "1910.145": [
+  "safety sign",
+  "danger tag"
+ ],
+ "1926.304": [
+  "table saw",
+  "woodworking tools"
+ ],
+ "1910.1000": [
+  "permissible exposure limit",
+  "pel"
+ ],
+ "1910.335": [
+  "electrical ppe",
+  "arc flash ppe"
+ ],
+ "1926.251": [
+  "rigging",
+  "sling"
+ ],
+ "1910.272": [
+  "grain bin",
+  "grain elevator"
+ ],
+ "1904.4": [
+  "recordable injury"
+ ],
+ "1910.25": [
+  "stair requirements"
+ ],
+ "1910.266": [
+  "logging safety"
+ ],
+ "1910.269": [
+  "power line work",
+  "utility lineman safety"
+ ],
+ "1910.140": [
+  "safety harness",
+  "personal fall arrest"
+ ],
+ "1910.502": [
+  "covid healthcare standard"
+ ],
+ "1904.33": [
+  "osha log retention",
+  "log retention"
+ ],
+ "1910.1052": [
+  "methylene chloride"
+ ],
+ "1910.332": [
+  "electrical safety training",
+  "qualified person training"
+ ],
+ "1910.135": [
+  "hard hat"
+ ],
+ "1910.307": [
+  "hazardous location",
+  "class 1 div 1"
+ ],
+ "1910.1048": [
+  "formaldehyde"
+ ],
+ "1926.51": [
+  "jobsite toilet",
+  "construction sanitation"
+ ],
+ "1926.200": [
+  "construction signs",
+  "barricade tape"
+ ],
+ "1926.28": [
+  "construction ppe"
+ ],
+ "1910.136": [
+  "safety shoe",
+  "steel toe boot"
+ ],
+ "1910.1450": [
+  "lab standard",
+  "chemical hygiene plan"
+ ],
+ "1926.1412": [
+  "crane inspection"
+ ],
+ "1926.302": [
+  "nail gun",
+  "pneumatic tool"
+ ],
+ "1904.30": [
+  "multiple establishment recordkeeping"
+ ],
+ "1926.152": [
+  "flammable liquid storage",
+  "gas can"
+ ],
+ "1910.177": [
+  "tire changing",
+  "rim wheel servicing"
+ ],
+ "1910.265": [
+  "sawmill"
+ ],
+ "1926.552": [
+  "material hoist",
+  "construction elevator"
+ ],
+ "1926.1203": [
+  "confined space construction"
+ ],
+ "1928.57": [
+  "pto guard",
+  "farm equipment guarding"
+ ],
+ "1926.1427": [
+  "crane operator certification",
+  "crane operator training"
+ ],
+ "1926.850": [
+  "demolition engineering survey",
+  "demolition preparation"
+ ],
+ "1910.263": [
+  "bakery equipment",
+  "dough mixer guarding"
+ ],
+ "1910.254": [
+  "arc welding",
+  "welding machine safety"
+ ],
+ "1926.303": [
+  "grinder safety",
+  "abrasive wheel"
+ ],
+ "1910.180": [
+  "mobile crane",
+  "truck crane"
+ ],
+ "1926.761": [
+  "steel erection training",
+  "connector training"
+ ],
+ "1910.142": [
+  "temporary labor camp",
+  "worker housing"
+ ],
+ "1910.1027": [
+  "cadmium exposure",
+  "cadmium standard"
+ ],
+ "1904.7": [
+  "recordable injury",
+  "osha recordable criteria"
+ ],
+ "1910.165": [
+  "employee alarm system",
+  "workplace alarm"
+ ],
+ "1926.600": [
+  "construction equipment safety",
+  "heavy equipment"
+ ],
+ "1926.1204": [
+  "confined space program",
+  "permit space program"
+ ],
+ "1910.94": [
+  "local exhaust ventilation",
+  "abrasive blasting ventilation"
+ ],
+ "1926.1425": [
+  "working under suspended load",
+  "crane fall zone"
+ ],
+ "1910.268": [
+  "telecommunications safety",
+  "telecom tower work"
+ ],
+ "1926.601": [
+  "construction vehicle",
+  "dump truck backup alarm"
+ ],
+ "1910.39": [
+  "fire prevention plan"
+ ],
+ "1926.34": [
+  "construction exit",
+  "means of egress construction"
+ ],
+ "1910.27": [
+  "rope descent system",
+  "general industry scaffold"
+ ],
+ "1926.350": [
+  "oxy acetylene torch",
+  "gas cylinder storage"
+ ],
+ "1926.153": [
+  "propane tank construction",
+  "lp gas storage"
+ ],
+ "1926.106": [
+  "working over water",
+  "life jacket construction"
+ ],
+ "1910.159": [
+  "sprinkler system",
+  "sprinkler clearance"
+ ],
+ "1926.417": [
+  "circuit lockout construction",
+  "electrical tagout construction"
+ ],
+ "1926.1417": [
+  "crane operation",
+  "crane inspection log"
+ ],
+ "1926.55": [
+  "construction exposure limit",
+  "construction dust fumes"
+ ],
+ "1910.9": [
+  "per employee citation",
+  "egregious violation"
+ ],
+ "1910.1020": [
+  "exposure records access",
+  "employee medical records"
+ ],
+ "1926.1428": [
+  "signal person qualification",
+  "crane signal person"
+ ],
+ "1926.59": [
+  "construction hazcom",
+  "construction hazard communication"
+ ],
+ "1910.144": [
+  "safety color code",
+  "osha color code"
+ ],
+ "1910.124": [
+  "dip tank",
+  "dipping and coating"
+ ],
+ "1926.960": [
+  "energized line work",
+  "minimum approach distance"
+ ],
+ "1926.1207": [
+  "confined space training construction",
+  "confined space training"
+ ],
+ "1926.252": [
+  "construction debris chute",
+  "waste disposal construction"
+ ],
+ "1904.1": [
+  "small employer recordkeeping exemption",
+  "osha 300 exemption"
+ ],
+ "1926.306": [
+  "air receiver tank",
+  "air compressor tank"
+ ],
+ "1926.1408": [
+  "crane power line clearance",
+  "crane near power line"
+ ],
+ "1910.1024": [
+  "beryllium exposure",
+  "beryllium standard"
+ ],
+ "1904.31": [
+  "temporary worker recordkeeping",
+  "covered employees recordkeeping"
+ ],
+ "1928.110": [
+  "field sanitation",
+  "farmworker toilet"
+ ],
+ "1926.351": [
+  "welding cable",
+  "construction arc welding"
+ ],
+ "1910.1018": [
+  "arsenic exposure",
+  "inorganic arsenic"
+ ],
+ "1926.754": [
+  "structural steel assembly",
+  "steel decking"
+ ],
+ "1926.1431": [
+  "crane personnel platform",
+  "hoisting personnel"
+ ],
+ "1926.307": [
+  "belt and pulley guard",
+  "power transmission guarding"
+ ],
+ "1915.73": [
+  "shipyard deck opening",
+  "ship deck guardrail"
+ ],
+ "1926.1127": [
+  "cadmium construction",
+  "construction cadmium exposure"
+ ],
+ "1926.352": [
+  "hot work fire watch",
+  "welding fire prevention"
+ ],
+ "1910.137": [
+  "rubber insulating gloves",
+  "electrical gloves testing"
+ ],
+ "1926.1413": [
+  "wire rope inspection",
+  "crane wire rope"
+ ],
+ "1926.703": [
+  "concrete formwork",
+  "shoring concrete"
+ ],
+ "1926.201": [
+  "flagger",
+  "traffic flagger"
+ ],
+ "1910.160": [
+  "fixed fire suppression system",
+  "fixed extinguishing system"
+ ],
+ "1910.26": [
+  "dock plate",
+  "dockboard"
+ ],
+ "1917.26": [
+  "marine terminal first aid",
+  "marine terminal life ring"
+ ],
+ "1910.255": [
+  "spot welding",
+  "resistance welding"
+ ],
+ "1917.112": [
+  "marine terminal edge guarding",
+  "dock edge guardrail"
+ ],
+ "1910.102": [
+  "acetylene cylinder",
+  "acetylene storage"
+ ],
+ "1915.152": [
+  "shipyard ppe",
+  "shipyard ppe hazard assessment"
+ ],
+ "1926.1424": [
+  "crane swing radius",
+  "crane work zone barricade"
+ ],
+ "1910.261": [
+  "paper mill safety",
+  "pulp mill"
+ ],
+ "1926.753": [
+  "steel erection rigging",
+  "steel erection hoisting"
+ ],
+ "1926.1404": [
+  "crane assembly disassembly",
+  "crane assembly"
+ ],
+ "1904.10": [
+  "recordable hearing loss",
+  "standard threshold shift"
+ ],
+ "1926.250": [
+  "construction material storage",
+  "material stacking"
+ ],
+ "1910.421": [
+  "pre-dive checklist",
+  "pre-dive procedure"
+ ],
+ "1910.125": [
+  "flammable dip tank",
+  "dip tank"
+ ],
+ "1910.218": [
+  "forging machine",
+  "forging press"
+ ],
+ "1926.1211": [
+  "confined space rescue construction",
+  "confined space rescue"
+ ],
+ "1926.800": [
+  "underground construction",
+  "tunnel safety"
+ ],
+ "1926.1206": [
+  "confined space entry permit",
+  "entry permit"
+ ],
+ "1910.169": [
+  "air receiver tank",
+  "compressed air tank"
+ ],
+ "1928.51": [
+  "tractor rops",
+  "tractor rollover protection"
+ ],
+ "1917.50": [
+  "marine terminal crane certification",
+  "cargo gear certification"
+ ],
+ "1918.22": [
+  "ship gangway",
+  "longshoring gangway"
+ ],
+ "1926.1430": [
+  "crane operator training",
+  "crane training"
+ ],
+ "1915.71": [
+  "shipyard scaffold",
+  "ship staging"
+ ],
+ "1904.8": [
+  "needlestick recordkeeping",
+  "recordable needlestick"
+ ],
+ "1926.1205": [
+  "confined space permit process",
+  "permit-required confined space construction"
+ ],
+ "1917.45": [
+  "marine terminal crane",
+  "port crane"
+ ],
+ "1910.109": [
+  "explosives storage",
+  "blasting agent"
+ ],
+ "1910.1096": [
+  "ionizing radiation",
+  "radiation exposure limit"
+ ],
+ "1915.12": [
+  "shipyard confined space testing",
+  "enclosed space entry testing"
+ ]
+}

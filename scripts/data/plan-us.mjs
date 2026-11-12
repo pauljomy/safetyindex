@@ -7,7 +7,7 @@
 // Writes data/pages/us/standards-plan.json and industries-plan.json, fills the topic sheet's Main page /
 // Overlaps columns for the guide ↔ standard pairs, and prints the threshold distribution.
 //   node scripts/data/plan-us.mjs [--no-keywords]
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { config } from "../lib/config.mjs";
 import { loadIndex } from "./ecfr.mjs";
 import { industrySlug, standardSlug } from "../lib/slugs.mjs";
@@ -47,21 +47,26 @@ const kw = new Map();
 // requirements" has 480 a month). One headless call per batch suggests each standard's everyday name, used in
 // the brief's phrase patterns. It only proposes search wording; no facts.
 if (!noKeywords) {
-  for (let i = 0; i < cands.length; i += 60) {
-    const batch = cands.slice(i, i + 60);
+  // Names are cached so the plan doesn't change from one run to the next.
+  const NAMES = "data/pages/us/standard-names.json";
+  const cachedNames = existsSync(NAMES) ? JSON.parse(readFileSync(NAMES, "utf8")) : {};
+  const todo = cands.filter((c) => !cachedNames[c.section]);
+  for (let i = 0; i < todo.length; i += 60) {
+    const batch = todo.slice(i, i + 60);
     const res = await complete({
       system: "You know how safety managers search Google for OSHA rules. You return only JSON.",
       schema: { type: "object", additionalProperties: false, required: ["items"], properties: { items: { type: "array", items: { type: "object", additionalProperties: false, required: ["section", "names"], properties: { section: { type: "string" }, names: { type: "array", items: { type: "string" } } } } } } },
       label: `standard names ${i / 60 + 1}`, effort: "low",
       prompt: `For each OSHA standard, give 1–2 everyday names people use in searches for what that specific section covers: lowercase, singular where people say it that way, 1–4 words (e.g. 1926.451 General requirements, Subpart L Scaffolds → "scaffold"; 1910.178 Powered industrial trucks → "forklift"; 1926.503 Training requirements, Subpart M Fall Protection → "fall protection training"; 1910.1200 Hazard communication → "hazcom", "hazard communication"). Make the names specific enough that two sections don't share one.\n${batch.map((c) => `${c.section} ${c.heading} (Subpart ${c.subpart ?? "-"}: ${c.subpartTitle ?? ""})`).join("\n")}`,
     });
-    for (const it of res.data.items) {
-      const c = cands.find((x) => x.section === it.section);
-      if (!c) continue;
-      const names = [...new Set(it.names.map((n) => n.toLowerCase().trim()).filter(Boolean))].slice(0, 2);
-      c.name = names[0] ?? c.name;
-      c.phrases = [...new Set([...names.flatMap((n) => [`osha ${n} requirements`, `${n} checklist`, `${n} inspection`]), `osha ${c.section}`])];
-    }
+    for (const it of res.data.items) cachedNames[it.section] = [...new Set(it.names.map((n) => n.toLowerCase().trim()).filter(Boolean))].slice(0, 2);
+  }
+  writeFileSync(NAMES, `${JSON.stringify(cachedNames, null, 1)}\n`);
+  for (const c of cands) {
+    // The heading-derived name always stays in, next to the everyday names.
+    const names = [...new Set([...(cachedNames[c.section] ?? []), c.name])].filter(Boolean);
+    c.name = names[0];
+    c.phrases = [...new Set([...names.flatMap((n) => [`osha ${n} requirements`, `${n} checklist`, `${n} inspection`]), `osha ${c.section}`])];
   }
   const phrases = [...new Set(cands.flatMap((c) => c.phrases))];
   console.log(`scoring ${phrases.length} phrases for ${cands.length} standards`);
@@ -122,17 +127,24 @@ for (const i of enf.industries) {
 }
 // NAICS titles aren't how people search ("foundation, structure, and building exterior contractors"), so one
 // headless call suggests the everyday trade name for each industry; phrases are built from it. No facts involved.
-if (!noKeywords && icands.length) {
+const INAMES = "data/pages/us/industry-names.json";
+const cachedTrades = existsSync(INAMES) ? JSON.parse(readFileSync(INAMES, "utf8")) : {};
+const itodo = icands.filter((c) => !cachedTrades[c.naics]);
+if (!noKeywords && itodo.length) {
   const res = await complete({
     system: "You map NAICS industry titles to the everyday words people type into Google about workplace safety in that trade. You return only JSON.",
     schema: { type: "object", additionalProperties: false, required: ["items"], properties: { items: { type: "array", items: { type: "object", additionalProperties: false, required: ["naics", "trade", "publicIntent"], properties: { naics: { type: "string" }, trade: { type: "string" }, publicIntent: { type: "boolean" } } } } } },
     label: "industry names", effort: "low",
-    prompt: `For each NAICS code, give the everyday trade name a safety manager would type in a search, lowercase, 1–3 words (e.g. 2381 Foundation, Structure, and Building Exterior Contractors → "roofing"; 2361 Residential Building Construction → "residential construction"; 4931 Warehousing and Storage → "warehouse"). Pick the most common trade in the code. publicIntent = true when searches for "<trade> safety" are mostly by customers, passengers or the public rather than employers and workers (e.g. airline, car rental, amusement park, hotel).\n${icands.map((c) => `${c.naics} ${c.title}`).join("\n")}`,
+    prompt: `For each NAICS code, give the everyday trade name a safety manager would type in a search, lowercase, 1–3 words (e.g. 2381 Foundation, Structure, and Building Exterior Contractors → "roofing"; 2361 Residential Building Construction → "residential construction"; 4931 Warehousing and Storage → "warehouse"). Pick the most common trade in the code. publicIntent = true when searches for "<trade> safety" are mostly by customers, passengers or the public rather than employers and workers (e.g. airline, car rental, amusement park, hotel).\n${itodo.map((c) => `${c.naics} ${c.title}`).join("\n")}`,
   });
-  for (const it of res.data.items) {
-    const c = icands.find((x) => x.naics === it.naics);
+  for (const it of res.data.items) cachedTrades[it.naics] = { trade: it.trade.toLowerCase(), publicIntent: it.publicIntent };
+  writeFileSync(INAMES, `${JSON.stringify(cachedTrades, null, 1)}\n`);
+}
+if (!noKeywords) {
+  for (const [naics, v] of Object.entries(cachedTrades)) { const it = { naics, ...v };
     // Industry pages rank cited standards; they have no checklist, so no "checklist" phrases. Public-facing trades
     // only get employer phrases (osha / regulations).
+    const c = icands.find((x) => x.naics === it.naics);
     if (c && it.trade) { c.trade = it.trade.toLowerCase(); c.publicIntent = it.publicIntent; c.phrases = [...new Set([...(it.publicIntent ? [] : [`${c.trade} safety`]), `osha ${c.trade} regulations`, `${c.trade} osha`, `osha ${c.trade} requirements`])]; }
   }
 }

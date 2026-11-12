@@ -1,0 +1,686 @@
+{
+ "1111": {
+  "trade": "grain farming",
+  "publicIntent": false
+ },
+ "1112": {
+  "trade": "vegetable farming",
+  "publicIntent": false
+ },
+ "1114": {
+  "trade": "greenhouse",
+  "publicIntent": false
+ },
+ "1119": {
+  "trade": "farming",
+  "publicIntent": false
+ },
+ "1123": {
+  "trade": "poultry farm",
+  "publicIntent": false
+ },
+ "1151": {
+  "trade": "farm labor",
+  "publicIntent": false
+ },
+ "1153": {
+  "trade": "logging",
+  "publicIntent": false
+ },
+ "2123": {
+  "trade": "quarry",
+  "publicIntent": false
+ },
+ "2131": {
+  "trade": "oilfield",
+  "publicIntent": false
+ },
+ "2211": {
+  "trade": "electric utility",
+  "publicIntent": false
+ },
+ "2212": {
+  "trade": "natural gas",
+  "publicIntent": true
+ },
+ "2213": {
+  "trade": "wastewater treatment",
+  "publicIntent": false
+ },
+ "2361": {
+  "trade": "residential construction",
+  "publicIntent": false
+ },
+ "2362": {
+  "trade": "commercial construction",
+  "publicIntent": false
+ },
+ "2371": {
+  "trade": "utility construction",
+  "publicIntent": false
+ },
+ "2373": {
+  "trade": "road construction",
+  "publicIntent": false
+ },
+ "2379": {
+  "trade": "civil construction",
+  "publicIntent": false
+ },
+ "2381": {
+  "trade": "roofing",
+  "publicIntent": false
+ },
+ "2382": {
+  "trade": "electrical",
+  "publicIntent": false
+ },
+ "2383": {
+  "trade": "drywall",
+  "publicIntent": false
+ },
+ "2389": {
+  "trade": "site preparation",
+  "publicIntent": false
+ },
+ "3111": {
+  "trade": "feed mill",
+  "publicIntent": false
+ },
+ "3112": {
+  "trade": "flour mill",
+  "publicIntent": false
+ },
+ "3113": {
+  "trade": "candy manufacturing",
+  "publicIntent": false
+ },
+ "3114": {
+  "trade": "food processing",
+  "publicIntent": false
+ },
+ "3115": {
+  "trade": "dairy",
+  "publicIntent": false
+ },
+ "3116": {
+  "trade": "meatpacking",
+  "publicIntent": false
+ },
+ "3117": {
+  "trade": "seafood processing",
+  "publicIntent": false
+ },
+ "3118": {
+  "trade": "bakery",
+  "publicIntent": false
+ },
+ "3119": {
+  "trade": "food manufacturing",
+  "publicIntent": false
+ },
+ "3121": {
+  "trade": "brewery",
+  "publicIntent": false
+ },
+ "3132": {
+  "trade": "textile mill",
+  "publicIntent": false
+ },
+ "3211": {
+  "trade": "sawmill",
+  "publicIntent": false
+ },
+ "3212": {
+  "trade": "plywood mill",
+  "publicIntent": false
+ },
+ "3219": {
+  "trade": "woodworking",
+  "publicIntent": false
+ },
+ "3221": {
+  "trade": "paper mill",
+  "publicIntent": false
+ },
+ "3222": {
+  "trade": "packaging",
+  "publicIntent": false
+ },
+ "3231": {
+  "trade": "printing",
+  "publicIntent": false
+ },
+ "3241": {
+  "trade": "refinery",
+  "publicIntent": false
+ },
+ "3251": {
+  "trade": "chemical plant",
+  "publicIntent": false
+ },
+ "3252": {
+  "trade": "plastics manufacturing",
+  "publicIntent": false
+ },
+ "3253": {
+  "trade": "fertilizer plant",
+  "publicIntent": false
+ },
+ "3254": {
+  "trade": "pharmaceutical",
+  "publicIntent": false
+ },
+ "3255": {
+  "trade": "paint manufacturing",
+  "publicIntent": false
+ },
+ "3256": {
+  "trade": "cosmetics manufacturing",
+  "publicIntent": false
+ },
+ "3259": {
+  "trade": "chemical manufacturing",
+  "publicIntent": false
+ },
+ "3261": {
+  "trade": "plastics manufacturing",
+  "publicIntent": false
+ },
+ "3262": {
+  "trade": "rubber manufacturing",
+  "publicIntent": false
+ },
+ "3271": {
+  "trade": "brick manufacturing",
+  "publicIntent": false
+ },
+ "3272": {
+  "trade": "glass manufacturing",
+  "publicIntent": false
+ },
+ "3273": {
+  "trade": "concrete plant",
+  "publicIntent": false
+ },
+ "3279": {
+  "trade": "stone fabrication",
+  "publicIntent": false
+ },
+ "3311": {
+  "trade": "steel mill",
+  "publicIntent": false
+ },
+ "3312": {
+  "trade": "steel mill",
+  "publicIntent": false
+ },
+ "3313": {
+  "trade": "aluminum",
+  "publicIntent": false
+ },
+ "3314": {
+  "trade": "copper smelting",
+  "publicIntent": false
+ },
+ "3315": {
+  "trade": "foundry",
+  "publicIntent": false
+ },
+ "3321": {
+  "trade": "metal stamping",
+  "publicIntent": false
+ },
+ "3323": {
+  "trade": "steel fabrication",
+  "publicIntent": false
+ },
+ "3324": {
+  "trade": "tank fabrication",
+  "publicIntent": false
+ },
+ "3326": {
+  "trade": "wire manufacturing",
+  "publicIntent": false
+ },
+ "3327": {
+  "trade": "machine shop",
+  "publicIntent": false
+ },
+ "3328": {
+  "trade": "powder coating",
+  "publicIntent": false
+ },
+ "3329": {
+  "trade": "metal fabrication",
+  "publicIntent": false
+ },
+ "3331": {
+  "trade": "heavy equipment manufacturing",
+  "publicIntent": false
+ },
+ "3332": {
+  "trade": "machinery manufacturing",
+  "publicIntent": false
+ },
+ "3333": {
+  "trade": "machinery manufacturing",
+  "publicIntent": false
+ },
+ "3334": {
+  "trade": "hvac manufacturing",
+  "publicIntent": false
+ },
+ "3335": {
+  "trade": "tool and die",
+  "publicIntent": false
+ },
+ "3336": {
+  "trade": "turbine manufacturing",
+  "publicIntent": false
+ },
+ "3339": {
+  "trade": "machinery manufacturing",
+  "publicIntent": false
+ },
+ "3344": {
+  "trade": "semiconductor",
+  "publicIntent": false
+ },
+ "3345": {
+  "trade": "electronics manufacturing",
+  "publicIntent": false
+ },
+ "3353": {
+  "trade": "electrical manufacturing",
+  "publicIntent": false
+ },
+ "3359": {
+  "trade": "battery manufacturing",
+  "publicIntent": false
+ },
+ "3361": {
+  "trade": "automotive manufacturing",
+  "publicIntent": false
+ },
+ "3362": {
+  "trade": "trailer manufacturing",
+  "publicIntent": false
+ },
+ "3363": {
+  "trade": "auto parts manufacturing",
+  "publicIntent": false
+ },
+ "3364": {
+  "trade": "aerospace",
+  "publicIntent": false
+ },
+ "3366": {
+  "trade": "shipyard",
+  "publicIntent": false
+ },
+ "3371": {
+  "trade": "cabinet making",
+  "publicIntent": false
+ },
+ "3372": {
+  "trade": "furniture manufacturing",
+  "publicIntent": false
+ },
+ "3391": {
+  "trade": "medical device manufacturing",
+  "publicIntent": false
+ },
+ "3399": {
+  "trade": "manufacturing",
+  "publicIntent": false
+ },
+ "4231": {
+  "trade": "auto parts warehouse",
+  "publicIntent": false
+ },
+ "4233": {
+  "trade": "lumber yard",
+  "publicIntent": false
+ },
+ "4234": {
+  "trade": "medical supply",
+  "publicIntent": false
+ },
+ "4235": {
+  "trade": "steel service center",
+  "publicIntent": false
+ },
+ "4236": {
+  "trade": "electronics distribution",
+  "publicIntent": false
+ },
+ "4237": {
+  "trade": "plumbing supply",
+  "publicIntent": false
+ },
+ "4238": {
+  "trade": "equipment dealer",
+  "publicIntent": false
+ },
+ "4239": {
+  "trade": "scrap metal",
+  "publicIntent": false
+ },
+ "4244": {
+  "trade": "food distribution",
+  "publicIntent": false
+ },
+ "4245": {
+  "trade": "grain elevator",
+  "publicIntent": false
+ },
+ "4246": {
+  "trade": "chemical distribution",
+  "publicIntent": false
+ },
+ "4247": {
+  "trade": "fuel distribution",
+  "publicIntent": false
+ },
+ "4248": {
+  "trade": "beverage distribution",
+  "publicIntent": false
+ },
+ "4249": {
+  "trade": "wholesale distribution",
+  "publicIntent": false
+ },
+ "4411": {
+  "trade": "car dealership",
+  "publicIntent": false
+ },
+ "4412": {
+  "trade": "boat dealership",
+  "publicIntent": false
+ },
+ "4413": {
+  "trade": "tire shop",
+  "publicIntent": false
+ },
+ "4441": {
+  "trade": "lumber yard",
+  "publicIntent": false
+ },
+ "4442": {
+  "trade": "garden center",
+  "publicIntent": false
+ },
+ "4451": {
+  "trade": "grocery store",
+  "publicIntent": false
+ },
+ "4452": {
+  "trade": "butcher shop",
+  "publicIntent": false
+ },
+ "4811": {
+  "trade": "airline",
+  "publicIntent": true
+ },
+ "4841": {
+  "trade": "trucking",
+  "publicIntent": false
+ },
+ "4842": {
+  "trade": "moving company",
+  "publicIntent": false
+ },
+ "4851": {
+  "trade": "public transit",
+  "publicIntent": true
+ },
+ "4854": {
+  "trade": "school bus",
+  "publicIntent": true
+ },
+ "4881": {
+  "trade": "airport ground",
+  "publicIntent": false
+ },
+ "4882": {
+  "trade": "railroad",
+  "publicIntent": false
+ },
+ "4883": {
+  "trade": "port",
+  "publicIntent": false
+ },
+ "4884": {
+  "trade": "towing",
+  "publicIntent": false
+ },
+ "4885": {
+  "trade": "freight forwarding",
+  "publicIntent": false
+ },
+ "4889": {
+  "trade": "logistics",
+  "publicIntent": false
+ },
+ "4911": {
+  "trade": "postal",
+  "publicIntent": false
+ },
+ "4921": {
+  "trade": "delivery driver",
+  "publicIntent": false
+ },
+ "4931": {
+  "trade": "warehouse",
+  "publicIntent": false
+ },
+ "5311": {
+  "trade": "property management",
+  "publicIntent": false
+ },
+ "5313": {
+  "trade": "property management",
+  "publicIntent": false
+ },
+ "5321": {
+  "trade": "car rental",
+  "publicIntent": true
+ },
+ "5324": {
+  "trade": "equipment rental",
+  "publicIntent": false
+ },
+ "5413": {
+  "trade": "engineering",
+  "publicIntent": false
+ },
+ "5416": {
+  "trade": "consulting",
+  "publicIntent": false
+ },
+ "5417": {
+  "trade": "research lab",
+  "publicIntent": false
+ },
+ "5419": {
+  "trade": "veterinary",
+  "publicIntent": false
+ },
+ "5611": {
+  "trade": "office",
+  "publicIntent": false
+ },
+ "5612": {
+  "trade": "facilities management",
+  "publicIntent": false
+ },
+ "5613": {
+  "trade": "staffing agency",
+  "publicIntent": false
+ },
+ "5616": {
+  "trade": "security guard",
+  "publicIntent": false
+ },
+ "5617": {
+  "trade": "janitorial",
+  "publicIntent": false
+ },
+ "5619": {
+  "trade": "call center",
+  "publicIntent": false
+ },
+ "5621": {
+  "trade": "waste collection",
+  "publicIntent": false
+ },
+ "5622": {
+  "trade": "landfill",
+  "publicIntent": false
+ },
+ "5629": {
+  "trade": "asbestos abatement",
+  "publicIntent": false
+ },
+ "6111": {
+  "trade": "school",
+  "publicIntent": true
+ },
+ "6113": {
+  "trade": "university",
+  "publicIntent": true
+ },
+ "6211": {
+  "trade": "medical office",
+  "publicIntent": false
+ },
+ "6212": {
+  "trade": "dental office",
+  "publicIntent": false
+ },
+ "6213": {
+  "trade": "physical therapy",
+  "publicIntent": false
+ },
+ "6214": {
+  "trade": "clinic",
+  "publicIntent": false
+ },
+ "6215": {
+  "trade": "laboratory",
+  "publicIntent": false
+ },
+ "6219": {
+  "trade": "home health",
+  "publicIntent": false
+ },
+ "6221": {
+  "trade": "hospital",
+  "publicIntent": false
+ },
+ "6222": {
+  "trade": "psychiatric hospital",
+  "publicIntent": false
+ },
+ "6231": {
+  "trade": "nursing home",
+  "publicIntent": false
+ },
+ "6232": {
+  "trade": "group home",
+  "publicIntent": false
+ },
+ "6233": {
+  "trade": "assisted living",
+  "publicIntent": false
+ },
+ "6241": {
+  "trade": "social work",
+  "publicIntent": false
+ },
+ "6242": {
+  "trade": "homeless shelter",
+  "publicIntent": false
+ },
+ "7121": {
+  "trade": "museum",
+  "publicIntent": false
+ },
+ "7131": {
+  "trade": "amusement park",
+  "publicIntent": true
+ },
+ "7139": {
+  "trade": "gym",
+  "publicIntent": true
+ },
+ "7211": {
+  "trade": "hotel",
+  "publicIntent": true
+ },
+ "7223": {
+  "trade": "catering",
+  "publicIntent": false
+ },
+ "7225": {
+  "trade": "restaurant",
+  "publicIntent": false
+ },
+ "8111": {
+  "trade": "auto repair",
+  "publicIntent": false
+ },
+ "8113": {
+  "trade": "equipment repair",
+  "publicIntent": false
+ },
+ "8114": {
+  "trade": "appliance repair",
+  "publicIntent": false
+ },
+ "8121": {
+  "trade": "salon",
+  "publicIntent": false
+ },
+ "8122": {
+  "trade": "funeral home",
+  "publicIntent": false
+ },
+ "8123": {
+  "trade": "laundry",
+  "publicIntent": false
+ },
+ "8129": {
+  "trade": "pet grooming",
+  "publicIntent": false
+ },
+ "9211": {
+  "trade": "government office",
+  "publicIntent": false
+ },
+ "9221": {
+  "trade": "law enforcement",
+  "publicIntent": false
+ },
+ "9231": {
+  "trade": "government office",
+  "publicIntent": false
+ },
+ "9241": {
+  "trade": "environmental agency",
+  "publicIntent": false
+ },
+ "9251": {
+  "trade": "housing authority",
+  "publicIntent": false
+ },
+ "9261": {
+  "trade": "government office",
+  "publicIntent": false
+ },
+ "9281": {
+  "trade": "military",
+  "publicIntent": false
+ }
+}

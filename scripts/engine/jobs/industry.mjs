@@ -7,6 +7,7 @@ import { checkWriting } from "../../checks/writing.mjs";
 import { config } from "../../lib/config.mjs";
 import { writeChecked } from "../pipeline.mjs";
 import { saveJson, today, withDisplay, writeBundle } from "../common.mjs";
+import { subIndustries } from "../../data/naics.mjs";
 
 const words = (s) => s.trim().split(/\s+/).length;
 
@@ -35,13 +36,15 @@ export async function runIndustry(job, { log, enforcement }) {
   const stats = withDisplay({ fiscalYears: enforcement.fiscalYears, fiscalYearCount: enforcement.fiscalYearCount, ...raw });
   const idx = loadIndex();
   const headings = raw.topStandards.slice(0, 15).map((s) => ({ section: s.section, heading: idx.sections[s.section]?.heading ?? "" }));
-  const prompt = industryPrompt({ naics: job.naics, title: job.title, keyword: job.keyword, stats, headings });
-  writeBundle("us", job.slug, { prompt, system: ENGINE_SYSTEM, source: headings.map((h) => `${h.section}: ${h.heading}`).join("\n"), stats, schema: industrySchema });
-  const allowed = new Set([...numbersIn(stats), ...numbersIn(headings)]);
+  const subs = subIndustries(job.naics);
+  const prompt = industryPrompt({ naics: job.naics, title: job.title, keyword: job.keyword, stats, headings, subs, trade: job.trade });
+  const naicsText = `NAICS ${job.naics} ${job.title} includes these 6-digit industries (U.S. Census Bureau, NAICS 2022):\n${subs.map((x) => `${x.code} ${x.title}`).join("\n")}`;
+  writeBundle("us", job.slug, { prompt, system: ENGINE_SYSTEM, source: `${naicsText}\n\n${headings.map((h) => `${h.section}: ${h.heading}`).join("\n")}`, stats, schema: industrySchema });
+  const allowed = new Set([...numbersIn(stats), ...numbersIn(headings), ...numbersIn(subs)]);
   const res = await writeChecked({
     label: job.slug, system: ENGINE_SYSTEM, prompt, schema: industrySchema, market: "us", log,
     validate: (d) => validateIndustry(d, { allowed, naics: job.naics }),
-    sources: `<standard_headings>\n${headings.map((h) => `${h.section}: ${h.heading}`).join("\n")}\n</standard_headings>\n<statistics>\n${JSON.stringify(stats)}\n</statistics>`,
+    sources: `<naics_definition>\n${naicsText}\n</naics_definition>\n<standard_headings>\n${headings.map((h) => `${h.section}: ${h.heading}`).join("\n")}\n</standard_headings>\n<statistics>\n${JSON.stringify(stats)}\n</statistics>`,
   });
   if (!res.ok) return { status: "dropped", reason: res.reason, notes: res.notes };
   const d = res.draft;
