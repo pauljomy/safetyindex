@@ -1,0 +1,184 @@
+{
+  "slug": "lockout-and-tagout-procedures",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/blog/lockout-and-tagout-procedures",
+  "doc_ref": "SI-US-6",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Lockout/Tagout Program Check (OSHA 29 CFR 1910.147)",
+  "subtitle": "Check a US general-industry energy control program and one live lockout against OSHA's lockout/tagout standard.",
+  "regulation_line": "OSHA 29 CFR 1910.147, The control of hazardous energy (lockout/tagout)",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Work through each item at the machine or with the program documents in hand. Record what you see, not what the procedure says should happen.",
+    "This checklist covers federal OSHA general industry only. Construction, maritime, electrical work and state-plan states may have extra or different rules."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Program and written procedures",
+      "items": [
+        [
+          "The energy control program has procedures, employee training and periodic inspections",
+          "All three parts exist and are current for the machines in use",
+          "29 CFR 1910.147"
+        ],
+        [
+          "A documented procedure exists for each machine, or all eight exception conditions are met",
+          "Written procedure on file, or all eight conditions in the note exist for that machine",
+          "29 CFR 1910.147(c)(4)(i)"
+        ],
+        [
+          "Procedures state scope, purpose, authorization, rules, techniques and the means to enforce compliance",
+          "Each element appears in the written procedure",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Procedures include specific requirements for testing to verify that energy controls are effective",
+          "A named verification method for each machine",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Any common procedure identifies the equipment it covers",
+          "Equipment listed at least by type and location"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Locks, tags and isolating devices",
+      "items": [
+        [
+          "Lockout is used wherever the energy isolating device can be locked out",
+          "Lockable devices carry locks. Where tags are used instead, the employer's demonstration of full employee protection is on file",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Tags used on lockable devices go where the lock would have gone and are backed by extra measures",
+          "Tag at the lock location, plus a measure such as a removed valve handle, an opened extra disconnect or a blocked controlling switch",
+          "29 CFR 1910.147(c)(3)(ii)"
+        ],
+        [
+          "Lockout devices use a positive means to hold the isolating device in a safe position",
+          "Key or combination locks, blank flanges or bolted slip blinds",
+          "29 CFR 1910.147(b)"
+        ],
+        [
+          "Tags are legible and understandable to everyone in the area",
+          "Readable wording that all authorized, affected and other employees in the area can understand",
+          "29 CFR 1910.147"
+        ],
+        [
+          "No push button or selector switch is being relied on as the isolation point",
+          "Isolation at breakers, disconnects, line valves or blocks, not at control circuit devices",
+          "29 CFR 1910.147(b)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Applying controls (observe a live lockout)",
+      "items": [
+        [
+          "Affected employees are notified before controls are applied",
+          "Notice given by the employer or the authorized employee before shutdown",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Only the authorized employees doing the work apply locks or tags",
+          "Each worker applies their own device. Nobody affixes another person's",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Every energy isolating device needed is located and operated",
+          "All sources isolated, not only the main disconnect",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Stored or residual energy is dissipated or restrained",
+          "Springs, capacitors, raised parts, flywheels and pressurized lines grounded, blocked, repositioned or bled down"
+        ],
+        [
+          "Isolation is verified before work starts and controls are returned to off",
+          "No personnel exposed, a start attempt or test made, controls back in the neutral or off position"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Release and special situations",
+      "items": [
+        [
+          "Each lock or tag is removed by the employee who applied it",
+          "If someone else removed it, a documented and trained removal procedure was followed under the employer's direction",
+          "29 CFR 1910.147(e)(3)"
+        ],
+        [
+          "Affected employees are told after devices are removed and before restart",
+          "Notification recorded or observed before startup",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Temporary re-energization for testing or positioning is limited to that task",
+          "Equipment deenergized and locked or tagged out again straight afterwards",
+          "29 CFR 1910.147(f)(1)"
+        ],
+        [
+          "Group lockouts give every authorized employee a personal device on the group lockbox",
+          "Personal locks or tags applied at the start of each person's work and removed when that person stops",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Shift changes and outside contractors are covered",
+          "Written transfer method between shifts, and an exchange of procedures with each contractor",
+          "29 CFR 1910.147"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Inspection and training",
+      "items": [
+        [
+          "Each energy control procedure was inspected within the last year",
+          "Done by an authorized employee other than those using the procedure, with a demonstration",
+          "29 CFR 1910.147(c)(6)(i)"
+        ],
+        [
+          "The inspection certification is complete",
+          "Machine or equipment, date, employees included and the person who inspected",
+          "29 CFR 1910.147"
+        ],
+        [
+          "Authorized employees are trained in energy recognition and isolation methods",
+          "Training covers energy sources, type and magnitude, and the means of isolation and control",
+          "29 CFR 1910.147(c)(7)(i)"
+        ],
+        [
+          "Retraining follows changes in job, equipment, process or procedure",
+          "Retraining records dated after each change",
+          "29 CFR 1910.147"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "OSHA 29 CFR 1910.147, The control of hazardous energy (lockout/tagout)",
+    "OSHA 29 CFR 1910.147 Appendix A, Typical minimal lockout procedures (non-mandatory)",
+    "OSHA Directive STD 01-05-019, Inspection Procedures and Interpretive Guidance"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
