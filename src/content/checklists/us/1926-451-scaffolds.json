@@ -1,0 +1,298 @@
+{
+  "slug": "1926-451-scaffolds",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-451-scaffolds",
+  "doc_ref": "SI-US-1926-451",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Scaffold Inspection Checklist (29 CFR 1926.451)",
+  "subtitle": "For the competent person's check before each shift and after anything that may have affected the scaffold's structure.",
+  "regulation_line": "OSHA 29 CFR 1926.451",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item fails, keep employees off the affected part until it is repaired, replaced or braced, or until the scaffold is removed from service.",
+    "The scaffold manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Foundation, bracing and capacity",
+      "items": [
+        [
+          "Design",
+          "Scaffold built and loaded as the qualified person's design specifies",
+          "1926.451(a)(6)"
+        ],
+        [
+          "Load on platforms",
+          "Workers and materials within the maximum intended load or rated capacity, whichever is less",
+          "1926.451(f)(1)"
+        ],
+        [
+          "Base plates and mud sills",
+          "Every pole, leg, post, frame and upright bears on base plates and mud sills or other adequate firm foundation",
+          "1926.451(c)(2)"
+        ],
+        [
+          "Footings",
+          "Level, sound and rigid, with no settling or displacement under the loaded scaffold",
+          "1926.451(c)(2)(i)"
+        ],
+        [
+          "Unstable supports",
+          "No unstable objects supporting the scaffold or platform units",
+          "1926.451(c)(2)(ii)"
+        ],
+        [
+          "Plumb and bracing",
+          "Uprights plumb, bracing in place, no swaying or displacement",
+          "1926.451(c)(3)"
+        ],
+        [
+          "Ties above 4:1",
+          "Scaffold taller than 4 times its base width is guyed, tied or braced",
+          "1926.451(c)(1)"
+        ],
+        [
+          "Tie spacing",
+          "Vertical tie positions follow the manufacturer's recommendations, or start at the 4:1 height and repeat every 20 ft or less (3 ft wide or less) or 26 ft or less (wider). In all cases: ties at each end, no more than 30 ft apart horizontally, and the top tie no further than the 4:1 height from the top",
+          "1926.451(c)(1)(ii)"
+        ],
+        [
+          "Power line clearance",
+          "At least 10 ft from insulated lines of 300 V to 50 kV and uninsulated lines under 50 kV, at least 3 ft from insulated lines under 300 V, and more for lines over 50 kV",
+          "1926.451(f)(6)"
+        ],
+        [
+          "Damaged components",
+          "No damaged or weakened part in use unless repaired, replaced or braced to the strength required by (a)",
+          "1926.451(f)(4)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Platforms",
+      "items": [
+        [
+          "Full planking",
+          "Each working level fully planked or decked between front uprights and guardrail supports",
+          "1926.451(b)(1)"
+        ],
+        [
+          "Gaps",
+          "No more than 1 in between units and between platform and uprights (where a wider space has been justified, no more than 9 1/2 in)",
+          "1926.451(b)(1)(i)"
+        ],
+        [
+          "Width",
+          "At least 18 in wide, or the width (b)(2)(i) or (b)(2)(ii) allows",
+          "1926.451(b)(2)"
+        ],
+        [
+          "Distance from work face",
+          "Front edge within 14 in of the work face, or guardrails or fall arrest in use along it. Outrigger scaffolds: no more than 3 in from the face. Plastering and lathing: no more than 18 in",
+          "1926.451(b)(3)"
+        ],
+        [
+          "End bearing",
+          "Each end at least 6 in past the support centerline, or cleated or hooked",
+          "1926.451(b)(4)"
+        ],
+        [
+          "Overhang",
+          "Platforms 10 ft or shorter overhang no more than 12 in unless designed for it or guarded against access",
+          "1926.451(b)(5)(i)"
+        ],
+        [
+          "Overlaps",
+          "Overlaps only over supports, at least 12 in, or nailed or restrained",
+          "1926.451(b)(7)"
+        ],
+        [
+          "Debris",
+          "No debris building up on platforms",
+          "1926.451(f)(13)"
+        ],
+        [
+          "Slippery surfaces",
+          "No snow, ice or other slippery material, except while workers are removing it",
+          "1926.451(f)(8)"
+        ],
+        [
+          "Makeshift height",
+          "No boxes, barrels or other makeshift devices used to gain working height",
+          "1926.451(f)(14)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Access",
+      "items": [
+        [
+          "Means of access",
+          "Ladder, stair tower, ramp, walkway, integral access or direct access wherever the platform is over 2 ft above or below the access point",
+          "1926.451(e)(1)"
+        ],
+        [
+          "Cross braces",
+          "Nobody climbing cross braces on tubular welded frame scaffolds",
+          "1926.451(e)(9)(iv)"
+        ],
+        [
+          "Ladder position",
+          "Portable, hook-on and attachable ladders placed so they cannot tip the scaffold",
+          "1926.451(e)(2)(i)"
+        ],
+        [
+          "Bottom rung",
+          "Hook-on or attachable ladder bottom rung no more than 24 in above the supporting level",
+          "1926.451(e)(2)(ii)"
+        ],
+        [
+          "Rest platforms",
+          "Rest platforms at 35 ft maximum vertical intervals on supported scaffolds over 35 ft high",
+          "1926.451(e)(2)(iii)"
+        ],
+        [
+          "Stair tower rails",
+          "Toprail and midrail on each side of each scaffold stairway",
+          "1926.451(e)(4)(i)"
+        ],
+        [
+          "Ramps and walkways",
+          "Guardrails on ramps and walkways 6 ft or more above lower levels",
+          "1926.451(e)(5)(i)"
+        ],
+        [
+          "Direct access",
+          "Scaffold no more than 14 in horizontally and 24 in vertically from the other surface",
+          "1926.451(e)(8)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Fall and falling object protection",
+      "items": [
+        [
+          "Fall protection",
+          "Every employee over 10 ft up is protected by the system (g)(1)(i) to (g)(1)(vii) requires for this scaffold type",
+          "1926.451(g)(1)"
+        ],
+        [
+          "Guardrail coverage",
+          "Guardrails on all open sides and ends before anyone other than erection or dismantling crews uses the scaffold",
+          "1926.451(g)(4)(i)"
+        ],
+        [
+          "Toprail height",
+          "38 to 45 in above the platform (36 to 45 in on supported scaffolds made and placed in service before January 1, 2000, and on suspended scaffolds needing both guardrail and fall arrest)",
+          "1926.451(g)(4)(ii)"
+        ],
+        [
+          "Midrails",
+          "Midrail approximately midway between top edge and platform",
+          "1926.451(g)(4)(iv)"
+        ],
+        [
+          "No banding",
+          "No steel or plastic banding used as toprail or midrail",
+          "1926.451(g)(4)(xiii)"
+        ],
+        [
+          "Fall arrest attachment",
+          "Lanyard attached to a vertical lifeline, horizontal lifeline or scaffold structural member",
+          "1926.451(g)(3)"
+        ],
+        [
+          "Toeboards",
+          "At least three and one-half in high at the outermost edge, no more than 1/4 in gap above the surface, openings no larger than 1 in",
+          "1926.451(h)(4)(ii)"
+        ],
+        [
+          "Area below",
+          "Area below barricaded with no entry, or another (h)(2) measure in place where objects could strike employees below",
+          "1926.451(h)(2)(i)"
+        ],
+        [
+          "Hardhats and overhead protection",
+          "Hardhats worn on the scaffold, plus toeboards, screens, guardrails, nets, catch platforms or canopies against small falling objects",
+          "1926.451(h)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Inspection, supervision and conditions",
+      "items": [
+        [
+          "Pre-shift inspection",
+          "Competent person checked for visible defects before this shift and after any event that may have affected the structure",
+          "1926.451(f)(3)"
+        ],
+        [
+          "Erection crew",
+          "Erecting, moving, dismantling or altering supervised by a competent person and done by trained, experienced employees that person selected",
+          "1926.451(f)(7)"
+        ],
+        [
+          "Wind and storms",
+          "No work in storms or high winds unless a competent person found it safe and workers have fall arrest or wind screens, with the scaffold secured for wind forces",
+          "1926.451(f)(12)"
+        ],
+        [
+          "Swinging loads",
+          "Tag lines or equivalent control on loads hoisted onto or near the scaffold",
+          "1926.451(f)(9)"
+        ],
+        [
+          "Suspension ropes",
+          "Ropes inspected by a competent person this workshift, with none showing a replacement condition in (d)(10)(i) to (d)(10)(vi)",
+          "1926.451(d)(10)"
+        ],
+        [
+          "Counterweight material",
+          "Counterweights of non-flowable material, with no sand, gravel or similar easily dislocated material",
+          "1926.451(d)(3)(ii)"
+        ],
+        [
+          "Counterweight type",
+          "Only items specifically designed as counterweights, with no masonry units, rolls of roofing felt or other construction materials",
+          "1926.451(d)(3)(iii)"
+        ],
+        [
+          "Counterweight securing",
+          "Counterweights secured to the outrigger beams by mechanical means",
+          "1926.451(d)(3)(iv)"
+        ],
+        [
+          "Tiebacks",
+          "Tiebacks secured to structurally sound anchorage, not standpipes, vents, piping or electrical conduit",
+          "1926.451(d)(3)(ix)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.451: General requirements (Part 1926 Subpart L: Scaffolds)",
+    "Aerial lifts are covered by 29 CFR 1926.453, not this section",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

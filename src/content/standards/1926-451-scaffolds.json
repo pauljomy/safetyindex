@@ -1,0 +1,541 @@
+{
+  "section": "1926.451",
+  "part": "1926",
+  "heading": "General requirements.",
+  "subpart": "L",
+  "subpartTitle": "Scaffolds",
+  "title": "OSHA scaffold requirements (29 CFR 1926.451)",
+  "seoTitle": "OSHA Scaffold Requirements: 29 CFR 1926.451",
+  "description": "OSHA scaffold requirements in 29 CFR 1926.451: capacity, platforms, access, inspection and fall protection, with citation data and a checklist.",
+  "opening": "29 CFR 1926.451 sets general scaffold rules: qualified-person design, load capacity, platform and footing construction, access, competent-person inspections before each work shift and after any occurrence that could affect structural integrity, and fall protection for employees more than 10 feet above a lower level.",
+  "keyword": "osha scaffold requirements",
+  "cluster": [
+    {
+      "keyword": "osha scaffold requirements",
+      "volume": 480,
+      "kd": 14,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "scaffold checklist",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "scaffold inspection",
+      "volume": 390,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha scaffolding requirements",
+      "volume": 480,
+      "kd": 14,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "scaffolding checklist",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "scaffolding inspection",
+      "volume": 390,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.451",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 1820,
+  "kd": 14,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 15556,
+    "inspections": 7281,
+    "byFy": {
+      "2022": 3181,
+      "2023": 3675,
+      "2024": 2746,
+      "2025": 3206,
+      "2026": 2748
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(g)(1)",
+        "count": 2297
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 1585
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 1345
+      },
+      {
+        "paragraph": "(g)(1)(vii)",
+        "count": 1290
+      },
+      {
+        "paragraph": "(f)(3)",
+        "count": 886
+      },
+      {
+        "paragraph": "(c)(2)",
+        "count": 831
+      },
+      {
+        "paragraph": "(g)(4)(i)",
+        "count": 768
+      },
+      {
+        "paragraph": "(f)(7)",
+        "count": 739
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 541
+      },
+      {
+        "paragraph": "(c)(2)(v)",
+        "count": 428
+      }
+    ],
+    "penalties": {
+      "n": 11850,
+      "median": 4096,
+      "p25": 2837,
+      "p75": 4965,
+      "total": 58992614
+    },
+    "typeShares": {
+      "serious": 0.909,
+      "willful": 0.005,
+      "repeat": 0.03,
+      "otherThanSerious": 0.055,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 14134,
+      "willful": 85,
+      "repeat": 473,
+      "otherThanSerious": 861,
+      "unclassified": 3
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 11283,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 1123,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2383",
+        "count": 989,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 972,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 353,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2382",
+        "count": 154,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "4233",
+        "count": 70,
+        "title": "Lumber and Other Construction Materials Merchant Wholesalers"
+      },
+      {
+        "naics": "2373",
+        "count": 57,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "5617",
+        "count": 38,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "3323",
+        "count": 35,
+        "title": "Architectural and Structural Metals Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.451(g)(1) was the most-cited paragraph in FY2022–FY2026. It requires fall protection for employees working on scaffolds over 10 feet (3.1 m) above a lower level. Next came (e)(1), on access to platforms more than 2 feet above or below an access point, and (b)(1), on fully planked or decked platforms. Citations went from 3,181 in FY2022 to 3,675 in FY2023, then 2,746 in FY2024, 3,206 in FY2025 and 2,748 in FY2026.",
+  "requirementsIntro": "1926.451 sets the general requirements for scaffolds in Part 1926 Subpart L (Scaffolds). It does not cover aerial lifts, which fall only under 1926.453. The section runs from (a) capacity through (b) platform construction, (c) supported scaffolds, (d) suspension scaffolds, (e) access, (f) use and (g) fall protection to (h) falling object protection.",
+  "requirements": [
+    {
+      "heading": "How strong must a scaffold be, and who designs it?",
+      "intro": "Under 1926.451(a), a qualified person designs every scaffold. Unless an exception named in (a)(1) applies, each scaffold and component must hold its own weight plus 4 times its maximum intended load without failure.",
+      "items": [
+        {
+          "text": "A qualified person designs the scaffold, and it is built and loaded according to that design. Non-mandatory appendix A to Subpart L gives example criteria.",
+          "clause": "1926.451(a)(6)"
+        },
+        {
+          "text": "Each scaffold and component supports, without failure, its own weight and at least 4 times the maximum intended load applied or transmitted to it. The exceptions are set out in (a)(2) to (a)(5) and (g).",
+          "clause": "1926.451(a)(1)"
+        },
+        {
+          "text": "On non-adjustable suspension scaffolds, each suspension rope and its connecting hardware supports at least 6 times the maximum intended load on that rope.",
+          "clause": "1926.451(a)(3)"
+        },
+        {
+          "text": "The stall load of a scaffold hoist does not exceed 3 times its rated load.",
+          "clause": "1926.451(a)(5)"
+        },
+        {
+          "text": "Scaffolds and components are never loaded beyond their maximum intended loads or rated capacities, whichever is less.",
+          "clause": "1926.451(f)(1)"
+        },
+        {
+          "text": "A loaded platform deflects no more than 1/60 of its span.",
+          "clause": "1926.451(f)(16)"
+        }
+      ]
+    },
+    {
+      "heading": "How must scaffold platforms be planked and sized?",
+      "intro": "1926.451(b) requires each platform on all working levels to be fully planked or decked between the front uprights and the guardrail supports. Platforms must generally be at least 18 inches wide, with their ends seated and overlapped over supports.",
+      "items": [
+        {
+          "text": "Gaps between adjacent platform units, and between the platform and the uprights, are no more than 1 inch. A wider space is allowed only where the employer can demonstrate it is necessary, for example to fit around uprights when side brackets extend the platform.",
+          "clause": "1926.451(b)(1)(i)"
+        },
+        {
+          "text": "Where the employer has demonstrated that a wider space is needed, the platform is planked or decked as fully as possible, and the open space between platform and uprights does not exceed 9 1/2 inches.",
+          "clause": "1926.451(b)(1)(ii)"
+        },
+        {
+          "text": "Full planking is not required on platforms used solely as walkways or solely by employees erecting or dismantling the scaffold. On those platforms, the employer provides the planking it establishes is necessary for safe working conditions.",
+          "clause": "1926.451(b)(1)"
+        },
+        {
+          "text": "Platforms and walkways are at least 18 inches wide. One exception is the scaffold types in (b)(2)(i): 12 inches for ladder jack, top plate bracket and pump jack scaffolds, and no minimum for boatswains' chairs (the roof bracket width rule is subject to the administrative stay noted under that paragraph). The other is areas the employer can demonstrate are too narrow. Under (b)(2)(ii), platforms there are as wide as feasible, and guardrails and/or personal fall arrest systems protect the employees on them.",
+          "clause": "1926.451(b)(2)"
+        },
+        {
+          "text": "The front edge of a platform is no more than 14 inches from the face of the work, unless guardrail systems along the front edge and/or fall arrest systems used under (g) protect employees. The limit is 3 inches for outrigger scaffolds and 18 inches for plastering and lathing.",
+          "clause": "1926.451(b)(3)"
+        },
+        {
+          "text": "Each platform end extends at least 6 inches over the centerline of its support, unless it is cleated or restrained by hooks or equivalent means.",
+          "clause": "1926.451(b)(4)"
+        },
+        {
+          "text": "A platform 10 feet or shorter extends no more than 12 inches past its support. The exceptions are a cantilevered part designed and installed to carry employees and/or materials without tipping, or guardrails that block access to it. (b)(5)(ii) sets 18 inches, with its own exceptions, for longer platforms.",
+          "clause": "1926.451(b)(5)(i)"
+        },
+        {
+          "text": "Overlapped platforms overlap only over supports and by at least 12 inches, unless they are nailed together or otherwise restrained against movement.",
+          "clause": "1926.451(b)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "How must supported scaffolds be founded and braced?",
+      "intro": "Under 1926.451(c), supported scaffolds must bear on base plates and mud sills or another adequate firm foundation and be plumb and braced. They must also be guyed, tied or braced once the height to base width ratio exceeds 4:1.",
+      "items": [
+        {
+          "text": "A supported scaffold whose height to base width ratio is more than 4:1 is restrained from tipping by guying, tying, bracing or equivalent means. Outrigger supports count toward the base width if they are used.",
+          "clause": "1926.451(c)(1)"
+        },
+        {
+          "text": "Guys, ties and braces are installed to the manufacturer's recommendations, or else at the horizontal member closest to the 4:1 height and repeated vertically every 20 feet or less for scaffolds 3 feet wide or less, or every 26 feet or less for wider ones. In every case, the top one on a completed scaffold is no further than the 4:1 height from the top, and they are installed at each end and at horizontal intervals of no more than 30 feet.",
+          "clause": "1926.451(c)(1)(ii)"
+        },
+        {
+          "text": "Ties, guys, braces or outriggers prevent tipping wherever an eccentric load, such as a cantilevered work platform, is applied or transmitted to the scaffold.",
+          "clause": "1926.451(c)(1)(iii)"
+        },
+        {
+          "text": "Poles, legs, posts, frames and uprights bear on base plates and mud sills or other adequate firm foundation.",
+          "clause": "1926.451(c)(2)"
+        },
+        {
+          "text": "Footings are level, sound and rigid, and they carry the loaded scaffold without settling or displacement.",
+          "clause": "1926.451(c)(2)(i)"
+        },
+        {
+          "text": "Unstable objects are not used to support scaffolds or platform units, and (c)(2)(iii) also bars them as working platforms.",
+          "clause": "1926.451(c)(2)(ii)"
+        },
+        {
+          "text": "A forklift supports a scaffold platform only if the entire platform is attached to the fork and the forklift is not moved horizontally while the platform is occupied.",
+          "clause": "1926.451(c)(2)(v)"
+        },
+        {
+          "text": "Uprights are plumb and braced to prevent swaying and displacement.",
+          "clause": "1926.451(c)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra rules apply to suspension scaffolds?",
+      "intro": "1926.451(d) sets the rules for suspension scaffold support devices, outrigger beams, counterweights, tiebacks, wire rope and hoists, including a competent-person rope inspection before each workshift.",
+      "items": [
+        {
+          "text": "Support devices such as outrigger beams, cornice hooks and parapet clamps rest on surfaces that can support at least 4 times the load at the hoist's rated load, or 1.5 times the load at its stall capacity, whichever is greater.",
+          "clause": "1926.451(d)(1)"
+        },
+        {
+          "text": "Before the scaffold is used, a competent person evaluates direct connections and confirms that the supporting surfaces can carry the loads to be imposed.",
+          "clause": "1926.451(d)(3)(i)"
+        },
+        {
+          "text": "Counterweights are made of non-flowable material, so sand, gravel and similar easily dislocated materials are not used.",
+          "clause": "1926.451(d)(3)(ii)"
+        },
+        {
+          "text": "Only items specifically designed as counterweights are used. Construction materials such as masonry units and rolls of roofing felt are not.",
+          "clause": "1926.451(d)(3)(iii)"
+        },
+        {
+          "text": "Counterweights are secured by mechanical means to the outrigger beams, and (d)(3)(v) keeps them in place until the scaffold is disassembled.",
+          "clause": "1926.451(d)(3)(iv)"
+        },
+        {
+          "text": "Tiebacks are secured to a structurally sound anchorage on the building or structure. Standpipes, vents, other piping systems and electrical conduit do not count as anchorages.",
+          "clause": "1926.451(d)(3)(ix)"
+        },
+        {
+          "text": "Winding drum hoists keep at least four wraps of suspension rope at the lowest point of travel. With other hoists, the rope is long enough, or its end is configured, so it cannot pass through the hoist.",
+          "clause": "1926.451(d)(6)"
+        },
+        {
+          "text": "A competent person inspects ropes for defects before each workshift and after every occurrence that could affect their integrity. Ropes are replaced for the conditions listed in (d)(10)(i) to (d)(10)(vi), such as six randomly distributed broken wires in one rope lay.",
+          "clause": "1926.451(d)(10)"
+        }
+      ]
+    },
+    {
+      "heading": "When must scaffold access be provided?",
+      "intro": "1926.451(e) requires a set means of access, such as ladders, stair towers or ramps, wherever the vertical gap between a platform and its point of access exceeds 2 feet. It also sets rules for each access type.",
+      "items": [
+        {
+          "text": "When a platform is over 2 feet above or below its point of access, employees use a portable, hook-on or attachable ladder, a stair tower, a stairway-type ladder, a ramp, a walkway, integral prefabricated access, or direct access from another surface. Crossbraces are never used as a means of access.",
+          "clause": "1926.451(e)(1)"
+        },
+        {
+          "text": "Portable, hook-on and attachable ladders are positioned so they do not tip the scaffold.",
+          "clause": "1926.451(e)(2)(i)"
+        },
+        {
+          "text": "The bottom rung of hook-on and attachable ladders is no more than 24 inches above the scaffold supporting level.",
+          "clause": "1926.451(e)(2)(ii)"
+        },
+        {
+          "text": "On supported scaffolds more than 35 feet high, hook-on and attachable ladders have rest platforms at 35-foot maximum vertical intervals.",
+          "clause": "1926.451(e)(2)(iii)"
+        },
+        {
+          "text": "Hook-on and attachable ladders have uniformly spaced rungs no more than 16 3/4 inches apart, and (e)(2)(v) sets a minimum rung length of 11 1/2 inches.",
+          "clause": "1926.451(e)(2)(vi)"
+        },
+        {
+          "text": "Ramps and walkways 6 feet or more above lower levels have guardrail systems that comply with Subpart M, and (e)(5)(ii) limits their slope to 1 vertical in 3 horizontal.",
+          "clause": "1926.451(e)(5)(i)"
+        },
+        {
+          "text": "Direct access from another surface is used only when the scaffold is no more than 14 inches horizontally and 24 inches vertically from that surface.",
+          "clause": "1926.451(e)(8)"
+        },
+        {
+          "text": "For employees erecting or dismantling supported scaffolds, the employer provides safe access where it is feasible and does not create a greater hazard. A competent person decides this based on site conditions and the type of scaffold.",
+          "clause": "1926.451(e)(9)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What does OSHA require for scaffold inspection and use?",
+      "intro": "1926.451(f)(3) requires a competent person to inspect scaffolds and components for visible defects before every shift and after any occurrence that could affect structural integrity. The rest of 1926.451(f) covers repairs, erection, movement, power lines and weather.",
+      "items": [
+        {
+          "text": "A competent person inspects the scaffold and its components for visible defects before each shift and after anything that could affect its structural integrity.",
+          "clause": "1926.451(f)(3)"
+        },
+        {
+          "text": "Any part damaged or weakened below the strength required by (a) is immediately repaired or replaced, braced to meet (a), or removed from service until repaired.",
+          "clause": "1926.451(f)(4)"
+        },
+        {
+          "text": "Scaffolds are erected, moved, dismantled and altered only under the supervision and direction of a competent person qualified in that work. Only experienced, trained employees selected by that competent person do the work.",
+          "clause": "1926.451(f)(7)"
+        },
+        {
+          "text": "A scaffold is not moved horizontally with employees on it, unless a registered professional engineer designed it for that movement or, for mobile scaffolds, 1926.452(w) is followed.",
+          "clause": "1926.451(f)(5)"
+        },
+        {
+          "text": "Scaffolds and conductive material handled on them stay at least 3 feet from insulated lines under 300 volts. They stay at least 10 feet from insulated lines of 300 volts to 50 kV and from uninsulated lines under 50 kV, and further from lines over 50 kV, as the table sets out. Working closer is allowed only where that clearance is necessary for performance of work, and only after the utility or system operator has been notified and has deenergized or relocated the lines or installed protective coverings.",
+          "clause": "1926.451(f)(6)"
+        },
+        {
+          "text": "Employees do not work on scaffolds covered with snow, ice or other slippery material, except to remove it.",
+          "clause": "1926.451(f)(8)"
+        },
+        {
+          "text": "Work during storms or high winds is prohibited unless a competent person has determined it is safe and employees are protected by a personal fall arrest system or wind screens. Wind screens are used only if the scaffold is secured against the anticipated wind forces.",
+          "clause": "1926.451(f)(12)"
+        },
+        {
+          "text": "Boxes, barrels and other makeshift devices are not used on platforms to raise working height, and (f)(13) bars debris from accumulating on platforms.",
+          "clause": "1926.451(f)(14)"
+        }
+      ]
+    },
+    {
+      "heading": "When must employers provide fall protection on scaffolds?",
+      "intro": "Under 1926.451(g)(1), each employee on a scaffold higher than 10 feet must be protected from falling to the level below. Paragraphs (g)(1)(i) to (g)(1)(vii) set the type of protection for each kind of scaffold.",
+      "items": [
+        {
+          "text": "Employees on a boatswains' chair, catenary, float, needle beam or ladder jack scaffold are protected by a personal fall arrest system.",
+          "clause": "1926.451(g)(1)(i)"
+        },
+        {
+          "text": "Employees on a single-point or two-point adjustable suspension scaffold are protected by both a personal fall arrest system and a guardrail system.",
+          "clause": "1926.451(g)(1)(ii)"
+        },
+        {
+          "text": "On scaffolds not covered by (g)(1)(i) to (g)(1)(vi), employees are protected by personal fall arrest systems or by guardrail systems that meet (g)(4).",
+          "clause": "1926.451(g)(1)(vii)"
+        },
+        {
+          "text": "For employees erecting or dismantling supported scaffolds, a competent person determines whether fall protection is feasible and safe. The employer provides it wherever installing and using it is feasible without creating a greater hazard.",
+          "clause": "1926.451(g)(2)"
+        },
+        {
+          "text": "Vertical lifelines are fastened to a fixed, safe anchorage that is independent of the scaffold, and they are protected from sharp edges and abrasion. Standpipes, vents, other piping, electrical conduit, outrigger beams and counterweights are not anchorages.",
+          "clause": "1926.451(g)(3)(i)"
+        },
+        {
+          "text": "Guardrail systems run along all open sides and ends of platforms. They are installed before the scaffold is released to employees other than erection and dismantling crews.",
+          "clause": "1926.451(g)(4)(i)"
+        },
+        {
+          "text": "Toprails are 38 to 45 inches above the platform on supported scaffolds manufactured or placed in service after January 1, 2000. The range is 36 to 45 inches on supported scaffolds manufactured and placed in service before that date, and on suspended scaffolds that need both a guardrail and a personal fall arrest system. Toprails may be higher than 45 inches when conditions warrant, if all other (g)(4) criteria are met.",
+          "clause": "1926.451(g)(4)(ii)"
+        },
+        {
+          "text": "Crossbracing can replace a midrail when the braces cross between 20 and 30 inches above the platform. It can replace a toprail when they cross between 38 and 48 inches above the platform. In both cases, the end points at each upright are no more than 48 inches apart.",
+          "clause": "1926.451(g)(4)(xv)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees be protected from falling objects?",
+      "intro": "Under 1926.451(h)(1), employees on scaffolds need protection from falling hand tools, debris and small objects in addition to hardhats. The listed measures are toeboards, screens, guardrail systems, debris nets, catch platforms or canopy structures.",
+      "items": [
+        {
+          "text": "Objects too large or heavy for those measures to contain or deflect are placed away from the edge and secured as needed to keep them from falling.",
+          "clause": "1926.451(h)(1)"
+        },
+        {
+          "text": "Where tools, materials or equipment could fall and strike employees below, one option is to barricade the area the objects can fall into and keep employees out of it.",
+          "clause": "1926.451(h)(2)(i)"
+        },
+        {
+          "text": "Toeboards run along the edge of platforms more than 10 feet above lower levels, for a distance sufficient to protect employees below.",
+          "clause": "1926.451(h)(2)(ii)"
+        },
+        {
+          "text": "A canopy structure, debris net or catch platform erected over employees below is strong enough to withstand the impact forces of the potential falling objects.",
+          "clause": "1926.451(h)(2)(v)"
+        },
+        {
+          "text": "Toeboards are at least three and one-half inches high and securely fastened at the outermost edge of the platform. They have no more than 1/4 inch clearance above the walking/working surface and are solid or have openings no larger than one inch.",
+          "clause": "1926.451(h)(4)(ii)"
+        },
+        {
+          "text": "Toeboards withstand, without failure, at least 50 pounds applied downward or horizontally at any point along them.",
+          "clause": "1926.451(h)(4)(i)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the foundation, platform, access, fall protection and inspection items of 1926.451. Use it for the competent person's (f)(3) inspection before every shift and again after any incident that may have weakened the scaffold.",
+  "checklist": "us/1926-451-scaffolds",
+  "faq": [
+    {
+      "question": "Can a ladder be used on top of a scaffold platform?",
+      "answer": "Only on large area scaffolds, and only when every condition in 1926.451(f)(15) is met. If the ladder rests against a structure that is not part of the scaffold, the scaffold must be secured against the ladder's sideways thrust. Platform units must be secured against movement. The ladder legs must be on the same platform, or something else must stabilize the ladder against unequal platform deflection. The legs must also be secured so they cannot slip or be pushed off."
+    },
+    {
+      "question": "Can scaffold components from different manufacturers be mixed?",
+      "answer": "Under 1926.451(b)(10), yes, if the components fit together without force and the user maintains the scaffold's structural integrity. Modifying parts so they will intermix needs a competent person to determine the resulting scaffold is structurally sound. Under 1926.451(b)(11), parts made of dissimilar metals may be used together only if a competent person has determined galvanic action will not reduce any part's strength below the (a)(1) level."
+    },
+    {
+      "question": "What precautions apply when welding from a suspended scaffold?",
+      "answer": "1926.451(f)(17) lists the precautions to take, as applicable. Each suspension wire rope is attached to its hanging support with an insulated thimble, and insulating material covers the rope for at least 4 feet above the hoist. Each hoist has an insulated cover. A grounding conductor runs from the scaffold to the structure; it is at least the size of the welding work lead and is not in series with the welding process. The welding machine is shut off whenever the scaffold grounding lead is disconnected. Active welding rods and uninsulated leads are kept off the scaffold and its suspension system."
+    },
+    {
+      "question": "Are shore or lean-to scaffolds allowed?",
+      "answer": "No. 1926.451(f)(2) prohibits the use of shore or lean-to scaffolds."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.451: General requirements (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.451"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-12",
+  "generatedOn": "2026-11-12",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "scaffold requirements",
+    "scaffold inspection",
+    "scaffold platforms"
+  ],
+  "cover": "1926-451-scaffolds",
+  "coverPrompt": "A realistic photograph of a multi-level steel frame scaffold against a brick building under construction. It has fully planked platforms, guardrails, midrails and toeboards on every level and base plates on timber mud sills, and two workers in hard hats and high-visibility vests work on the upper platform, seen from a distance. No text, signs with writing, numbers, logos or close-up faces.",
+  "coverAlt": "Steel frame scaffold with guardrails, toeboards and planked platforms against a building, two workers in hard hats",
+  "changes": []
+}
