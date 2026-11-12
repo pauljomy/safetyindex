@@ -9,8 +9,8 @@ import { complete, neutralCwd } from "../lib/claude.mjs";
 import { config } from "../lib/config.mjs";
 import { numbersIn } from "../checks/facts.mjs";
 
-/** Problems the checker raises that count (style findings are reported but never drop a page on their own). */
-const blocking = (problems) => problems.filter((p) => p.type !== "style");
+/** Problems that block a page: major factual ones. Style findings and minor wording points are fixed in the rewrite when there is one, but never drop a page on their own. */
+const blocking = (problems) => problems.filter((p) => p.type !== "style" && p.severity !== "minor");
 
 const NAME_RE = /\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+\b/g;
 const CLAUSE_RE = /\b19\d\d\.\d+(?:\([A-Za-z0-9]+\))*/g;

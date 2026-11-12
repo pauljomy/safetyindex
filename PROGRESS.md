@@ -5,6 +5,9 @@ Plain-English log of the build-out on the `build-out` branch (brief: `safetyinde
 ## Status
 
 - **Step 1 (audit, schedule off, CLAUDE.md, topic sheet): done.**
+- **Step 2 (fixes to the existing site): done.** See "Step 2" below.
+- **Step 3 (US data and keywords): in progress.** eCFR text indexed; topic sheet keyword data done; the DOL enforcement pull is running (the API rate-limits hard, so it takes a few hours); standard and industry pages are planned once it finishes.
+- **Step 4 (engine): built; testing on 10 pages.**
 
 ## Things for Paul to do
 
@@ -81,3 +84,36 @@ Cloudflare **Workers static assets** with git integration (`wrangler.jsonc`, ass
   - The 14 guide/standard overlaps are recorded (section numbers for now; the URLs are filled in once the standard pages are planned in step 3).
   - `scripts/lib/topics.mjs` now skips every status except "Not started", and skips row 134 (the report).
 - **Row numbers**: the brief's row numbers are the sheet's `#` column. Four rows (1–4) were published before the build, not three.
+
+---
+
+## Step 2: Fixes to the existing site (12 November 2026)
+
+- **"Independent" removed.** The site description (`src/config/site.mjs`, used on the home page, /about, llms.txt and the Organization schema) and the writer's system prompt no longer say "independent". The footer on every page and the About page (English, French and German) now say "Made by the team behind the Conform app." (FR: « Réalisé par l'équipe de l'application Conform. », DE: „Vom Team hinter der Conform-App.“). Name only, no link. No other copies were found in `src/i18n/` or elsewhere (the other hits for "independent", "unabhängig" were ordinary words in guide text).
+- **Three French/German guides noindexed** and taken out of the sitemap and hreflang (URLs keep working): `/fr/blog/casque-de-chantier`, `/de/blog/osha-bedeutung`, `/de/blog/sicherheitszeichen-arbeitsschutz` (their main sources are US). They're queued for a rewrite from French and German sources. The other five French/German guides cite INRS, the Code du travail, DGUV, BAuA and the Berufsgenossenschaften and stay live; their OSHA mentions are labelled comparisons.
+- **Style rules and checks added** (sections 12 and 17):
+  - `scripts/style/banned-phrases.txt` and `scripts/style/patterns.mjs`. The scripted patterns were tested on 29 pages of human-written HSE, OSHA and CCOHS guidance from 2019–2020 (Wayback Machine). Rules that flagged good human writing were narrowed or handed to the checking pass. Scripted (fail automatically): bold action labels that repeat the sentence, "-ing" comment tails, verbless one-line closers, chatbot leftovers, banned phrases. Judged by the checking pass: triads, "not X but Y", inflated significance, sales words, objections nobody raised, self-answered questions, generic openers/closers, bold noun labels, mid-section fragments. Details: `scripts/style/human-sample-report.md`.
+  - Per page (`scripts/lib/validate.mjs` and the engine's validators): clause references against the eCFR paragraph index (US) or the downloaded source text (other markets); every number against the page's statistics or sources; 4-word phrase repetition (max 2); FAQ vs body similarity (max 0.8); answer-first openings for the page and each section; no review/credential claims; no placeholders; guides 1,200+ words. The validator's floor was 1,000 words and is now 1,200, matching CLAUDE.md.
+  - Per build (`scripts/check-dist.mjs` → `scripts/checks/site.mjs`): conform.so and placeholder store values anywhere in the built site; data-as-of and not-legal-advice notes on every page; licence attribution lines; French/German pages citing only foreign sources; hub links, 3-click depth, at least 3 contextual links, standard mentions linked, standard pages linking back to guides; topic types, English-market copies, 80% similarity; sitemaps; capital letters in URLs; page size and H1 position; JSON-LD matching the page; IPTC labels on covers; downloads (`scripts/downloads/verify.mjs`).
+  - **The 8 pages published before the build** report new-check failures as warnings and are listed in `data/rewrite-queue.json` (21 warnings today, mostly sections that open with a list or table, plus one French guide at 1,197 words). The weekly loop works through that queue.
+- **hreflang codes are now per market** (`en-US`, `fr-FR`, `de-DE`, and `en-GB`, `en-AU`, `en-CA`, `en-NZ` for the new markets), with `<html lang>` to match. Only regional topics form clusters. The existing hard hat and PPE posts are regional; "What does OSHA stand for" is country-only, so its French page is a standalone French page.
+- **New site structure** (nothing existing moved): `/us` (US home), `/us/standards/…`, `/us/industries/…`, `/us/guides` (hub of the `/blog` guides by topic), `/us/reports/…`, `/us/osha-penalties`, `/uk|au|ca|nz` and `/uk|au|ca|nz/guides/…`. Hubs are only built once they list a live page. `/blog`, `/fr/blog` and `/de/blog` now group guides by topic instead of by year. Every page has a visible breadcrumb trail (Home → market → hub → page). URLs keep the site's existing no-trailing-slash style (`/us/standards/1926-501-…`, not `…/`).
+
+## Step 3: US data and keywords (in progress)
+
+### Sources checked
+
+| Source | Used for | Finding |
+|---|---|---|
+| DOL Open Data Portal API v4 (`apiprod.dol.gov/v4`, OSHA inspection and violation datasets) | Enforcement data | Works with `DOL_API_KEY` as a query parameter (the header form returns 401). 10,000 rows per request. It rate-limits hard (HTTP 429 with no Retry-After), so the pull backs off up to 10 minutes and caches each month in `data/raw/us/dol/` (git-ignored). Joined on activity number. Window: the last 5 complete federal fiscal years, FY2022–FY2026. |
+| eCFR versioner API | Regulation text, clause checks | Title 29 parts 1904, 1910, 1915, 1917, 1918, 1926, 1928, as of 9 Nov 2026: 1,105 sections, 30,825 paragraphs indexed (`data/pages/us/ecfr-index.json`). The paragraph index was checked against eCFR's own anchors for 55 sections (9 of 8,223 missing, in odd markup). |
+| osha.gov/penalties | Maximum penalties | $16,550 per serious or other-than-serious violation, $16,550 per day for failure to abate, $165,514 per willful or repeated violation, for penalties assessed after 15 January 2026. Stored in `scripts/config.yml`. |
+| Census NAICS 2022 codes | Industry names | 2- to 4-digit titles in `data/pages/us/naics.json`. |
+| Licences | Attribution | Recorded in `scripts/sources/licences.yml` (OGL v3 for HSE and legislation.gov.uk, Licence Ouverte for Légifrance, CC BY 4.0 for Safe Work Australia, legislation.gov.au, WorkSafe NZ and legislation.govt.nz, the Justice Laws reproduction order for Canada; INRS, DGUV, BAuA and CCOHS cite-and-paraphrase only; paid standards by number only). Pages show the attribution line automatically. |
+
+### Keyword research (OpenSEO, connected)
+
+- **The 12 November topic-sheet check wasn't stored anywhere I could read** (the OpenSEO project had no saved keywords), so the sheet was scored again: 914 keywords (primary plus supporting) for 184 credits. The keyword columns are filled: cluster volume, KD, intent, checked on, source.
+- Lookups run as their own headless step that may use only the OpenSEO keyword tool (`scripts/keywords/openseo.mjs`). Every result is saved in `data/keywords/us/2026-11-12.json`, and a credit ledger enforces the per-run cap (1,500) and floor (500). Balance after this: **3,647 credits**.
+- **Retargets** (a phrase from the same cluster with the same intent and KD under 15): 10 rows were retargeted and stay `Not started`: #8 respirator → "respirator definition" (KD 11), #33 → "carbon monoxide alarm replacement" (KD 3), #38 → "csp certified safety professional" (KD 9), #44 → "what is hazards" (KD 0), #70 → "prevention of foodborne disease" (KD 9), #86 → "ladder safety training" (KD 7), #87 → "environmental hazard" (KD 9), #110 → "safety and precautions" (KD 9), #129 → "during the osha inspection" (KD 8), #131 → "workplace violence prevention training" (KD 3). The script proposed 11 more that I rejected because the intent differs ("safety data sheet pdf", "fire prevention week", "health risk appraisal" for occupational health and safety, "srl fall protection", a quiz phrase and others). They're in Notes, and the rule is now stricter so the monthly recheck won't propose them again.
+- Sheet now: **94 Not started, 29 Waiting: high competition, 0 Waiting: low demand, 11 Dropped, 4 Published.**

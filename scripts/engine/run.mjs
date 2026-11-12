@@ -20,6 +20,9 @@ import { runIndustry } from "./jobs/industry.mjs";
 import { recordInSheet, writeGuide } from "../generate-post.mjs";
 import { loadTopics } from "../lib/topics.mjs";
 import { buildDownloads } from "../downloads/build.mjs";
+import { editPage, jsonProse, today as todayStr } from "../gsc/common.mjs";
+import { classifyChange, recordChange } from "../gsc/improve.mjs";
+import { doneInRewriteQueue } from "../gsc/rewrite-queue.mjs";
 
 export const STATE = "data/jobs/state.jsonl";
 const LOG = "data/jobs/run.log";
@@ -59,13 +62,25 @@ function commit(files, message) {
 }
 
 async function runJob(job, ctx) {
-  if (job.type === "standard") return runStandard(job, ctx);
-  if (job.type === "industry") return runIndustry(job, ctx);
+  if (job.type === "standard" || job.type === "industry") {
+    // A rewrite-queue job reruns the page's job in place: keep its URL, publish and release dates and change log.
+    const old = job.rewrite && existsSync(job.rewrite.file) ? JSON.parse(readFileSync(job.rewrite.file, "utf8")) : null;
+    const r = await (job.type === "standard" ? runStandard : runIndustry)(job, ctx);
+    if (old && r.status === "done") {
+      const neu = JSON.parse(readFileSync(job.rewrite.file, "utf8"));
+      const size = classifyChange(jsonProse(job.type, old), jsonProse(job.type, neu));
+      editPage(job.rewrite.file, (d) => { d.date = old.date; d.releaseDate = old.releaseDate; d.changes = old.changes ?? []; d.updated = old.updated; if (old.noindex) d.noindex = true; });
+      recordChange(job.rewrite.file, { date: todayStr(), ...size, note: `rewritten (${job.rewrite.from}): ${job.rewrite.reason}`.slice(0, 300), path: job.rewrite.path, rule: "rewrite-queue" });
+    }
+    if (job.rewrite && r.status === "done") { doneInRewriteQueue(job.rewrite.path); r.files.push("data/rewrite-queue.json", "data/gsc/changes.jsonl"); }
+    return r;
+  }
   const { topics } = await loadTopics();
   const topic = topics.find((t) => t.n === job.n);
   if (!topic) return { status: "dropped", reason: `topic #${job.n} not in the sheet` };
   const r = await writeGuide(topic, job.market, { log: ctx.log, replace: job.replace });
   await serial(() => recordInSheet(topic, job.market, r));
+  if (job.rewrite && r.status === "done") { doneInRewriteQueue(job.rewrite.path); r.files?.push("data/rewrite-queue.json"); }
   return r;
 }
 

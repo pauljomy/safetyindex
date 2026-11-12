@@ -80,6 +80,9 @@ const STRIP = [
   /\b(?:ASR|TRBS|TRGS|DGUV\s(?:Vorschrift|Regel|Information|Grundsatz)|ED|R\.?|L\.?|D\.?)\s?[A-Z]?\d[\d.,-]*/g,
   /§\s?\d+[a-z]?(?:\s?(?:Abs\.|para\.?)\s?\d+)*/g,
   /\b[A-Z]{1,4}-?\d+[A-Z]?\b/g, // codes like N95, P3, Z87, EN166 handled above, Class2
+  /\b(?:STD|CPL|CSP|DIR|FAP|ADM|TED|PER|CPL)\s?\d{1,2}-\d{2}-\d{3}[A-Z]?\b/g, // OSHA directive numbers (STD 01-05-019)
+  /\b(?:Pub(?:lication)?\.?\s?(?:No\.?)?|DHHS|NIOSH)\s?(?:No\.\s?)?\d{4}-\d{2,3}\b/gi, // publication numbers (NIOSH 2004-101)
+  /\b(?:OSHA|INDG|HSG|L|ED)\s?\d{2,5}[A-Z]?\b/g, // document numbers (OSHA 3120, INDG 163, HSG 47, ED 6029)
   /https?:\/\/\S+/g,
 ];
 

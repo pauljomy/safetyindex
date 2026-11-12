@@ -10,8 +10,8 @@ import { config } from "../lib/config.mjs";
 const DIR = "data/keywords";
 const LEDGER = join(DIR, "ledger.json");
 const TOOL = process.env.OPENSEO_TOOL_PREFIX ?? "mcp__claude_ai_OpenSEO__";
-/** Estimated credits per keyword for get_keyword_metrics (125 keywords cost 32, 20 cost 16). */
-const CREDITS_PER_KEYWORD = 0.8;
+/** Credits per keyword for get_keyword_metrics in batches (small batches cost more per keyword). */
+const CREDITS_PER_KEYWORD = 0.25; // measured 12 Nov 2026: 914 keywords in batches of 250 cost 184 credits
 // One "run" = one process (an engine run, a weekly run or a keyword script).
 const runId = `${new Date().toISOString().slice(0, 16)}-${process.pid}`;
 
@@ -76,12 +76,14 @@ const rowSchema = {
 };
 
 /**
- * Search volume, KD and intent for keywords in a market (cached first; OpenSEO for the rest).
+ * Search volume, KD and intent for keywords in a market (cached first, unless older than maxAgeDays; OpenSEO for the rest).
  * @returns {Promise<{ rows: {keyword: string, volume: number|null, kd: number|null, intent: string|null}[] } | null>} null when OpenSEO isn't usable
  */
-export async function keywordData(keywords, market, { log = console.log } = {}) {
+export async function keywordData(keywords, market, { log = console.log, maxAgeDays } = {}) {
   const want = [...new Set(keywords.map((k) => k.toLowerCase().trim()).filter((k) => k && k.length <= 80))];
   const have = cached(market);
+  // maxAgeDays: treat saved rows older than this as missing (the monthly recheck of Waiting rows needs fresh numbers).
+  if (maxAgeDays != null) for (const [k, r] of have) if ((Date.now() - new Date(r.checkedOn)) / 864e5 > maxAgeDays) have.delete(k);
   const missing = want.filter((k) => !have.has(k));
   if (missing.length) {
     const cost = Math.ceil(missing.length * CREDITS_PER_KEYWORD) + 1;

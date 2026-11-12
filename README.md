@@ -12,7 +12,21 @@ npm run post -- --force       # publish one now, ignoring the schedule
 npm run post:dry       # show the next topic and prompt; no API calls
 npm run post -- --test-email  # check the failure email settings
 npm run cover -- <slug>       # add (or --replace) the featured image of an existing post
+
+# Build-out (see PROGRESS.md and safetyindex-build-brief.md)
+npm run build:preview  # build every page, released or not (local review only; never deploy)
+npm run engine         # the writing engine: headless `claude -p`, resumable (data/jobs/state.jsonl)
+npm run engine:status  # progress of the engine (safe while it runs)
+npm run release        # release the next wave (gates: impressions, indexing)
+npm run covers         # cover images for released / next-wave pages (needs GOOGLE_CLOUD_API_KEY)
+npm run downloads      # checklist PDFs and Excel files (Python, scripts/downloads/)
+npm run downloads:verify
+npm run lighthouse     # Lighthouse on 10 sample pages (needs Chrome)
+npm run indexnow       # ping new and changed URLs after a deploy
+npm run weekly         # Search Console pull + improve loop + new pages + report (local, needs the Claude CLI)
 ```
+
+Settings for all of it live in `scripts/config.yml`. Data fetchers: `scripts/data/` (DOL enforcement, eCFR, NAICS, reports, BLS). Keyword lookups: `scripts/keywords/` (OpenSEO, own headless step).
 
 ## How publishing works
 
@@ -52,9 +66,16 @@ If anything fails (API down, no credits, the budget stop, a post that won't pass
 | SEO head, hreflang, Open Graph | `src/components/Head.astro` |
 | JSON-LD | `src/lib/schema.ts` |
 | Markdown mirrors (`/blog/<slug>.md`), llms.txt, llms-full.txt, robots.txt, RSS | `src/lib/mirror.ts`, `src/pages/*.ts` |
-| Sitemap lastmod + hreflang alternates | `scripts/lib/sitemap.mjs` |
+| Sitemaps (per market and section) | `scripts/build/postbuild.mjs` |
 | Build checks | `scripts/check-dist.mjs` |
-| Generator, prompts, validator, schedule, email | `scripts/generate-post.mjs`, `scripts/lib/` |
+| Guide pipeline, prompts, validator | `scripts/generate-post.mjs`, `scripts/lib/` |
+| Writing engine (queue, jobs, checking pass) | `scripts/engine/` |
+| Per-page and build checks | `scripts/checks/`, `scripts/style/`, `scripts/check-dist.mjs` |
+| Standard, industry, report pages | `src/content/{standards,industries,reports}/*.json`, `src/views/` |
+| Checklists (page + PDF + Excel from one JSON) | `src/content/checklists/<market>/<slug>.json` → `public/downloads/` |
+| Release schedule | `scripts/release/release.mjs`, `data/release/` |
+| Search Console loop and maintenance | `scripts/gsc/`, `scripts/maintenance/`, `scripts/weekly.mjs` |
+| Edge Worker (lowercase 301, 410, analytics) | `worker/index.js`, `wrangler.jsonc` |
 | Featured images | `src/content/posts/images/<english-slug>.webp` (made by `scripts/lib/cover.mjs`) |
 | Icon, favicon, default social image | `scripts/make-assets.mjs` → `public/` |
 

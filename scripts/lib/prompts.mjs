@@ -26,6 +26,7 @@ export const RULES = `You write for ${site.name}, a standalone workplace safety 
 
 Google ranks content on whether it helps people, not on how it was made; it penalises pages made mainly to rank that add nothing, especially at volume (spam policy: scaled content abuse). Safety and compliance are "Your Money or Your Life" topics. So:
 
+0. Precision: when you paraphrase a definition, duty, condition, exception or interval, keep every condition the source attaches to it (who, when, how often, unless…). If a summary would drop a condition, say less and point to the source instead. Don't imply that a group needs something (or doesn't) unless the source says so.
 1. Facts only from the source extracts you are given (pages the system downloaded for this guide, in <source> tags). Every number, deadline, class, limit, section number and quote comes from an extract, copied exactly, and is cited with that source's exact url. No source, no claim: if the extracts don't support a point, leave it out. Never cite from memory, never invent a URL.
 2. Primary sources: the regulator, the law or regulation text, the standards body, a government agency (e.g. osha.gov, ecfr.gov, cdc.gov/niosh, nfpa.org, ansi.org, fda.gov, epa.gov, hse.gov.uk; for France inrs.fr, legifrance.gouv.fr, travail-emploi.gouv.fr; for Germany dguv.de, baua.de, gesetze-im-internet.de). Vendor blogs, competitor articles and SEO pages are never sources.
 3. Don't rewrite competitor pages. You may look at search results to understand what readers want; never copy their structure, headings, examples or wording.
@@ -250,7 +251,8 @@ export const FACT_RULES = `Fact rules (a page that breaks one is dropped):
 1. Use only the material supplied below: the regulation text and the statistics JSON. Never add facts from memory.
 2. Every clause reference must be a paragraph that exists in the supplied regulation text, written in full (e.g. 1910.147(c)(4)(i)).
 3. Every number in your prose must appear in the statistics JSON or the regulation text. Copy numbers exactly. Don't compute new figures (no sums, ratios or percentages that aren't in the JSON). If you need a figure that isn't there, leave it out.
-4. Never say what a paragraph requires unless the supplied text says it. Paraphrase in plain language; don't quote long passages.`;
+4. Never say what a paragraph requires unless the supplied text says it. Paraphrase in plain language; don't quote long passages.
+5. When you paraphrase a definition, duty, condition, exception or interval, keep every condition the source attaches to it (who, when, how often, unless…). If a summary would drop a condition, say less and point to the clause instead. Don't imply that one group needs something (or doesn't) unless the source says so.`;
 
 export const ENGINE_SYSTEM = `You write reference pages for ${site.name}, a standalone workplace safety reference for the US, UK, Germany, France, Australia, Canada and New Zealand. Pages are written by you (an AI) and published after automated checks and an independent AI checking pass, without a line-by-line human review, so accuracy is on you. Safety and compliance are "Your Money or Your Life" topics: be exact and plain. You never link or refer to conform.so. You return only the JSON the schema asks for.`;
 
@@ -359,8 +361,9 @@ ${headings.map((h) => `${h.section}: ${h.heading}`).join("\n")}
 export const CHECK_SYSTEM = "You are a meticulous fact-checker for workplace safety reference pages. You compare a draft against the source material it was written from and list every problem. You return only JSON.";
 export const checkSchema = {
   type: "object", additionalProperties: false, required: ["problems"],
-  properties: { problems: { type: "array", items: { type: "object", additionalProperties: false, required: ["type", "where", "quote", "issue"], properties: {
+  properties: { problems: { type: "array", items: { type: "object", additionalProperties: false, required: ["type", "severity", "where", "quote", "issue"], properties: {
     type: { type: "string", enum: ["unsupported-claim", "wrong-clause", "number-not-in-data", "missing-step", "unsafe-or-misleading", "style"] },
+    severity: { type: "string", enum: ["major", "minor"] },
     where: { type: "string" }, quote: { type: "string" }, issue: { type: "string" },
   } } } },
 };
@@ -376,6 +379,7 @@ List every problem of these kinds:
 - unsafe-or-misleading: anything that could lead a reader to act unsafely or misread the law${market && market !== "us" ? `, or anything presented as a rule of this market that comes from another country` : ""}.
 - style: only these judgment rules, when clearly broken: ${JUDGMENT_RULES.map((r) => `${r.id} (${r.description})`).join("; ")}.
 
+Severity: "major" when the problem changes what a rule requires, states something the sources don't support, cites a wrong clause or number, leaves out a condition or step that matters for safety or compliance, or could mislead a reader; "minor" for wording that could be tighter but doesn't change the meaning, and for style.
 Be strict on facts and lenient on style. Quote the exact words in "quote". If there are no problems, return {"problems": []}.
 
 <sources>
@@ -393,7 +397,7 @@ export function rewritePrompt({ originalPrompt, draft, problems }) {
 
 ---
 Your previous draft is below, followed by the problems an independent checker found. Return the complete corrected JSON (every field).
-Fact rule for this rewrite: a fix may use only facts already in the draft or in the material above. If a fix would need a new name, number or date, cut the phrase instead. Change only what the problems require.
+Fact rule for this rewrite: a fix may use only facts already in the draft or in the material above. If a fix would need a new name, number or date, cut the phrase instead. Fix every problem listed (minor ones too); when you're not sure a fix is fully supported by the material, delete the sentence or row rather than rewording it. Change only what the problems require, and keep every validation rule of the original task (lengths, word counts, structure).
 
 <previous_draft>
 ${JSON.stringify(draft, null, 1)}

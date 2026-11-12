@@ -1,0 +1,1116 @@
+{
+  "kind": "injury-statistics",
+  "title": "Workplace injury statistics 2024: injuries, illnesses and deaths by industry",
+  "seoTitle": "Workplace injury statistics 2024 (BLS data)",
+  "description": "U.S. workplace injury statistics for 2024 from BLS: injury and illness rates by industry, days-away cases, and work deaths by event and industry.",
+  "summary": "U.S. private employers reported 2,488,400 nonfatal workplace injuries and illnesses in 2024, a rate of 2.3 per 100 full-time workers, and 5,070 workers died from work injuries, a rate of 3.3 per 100,000 full-time workers.",
+  "year": 2024,
+  "date": "2026-11-12",
+  "generatedOn": "2026-11-12",
+  "dataAsOf": "2026-02-19",
+  "checkPass": "passed",
+  "cover": "data-report",
+  "coverPrompt": "A quiet workplace safety office: a desk with printed reports in folders, a hard hat, safety glasses and a high-visibility vest, a window with soft daylight, no people, no screens, no text",
+  "coverAlt": "Safety office desk with report folders, a hard hat, safety glasses and a high-visibility vest",
+  "linkPhrases": [
+    "workplace injury statistics"
+  ],
+  "changes": [],
+  "sources": [
+    {
+      "title": "BLS news release: Employer-Reported Workplace Injuries and Illnesses, 2023-2024",
+      "url": "https://www.bls.gov/news.release/osh.nr0.htm"
+    },
+    {
+      "title": "BLS SOII news release table 1: total recordable cases, private industry",
+      "url": "https://www.bls.gov/news.release/osh.t01.htm"
+    },
+    {
+      "title": "BLS SOII news release table 2: cases by event or exposure, 2023–2024",
+      "url": "https://www.bls.gov/news.release/osh.t02.htm"
+    },
+    {
+      "title": "BLS SOII table 1: incidence rates by industry and case type, 2024",
+      "url": "https://www.bls.gov/iif/nonfatal-injuries-and-illnesses-tables/table-1-injury-and-illness-rates-by-industry-2024-national.htm"
+    },
+    {
+      "title": "BLS SOII table 2: numbers of cases by industry and case type, 2024",
+      "url": "https://www.bls.gov/iif/nonfatal-injuries-and-illnesses-tables/table-2-injury-and-illness-counts-by-industry-2024-national.htm"
+    },
+    {
+      "title": "BLS nonfatal injuries and illnesses tables (earlier years)",
+      "url": "https://www.bls.gov/iif/nonfatal-injuries-and-illnesses-tables.htm"
+    },
+    {
+      "title": "BLS news release: Census of Fatal Occupational Injuries Summary, 2024",
+      "url": "https://www.bls.gov/news.release/cfoi.nr0.htm"
+    },
+    {
+      "title": "BLS CFOI news release table 1: fatal occupational injuries by year",
+      "url": "https://www.bls.gov/news.release/cfoi.t01.htm"
+    },
+    {
+      "title": "BLS CFOI news release table 2: fatal occupational injuries by event or exposure",
+      "url": "https://www.bls.gov/news.release/cfoi.t02.htm"
+    },
+    {
+      "title": "BLS CFOI table A-1: fatal occupational injuries by industry and event, 2024",
+      "url": "https://www.bls.gov/iif/fatal-injuries-tables/fatal-occupational-injuries-table-a-1-2024.htm"
+    },
+    {
+      "title": "BLS fatal injuries tables and hours-based fatal injury rates",
+      "url": "https://www.bls.gov/iif/fatal-injuries-tables.htm"
+    },
+    {
+      "title": "BLS Survey of Occupational Injuries and Illnesses overview",
+      "url": "https://www.bls.gov/iif/overview/soii-overview.htm"
+    },
+    {
+      "title": "BLS CFOI technical note",
+      "url": "https://www.bls.gov/news.release/cfoi.tn.htm"
+    }
+  ],
+  "method": "Built by script from the U.S. Bureau of Labor Statistics' published tables, with no rewriting of the figures. Nonfatal injuries and illnesses come from the Survey of Occupational Injuries and Illnesses (SOII), an establishment survey of private industry employers based on their OSHA injury and illness records; about 200,000 employers report each year. This page uses its private industry estimates for 2024, released 2026-01-22. SOII rates are cases per 100 full-time equivalent workers, calculated by BLS as (cases ÷ hours worked) × 200,000; rates by event are per 10,000 full-time equivalent workers. Counts exclude farms with fewer than 11 employees. Fatal injuries come from the Census of Fatal Occupational Injuries (CFOI), a count of all fatal work injuries in the U.S. in the calendar year, built from over 25,500 source documents for 2024, covering all workers, including the self-employed and government workers; it excludes deaths from occupational illnesses. This page uses CFOI data for 2024, released 2026-02-19. Fatal injury rates are per 100,000 full-time equivalent workers, calculated by BLS as (deaths ÷ hours worked) × 200,000,000. Tables were downloaded on 2026-11-12. BLS publishes new SOII data each autumn and new CFOI data later; this page is rebuilt for each new data year.",
+  "data": {
+    "dataYear": "2024",
+    "sampleSize": "about 200,000 employers report each year (SOII); every fatal work injury in the U.S., from over 25,500 source documents for 2024 (CFOI)",
+    "downloads": [
+      {
+        "label": "Download the tables (Excel)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024.xlsx"
+      },
+      {
+        "label": "Nonfatal trend (CSV)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024-nonfatal-trend.csv"
+      },
+      {
+        "label": "Nonfatal by industry (CSV)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024-nonfatal-by-industry.csv"
+      },
+      {
+        "label": "Days away by event (CSV)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024-days-away-by-event.csv"
+      },
+      {
+        "label": "Fatal by event (CSV)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024-fatal-by-event.csv"
+      },
+      {
+        "label": "Fatal by industry (CSV)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024-fatal-by-industry.csv"
+      },
+      {
+        "label": "Fatal trend (CSV)",
+        "file": "/downloads/reports/workplace-injury-statistics-2024-fatal-trend.csv"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "How many workplace injuries and illnesses were reported in 2024?",
+        "opening": "Private industry employers reported 2,488,400 nonfatal injuries and illnesses in 2024, a total recordable case rate of 2.3 per 100 full-time equivalent workers, down from 2.4 in 2023; 888,100 of those cases involved days away from work.",
+        "chart": {
+          "title": "Total recordable cases, private industry, 2015–2024 (thousands)",
+          "unit": "n",
+          "data": [
+            {
+              "label": "2015",
+              "value": 2905.9
+            },
+            {
+              "label": "2016",
+              "value": 2857.4
+            },
+            {
+              "label": "2017",
+              "value": 2811.5
+            },
+            {
+              "label": "2018",
+              "value": 2834.5
+            },
+            {
+              "label": "2019",
+              "value": 2814
+            },
+            {
+              "label": "2020",
+              "value": 2654.7
+            },
+            {
+              "label": "2021",
+              "value": 2607.9
+            },
+            {
+              "label": "2022",
+              "value": 2804.2
+            },
+            {
+              "label": "2023",
+              "value": 2569
+            },
+            {
+              "label": "2024",
+              "value": 2488.4
+            }
+          ]
+        },
+        "table": {
+          "title": "Nonfatal injuries and illnesses, private industry, 2015–2024",
+          "columns": [
+            "Year",
+            "Total recordable cases (thousands)",
+            "Injuries (thousands)",
+            "Illnesses (thousands)",
+            "Total recordable case rate per 100 FTE workers",
+            "Days-away-from-work cases (thousands)",
+            "Days-away-from-work rate per 100 FTE workers"
+          ],
+          "rows": [
+            [
+              "2015",
+              2905.9,
+              2765.3,
+              140.5,
+              "–",
+              "–",
+              "–"
+            ],
+            [
+              "2016",
+              2857.4,
+              2719.8,
+              137.5,
+              "–",
+              "–",
+              "–"
+            ],
+            [
+              "2017",
+              2811.5,
+              2685.1,
+              126.4,
+              "–",
+              "–",
+              "–"
+            ],
+            [
+              "2018",
+              2834.5,
+              2707.8,
+              126.8,
+              "–",
+              "–",
+              "–"
+            ],
+            [
+              "2019",
+              2814,
+              2686.8,
+              127.2,
+              "–",
+              "–",
+              "–"
+            ],
+            [
+              "2020",
+              2654.7,
+              2110.1,
+              544.6,
+              "–",
+              "–",
+              "–"
+            ],
+            [
+              "2021",
+              2607.9,
+              2242.7,
+              365.2,
+              2.7,
+              1062.7,
+              1.1
+            ],
+            [
+              "2022",
+              2804.2,
+              2343.6,
+              460.7,
+              2.7,
+              1184.2,
+              1.2
+            ],
+            [
+              "2023",
+              2569,
+              2368.9,
+              200.1,
+              2.4,
+              946.5,
+              0.9
+            ],
+            [
+              "2024",
+              2488.4,
+              2340.4,
+              148,
+              2.3,
+              888.1,
+              0.8
+            ]
+          ]
+        },
+        "note": "Rates are cases per 100 full-time equivalent workers. Rate columns cover 2021–2024, the years whose industry tables BLS publishes in its current format; case counts come from table 1 of the 2024 news release. Counts exclude farms with fewer than 11 employees."
+      },
+      {
+        "heading": "Which industries have the highest injury and illness rates?",
+        "opening": "Transportation and warehousing had the highest total recordable case rate of any private industry sector in 2024, 4.4 cases per 100 full-time workers, followed by agriculture, forestry, fishing and hunting (3.9) and arts, entertainment, and recreation (3.9), against 2.3 for all private industry.",
+        "chart": {
+          "title": "Total recordable case rate by industry sector, private industry, 2024 (per 100 FTE workers)",
+          "unit": "n",
+          "data": [
+            {
+              "label": "Transportation and warehousing",
+              "value": 4.4
+            },
+            {
+              "label": "Agriculture, forestry, fishing",
+              "value": 3.9
+            },
+            {
+              "label": "Arts, entertainment, recreation",
+              "value": 3.9
+            },
+            {
+              "label": "Health care and social assistance",
+              "value": 3.4
+            },
+            {
+              "label": "Retail trade",
+              "value": 3
+            },
+            {
+              "label": "Manufacturing",
+              "value": 2.7
+            },
+            {
+              "label": "Accommodation and food services",
+              "value": 2.6
+            },
+            {
+              "label": "Construction",
+              "value": 2.2
+            },
+            {
+              "label": "Wholesale trade",
+              "value": 2.2
+            },
+            {
+              "label": "Utilities",
+              "value": 1.9
+            }
+          ]
+        },
+        "table": {
+          "title": "Nonfatal injury and illness rates and cases by industry sector, private industry, 2024",
+          "columns": [
+            "Industry sector (NAICS)",
+            "Total recordable case rate",
+            "DART rate",
+            "Days-away-from-work rate",
+            "Total recordable cases (thousands)",
+            "Days-away-from-work cases (thousands)"
+          ],
+          "rows": [
+            [
+              "Transportation and warehousing (48-49)",
+              4.4,
+              3.5,
+              2.1,
+              261.5,
+              124.6
+            ],
+            [
+              "Agriculture, forestry, fishing and hunting (11)",
+              3.9,
+              2.5,
+              1.4,
+              36.9,
+              13.4
+            ],
+            [
+              "Arts, entertainment, and recreation (71)",
+              3.9,
+              2.2,
+              1.2,
+              58.8,
+              17.7
+            ],
+            [
+              "Health care and social assistance (62)",
+              3.4,
+              1.7,
+              1.1,
+              553.8,
+              181.7
+            ],
+            [
+              "Retail trade (44-45)",
+              3,
+              1.8,
+              1,
+              339.8,
+              112.4
+            ],
+            [
+              "Manufacturing (31-33)",
+              2.7,
+              1.7,
+              0.8,
+              332.6,
+              104.2
+            ],
+            [
+              "Accommodation and food services (72)",
+              2.6,
+              1.2,
+              0.8,
+              234.8,
+              73
+            ],
+            [
+              "Construction (23)",
+              2.2,
+              1.3,
+              0.9,
+              167.1,
+              67.5
+            ],
+            [
+              "Wholesale trade (42)",
+              2.2,
+              1.6,
+              0.9,
+              126.8,
+              53.9
+            ],
+            [
+              "Utilities (22)",
+              1.9,
+              1.2,
+              0.8,
+              11.2,
+              4.8
+            ],
+            [
+              "Other services (except public administration) (81)",
+              1.9,
+              1.1,
+              0.7,
+              63.9,
+              24.2
+            ],
+            [
+              "Administrative and support and waste management and remediation services (56)",
+              1.8,
+              1.2,
+              0.8,
+              97.5,
+              44
+            ],
+            [
+              "Educational services (61)",
+              1.7,
+              0.8,
+              0.6,
+              37,
+              13.3
+            ],
+            [
+              "Real estate and rental and leasing (53)",
+              1.6,
+              1,
+              0.6,
+              34.7,
+              13.4
+            ],
+            [
+              "Mining, quarrying, and oil and gas extraction (21)",
+              1.2,
+              0.9,
+              0.7,
+              8.3,
+              4.8
+            ],
+            [
+              "Information (51)",
+              0.7,
+              0.4,
+              0.3,
+              18,
+              7.6
+            ],
+            [
+              "Professional, scientific, and technical services (54)",
+              0.7,
+              0.2,
+              0.2,
+              71.6,
+              16
+            ],
+            [
+              "Management of companies and enterprises (55)",
+              0.5,
+              0.3,
+              0.2,
+              14.2,
+              4.5
+            ],
+            [
+              "Finance and insurance (52)",
+              0.3,
+              0.1,
+              "–",
+              19.8,
+              "–"
+            ]
+          ]
+        },
+        "note": "DART is cases with days away from work, job restriction or transfer. Rates are per 100 full-time equivalent workers; a dash means BLS didn't publish the figure because it doesn't meet its publication guidelines."
+      },
+      {
+        "heading": "What causes the most injuries that keep people off work?",
+        "opening": "Of the 1,834,600 private-industry cases with days away from work over 2023–2024, contact incidents caused 499,270, overexertion, repetitive motion, and bodily conditions 492,140 and falls, slips, trips 479,480; the median time off was 8 days.",
+        "chart": {
+          "title": "Days-away-from-work cases by event or exposure, private industry, 2023–2024",
+          "unit": "n",
+          "data": [
+            {
+              "label": "Contact incidents",
+              "value": 499270
+            },
+            {
+              "label": "Overexertion, bodily conditions",
+              "value": 492140
+            },
+            {
+              "label": "Falls, slips, trips",
+              "value": 479480
+            },
+            {
+              "label": "Harmful substances, environments",
+              "value": 196540
+            },
+            {
+              "label": "Transportation incidents",
+              "value": 91690
+            },
+            {
+              "label": "Violent acts",
+              "value": 54510
+            }
+          ]
+        },
+        "table": {
+          "title": "Days-away-from-work cases by event or exposure, private industry, 2023–2024",
+          "columns": [
+            "Event or exposure",
+            "Days-away-from-work cases",
+            "Annualized rate per 10,000 FTE workers",
+            "Median days away",
+            "DART cases",
+            "DART rate per 10,000 FTE workers"
+          ],
+          "rows": [
+            [
+              "All events or exposures",
+              1834600,
+              86.6,
+              8,
+              2983110,
+              140.8
+            ],
+            [
+              "Transportation incidents",
+              91690,
+              4.3,
+              16,
+              121330,
+              5.7
+            ],
+            [
+              "Violent acts",
+              54510,
+              2.6,
+              6,
+              78340,
+              3.7
+            ],
+            [
+              "Contact incidents",
+              499270,
+              23.6,
+              5,
+              860050,
+              40.6
+            ],
+            [
+              "Falls, slips, trips",
+              479480,
+              22.6,
+              13,
+              721720,
+              34.1
+            ],
+            [
+              "Overexertion, repetitive motion, and bodily conditions",
+              492140,
+              23.2,
+              14,
+              946290,
+              44.7
+            ],
+            [
+              "Exposure to harmful substances or environments",
+              196540,
+              9.3,
+              5,
+              224450,
+              10.6
+            ]
+          ]
+        },
+        "note": "BLS publishes case details by event as a two-year total (2023–2024); rates here are annualized cases per 10,000 full-time equivalent workers. From 2023 BLS classifies events with version 3 of its injury classification system (OIICS), so these figures aren't directly comparable with earlier years."
+      },
+      {
+        "heading": "How do workers die on the job?",
+        "opening": "Transportation incidents caused 1,937 of the 5,070 fatal work injuries in 2024, the most of any event, followed by falls, slips, trips (844) and contact incidents (756).",
+        "chart": {
+          "title": "Fatal occupational injuries by event or exposure, 2024",
+          "unit": "n",
+          "data": [
+            {
+              "label": "Transportation incidents",
+              "value": 1937
+            },
+            {
+              "label": "Falls, slips, trips",
+              "value": 844
+            },
+            {
+              "label": "Contact incidents",
+              "value": 756
+            },
+            {
+              "label": "Violent acts",
+              "value": 733
+            },
+            {
+              "label": "Harmful substances, environments",
+              "value": 687
+            },
+            {
+              "label": "Explosions and fires",
+              "value": 93
+            }
+          ]
+        },
+        "table": {
+          "title": "Fatal occupational injuries by event or exposure, 2023 and 2024",
+          "columns": [
+            "Event or exposure",
+            "Fatal injuries 2023",
+            "Fatal injuries 2024"
+          ],
+          "rows": [
+            [
+              "Violent acts",
+              740,
+              733
+            ],
+            [
+              "· Homicides",
+              458,
+              470
+            ],
+            [
+              "· Suicides",
+              281,
+              263
+            ],
+            [
+              "Transportation incidents",
+              1942,
+              1937
+            ],
+            [
+              "· Aircraft incidents",
+              98,
+              109
+            ],
+            [
+              "· Water vehicle incidents",
+              31,
+              52
+            ],
+            [
+              "· Rail vehicle incidents",
+              30,
+              36
+            ],
+            [
+              "· Pedestrian incidents involving motorized land vehicles",
+              310,
+              369
+            ],
+            [
+              "· Roadway incidents involving motorized land vehicle",
+              1252,
+              1146
+            ],
+            [
+              "· Nonroadway incidents involving motorized land vehicle",
+              205,
+              210
+            ],
+            [
+              "Explosions and fires",
+              104,
+              93
+            ],
+            [
+              "Falls, slips, trips",
+              885,
+              844
+            ],
+            [
+              "· Fall to lower level",
+              725,
+              666
+            ],
+            [
+              "· Slip, trip, stumble or fall on same level",
+              140,
+              150
+            ],
+            [
+              "Exposure to harmful substances, environments",
+              820,
+              687
+            ],
+            [
+              "· Exposure to electricity",
+              142,
+              130
+            ],
+            [
+              "· Exposure to temperature extremes",
+              56,
+              53
+            ],
+            [
+              "· Exposure to harmful substances",
+              566,
+              469
+            ],
+            [
+              "· Exposure to oxygen deficiency",
+              55,
+              35
+            ],
+            [
+              "Contact incidents",
+              779,
+              756
+            ],
+            [
+              "· Contact with other person, nonviolent or intent unknown",
+              5,
+              6
+            ],
+            [
+              "· Contact with animals",
+              40,
+              41
+            ],
+            [
+              "· Collapse, engulfment",
+              73,
+              80
+            ],
+            [
+              "· Struck by propelled, falling, or suspended object",
+              394,
+              357
+            ],
+            [
+              "· Struck, caught, or compressed by running powered equipment",
+              226,
+              213
+            ],
+            [
+              "· Contact with non-running objects or equipment",
+              38,
+              54
+            ]
+          ]
+        },
+        "note": "Rows marked · are part of the event above them; totals for major categories can include subcategories not shown. CFOI counts deaths from injuries, not occupational illnesses, and covers all workers, including the self-employed and government workers."
+      },
+      {
+        "heading": "Which industries have the most work-related deaths?",
+        "opening": "Construction had the most fatal work injuries of any private industry sector in 2024, 1,034, followed by transportation and warehousing (865), while agriculture, forestry, fishing and hunting had the highest fatal injury rate, 20.9 per 100,000 full-time equivalent workers.",
+        "chart": {
+          "title": "Fatal occupational injuries by industry sector, private industry, 2024",
+          "unit": "n",
+          "data": [
+            {
+              "label": "Construction",
+              "value": 1034
+            },
+            {
+              "label": "Transportation and warehousing",
+              "value": 865
+            },
+            {
+              "label": "Administrative and waste services",
+              "value": 495
+            },
+            {
+              "label": "Agriculture, forestry, fishing",
+              "value": 475
+            },
+            {
+              "label": "Manufacturing",
+              "value": 353
+            },
+            {
+              "label": "Retail trade",
+              "value": 258
+            },
+            {
+              "label": "Other services",
+              "value": 236
+            },
+            {
+              "label": "Accommodation and food services",
+              "value": 185
+            },
+            {
+              "label": "Wholesale trade",
+              "value": 145
+            },
+            {
+              "label": "Health care and social assistance",
+              "value": 120
+            }
+          ]
+        },
+        "table": {
+          "title": "Fatal occupational injuries by industry sector and event, private industry, 2024",
+          "columns": [
+            "Industry sector (NAICS)",
+            "Fatal injuries",
+            "Rate per 100,000 FTE workers",
+            "Violent acts",
+            "Transportation incidents",
+            "Explosions and fires",
+            "Falls, slips, trips",
+            "Exposure to harmful substances, environments",
+            "Contact incidents"
+          ],
+          "rows": [
+            [
+              "Construction (23)",
+              1034,
+              9.2,
+              46,
+              244,
+              5,
+              389,
+              187,
+              161
+            ],
+            [
+              "Transportation and warehousing (48-49)",
+              865,
+              12.2,
+              75,
+              619,
+              "–",
+              37,
+              45,
+              72
+            ],
+            [
+              "Administrative and support and waste management and remediation services (56)",
+              495,
+              "–",
+              53,
+              177,
+              "–",
+              99,
+              72,
+              91
+            ],
+            [
+              "Agriculture, forestry, fishing and hunting (11)",
+              475,
+              20.9,
+              16,
+              233,
+              9,
+              26,
+              30,
+              160
+            ],
+            [
+              "Manufacturing (31-33)",
+              353,
+              2.4,
+              49,
+              65,
+              11,
+              52,
+              69,
+              104
+            ],
+            [
+              "Retail trade (44-45)",
+              258,
+              1.8,
+              104,
+              65,
+              3,
+              40,
+              34,
+              10
+            ],
+            [
+              "Other Services (except Public Administration) (81)",
+              236,
+              3.3,
+              44,
+              68,
+              12,
+              30,
+              42,
+              40
+            ],
+            [
+              "Accommodation and food services (72)",
+              185,
+              2.2,
+              86,
+              20,
+              "–",
+              27,
+              48,
+              4
+            ],
+            [
+              "Wholesale trade (42)",
+              145,
+              4.6,
+              9,
+              65,
+              7,
+              22,
+              14,
+              28
+            ],
+            [
+              "Health care and social assistance (62)",
+              120,
+              0.6,
+              36,
+              40,
+              "–",
+              11,
+              29,
+              "–"
+            ],
+            [
+              "Mining, quarrying, and oil and gas extraction (21)",
+              92,
+              13.8,
+              3,
+              39,
+              7,
+              6,
+              9,
+              27
+            ],
+            [
+              "Arts, entertainment, and recreation (71)",
+              88,
+              3.4,
+              19,
+              33,
+              "–",
+              11,
+              12,
+              13
+            ],
+            [
+              "Real estate and rental and leasing (53)",
+              73,
+              2.7,
+              20,
+              21,
+              "–",
+              12,
+              14,
+              6
+            ],
+            [
+              "Professional, scientific, and technical services (54)",
+              65,
+              0.5,
+              14,
+              23,
+              "–",
+              10,
+              14,
+              "–"
+            ],
+            [
+              "Educational services (61)",
+              40,
+              0.8,
+              7,
+              22,
+              "–",
+              6,
+              "–",
+              "–"
+            ],
+            [
+              "Utilities (22)",
+              30,
+              2.3,
+              "–",
+              7,
+              "–",
+              5,
+              15,
+              "–"
+            ],
+            [
+              "Information (51)",
+              28,
+              1.1,
+              6,
+              9,
+              "–",
+              3,
+              10,
+              "–"
+            ],
+            [
+              "Finance and insurance (52)",
+              18,
+              0.2,
+              6,
+              3,
+              "–",
+              6,
+              "–",
+              "–"
+            ]
+          ]
+        },
+        "note": "Private industry had 4,616 of the 5,070 deaths. Rates are fatal injuries per 100,000 full-time equivalent workers from BLS's hours-based rates; a dash means BLS publishes no figure for that cell (or, for administrative and waste services, only a rate combined with management of companies)."
+      },
+      {
+        "heading": "How have fatal work injuries changed since 2020?",
+        "opening": "5,070 workers died from work injuries in 2024, down from 5,283 in 2023, a rate of 3.3 per 100,000 full-time equivalent workers against 3.5 the year before.",
+        "chart": {
+          "title": "Fatal occupational injuries, 2020–2024",
+          "unit": "n",
+          "data": [
+            {
+              "label": "2020",
+              "value": 4764
+            },
+            {
+              "label": "2021",
+              "value": 5190
+            },
+            {
+              "label": "2022",
+              "value": 5486
+            },
+            {
+              "label": "2023",
+              "value": 5283
+            },
+            {
+              "label": "2024",
+              "value": 5070
+            }
+          ]
+        },
+        "table": {
+          "title": "Fatal occupational injuries, 2020–2024",
+          "columns": [
+            "Year",
+            "Fatal work injuries",
+            "Rate per 100,000 FTE workers"
+          ],
+          "rows": [
+            [
+              "2020",
+              4764,
+              3.4
+            ],
+            [
+              "2021",
+              5190,
+              3.6
+            ],
+            [
+              "2022",
+              5486,
+              3.7
+            ],
+            [
+              "2023",
+              5283,
+              3.5
+            ],
+            [
+              "2024",
+              5070,
+              3.3
+            ]
+          ]
+        },
+        "note": "Counts are as published in the latest CFOI release, which BLS marks as revised and final for all years shown. Rates are per 100,000 full-time equivalent workers; a dash means the rates workbook for that year couldn't be read."
+      }
+    ],
+    "releases": {
+      "soii": {
+        "dataYear": 2024,
+        "released": "2026-01-22",
+        "next": {
+          "date": "2026-11-18",
+          "survey": "SOII",
+          "dataYear": 2025
+        }
+      },
+      "cfoi": {
+        "dataYear": 2024,
+        "released": "2026-02-19",
+        "next": {
+          "date": "2027-12-14",
+          "survey": "CFOI",
+          "dataYear": 2026
+        }
+      },
+      "notices": [
+        "The 2025 Census of Fatal Occupational Injuries (CFOI) news release, originally scheduled for December 16, 2026, is postponed",
+        "The Survey of Occupational Injuries and Illnesses data for 2025 are scheduled to be released November 18, 2026"
+      ],
+      "checkedOn": "2026-11-12"
+    }
+  }
+}

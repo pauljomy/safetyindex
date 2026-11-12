@@ -190,6 +190,7 @@ export async function verifyDownloads({ sample = 5 } = {}) {
     for (const market of await readdir(PUBLIC_DIR)) {
       for (const f of await readdir(join(PUBLIC_DIR, market)).catch(() => [])) {
         const key = `${market}/${f.replace(/\.(pdf|xlsx)$/, '')}`;
+        if (market === "reports") continue; // report tables (CSV/Excel), not checklists
         if (!keys.has(key)) errors.push(`public/downloads/${market}/${f}: no checklist JSON (run npm run downloads)`);
       }
     }

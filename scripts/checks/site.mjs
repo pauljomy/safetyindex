@@ -230,6 +230,8 @@ export function runSiteChecks({ pages, dist, site }) {
     for (const f of readdirSync(dir).filter((f) => f.endsWith(".webp"))) if (!readFileSync(join(dir, f)).includes("trainedAlgorithmicMedia")) errors.push(`${dir}/${f}: missing the IPTC trainedAlgorithmicMedia label`);
   }
 
-  writeFileSync("data/rewrite-queue.json", `${JSON.stringify([...rewrite].map(([path, problems]) => ({ path, problems })), null, 2)}\n`);
+  // Entries added by the maintenance scripts (rule changes, quarterly audit) carry `from` and stay until the engine rewrites the page.
+  const kept = (existsSync("data/rewrite-queue.json") ? JSON.parse(readFileSync("data/rewrite-queue.json", "utf8")) : []).filter((e) => e.from);
+  writeFileSync("data/rewrite-queue.json", `${JSON.stringify([...[...rewrite].map(([path, problems]) => ({ path, problems })), ...kept], null, 2)}\n`);
   return { errors, warnings, fewLinks };
 }

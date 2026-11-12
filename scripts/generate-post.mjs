@@ -36,6 +36,8 @@ import { keywordData } from "./keywords/openseo.mjs";
 import { readFileSync } from "node:fs";
 
 const slugify = (s) => s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/ß/g, "ss").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").split("-").slice(0, 6).join("-");
+/** Cuts text at a word boundary (no mid-word cuts on the checklist header). */
+const shorten = (s, max) => (s.length <= max ? s : `${s.slice(0, s.lastIndexOf(" ", max - 1)).replace(/[,;:(]+$/, "")}…`);
 const localLang = (m) => (m === "fr" || m === "de" ? m : "en");
 
 /** The go/no-go decision from the search step's read of the top 10 (brief section 6). */
@@ -134,7 +136,7 @@ export async function writeGuide(topic, market, { log = console.log, replace } =
   const files = [];
   let checklistId;
   if (p.checklist) {
-    const cl = checklistJson({ market, slug: finalSlug, lang, pageUrl: pagePath, checklist: p.checklist, docRef: `SI-${market.toUpperCase()}-${topic.n}`, dataAsOf: date, regulationLine: p.checklist.references?.[0]?.slice(0, 90) ?? "" });
+    const cl = checklistJson({ market, slug: finalSlug, lang, pageUrl: pagePath, checklist: p.checklist, docRef: `SI-${market.toUpperCase()}-${topic.n}`, dataAsOf: date, regulationLine: shorten(p.checklist.references?.[0] ?? "", 90) });
     saveJson(cl.file, cl.data);
     files.push(cl.file);
     checklistId = cl.id;
@@ -154,7 +156,7 @@ export async function writeGuide(topic, market, { log = console.log, replace } =
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, toMarkdown(data, p.body));
   files.push(file);
-  return { status: "done", files, path: pagePath, goNoGo: gate.text, keyword, notes: res.notes, kw };
+  return { status: "done", files, path: pagePath, goNoGo: gate.text, keyword, notes: res.notes, kw, checklist: checklistId };
 }
 
 function readPost(p) {

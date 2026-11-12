@@ -2,7 +2,8 @@
 // config and the content collections at every build.
 import type { APIRoute } from "astro";
 import { entity, locales, site } from "../config/site.mjs";
-import { getCategories, getPosts, url } from "../lib/content";
+import { getCategories, getPosts, liveMarkets, livePages, marketHubs, url } from "../lib/content";
+import { marketMeta } from "../i18n/ui";
 import { abs } from "../lib/schema";
 import { isoDate, latest } from "../lib/dates";
 
@@ -13,12 +14,18 @@ export const GET: APIRoute = async () => {
   const body = [
     `# ${site.name}`, "", `> ${entity.definition}`, "",
     `Last updated: ${isoDate(updated)}`,
-    `Languages: ${locales.map((l) => `${l.name} (${l.code})`).join(", ")}. Every guide also exists in the other languages as a local rewrite, with its own URL.`, "",
+    `Languages: ${locales.map((l) => `${l.name} (${l.code})`).join(", ")}. Guides are written for each market from that country's own regulations; some topics exist in several markets, each with its own URL.`, "",
     "## Main pages", "",
     link("Home", "/", "Latest workplace safety guides"),
     link("All guides", "/blog", "Every guide, newest first"),
     link("About", "/about", "How every guide is researched and written with AI"),
     ...(await getCategories("en")).map((c) => link(`${c.names.en} guides`, url.category(c.slug), c.descriptions.en)),
+    "", "## Markets and hubs", "",
+    ...(await Promise.all((await liveMarkets()).map(async (m) => (await marketHubs(m)).map((h) => link(`${marketMeta[m].name}: ${h.label}`, h.path, `${h.count} page(s)`))))).flat(),
+    "", "## Data reports", "",
+    ...(await livePages()).filter((p) => p.kind === "report" || p.kind === "penalties").map((p) => link(p.title, p.path, p.description)),
+    "", "## Top OSHA standard pages", "",
+    ...(await livePages()).filter((p) => p.kind === "standard").slice(0, 30).map((p) => link(p.title, p.path, p.description)),
     "", "## Recent guides", "",
     ...posts.slice(0, 20).map((p) => link(p.data.title, url.post(p.id), `${p.data.description} (updated ${isoDate(latest(p.data.date, p.data.updated))}) Markdown: ${abs(`${url.post(p.id)}.md`)}`)),
     "", "## Links", "",

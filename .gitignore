@@ -17,3 +17,8 @@ data/raw/
 data/jobs/*/
 data/jobs/run.log
 data/jobs/run.pid
+
+# Search Console row exports (large); data/gsc/<date>/summary.json stays committed
+data/gsc/*/*.csv
+# local weekly run log (crontab)
+data/weekly.log

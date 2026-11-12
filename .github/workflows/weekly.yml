@@ -1,0 +1,156 @@
+# Weekly release, build and deploy (brief sections 14 and 16). Replaces publish-post.yml's schedule.
+# Every Monday 05:00 UTC (and by hand): Search Console pull → release gates and the next wave → missing
+# cover images → build with every check, plus Lighthouse → commit and push the data to main → deploy →
+# IndexNow. Writing (the improve loop and new pages) happens on Paul's computer (`npm run weekly`), which
+# merges into main before this runs.
+#
+# Every secret is optional; a missing one is logged and its step skipped:
+#   GSC_CREDENTIALS_JSON    Search Console service-account key (the JSON itself)
+#   GSC_PROPERTY            e.g. sc-domain:safetyindex.blog
+#   GOOGLE_CLOUD_API_KEY    cover images (Gemini on Vertex AI); variable GOOGLE_CLOUD_PROJECT
+#   CLOUDFLARE_DEPLOY_HOOK  deploy hook URL (POSTed to), or
+#   CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID for `wrangler deploy`;
+#   with neither, Cloudflare's git integration deploys the push.
+name: Weekly release
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-release
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      SITE_URL: ${{ vars.SITE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python and system packages for the download checks
+        run: |
+          pip install -r scripts/downloads/requirements.txt
+          sudo apt-get update -q
+          sudo apt-get install -y -q poppler-utils libreoffice-calc
+
+      - name: Chrome for Lighthouse
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Git identity
+        run: |
+          git config user.name "safety-index-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 1. Search Console (missing secrets: logged; the release gates then skip and say so).
+      - name: Search Console pull
+        continue-on-error: true
+        env:
+          GSC_CREDENTIALS_JSON: ${{ secrets.GSC_CREDENTIALS_JSON }}
+          GSC_PROPERTY: ${{ secrets.GSC_PROPERTY }}
+        run: |
+          if [ -z "$GSC_CREDENTIALS_JSON" ] || [ -z "$GSC_PROPERTY" ]; then
+            echo "::notice::GSC_CREDENTIALS_JSON or GSC_PROPERTY secret not set: no Search Console pull (the gates use any data already in data/gsc/)."
+          else
+            printf '%s' "$GSC_CREDENTIALS_JSON" > "$RUNNER_TEMP/gsc.json"
+            export GSC_CREDENTIALS="$RUNNER_TEMP/gsc.json"
+          fi
+          npm run gsc:pull
+          rm -f "$RUNNER_TEMP/gsc.json"
+
+      # 2. Gates and the next wave.
+      - name: Release
+        run: npm run release
+
+      # 3. Missing cover images, up to max_images_per_run.
+      - name: Cover images
+        continue-on-error: true
+        env:
+          GOOGLE_CLOUD_API_KEY: ${{ secrets.GOOGLE_CLOUD_API_KEY }}
+          GOOGLE_CLOUD_PROJECT: ${{ vars.GOOGLE_CLOUD_PROJECT }}
+        run: |
+          if [ -z "$GOOGLE_CLOUD_API_KEY" ]; then echo "::notice::GOOGLE_CLOUD_API_KEY secret not set: no cover images made (pages build without them)."; fi
+          npm run covers
+
+      # 4. Build with every check, then Lighthouse.
+      - name: Build and checks
+        id: build
+        run: npm run build
+
+      - name: Lighthouse
+        id: lighthouse
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: npm run lighthouse
+
+      # 5. Commit release dates, covers, Search Console summaries and logs to main.
+      - name: Commit and push
+        id: push
+        run: |
+          git add -A -- src/content src/assets/covers data PROGRESS.md
+          if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+          git commit -q -m "Weekly release $(date -u +%F): gates, wave, covers, Search Console data"
+          git pull -q --rebase --autostash origin main
+          git push -q origin HEAD:main
+
+      # A failed build or Lighthouse never deploys; keep the Search Console data anyway.
+      - name: Keep Search Console data after a failure
+        if: failure()
+        run: |
+          git add -- data/gsc || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "Weekly $(date -u +%F): Search Console data (build failed; nothing released)"
+          git pull -q --rebase --autostash origin main && git push -q origin HEAD:main
+
+      # 6. Deploy.
+      - name: Deploy
+        env:
+          CLOUDFLARE_DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_DEPLOY_HOOK" ]; then
+            echo "Deploying through the deploy hook"
+            curl -fsS -X POST "$CLOUDFLARE_DEPLOY_HOOK" > /dev/null
+          elif [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "Deploying with wrangler"
+            npx --yes wrangler@4 deploy
+          else
+            echo "::notice::No CLOUDFLARE_DEPLOY_HOOK or CLOUDFLARE_API_TOKEN/CLOUDFLARE_ACCOUNT_ID secret: relying on Cloudflare's git integration, which deploys the push to main."
+          fi
+
+      # 7. IndexNow, once the deploy has had time to go live; its state is committed so next week only sends changes.
+      - name: IndexNow
+        continue-on-error: true
+        run: |
+          sleep 180
+          npm run indexnow
+          git add -- data/indexnow-state.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "IndexNow state $(date -u +%F)"
+          git pull -q --rebase --autostash origin main
+          git push -q origin HEAD:main

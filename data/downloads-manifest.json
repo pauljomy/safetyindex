@@ -1,14 +1,14 @@
 {
   "checklists": {
-    "us/forklift-daily-check": {
-      "hash": "653990a25241429b43057c556d4159312e490ba622cf72856548cfe7d6d23590",
+    "us/safety-glasses-z87-osha-requirements": {
+      "hash": "1768ade2fd0731424a4fe718c8e75811123c58196765fd5b0d5ec40abb508962",
       "lang": "en",
       "paper": "letter",
       "pages": 2,
-      "items": 27,
-      "page_url": "https://safetyindex.blog/us/standards/1910-178-powered-industrial-trucks",
-      "pdf": "/downloads/us/forklift-daily-check.pdf",
-      "xlsx": "/downloads/us/forklift-daily-check.xlsx"
+      "items": 13,
+      "page_url": "https://safetyindex.blog/blog/safety-glasses-z87-osha-requirements",
+      "pdf": "/downloads/us/safety-glasses-z87-osha-requirements.pdf",
+      "xlsx": "/downloads/us/safety-glasses-z87-osha-requirements.xlsx"
     }
   }
 }
