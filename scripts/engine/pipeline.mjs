@@ -15,22 +15,43 @@ const blocking = (problems) => problems.filter((p) => p.type !== "style" && p.se
 const NAME_RE = /\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+\b/g;
 const CLAUSE_RE = /\b19\d\d\.\d+(?:\([A-Za-z0-9]+\))*/g;
 
+import { similarity } from "../style/patterns.mjs";
+
+/** What a changed line adds that's in neither the original draft nor the sources: numbers, clauses, (English) names. */
+function addedFacts(line, allowedNums, allowedText, names) {
+  const nums = [...numbersIn(line)].filter((x) => !allowedNums.has(x));
+  const clauses = (line.match(CLAUSE_RE) ?? []).filter((c) => !allowedText.includes(c));
+  const nm = names ? (line.match(NAME_RE) ?? []).filter((c) => !allowedText.includes(c)) : [];
+  return [...nums, ...clauses, ...nm];
+}
+
 /**
- * Fact rule for rewrites (section 12): compare every changed string with the original and undo
- * any change that adds a number, clause or name that is in neither the original draft nor the sources.
+ * Fact rule for rewrites (section 12): compare every changed line with the original and undo any change
+ * that adds a claim (a number, clause or, in English, a name that is in neither the original draft nor the
+ * sources). A changed line that adds a fact goes back to its closest original line, or is removed when it
+ * has no counterpart. Unchanged and fact-neutral lines keep the rewrite's fixes.
  */
-export function guardRewrite(oldDraft, newDraft, sourceText) {
+export function guardRewrite(oldDraft, newDraft, sourceText, { lang = "en" } = {}) {
   const allowedNums = numbersIn(`${JSON.stringify(oldDraft)}\n${sourceText}`);
   const allowedText = `${JSON.stringify(oldDraft)}\n${sourceText}`;
+  const names = lang === "en";
   const reverted = [];
   const walk = (o, n, path) => {
     if (typeof n === "string") {
       if (typeof o !== "string" || o === n) return n;
-      const nums = [...numbersIn(n)].filter((x) => !allowedNums.has(x));
-      const clauses = (n.match(CLAUSE_RE) ?? []).filter((c) => !allowedText.includes(c));
-      const names = (n.match(NAME_RE) ?? []).filter((c) => !allowedText.includes(c));
-      if (nums.length || clauses.length || names.length) { reverted.push(`${path}: ${[...nums, ...clauses, ...names].slice(0, 3).join(", ")}`); return o; }
-      return n;
+      const oldLines = o.split("\n");
+      const oldSet = new Set(oldLines);
+      const out = [];
+      for (const [i, line] of n.split("\n").entries()) {
+        if (oldSet.has(line)) { out.push(line); continue; }
+        const added = addedFacts(line, allowedNums, allowedText, names);
+        if (!added.length) { out.push(line); continue; }
+        const best = oldLines.map((l) => ({ l, s: similarity(l, line) })).sort((a, b) => b.s - a.s)[0];
+        reverted.push(`${path}: ${added.slice(0, 3).join(", ")}`);
+        const back = best && best.s > 0.3 ? best.l : oldLines[i];
+        if (back != null && !out.includes(back)) out.push(back);
+      }
+      return out.join("\n");
     }
     if (Array.isArray(n)) return n.map((x, i) => walk(Array.isArray(o) ? o[i] : undefined, x, `${path}[${i}]`));
     if (n && typeof n === "object") return Object.fromEntries(Object.entries(n).map(([k, v]) => [k, walk(o?.[k], v, path ? `${path}.${k}` : k)]));
@@ -41,7 +62,7 @@ export function guardRewrite(oldDraft, newDraft, sourceText) {
 
 /**
  * @param {{ label: string, system: string, prompt: string, schema: object, validate: (d: any) => string[],
- *           sources: string, market: string, log: (s: string) => void, draftForCheck?: (d: any) => any }} o
+ *           sources: string, market: string, lang?: string, log: (s: string) => void, draftForCheck?: (d: any) => any }} o
  * @returns {Promise<{ ok: boolean, draft?: any, reason?: string, checkProblems?: any[], notes: string[] }>}
  */
 export async function writeChecked(o) {
@@ -68,11 +89,18 @@ export async function writeChecked(o) {
   // 3. One rewrite with the problem list, then validate and check again.
   o.log(`  ! ${o.label}: checking pass found ${blocking(found).length} problem(s); rewriting once`);
   const rewritten = await write(rewritePrompt({ originalPrompt: o.prompt, draft, problems: found }), `${o.label} rewrite`);
-  const guarded = guardRewrite(draft, rewritten, o.sources);
+  const guarded = guardRewrite(draft, rewritten, o.sources, { lang: o.lang ?? (o.market === "fr" || o.market === "de" ? o.market : "en") });
   if (guarded.reverted.length) notes.push(`rewrite changes undone (added facts): ${guarded.reverted.join("; ")}`);
   draft = guarded.draft;
   problems = o.validate(draft);
-  if (problems.length) return { ok: false, reason: `rewrite failed validation: ${problems.slice(0, 6).join("; ")}`, checkProblems: found, notes };
+  if (problems.length) {
+    // One mechanical fix (lengths, links missing from sources, repeated phrases…): not a second content rewrite.
+    o.log(`  ! ${o.label}: rewrite has ${problems.length} validation problem(s); one mechanical fix`);
+    const fixed = await write(`${o.prompt}\n\n---\nYour draft below fails these checks. Fix only these points and return the complete JSON; change nothing else and add no new facts:\n- ${problems.join("\n- ")}\n\n<draft>\n${JSON.stringify(draft)}\n</draft>`, `${o.label} fix`);
+    draft = guardRewrite(draft, fixed, o.sources, { lang: o.market === "fr" || o.market === "de" ? o.market : "en" }).draft;
+    problems = o.validate(draft);
+    if (problems.length) return { ok: false, reason: `rewrite failed validation: ${problems.slice(0, 6).join("; ")}`, checkProblems: found, notes };
+  }
   found = await check(draft, `${o.label} recheck`);
   if (blocking(found).length) return { ok: false, reason: `failed the checking pass twice: ${blocking(found).slice(0, 4).map((p) => `[${p.type}] ${p.quote} — ${p.issue}`).join(" | ")}`, checkProblems: found, notes };
   return { ok: true, draft, checkProblems: found, notes };

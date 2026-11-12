@@ -147,3 +147,18 @@ pre {
 .copy-code:active {
   @apply scale-90 transition-transform;
 }
+
+/* Wide tables scroll sideways inside their own box instead of widening the page on phones. */
+article table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Print: the page and its checklist print cleanly, without navigation, buttons or the app note. */
+@media print {
+  header, footer, nav, [data-related], #magnifying-glass, .copy-code, button { display: none !important; }
+  .animate { opacity: 1 !important; transform: none !important; }
+  .checklist fieldset { break-inside: avoid; }
+  a { text-decoration: none; }
+}

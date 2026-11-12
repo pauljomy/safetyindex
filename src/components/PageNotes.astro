@@ -4,7 +4,7 @@
 import { formatDate } from "@lib/dates";
 import { attributionsFor } from "@lib/licences";
 import { inLang, langOf, marketMeta, marketOf, ui } from "../i18n/ui";
-const { dataAsOf, sources = [] } = Astro.props as { dataAsOf: Date; sources?: { url: string }[] };
+const { dataAsOf, sources = [], data = false } = Astro.props as { dataAsOf: Date; sources?: { url: string }[]; /** Script-built data page (no AI writing). */ data?: boolean };
 const path = Astro.url.pathname;
 const lang = langOf(path);
 const s = ui[lang];
@@ -12,7 +12,7 @@ const lines = attributionsFor(sources.map((x) => x.url), lang);
 ---
 <div class="mt-10 space-y-2 border-t border-black/10 pt-4 text-sm dark:border-white/10" data-page-notes>
   <p data-as-of><strong>{s.dataAsOf(formatDate(dataAsOf, marketMeta[marketOf(path)].intl))}</strong></p>
-  <p><em>{s.howMade}</em> <a href={`${inLang("/about", lang)}#how-we-write`}>{s.about}</a></p>
+  <p><em>{data ? s.howMadeData : s.howMade}</em> <a href={`${inLang("/about", lang)}#how-we-write`}>{s.about}</a></p>
   <p data-disclaimer><em>{s.disclaimer}</em></p>
   {lines.map((l) => <p data-attribution>{l}</p>)}
 </div>

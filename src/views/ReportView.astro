@@ -73,7 +73,7 @@ const cell = (c: string | number | Cell) => (typeof c === "object" ? c : { text:
       <p>{d.method}</p>
       <h2>{s.sources}</h2>
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
-      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
+      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} data />
     </article>
     <RelatedBlock />
   </Container>

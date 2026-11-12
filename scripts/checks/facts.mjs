@@ -69,12 +69,14 @@ function variants(raw) {
 const STRIP = [
   /\b(?:29\s*CFR\s*)?(?:§\s*)?19(?:04|10|15|17|18|26|28)\.\d+[a-z]?(?:\([A-Za-z0-9]{1,5}\))*/g, // CFR clause refs
   /\(\s?[a-z]{1,4}\s?\)(?:\(\d{1,3}\))*/g, // bare paragraph refs (b)(13)
+  /\b\d{1,2}[./]\d{1,2}[./](?:19|20)?\d{2}\b/g, // dd/mm/yyyy, dd.mm.yyyy (before years are stripped)
+  /\b\d{1,2}\.\d{1,2}\.(?!\d)/g, // dd.mm. (German)
+  /\b\d{1,2}\.?\s+(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\b/gi, // 12. November, 12 novembre
   /\b(?:FY\s?)?(?:19|20)\d{2}(?:[–-](?:19|20)?\d{2})?\b/g, // years, fiscal years and year ranges
-  /\b\d{1,2}[./]\d{1,2}[./](?:19|20)?\d{2}\b/g, // dd/mm/yyyy, dd.mm.yyyy
   /\b\d{1,2}(?:st|nd|rd|th)?\s+(?:January|February|March|April|May|June|July|August|September|October|November|December|janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|Januar|Februar|März|Juni|Juli|Oktober|Dezember)\b/gi,
   /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}\b/g,
   /^\s*(?:\d+[.)]|[-*])\s/gm, // list and step numbering
-  /\b(?:step|étape|schritt|item|row|section|part|subpart|annex|appendix|annexe|anhang|table|tableau|tabelle|class|classe|klasse|type|typ|category|catégorie|kategorie|level|niveau|stufe|zone)\s+[A-Z]?\d+[a-z]?\b/gi,
+  /\b(?:step|étape|schritt|item|row|section|part|subpart|annex|appendix|annexe|anhang|table|tableau|tabelle|class|classe|klasse|type|typ|category|catégorie|kategorie|level|niveau|stufe|zone|abschnitt|nr\.?|punkt|ziffer|article|paragraphe|alinéa|chapitre|kapitel|teil)\s+[A-Z]?\d+(?:\.\d+)*[a-z]?\b/gi,
   /\b(?:NAICS|SIC)\s+\d{2,6}\b/gi,
   /\b(?:ANSI|ISEA|ASTM|NFPA|ISO|EN|DIN|BS|ASME|CSA|AS\/NZS|AS|NF|UL)\s?(?:EN\s?)?(?:ISO\s?)?[A-Z]?\d[\w.:/-]*/g, // standard numbers (referenced by number only)
   /\b(?:ASR|TRBS|TRGS|DGUV\s(?:Vorschrift|Regel|Information|Grundsatz)|ED|R\.?|L\.?|D\.?)\s?[A-Z]?\d[\d.,-]*/g,

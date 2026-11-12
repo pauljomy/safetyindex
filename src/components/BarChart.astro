@@ -1,26 +1,28 @@
 ---
 // Static SVG bar chart rendered into the HTML (no client-side charting).
 // Horizontal bars; labels and values are text in the SVG so screen readers and crawlers read them.
-const { data, title, format = (n: number) => n.toLocaleString("en-US"), width = 640 } = Astro.props as {
+const { data, title, format = (n: number) => n.toLocaleString("en-US"), width = 480 } = Astro.props as {
   data: { label: string; value: number }[]; title: string; format?: (n: number) => string; width?: number;
 };
-const bar = 22, gap = 8, labelW = Math.min(260, Math.max(...data.map((d) => d.label.length)) * 7 + 12), valueW = 90;
+const bar = 24, gap = 8, labelW = Math.min(210, Math.max(...data.map((d) => d.label.length)) * 7.5 + 12), valueW = 84;
 const h = data.length * (bar + gap) + gap;
+const maxChars = Math.floor((labelW - 12) / 7.5);
+const fit = (s: string) => (s.length > maxChars ? `${s.slice(0, maxChars - 1).trimEnd()}…` : s);
 const max = Math.max(1, ...data.map((d) => d.value));
 const plotW = width - labelW - valueW;
 const id = `chart-${Math.random().toString(36).slice(2, 8)}`;
 ---
 <figure class="not-prose my-6 overflow-x-auto">
-  <svg viewBox={`0 0 ${width} ${h}`} width="100%" role="img" aria-labelledby={id} class="max-w-full text-black dark:text-white" style="min-width: 320px">
+  <svg viewBox={`0 0 ${width} ${h}`} width="100%" role="img" aria-labelledby={id} class="max-w-full text-black dark:text-white" style="min-width: 300px">
     <title id={id}>{title}</title>
     {data.map((d, i) => {
       const y = gap + i * (bar + gap);
       const w = Math.max(2, (d.value / max) * plotW);
       return (
         <g>
-          <text x={labelW - 8} y={y + bar / 2} text-anchor="end" dominant-baseline="middle" font-size="12" fill="currentColor">{d.label}</text>
+          <text x={labelW - 8} y={y + bar / 2} text-anchor="end" dominant-baseline="middle" font-size="14" fill="currentColor">{fit(d.label)}<title>{d.label}</title></text>
           <rect x={labelW} y={y} width={w} height={bar} rx="3" fill="#d97706" />
-          <text x={labelW + w + 6} y={y + bar / 2} dominant-baseline="middle" font-size="12" fill="currentColor">{format(d.value)}</text>
+          <text x={labelW + w + 6} y={y + bar / 2} dominant-baseline="middle" font-size="14" fill="currentColor">{format(d.value)}</text>
         </g>
       );
     })}

@@ -29,6 +29,84 @@
    "volume": null,
    "kd": null,
    "intent": null
+  },
+  {
+   "keyword": "sicherheitszeichen",
+   "volume": 2400,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sicherheitszeichen bedeutung",
+   "volume": 590,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sicherheitskennzeichnung",
+   "volume": 170,
+   "kd": 27,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sicherheits- und gesundheitsschutzkennzeichnung",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "asr a1.3",
+   "volume": 1900,
+   "kd": 4,
+   "intent": "informational"
+  },
+  {
+   "keyword": "asr a1.3 sicherheitskennzeichnung",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "warnzeichen verbotszeichen gebotszeichen",
+   "volume": 10,
+   "kd": 10,
+   "intent": "informational"
+  },
+  {
+   "keyword": "rettungszeichen",
+   "volume": 2900,
+   "kd": 0,
+   "intent": "informational"
+  },
+  {
+   "keyword": "brandschutzzeichen",
+   "volume": 2400,
+   "kd": 2,
+   "intent": "transactional"
+  },
+  {
+   "keyword": "sicherheitsfarben bedeutung",
+   "volume": 50,
+   "kd": null,
+   "intent": "informational"
+  },
+  {
+   "keyword": "sicherheitszeichen farben und formen",
+   "volume": null,
+   "kd": null,
+   "intent": null
+  },
+  {
+   "keyword": "gefahrenpiktogramme ghs",
+   "volume": 50,
+   "kd": 8,
+   "intent": "informational"
+  },
+  {
+   "keyword": "ghs piktogramme bedeutung",
+   "volume": 70,
+   "kd": 4,
+   "intent": "informational"
   }
  ],
  "source": "OpenSEO get_keyword_metrics",

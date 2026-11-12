@@ -44,7 +44,7 @@ const updated = latest(d.date, d.updated);
       {sections.map((sec) => (<><h2>{sec.heading}</h2><p><Fragment set:html={sec.opening} /></p>{sec.items && <ul>{sec.items.map((i) => <li>{i}</li>)}</ul>}</>))}
       <h2>{s.sources}</h2>
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
-      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
+      <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} data />
     </article>
     <RelatedBlock />
   </Container>
