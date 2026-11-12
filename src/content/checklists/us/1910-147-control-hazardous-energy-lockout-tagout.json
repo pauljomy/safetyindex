@@ -1,0 +1,282 @@
+{
+  "slug": "1910-147-control-hazardous-energy-lockout-tagout",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-147-control-hazardous-energy-lockout-tagout",
+  "doc_ref": "SI-US-1910-147",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "1910.147 the control of hazardous energy (lockout/tagout) checklist",
+  "subtitle": "Use while observing a servicing job under lockout or tagout and when reviewing the program records.",
+  "regulation_line": "OSHA 29 CFR 1910.147",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each Defect with the corrective action and who owns it; do not let servicing continue while a Defect leaves anyone exposed.",
+    "The equipment manufacturer's instructions and your site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Program and written procedures",
+      "items": [
+        [
+          "Energy control program",
+          "A program combining procedures, training and periodic inspections is in place and covers this equipment.",
+          "1910.147(c)(1)"
+        ],
+        [
+          "Machine-specific procedure",
+          "A documented procedure exists for this machine, or every one of the eight exception conditions applies to it.",
+          "1910.147(c)(4)(i)"
+        ],
+        [
+          "Shutdown and isolation steps",
+          "The procedure lists specific steps to shut down, isolate, block and secure this machine.",
+          "1910.147(c)(4)(ii)(B)"
+        ],
+        [
+          "Device placement and transfer",
+          "The procedure states how locks or tags are placed, removed and transferred and who is responsible.",
+          "1910.147(c)(4)(ii)(C)"
+        ],
+        [
+          "Verification testing",
+          "The procedure states how to test the machine to confirm the energy controls work.",
+          "1910.147(c)(4)(ii)(D)"
+        ],
+        [
+          "Lock used where possible",
+          "Lockable isolators are locked, or the employer can show tagout gives full employee protection under (c)(3).",
+          "1910.147(c)(2)(ii)"
+        ],
+        [
+          "New or modified equipment",
+          "Isolators on equipment installed, replaced, majorly repaired, renovated or modified after January 2, 1990 accept a lockout device.",
+          "1910.147(c)(2)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Locks, tags and tag placement",
+      "items": [
+        [
+          "Hardware supplied",
+          "Locks, tags, chains, wedges, key blocks, adapter pins or self-locking fasteners needed for the job are provided by the employer.",
+          "1910.147(c)(5)(i)"
+        ],
+        [
+          "Dedicated devices",
+          "Energy control locks and tags are singularly identified and not used for anything else.",
+          "1910.147(c)(5)(ii)"
+        ],
+        [
+          "Standardized",
+          "Devices match the facility standard for color, shape or size; tag print and format match too.",
+          "1910.147(c)(5)(ii)(B)"
+        ],
+        [
+          "User identified",
+          "Every lock and tag shows the identity of the person who put it on.",
+          "1910.147(c)(5)(ii)(D)"
+        ],
+        [
+          "Tag legend",
+          "Tags carry a warning such as Do Not Start, Do Not Energize or Do Not Operate.",
+          "1910.147(c)(5)(iii)"
+        ],
+        [
+          "Tag attachment",
+          "Tags are fixed with a non-reusable, self-locking, hand-attachable tie with an unlocking strength of no less than 50 pounds.",
+          "1910.147(c)(5)(ii)(C)(2)"
+        ],
+        [
+          "Device durability",
+          "Locks and tags are intact and suited to the environment they are left in for the job.",
+          "1910.147(c)(5)(ii)(A)(1)"
+        ],
+        [
+          "Tag legibility",
+          "Tags in outdoor, wet or damp locations are intact with a legible message.",
+          "1910.147(c)(5)(ii)(A)(2)"
+        ],
+        [
+          "Tag position on lockable isolator",
+          "A tag on a lockable isolator is fastened at the point where the lock would go.",
+          "1910.147(d)(4)(iii)(A)"
+        ],
+        [
+          "Tag not directly attachable",
+          "A tag that cannot be fixed to the isolating device is as close as safely possible to it, where anyone trying to operate the device would see it immediately.",
+          "1910.147(d)(4)(iii)(B)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Applying controls on the job",
+      "items": [
+        [
+          "Who applies",
+          "Locks or tags are applied by the authorized employees doing the servicing.",
+          "1910.147(c)(8)"
+        ],
+        [
+          "Notice before application",
+          "Affected employees were told before controls were applied.",
+          "1910.147(c)(9)"
+        ],
+        [
+          "Knowledge before shutdown",
+          "The authorized employee can state the energy types and magnitudes, their hazards and how to control them.",
+          "1910.147(d)(1)"
+        ],
+        [
+          "Orderly shutdown",
+          "The machine was shut down using its established procedure, in an orderly way that added no hazard from the stoppage.",
+          "1910.147(d)(2)"
+        ],
+        [
+          "All isolators operated",
+          "Every isolating device needed for this machine has been located and operated.",
+          "1910.147(d)(3)"
+        ],
+        [
+          "Device on each isolator",
+          "A lock or tag is on every isolating device.",
+          "1910.147(d)(4)(i)"
+        ],
+        [
+          "Lock position",
+          "Each lock holds its isolating device in the safe or off position.",
+          "1910.147(d)(4)(ii)"
+        ],
+        [
+          "Stored energy",
+          "Residual energy in springs, pressure systems, raised parts and similar sources has been relieved, restrained or made safe.",
+          "1910.147(d)(5)(i)"
+        ],
+        [
+          "Continued verification",
+          "Where stored energy could reaccumulate to a hazardous level, isolation is re-verified until the work is complete or that possibility no longer exists.",
+          "1910.147(d)(5)(ii)"
+        ],
+        [
+          "Isolation verified",
+          "The authorized employee verified isolation and deenergization before starting work.",
+          "1910.147(d)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Release, testing, group work and handover",
+      "items": [
+        [
+          "Work area inspected",
+          "Nonessential items are gone and machine components are operationally intact before devices come off.",
+          "1910.147(e)(1)"
+        ],
+        [
+          "Employees clear",
+          "All employees are safely positioned or out of the area.",
+          "1910.147(e)(2)(i)"
+        ],
+        [
+          "Notice after removal",
+          "Affected employees are told the devices are off before the machine starts.",
+          "1910.147(e)(2)(ii)"
+        ],
+        [
+          "Removed by applier",
+          "Each device is taken off by whoever put it on, or under the employer's documented removal procedure when that person is not at the facility.",
+          "1910.147(e)(3)"
+        ],
+        [
+          "Testing or positioning",
+          "When devices come off to test or position, the (f)(1) sequence is followed and controls go back on before servicing resumes.",
+          "1910.147(f)(1)"
+        ],
+        [
+          "Group lockbox",
+          "On crew jobs, each authorized employee has a personal lock or tag on the group device or lockbox.",
+          "1910.147(f)(3)(ii)(D)"
+        ],
+        [
+          "Shift change",
+          "Protection is transferred in an orderly way between off-going and oncoming employees.",
+          "1910.147(f)(4)"
+        ],
+        [
+          "Contractors",
+          "Where outside servicing personnel are on site, both employers have exchanged their procedures.",
+          "1910.147(f)(2)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Inspection and training records",
+      "items": [
+        [
+          "Annual periodic inspection",
+          "An inspection of this procedure was done within the last year.",
+          "1910.147(c)(6)(i)"
+        ],
+        [
+          "Independent inspector",
+          "The inspector was an authorized employee not using the procedure being inspected.",
+          "1910.147(c)(6)(i)(A)"
+        ],
+        [
+          "Inspection certification",
+          "The certification names the machine, date, employees included and inspector.",
+          "1910.147(c)(6)(ii)"
+        ],
+        [
+          "Authorized employee training",
+          "Authorized employees were trained in hazardous energy recognition, energy type and magnitude, and isolation methods.",
+          "1910.147(c)(7)(i)(A)"
+        ],
+        [
+          "Affected employee instruction",
+          "Affected employees were instructed in the purpose and use of the procedure.",
+          "1910.147(c)(7)(i)(B)"
+        ],
+        [
+          "Tag limitations training",
+          "Where tags are used, training covered the limitations listed in (c)(7)(ii).",
+          "1910.147(c)(7)(ii)"
+        ],
+        [
+          "Retraining",
+          "Retraining was given after any job assignment change, a machine or process change presenting a new hazard, or a procedure change.",
+          "1910.147(c)(7)(iii)(A)"
+        ],
+        [
+          "Training certification",
+          "Training records show each employee's name and training dates and are current.",
+          "1910.147(c)(7)(iv)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.147: The control of hazardous energy (lockout/tagout)",
+    "Source: eCFR, Title 29, Part 1910 Subpart J (text as of 2026-11-09)"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

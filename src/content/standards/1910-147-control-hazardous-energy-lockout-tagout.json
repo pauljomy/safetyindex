@@ -1,0 +1,487 @@
+{
+  "section": "1910.147",
+  "part": "1910",
+  "heading": "The control of hazardous energy (lockout/tagout).",
+  "subpart": "J",
+  "subpartTitle": "General Environmental Controls",
+  "title": "OSHA lockout tagout requirements (29 CFR 1910.147)",
+  "seoTitle": "OSHA Lockout Tagout Requirements: 29 CFR 1910.147",
+  "description": "OSHA lockout tagout requirements under 29 CFR 1910.147: program, procedures, devices, annual inspections, training, citation data and a site checklist.",
+  "opening": "29 CFR 1910.147 requires employers to isolate machines from their energy sources and lock or tag them out before servicing or maintenance where unexpected start-up or stored energy could injure employees, backed by documented procedures, training and at least annual inspections.",
+  "keyword": "osha lockout tagout requirements",
+  "cluster": [
+    {
+      "keyword": "osha lockout tagout requirements",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "keyword": "lockout tagout checklist",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "keyword": "osha 1910.147",
+      "volume": null,
+      "kd": null
+    }
+  ],
+  "clusterVolume": 0,
+  "kd": null,
+  "keywordSource": "enforcement data",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 10610,
+    "inspections": 5813,
+    "byFy": {
+      "2022": 3777,
+      "2023": 4283,
+      "2024": 2550,
+      "2025": 0,
+      "2026": 0
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(4)(i)",
+        "count": 2330
+      },
+      {
+        "paragraph": "(c)(6)(i)",
+        "count": 1413
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 1158
+      },
+      {
+        "paragraph": "(c)(7)(i)",
+        "count": 926
+      },
+      {
+        "paragraph": "(c)(7)(i)(A)",
+        "count": 805
+      },
+      {
+        "paragraph": "(d)",
+        "count": 576
+      },
+      {
+        "paragraph": "(c)(4)(ii)",
+        "count": 522
+      },
+      {
+        "paragraph": "(c)(6)(ii)",
+        "count": 351
+      },
+      {
+        "paragraph": "(c)(7)(iv)",
+        "count": 248
+      },
+      {
+        "paragraph": "(d)(4)(i)",
+        "count": 242
+      }
+    ],
+    "penalties": {
+      "n": 6922,
+      "median": 7813,
+      "p25": 4000,
+      "p75": 13052,
+      "total": 79913178
+    },
+    "typeShares": {
+      "serious": 0.794,
+      "willful": 0.008,
+      "repeat": 0.028,
+      "otherThanSerious": 0.168,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 8428,
+      "willful": 89,
+      "repeat": 301,
+      "otherThanSerious": 1780,
+      "unclassified": 12
+    },
+    "topIndustries": [
+      {
+        "naics": "3261",
+        "count": 598,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3219",
+        "count": 466,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "3323",
+        "count": 415,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3327",
+        "count": 322,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "2373",
+        "count": 294,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3363",
+        "count": 293,
+        "title": "Motor Vehicle Parts Manufacturing"
+      },
+      {
+        "naics": "3119",
+        "count": 259,
+        "title": "Other Food Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 252,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3222",
+        "count": 247,
+        "title": "Converted Paper Product Manufacturing"
+      },
+      {
+        "naics": "3118",
+        "count": 245,
+        "title": "Bakeries and Tortilla Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "1910.147(c)(4)(i), the duty to develop, document and use energy control procedures, is the most cited paragraph, followed by (c)(6)(i) on the at-least-annual periodic inspection and (c)(1) on establishing the energy control program; training under (c)(7)(i) comes next. Citations rose from 3,777 in FY2022 to 4,283 in FY2023 and fell to 2,550 in FY2024, and the data records none for FY2025 or FY2026.",
+  "requirementsIntro": "1910.147 applies to the servicing and maintenance of machines and equipment where unexpected energization, start-up or release of stored energy could injure employees; it excludes construction and agriculture, employment covered by parts 1915, 1917 and 1918, installations under the exclusive control of electric utilities for power generation, transmission and distribution, electrical work covered by subpart S, and oil and gas well drilling and servicing. Paragraph (c) sets the program, procedures, devices, inspections and training, (d) and (e) set the order for applying and releasing controls, and (f) covers testing, contractors, group lockout and shift changes.",
+  "requirements": [
+    {
+      "heading": "Which servicing work does 1910.147 cover?",
+      "intro": "1910.147 applies to energy control during servicing and maintenance; normal production operations fall under subpart O, and servicing done during normal production is covered only in the two situations set out in 1910.147(a)(2)(ii).",
+      "items": [
+        {
+          "text": "Servicing during normal production is covered when an employee must remove or bypass a guard or other safety device.",
+          "clause": "1910.147(a)(2)(ii)(A)"
+        },
+        {
+          "text": "It is also covered when an employee must place any part of the body at the point of operation, or in an associated danger zone during a machine operating cycle.",
+          "clause": "1910.147(a)(2)(ii)(B)"
+        },
+        {
+          "text": "Minor tool changes, adjustments and other minor servicing during production are excluded if they are routine, repetitive and integral to production use, provided alternative measures give effective protection.",
+          "clause": "1910.147(a)(2)(ii)"
+        },
+        {
+          "text": "Cord-and-plug equipment is excluded when unplugging controls the hazard and the plug stays under the exclusive control of the employee doing the work.",
+          "clause": "1910.147(a)(2)(iii)(A)"
+        },
+        {
+          "text": "Hot tap work on pressurized pipelines is excluded only if the employer demonstrates that continuity of service is essential, shutdown is impractical, documented procedures are followed and special equipment giving proven effective protection is used.",
+          "clause": "1910.147(a)(2)(iii)(B)"
+        },
+        {
+          "text": "Where another Part 1910 standard requires lockout or tagout, its use must be supplemented by this section's procedural and training requirements.",
+          "clause": "1910.147(a)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must an employer's energy control program include?",
+      "intro": "Under 1910.147(c)(1), the employer must set up a program of energy control procedures, employee training and periodic inspections so that, before servicing or maintenance where unexpected energizing, start up or release of stored energy could cause injury, the equipment is isolated from its energy source and rendered inoperative.",
+      "items": [
+        {
+          "text": "Isolating devices that cannot accept a lock must be controlled with a tagout system.",
+          "clause": "1910.147(c)(2)(i)"
+        },
+        {
+          "text": "Isolating devices that can be locked must be locked out, unless the employer demonstrates that tagout gives full employee protection as set out in (c)(3).",
+          "clause": "1910.147(c)(2)(ii)"
+        },
+        {
+          "text": "After January 2, 1990, new installations and any replacement, major repair, renovation or modification of a machine need isolating devices designed to accept a lockout device.",
+          "clause": "1910.147(c)(2)(iii)"
+        },
+        {
+          "text": "A tag used on a lockable isolator goes where the lock would have been attached, and the employer must show the tagout program is as safe as a lockout program.",
+          "clause": "1910.147(c)(3)(i)"
+        },
+        {
+          "text": "That showing needs full compliance with the tagout provisions plus whatever extra elements give equivalent safety; measures to consider include removing an isolating circuit element, blocking a controlling switch, opening an extra disconnecting device or removing a valve handle.",
+          "clause": "1910.147(c)(3)(ii)"
+        },
+        {
+          "text": "The employer or authorized employee must notify affected employees before controls are applied and after they are removed.",
+          "clause": "1910.147(c)(9)"
+        },
+        {
+          "text": "When outside servicing personnel will do work covered by the standard, the on-site employer and the outside employer must inform each other of their respective lockout or tagout procedures.",
+          "clause": "1910.147(f)(2)(i)"
+        },
+        {
+          "text": "The on-site employer must ensure its own employees understand and comply with the restrictions and prohibitions of the outside employer's program.",
+          "clause": "1910.147(f)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must written energy control procedures contain?",
+      "intro": "1910.147(c)(4)(i) requires procedures for controlling hazardous energy to be developed, documented and used, (c)(4)(ii) requires them to set out scope, purpose, authorization, rules, techniques and the means to enforce compliance, and (f)(3) and (f)(4) add procedures for group work and shift changes.",
+      "items": [
+        {
+          "text": "A specific statement of the procedure's intended use.",
+          "clause": "1910.147(c)(4)(ii)(A)"
+        },
+        {
+          "text": "Specific steps for shutting down, isolating, blocking and securing the equipment.",
+          "clause": "1910.147(c)(4)(ii)(B)"
+        },
+        {
+          "text": "Specific steps for placing, removing and transferring locks or tags, and who is responsible for them.",
+          "clause": "1910.147(c)(4)(ii)(C)"
+        },
+        {
+          "text": "Specific requirements for testing the equipment to verify that locks, tags and other control measures are effective.",
+          "clause": "1910.147(c)(4)(ii)(D)"
+        },
+        {
+          "text": "A procedure need not be documented for a particular machine only when all eight conditions in the exception exist, including no hazardous stored energy or reaccumulation, a single readily identified energy source, a single lockout device under the authorized employee's exclusive control, and no past accidents from unexpected activation during servicing.",
+          "clause": "1910.147(c)(4)(i)"
+        },
+        {
+          "text": "Servicing by a crew, craft, department or other group must use a procedure giving each employee protection equivalent to a personal lockout or tagout device.",
+          "clause": "1910.147(f)(3)(i)"
+        },
+        {
+          "text": "Group devices must be used under the (c)(4) procedures, which include at least: primary responsibility vested in one authorized employee for a set number of employees under the group device, such as an operations lock; a way for that employee to ascertain each group member's exposure status; where more than one crew, craft or department is involved, an authorized employee designated to coordinate the work forces and ensure continuity of protection; and a personal device from each authorized employee on the group lock, group lockbox or comparable mechanism from when they begin work until they stop working on the machine.",
+          "clause": "1910.147(f)(3)(ii)"
+        },
+        {
+          "text": "Specific procedures must keep protection continuous during shift or personnel changes, including orderly transfer of device protection between off-going and oncoming employees.",
+          "clause": "1910.147(f)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What must lockout and tagout devices be like?",
+      "intro": "1910.147(c)(5) requires the employer to provide locks, tags, chains, wedges, key blocks, adapter pins, self-locking fasteners or other hardware, and requires lockout and tagout devices to be singularly identified, used only for controlling energy and not used for other purposes.",
+      "items": [
+        {
+          "text": "Devices must withstand their environment for the maximum period that exposure is expected.",
+          "clause": "1910.147(c)(5)(ii)(A)(1)"
+        },
+        {
+          "text": "Tags must be built and printed so that weather or wet and damp locations do not deteriorate them or make the message illegible.",
+          "clause": "1910.147(c)(5)(ii)(A)(2)"
+        },
+        {
+          "text": "Tags must not deteriorate in corrosive environments, such as areas where acid and alkali chemicals are handled and stored.",
+          "clause": "1910.147(c)(5)(ii)(A)(3)"
+        },
+        {
+          "text": "Devices must be standardized within the facility by color, shape or size, and tags must also have standardized print and format.",
+          "clause": "1910.147(c)(5)(ii)(B)"
+        },
+        {
+          "text": "Locks must be substantial enough that removal needs excessive force or unusual techniques such as bolt cutters.",
+          "clause": "1910.147(c)(5)(ii)(C)(1)"
+        },
+        {
+          "text": "Tags and their means of attachment must be substantial enough to prevent inadvertent or accidental removal; the attachment must be non-reusable, attachable by hand, self-locking and non-releasable, with a minimum unlocking strength of no less than 50 pounds, and at least equivalent to a one-piece, all-environment-tolerant nylon cable tie.",
+          "clause": "1910.147(c)(5)(ii)(C)(2)"
+        },
+        {
+          "text": "Each lock or tag must show who applied it.",
+          "clause": "1910.147(c)(5)(ii)(D)"
+        },
+        {
+          "text": "Tags must warn against hazardous conditions if the equipment is energized, with a legend such as Do Not Start or Do Not Operate.",
+          "clause": "1910.147(c)(5)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must energy control procedures be inspected?",
+      "intro": "1910.147(c)(6)(i) requires a periodic inspection of the energy control procedure at least annually to check that the procedure and the standard are being followed.",
+      "items": [
+        {
+          "text": "An authorized employee other than the ones using the procedure must perform the inspection.",
+          "clause": "1910.147(c)(6)(i)(A)"
+        },
+        {
+          "text": "The inspection must be conducted to correct any deviations or inadequacies found.",
+          "clause": "1910.147(c)(6)(i)(B)"
+        },
+        {
+          "text": "Where lockout is used, the inspector reviews with each authorized employee that employee's responsibilities under the procedure.",
+          "clause": "1910.147(c)(6)(i)(C)"
+        },
+        {
+          "text": "Where tagout is used, the review covers each authorized and affected employee and also the tag limitations listed in (c)(7)(ii).",
+          "clause": "1910.147(c)(6)(i)(D)"
+        },
+        {
+          "text": "The employer must certify the inspections, identifying the equipment, the date, the employees included and the person who inspected.",
+          "clause": "1910.147(c)(6)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "Who must be trained, and when is retraining required?",
+      "intro": "1910.147(c)(7)(i) requires training so employees understand the purpose and function of the energy control program and gain the skills to apply, use and remove energy controls safely, with different content for authorized, affected and other employees.",
+      "items": [
+        {
+          "text": "Each authorized employee must be trained to recognize applicable hazardous energy sources, the type and magnitude of energy in the workplace, and the methods for isolating and controlling it.",
+          "clause": "1910.147(c)(7)(i)(A)"
+        },
+        {
+          "text": "Each affected employee must be instructed in the purpose and use of the procedure.",
+          "clause": "1910.147(c)(7)(i)(B)"
+        },
+        {
+          "text": "All other employees who work or may work where procedures may be used must be instructed about the procedure and the prohibition on trying to restart or reenergize locked or tagged equipment.",
+          "clause": "1910.147(c)(7)(i)(C)"
+        },
+        {
+          "text": "Where tagout is used, training must also cover the limits of tags, such as that they give no physical restraint and may create a false sense of security.",
+          "clause": "1910.147(c)(7)(ii)"
+        },
+        {
+          "text": "Authorized and affected employees must be retrained when their job assignments change, when changed machines, equipment or processes present a new hazard, or when the procedures change.",
+          "clause": "1910.147(c)(7)(iii)(A)"
+        },
+        {
+          "text": "Further retraining is required when a periodic inspection reveals, or the employer has reason to believe, that an employee's knowledge or use of the procedures has deviations or inadequacies.",
+          "clause": "1910.147(c)(7)(iii)(B)"
+        },
+        {
+          "text": "The employer must certify that training is done and kept up to date, with each employee's name and training dates.",
+          "clause": "1910.147(c)(7)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "In what order must lockout or tagout be applied?",
+      "intro": "1910.147(d) requires the lockout or tagout procedure to cover preparation, shutdown, isolation, device application, stored energy and verification in that sequence, and 1910.147(c)(8) limits who may apply the devices.",
+      "items": [
+        {
+          "text": "Only the authorized employees performing the servicing or maintenance may apply lockout or tagout.",
+          "clause": "1910.147(c)(8)"
+        },
+        {
+          "text": "Before shutdown, the authorized employee must know the type and magnitude of the energy, its hazards and how to control it.",
+          "clause": "1910.147(d)(1)"
+        },
+        {
+          "text": "The machine must be shut down using the procedures established for it, in an orderly way that avoids additional or increased hazards to employees from the stoppage.",
+          "clause": "1910.147(d)(2)"
+        },
+        {
+          "text": "All isolating devices needed to control the energy must be physically located and operated so the machine is isolated.",
+          "clause": "1910.147(d)(3)"
+        },
+        {
+          "text": "Authorized employees must affix a lock or tag to every isolating device.",
+          "clause": "1910.147(d)(4)(i)"
+        },
+        {
+          "text": "After devices are applied, all potentially hazardous stored or residual energy must be relieved, disconnected, restrained and otherwise made safe.",
+          "clause": "1910.147(d)(5)(i)"
+        },
+        {
+          "text": "If stored energy could reaccumulate to a hazardous level, verification of isolation continues until the work is complete or that possibility no longer exists.",
+          "clause": "1910.147(d)(5)(ii)"
+        },
+        {
+          "text": "Before work starts, the authorized employee must verify that isolation and deenergization have been accomplished.",
+          "clause": "1910.147(d)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What must happen before devices are removed and energy restored?",
+      "intro": "1910.147(e) requires the authorized employee to check the machine, the work area and the employees before devices come off and energy is restored, and 1910.147(f)(1) sets the sequence for temporary removal to test or position equipment.",
+      "items": [
+        {
+          "text": "The work area must be inspected for nonessential items and the machine's components checked to be operationally intact.",
+          "clause": "1910.147(e)(1)"
+        },
+        {
+          "text": "The work area must be checked to ensure all employees are safely positioned or removed.",
+          "clause": "1910.147(e)(2)(i)"
+        },
+        {
+          "text": "After devices are removed and before the machine starts, affected employees must be notified that the devices are off.",
+          "clause": "1910.147(e)(2)(ii)"
+        },
+        {
+          "text": "Each device must be removed by the employee who applied it; the employer may remove it only under a documented procedure, with training, that it shows gives equivalent safety and that verifies the employee is not at the facility, makes all reasonable efforts to contact them, and ensures they know before resuming work there.",
+          "clause": "1910.147(e)(3)"
+        },
+        {
+          "text": "To test or position equipment, clear tools and materials, remove employees, remove the devices, energize and test, then deenergize and reapply controls under (d) before servicing continues.",
+          "clause": "1910.147(f)(1)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the 1910.147 program, devices, field application, release and records; use it when observing a lockout job or preparing for the annual periodic inspection.",
+  "checklist": "us/1910-147-control-hazardous-energy-lockout-tagout",
+  "faq": [
+    {
+      "question": "Are push buttons or selector switches energy isolating devices?",
+      "answer": "No. The definitions in 1910.147(b) exclude push buttons, selector switches and other control circuit type devices. An energy isolating device physically prevents energy transmission or release, for example a manually operated circuit breaker, a disconnect switch, a line valve or a block."
+    },
+    {
+      "question": "Do blank flanges count as lockout devices?",
+      "answer": "Yes. The 1910.147(b) definition of a lockout device includes blank flanges and bolted slip blinds, alongside key or combination locks that hold an isolating device in a safe position."
+    },
+    {
+      "question": "When does an affected employee become an authorized employee?",
+      "answer": "Under the 1910.147(b) definitions, an affected employee becomes an authorized employee once their duties include performing servicing or maintenance covered by the standard."
+    },
+    {
+      "question": "Is Appendix A to 1910.147 mandatory?",
+      "answer": "No. The note before Appendix A says it is a non-mandatory guideline and that nothing in it adds to or detracts from the section's requirements. It gives a typical minimal lockout procedure that employers can adapt."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.147: The control of hazardous energy (lockout/tagout) (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.147"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-12",
+  "generatedOn": "2026-11-12",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "lockout/tagout",
+    "hazardous energy control",
+    "energy isolation"
+  ],
+  "cover": "1910-147-control-hazardous-energy-lockout-tagout",
+  "coverPrompt": "A maintenance worker in work gloves fitting a plain red padlock through the hasp of an electrical disconnect switch beside an industrial machine on a factory floor, seen from the side at shoulder height, with no text, labels or readable tags.",
+  "coverAlt": "Worker fitting a red padlock to an electrical disconnect switch beside factory machinery",
+  "changes": []
+}
