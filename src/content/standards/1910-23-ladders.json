@@ -1,0 +1,509 @@
+{
+  "section": "1910.23",
+  "part": "1910",
+  "heading": "Ladders.",
+  "subpart": "D",
+  "subpartTitle": "Walking-Working Surfaces",
+  "title": "OSHA fixed ladder requirements (29 CFR 1910.23)",
+  "seoTitle": "OSHA Fixed Ladder Requirements: 29 CFR 1910.23",
+  "description": "OSHA 1910.23 ladder rules for fixed, portable and mobile ladders, with paragraph references, citation data and a printable inspection checklist.",
+  "opening": "29 CFR 1910.23 requires employers to ensure every ladder, except those used in emergency operations or built into machines or equipment, meets the rung and clearance limits, is inspected before initial use in each work shift, and is tagged and removed from service if defective.",
+  "keyword": "osha fixed ladder requirements",
+  "cluster": [
+    {
+      "keyword": "osha fixed ladder requirements",
+      "volume": 720,
+      "kd": 12,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fixed ladder checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fixed ladder inspection",
+      "volume": 10,
+      "kd": 24,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha portable ladder requirements",
+      "volume": 210,
+      "kd": 20,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "portable ladder checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "portable ladder inspection",
+      "volume": 40,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.23",
+      "volume": 210,
+      "kd": 6,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 1200,
+  "kd": 12,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 2175,
+    "inspections": 1650,
+    "byFy": {
+      "2022": 357,
+      "2023": 457,
+      "2024": 429,
+      "2025": 500,
+      "2026": 432
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(10)",
+        "count": 461
+      },
+      {
+        "paragraph": "(c)(11)",
+        "count": 307
+      },
+      {
+        "paragraph": "(b)(9)",
+        "count": 270
+      },
+      {
+        "paragraph": "(b)(8)",
+        "count": 252
+      },
+      {
+        "paragraph": "(c)(8)",
+        "count": 105
+      },
+      {
+        "paragraph": "(c)(3)",
+        "count": 78
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 64
+      },
+      {
+        "paragraph": "(b)(13)",
+        "count": 62
+      },
+      {
+        "paragraph": "(d)(7)",
+        "count": 50
+      },
+      {
+        "paragraph": "(d)(4)",
+        "count": 47
+      }
+    ],
+    "penalties": {
+      "n": 1251,
+      "median": 4688,
+      "p25": 2128,
+      "p75": 8036,
+      "total": 7304758
+    },
+    "typeShares": {
+      "serious": 0.769,
+      "willful": 0,
+      "repeat": 0.006,
+      "otherThanSerious": 0.224,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 1673,
+      "willful": 1,
+      "repeat": 14,
+      "otherThanSerious": 487,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "5617",
+        "count": 127,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "2373",
+        "count": 94,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 75,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "6111",
+        "count": 74,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "2213",
+        "count": 70,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "4451",
+        "count": 56,
+        "title": "Grocery and Convenience Retailers"
+      },
+      {
+        "naics": "8111",
+        "count": 44,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "9221",
+        "count": 42,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "4931",
+        "count": 38,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "3219",
+        "count": 37,
+        "title": "Other Wood Product Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1910.23(b)(10), with 461 citations. It requires defective ladders to be tagged and withdrawn from service. Next come 1910.23(c)(11) (307), the 3-foot side-rail extension above an upper landing for portable ladders, 1910.23(b)(9) (270), the per-shift inspection, and 1910.23(b)(8) (252), using ladders only for their designed purpose. Citations rose from 357 in FY2022 to 457 in FY2023, dipped to 429 in FY2024, peaked at 500 in FY2025 and stood at 432 in FY2026.",
+  "requirementsIntro": "The employer must make sure every ladder used meets 1910.23. The section covers all ladders except those used in emergency operations such as firefighting, rescue and tactical law enforcement (or training for them) and those designed into or integral to machines or equipment. Paragraph (b) applies to all ladders, (c) to portable ladders, (d) to fixed ladders and (e) to mobile ladder stands and platforms.",
+  "requirements": [
+    {
+      "heading": "What rung spacing and width must every ladder have?",
+      "intro": "Under 1910.23(b), rungs, steps and cleats on every ladder must be parallel, level and uniformly spaced, normally 10 to 14 inches apart, with a minimum clear width that depends on the ladder type.",
+      "items": [
+        {
+          "text": "Rungs, steps and cleats are parallel, level and uniformly spaced when the ladder is in position for use.",
+          "clause": "1910.23(b)(1)"
+        },
+        {
+          "text": "Rungs, steps and cleats are spaced 10 inches (25 cm) to 14 inches (36 cm) apart, measured between centerlines. Elevator shafts and telecommunication towers have their own limits.",
+          "clause": "1910.23(b)(2)"
+        },
+        {
+          "text": "In elevator shafts, rungs and steps are 6 inches (15 cm) to 16.5 inches (42 cm) apart, measured along the side rails.",
+          "clause": "1910.23(b)(2)(i)"
+        },
+        {
+          "text": "On telecommunication towers, fixed ladder rungs and steps are no more than 18 inches (46 cm) apart between centerlines.",
+          "clause": "1910.23(b)(2)(ii)"
+        },
+        {
+          "text": "Stepstool steps are 8 inches (20 cm) to 12 inches (30 cm) apart between centerlines.",
+          "clause": "1910.23(b)(3)"
+        },
+        {
+          "text": "Minimum clear width is 11.5 inches (29 cm) for portable ladders and 16 inches (41 cm) for fixed ladders (measured before ladder safety systems are installed), except as set out in 1910.23(b)(4)(i) to (iv).",
+          "clause": "1910.23(b)(4)"
+        },
+        {
+          "text": "Manhole entry ladders supported by the manhole opening need a minimum clear width of 9 inches (23 cm).",
+          "clause": "1910.23(b)(4)(ii)"
+        },
+        {
+          "text": "Stepstools need a minimum clear width of 10.5 inches (26.7 cm).",
+          "clause": "1910.23(b)(4)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must ladders be inspected, and what happens to a defective one?",
+      "intro": "1910.23(b)(9) requires a check for visible defects before initial use in each work shift, and more often as necessary. Under 1910.23(b)(10), a ladder with structural or other defects must be tagged and withdrawn at once.",
+      "items": [
+        {
+          "text": "Ladders are checked for visible defects that could injure employees before their first use in every shift, and more frequently when needed.",
+          "clause": "1910.23(b)(9)"
+        },
+        {
+          "text": "A ladder with structural or other defects is immediately tagged \"Dangerous: Do Not Use\" or similar wording under 1910.145. It stays out of service until it is repaired under 1910.22(d) or replaced.",
+          "clause": "1910.23(b)(10)"
+        },
+        {
+          "text": "Wooden ladders carry no coating that may obscure structural defects.",
+          "clause": "1910.23(b)(5)"
+        },
+        {
+          "text": "Metal ladders are made of corrosion-resistant material or protected against corrosion.",
+          "clause": "1910.23(b)(6)"
+        },
+        {
+          "text": "Ladder surfaces have no puncture or laceration hazards.",
+          "clause": "1910.23(b)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees climb and use a ladder?",
+      "intro": "Under 1910.23(b)(8) and (b)(11) to (b)(13), ladders are used only for their designed purpose. Every climber faces the ladder, holds on with one hand or more and carries nothing that could unbalance them.",
+      "items": [
+        {
+          "text": "Ladders are used only for the purposes they were designed for.",
+          "clause": "1910.23(b)(8)"
+        },
+        {
+          "text": "Each employee faces the ladder when climbing up or down.",
+          "clause": "1910.23(b)(11)"
+        },
+        {
+          "text": "Each employee grasps the ladder with at least one hand while climbing up or down.",
+          "clause": "1910.23(b)(12)"
+        },
+        {
+          "text": "No employee carries an object or load that could cause a loss of balance and a fall while on the ladder.",
+          "clause": "1910.23(b)(13)"
+        }
+      ]
+    },
+    {
+      "heading": "What equipment and load rules apply to portable ladders?",
+      "intro": "Under 1910.23(c), portable ladders need slip-treated metal rungs and working spreaders on stepladders. Loads must stay within the ladder's maximum intended load, and nobody may be on a ladder while it is moved.",
+      "items": [
+        {
+          "text": "Rungs and steps of portable metal ladders are corrugated, knurled, dimpled, coated with skid-resistant material or otherwise treated to reduce slipping.",
+          "clause": "1910.23(c)(1)"
+        },
+        {
+          "text": "Each stepladder, and each combination ladder used as a stepladder, has a metal spreader or locking device that holds the front and back sections open while in use.",
+          "clause": "1910.23(c)(2)"
+        },
+        {
+          "text": "No ladder is loaded beyond its maximum intended load.",
+          "clause": "1910.23(c)(3)"
+        },
+        {
+          "text": "Portable single rail ladders are not used.",
+          "clause": "1910.23(c)(5)"
+        },
+        {
+          "text": "No ladder is moved, shifted or extended while an employee is on it.",
+          "clause": "1910.23(c)(6)"
+        },
+        {
+          "text": "The cap (if the stepladder has one) and the top step of a stepladder are not used as steps.",
+          "clause": "1910.23(c)(8)"
+        },
+        {
+          "text": "Ladders and ladder sections are not tied or fastened together for extra length unless they are specifically designed for that use.",
+          "clause": "1910.23(c)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "Where and how can a portable ladder be set up?",
+      "intro": "1910.23(c) requires portable ladders to stand on stable, level surfaces unless they are secured or stabilized. They must be protected from traffic in passageways, doorways and driveways and extend at least 3 feet above any upper landing they give access to.",
+      "items": [
+        {
+          "text": "Ladders are used only on stable and level surfaces unless secured or stabilized to prevent accidental displacement.",
+          "clause": "1910.23(c)(4)"
+        },
+        {
+          "text": "Ladders in passageways, doorways, driveways or similar locations where other activities or traffic could displace them are either secured or guarded by a temporary barricade such as traffic cones or caution tape.",
+          "clause": "1910.23(c)(7)"
+        },
+        {
+          "text": "Portable ladders on slippery surfaces are secured and stabilized.",
+          "clause": "1910.23(c)(9)"
+        },
+        {
+          "text": "The top of a non-self-supporting ladder rests with both side rails supported, unless it has a single support attachment.",
+          "clause": "1910.23(c)(10)"
+        },
+        {
+          "text": "Portable ladders used to reach an upper landing surface have side rails extending at least 3 feet (0.9 m) above that surface.",
+          "clause": "1910.23(c)(11)"
+        },
+        {
+          "text": "Ladders are not placed on boxes, barrels or other unstable bases for extra height.",
+          "clause": "1910.23(c)(13)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the OSHA fixed ladder requirements for strength and clearance?",
+      "intro": "Under 1910.23(d), fixed ladders need 7 inches of clearance behind the rungs (4.5 inches for elevator pit ladders). Where there is no cage or well, they also need 15 inches each side of the centerline and 30 inches on the climbing side.",
+      "items": [
+        {
+          "text": "Fixed ladders are capable of supporting their maximum intended load.",
+          "clause": "1910.23(d)(1)"
+        },
+        {
+          "text": "The perpendicular distance from the centerline of the rungs, steps or grab bars to the nearest permanent object behind the ladder is at least 7 inches (18 cm), or 4.5 inches (11 cm) for elevator pit ladders.",
+          "clause": "1910.23(d)(2)"
+        },
+        {
+          "text": "Grab bars do not protrude on the climbing side beyond the rungs they serve.",
+          "clause": "1910.23(d)(3)"
+        },
+        {
+          "text": "Individual-rung ladders are built so the employee's feet cannot slide off the rung ends.",
+          "clause": "1910.23(d)(10)"
+        },
+        {
+          "text": "Fixed ladders with a pitch greater than 90 degrees from the horizontal are not used.",
+          "clause": "1910.23(d)(11)"
+        },
+        {
+          "text": "Fixed ladders without cages or wells have a clear width of at least 15 inches (38 cm) on each side of the centerline to the nearest permanent object.",
+          "clause": "1910.23(d)(13)(i)"
+        },
+        {
+          "text": "Fixed ladders without cages or wells have at least 30 inches (76 cm) from the rung centerline to the nearest object on the climbing side. At unavoidable obstructions this may drop to 24 inches (61 cm), but only if deflector plates are installed.",
+          "clause": "1910.23(d)(13)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be at the top of a fixed ladder?",
+      "intro": "At the access level, 1910.23(d) requires side rails or grab bars reaching 42 inches above the landing. It also limits step-across distances and, where a ladder ends at a hatch, sets clearance and opening-angle rules for the hatch cover.",
+      "items": [
+        {
+          "text": "Side rails of through and side-step ladders extend at least 42 inches (1.1 m) above the top of the access level or landing platform. For parapet ladders, the access level is the roof if the parapet is cut for passage, or the top of the parapet if it is continuous.",
+          "clause": "1910.23(d)(4)"
+        },
+        {
+          "text": "On through ladders, the extensions have no rungs or steps, and the side rails flare to give 24 inches (61 cm) to 30 inches (76 cm) of clearance. When a ladder safety system is provided, the clearance between the rails must not exceed 36 inches (91 cm).",
+          "clause": "1910.23(d)(5)"
+        },
+        {
+          "text": "On side-step ladders, the side rails, rungs and steps continue through the extension.",
+          "clause": "1910.23(d)(6)"
+        },
+        {
+          "text": "Grab bars extend 42 inches (1.1 m) above the access level or landing platforms served.",
+          "clause": "1910.23(d)(7)"
+        },
+        {
+          "text": "Grab bars are at least the same cross-section as the ladder rungs.",
+          "clause": "1910.23(d)(8)"
+        },
+        {
+          "text": "Where a fixed ladder ends at a hatch, the cover opens with enough clearance for easy access to and from the ladder. If the cover is counterbalanced, it opens at least 70 degrees from horizontal.",
+          "clause": "1910.23(d)(9)"
+        },
+        {
+          "text": "The step-across distance from the rung centerline is 7 inches (18 cm) to 12 inches (30 cm) to the nearest edge of the structure for through ladders. For side-step ladders it is 15 inches (38 cm) to 20 inches (51 cm) to the platform edge access points.",
+          "clause": "1910.23(d)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "What do mobile ladder stands and platforms need?",
+      "intro": "Under 1910.23(e), mobile ladder stands and mobile ladder stand platforms must be able to hold at least four times their maximum intended load and must not move with an employee on them. They also need handrails or guardrails at set heights.",
+      "items": [
+        {
+          "text": "Mobile ladder stands and platforms can support no less than four times the maximum intended load.",
+          "clause": "1910.23(e)(1)(iii)"
+        },
+        {
+          "text": "Unless the section says otherwise, units with a top step height of 4 feet (1.2 m) or more have handrails 29.5 inches (75 cm) to 37 inches (94 cm) high, measured from the front edge of a step. Removable gates or non-rigid members such as chains may be used instead in special-use applications.",
+          "clause": "1910.23(e)(1)(v)"
+        },
+        {
+          "text": "Without additional support, the work-surface height does not exceed four times the shortest base dimension. Above that, outriggers, counterweights or comparable means must stabilize the unit and prevent overturning.",
+          "clause": "1910.23(e)(1)(vi)"
+        },
+        {
+          "text": "Units with wheels or casters have a system to impede horizontal movement while someone is on the stand or platform.",
+          "clause": "1910.23(e)(1)(vii)"
+        },
+        {
+          "text": "No mobile ladder stand or platform moves with an employee on it.",
+          "clause": "1910.23(e)(1)(viii)"
+        },
+        {
+          "text": "Mobile ladder stands with a top step above 10 feet (3 m) have a handrail at least 36 inches (91 cm) high on three sides of the top step. Top steps that are 20 inches (51 cm) or more front to back also need a midrail and toeboard. Chains or removable gates may replace handrails in special-use applications.",
+          "clause": "1910.23(e)(2)(ii)"
+        },
+        {
+          "text": "Mobile ladder stand platforms 4 to 10 feet (1.2 m to 3 m) high have handrails at least 36 inches (91 cm) high, plus midrails, in the platform area. Under 1910.23(e)(3)(iv), gates or chains may replace handrails and guardrails on platforms in special-use applications.",
+          "clause": "1910.23(e)(3)(ii)"
+        },
+        {
+          "text": "Ladder stand platforms above 10 feet (3 m) have guardrails and toeboards on exposed sides and ends.",
+          "clause": "1910.23(e)(3)(iii)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the 1910.23 points for all ladders, portable ladders, fixed ladders and mobile ladder stands. Use it for the check before a ladder's first use in a shift or on a site walk.",
+  "checklist": "us/1910-23-ladders",
+  "faq": [
+    {
+      "question": "Where are the fall protection rules for fixed ladders?",
+      "answer": "They are not in 1910.23 itself. A note to 1910.23(d)(13)(ii) points to 1910.28, which sets the employer's duty to provide fall protection for employees on fixed ladders, and to 1910.29, which sets the criteria for fall protection systems on fixed ladders."
+    },
+    {
+      "question": "What counts toward a ladder's maximum intended load?",
+      "answer": "A note to 1910.23(c)(3) says the maximum intended load, defined in 1910.21(b), includes the total load (weight and force) of the employee and all tools, equipment and materials being carried."
+    },
+    {
+      "question": "Do narrow rungs on orchard ladders have to meet the minimum clear width?",
+      "answer": "No. Under 1910.23(b)(4)(i), the minimum clear width does not apply to narrow rungs that are not designed to be stepped on, such as those on the tapered end of orchard ladders and similar ladders."
+    },
+    {
+      "question": "Can mobile ladder stand platforms use steeper steps or a vertical rung ladder?",
+      "answer": "Yes, under 1910.23(e)(3)(i), but only if the employer demonstrates that the standard step design is not feasible and the units are stabilized to prevent overturning. The standard design in 1910.23(e)(2)(i) is a rise of no more than 10 inches, a depth of at least 7 inches and a stringer slope of no more than 60 degrees from horizontal."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.23: Ladders (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.23"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-12",
+  "generatedOn": "2026-11-12",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "ladder safety",
+    "fixed ladders",
+    "portable ladders"
+  ],
+  "cover": "1910-23-ladders",
+  "coverPrompt": "A maintenance worker in a hard hat and work gloves climbs a fixed steel ladder on the side of an industrial building in daylight. The worker faces the ladder with one hand gripping a rung, and the side rails extend above the roof edge. Photographed from a distance, with no visible signs or markings.",
+  "coverAlt": "Worker in a hard hat climbing a fixed steel ladder on the side of an industrial building",
+  "changes": []
+}

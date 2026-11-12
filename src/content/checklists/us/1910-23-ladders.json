@@ -1,0 +1,288 @@
+{
+  "slug": "1910-23-ladders",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-23-ladders",
+  "doc_ref": "SI-US-1910-23",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Fixed and Portable Ladder Checklist (29 CFR 1910.23)",
+  "subtitle": "Use before a ladder's first use each shift and on routine site walks.",
+  "regulation_line": "OSHA 29 CFR 1910.23",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If a ladder has a structural or other defect, tag it \"Dangerous: Do Not Use\" (or similar wording) and keep it out of service until it is repaired or replaced (1910.23(b)(10)). If a use or setup item fails, correct it before the ladder is used.",
+    "Fall protection for employees on fixed ladders is set by 29 CFR 1910.28 and 1910.29 and is not covered by this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "All ladders: condition, spacing and tagging",
+      "items": [
+        [
+          "Rungs level and evenly spaced",
+          "With the ladder in position for use, every rung, step and cleat sits parallel and level, with even gaps.",
+          "1910.23(b)(1)"
+        ],
+        [
+          "Rung spacing",
+          "Centerline gap between rungs measures 10 to 14 in. Elevator-shaft and telecom-tower ladders follow (b)(2)(i) and (b)(2)(ii).",
+          "1910.23(b)(2)"
+        ],
+        [
+          "Rung clear width",
+          "Portable ladders 11.5 in or wider. Fixed ladders 16 in or wider (this figure applies before a ladder safety system is fitted).",
+          "1910.23(b)(4)"
+        ],
+        [
+          "Wooden ladder finish",
+          "No paint or other coating that could hide cracks or other structural defects.",
+          "1910.23(b)(5)"
+        ],
+        [
+          "Metal ladder corrosion",
+          "Made of corrosion-resistant metal or has a protective finish against rust.",
+          "1910.23(b)(6)"
+        ],
+        [
+          "Sharp edges and burrs",
+          "No surface that could puncture or lacerate the climber.",
+          "1910.23(b)(7)"
+        ],
+        [
+          "Shift inspection done",
+          "Ladder checked for visible defects before its first use this shift, and again whenever conditions call for it.",
+          "1910.23(b)(9)"
+        ],
+        [
+          "Defective ladders tagged",
+          "Any ladder with a defect carries a \"Dangerous: Do Not Use\" (or similar) tag and stays out of service until repaired or replaced.",
+          "1910.23(b)(10)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Climbing and portable ladder use",
+      "items": [
+        [
+          "Right ladder for the job",
+          "Ladder used only as its design intends, with no improvised uses.",
+          "1910.23(b)(8)"
+        ],
+        [
+          "Facing the ladder",
+          "Workers face the rungs going up and coming down.",
+          "1910.23(b)(11)"
+        ],
+        [
+          "Hand hold",
+          "At least one hand on the ladder throughout the climb.",
+          "1910.23(b)(12)"
+        ],
+        [
+          "Loads carried",
+          "No one climbs carrying an object or load that could throw them off balance.",
+          "1910.23(b)(13)"
+        ],
+        [
+          "Load",
+          "Total load (weight and force) of the worker and all tools, equipment and materials carried is within the ladder's maximum intended load.",
+          "1910.23(c)(3)"
+        ],
+        [
+          "No moving with a worker on it",
+          "Nobody is on the ladder when it is moved, shifted or extended.",
+          "1910.23(c)(6)"
+        ],
+        [
+          "Stepladder top",
+          "No one standing on the cap or top step.",
+          "1910.23(c)(8)"
+        ],
+        [
+          "Ladders joined for length",
+          "Ladders or sections are not tied or fastened together for extra length unless specifically designed for that use.",
+          "1910.23(c)(12)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Portable ladder equipment and setup",
+      "items": [
+        [
+          "Metal rung surface",
+          "Rungs and steps are corrugated, knurled, dimpled, skid-coated or otherwise treated against slipping.",
+          "1910.23(c)(1)"
+        ],
+        [
+          "Stepladder spreader",
+          "Metal spreader or locking device holds front and back sections securely open during use.",
+          "1910.23(c)(2)"
+        ],
+        [
+          "Single rail ladders",
+          "No portable single rail ladder in use.",
+          "1910.23(c)(5)"
+        ],
+        [
+          "Footing",
+          "Feet on a stable, level surface, or the ladder is secured or stabilized against displacement.",
+          "1910.23(c)(4)"
+        ],
+        [
+          "Traffic areas",
+          "In a passageway, doorway or driveway, the ladder is secured or barricaded off, for example with cones or caution tape.",
+          "1910.23(c)(7)"
+        ],
+        [
+          "Slippery surfaces",
+          "A ladder used on a slippery surface is both secured and stabilized.",
+          "1910.23(c)(9)"
+        ],
+        [
+          "Top support",
+          "Both side rails bear at the top of a non-self-supporting ladder, unless it has a single support attachment.",
+          "1910.23(c)(10)"
+        ],
+        [
+          "Extension above landing",
+          "Side rails reach 3 ft (0.9 m) or more above the upper landing surface being accessed.",
+          "1910.23(c)(11)"
+        ],
+        [
+          "Base",
+          "Not stood on boxes, barrels or other unstable bases to gain height.",
+          "1910.23(c)(13)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Fixed ladders",
+      "items": [
+        [
+          "Clearance behind rungs",
+          "7 in (18 cm) or more from the rung or grab bar centerline to the closest fixed object behind. Elevator pit ladders need 4.5 in (11 cm).",
+          "1910.23(d)(2)"
+        ],
+        [
+          "Grab bar projection",
+          "Grab bars do not stick out past the rungs on the climbing side.",
+          "1910.23(d)(3)"
+        ],
+        [
+          "Side rail extension",
+          "Through or side-step ladder rails rise 42 in (1.1 m) or more over the landing or access level. For parapets, see (d)(4)(i) and (d)(4)(ii).",
+          "1910.23(d)(4)"
+        ],
+        [
+          "Through-ladder extension",
+          "No rungs in the extension. Rails flared to 24–30 in of clearance, or no more than 36 in with a ladder safety system.",
+          "1910.23(d)(5)"
+        ],
+        [
+          "Grab bar height",
+          "Grab bars stand 42 in (1.1 m) higher than the landing they serve.",
+          "1910.23(d)(7)"
+        ],
+        [
+          "Hatch",
+          "Hatch cover opens with enough clearance for easy access to or from the ladder. Counterbalanced covers open to 70 degrees or more from horizontal.",
+          "1910.23(d)(9)"
+        ],
+        [
+          "Individual-rung ladders",
+          "Rungs built so feet cannot slide off the ends.",
+          "1910.23(d)(10)"
+        ],
+        [
+          "Step-across distance",
+          "Through ladders: 7–12 in to the structure edge. Side-step ladders: 15–20 in to the platform access points.",
+          "1910.23(d)(12)"
+        ],
+        [
+          "Side clearance (no cage or well)",
+          "15 in (38 cm) clear on each side of the centerline.",
+          "1910.23(d)(13)(i)"
+        ],
+        [
+          "Climbing-side clearance (no cage or well)",
+          "30 in (76 cm) clear on the climbing side, or 24 in (61 cm) at an unavoidable obstruction fitted with deflector plates.",
+          "1910.23(d)(13)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Mobile ladder stands and platforms",
+      "items": [
+        [
+          "Step width",
+          "Steps 16 in (41 cm) wide or wider.",
+          "1910.23(e)(1)(i)"
+        ],
+        [
+          "Slip-resistant steps",
+          "Steps and platform have a slip-resistant surface, built in or added (dimpling, knurling, coating, tape).",
+          "1910.23(e)(1)(ii)"
+        ],
+        [
+          "Handrails (top step 4 ft or higher)",
+          "Handrails 29.5–37 in (75–94 cm) high from the step's front edge, or chains or gates in special-use applications.",
+          "1910.23(e)(1)(v)"
+        ],
+        [
+          "Height-to-base ratio",
+          "Work surface no higher than four times the shortest base dimension, unless outriggers, counterweights or similar stabilizers are fitted.",
+          "1910.23(e)(1)(vi)"
+        ],
+        [
+          "Movement-impeding system",
+          "Units on wheels or casters have a system to impede horizontal movement while someone is on the unit.",
+          "1910.23(e)(1)(vii)"
+        ],
+        [
+          "No movement when occupied",
+          "Unit stays put while anyone is on it.",
+          "1910.23(e)(1)(viii)"
+        ],
+        [
+          "Top step guarding over 10 ft",
+          "Handrail 36 in (91 cm) or higher on three sides. Midrail and toeboard where the top step is 20 in or more front to back.",
+          "1910.23(e)(2)(ii)"
+        ],
+        [
+          "Platform guarding 4 to 10 ft",
+          "Handrails 36 in (91 cm) or higher plus midrails in the platform area, or chains or gates in special-use applications.",
+          "1910.23(e)(3)(ii)"
+        ],
+        [
+          "Platform guarding over 10 ft",
+          "Guardrails and toeboards on every exposed side and end.",
+          "1910.23(e)(3)(iii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.23: Ladders (Part 1910 Subpart D, Walking-Working Surfaces)",
+    "Fall protection for fixed ladders: 29 CFR 1910.28 (duty) and 1910.29 (system criteria)",
+    "Source: eCFR, Title 29 (text as of 2026-11-09)"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
