@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-12",
+ "results": [
+  {
+   "path": "/",
+   "performance": 97,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/us/reports/workplace-injury-statistics-2024",
+   "performance": 99,
+   "accessibility": 100,
+   "mobile": true
+  }
+ ]
+}

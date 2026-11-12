@@ -6,7 +6,10 @@
 import { createServer } from "node:http";
 import { existsSync, readFileSync, readdirSync, statSync, writeFileSync, mkdirSync } from "node:fs";
 import { extname, join } from "node:path";
-import { execFileSync, spawn } from "node:child_process";
+import { gzipSync } from "node:zlib";
+import { execFile, execFileSync, spawn } from "node:child_process";
+import { promisify } from "node:util";
+const execFileAsync = promisify(execFile);
 import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { config } from "../lib/config.mjs";
@@ -43,8 +46,13 @@ const server = createServer((req, res) => {
   if (p === "/") f = join(dist, "index.html");
   else if (!existsSync(f) || statSync(f).isDirectory()) f = `${join(dist, p)}.html`;
   if (!existsSync(f)) { res.writeHead(404); return res.end(); }
-  res.writeHead(200, { "Content-Type": TYPES[extname(f)] ?? "application/octet-stream" });
-  res.end(readFileSync(f));
+  // Compressed and cacheable like production (Cloudflare), so scores reflect what visitors get.
+  const type = TYPES[extname(f)] ?? "application/octet-stream";
+  const body = readFileSync(f);
+  const headers = { "Content-Type": type, "Cache-Control": /\/_astro\//.test(f) ? "public, max-age=31536000, immutable" : "public, max-age=0, must-revalidate" };
+  if (/text|javascript|json|svg|xml/.test(type) && /gzip/.test(req.headers["accept-encoding"] ?? "")) { res.writeHead(200, { ...headers, "Content-Encoding": "gzip" }); return res.end(gzipSync(body)); }
+  res.writeHead(200, headers);
+  res.end(body);
 }).listen(0);
 const port = server.address().port;
 const lhBin = join("node_modules", ".bin", "lighthouse");
@@ -59,20 +67,22 @@ async function startChrome() {
 await startChrome();
 async function lighthouse(url) {
   for (let attempt = 0; ; attempt++) {
-    try { return JSON.parse(execFileSync(lhBin, [url, "--quiet", "--output=json", "--only-categories=performance,accessibility", `--port=${debugPort}`], { maxBuffer: 64 * 1024 * 1024, stdio: ["ignore", "pipe", "ignore"] }).toString()); }
+    // Async on purpose: this process also serves dist/, so a synchronous call would block the server and hang.
+    try { return JSON.parse((await execFileAsync(lhBin, [url, "--quiet", "--output=json", "--only-categories=performance,accessibility", `--port=${debugPort}`], { maxBuffer: 64 * 1024 * 1024, timeout: 120_000 })).stdout); }
     catch (e) { if (attempt >= 1) throw e; await startChrome(); }
   }
 }
 const median = (a) => { const s = [...a].sort((x, y) => x - y); return s[Math.floor(s.length / 2)]; };
 const results = [];
 const errors = [];
-for (const path of sample(L.sample_pages)) {
+for (const path of sample(Number(process.env.LH_PAGES) || L.sample_pages)) {
   const perf = [], a11y = [];
   let mobile = true;
-  for (let i = 0; i < L.runs_per_page; i++) {
+  for (let i = 0; i < (Number(process.env.LH_RUNS) || L.runs_per_page); i++) {
     let r;
     try { r = await lighthouse(`http://localhost:${port}${path}`); } catch (e) { errors.push(`${path}: Lighthouse could not run (${String(e.message).split("\n")[0].slice(0, 120)})`); break; }
     perf.push(Math.round(r.categories.performance.score * 100));
+    if (process.env.LH_VERBOSE) console.log(`    run ${i + 1}: ${path} perf ${perf.at(-1)}`);
     a11y.push(Math.round(r.categories.accessibility.score * 100));
     if (r.audits.viewport?.score === 0 || r.audits["content-width"]?.score === 0) mobile = false;
   }
