@@ -7868,7 +7868,8 @@
     "kd": 0,
     "intent": "transactional"
    }
-  ]
+  ],
+  "grouped": true
  },
  "equipment-machinery": {
   "seed": "forklift safety",
@@ -8767,7 +8768,8 @@
     "kd": null,
     "intent": "transactional"
    }
-  ]
+  ],
+  "grouped": true
  },
  "first-aid-medical": {
   "seed": "first aid",
@@ -9648,7 +9650,8 @@
     "kd": 40,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "osha-compliance": {
   "seed": "osha requirements",
@@ -10553,7 +10556,8 @@
     "kd": 2,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "incidents-reporting": {
   "seed": "incident report",
@@ -11446,7 +11450,8 @@
     "kd": 0,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "safety-training-certification": {
   "seed": "safety training",
@@ -12345,7 +12350,8 @@
     "kd": 2,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "electrical-loto": {
   "seed": "electrical safety",
@@ -13238,7 +13244,8 @@
     "kd": null,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "emergency-planning": {
   "seed": "emergency action plan",
@@ -14131,7 +14138,8 @@
     "kd": 12,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "ergonomics-manual-handling": {
   "seed": "ergonomics",
@@ -15024,7 +15032,8 @@
     "kd": null,
     "intent": "navigational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "driver-safety": {
   "seed": "driver safety",
@@ -15923,7 +15932,8 @@
     "kd": 64,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  },
  "confined-space": {
   "seed": "confined space",
@@ -16828,6 +16838,7 @@
     "kd": null,
     "intent": "informational"
    }
-  ]
+  ],
+  "grouped": true
  }
 }
