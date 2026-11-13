@@ -1,0 +1,385 @@
+{
+  "section": "1910.37",
+  "part": "1910",
+  "heading": "Maintenance, safeguards, and operational features for exit routes.",
+  "subpart": "E",
+  "subpartTitle": "Exit Routes and Emergency Planning",
+  "title": "OSHA exit sign and exit route requirements (29 CFR 1910.37)",
+  "seoTitle": "OSHA Exit Sign Requirements: 29 CFR 1910.37",
+  "description": "OSHA exit sign and exit route rules in 29 CFR 1910.37, paragraph by paragraph, with citation and penalty data and a printable inspection checklist.",
+  "opening": "29 CFR 1910.37 requires employers to keep exit routes unobstructed and free of fire hazards, light each route, mark every exit with a visible \"Exit\" sign of a minimum brightness and letter size, keep emergency safeguards working, and maintain exit routes during construction and repairs.",
+  "keyword": "osha exit sign requirements",
+  "cluster": [
+    {
+      "keyword": "osha exit sign requirements",
+      "volume": 320,
+      "kd": 1,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "exit sign checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "exit sign inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha blocked exit requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "blocked exit checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "blocked exit inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha maintenance safeguards and operational features for exit routes requirements",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "keyword": "maintenance safeguards and operational features for exit routes checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "maintenance safeguards and operational features for exit routes inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.37",
+      "volume": 70,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 390,
+  "kd": 1,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 6926,
+    "inspections": 5636,
+    "byFy": {
+      "2022": 1287,
+      "2023": 1686,
+      "2024": 1490,
+      "2025": 1293,
+      "2026": 1170
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(3)",
+        "count": 2494
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 1736
+      },
+      {
+        "paragraph": "(b)(5)",
+        "count": 594
+      },
+      {
+        "paragraph": "(b)(6)",
+        "count": 590
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 584
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 410
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 269
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 81
+      },
+      {
+        "paragraph": "(b)(7)",
+        "count": 54
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 50
+      }
+    ],
+    "penalties": {
+      "n": 3089,
+      "median": 4465,
+      "p25": 1809,
+      "p75": 7000,
+      "total": 29735300
+    },
+    "typeShares": {
+      "serious": 0.551,
+      "willful": 0.003,
+      "repeat": 0.031,
+      "otherThanSerious": 0.415,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3814,
+      "willful": 24,
+      "repeat": 216,
+      "otherThanSerious": 2871,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "4931",
+        "count": 436,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "9221",
+        "count": 349,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "2373",
+        "count": 347,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "9211",
+        "count": 255,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "2213",
+        "count": 226,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "6111",
+        "count": 179,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "4523",
+        "count": 164,
+        "title": null
+      },
+      {
+        "naics": "8111",
+        "count": 164,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "4451",
+        "count": 163,
+        "title": "Grocery and Convenience Retailers"
+      },
+      {
+        "naics": "7211",
+        "count": 127,
+        "title": "Traveler Accommodation"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph was 1910.37(a)(3), which requires exit routes to be free and unobstructed, with 2494 citations in FY2022–FY2026, followed by 1910.37(b)(2), the rule that each exit be clearly visible and marked by an \"Exit\" sign, with 1736. Next came (b)(5) on marking doorways that could be mistaken for exits, at 594, and (b)(6) on exit sign illumination, at 590. Citations per year peaked at 1,686 in FY2023 and fell each year after that to 1,170 in FY2026.",
+  "requirementsIntro": "Section 1910.37 sits in Part 1910 Subpart E (Exit Routes and Emergency Planning) and sets duties on employers for the exit routes, exits and alarm systems in their workplaces; the section has no separate scope paragraph of its own. It runs from hazard control and clear routes in (a), through lighting and signs in (b), fire retardant coatings in (c) and construction work in (d), to the employee alarm system in (e).",
+  "requirements": [
+    {
+      "heading": "What must employers keep out of exit routes?",
+      "intro": "Under 1910.37(a), exit routes must be kept clear of obstructions and highly flammable decorations, must not pass through lockable rooms or end in dead ends, and must not lead workers toward a high hazard area unless the path is shielded.",
+      "items": [
+        {
+          "text": "Keep exit routes free of explosive or highly flammable furnishings and other decorations.",
+          "clause": "1910.37(a)(1)"
+        },
+        {
+          "text": "Arrange exit routes so employees do not have to travel toward a high hazard area, unless suitable partitions or other physical barriers effectively shield the path from that area.",
+          "clause": "1910.37(a)(2)"
+        },
+        {
+          "text": "Keep every exit route free and unobstructed.",
+          "clause": "1910.37(a)(3)"
+        },
+        {
+          "text": "Do not place materials or equipment within an exit route, whether permanently or temporarily.",
+          "clause": "1910.37(a)(3)"
+        },
+        {
+          "text": "The exit access must not go through a room that can be locked, such as a bathroom, to reach an exit or exit discharge.",
+          "clause": "1910.37(a)(3)"
+        },
+        {
+          "text": "The exit access must not lead into a dead-end corridor.",
+          "clause": "1910.37(a)(3)"
+        },
+        {
+          "text": "Provide stairs or a ramp wherever the exit route is not substantially level.",
+          "clause": "1910.37(a)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "Which emergency safeguards and alarms must stay operable?",
+      "intro": "Paragraph 1910.37(a)(4) requires emergency safeguards such as sprinkler systems, alarm systems, fire doors and exit lighting to work properly at all times, and paragraphs (c) and (e) cover fire retardant coatings and the employee alarm system.",
+      "items": [
+        {
+          "text": "Keep safeguards designed to protect employees during an emergency, for example sprinkler systems, alarm systems, fire doors and exit lighting, in proper working order at all times.",
+          "clause": "1910.37(a)(4)"
+        },
+        {
+          "text": "Renew fire retardant paints or solutions as often as necessary to maintain their fire retardant properties.",
+          "clause": "1910.37(c)"
+        },
+        {
+          "text": "Install and maintain an operable employee alarm system with a distinctive signal that warns employees of fire or other emergencies, unless employees can promptly see or smell a fire or other hazard in time to give them adequate warning.",
+          "clause": "1910.37(e)"
+        },
+        {
+          "text": "The employee alarm system must comply with 29 CFR 1910.165.",
+          "clause": "1910.37(e)"
+        }
+      ]
+    },
+    {
+      "heading": "When does an exit or doorway need a sign?",
+      "intro": "Paragraph 1910.37(b) requires an \"Exit\" sign at every exit, direction signs where the way to the exit is not obvious, and markings on any doorway or passage that could be mistaken for an exit.",
+      "items": [
+        {
+          "text": "Each exit must be clearly visible and marked by a sign reading \"Exit.\"",
+          "clause": "1910.37(b)(2)"
+        },
+        {
+          "text": "Keep each exit route door free of decorations or signs that obscure its visibility.",
+          "clause": "1910.37(b)(3)"
+        },
+        {
+          "text": "If the direction of travel to the exit or exit discharge is not immediately apparent, post signs along the exit access showing the direction to the nearest exit and exit discharge.",
+          "clause": "1910.37(b)(4)"
+        },
+        {
+          "text": "The line-of-sight to an exit sign must be clearly visible at all times.",
+          "clause": "1910.37(b)(4)"
+        },
+        {
+          "text": "Mark each doorway or passage along an exit access that could be mistaken for an exit \"Not an Exit\" or a similar designation, or identify it with a sign showing its actual use, such as closet.",
+          "clause": "1910.37(b)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "How bright and how large must exit signs be?",
+      "intro": "Under 1910.37(b)(6) and (b)(7), exit signs must meet a minimum illumination or luminance, be distinctive in color and use letters of a minimum height and stroke width, while (b)(1) separately requires lighting along each exit route.",
+      "items": [
+        {
+          "text": "Light each exit route adequately so that an employee with normal vision can see along it.",
+          "clause": "1910.37(b)(1)"
+        },
+        {
+          "text": "Illuminate each exit sign to a surface value of at least five foot-candles (54 lux) with a reliable light source.",
+          "clause": "1910.37(b)(6)"
+        },
+        {
+          "text": "Each exit sign must be distinctive in color.",
+          "clause": "1910.37(b)(6)"
+        },
+        {
+          "text": "Self-luminous or electroluminescent signs are permitted if they have a minimum luminance surface value of at least .06 footlamberts (0.21 cd/m²).",
+          "clause": "1910.37(b)(6)"
+        },
+        {
+          "text": "The word \"Exit\" must be in plainly legible letters not less than six inches (15.2 cm) high.",
+          "clause": "1910.37(b)(7)"
+        },
+        {
+          "text": "The principal strokes of the letters in \"Exit\" must be not less than three-fourths of an inch (1.9 cm) wide.",
+          "clause": "1910.37(b)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "What applies to exit routes during construction, repairs or alterations?",
+      "intro": "Paragraph 1910.37(d) requires exit routes to be maintained while a workplace is built, repaired or altered, and limits when employees may occupy it.",
+      "items": [
+        {
+          "text": "During new construction, employees must not occupy a workplace until the exit routes required by Subpart E are completed and ready for employee use for the portion of the workplace they occupy.",
+          "clause": "1910.37(d)(1)"
+        },
+        {
+          "text": "During repairs or alterations, employees must not occupy a workplace unless the required exit routes are available and existing fire protections are maintained, or until alternate fire protection giving an equivalent level of safety is furnished.",
+          "clause": "1910.37(d)(2)"
+        },
+        {
+          "text": "Do not expose employees to hazards of flammable or explosive substances or equipment used in construction, repairs or alterations that go beyond the normal permissible conditions in the workplace or that would impede exiting.",
+          "clause": "1910.37(d)(3)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist turns each paragraph of 1910.37 into a walk-through check, from blocked exits to sign letter size, for routine exit route inspections and for workplaces under construction, repair or alteration.",
+  "checklist": "us/1910-37-maintenance-safeguards-operational-features-exit",
+  "faq": [],
+  "sources": [
+    {
+      "title": "29 CFR 1910.37: Maintenance, safeguards, and operational features for exit routes (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.37"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "exit signs",
+    "blocked exits",
+    "exit route maintenance"
+  ],
+  "cover": "1910-37-maintenance-safeguards-operational-features-exit",
+  "coverPrompt": "A realistic photograph of a clear, evenly lit warehouse aisle with pallet racking set back on both sides and an empty floor path leading to a closed emergency exit door, with a glowing green sign panel above the door seen from too far away for any lettering to show.",
+  "coverAlt": "Clear, well-lit warehouse aisle leading to an emergency exit door with a lit sign above it",
+  "changes": []
+}

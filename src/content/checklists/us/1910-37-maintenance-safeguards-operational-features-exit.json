@@ -1,0 +1,186 @@
+{
+  "slug": "1910-37-maintenance-safeguards-operational-features-exit",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-37-maintenance-safeguards-operational-features-exit",
+  "doc_ref": "SI-US-1910-37",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Exit Sign and Blocked Exit Checklist (29 CFR 1910.37)",
+  "subtitle": "Walk every exit route and check exits, signs, lighting, safeguards and work in progress.",
+  "regulation_line": "OSHA 29 CFR 1910.37",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each defect with its location, fix it or report it to the person responsible, and recheck it before signing off.",
+    "Manufacturer's instructions for signs, lighting and alarms, and your site rules, may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Exit routes clear and safe",
+      "items": [
+        [
+          "Route unobstructed",
+          "Route walked end to end with nothing blocking travel",
+          "1910.37(a)(3)"
+        ],
+        [
+          "No stored materials or equipment",
+          "No pallets, boxes, carts or equipment placed in the route, even temporarily",
+          "1910.37(a)(3)"
+        ],
+        [
+          "No lockable rooms on the path",
+          "Exit access does not pass through a room that can be locked, such as a bathroom",
+          "1910.37(a)(3)"
+        ],
+        [
+          "No dead ends",
+          "Exit access does not lead into a dead-end corridor",
+          "1910.37(a)(3)"
+        ],
+        [
+          "Level changes",
+          "Stairs or a ramp present wherever the route is not substantially level",
+          "1910.37(a)(3)"
+        ],
+        [
+          "Furnishings and decorations",
+          "No explosive or highly flammable furnishings or decorations in the route",
+          "1910.37(a)(1)"
+        ],
+        [
+          "High hazard areas",
+          "Route does not lead toward a high hazard area, or partitions or other physical barriers effectively shield it",
+          "1910.37(a)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Exit signs and markings",
+      "items": [
+        [
+          "Exit marked",
+          "Each exit clearly visible and carrying a sign reading \"Exit\"",
+          "1910.37(b)(2)"
+        ],
+        [
+          "Exit door not obscured",
+          "No decorations or signs on or around the exit route door that hide it",
+          "1910.37(b)(3)"
+        ],
+        [
+          "Direction signs",
+          "Where the way to the exit is not immediately apparent, signs along the exit access point to the nearest exit and exit discharge",
+          "1910.37(b)(4)"
+        ],
+        [
+          "Line of sight",
+          "Exit signs visible from the exit access with nothing blocking the view",
+          "1910.37(b)(4)"
+        ],
+        [
+          "Doors that could be mistaken for exits",
+          "Marked \"Not an Exit\" or similar, or signed with their actual use (e.g. closet)",
+          "1910.37(b)(5)"
+        ],
+        [
+          "Lit sign brightness",
+          "Sign face lit to at least five foot-candles (54 lux) by a reliable light source",
+          "1910.37(b)(6)"
+        ],
+        [
+          "Self-luminous signs",
+          "Self-luminous or electroluminescent sign has a surface luminance of at least .06 footlamberts (0.21 cd/m²)",
+          "1910.37(b)(6)"
+        ],
+        [
+          "Sign color",
+          "Sign is distinctive in color against its surroundings",
+          "1910.37(b)(6)"
+        ],
+        [
+          "Letter height",
+          "\"Exit\" plainly legible, letters at least six inches (15.2 cm) high",
+          "1910.37(b)(7)"
+        ],
+        [
+          "Letter stroke width",
+          "Principal letter strokes at least three-fourths of an inch (1.9 cm) wide",
+          "1910.37(b)(7)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Lighting, safeguards and alarm",
+      "items": [
+        [
+          "Exit route lighting",
+          "A person with normal vision can see along the whole route",
+          "1910.37(b)(1)"
+        ],
+        [
+          "Emergency safeguards",
+          "Sprinklers, alarm systems, fire doors and exit lighting all working",
+          "1910.37(a)(4)"
+        ],
+        [
+          "Fire retardant coatings",
+          "Fire retardant paints or solutions renewed often enough to keep their fire retardant properties",
+          "1910.37(c)"
+        ],
+        [
+          "Employee alarm",
+          "Operable alarm with a distinctive signal for fire or other emergencies, unless employees can promptly see or smell a fire or other hazard in time to be adequately warned",
+          "1910.37(e)"
+        ],
+        [
+          "Alarm standard",
+          "Employee alarm system meets 29 CFR 1910.165",
+          "1910.37(e)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Construction, repairs and alterations",
+      "items": [
+        [
+          "New construction",
+          "Occupied portions have their required exit routes completed and ready for use",
+          "1910.37(d)(1)"
+        ],
+        [
+          "Repairs or alterations",
+          "Required exit routes available and existing fire protections maintained, or alternate fire protection of equivalent safety in place",
+          "1910.37(d)(2)"
+        ],
+        [
+          "Flammable or explosive hazards from the work",
+          "No flammable or explosive substances or equipment beyond normal permissible conditions, and none impeding exit",
+          "1910.37(d)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.37: Maintenance, safeguards, and operational features for exit routes (Part 1910 Subpart E: Exit Routes and Emergency Planning)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
