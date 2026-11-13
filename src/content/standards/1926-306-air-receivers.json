@@ -1,0 +1,285 @@
+{
+  "section": "1926.306",
+  "part": "1926",
+  "heading": "Air receivers.",
+  "subpart": "I",
+  "subpartTitle": "Tools—Hand and Power",
+  "title": "Air compressor tank inspection and OSHA requirements (29 CFR 1926.306)",
+  "seoTitle": "Air compressor tank inspection: OSHA 1926.306",
+  "description": "OSHA 29 CFR 1926.306 air receiver requirements in plain language, citation data for FY2022–FY2026, and a printable air compressor tank checklist.",
+  "opening": "29 CFR 1926.306 requires compressed air receivers to be installed with drains, handholes and manholes easy to reach, drained often enough to prevent excessive liquid accumulating, and fitted with a readily visible pressure gage and spring-loaded safety valves that cannot readily be disabled.",
+  "keyword": "air compressor tank inspection",
+  "cluster": [
+    {
+      "keyword": "osha air receiver tank requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "air receiver tank checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "air receiver tank inspection",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha air compressor tank requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "air compressor tank checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "air compressor tank inspection",
+      "volume": 70,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha air receivers requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "air receivers checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "air receivers inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.306",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 80,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 84,
+    "inspections": 83,
+    "byFy": {
+      "2022": 14,
+      "2023": 17,
+      "2024": 21,
+      "2025": 16,
+      "2026": 16
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(3)(i)",
+        "count": 66
+      },
+      {
+        "paragraph": "(b)(3)(iii)",
+        "count": 17
+      },
+      {
+        "paragraph": "(a)(2)(ii)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 19,
+      "median": 900,
+      "p25": 813,
+      "p75": 2210,
+      "total": 37912
+    },
+    "typeShares": {
+      "serious": 0.238,
+      "willful": 0,
+      "repeat": 0.012,
+      "otherThanSerious": 0.75,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 20,
+      "willful": 0,
+      "repeat": 1,
+      "otherThanSerious": 63,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 82,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2383",
+        "count": 1,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "3255",
+        "count": 1,
+        "title": "Paint, Coating, and Adhesive Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.306(b)(3)(i) drew 66 of the 84 citations in FY2022–FY2026. It requires every receiver to carry an indicating pressure gage where it can be seen, plus spring-loaded safety valves big enough to cap pressure at 10 percent over the maximum allowable working pressure. 1926.306(b)(3)(iii), on safety appliances that someone or the weather could put out of action, was cited 17 times, and 1926.306(a)(2)(ii) on safety valve construction was cited once. Yearly citations rose from 14 in FY2022 to 21 in FY2024, then fell back to 16 in each of FY2025 and FY2026.",
+  "requirementsIntro": "Under 1926.306(a)(1), the section covers compressed air receivers and other equipment used to supply and use compressed air for jobs such as cleaning, drilling, hoisting and chipping, and the same paragraph lists some exclusions. Paragraph (a) sets the construction code for receivers and safety valves, and paragraph (b) covers installation, drains, gages and valves. The groups below give the main rules, and the full text has more detail.",
+  "requirements": [
+    {
+      "heading": "Which construction code must air receivers and safety valves meet?",
+      "intro": "Under 1926.306(a)(2), new air receivers and all safety valves must follow the 1968 edition of the ASME Boiler and Pressure Vessel Code, Section VIII.",
+      "items": [
+        {
+          "text": "New air receivers installed after the effective date of the regulations must be built to the 1968 edition of that code's Section VIII.",
+          "clause": "1926.306(a)(2)(i)"
+        },
+        {
+          "text": "Every safety valve in use must be constructed, installed and maintained to the same 1968 Section VIII code.",
+          "clause": "1926.306(a)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "Where can an air receiver be installed?",
+      "intro": "1926.306(b)(1) requires every air receiver to sit where its drains, handholes and manholes can be reached easily.",
+      "items": [
+        {
+          "text": "Install the receiver so that every drain, handhole and manhole on it is easily accessible.",
+          "clause": "1926.306(b)(1)"
+        },
+        {
+          "text": "Never bury an air receiver underground or put it in an inaccessible place, under any circumstances.",
+          "clause": "1926.306(b)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "How must an air receiver be drained?",
+      "intro": "1926.306(b)(2) requires a drain pipe and valve at the lowest point of every air receiver, and complete draining frequently and at intervals that prevent excessive liquid from accumulating.",
+      "items": [
+        {
+          "text": "Fit a drain pipe and valve at the receiver's lowest point so accumulated oil and water can be removed.",
+          "clause": "1926.306(b)(2)"
+        },
+        {
+          "text": "Adequate automatic traps may be fitted, but only in addition to the drain valve.",
+          "clause": "1926.306(b)(2)"
+        },
+        {
+          "text": "Open the drain valve and drain the receiver completely, frequently and at intervals that stop excessive liquid from collecting. The text sets no fixed number of hours or days.",
+          "clause": "1926.306(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What gages and safety valves does every air receiver need?",
+      "intro": "1926.306(b)(3)(i) requires each air receiver to have an indicating pressure gage that is readily visible and at least one spring-loaded safety valve.",
+      "items": [
+        {
+          "text": "Fit an indicating pressure gage, located so it is readily visible.",
+          "clause": "1926.306(b)(3)(i)"
+        },
+        {
+          "text": "Fit one or more spring-loaded safety valves.",
+          "clause": "1926.306(b)(3)(i)"
+        },
+        {
+          "text": "Size the safety valves so their total relieving capacity keeps pressure in the receiver from exceeding the receiver's maximum allowable working pressure by more than 10 percent.",
+          "clause": "1926.306(b)(3)(i)"
+        },
+        {
+          "text": "Do not place a valve of any type between the receiver and its safety valve or valves.",
+          "clause": "1926.306(b)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must safety appliances be protected and tested?",
+      "intro": "Safety appliances on an air receiver must be hard to put out of action under 1926.306(b)(3)(iii), and safety valves must be tested regularly under 1926.306(b)(3)(iv).",
+      "items": [
+        {
+          "text": "Construct, locate and install safety appliances, including safety valves, indicating devices and controlling devices, so that no means, including the elements, can readily make them inoperative.",
+          "clause": "1926.306(b)(3)(iii)"
+        },
+        {
+          "text": "Test all safety valves frequently and at regular intervals to confirm they are in good operating condition.",
+          "clause": "1926.306(b)(3)(iv)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the construction, installation, draining, gage and safety valve rules in 29 CFR 1926.306; the standard sets no inspection schedule, so your site decides when to use it.",
+  "checklist": "us/1926-306-air-receivers",
+  "faq": [
+    {
+      "question": "Does 1926.306 apply to compressed air equipment on vehicles?",
+      "answer": "Paragraph 1926.306(a)(1) says the section is not intended to apply to compressed air machinery and equipment used on transportation vehicles, and gives steam railroad cars, electric railway cars and automotive equipment as examples. The text does not separately address a compressor carried on a vehicle to supply jobsite tools, so if you are unsure whether a unit falls within the exclusion, ask OSHA."
+    },
+    {
+      "question": "Does 1926.306 deal with tunnel or caisson work in compressed air?",
+      "answer": "No. Under 1926.306(a)(1), the section does not address the problems created when people work in compressed air, as in tunnels and caissons. It also leaves out the special problems of using compressed air to convey materials."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.306: Air receivers (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.306"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "air receivers",
+    "air compressor tanks",
+    "compressed air receivers"
+  ],
+  "cover": "1926-306-air-receivers",
+  "coverPrompt": "A realistic photograph of a construction site air compressor with a horizontal steel receiver tank on level ground, a worker in hard hat and gloves crouching to open the drain valve at the bottom of the tank, with the pressure gage and safety valve visible on top, in daylight.",
+  "coverAlt": "Worker opening the drain valve at the bottom of an air compressor receiver tank on a construction site",
+  "changes": []
+}

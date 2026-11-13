@@ -1,0 +1,120 @@
+{
+  "slug": "1926-306-air-receivers",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-306-air-receivers",
+  "doc_ref": "SI-US-1926-306",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Air Compressor Tank Inspection Checklist (29 CFR 1926.306)",
+  "subtitle": "Covers the 1926.306 air receiver rules; the standard itself sets no schedule for this check.",
+  "regulation_line": "OSHA 29 CFR 1926.306",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each defect and the action taken, and recheck the item once it has been corrected.",
+    "The manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Construction and installation",
+      "items": [
+        [
+          "Receiver construction code",
+          "For a receiver installed after the regulations' effective date, records or markings show it was built to ASME Section VIII, 1968 edition",
+          "1926.306(a)(2)(i)"
+        ],
+        [
+          "Safety valve construction and upkeep",
+          "Safety valves are constructed, installed and maintained to ASME Section VIII, 1968 edition",
+          "1926.306(a)(2)(ii)"
+        ],
+        [
+          "Access to openings",
+          "Every drain, handhole and manhole on the receiver is easily accessible",
+          "1926.306(b)(1)"
+        ],
+        [
+          "Receiver location",
+          "Receiver is not buried underground and is not in an inaccessible place",
+          "1926.306(b)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Drains and traps",
+      "items": [
+        [
+          "Drain pipe and valve",
+          "A drain pipe and valve are fitted at the lowest point of the receiver",
+          "1926.306(b)(2)"
+        ],
+        [
+          "Automatic trap (if fitted)",
+          "Any automatic trap is in addition to the drain valve, which is still present and working",
+          "1926.306(b)(2)"
+        ],
+        [
+          "Draining",
+          "Receiver is drained completely and often enough that opening the drain valve releases no excessive oil or water",
+          "1926.306(b)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Gages, safety valves and safety appliances",
+      "items": [
+        [
+          "Pressure gage",
+          "An indicating pressure gage is fitted and located so it is readily visible",
+          "1926.306(b)(3)(i)"
+        ],
+        [
+          "Spring-loaded safety valve",
+          "At least one spring-loaded safety valve is fitted to the receiver",
+          "1926.306(b)(3)(i)"
+        ],
+        [
+          "Relieving capacity",
+          "Combined relieving capacity of the safety valves holds pressure to no more than 10 percent above the receiver's MAWP",
+          "1926.306(b)(3)(i)"
+        ],
+        [
+          "No valve before the safety valve",
+          "No valve of any type sits between the receiver and any of its safety valves",
+          "1926.306(b)(3)(ii)"
+        ],
+        [
+          "Safety appliances protected",
+          "Safety valves, indicating devices and controlling devices cannot readily be made inoperative by any means, including weather",
+          "1926.306(b)(3)(iii)"
+        ],
+        [
+          "Safety valve testing",
+          "Safety valves are tested frequently and at regular intervals, and each valve is in good operating condition",
+          "1926.306(b)(3)(iv)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.306: Air receivers (Part 1926 Subpart I, Tools—Hand and Power)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
