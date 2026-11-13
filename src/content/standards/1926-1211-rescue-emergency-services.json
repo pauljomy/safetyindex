@@ -1,0 +1,415 @@
+{
+  "section": "1926.1211",
+  "part": "1926",
+  "heading": "Rescue and emergency services.",
+  "subpart": "AA",
+  "subpartTitle": "Confined Spaces in Construction",
+  "title": "OSHA confined space rescue requirements (29 CFR 1926.1211)",
+  "seoTitle": "OSHA Confined Space Rescue Requirements | 1926.1211",
+  "description": "OSHA confined space rescue requirements in 29 CFR 1926.1211: rescue service selection, training, retrieval systems, citation data and a checklist.",
+  "opening": "1926.1211 requires construction employers to evaluate and select a capable permit space rescue service, equip and train employees who serve as rescuers, use non-entry retrieval unless it would increase overall entry risk or not aid rescue, and give SDS information to the treating medical facility.",
+  "keyword": "osha confined space rescue requirements",
+  "cluster": [
+    {
+      "keyword": "osha confined space rescue construction requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space rescue construction checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space rescue construction inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha confined space rescue requirements",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space rescue checklist",
+      "volume": 10,
+      "kd": 19,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space rescue inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha rescue and emergency services requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rescue and emergency services checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rescue and emergency services inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1211",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 50,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 37,
+    "inspections": 24,
+    "byFy": {
+      "2022": 15,
+      "2023": 3,
+      "2024": 4,
+      "2025": 12,
+      "2026": 3
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(1)",
+        "count": 8
+      },
+      {
+        "paragraph": "(c)",
+        "count": 7
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 5
+      },
+      {
+        "paragraph": "(c)(2)",
+        "count": 4
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 3
+      },
+      {
+        "paragraph": "(a)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 2
+      },
+      {
+        "paragraph": "(b)(3)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 1
+      },
+      {
+        "paragraph": "(a)(3)(ii)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 26,
+      "median": 10938,
+      "p25": 7263,
+      "p75": 13157,
+      "total": 281855
+    },
+    "typeShares": {
+      "serious": 0.865,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 0.135,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 32,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 5,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2371",
+        "count": 13,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 6,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2211",
+        "count": 3,
+        "title": "Electric Power Generation, Transmission and Distribution"
+      },
+      {
+        "naics": "2373",
+        "count": 3,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "5629",
+        "count": 3,
+        "title": "Remediation and Other Waste Management Services"
+      },
+      {
+        "naics": "2383",
+        "count": 2,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "4238",
+        "count": 2,
+        "title": "Machinery, Equipment, and Supplies Merchant Wholesalers"
+      },
+      {
+        "naics": "2361",
+        "count": 1,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2362",
+        "count": 1,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 1,
+        "title": "Building Equipment Contractors"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.1211(c)(1), which covers the harness each authorized entrant wears and where the retrieval line attaches, drew the most citations (8). It was followed by the general non-entry rescue and retrieval system duty in 1926.1211(c) (7) and the rescue practice rule in 1926.1211(b)(4) (5). Citations fell from 15 in FY2022 to 3 in FY2023 and 4 in FY2024, rose to 12 in FY2025, and were 3 in FY2026.",
+  "requirementsIntro": "Paragraph (a) applies to employers who designate rescue and emergency services under 1926.1204(i), and paragraph (b) to employers whose own employees are designated as rescuers. Paragraphs (c) and (d) cover non-entry rescue, retrieval systems and SDS information for medical treatment. The groups below give the main rules of Subpart AA's rescue section; the full eCFR text has more detail.",
+  "requirements": [
+    {
+      "heading": "How must employers evaluate a prospective rescue service?",
+      "intro": "An employer that designates rescue and emergency services under 1926.1204(i) must first evaluate each prospective rescuer on response time and on proficiency with rescue tasks and equipment.",
+      "items": [
+        {
+          "text": "Evaluate whether the prospective rescuer can respond to a rescue summons in a timely manner, taking the identified hazards into account.",
+          "clause": "1926.1211(a)(1)"
+        },
+        {
+          "text": "What counts as timely depends on the hazards of each entry. The note to this paragraph points to 1926.103, which requires a standby person or persons capable of immediate action to rescue employees wearing respiratory protection in work areas defined as IDLH atmospheres.",
+          "clause": "1926.1211(a)(1)"
+        },
+        {
+          "text": "Evaluate whether the service is proficient enough with rescue-related tasks and equipment to function appropriately when rescuing entrants from the particular permit space or types of permit spaces identified.",
+          "clause": "1926.1211(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What must a selected rescue team be able to do?",
+      "intro": "1926.1211(a)(3) requires the employer to pick, from the services it evaluated, one that meets all three of the conditions below.",
+      "items": [
+        {
+          "text": "The team can reach the victim or victims within a time frame appropriate for the permit space hazards identified.",
+          "clause": "1926.1211(a)(3)(i)"
+        },
+        {
+          "text": "The team is equipped for, and proficient in, performing the needed rescue services.",
+          "clause": "1926.1211(a)(3)(ii)"
+        },
+        {
+          "text": "The team agrees to notify the employer immediately if it becomes unavailable.",
+          "clause": "1926.1211(a)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must employers share with rescuers and medical facilities?",
+      "intro": "Employers must brief rescue teams on site hazards, give the selected team access to the permit spaces, and pass SDS information to the facility treating an exposed entrant.",
+      "items": [
+        {
+          "text": "Inform each rescue team or service of the hazards it may confront when called on to perform rescue at the site.",
+          "clause": "1926.1211(a)(4)"
+        },
+        {
+          "text": "Give the selected team access to all permit spaces from which rescue may be necessary, so it can develop rescue plans and practice rescue operations.",
+          "clause": "1926.1211(a)(5)"
+        },
+        {
+          "text": "If an injured entrant is exposed to a substance for which an SDS or similar written information must be kept at the worksite, make that information available to the medical facility treating the entrant.",
+          "clause": "1926.1211(d)"
+        }
+      ]
+    },
+    {
+      "heading": "What must employers provide to employees designated as rescuers?",
+      "intro": "An employer whose employees are designated to provide permit space rescue or emergency services must supply PPE and training under 1926.1211(b).",
+      "items": [
+        {
+          "text": "Provide all equipment and training for designated rescuers at no cost to those employees.",
+          "clause": "1926.1211(b)"
+        },
+        {
+          "text": "Give each affected employee the PPE needed to conduct permit space rescues safely.",
+          "clause": "1926.1211(b)(1)"
+        },
+        {
+          "text": "Train each affected employee until they are proficient in using that PPE.",
+          "clause": "1926.1211(b)(1)"
+        },
+        {
+          "text": "Train each affected employee to perform their assigned rescue duties.",
+          "clause": "1926.1211(b)(2)"
+        },
+        {
+          "text": "Ensure designated rescuers complete the training and establish proficiency as authorized entrants, as provided by 1926.1207 and 1926.1208.",
+          "clause": "1926.1211(b)(2)"
+        },
+        {
+          "text": "Train each affected employee in basic first aid and CPR.",
+          "clause": "1926.1211(b)(3)"
+        },
+        {
+          "text": "Ensure at least one member of the rescue team or service who holds a current basic first aid and CPR certification is available.",
+          "clause": "1926.1211(b)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must employee rescuers practice permit space rescues?",
+      "intro": "Under 1926.1211(b)(4), affected employees must practice before attempting an actual rescue and at least once every 12 months, unless the exception in that paragraph applies.",
+      "items": [
+        {
+          "text": "Practice takes the form of simulated rescue operations, held before any actual rescue is attempted and repeated within each 12-month period.",
+          "clause": "1926.1211(b)(4)"
+        },
+        {
+          "text": "Simulations remove dummies, manikins or actual persons from the actual permit spaces or from representative permit spaces.",
+          "clause": "1926.1211(b)(4)"
+        },
+        {
+          "text": "A representative space must simulate the opening size, configuration and accessibility of the types of spaces from which rescue is to be performed.",
+          "clause": "1926.1211(b)(4)"
+        },
+        {
+          "text": "Practice is not required where the affected employees properly performed a rescue operation during the last 12 months in the same permit space the authorized entrant will enter, or in a similar permit space.",
+          "clause": "1926.1211(b)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "When is non-entry rescue required?",
+      "intro": "1926.1211(c) makes non-entry rescue the default, unless the retrieval equipment would increase the overall risk of entry or would not contribute to the rescue of the entrant.",
+      "items": [
+        {
+          "text": "Use non-entry rescue unless one of the two conditions in the paragraph applies: the retrieval equipment would raise overall entry risk, or it would not help rescue the entrant.",
+          "clause": "1926.1211(c)"
+        },
+        {
+          "text": "Designate an entry rescue service whenever non-entry rescue is not selected.",
+          "clause": "1926.1211(c)"
+        },
+        {
+          "text": "Where non-entry rescue is selected, the entry employer must ensure retrieval systems or methods are used whenever an authorized entrant enters a permit space.",
+          "clause": "1926.1211(c)"
+        },
+        {
+          "text": "Where non-entry rescue is selected, the entry employer must confirm before entry that emergency assistance would be available if non-entry rescue fails.",
+          "clause": "1926.1211(c)"
+        }
+      ]
+    },
+    {
+      "heading": "What must a retrieval system include?",
+      "intro": "Retrieval systems under 1926.1211(c)(1) to (c)(3) need a harness with a correctly placed line, an anchor or mechanical device outside the space, and equipment that suits the space.",
+      "items": [
+        {
+          "text": "Each authorized entrant wears a chest or full body harness with the retrieval line attached at the center of the back near shoulder level, above the head, or at another point the employer can establish presents a profile small enough for successful removal.",
+          "clause": "1926.1211(c)(1)"
+        },
+        {
+          "text": "Wristlets or anklets may replace the harness only if the employer can demonstrate that a harness is infeasible or creates a greater hazard, and that wristlets or anklets are the safest and most effective alternative.",
+          "clause": "1926.1211(c)(1)"
+        },
+        {
+          "text": "Attach the other end of the retrieval line to a mechanical device or fixed point outside the permit space, so rescue can begin as soon as the rescuer becomes aware it is necessary.",
+          "clause": "1926.1211(c)(2)"
+        },
+        {
+          "text": "Have a mechanical device available to retrieve personnel from vertical type permit spaces more than 5 feet (1.52 meters) deep.",
+          "clause": "1926.1211(c)(2)"
+        },
+        {
+          "text": "Do not use equipment unsuitable for retrieval; the paragraph's examples, which are not a complete list, are lines likely to tangle with other entrants' lines and lines that will not work because of the space's internal configuration.",
+          "clause": "1926.1211(c)(3)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers rescue service selection, employee rescuer training and practice, and retrieval systems under 29 CFR 1926.1211; use it when planning a permit space entry and again before entry begins.",
+  "checklist": "us/1926-1211-rescue-emergency-services",
+  "faq": [],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1211: Rescue and emergency services (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1211"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "confined space rescue",
+    "permit space rescue",
+    "retrieval systems"
+  ],
+  "cover": "1926-1211-rescue-emergency-services",
+  "coverPrompt": "A construction crew at an open underground utility vault in a street work zone, with a worker in a full body harness lowered through the opening on a retrieval line attached to a tripod-mounted mechanical winch while an attendant stands beside it. Daylight, hard hats and high-visibility clothing, no text, signs, numbers, logos or close-up faces.",
+  "coverAlt": "Worker in a full body harness entering a utility vault on a tripod winch retrieval line while an attendant watches",
+  "changes": []
+}

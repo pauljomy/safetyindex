@@ -1,0 +1,190 @@
+{
+  "slug": "1926-1211-rescue-emergency-services",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1211-rescue-emergency-services",
+  "doc_ref": "SI-US-1926-1211",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Confined Space Rescue Checklist (29 CFR 1926.1211)",
+  "subtitle": "Use before each construction permit space entry to confirm rescue arrangements and retrieval equipment are in place.",
+  "regulation_line": "OSHA 29 CFR 1926.1211",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is marked Defect, do not allow entry until it is corrected, and record what was done.",
+    "Manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Rescue service selection, briefing and SDS",
+      "items": [
+        [
+          "Response time evaluated",
+          "Employer can show the prospective rescuer's ability to respond to a summons in a timely manner was assessed against the identified hazards",
+          "1926.1211(a)(1)"
+        ],
+        [
+          "Rescue proficiency evaluated",
+          "Employer can show the service's proficiency with rescue tasks and equipment was assessed for this permit space or type of space",
+          "1926.1211(a)(2)"
+        ],
+        [
+          "Reach time",
+          "Selected team can reach victims within a time frame appropriate for the hazards identified",
+          "1926.1211(a)(3)(i)"
+        ],
+        [
+          "Team equipment and skills",
+          "Selected team is equipped for and proficient in the rescue services needed",
+          "1926.1211(a)(3)(ii)"
+        ],
+        [
+          "Unavailability notice",
+          "Selected team has agreed to tell the employer immediately if it becomes unavailable",
+          "1926.1211(a)(3)(iii)"
+        ],
+        [
+          "Hazard briefing",
+          "Each rescue team or service has been told the hazards it may face when called to this site",
+          "1926.1211(a)(4)"
+        ],
+        [
+          "Access to permit spaces",
+          "Selected team has had access to every permit space from which rescue may be needed, to plan and practice",
+          "1926.1211(a)(5)"
+        ],
+        [
+          "SDS for treating facility",
+          "SDS or similar written information for substances kept at the worksite can be made available to the medical facility treating an exposed entrant",
+          "1926.1211(d)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Employee rescuers: PPE, training and practice",
+      "items": [
+        [
+          "No cost to employees",
+          "Designated rescuers have received all equipment and training without paying for it",
+          "1926.1211(b)"
+        ],
+        [
+          "Rescue PPE issued",
+          "Each designated rescuer has the PPE needed to conduct permit space rescues safely",
+          "1926.1211(b)(1)"
+        ],
+        [
+          "PPE proficiency",
+          "Each designated rescuer has been trained and is proficient in using that PPE",
+          "1926.1211(b)(1)"
+        ],
+        [
+          "Rescue duty training",
+          "Each designated rescuer has been trained in their assigned rescue duties",
+          "1926.1211(b)(2)"
+        ],
+        [
+          "Authorized entrant proficiency",
+          "Each designated rescuer has completed training and established proficiency as an authorized entrant under 1926.1207 and 1926.1208",
+          "1926.1211(b)(2)"
+        ],
+        [
+          "First aid and CPR training",
+          "Each designated rescuer has been trained in basic first aid and CPR",
+          "1926.1211(b)(3)"
+        ],
+        [
+          "Certified member available",
+          "At least one team member with current basic first aid and CPR certification is available during the entry",
+          "1926.1211(b)(3)"
+        ],
+        [
+          "Practice rescue current",
+          "Rescuers have done a simulated rescue within the past 12 months, or properly performed a real rescue in that period in the same or a similar permit space",
+          "1926.1211(b)(4)"
+        ],
+        [
+          "Practice space realistic",
+          "Practice used the actual space or one simulating its opening size, configuration and accessibility, removing a dummy, manikin or person",
+          "1926.1211(b)(4)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Non-entry rescue and retrieval systems",
+      "items": [
+        [
+          "Rescue method decided",
+          "Non-entry rescue is used, or there is a stated reason that retrieval equipment would increase overall entry risk or not contribute to rescue",
+          "1926.1211(c)"
+        ],
+        [
+          "Entry rescue service designated",
+          "An entry rescue service is designated where non-entry rescue was not selected",
+          "1926.1211(c)"
+        ],
+        [
+          "Retrieval system in use",
+          "Where non-entry rescue is selected, a retrieval system or method is used each time an authorized entrant enters",
+          "1926.1211(c)"
+        ],
+        [
+          "Backup assistance confirmed",
+          "Before entry, the entry employer has confirmed emergency assistance would be available if non-entry rescue fails",
+          "1926.1211(c)"
+        ],
+        [
+          "Harness worn",
+          "Each authorized entrant wears a chest or full body harness",
+          "1926.1211(c)(1)"
+        ],
+        [
+          "Line attachment point",
+          "Retrieval line is attached at the center of the back near shoulder level, above the head, or at another point shown to give a profile small enough for removal",
+          "1926.1211(c)(1)"
+        ],
+        [
+          "Wristlets or anklets justified",
+          "If wristlets or anklets are used, employer can demonstrate a harness is infeasible or more hazardous and wristlets or anklets are the safest, most effective option",
+          "1926.1211(c)(1)"
+        ],
+        [
+          "Line anchored outside",
+          "Other end of the retrieval line is attached to a mechanical device or fixed point outside the space so rescue can start immediately",
+          "1926.1211(c)(2)"
+        ],
+        [
+          "Mechanical device for deep vertical spaces",
+          "A mechanical retrieval device is available at vertical type permit spaces more than 5 feet (1.52 meters) deep",
+          "1926.1211(c)(2)"
+        ],
+        [
+          "Unsuitable equipment excluded",
+          "No retrieval lines likely to tangle with other entrants' lines and none that will not work in the space's internal configuration",
+          "1926.1211(c)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1211: Rescue and emergency services (Part 1926 Subpart AA, Confined Spaces in Construction)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

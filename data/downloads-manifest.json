@@ -370,6 +370,16 @@
       "pdf": "/downloads/us/1926-1101-asbestos.pdf",
       "xlsx": "/downloads/us/1926-1101-asbestos.xlsx"
     },
+    "us/1926-1211-rescue-emergency-services": {
+      "hash": "7739244cb67edd9518b02810682086ac26de184286034536e709624016252f90",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 27,
+      "page_url": "https://safetyindex.blog/us/standards/1926-1211-rescue-emergency-services",
+      "pdf": "/downloads/us/1926-1211-rescue-emergency-services.pdf",
+      "xlsx": "/downloads/us/1926-1211-rescue-emergency-services.xlsx"
+    },
     "us/1926-1412-inspections": {
       "hash": "4b625e47c45f7027d6b37547976d0e55b20f2fa0cb265446c6576a07bdd04d0d",
       "lang": "en",
