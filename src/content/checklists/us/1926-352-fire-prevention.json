@@ -1,0 +1,152 @@
+{
+  "slug": "1926-352-fire-prevention",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-352-fire-prevention",
+  "doc_ref": "SI-US-1926-352",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Hot Work Fire Watch Checklist (29 CFR 1926.352)",
+  "subtitle": "Use before and after each hot work job on site.",
+  "regulation_line": "OSHA 29 CFR 1926.352",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A before hot work starts; recheck section B after the work ends.",
+    "If any item is a Defect, don't start or continue the work until it is corrected, and record what was done.",
+    "Manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Work location and surrounding fire hazards",
+      "items": [
+        [
+          "Object moved to safe location",
+          "Where moving it was practical, the object being worked on sits in a designated safe location.",
+          "1926.352(a)"
+        ],
+        [
+          "Movable fire hazards cleared",
+          "Where the object stays put, every movable fire hazard nearby has been taken to a safe place or protected.",
+          "1926.352(a)"
+        ],
+        [
+          "Heat, sparks and slag confined",
+          "Where the object and some hazards can't be moved, positive means are in place that confine heat, sparks and slag and protect the immovable hazards.",
+          "1926.352(b)"
+        ],
+        [
+          "No flammable paints, compounds or heavy dust",
+          "No flammable paint being applied, no other flammable compounds and no heavy dust concentrations creating a hazard at the work point.",
+          "1926.352(c)"
+        ],
+        [
+          "Opposite side of walls, floors and ceilings",
+          "For work on a wall, floor or ceiling, the adjacent side has the same precautions as the working side.",
+          "1926.352(f)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Fire extinguishing equipment and fire watch",
+      "items": [
+        [
+          "Extinguishing equipment at hand",
+          "Suitable fire extinguishing equipment is in the work area itself and immediately available.",
+          "1926.352(d)"
+        ],
+        [
+          "Equipment ready for instant use",
+          "Extinguishing equipment is in a state of readiness for instant use when checked.",
+          "1926.352(d)"
+        ],
+        [
+          "Fire watch assigned when needed",
+          "Where normal precautions aren't sufficient, extra personnel are assigned to guard against fire for the whole time the work is performed.",
+          "1926.352(e)"
+        ],
+        [
+          "Fire watch stays after the work",
+          "Fire guard remains after completion until there is no possibility of fire.",
+          "1926.352(e)"
+        ],
+        [
+          "Fire watch instructed",
+          "Fire guard can name the specific anticipated fire hazards and explain how to use the firefighting equipment provided.",
+          "1926.352(e)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Torches and hoses in enclosed spaces",
+      "items": [
+        [
+          "Gas shut off outside the space",
+          "Torch gas supply is positively shut off at a point outside the enclosed space whenever the torch is not in use or left unattended for a substantial period, such as lunch.",
+          "1926.352(g)"
+        ],
+        [
+          "Torch and hose out overnight and at shift change",
+          "No torch or hose left inside the confined space overnight or at the change of shifts.",
+          "1926.352(g)"
+        ],
+        [
+          "Disconnected hoses removed",
+          "Open-end fuel gas and oxygen hoses are taken out of the enclosed space as soon as they are disconnected from the torch or other gas-consuming device.",
+          "1926.352(g)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Drums, containers and hollow structures",
+      "items": [
+        [
+          "Flammable-liquid containers closed",
+          "Drums, pails and other containers that hold or held flammable liquids are closed unless contents are being removed or transferred.",
+          "1926.352(h)"
+        ],
+        [
+          "Empty containers removed",
+          "Empty containers are in a safe area apart from hot work and open flames.",
+          "1926.352(h)"
+        ],
+        [
+          "Vessels filled or cleaned, ventilated and tested",
+          "Before hot work, any drum, container or hollow structure that held toxic or flammable substances is either filled with water or thoroughly cleaned, ventilated and tested.",
+          "1926.352(i)"
+        ],
+        [
+          "Natural gas pipeline work",
+          "For steel pipelines containing natural gas, the work follows the pertinent portions of 49 CFR part 192.",
+          "1926.352(i)"
+        ],
+        [
+          "Vent or opening provided",
+          "A vent or opening is in place on the drum, container or hollow structure before heat is applied, to release built-up pressure.",
+          "1926.352(j)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.352: Fire prevention (Part 1926 Subpart J, Welding and Cutting)",
+    "49 CFR part 192: Minimum Federal Safety Standards for Gas Pipelines (referenced by 1926.352(i))",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

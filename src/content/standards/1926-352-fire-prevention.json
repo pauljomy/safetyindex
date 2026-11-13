@@ -1,0 +1,368 @@
+{
+  "section": "1926.352",
+  "part": "1926",
+  "heading": "Fire prevention.",
+  "subpart": "J",
+  "subpartTitle": "Welding and Cutting",
+  "title": "OSHA hot work fire watch requirements (29 CFR 1926.352)",
+  "seoTitle": "OSHA Hot Work Fire Watch Requirements | 1926.352",
+  "description": "29 CFR 1926.352 hot work fire watch and welding fire prevention requirements, OSHA citation data for FY2022–FY2026, and a printable site checklist.",
+  "opening": "29 CFR 1926.352 requires moving objects or nearby fire hazards away, where practical, before welding, cutting, or heating, confining sparks and slag when they can't be moved, keeping suitable extinguishing equipment on hand, and assigning fire guards when normal precautions aren't enough.",
+  "keyword": "osha hot work fire watch requirements",
+  "cluster": [
+    {
+      "keyword": "osha hot work fire watch requirements",
+      "volume": 20,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hot work fire watch checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hot work fire watch inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha welding fire prevention requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "welding fire prevention checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "welding fire prevention inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha fire prevention requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire prevention checklist",
+      "volume": 880,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire prevention inspection",
+      "volume": 140,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.352",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 1040,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 64,
+    "inspections": 47,
+    "byFy": {
+      "2022": 9,
+      "2023": 19,
+      "2024": 17,
+      "2025": 12,
+      "2026": 7
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(d)",
+        "count": 15
+      },
+      {
+        "paragraph": "(i)",
+        "count": 11
+      },
+      {
+        "paragraph": "(b)",
+        "count": 10
+      },
+      {
+        "paragraph": "(c)",
+        "count": 9
+      },
+      {
+        "paragraph": "(a)",
+        "count": 8
+      },
+      {
+        "paragraph": "(e)",
+        "count": 7
+      },
+      {
+        "paragraph": "(j)",
+        "count": 3
+      },
+      {
+        "paragraph": "(f)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 49,
+      "median": 4681,
+      "p25": 3547,
+      "p75": 8067,
+      "total": 439905
+    },
+    "typeShares": {
+      "serious": 0.734,
+      "willful": 0.016,
+      "repeat": 0,
+      "otherThanSerious": 0.25,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 47,
+      "willful": 1,
+      "repeat": 0,
+      "otherThanSerious": 16,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 17,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2382",
+        "count": 12,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 9,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2131",
+        "count": 3,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "2362",
+        "count": 3,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2371",
+        "count": 3,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "4239",
+        "count": 3,
+        "title": "Miscellaneous Durable Goods Merchant Wholesalers"
+      },
+      {
+        "naics": "2111",
+        "count": 2,
+        "title": "Oil and Gas Extraction"
+      },
+      {
+        "naics": "2361",
+        "count": 2,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 2,
+        "title": "Other Heavy and Civil Engineering Construction"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.352(d), on fire extinguishing equipment and its readiness, drew the most citations (15), followed by (i) on drums, containers and hollow structures that held toxic or flammable substances (11) and (b) on confining heat, sparks and slag when the object and its surrounding hazards can't be moved (10). Citations went from 9 in FY2022 to 19 in FY2023, then fell to 17 in FY2024, 12 in FY2025 and 7 in FY2026.",
+  "requirementsIntro": "1926.352 sits in Part 1926 Subpart J (Welding and Cutting) and has no separate scope paragraph, so its duties attach to any welding, cutting, or heating operation. Paragraphs (a) through (j) run from clearing fire hazards to extinguishers, fire guards, torch control in enclosed spaces, and containers.",
+  "requirements": [
+    {
+      "heading": "What must happen to the work object and nearby fire hazards before hot work?",
+      "intro": "Under 1926.352(a) and (b), the object is moved to a safe location or the fire hazards are moved away from it, and where neither is fully possible, sparks and slag are confined.",
+      "items": [
+        {
+          "text": "When practical, move the object to be welded, cut, or heated to a designated safe location.",
+          "clause": "1926.352(a)"
+        },
+        {
+          "text": "If the object can't be readily moved, take all movable fire hazards in the vicinity to a safe place or otherwise protect them.",
+          "clause": "1926.352(a)"
+        },
+        {
+          "text": "If the object can't be moved and not all fire hazards can be removed, use positive means to confine heat, sparks, and slag and to protect the immovable fire hazards from them.",
+          "clause": "1926.352(b)"
+        }
+      ]
+    },
+    {
+      "heading": "Where is hot work not allowed, and when must the far side of a wall be protected?",
+      "intro": "1926.352(c) bars hot work where flammable paints, other flammable compounds, or heavy dust concentrations create a hazard, and 1926.352(f) extends precautions to the opposite side of walls, floors, and ceilings.",
+      "items": [
+        {
+          "text": "Do not weld, cut, or heat where applying flammable paints, the presence of other flammable compounds, or heavy dust concentrations create a hazard.",
+          "clause": "1926.352(c)"
+        },
+        {
+          "text": "When working on walls, floors, or ceilings, take the same precautions on the opposite side as on the working side, because sparks can penetrate and heat can transfer to the adjacent area.",
+          "clause": "1926.352(f)"
+        }
+      ]
+    },
+    {
+      "heading": "What fire extinguishing equipment and fire watch does OSHA require for hot work?",
+      "intro": "1926.352(d) requires fire extinguishing equipment at hand and ready for instant use, and 1926.352(e) requires extra personnel to guard against fire when normal precautions aren't sufficient for the operation.",
+      "items": [
+        {
+          "text": "Keep suitable fire extinguishing equipment immediately available in the work area.",
+          "clause": "1926.352(d)"
+        },
+        {
+          "text": "Maintain that equipment in a state of readiness for instant use.",
+          "clause": "1926.352(d)"
+        },
+        {
+          "text": "When normal fire prevention precautions are not sufficient for the operation, assign additional personnel to guard against fire while the actual work is being performed.",
+          "clause": "1926.352(e)"
+        },
+        {
+          "text": "Keep those personnel on guard for a sufficient period after the work is completed to ensure that no possibility of fire exists.",
+          "clause": "1926.352(e)"
+        },
+        {
+          "text": "Instruct those personnel on the specific anticipated fire hazards and on how to use the firefighting equipment provided.",
+          "clause": "1926.352(e)"
+        }
+      ]
+    },
+    {
+      "heading": "How must torch gas and hoses be controlled in enclosed spaces?",
+      "intro": "1926.352(g) requires torch gas to be shut off outside the enclosed space and torches and hoses to be removed, to prevent fire from gas escaping through leaking or improperly closed torch valves.",
+      "items": [
+        {
+          "text": "Positively shut off the gas supply to the torch at a point outside the enclosed space whenever the torch is not to be used or is left unattended for a substantial period, such as during the lunch period.",
+          "clause": "1926.352(g)"
+        },
+        {
+          "text": "Remove the torch and hose from the confined space overnight and at the change of shifts.",
+          "clause": "1926.352(g)"
+        },
+        {
+          "text": "Immediately remove open-end fuel gas and oxygen hoses from enclosed spaces when they are disconnected from the torch or other gas-consuming device.",
+          "clause": "1926.352(g)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.352 require for drums, containers, and hollow structures?",
+      "intro": "1926.352(h) through (j) require flammable-liquid containers to be kept closed, vessels that held toxic or flammable substances to be filled with water or cleaned, ventilated and tested before hot work, and a vent to be provided before heat is applied.",
+      "items": [
+        {
+          "text": "Keep drums, pails, and other containers that contain or have contained flammable liquids closed, except when contents are being removed or transferred.",
+          "clause": "1926.352(h)"
+        },
+        {
+          "text": "Remove empty containers to a safe area apart from hot work operations or open flames.",
+          "clause": "1926.352(h)"
+        },
+        {
+          "text": "Before any hot work on drums, containers, or hollow structures that have contained toxic or flammable substances, either fill them with water or thoroughly clean them of those substances and ventilate and test them.",
+          "clause": "1926.352(i)"
+        },
+        {
+          "text": "For hot work on steel pipelines containing natural gas, apply the pertinent portions of the Department of Transportation, Office of Pipeline Safety rules in 49 CFR part 192, Minimum Federal Safety Standards for Gas Pipelines.",
+          "clause": "1926.352(i)"
+        },
+        {
+          "text": "Before heat is applied to a drum, container, or hollow structure, provide a vent or opening to release any built-up pressure.",
+          "clause": "1926.352(j)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers paragraphs (a) through (j) of 1926.352, from clearing fire hazards to venting containers, for use before hot work starts and again once it ends.",
+  "checklist": "us/1926-352-fire-prevention",
+  "faq": [
+    {
+      "question": "Does 29 CFR 1926.352 use the term \"fire watch\"?",
+      "answer": "No. The words \"fire watch\" do not appear in 1926.352. Paragraph (e) calls for additional personnel assigned to guard against fire, which is the paragraph the search term maps to."
+    },
+    {
+      "question": "How many minutes must the fire guard stay after hot work ends?",
+      "answer": "The standard gives no minute count. Under 1926.352(e) the period ends only when there is no possibility of fire, so it has to be judged job by job."
+    },
+    {
+      "question": "Does 1926.352 name a type or size of extinguisher?",
+      "answer": "No. Paragraph (d) says only \"suitable\" equipment and gives no extinguisher class, rating, size or count. Check the manufacturer's instructions and your site rules for what suits the hazard."
+    },
+    {
+      "question": "Does 1926.352 cover heating as well as welding and cutting?",
+      "answer": "Yes. Paragraphs (a), (b), (c), (e), (f) and (i) each name heating alongside welding and cutting, and paragraph (j) applies whenever heat is applied to a drum, container or hollow structure."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.352: Fire prevention (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.352"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "hot work fire watch",
+    "welding fire prevention",
+    "hot work fire prevention"
+  ],
+  "cover": "1926-352-fire-prevention",
+  "coverPrompt": "A welder in a fire-resistant jacket, leather gloves and a welding helmet cuts a steel beam with an oxyfuel torch on a construction site, with a welding blanket spread below to catch sparks, while a second worker stands a few steps back holding a fire extinguisher ready.",
+  "coverAlt": "Welder cutting steel with a torch over a spark blanket while a fire watch stands by with an extinguisher",
+  "changes": []
+}
