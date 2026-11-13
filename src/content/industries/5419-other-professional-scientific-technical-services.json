@@ -1,0 +1,247 @@
+{
+  "naics": "5419",
+  "naicsTitle": "Other Professional, Scientific, and Technical Services",
+  "title": "Most-cited OSHA standards in veterinary and other professional services (NAICS 5419)",
+  "seoTitle": "Veterinary & other services OSHA citations (NAICS 5419)",
+  "description": "OSHA citations FY2022–FY2026 for NAICS 5419, which includes veterinary services: hazard communication leads with 173 of 580 citations.",
+  "opening": "Across NAICS 5419, which includes veterinary services, photography studios and polling firms, the most-cited OSHA standard from FY2022 to FY2026 was 1910.1200, hazard communication, with 173 of 580 citations, followed by 1910.134 respiratory protection with 37.",
+  "keyword": "veterinary osha",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 130,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 549,
+    "citations": 580,
+    "topStandards": [
+      {
+        "section": "1910.1200",
+        "count": 173
+      },
+      {
+        "section": "1910.134",
+        "count": 37
+      },
+      {
+        "section": "1910.132",
+        "count": 30
+      },
+      {
+        "section": "1910.1048",
+        "count": 29
+      },
+      {
+        "section": "1910.151",
+        "count": 27
+      },
+      {
+        "section": "1910.133",
+        "count": 21
+      },
+      {
+        "section": "1910.157",
+        "count": 21
+      },
+      {
+        "section": "1910.37",
+        "count": 16
+      },
+      {
+        "section": "1910.303",
+        "count": 15
+      },
+      {
+        "section": "1910.305",
+        "count": 15
+      },
+      {
+        "section": "1910.147",
+        "count": 13
+      },
+      {
+        "section": "1904.40",
+        "count": 12
+      },
+      {
+        "section": "1910.22",
+        "count": 12
+      },
+      {
+        "section": "1904.39",
+        "count": 11
+      },
+      {
+        "section": "1910.1096",
+        "count": 11
+      },
+      {
+        "section": "1910.146",
+        "count": 10
+      },
+      {
+        "section": "1910.38",
+        "count": 8
+      },
+      {
+        "section": "1904.29",
+        "count": 7
+      },
+      {
+        "section": "1910.28",
+        "count": 7
+      },
+      {
+        "section": "1910.101",
+        "count": 6
+      },
+      {
+        "section": "1910.141",
+        "count": 6
+      },
+      {
+        "section": "1926.1153",
+        "count": 5
+      },
+      {
+        "section": "1926.501",
+        "count": 5
+      },
+      {
+        "section": "1910.1030",
+        "count": 4
+      },
+      {
+        "section": "1910.1450",
+        "count": 4
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 61
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 46
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 26
+      },
+      {
+        "clause": "1910.133(a)(1)",
+        "count": 21
+      },
+      {
+        "clause": "1904.40(a)",
+        "count": 12
+      },
+      {
+        "clause": "1910.1200(f)(6)(ii)",
+        "count": 11
+      },
+      {
+        "clause": "1910.1200(g)(1)",
+        "count": 10
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 10
+      },
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 9
+      },
+      {
+        "clause": "1910.132(d)(1)",
+        "count": 9
+      }
+    ],
+    "penalties": {
+      "n": 312,
+      "median": 2500,
+      "p25": 750,
+      "p75": 5497,
+      "total": 1212689
+    },
+    "typeShares": {
+      "serious": 0.643,
+      "willful": 0.003,
+      "repeat": 0.005,
+      "otherThanSerious": 0.348,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 23
+  },
+  "patternsSummary": "Hazard communication (1910.1200) leads NAICS 5419 with 173 of the 580 citations. The other substance and protective equipment standards near the top are respiratory protection (1910.134, 37), general PPE requirements (1910.132, 30), formaldehyde (1910.1048, 29) and eye and face protection (1910.133, 21). Medical services and first aid (1910.151, 27), portable fire extinguishers (1910.157, 21), exit routes (1910.37, 16) and the electrical rules in 1910.303 and 1910.305 (15 each) also rank high, ahead of lockout/tagout (1910.147, 13), walking-working surfaces (1910.22, 12), providing records to government representatives (1904.40, 12), incident reporting (1904.39, 11) and ionizing radiation (1910.1096, 11). In all, 23 standards were cited 5 or more times; the ranked table has the full list.",
+  "penaltiesSummary": "Based on 312 penalties from FY2022–FY2026, the median was $2,500, and the middle half fell between $750 and $5,497. Of all citations, 64% were classified serious, 35% other-than-serious and 1% repeat, and willful citations were rare.",
+  "standardNotes": [
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z (Toxic and Hazardous Substances)."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, part of Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment, in Subpart I."
+    },
+    {
+      "section": "1910.1048",
+      "note": "Formaldehyde, in Subpart Z (Toxic and Hazardous Substances)."
+    },
+    {
+      "section": "1910.151",
+      "note": "Medical services and first aid, in Subpart K (Medical and First Aid)."
+    },
+    {
+      "section": "1910.133",
+      "note": "Eye and face protection, part of Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, in Subpart L (Fire Protection)."
+    },
+    {
+      "section": "1910.37",
+      "note": "Maintenance, safeguards and operational features for exit routes, in Subpart E (Exit Routes and Emergency Planning)."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "other professional, scientific, and technical services",
+    "NAICS 5419"
+  ],
+  "cover": "5419-other-professional-scientific-technical-services",
+  "coverPrompt": "Realistic photograph of a bright veterinary clinic exam room: a veterinary technician wearing nitrile gloves, safety glasses and scrubs gently holds a calm dog on a stainless steel exam table while a colleague in gloves prepares supplies at a counter. An eyewash station is mounted by the sink and a fire extinguisher hangs on the wall. Faces turned away or out of frame, natural daylight, no readable text, no logos.",
+  "coverAlt": "Veterinary technician in gloves and safety glasses holding a dog on a clinic exam table",
+  "changes": []
+}
