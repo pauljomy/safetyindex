@@ -1,0 +1,397 @@
+{
+  "section": "1910.27",
+  "part": "1910",
+  "heading": "Scaffolds and rope descent systems.",
+  "subpart": "D",
+  "subpartTitle": "Walking-Working Surfaces",
+  "title": "OSHA 1910.27 scaffold and rope descent system requirements",
+  "seoTitle": "OSHA 1910.27: Scaffold and Rope Descent System Rules",
+  "description": "OSHA 1910.27 requirements for general industry scaffolds and rope descent systems, with citation data and a printable inspection checklist.",
+  "opening": "29 CFR 1910.27 requires general industry scaffolds to meet 29 CFR part 1926, subpart L, and sets rules for rope descent systems, including written anchorage information from the building owner, an inspection every workshift, a separate fall arrest system and prompt rescue.",
+  "keyword": "osha 1910.27",
+  "cluster": [
+    {
+      "keyword": "osha rope descent system requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rope descent system checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rope descent system inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha general industry scaffold requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "general industry scaffold checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "general industry scaffold inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha scaffolds and rope descent systems requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "scaffolds and rope descent systems checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "scaffolds and rope descent systems inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.27",
+      "volume": 90,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 90,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 131,
+    "inspections": 108,
+    "byFy": {
+      "2022": 24,
+      "2023": 32,
+      "2024": 23,
+      "2025": 25,
+      "2026": 27
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)",
+        "count": 80
+      },
+      {
+        "paragraph": "(b)(1)(ii)",
+        "count": 10
+      },
+      {
+        "paragraph": "(b)(2)(ix)",
+        "count": 6
+      },
+      {
+        "paragraph": "(b)(1)(i)",
+        "count": 5
+      },
+      {
+        "paragraph": "(b)(2)(iv)",
+        "count": 5
+      },
+      {
+        "paragraph": "(b)(2)(v)",
+        "count": 5
+      },
+      {
+        "paragraph": "(b)(2)(vi)",
+        "count": 5
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 4
+      },
+      {
+        "paragraph": "(b)(2)(ii)",
+        "count": 3
+      },
+      {
+        "paragraph": "(b)(1)(iii)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 99,
+      "median": 6621,
+      "p25": 3851,
+      "p75": 10876,
+      "total": 1083396
+    },
+    "typeShares": {
+      "serious": 0.733,
+      "willful": 0.015,
+      "repeat": 0.023,
+      "otherThanSerious": 0.229,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 96,
+      "willful": 2,
+      "repeat": 3,
+      "otherThanSerious": 30,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "5617",
+        "count": 33,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "3219",
+        "count": 8,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "2213",
+        "count": 7,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "7211",
+        "count": 7,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "3261",
+        "count": 4,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3366",
+        "count": 4,
+        "title": "Ship and Boat Building"
+      },
+      {
+        "naics": "8111",
+        "count": 4,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "2381",
+        "count": 3,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "3119",
+        "count": 3,
+        "title": "Other Food Manufacturing"
+      },
+      {
+        "naics": "3399",
+        "count": 3,
+        "title": "Other Miscellaneous Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.27(a) drew 80 of the 131 citations in FY2022–FY2026. It is the paragraph that sends general industry scaffolds to the subpart L scaffold rules. Next come 1910.27(b)(1)(ii), with 10 citations, for letting employees use an anchorage before the employer holds the building owner's written anchorage information, and 1910.27(b)(2)(ix), with 6, for ropes left unpadded where they touch edges or other surfaces. Citations per year ranged from 23 in FY2024 to 32 in FY2023, and FY2026 recorded 27.",
+  "requirementsIntro": "29 CFR 1910.27 covers scaffolds used in general industry (paragraph (a)) and rope descent systems, with anchorage duties for building owners and employers in (b)(1) and the conditions of use in (b)(2). The groups below give the main rules; the full text on eCFR has the complete wording.",
+  "requirements": [
+    {
+      "heading": "Which rules apply to scaffolds and rope descent systems?",
+      "intro": "Under 1910.27, scaffolds follow the construction scaffold subpart, while rope descent systems follow the anchorage and use rules written into 1910.27(b).",
+      "items": [
+        {
+          "text": "Scaffolds used in general industry must meet the requirements of subpart L (Scaffolds) of 29 CFR part 1926.",
+          "clause": "1910.27(a)"
+        },
+        {
+          "text": "The employer must ensure each rope descent system is used under all of the conditions set out in 1910.27(b)(2)(i) through (xiii).",
+          "clause": "1910.27(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What must the building owner confirm about anchorages?",
+      "intro": "Before any rope descent system is used, the building owner must give the employer written information on each anchorage under 1910.27(b)(1)(i).",
+      "items": [
+        {
+          "text": "The building owner must inform the employer in writing that each anchorage has been identified, tested, certified and maintained so it can support at least 5,000 pounds (2,268 kg), in any direction, for each employee attached.",
+          "clause": "1910.27(b)(1)(i)"
+        },
+        {
+          "text": "The written information must be based on an annual inspection carried out by a qualified person.",
+          "clause": "1910.27(b)(1)(i)"
+        },
+        {
+          "text": "Each anchorage must be certified by a qualified person as necessary, and at least every 10 years.",
+          "clause": "1910.27(b)(1)(i)"
+        },
+        {
+          "text": "The building owner and employer anchorage duties had to be implemented no later than November 20, 2017.",
+          "clause": "1910.27(b)(1)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must the employer do before anyone uses an anchorage?",
+      "intro": "Under 1910.27(b)(1)(ii), the employer must hold the building owner's written anchorage information before any employee uses an anchorage.",
+      "items": [
+        {
+          "text": "No employee may use any anchorage until the employer has obtained written information from the building owner that each anchorage meets 1910.27(b)(1)(i).",
+          "clause": "1910.27(b)(1)(ii)"
+        },
+        {
+          "text": "The employer must keep that anchorage information for the duration of the job.",
+          "clause": "1910.27(b)(1)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "When is a rope descent system not allowed or in need of extra measures?",
+      "intro": "Rope descent system use is limited by height and weather, and long descents need stabilization, under 1910.27(b)(2)(i), (x) and (xi).",
+      "items": [
+        {
+          "text": "A rope descent system may not be used for heights greater than 300 feet (91 m) above grade unless the employer demonstrates that reaching those heights by any other means is not feasible or that those means pose a greater hazard.",
+          "clause": "1910.27(b)(2)(i)"
+        },
+        {
+          "text": "Stabilization must be provided at the specific work location when descents are greater than 130 feet (39.6 m).",
+          "clause": "1910.27(b)(2)(x)"
+        },
+        {
+          "text": "No employee may use a rope descent system when hazardous weather conditions, such as storms or gusty or excessive wind, are present.",
+          "clause": "1910.27(b)(2)(xi)"
+        }
+      ]
+    },
+    {
+      "heading": "How strong must rope descent system components be?",
+      "intro": "Under 1910.27(b)(2)(vii), every component other than the seat board needs a minimum rated load of 5,000 pounds (22.2 kN), and the seat board has its own live-load figure.",
+      "items": [
+        {
+          "text": "All components of each rope descent system, except seat boards, must be capable of sustaining a minimum rated load of 5,000 pounds (22.2 kN).",
+          "clause": "1910.27(b)(2)(vii)"
+        },
+        {
+          "text": "Seat boards must be capable of supporting a live load of 300 pounds (136 kg).",
+          "clause": "1910.27(b)(2)(vii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must the system be rigged and the ropes protected?",
+      "intro": "Rigging, rope protection and manufacturer limits for rope descent systems are covered by 1910.27(b)(2)(ii), (v), (ix) and (xiii).",
+      "items": [
+        {
+          "text": "The system must be used in line with the manufacturer's instructions, warnings and design limitations, or under the direction of a qualified person.",
+          "clause": "1910.27(b)(2)(ii)"
+        },
+        {
+          "text": "The system must have proper rigging, including anchorages and tiebacks, with tiebacks given particular emphasis where counterweights, cornice hooks or similar non-permanent anchorages are used.",
+          "clause": "1910.27(b)(2)(v)"
+        },
+        {
+          "text": "Ropes must be effectively padded or otherwise protected wherever they can contact edges of the building, anchorage, obstructions or other surfaces, so they are not cut or weakened.",
+          "clause": "1910.27(b)(2)(ix)"
+        },
+        {
+          "text": "Ropes must be protected from exposure to open flames, hot work, corrosive chemicals and other destructive conditions.",
+          "clause": "1910.27(b)(2)(xiii)"
+        }
+      ]
+    },
+    {
+      "heading": "What inspection and training does a rope descent system need?",
+      "intro": "A rope descent system must be inspected at the start of each workshift it is to be used, and every user must be trained, under 1910.27(b)(2)(iii) and (iv).",
+      "items": [
+        {
+          "text": "Each employee who uses the rope descent system must be trained in accordance with § 1910.30.",
+          "clause": "1910.27(b)(2)(iii)"
+        },
+        {
+          "text": "The rope descent system must be inspected at the start of each workshift in which it is to be used.",
+          "clause": "1910.27(b)(2)(iv)"
+        },
+        {
+          "text": "Damaged or defective equipment must be removed from service immediately and replaced.",
+          "clause": "1910.27(b)(2)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "What fall arrest, rescue and dropped-object controls are required?",
+      "intro": "Each rope descent system user needs an independent fall arrest system and prompt rescue, and tools must be secured, under 1910.27(b)(2)(vi), (viii) and (xii).",
+      "items": [
+        {
+          "text": "Each employee must use a separate, independent personal fall arrest system that meets subpart I of part 1910.",
+          "clause": "1910.27(b)(2)(vi)"
+        },
+        {
+          "text": "Prompt rescue of each employee must be provided in the event of a fall.",
+          "clause": "1910.27(b)(2)(viii)"
+        },
+        {
+          "text": "Equipment such as tools, squeegees or buckets must be secured by a tool lanyard or similar method so it cannot fall.",
+          "clause": "1910.27(b)(2)(xii)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the 1910.27 anchorage records, pre-use conditions, equipment and rigging, and fall arrest for rope descent systems, plus the scaffold rule in paragraph (a), for use before work starts on each shift a system will be used.",
+  "checklist": "us/1910-27-scaffolds-rope-descent-systems",
+  "faq": [],
+  "sources": [
+    {
+      "title": "29 CFR 1910.27: Scaffolds and rope descent systems (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.27"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "rope descent systems",
+    "general industry scaffolds",
+    "rope descent anchorages"
+  ],
+  "cover": "1910-27-scaffolds-rope-descent-systems",
+  "coverPrompt": "A window cleaner seated on a rope descent system seat board descends the glass facade of a mid-rise office building on a calm day, wearing a harness connected to a separate fall arrest lifeline, with rope padding visible at the roof edge above. Photographed from a distance.",
+  "coverAlt": "Window cleaner on a rope descent system with a separate fall arrest line on an office building facade",
+  "changes": []
+}

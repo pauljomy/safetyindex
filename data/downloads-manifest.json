@@ -200,6 +200,16 @@
       "pdf": "/downloads/us/1910-25-stairways.pdf",
       "xlsx": "/downloads/us/1910-25-stairways.xlsx"
     },
+    "us/1910-27-scaffolds-rope-descent-systems": {
+      "hash": "b481eccb0c5b74fd863f3ced913fb545aa90ce5ea59c48c3825568c19a16bb1c",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 21,
+      "page_url": "https://safetyindex.blog/us/standards/1910-27-scaffolds-rope-descent-systems",
+      "pdf": "/downloads/us/1910-27-scaffolds-rope-descent-systems.pdf",
+      "xlsx": "/downloads/us/1910-27-scaffolds-rope-descent-systems.xlsx"
+    },
     "us/1910-29-fall-protection-systems-falling-object": {
       "hash": "d914ecb53586eb9408867efbe04abeb9af3866609a7f58a8bfddfaa0deb8df43",
       "lang": "en",
