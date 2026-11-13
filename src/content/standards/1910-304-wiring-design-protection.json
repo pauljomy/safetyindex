@@ -1,0 +1,542 @@
+{
+  "section": "1910.304",
+  "part": "1910",
+  "heading": "Wiring design and protection.",
+  "subpart": "S",
+  "subpartTitle": "Electrical",
+  "title": "OSHA GFCI and grounding requirements (29 CFR 1910.304)",
+  "seoTitle": "OSHA GFCI Requirements & Grounding (29 CFR 1910.304)",
+  "description": "29 CFR 1910.304: GFCI, grounding, receptacle and overcurrent rules with clause numbers, OSHA citation data and a printable inspection checklist.",
+  "opening": "29 CFR 1910.304 requires employers to keep a permanent, continuous and effective path to ground, provide GFCI protection for certain bathroom, rooftop and temporary-wiring receptacles, keep overcurrent devices accessible, and correctly identify, rate and connect conductors, receptacles and services.",
+  "keyword": "osha gfci requirements",
+  "cluster": [
+    {
+      "keyword": "osha gfci requirements",
+      "volume": 40,
+      "kd": 11,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "gfci checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "gfci inspection",
+      "volume": 30,
+      "kd": 3,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha grounding requirements",
+      "volume": 40,
+      "kd": 9,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "grounding checklist",
+      "volume": 10,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "grounding inspection",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha wiring design and protection requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wiring design and protection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wiring design and protection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.304",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 150,
+  "kd": 11,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1925,
+    "inspections": 1831,
+    "byFy": {
+      "2022": 395,
+      "2023": 444,
+      "2024": 381,
+      "2025": 359,
+      "2026": 346
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(g)(5)",
+        "count": 956
+      },
+      {
+        "paragraph": "(f)(1)(iv)",
+        "count": 209
+      },
+      {
+        "paragraph": "(b)(3)(i)",
+        "count": 127
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 123
+      },
+      {
+        "paragraph": "(b)(4)(ii)(B)",
+        "count": 111
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 63
+      },
+      {
+        "paragraph": "(f)(1)(viii)",
+        "count": 56
+      },
+      {
+        "paragraph": "(b)(2)(ii)",
+        "count": 54
+      },
+      {
+        "paragraph": "(b)(3)(ii)(C)(3)",
+        "count": 47
+      },
+      {
+        "paragraph": "(g)(6)(vi)(C)(5)",
+        "count": 17
+      }
+    ],
+    "penalties": {
+      "n": 940,
+      "median": 3459,
+      "p25": 1248,
+      "p75": 6300,
+      "total": 4023483
+    },
+    "typeShares": {
+      "serious": 0.731,
+      "willful": 0,
+      "repeat": 0.004,
+      "otherThanSerious": 0.265,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 1407,
+      "willful": 0,
+      "repeat": 8,
+      "otherThanSerious": 510,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "6111",
+        "count": 105,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "9221",
+        "count": 98,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "7211",
+        "count": 90,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "9211",
+        "count": 80,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "8111",
+        "count": 71,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "2373",
+        "count": 69,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2213",
+        "count": 60,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "3323",
+        "count": 51,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3219",
+        "count": 48,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "4931",
+        "count": 41,
+        "title": "Warehousing and Storage"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.304(g)(5) drew 956 of the 1,925 citations in FY2022–FY2026. It requires a permanent, continuous and effective grounding path. The next most cited were 1910.304(f)(1)(iv) at 209, which requires readily accessible overcurrent devices kept away from physical damage and easily ignitable material, and 1910.304(b)(3)(i) at 127, which covers GFCI protection for bathroom and rooftop receptacles. Citations rose from 395 in FY2022 to 444 in FY2023, then fell each year to 346 in FY2026.",
+  "requirementsIntro": "1910.304 sits in Subpart S (Electrical) of 29 CFR Part 1910. Its paragraphs run from (a) to (g): conductor identification and polarity, branch circuits and receptacles, outside conductors, outdoor lamps, services, overcurrent protection and grounding. The groups below give the main rules, and the full eCFR text has more detail, tables and exceptions.",
+  "requirements": [
+    {
+      "heading": "Where does OSHA require GFCI protection?",
+      "intro": "OSHA requires ground-fault circuit-interrupter (GFCI) protection for personnel on certain receptacles in bathrooms and on rooftops under 1910.304(b)(3)(i), and on receptacles of temporary wiring under 1910.304(b)(3)(ii).",
+      "items": [
+        {
+          "text": "Every 125-volt, single-phase, 15- and 20-ampere receptacle installed in a bathroom or on a rooftop must have GFCI protection for personnel.",
+          "clause": "1910.304(b)(3)(i)"
+        },
+        {
+          "text": "The temporary-wiring rules cover installations used during construction-like activities, including certain maintenance, remodeling or repair work on buildings, structures or equipment.",
+          "clause": "1910.304(b)(3)(ii)"
+        },
+        {
+          "text": "Receptacle outlets rated 125 volts, single-phase, 15, 20 or 30 amperes must be GFCI-protected if they are not in the permanent wiring of the building or structure and personnel are using them.",
+          "clause": "1910.304(b)(3)(ii)(A)"
+        },
+        {
+          "text": "The cord connector on an extension cord set counts as a receptacle outlet when the cord set is used for temporary power.",
+          "clause": "1910.304(b)(3)(ii)(A)"
+        },
+        {
+          "text": "A cord set or device with a built-in GFCI is acceptable protection when it is plugged into the receptacle closest to the power source.",
+          "clause": "1910.304(b)(3)(ii)(A)"
+        },
+        {
+          "text": "Temporary receptacles with any other voltage, phase or ampere rating also need GFCI protection when they are in use by personnel.",
+          "clause": "1910.304(b)(3)(ii)(B)"
+        },
+        {
+          "text": "When a receptacle is replaced at an outlet that Subpart S requires to have GFCI protection, the replacement must also be GFCI-protected.",
+          "clause": "1910.304(b)(2)(iv)(B)"
+        }
+      ]
+    },
+    {
+      "heading": "When is an assured equipment grounding conductor program required?",
+      "intro": "An assured equipment grounding conductor program is required by 1910.304(b)(3)(ii)(C) when the GFCI protection required by (b)(3)(ii)(B) is not available for temporary receptacles other than 125-volt, single-phase, 15-, 20- and 30-ampere. The program covers cord sets, receptacles that are not part of the building or structure, and cord-and-plug equipment that employees use or that is available for their use on those receptacles.",
+      "items": [
+        {
+          "text": "A written description of the program, including the employer's specific procedures, must be available at the jobsite for inspection and copying by the Assistant Secretary of Labor and any affected employee.",
+          "clause": "1910.304(b)(3)(ii)(C)(1)"
+        },
+        {
+          "text": "The employer must designate one or more competent persons to implement the program.",
+          "clause": "1910.304(b)(3)(ii)(C)(2)"
+        },
+        {
+          "text": "Each cord set, attachment cap, plug, receptacle and piece of cord-and-plug equipment must be visually inspected before each day's use for external defects, such as deformed or missing pins or insulation damage, and for signs of internal damage. This does not apply to cord sets and receptacles that are fixed and not exposed to damage.",
+          "clause": "1910.304(b)(3)(ii)(C)(3)"
+        },
+        {
+          "text": "Equipment found damaged or defective must not be used until it has been repaired.",
+          "clause": "1910.304(b)(3)(ii)(C)(3)"
+        },
+        {
+          "text": "Equipment grounding conductors (EGCs) must be tested for continuity and must be electrically continuous. This applies to temporary cord sets and receptacles and to cord-and-plug equipment required to be grounded.",
+          "clause": "1910.304(b)(3)(ii)(C)(4)(i)"
+        },
+        {
+          "text": "Each receptacle and each attachment cap or plug must be tested to confirm that the EGC is connected to its proper terminal.",
+          "clause": "1910.304(b)(3)(ii)(C)(4)(ii)"
+        },
+        {
+          "text": "Tests are required before first use, before equipment returns to service after repairs, after any incident that could reasonably have caused damage (such as a cord set being run over), and at intervals of no more than 3 months. The limit is 6 months for fixed cord sets and receptacles that are not exposed to damage.",
+          "clause": "1910.304(b)(3)(ii)(C)(4)(iii)"
+        },
+        {
+          "text": "Test results must be recorded in logs, by color coding or by other effective means. The record must identify every item that passed and show its last test date or the interval for which it was tested.",
+          "clause": "1910.304(b)(3)(ii)(C)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What are OSHA's grounding requirements for equipment and enclosures?",
+      "intro": "Paragraph 1910.304(g)(5) is OSHA's core grounding rule, and 1910.304(g)(6) lists which enclosures, fixed equipment and cord-and-plug equipment must be grounded.",
+      "items": [
+        {
+          "text": "The path to ground from circuits, equipment and enclosures must be permanent, continuous and effective.",
+          "clause": "1910.304(g)(5)"
+        },
+        {
+          "text": "Metal cable trays, metal raceways and metal enclosures for conductors must be grounded. The exceptions are in 1910.304(g)(6)(i)(A) and (B), such as sleeves that protect cable assemblies from physical damage.",
+          "clause": "1910.304(g)(6)(i)"
+        },
+        {
+          "text": "Metal enclosures for service equipment must be grounded.",
+          "clause": "1910.304(g)(6)(ii)"
+        },
+        {
+          "text": "Exposed non-current-carrying metal parts of fixed equipment that may become energized must be grounded under any of the six conditions in 1910.304(g)(6)(iv)(A) to (F). One example is equipment within 2.44 m (8 ft) vertically or 1.52 m (5 ft) horizontally of ground or grounded metal objects and subject to employee contact. 1910.304(g)(6)(v) lists exemptions.",
+          "clause": "1910.304(g)(6)(iv)"
+        },
+        {
+          "text": "Hand-held, stationary, fixed and light industrial motor-operated tools must have their exposed metal parts grounded where those parts may become energized. The rest of 1910.304(g)(6)(vi) adds other equipment types and conditions.",
+          "clause": "1910.304(g)(6)(vi)(C)(3)"
+        },
+        {
+          "text": "Exposed metal parts that may become energized must also be grounded on cord-and-plug appliances used in damp or wet locations, by employees standing on the ground or on metal floors, or by employees working inside metal tanks or boilers.",
+          "clause": "1910.304(g)(6)(vi)(C)(5)"
+        },
+        {
+          "text": "Listed or labeled portable tools and appliances do not need to be grounded if they are protected by an approved system of double insulation, or its equivalent, and are distinctively marked.",
+          "clause": "1910.304(g)(6)(vii)(B)"
+        },
+        {
+          "text": "Some nonelectrical equipment must also have its metal parts grounded, including the frames and tracks of electrically operated cranes and hoists. The rest of the list is in 1910.304(g)(7).",
+          "clause": "1910.304(g)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "How must receptacles and conductors be identified, grounded and connected?",
+      "intro": "Under 1910.304(a) and 1910.304(b)(2), conductors must be identifiable and polarity must be correct. Receptacles on 15- and 20-ampere branch circuits must be grounding type, and their grounding contacts must be grounded.",
+      "items": [
+        {
+          "text": "A conductor used as an EGC must be identifiable and distinguishable from every other conductor.",
+          "clause": "1910.304(a)(1)(ii)"
+        },
+        {
+          "text": "No grounded conductor may be attached to a terminal or lead in a way that reverses the designated polarity.",
+          "clause": "1910.304(a)(2)"
+        },
+        {
+          "text": "A grounding terminal or grounding-type device on a receptacle, cord connector or attachment plug may be used only for grounding.",
+          "clause": "1910.304(a)(3)"
+        },
+        {
+          "text": "Receptacles on 15- and 20-ampere branch circuits must be grounding type. The only exception is replacement receptacles allowed under 1910.304(b)(2)(iv).",
+          "clause": "1910.304(b)(2)(i)"
+        },
+        {
+          "text": "Receptacles and cord connectors that have grounding contacts must have those contacts effectively grounded. The exceptions are receptacles on portable and vehicle-mounted generators under 1910.304(g)(3) and replacement receptacles under 1910.304(b)(2)(iv).",
+          "clause": "1910.304(b)(2)(ii)"
+        },
+        {
+          "text": "Grounding contacts must be connected to the EGC of the circuit supplying the receptacle or cord connector. The branch-circuit wiring method must include or provide that conductor.",
+          "clause": "1910.304(b)(2)(iii)"
+        },
+        {
+          "text": "Where a receptacle enclosure has no grounding means, a nongrounding-type receptacle may be replaced with a grounding-type receptacle supplied through a GFCI. The replacement must be marked “GFCI Protected” and “No Equipment Ground”, and no EGC may be connected to it. 1910.304(b)(2)(iv)(C) gives the other two options.",
+          "clause": "1910.304(b)(2)(iv)(C)(3)"
+        },
+        {
+          "text": "Where circuits on the same premises have different voltages, frequencies or types of current (ac or dc), their receptacles must be designed so the attachment plugs cannot be interchanged.",
+          "clause": "1910.304(b)(2)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What ratings and loads apply to receptacles and other outlet devices?",
+      "intro": "Under 1910.304(b)(4), outlet devices must have an ampere rating not less than the load they serve. Table S-4 limits the cord-and-plug load on a receptacle, and Table S-5 sets receptacle ratings for each circuit size.",
+      "items": [
+        {
+          "text": "Each outlet device must have an ampere rating not less than the load it serves.",
+          "clause": "1910.304(b)(4)"
+        },
+        {
+          "text": "Lampholders on a branch circuit rated over 20 amperes must be heavy-duty type. A heavy-duty lampholder is rated at least 660 watts if it is admedium type and at least 750 watts if it is any other type.",
+          "clause": "1910.304(b)(4)(i)"
+        },
+        {
+          "text": "A single receptacle on an individual branch circuit must have an ampere rating of at least the branch-circuit rating.",
+          "clause": "1910.304(b)(4)(ii)(A)"
+        },
+        {
+          "text": "Where a branch circuit supplies two or more receptacles or outlets, Table S-4 sets the maximum cord-and-plug load: 12 amperes for a 15-ampere receptacle on a 15- or 20-ampere circuit, 16 amperes for a 20-ampere receptacle on a 20-ampere circuit, and 24 amperes for a 30-ampere receptacle on a 30-ampere circuit.",
+          "clause": "1910.304(b)(4)(ii)(B)"
+        },
+        {
+          "text": "On circuits supplying two or more receptacles or outlets, receptacle ratings must follow Table S-5 (for example, 15 or 20 amperes on a 20-ampere circuit). Above 50 amperes, the receptacle rating may not be less than the branch-circuit rating. Receptacles for cord-and-plug arc welders have a separate allowance.",
+          "clause": "1910.304(b)(4)(ii)(C)"
+        },
+        {
+          "text": "A receptacle outlet must be installed wherever flexible cords with attachment plugs are used. Receptacles may be omitted only where flexible cords are permitted to be permanently connected.",
+          "clause": "1910.304(b)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What does OSHA require for overcurrent devices and circuit breakers?",
+      "intro": "1910.304(f)(1) sets overcurrent protection rules for circuits rated 600 volts, nominal, or less, including where fuses and breakers are located and how circuit breakers must be marked.",
+      "items": [
+        {
+          "text": "Conductors and equipment must be protected from overcurrent in line with their ability to safely conduct current.",
+          "clause": "1910.304(f)(1)(i)"
+        },
+        {
+          "text": "Overcurrent devices must be readily accessible to each employee or to authorized building management personnel.",
+          "clause": "1910.304(f)(1)(iv)"
+        },
+        {
+          "text": "Overcurrent devices must not be located where they will be exposed to physical damage or near easily ignitable material.",
+          "clause": "1910.304(f)(1)(iv)"
+        },
+        {
+          "text": "Fuses and circuit breakers must be located or shielded so that operating them will not burn or otherwise injure employees.",
+          "clause": "1910.304(f)(1)(v)"
+        },
+        {
+          "text": "Circuit breakers must clearly show whether they are in the open (off) or closed (on) position.",
+          "clause": "1910.304(f)(1)(vi)"
+        },
+        {
+          "text": "Where switchboard circuit breaker handles operate vertically, the up position must be closed (on).",
+          "clause": "1910.304(f)(1)(vii)"
+        },
+        {
+          "text": "Circuit breakers used as switches in 120-volt and 277-volt fluorescent lighting circuits must be listed and marked “SWD.”",
+          "clause": "1910.304(f)(1)(viii)"
+        }
+      ]
+    },
+    {
+      "heading": "What identification and disconnect rules apply to branch circuits and services?",
+      "intro": "1910.304(b)(1) covers identifying multiwire branch circuits where a building has more than one nominal voltage system. 1910.304(e) covers the means of disconnecting a building from its service.",
+      "items": [
+        {
+          "text": "Where a building with multiwire branch circuits has more than one nominal voltage system, each accessible ungrounded conductor of a multiwire branch circuit must be identified by phase and system.",
+          "clause": "1910.304(b)(1)"
+        },
+        {
+          "text": "The method of identifying those conductors must be permanently posted at each branch-circuit panelboard.",
+          "clause": "1910.304(b)(1)"
+        },
+        {
+          "text": "There must be a means of disconnecting all conductors in a building or other structure from the service-entrance conductors.",
+          "clause": "1910.304(e)(1)(i)"
+        },
+        {
+          "text": "The service disconnecting means must plainly show whether it is open or closed.",
+          "clause": "1910.304(e)(1)(i)"
+        },
+        {
+          "text": "The service disconnect must be installed at a readily accessible location nearest the point where the service-entrance conductors enter.",
+          "clause": "1910.304(e)(1)(i)"
+        },
+        {
+          "text": "Each service disconnecting means must disconnect all ungrounded conductors at the same time.",
+          "clause": "1910.304(e)(1)(ii)"
+        },
+        {
+          "text": "For services over 600 volts, nominal, signs warning of high voltage must be posted where unqualified employees might come into contact with live parts.",
+          "clause": "1910.304(e)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What clearances apply to outdoor conductors and lamps?",
+      "intro": "1910.304(c) sets separation and clearance distances for branch-circuit, feeder and service conductors rated 600 volts, nominal, or less that run outdoors as open conductors. 1910.304(d) sets where outdoor lamps may be placed.",
+      "items": [
+        {
+          "text": "Open conductors, open multiconductor cables and service-drop conductors of not over 600 volts, nominal, must meet the ground clearances in Table S-6. These run from 3.05 m (10.0 ft) to 5.49 m (18.0 ft), depending on voltage, what is underneath, and whether the installation was built before or on or after August 13, 2007.",
+          "clause": "1910.304(c)(2)"
+        },
+        {
+          "text": "Service conductors installed as open conductors, or as multiconductor cable without an overall outer jacket, must be at least 914 mm (3.0 ft) from windows designed to open, doors, porches, balconies, ladders, stairs, fire escapes and similar locations. Conductors running above the top level of a window may be closer.",
+          "clause": "1910.304(c)(3)(i)"
+        },
+        {
+          "text": "Overhead service conductors may not be installed beneath openings through which materials may be moved, and may not block the entrance to those openings.",
+          "clause": "1910.304(c)(3)(ii)"
+        },
+        {
+          "text": "Overhead spans of open conductors and cables need at least 2.44 m (8.0 ft) of vertical clearance above a roof surface. 1910.304(c)(4)(ii) and (iii) allow reductions where the voltage between conductors does not exceed 300.",
+          "clause": "1910.304(c)(4)"
+        },
+        {
+          "text": "Lamps for outdoor lighting must be located below all energized conductors, transformers and other electric equipment. The exceptions are where that equipment has a disconnecting means that can be locked open, or where adequate clearances or other safeguards are provided for relamping.",
+          "clause": "1910.304(d)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers GFCI protection, the assured equipment grounding conductor program, grounding and receptacle wiring, and overcurrent devices and outlets. Use it on a walk-through of permanent wiring and of temporary wiring set up for maintenance, remodeling or repair work.",
+  "checklist": "us/1910-304-wiring-design-protection",
+  "faq": [
+    {
+      "question": "Does a portable generator's frame have to be grounded?",
+      "answer": "No, provided both conditions in 1910.304(g)(3)(i) are met. The frame of a portable generator need not be grounded, and may serve as the grounding electrode for the system it supplies, if the generator supplies only equipment mounted on it, cord-and-plug equipment through receptacles mounted on it, or both. The noncurrent-carrying metal parts of the equipment and the grounding terminals of the receptacles must also be bonded to the generator frame. For a generator on a vehicle, 1910.304(g)(3)(ii) sets four conditions, including bonding the generator frame to the vehicle frame."
+    },
+    {
+      "question": "Can a receptacle be grounded to a cold water pipe?",
+      "answer": "Only in a narrow case. Under 1910.304(g)(4)(iii), grounding-type receptacles on extensions of existing branch circuits that lack an equipment grounding conductor may be grounded to a grounded cold water pipe near the equipment. This applies only if the extension was installed before August 13, 2007. Once any element of that branch circuit is replaced, the whole circuit needs a grounding conductor that meets the rest of paragraph (g)."
+    },
+    {
+      "question": "Is equipment bolted to grounded building steel considered grounded?",
+      "answer": "Yes, for installations made before April 16, 1981. Under 1910.304(g)(8)(iii), such equipment counts as effectively grounded if it is secured to, and in metallic contact with, the grounded structural metal frame of the building. Replacing any element of that branch circuit brings in the same requirement for a compliant grounding conductor. Separately, 1910.304(g)(8)(ii) treats equipment as effectively grounded when it is secured to, and in electrical contact with, a metal rack or structure that supports it, provided that rack or structure is grounded by the method in (g)(8)(i)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.304: Wiring design and protection (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.304"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "gfci protection",
+    "electrical grounding",
+    "wiring design and protection"
+  ],
+  "cover": "1910-304-wiring-design-protection",
+  "coverPrompt": "An electrician wearing work gloves and safety glasses, seen from the side at mid-distance, checks a wall receptacle with a plug-in tester in a commercial building service room. A closed electrical panel stands beside them with a clear floor space in front of it.",
+  "coverAlt": "Electrician testing a wall receptacle beside a closed electrical panel in a service room",
+  "changes": []
+}

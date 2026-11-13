@@ -1,0 +1,231 @@
+{
+  "slug": "1910-304-wiring-design-protection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-304-wiring-design-protection",
+  "doc_ref": "SI-US-1910-304",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA GFCI and Grounding Checklist (29 CFR 1910.304)",
+  "subtitle": "Use on a site walk-through of permanent wiring and of temporary wiring set up for construction-like work.",
+  "regulation_line": "OSHA 29 CFR 1910.304",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each defect, keep the affected circuit, cord or equipment out of use until it is repaired, and check it again before it goes back into use.",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "GFCI protection",
+      "items": [
+        [
+          "Bathroom receptacles",
+          "Each 125-volt, single-phase, 15- or 20-ampere receptacle in a bathroom is a GFCI receptacle or is fed through GFCI protection.",
+          "1910.304(b)(3)(i)"
+        ],
+        [
+          "Rooftop receptacles",
+          "Each 125-volt, single-phase, 15- or 20-ampere receptacle on the roof has GFCI protection for personnel.",
+          "1910.304(b)(3)(i)"
+        ],
+        [
+          "Temporary 125-volt outlets",
+          "Temporary 125-volt, single-phase, 15-, 20- and 30-ampere outlets in use by workers are GFCI-protected.",
+          "1910.304(b)(3)(ii)(A)"
+        ],
+        [
+          "Extension cords for temporary power",
+          "Each cord set used for temporary power has GFCI protection at the outlet, or a GFCI cord set or device is plugged into the receptacle closest to the power source.",
+          "1910.304(b)(3)(ii)(A)"
+        ],
+        [
+          "Other temporary receptacles",
+          "Temporary receptacles of other ratings in use by personnel are GFCI-protected. If GFCI protection is not available, an assured equipment grounding conductor program is in place (Section B).",
+          "1910.304(b)(3)(ii)(B)"
+        ],
+        [
+          "Replacement receptacles",
+          "Receptacles replaced at outlets that Subpart S requires to be GFCI-protected have GFCI protection.",
+          "1910.304(b)(2)(iv)(B)"
+        ],
+        [
+          "Grounding-type receptacles in boxes without a ground",
+          "Each one is supplied through a GFCI and marked “GFCI Protected” and “No Equipment Ground”, and no grounding conductor is connected to it.",
+          "1910.304(b)(2)(iv)(C)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Assured equipment grounding conductor program (where GFCI is not available)",
+      "items": [
+        [
+          "Written program",
+          "A written description of the program, with the employer's specific procedures, is on site and can be produced for inspection and copying.",
+          "1910.304(b)(3)(ii)(C)(1)"
+        ],
+        [
+          "Competent person",
+          "At least one competent person has been named to implement the program.",
+          "1910.304(b)(3)(ii)(C)(2)"
+        ],
+        [
+          "Daily visual inspection",
+          "Cord sets, plugs, receptacles and cord-and-plug equipment are checked before each day's use. No pins are deformed or missing, the insulation is undamaged, and there are no signs of internal damage.",
+          "1910.304(b)(3)(ii)(C)(3)"
+        ],
+        [
+          "Damaged equipment",
+          "Items found damaged or defective are tagged or removed and are not used until repaired.",
+          "1910.304(b)(3)(ii)(C)(3)"
+        ],
+        [
+          "Continuity test",
+          "Equipment grounding conductors have been tested for continuity and are electrically continuous.",
+          "1910.304(b)(3)(ii)(C)(4)(i)"
+        ],
+        [
+          "Terminal attachment test",
+          "Each receptacle and attachment cap or plug has been tested, and the grounding conductor is on its proper terminal.",
+          "1910.304(b)(3)(ii)(C)(4)(ii)"
+        ],
+        [
+          "Test timing",
+          "Tests were done before first use, after any repair, and after any incident suspected of causing damage. The last test was no more than 3 months ago, or no more than 6 months ago for fixed items that are not exposed to damage.",
+          "1910.304(b)(3)(ii)(C)(4)(iii)"
+        ],
+        [
+          "Equipment that has not met the program",
+          "No equipment that has not met the program's requirements is available to employees or in use.",
+          "1910.304(b)(3)(ii)(C)(5)"
+        ],
+        [
+          "Test records",
+          "A log, color code or other record identifies each item that passed and shows its last test date or test interval. The record is available on site.",
+          "1910.304(b)(3)(ii)(C)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Grounding and receptacle wiring",
+      "items": [
+        [
+          "Grounding path",
+          "Ground connections from circuits, equipment and enclosures are intact and continuous, with no open grounds, removed grounding pins or broken raceway joints.",
+          "1910.304(g)(5)"
+        ],
+        [
+          "Polarity",
+          "Receptacles checked show no reversed polarity, and the grounded conductor is on its designated terminal.",
+          "1910.304(a)(2)"
+        ],
+        [
+          "Grounding-type receptacles",
+          "Receptacles on 15- and 20-ampere branch circuits are grounding type, unless they are permitted replacements.",
+          "1910.304(b)(2)(i)"
+        ],
+        [
+          "Grounding contacts",
+          "Receptacle grounding contacts are connected to the equipment grounding conductor of the supplying circuit.",
+          "1910.304(b)(2)(iii)"
+        ],
+        [
+          "Grounding terminal use",
+          "Grounding terminals on receptacles, cord connectors and plugs are used only for grounding.",
+          "1910.304(a)(3)"
+        ],
+        [
+          "Motor-operated tools",
+          "Hand-held, stationary, fixed and light industrial motor-operated tools have an intact grounding conductor and grounding pin, or are covered by an exemption in 1910.304(g)(6)(vii).",
+          "1910.304(g)(6)(vi)(C)(3)"
+        ],
+        [
+          "Appliances in wet or damp locations",
+          "Cord-and-plug appliances used in damp or wet locations, on the ground, on metal floors, or inside metal tanks or boilers are grounded.",
+          "1910.304(g)(6)(vi)(C)(5)"
+        ],
+        [
+          "Metal raceways and enclosures",
+          "Metal cable trays, raceways and conductor enclosures are grounded unless an exception in 1910.304(g)(6)(i) applies.",
+          "1910.304(g)(6)(i)"
+        ],
+        [
+          "Service equipment enclosures",
+          "Metal enclosures for service equipment are grounded.",
+          "1910.304(g)(6)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Overcurrent devices, outlets and services",
+      "items": [
+        [
+          "Panel access",
+          "Fuses and breakers are readily accessible to each employee or to authorized building management staff.",
+          "1910.304(f)(1)(iv)"
+        ],
+        [
+          "Panel surroundings",
+          "Overcurrent devices are not exposed to physical damage, and no easily ignitable material is nearby.",
+          "1910.304(f)(1)(iv)"
+        ],
+        [
+          "Breaker position",
+          "Each circuit breaker clearly shows whether it is off (open) or on (closed).",
+          "1910.304(f)(1)(vi)"
+        ],
+        [
+          "Breakers used as lighting switches",
+          "Breakers used to switch 120-volt or 277-volt fluorescent lighting are listed and marked “SWD.”",
+          "1910.304(f)(1)(viii)"
+        ],
+        [
+          "Receptacle load",
+          "On circuits supplying two or more outlets, the cord-and-plug load on each receptacle is within the Table S-4 maximum.",
+          "1910.304(b)(4)(ii)(B)"
+        ],
+        [
+          "Receptacle rating",
+          "On circuits supplying two or more outlets, receptacle ratings match Table S-5 for the circuit rating.",
+          "1910.304(b)(4)(ii)(C)"
+        ],
+        [
+          "Outlets where cords are used",
+          "A receptacle outlet is installed wherever flexible cords with attachment plugs are used.",
+          "1910.304(b)(5)"
+        ],
+        [
+          "Multiwire branch circuit identification",
+          "Where a building has more than one nominal voltage system, the phase and system identification method is permanently posted at each branch-circuit panelboard.",
+          "1910.304(b)(1)"
+        ],
+        [
+          "Service disconnect",
+          "The service disconnect plainly shows whether it is open or closed, and it is readily accessible nearest the point where the service-entrance conductors enter.",
+          "1910.304(e)(1)(i)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.304: Wiring design and protection (Part 1910, Subpart S: Electrical)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
