@@ -1,0 +1,257 @@
+{
+  "slug": "1926-1417-operation",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1417-operation",
+  "doc_ref": "SI-US-1926-1417",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Crane Operation Checklist (29 CFR 1926.1417)",
+  "subtitle": "Use before starting the crane and during lifts to check operation against 29 CFR 1926.1417.",
+  "regulation_line": "OSHA 29 CFR 1926.1417",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Where a Defect means the equipment needs adjustment or repair, the operator reports it in writing to the person the employer designated and, on successive shifts, to the next operator (1926.1417(j)(1)).",
+    "The manufacturer's instructions and site rules may add further checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Procedures, cab documents and tags",
+      "items": [
+        [
+          "Manufacturer procedures",
+          "Operation follows the manufacturer's procedures for the equipment's functions and for any attachment in use.",
+          "1926.1417(a)"
+        ],
+        [
+          "Procedures where manufacturer's are unavailable",
+          "Employer-developed procedures for safe operation of the equipment and attachments exist and are being followed.",
+          "1926.1417(b)(1)"
+        ],
+        [
+          "Operational control procedures",
+          "Employer procedures for the operational controls were developed by a qualified person.",
+          "1926.1417(b)(2)"
+        ],
+        [
+          "Capacity procedures",
+          "Employer capacity procedures were developed and signed by a registered professional engineer familiar with the equipment.",
+          "1926.1417(b)(3)"
+        ],
+        [
+          "Load charts and manual",
+          "Load charts, recommended operating speeds, special hazard warnings, instructions and the operator's manual are readily available in the cab at all times for the operator.",
+          "1926.1417(c)(1)"
+        ],
+        [
+          "Electronic load charts",
+          "Operator knows to cease operations immediately or follow safe shut-down procedures if electronic rated capacities become inaccessible, and not to resume until rated capacities are available again in electronic or other form.",
+          "1926.1417(c)(2)"
+        ],
+        [
+          "Out-of-service equipment tag",
+          "Equipment taken out of service has a tag in the cab saying it is out of service and must not be used.",
+          "1926.1417(f)(1)"
+        ],
+        [
+          "Out-of-service function tag",
+          "Any function taken out of service has a tag in a conspicuous position saying that function must not be used.",
+          "1926.1417(f)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Before starting and operator conduct",
+      "items": [
+        [
+          "Do-not-operate sign on equipment",
+          "No tag-out or do not operate sign on the equipment or starting control, or it was removed by an authorized person, or the operator verified no one is in a dangerous position on the machine and it is repaired and working properly.",
+          "1926.1417(f)(2)(i)"
+        ],
+        [
+          "Signs on other controls",
+          "No switch or control carrying a warning sign is activated unless the sign was removed by an authorized person or both (f)(2)(i)(A) and (B) conditions were verified.",
+          "1926.1417(f)(2)(ii)"
+        ],
+        [
+          "Controls and personnel before engine start",
+          "All controls in the proper starting position and all personnel in the clear before the engine is started.",
+          "1926.1417(g)"
+        ],
+        [
+          "Written repair report",
+          "Needed adjustments or repairs reported promptly in writing to the designated person and, on successive shifts, the next operator.",
+          "1926.1417(j)(1)"
+        ],
+        [
+          "Shift-start notice",
+          "Affected employees told at the start of the shift about needed adjustments or repairs and all alternative measures.",
+          "1926.1417(j)(2)"
+        ],
+        [
+          "No distractions",
+          "Operator not using a cell phone or doing anything else that diverts attention while operating, except phone use for signal communications.",
+          "1926.1417(d)"
+        ],
+        [
+          "Safety devices and operational aids",
+          "Operator exercises professional judgment and does not rely on safety devices or operational aids as a substitute for it.",
+          "1926.1417(k)"
+        ],
+        [
+          "Stop signals",
+          "Operator obeys any stop or emergency stop signal, whoever gives it.",
+          "1926.1417(y)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Capacity, brakes, rope and counterweight",
+      "items": [
+        [
+          "Rated capacity",
+          "Load and configuration within the equipment's rated capacity per the load chart.",
+          "1926.1417(o)(1)"
+        ],
+        [
+          "Load weight: source or calculation (method i)",
+          "Where this method is used, load weight comes from an industry-recognized source or calculation method, or other equally reliable means, and was given to the operator before the lift when requested.",
+          "1926.1417(o)(3)(i)"
+        ],
+        [
+          "Load weight: indicator check (method ii)",
+          "Where this method is used, the operator began hoisting with a load weighing device, load moment indicator, rated capacity indicator or rated capacity limiter; if the load exceeded 75 percent of maximum rated capacity at the longest radius of the lift, the lift did not proceed until the weight was verified by method i.",
+          "1926.1417(o)(3)(ii)"
+        ],
+        [
+          "Counterweight in place",
+          "Equipment other than tower cranes has the counterweight or ballast the manufacturer specifies installed.",
+          "1926.1417(aa)(1)(i)"
+        ],
+        [
+          "Counterweight not exceeded",
+          "Counterweight or ballast does not exceed the manufacturer's specified maximum.",
+          "1926.1417(aa)(1)(ii)"
+        ],
+        [
+          "Brake test on heavy loads",
+          "Brakes tested by lifting a few inches and applying them whenever the load is at least 90% of maximum line pull (first lift only in repetitive duty cycles at that level).",
+          "1926.1417(s)"
+        ],
+        [
+          "Rope wraps on drums",
+          "At least two full wraps of rope remain on the load and boom drums at the lowest point of travel.",
+          "1926.1417(t)"
+        ],
+        [
+          "Brake adjustment",
+          "Brakes adjusted to manufacturer procedures with no unintended movement.",
+          "1926.1417(x)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Load handling and travel",
+      "items": [
+        [
+          "Clear of obstructions",
+          "Boom and other parts of the equipment do not contact any obstruction.",
+          "1926.1417(p)"
+        ],
+        [
+          "No side loading",
+          "Equipment is not dragging or pulling loads sideways.",
+          "1926.1417(q)"
+        ],
+        [
+          "Wheel-mounted front area",
+          "No loads lifted over the front area of wheel-mounted equipment unless the manufacturer permits it.",
+          "1926.1417(r)"
+        ],
+        [
+          "Swing speed",
+          "Rotation slow enough that the load stays within the radius at which it can be controlled.",
+          "1926.1417(v)"
+        ],
+        [
+          "Tag or restraint line",
+          "Tag or restraint line in use wherever load rotation would be hazardous.",
+          "1926.1417(w)"
+        ],
+        [
+          "Suspended load attended",
+          "Operator at the controls whenever a load is suspended, unless every condition in (e)(1) is met.",
+          "1926.1417(e)(1)"
+        ],
+        [
+          "Travel permitted",
+          "No travel with a load where the manufacturer prohibits it.",
+          "1926.1417(u)(1)"
+        ],
+        [
+          "Travel supervised",
+          "A competent person supervises travel with a load and has set load position, boom location, ground support, route, overhead obstructions, speed and any capacity reduction.",
+          "1926.1417(u)(2)(i)"
+        ],
+        [
+          "Travel determinations implemented",
+          "The competent person's travel determinations are being carried out during the move.",
+          "1926.1417(u)(2)(ii)"
+        ],
+        [
+          "Tire pressure",
+          "Tires at the manufacturer's specified pressure when traveling with a load.",
+          "1926.1417(u)(2)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Weather, slack rope and locomotive cranes",
+      "items": [
+        [
+          "Storm warning",
+          "When a local storm warning is issued, the competent person has decided whether to apply the manufacturer's recommendations for securing the equipment.",
+          "1926.1417(h)"
+        ],
+        [
+          "Wind, ice and snow",
+          "Competent person has adjusted equipment or operations for the effect of wind, ice and snow on stability and rated capacity.",
+          "1926.1417(n)"
+        ],
+        [
+          "Slack rope re-spooling",
+          "Where slack rope required re-spooling, the rope was seen seated on the drum and in the sheaves before lifting began.",
+          "1926.1417(m)"
+        ],
+        [
+          "Locomotive crane swing",
+          "Locomotive crane not swung where railway cars on an adjacent track could strike it until it is determined cars are not being moved on that track and proper flag protection is in place.",
+          "1926.1417(z)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1417: Operation (Part 1926 Subpart CC, Cranes and Derricks in Construction)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

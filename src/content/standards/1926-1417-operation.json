@@ -1,0 +1,491 @@
+{
+  "section": "1926.1417",
+  "part": "1926",
+  "heading": "Operation.",
+  "subpart": "CC",
+  "subpartTitle": "Cranes and Derricks in Construction",
+  "title": "Crane operation checklist and OSHA requirements (29 CFR 1926.1417)",
+  "seoTitle": "Crane Operation Checklist: OSHA 29 CFR 1926.1417",
+  "description": "OSHA 29 CFR 1926.1417 crane operation requirements in plain language, FY2022–FY2026 citation data, and a printable crane operation checklist.",
+  "opening": "29 CFR 1926.1417 requires construction employers and crane operators to follow the manufacturer's operating procedures, keep load charts and manuals in the cab, stay within rated capacity, verify load weight, and follow set rules for unattended loads, tag-outs, brakes, wind and counterweight.",
+  "keyword": "operation checklist",
+  "cluster": [
+    {
+      "keyword": "osha crane operation requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane operation checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane operation inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha crane inspection log requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane inspection log checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane inspection log inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha operation requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "operation checklist",
+      "volume": 70,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "operation inspection",
+      "volume": 20,
+      "kd": 11,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1417",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 90,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 102,
+    "inspections": 84,
+    "byFy": {
+      "2022": 27,
+      "2023": 25,
+      "2024": 22,
+      "2025": 16,
+      "2026": 12
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(o)(1)",
+        "count": 20
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 18
+      },
+      {
+        "paragraph": "(a)",
+        "count": 14
+      },
+      {
+        "paragraph": "(w)",
+        "count": 11
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 5
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 5
+      },
+      {
+        "paragraph": "(o)(3)",
+        "count": 5
+      },
+      {
+        "paragraph": "(p)",
+        "count": 5
+      },
+      {
+        "paragraph": "(q)",
+        "count": 4
+      },
+      {
+        "paragraph": "(d)",
+        "count": 2
+      }
+    ],
+    "penalties": {
+      "n": 86,
+      "median": 6250,
+      "p25": 3274,
+      "p75": 13240,
+      "total": 1132886
+    },
+    "typeShares": {
+      "serious": 0.765,
+      "willful": 0.069,
+      "repeat": 0.02,
+      "otherThanSerious": 0.147,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 78,
+      "willful": 7,
+      "repeat": 2,
+      "otherThanSerious": 15,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 27,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 26,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 11,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2373",
+        "count": 10,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 7,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2379",
+        "count": 6,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 2,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "3329",
+        "count": 2,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3399",
+        "count": 2,
+        "title": "Other Miscellaneous Manufacturing"
+      },
+      {
+        "naics": "4233",
+        "count": 2,
+        "title": "Lumber and Other Construction Materials Merchant Wholesalers"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1926.1417(o)(1), with 20 citations; it bars operating equipment beyond its rated capacity. Next come (c)(1) with 18, on keeping load charts, the operator's manual and other procedures at hand for the operator, (a) with 14, on following manufacturer procedures, and (w) with 11, on using a tag or restraint line where hazardous load rotation must be prevented. Citations fell in every fiscal year of FY2022–FY2026, from 27 in FY2022 to 12 in FY2026.",
+  "requirementsIntro": "Section 1926.1417 sits in Part 1926 Subpart CC (Cranes and Derricks in Construction) and assigns duties to the employer, the operator and the competent person for equipment covered by that subpart, running from operating procedures in paragraphs (a) to (c) through tag-out, rated capacity and load handling to counterweight in paragraph (aa). The groups below give the main rules; the full eCFR text has more detail.",
+  "requirements": [
+    {
+      "heading": "Whose operating procedures must the employer follow?",
+      "intro": "Under 1926.1417(a) the employer must follow every manufacturer procedure for the equipment's operational functions, and paragraph (b) sets who writes procedures when the manufacturer's are unavailable.",
+      "items": [
+        {
+          "text": "Comply with all manufacturer procedures that apply to the equipment's operational functions, including its use with attachments.",
+          "clause": "1926.1417(a)"
+        },
+        {
+          "text": "Where manufacturer procedures are unavailable, the employer must develop all procedures needed for safe operation of the equipment and attachments and ensure they are followed.",
+          "clause": "1926.1417(b)(1)"
+        },
+        {
+          "text": "Procedures for the operational controls must be developed by a qualified person.",
+          "clause": "1926.1417(b)(2)"
+        },
+        {
+          "text": "Procedures related to the equipment's capacity must be developed and signed by a registered professional engineer familiar with the equipment.",
+          "clause": "1926.1417(b)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be kept in the crane cab for the operator?",
+      "intro": "Paragraph 1926.1417(c) requires the operating procedures, including load charts and the operator's manual, to be readily available to the operator in the cab, and sets a stop rule for electronic load charts.",
+      "items": [
+        {
+          "text": "Keep these in the cab at all times for the operator's use: rated capacities (load charts), recommended operating speeds, special hazard warnings, instructions and the operator's manual.",
+          "clause": "1926.1417(c)(1)"
+        },
+        {
+          "text": "Where rated capacities exist in the cab only in electronic form and a failure makes them inaccessible, the operator must immediately cease operations or follow safe shut-down procedures until the rated capacities are available again, electronically or in another form.",
+          "clause": "1926.1417(c)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What conduct rules apply to the crane operator?",
+      "intro": "Section 1926.1417 bars the operator from distracting activities while operating, requires checks before the engine is started, and makes every stop signal binding.",
+      "items": [
+        {
+          "text": "While actually operating the equipment, the operator must not engage in any practice that diverts attention, such as using a cell phone, other than for signal communications.",
+          "clause": "1926.1417(d)"
+        },
+        {
+          "text": "Before starting the engine, the operator must verify that all controls are in the proper starting position and all personnel are in the clear.",
+          "clause": "1926.1417(g)"
+        },
+        {
+          "text": "Safety devices and operational aids must not be used as a substitute for the operator's professional judgment.",
+          "clause": "1926.1417(k)"
+        },
+        {
+          "text": "The operator must obey a stop or emergency stop signal, irrespective of who gives it.",
+          "clause": "1926.1417(y)"
+        }
+      ]
+    },
+    {
+      "heading": "When may the operator leave the controls with a load suspended?",
+      "intro": "1926.1417(e)(1) prohibits leaving the controls while a load is suspended unless all four of its conditions are met together.",
+      "items": [
+        {
+          "text": "The operator stays adjacent to the equipment and is not engaged in any other duties.",
+          "clause": "1926.1417(e)(1)(i)"
+        },
+        {
+          "text": "The load is to be held suspended for a period longer than normal lifting operations.",
+          "clause": "1926.1417(e)(1)(ii)"
+        },
+        {
+          "text": "The competent person determines it is safe and implements measures to restrain the boom hoist and telescoping, load, swing, and outrigger or stabilizer functions.",
+          "clause": "1926.1417(e)(1)(iii)"
+        },
+        {
+          "text": "Barricades or caution lines, and notices, are erected to prevent all employees from entering the fall zone.",
+          "clause": "1926.1417(e)(1)(iv)"
+        },
+        {
+          "text": "No employees are permitted in the fall zone, including the employees listed in the 1926.1425 paragraphs that (e)(1)(iv) names.",
+          "clause": "1926.1417(e)(1)(iv)"
+        },
+        {
+          "text": "These conditions do not apply to working gear such as slings, spreader bars, ladders and welding machines, where the gear's weight is negligible relative to the lifting capacity of the equipment as positioned and the gear hangs over an area other than an entrance or exit.",
+          "clause": "1926.1417(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "How are out-of-service equipment and needed repairs handled?",
+      "intro": "Paragraph 1926.1417(f) covers tagging equipment or functions out of service and how operators respond to do-not-operate signs, and paragraph (j) covers reporting adjustments and repairs.",
+      "items": [
+        {
+          "text": "When the employer takes the equipment out of service, a tag must be placed in the cab stating that it is out of service and is not to be used.",
+          "clause": "1926.1417(f)(1)"
+        },
+        {
+          "text": "When the employer takes a function out of service, a tag stating that the function must not be used has to be placed in a conspicuous position.",
+          "clause": "1926.1417(f)(1)"
+        },
+        {
+          "text": "If a tag-out or maintenance/do not operate sign is on the equipment or its starting control, the operator must not activate the switch or start the equipment until a person authorized to remove the sign has done so, or until the operator has verified that no one is servicing, working on or otherwise in a dangerous position on the machine and that the equipment has been repaired and is working properly.",
+          "clause": "1926.1417(f)(2)(i)"
+        },
+        {
+          "text": "A warning sign on any other switch or control means the operator must not activate that switch or control until an authorized person removes the sign or the operator has verified both conditions in (f)(2)(i)(A) and (B).",
+          "clause": "1926.1417(f)(2)(ii)"
+        },
+        {
+          "text": "When adjustments or repairs are necessary, the operator must promptly inform, in writing, the person the employer designated to receive such information and, where there are successive shifts, the next operator.",
+          "clause": "1926.1417(j)(1)"
+        },
+        {
+          "text": "The employer must notify all affected employees at the beginning of each shift of the necessary adjustments or repairs and all alternative measures.",
+          "clause": "1926.1417(j)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "How must the load be kept within rated capacity?",
+      "intro": "1926.1417(o) prohibits operating above rated capacity and requires the operator to verify load weight by at least one of the two methods set out in (o)(3).",
+      "items": [
+        {
+          "text": "The equipment must not be operated in excess of its rated capacity.",
+          "clause": "1926.1417(o)(1)"
+        },
+        {
+          "text": "The operator must not be required to operate the equipment in a way that would exceed its rated capacity.",
+          "clause": "1926.1417(o)(2)"
+        },
+        {
+          "text": "Method one: determine the load weight from an industry-recognized source (such as the load's manufacturer), an industry-recognized calculation (such as a steel beam's measured dimensions and known per-foot weight) or other equally reliable means; when the operator requests it, this information must be provided before the lift.",
+          "clause": "1926.1417(o)(3)(i)"
+        },
+        {
+          "text": "Method two: begin hoisting and use a load weighing device, load moment indicator, rated capacity indicator or rated capacity limiter to determine whether the load exceeds 75 percent of the maximum rated capacity at the longest radius used during the lift; if it does, the lift must not proceed until the weight is verified under (o)(3)(i).",
+          "clause": "1926.1417(o)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "Which load-handling practices does 1926.1417 prohibit or require?",
+      "intro": "Several paragraphs between 1926.1417(p) and (x) set rules for obstructions, side loading, wheel-mounted equipment, brake tests, rope wraps, swing speed, tag lines and brake adjustment.",
+      "items": [
+        {
+          "text": "The boom and other parts of the equipment must not contact any obstruction.",
+          "clause": "1926.1417(p)"
+        },
+        {
+          "text": "The equipment must not be used to drag or pull loads sideways.",
+          "clause": "1926.1417(q)"
+        },
+        {
+          "text": "On wheel-mounted equipment, no loads may be lifted over the front area unless the manufacturer permits it.",
+          "clause": "1926.1417(r)"
+        },
+        {
+          "text": "The operator must test the brakes, by lifting the load a few inches and applying them, each time a load of 90% or more of the maximum line pull is handled; in duty cycle and repetitive lifts where every lift reaches that level, only the first lift needs the test.",
+          "clause": "1926.1417(s)"
+        },
+        {
+          "text": "Neither the load nor the boom may be lowered below the point where less than two full wraps of rope remain on their drums.",
+          "clause": "1926.1417(t)"
+        },
+        {
+          "text": "Rotational speed must be kept low enough that the load does not swing out beyond the radius at which it can be controlled.",
+          "clause": "1926.1417(v)"
+        },
+        {
+          "text": "A tag or restraint line must be used if necessary to prevent hazardous rotation of the load.",
+          "clause": "1926.1417(w)"
+        },
+        {
+          "text": "Brakes must be adjusted according to manufacturer procedures to prevent unintended movement.",
+          "clause": "1926.1417(x)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules cover weather, slack rope and traveling with a load?",
+      "intro": "Paragraphs 1926.1417(h), (m) and (n) give the competent person decisions on storm warnings, slack rope, and wind, ice and snow, and paragraph (u) sets the conditions for traveling with a load.",
+      "items": [
+        {
+          "text": "When a local storm warning has been issued, the competent person must determine whether the manufacturer's recommendations for securing the equipment need to be implemented.",
+          "clause": "1926.1417(h)"
+        },
+        {
+          "text": "The competent person must adjust the equipment, the operations or both to address the effect of wind, ice and snow on equipment stability and rated capacity.",
+          "clause": "1926.1417(n)"
+        },
+        {
+          "text": "If the competent person finds a slack rope condition that requires re-spooling, it must be verified before lifting starts that the rope is seated on the drum and in the sheaves as the slack is removed.",
+          "clause": "1926.1417(m)"
+        },
+        {
+          "text": "Traveling with a load is prohibited if the manufacturer prohibits the practice.",
+          "clause": "1926.1417(u)(1)"
+        },
+        {
+          "text": "When traveling with a load, a competent person must supervise, decide whether rated capacity must be reduced, and make the determinations on load position, boom location, ground support, travel route, overhead obstructions and speed of movement.",
+          "clause": "1926.1417(u)(2)(i)"
+        },
+        {
+          "text": "The employer must ensure those competent person determinations are implemented.",
+          "clause": "1926.1417(u)(2)(ii)"
+        },
+        {
+          "text": "For equipment with tires, the tire pressure the manufacturer specifies must be maintained during travel with a load.",
+          "clause": "1926.1417(u)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the counterweight and locomotive crane rules?",
+      "intro": "For equipment other than tower cranes, 1926.1417(aa)(1) requires the manufacturer-specified counterweight or ballast to be in place and never exceeded, and paragraph (z) covers swinging locomotive cranes.",
+      "items": [
+        {
+          "text": "Equipment other than tower cranes must not be operated without the counterweight or ballast in place as the manufacturer specifies.",
+          "clause": "1926.1417(aa)(1)(i)"
+        },
+        {
+          "text": "The maximum counterweight or ballast the manufacturer specifies must not be exceeded.",
+          "clause": "1926.1417(aa)(1)(ii)"
+        },
+        {
+          "text": "Counterweight and ballast rules for tower cranes are in 1926.1435(b)(8), not in this section.",
+          "clause": "1926.1417(aa)(2)"
+        },
+        {
+          "text": "A locomotive crane must not be swung into a position where railway cars on an adjacent track could strike it until it is determined that cars are not being moved on that track and proper flag protection has been established.",
+          "clause": "1926.1417(z)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers cab documents, pre-start checks, rated capacity, load handling, travel, weather and locomotive cranes under 1926.1417, for use before a crane starts work and during lifts on a construction site.",
+  "checklist": "us/1926-1417-operation",
+  "faq": [],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1417: Operation (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1417"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "crane operation",
+    "crane rated capacity",
+    "crane load charts"
+  ],
+  "cover": "1926-1417-operation",
+  "coverPrompt": "A mobile crane on a construction site lifts a steel beam while a worker standing well clear of the load guides it with a tag line, the crane's outriggers fully extended on pads and the operator seen from a distance in the cab.",
+  "coverAlt": "Mobile crane lifting a steel beam on a construction site while a worker guides the load with a tag line",
+  "changes": []
+}
