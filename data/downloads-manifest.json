@@ -90,6 +90,16 @@
       "pdf": "/downloads/us/1910-157-portable-fire-extinguishers.pdf",
       "xlsx": "/downloads/us/1910-157-portable-fire-extinguishers.xlsx"
     },
+    "us/1910-178-powered-industrial-trucks": {
+      "hash": "a655ebc96ce7dec84c1d53654491f3c784396a1f9945108a771d680f4371b053",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 42,
+      "page_url": "https://safetyindex.blog/us/standards/1910-178-powered-industrial-trucks",
+      "pdf": "/downloads/us/1910-178-powered-industrial-trucks.pdf",
+      "xlsx": "/downloads/us/1910-178-powered-industrial-trucks.xlsx"
+    },
     "us/1910-179-overhead-gantry-cranes": {
       "hash": "37cd47b7480aae7c5b915d9dd42cf09bebfff7ce57206b580dbea13ddd4a9da0",
       "lang": "en",

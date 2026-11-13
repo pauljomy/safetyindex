@@ -1,0 +1,277 @@
+{
+  "slug": "1910-178-powered-industrial-trucks",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-178-powered-industrial-trucks",
+  "doc_ref": "SI-US-1910-178",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Forklift Inspection Checklist (29 CFR 1910.178)",
+  "subtitle": "For the examination before a truck is placed in service and for site audits of forklift operations.",
+  "regulation_line": "OSHA 29 CFR 1910.178",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item affecting safety fails, take the truck out of service, report the defect and keep the truck out of use until it is repaired (1910.178(p)(1) and (q)(7)).",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Truck condition and markings",
+      "items": [
+        [
+          "Nameplates and markings",
+          "All nameplates and markings are in place and legible",
+          "1910.178(a)(6)"
+        ],
+        [
+          "Approval label",
+          "Approved truck carries the testing laboratory's label or identifying mark",
+          "1910.178(a)(3)"
+        ],
+        [
+          "Modifications",
+          "Any modification affecting capacity or safe operation has the manufacturer's prior written approval, and the capacity, operation and maintenance plates match it",
+          "1910.178(a)(4)"
+        ],
+        [
+          "Non-factory attachments",
+          "Truck is marked with the attachment and the approximate combined weight at maximum elevation with the load laterally centered",
+          "1910.178(a)(5)"
+        ],
+        [
+          "Overhead guard",
+          "High lift rider truck has an overhead guard fitted, unless operating conditions do not permit one",
+          "1910.178(e)(1)"
+        ],
+        [
+          "Load backrest extension",
+          "Vertical load backrest extension fitted where the type of load presents a hazard",
+          "1910.178(e)(2)"
+        ],
+        [
+          "Fuel system",
+          "No leaks anywhere in the fuel system",
+          "1910.178(p)(4)"
+        ],
+        [
+          "Water muffler",
+          "Water supply is not below 75 percent of filled capacity",
+          "1910.178(q)(8)"
+        ],
+        [
+          "Exhaust",
+          "No hazardous sparks or flames from the exhaust system",
+          "1910.178(q)(8)"
+        ],
+        [
+          "Cleanliness",
+          "Truck is free of lint, excess oil and grease",
+          "1910.178(q)(10)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Examination, defects and repairs",
+      "items": [
+        [
+          "Examination before service",
+          "Truck examined before being placed in service and at least daily",
+          "1910.178(q)(7)"
+        ],
+        [
+          "Round-the-clock use",
+          "Trucks used round the clock are examined after each shift",
+          "1910.178(q)(7)"
+        ],
+        [
+          "Defect reporting",
+          "Defects found are reported immediately and corrected",
+          "1910.178(q)(7)"
+        ],
+        [
+          "Unsafe trucks",
+          "Any truck needing repair, defective or unsafe is out of service until restored to safe operating condition",
+          "1910.178(p)(1)"
+        ],
+        [
+          "Who repairs",
+          "Repairs are made only by authorized personnel",
+          "1910.178(q)(1)"
+        ],
+        [
+          "Replacement parts",
+          "Replacement parts are equivalent as to safety with the original design",
+          "1910.178(q)(5)"
+        ],
+        [
+          "Overheating",
+          "No part runs above its normal operating temperature; an overheating truck stays out of service until the cause is eliminated",
+          "1910.178(q)(9)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Operator training and certification",
+      "items": [
+        [
+          "Trained before driving",
+          "Every operator completed training before driving, other than for training purposes",
+          "1910.178(l)(1)(ii)"
+        ],
+        [
+          "Certification record",
+          "Record names the operator, gives the training date and evaluation date, and identifies who trained or evaluated",
+          "1910.178(l)(6)"
+        ],
+        [
+          "Three-year evaluation",
+          "Each operator's performance evaluated within the last three years",
+          "1910.178(l)(4)(iii)"
+        ],
+        [
+          "Refresher training",
+          "Refresher training given after unsafe operation, an accident or near-miss, a failed evaluation, assignment to a different truck type, or a workplace change affecting safe operation",
+          "1910.178(l)(4)(ii)"
+        ],
+        [
+          "Trainee supervision",
+          "Trainees drive only under direct supervision of a qualified trainer and where no one is endangered",
+          "1910.178(l)(2)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Battery charging and refueling",
+      "items": [
+        [
+          "Charging location",
+          "Charging installation is in an area designated for that purpose",
+          "1910.178(g)(1)"
+        ],
+        [
+          "Charging facilities",
+          "Electrolyte flushing and neutralizing, fire protection, charger protection from trucks, and ventilation for battery fumes are provided",
+          "1910.178(g)(2)"
+        ],
+        [
+          "Battery handling equipment",
+          "Conveyor, overhead hoist or equivalent equipment provided for handling batteries",
+          "1910.178(g)(4)"
+        ],
+        [
+          "Electrolyte handling",
+          "Carboy tilter or siphon provided",
+          "1910.178(g)(6)"
+        ],
+        [
+          "Truck position before charging",
+          "Truck properly positioned and brake applied before batteries are changed or charged",
+          "1910.178(g)(8)"
+        ],
+        [
+          "Vent caps and covers",
+          "Battery vent caps are functioning and battery (or compartment) covers are open to dissipate heat",
+          "1910.178(g)(9)"
+        ],
+        [
+          "No smoking",
+          "Smoking is prohibited in the charging area",
+          "1910.178(g)(10)"
+        ],
+        [
+          "Ignition sources",
+          "Precautions in place to prevent open flames, sparks or electric arcs in the charging area",
+          "1910.178(g)(11)"
+        ],
+        [
+          "Metal objects",
+          "Tools and other metallic objects kept away from the top of uncovered batteries",
+          "1910.178(g)(12)"
+        ],
+        [
+          "Refueling",
+          "Engine is off whenever the fuel tank is filled",
+          "1910.178(p)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Operating area and work practices",
+      "items": [
+        [
+          "Location classified",
+          "Atmosphere or location has been classified as hazardous or nonhazardous before trucks are used there",
+          "1910.178(b)(12)"
+        ],
+        [
+          "Approved trucks in hazardous locations",
+          "Only approved trucks are used in hazardous locations",
+          "1910.178(m)(11)"
+        ],
+        [
+          "Lighting",
+          "Auxiliary directional lighting on the truck where general lighting is less than 2 lumens per square foot",
+          "1910.178(h)(2)"
+        ],
+        [
+          "Carbon monoxide",
+          "Carbon monoxide from truck operations does not exceed the levels in 1910.1000",
+          "1910.178(i)(1)"
+        ],
+        [
+          "Fire aisles and equipment",
+          "Fire aisles, stairway access and fire equipment are clear",
+          "1910.178(m)(14)"
+        ],
+        [
+          "Headroom",
+          "Sufficient headroom under lights, pipes, sprinklers and other overhead installations",
+          "1910.178(m)(8)"
+        ],
+        [
+          "Highway trucks at docks",
+          "Brakes set and wheel chocks under the rear wheels while the trailer is boarded",
+          "1910.178(k)(1)"
+        ],
+        [
+          "Railroad cars",
+          "Wheel stops or other recognized positive protection keep railroad cars from moving during loading",
+          "1910.178(k)(2)"
+        ],
+        [
+          "Dockboards",
+          "Dockboards and bridge plates are secured before being driven over",
+          "1910.178(n)(11)"
+        ],
+        [
+          "Unattended trucks",
+          "Forks fully lowered, controls neutral, power off and brakes set; wheels blocked on an incline",
+          "1910.178(m)(5)(i)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.178: Powered industrial trucks (Part 1910 Subpart N, Materials Handling and Storage)",
+    "Source: eCFR, Title 29, as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

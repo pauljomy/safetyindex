@@ -1,0 +1,595 @@
+{
+  "section": "1910.178",
+  "part": "1910",
+  "heading": "Powered industrial trucks.",
+  "subpart": "N",
+  "subpartTitle": "Materials Handling and Storage",
+  "title": "Forklift Inspection Checklist and OSHA Requirements (29 CFR 1910.178)",
+  "seoTitle": "Forklift Inspection: OSHA 1910.178 Requirements",
+  "description": "OSHA 29 CFR 1910.178 forklift requirements by paragraph, citation data for FY2022–FY2026, and a printable forklift inspection checklist.",
+  "opening": "29 CFR 1910.178 sets OSHA's rules for forklifts and other powered industrial trucks: the right truck type for each location, examination before service, removing unsafe trucks, operator training, evaluation and certification, and safe traveling, loading, parking and battery charging.",
+  "keyword": "forklift inspection",
+  "cluster": [
+    {
+      "keyword": "osha forklift requirements",
+      "volume": 70,
+      "kd": 29,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "forklift inspection",
+      "volume": 260,
+      "kd": 1,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha powered industrial truck requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "powered industrial truck checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "powered industrial truck inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha powered industrial trucks requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "powered industrial trucks checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "powered industrial trucks inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.178",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 330,
+  "kd": 1,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 16608,
+    "inspections": 11607,
+    "byFy": {
+      "2022": 3003,
+      "2023": 3707,
+      "2024": 3627,
+      "2025": 3455,
+      "2026": 2816
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(l)(1)(i)",
+        "count": 2743
+      },
+      {
+        "paragraph": "(l)(6)",
+        "count": 2464
+      },
+      {
+        "paragraph": "(l)(4)(iii)",
+        "count": 1918
+      },
+      {
+        "paragraph": "(q)(7)",
+        "count": 1113
+      },
+      {
+        "paragraph": "(p)(1)",
+        "count": 1029
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 951
+      },
+      {
+        "paragraph": "(l)(1)(ii)",
+        "count": 924
+      },
+      {
+        "paragraph": "(l)(2)(ii)",
+        "count": 737
+      },
+      {
+        "paragraph": "(a)(6)",
+        "count": 609
+      },
+      {
+        "paragraph": "(a)(5)",
+        "count": 413
+      }
+    ],
+    "penalties": {
+      "n": 10239,
+      "median": 4823,
+      "p25": 2450,
+      "p75": 8349,
+      "total": 64004750
+    },
+    "typeShares": {
+      "serious": 0.61,
+      "willful": 0.001,
+      "repeat": 0.013,
+      "otherThanSerious": 0.376,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 10123,
+      "willful": 18,
+      "repeat": 215,
+      "otherThanSerious": 6251,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "4931",
+        "count": 1345,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "2381",
+        "count": 1274,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "3323",
+        "count": 647,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3219",
+        "count": 502,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "4244",
+        "count": 426,
+        "title": "Grocery and Related Product Merchant Wholesalers"
+      },
+      {
+        "naics": "3261",
+        "count": 389,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3279",
+        "count": 384,
+        "title": "Other Nonmetallic Mineral Product Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 376,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3327",
+        "count": 354,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "4441",
+        "count": 351,
+        "title": "Building Material and Supplies Dealers"
+      }
+    ]
+  },
+  "enforcementSummary": "Over FY2022–FY2026, the three most-cited paragraphs all concern operators: 1910.178(l)(1)(i) requires the employer to ensure each operator is competent, shown by completing the training and evaluation, 1910.178(l)(6) requires the employer to certify that each operator has been trained and evaluated, and 1910.178(l)(4)(iii) requires a performance evaluation at least once every three years. Citations rose from 3,003 in FY2022 to 3,707 in FY2023, then fell in each later year: 3,627 in FY2024, 3,455 in FY2025 and 2,816 in FY2026.",
+  "requirementsIntro": "1910.178 applies to fork trucks, tractors, platform lift trucks, motorized hand trucks and other specialized industrial trucks powered by electric motors or internal combustion engines. It does not cover compressed air or nonflammable compressed gas-operated trucks, farm vehicles, or vehicles intended primarily for earth moving or over-the-road hauling (1910.178(a)(1)). Paragraphs (a) to (e) cover design, truck designations and approved locations. Paragraphs (f) to (k) cover fuel, batteries, lighting, exhaust gases, dockboards, trailers and railroad cars. Paragraph (l) covers operator training, and (m) to (q) cover operation, travel, loading and maintenance.",
+  "requirements": [
+    {
+      "heading": "What design, marking and guard rules apply to forklifts?",
+      "intro": "Under 1910.178(a) and (e), new trucks an employer acquires and uses must meet a design standard, markings must stay legible, capacity-affecting changes need the manufacturer's written approval, and some trucks need guards.",
+      "items": [
+        {
+          "text": "New trucks that an employer acquires and uses must meet the design and construction requirements of ANSI B56.1-1969. Vehicles intended primarily for earth moving or over-the-road hauling are excepted.",
+          "clause": "1910.178(a)(2)"
+        },
+        {
+          "text": "Approved trucks carry a label or other mark showing approval by the testing laboratory.",
+          "clause": "1910.178(a)(3)"
+        },
+        {
+          "text": "The customer or user may not make modifications or additions that affect capacity and safe operation without the manufacturer's prior written approval.",
+          "clause": "1910.178(a)(4)"
+        },
+        {
+          "text": "After an approved modification, the capacity, operation and maintenance plates, tags or decals must be changed to match.",
+          "clause": "1910.178(a)(4)"
+        },
+        {
+          "text": "If a truck has front-end attachments that were not factory installed, the user must ask for the truck to be marked with the attachments and the approximate weight of the truck and attachment at maximum elevation with the load laterally centered.",
+          "clause": "1910.178(a)(5)"
+        },
+        {
+          "text": "The user must make sure all nameplates and markings are in place and kept legible.",
+          "clause": "1910.178(a)(6)"
+        },
+        {
+          "text": "High lift rider trucks need an overhead guard built to the design standard in (a)(2), unless operating conditions do not permit one.",
+          "clause": "1910.178(e)(1)"
+        },
+        {
+          "text": "If the type of load presents a hazard, the user must fit fork trucks with a vertical load backrest extension.",
+          "clause": "1910.178(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "Which truck type can be used in a hazardous location?",
+      "intro": "1910.178 matches truck designations to the fire or explosion hazard of each location. Below is a selection; the full location-by-location rules and Table N-1 are in 1910.178(c)(2).",
+      "items": [
+        {
+          "text": "Trucks carry one of eleven designations: D, DS, DY, E, ES, EE, EX, G, GS, LP and LPS.",
+          "clause": "1910.178(b)"
+        },
+        {
+          "text": "The atmosphere or location must be classified as hazardous or nonhazardous before industrial trucks are considered for use there.",
+          "clause": "1910.178(b)(12)"
+        },
+        {
+          "text": "Power-operated trucks must not be used in atmospheres with hazardous concentrations of the gases and vapors listed in the paragraph, which include acetylene and hydrogen.",
+          "clause": "1910.178(c)(2)(i)"
+        },
+        {
+          "text": "Only approved EX trucks may be used where combustible dust is or may be in suspension continuously, intermittently or periodically under normal operating conditions in quantities that can form explosive or ignitable mixtures, or where mechanical failure or abnormal operation might produce such mixtures.",
+          "clause": "1910.178(c)(2)(vi)(a)"
+        },
+        {
+          "text": "In storage warehouses and outside storage locations not classified as hazardous, any approved D, E, G or LP truck, or a truck conforming to those types, may be used.",
+          "clause": "1910.178(c)(2)(xi)"
+        },
+        {
+          "text": "Only approved industrial trucks may be used in hazardous locations.",
+          "clause": "1910.178(m)(11)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply to refueling and battery charging?",
+      "intro": "1910.178 sets fuel and battery charging rules covering where charging happens, what facilities it needs and how fuel is handled.",
+      "items": [
+        {
+          "text": "Liquid fuels such as gasoline and diesel must be stored and handled in line with NFPA No. 30-1969.",
+          "clause": "1910.178(f)(1)"
+        },
+        {
+          "text": "Battery charging installations must be in areas designated for that purpose.",
+          "clause": "1910.178(g)(1)"
+        },
+        {
+          "text": "Charging areas need facilities for flushing and neutralizing spilled electrolyte, fire protection, protecting charging apparatus from damage by trucks, and ventilation to disperse fumes from gassing batteries.",
+          "clause": "1910.178(g)(2)"
+        },
+        {
+          "text": "When charging batteries, acid is poured into water, never water into acid.",
+          "clause": "1910.178(g)(7)"
+        },
+        {
+          "text": "The truck must be properly positioned with the brake applied before batteries are changed or charged.",
+          "clause": "1910.178(g)(8)"
+        },
+        {
+          "text": "Smoking is prohibited in the charging area.",
+          "clause": "1910.178(g)(10)"
+        },
+        {
+          "text": "Fuel tanks must not be filled while the engine is running.",
+          "clause": "1910.178(p)(2)"
+        },
+        {
+          "text": "No truck may be operated with a leak in the fuel system until the leak has been corrected.",
+          "clause": "1910.178(p)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What training must forklift operators complete?",
+      "intro": "1910.178(l) requires every operator to be trained and evaluated before driving a truck, other than for training purposes.",
+      "items": [
+        {
+          "text": "The employer must ensure each operator is competent to drive safely, as shown by successfully completing the training and evaluation in paragraph (l).",
+          "clause": "1910.178(l)(1)(i)"
+        },
+        {
+          "text": "Before an employee operates a truck (except for training), the employer must ensure the training has been completed, except as allowed by (l)(5).",
+          "clause": "1910.178(l)(1)(ii)"
+        },
+        {
+          "text": "Trainees may drive only under direct supervision of people with the knowledge, training and experience to train and evaluate operators, and only where it does not endanger the trainee or other employees.",
+          "clause": "1910.178(l)(2)(i)"
+        },
+        {
+          "text": "Training combines formal instruction, practical training (trainer demonstrations and trainee exercises) and evaluation of the operator's performance in the workplace.",
+          "clause": "1910.178(l)(2)(ii)"
+        },
+        {
+          "text": "All training and evaluation must be done by people with the knowledge, training and experience to train operators and judge their competence.",
+          "clause": "1910.178(l)(2)(iii)"
+        },
+        {
+          "text": "Initial training covers the truck-related topics, the workplace-related topics and the requirements of 1910.178, except topics the employer can show do not apply to safe operation in that workplace.",
+          "clause": "1910.178(l)(3)"
+        },
+        {
+          "text": "A topic already covered by earlier training need not be repeated if that training suits the truck and working conditions and the operator has been evaluated and found competent.",
+          "clause": "1910.178(l)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "When is refresher training or re-evaluation required?",
+      "intro": "1910.178(l)(4) requires refresher training, with an evaluation of its effectiveness, after any of five triggers, plus a performance evaluation at least once every three years.",
+      "items": [
+        {
+          "text": "Refresher training is required when the operator has been observed driving unsafely.",
+          "clause": "1910.178(l)(4)(ii)(A)"
+        },
+        {
+          "text": "Refresher training is required after the operator is involved in an accident or near-miss incident.",
+          "clause": "1910.178(l)(4)(ii)(B)"
+        },
+        {
+          "text": "Refresher training is required when an evaluation shows the operator is not operating the truck safely.",
+          "clause": "1910.178(l)(4)(ii)(C)"
+        },
+        {
+          "text": "Refresher training is required when the operator is assigned to a different type of truck.",
+          "clause": "1910.178(l)(4)(ii)(D)"
+        },
+        {
+          "text": "Refresher training is required when a workplace condition changes in a way that could affect safe operation.",
+          "clause": "1910.178(l)(4)(ii)(E)"
+        },
+        {
+          "text": "Each operator's performance must be evaluated at least once every three years.",
+          "clause": "1910.178(l)(4)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must the operator certification record show?",
+      "intro": "Under 1910.178(l)(6), the employer must certify that each operator has been trained and evaluated, and the certification has set contents.",
+      "items": [
+        {
+          "text": "The employer certifies that each operator has been trained and evaluated as paragraph (l) requires.",
+          "clause": "1910.178(l)(6)"
+        },
+        {
+          "text": "The certification names the operator and gives the date of the training, the date of the evaluation, and who did the training or evaluation.",
+          "clause": "1910.178(l)(6)"
+        },
+        {
+          "text": "Employees hired after December 1, 1999 must complete initial training and evaluation before they are assigned to operate a truck.",
+          "clause": "1910.178(l)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must forklifts be examined?",
+      "intro": "1910.178(q)(7) requires each truck to be examined before it is placed in service, at least daily, or after each shift where trucks run round the clock.",
+      "items": [
+        {
+          "text": "Examine trucks before placing them in service, and do not place a truck in service if the examination shows any condition that adversely affects its safety.",
+          "clause": "1910.178(q)(7)"
+        },
+        {
+          "text": "The examination must be made at least daily.",
+          "clause": "1910.178(q)(7)"
+        },
+        {
+          "text": "Trucks used on a round-the-clock basis must be examined after each shift.",
+          "clause": "1910.178(q)(7)"
+        },
+        {
+          "text": "Defects must be reported immediately and corrected.",
+          "clause": "1910.178(q)(7)"
+        },
+        {
+          "text": "A truck found at any time to need repair, to be defective or to be unsafe in any way must be taken out of service until restored to safe operating condition.",
+          "clause": "1910.178(p)(1)"
+        },
+        {
+          "text": "All repairs must be made by authorized personnel.",
+          "clause": "1910.178(q)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply to forklift repairs and alterations?",
+      "intro": "1910.178(q) limits where repairs happen, which parts may be fitted and how trucks may be altered.",
+      "items": [
+        {
+          "text": "No repairs may be made in Class I, II or III locations.",
+          "clause": "1910.178(q)(2)"
+        },
+        {
+          "text": "Fuel and ignition system repairs that involve fire hazards must be done only in locations designated for them.",
+          "clause": "1910.178(q)(3)"
+        },
+        {
+          "text": "Disconnect the battery before repairing a truck's electrical system.",
+          "clause": "1910.178(q)(4)"
+        },
+        {
+          "text": "Replacement parts must be equivalent as to safety with the parts in the original design.",
+          "clause": "1910.178(q)(5)"
+        },
+        {
+          "text": "Trucks must not be altered by moving parts from their original relative positions, adding parts the manufacturer did not provide, or removing parts, except for an approved LP-gas conversion under (q)(12).",
+          "clause": "1910.178(q)(6)"
+        },
+        {
+          "text": "Fork trucks may not be given extra counterweight unless the truck manufacturer approves it.",
+          "clause": "1910.178(q)(6)"
+        },
+        {
+          "text": "A truck with any part running above its normal operating temperature, creating a hazard, must be removed from service until the cause of overheating is eliminated.",
+          "clause": "1910.178(q)(9)"
+        },
+        {
+          "text": "Solvents with a flash point below 100 °F must not be used to clean trucks.",
+          "clause": "1910.178(q)(10)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply to people around a working forklift?",
+      "intro": "1910.178(m) sets rules for people near trucks, for riders, and for parking and leaving a truck.",
+      "items": [
+        {
+          "text": "No one may stand or pass under the elevated portion of a truck, loaded or empty.",
+          "clause": "1910.178(m)(2)"
+        },
+        {
+          "text": "Unauthorized personnel may not ride on trucks, and a safe place to ride must be provided where riding is authorized.",
+          "clause": "1910.178(m)(3)"
+        },
+        {
+          "text": "A truck left unattended must have its load engaging means fully lowered, controls neutralized, power shut off and brakes set, with wheels blocked if it is parked on an incline.",
+          "clause": "1910.178(m)(5)(i)"
+        },
+        {
+          "text": "A truck counts as unattended when the operator is 25 ft. or more away with it in view, or has left it and it is out of view.",
+          "clause": "1910.178(m)(5)(ii)"
+        },
+        {
+          "text": "An operator who dismounts and stays within 25 ft. with the truck in view must fully lower the load engaging means, neutralize the controls and set the brakes.",
+          "clause": "1910.178(m)(5)(iii)"
+        },
+        {
+          "text": "Highway truck brakes must be set and wheel chocks placed under the rear wheels while a forklift boards them.",
+          "clause": "1910.178(k)(1)"
+        },
+        {
+          "text": "The flooring of trucks, trailers and railroad cars must be checked for breaks and weakness before a forklift drives onto it.",
+          "clause": "1910.178(m)(7)"
+        },
+        {
+          "text": "An overhead guard must be used as protection against falling objects; the rule notes it is not intended to withstand a falling capacity load.",
+          "clause": "1910.178(m)(9)"
+        }
+      ]
+    },
+    {
+      "heading": "What travel and load-handling rules must drivers follow?",
+      "intro": "1910.178(n) and (o) set rules for speed, following distance, grades, rail crossings and load limits.",
+      "items": [
+        {
+          "text": "Drivers must observe traffic regulations, including plant speed limits, stay approximately three truck lengths behind the truck ahead, and keep the truck under control.",
+          "clause": "1910.178(n)(1)"
+        },
+        {
+          "text": "Drivers must slow down and sound the horn at cross aisles and other places where vision is obstructed.",
+          "clause": "1910.178(n)(4)"
+        },
+        {
+          "text": "If the load blocks the forward view, the driver must travel with the load trailing.",
+          "clause": "1910.178(n)(4)"
+        },
+        {
+          "text": "Railroad tracks must be crossed diagonally wherever possible.",
+          "clause": "1910.178(n)(5)"
+        },
+        {
+          "text": "Parking closer than 8 feet from the center of railroad tracks is prohibited.",
+          "clause": "1910.178(n)(5)"
+        },
+        {
+          "text": "On grades over 10 percent, loaded trucks must be driven with the load upgrade.",
+          "clause": "1910.178(n)(7)(i)"
+        },
+        {
+          "text": "Only loads within the truck's rated capacity may be handled.",
+          "clause": "1910.178(o)(2)"
+        },
+        {
+          "text": "Tilting forward with the load engaging means elevated is prohibited except to pick up a load.",
+          "clause": "1910.178(o)(6)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers truck condition, examination and repair, operator certification, battery charging and the operating area under 1910.178; use it when examining a truck before it is placed in service and when auditing forklift operations on site.",
+  "checklist": "us/1910-178-powered-industrial-trucks",
+  "faq": [
+    {
+      "question": "Is Appendix A to 1910.178 mandatory?",
+      "answer": "No. Appendix A, on truck stability, is non-mandatory guidance for paragraph (l), and 1910.178(l)(8) states that it does not add to, alter or reduce the section's requirements."
+    },
+    {
+      "question": "How does Appendix A work out the safe weight for a long load?",
+      "answer": "Appendix A-5.3 gives an example: a 3000 pound capacity truck rated at a 24-inch load center has a maximum allowable load-moment of 72,000 inch-pounds, so a 60-inch load with a 30-inch load center can weigh at most 2,400 pounds. The appendix says operators should check the data plate for the maximum allowable weight at the rated load center."
+    },
+    {
+      "question": "Can a gasoline forklift be converted to LP gas?",
+      "answer": "Yes, under 1910.178(q)(12), provided the complete conversion produces a truck with the features specified for LP or LPS trucks and the conversion equipment is approved. Under 1910.178(d), a converted truck may then be used where G, GS, LP and LPS trucks are specified."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.178: Powered industrial trucks (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.178"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "forklift inspection",
+    "powered industrial trucks",
+    "forklift operator training"
+  ],
+  "cover": "1910-178-powered-industrial-trucks",
+  "coverPrompt": "A realistic photograph of an operator in a high-visibility vest and hard hat driving a counterbalanced forklift along a wide, clear warehouse aisle, carrying a wrapped pallet low with the mast tilted back, under bright even lighting with racking on both sides.",
+  "coverAlt": "Forklift operator carrying a pallet low along a clear warehouse aisle between storage racks",
+  "changes": []
+}
