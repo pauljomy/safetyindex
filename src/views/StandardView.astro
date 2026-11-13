@@ -137,7 +137,7 @@ const glance = [
 
       <h2 id="checklist-heading">{short} checklist</h2>
       <p><Fragment set:html={checklistIntro} /></p>
-      {checklist && <ChecklistBlock checklist={checklist} linkify={(c) => clauseHtml.get(c) ?? c} />}
+      {checklist && <ChecklistBlock as="p" checklist={checklist} linkify={(c) => clauseHtml.get(c) ?? c} />}
 
       <h2 id="penalties">What are the maximum OSHA penalties?</h2>
       <p>These are the current federal maximums for any standard, including {short}; see <a href={url.penalties()}>OSHA penalty amounts</a> for how they change each year.</p>

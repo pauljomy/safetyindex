@@ -5,38 +5,43 @@
 import type { Checklist } from "@lib/content";
 import AppButton from "@components/AppButton.astro";
 import { langOf, ui } from "../i18n/ui";
-const { checklist, linkify } = Astro.props as { checklist: Checklist; linkify?: (s: string) => string };
+// `as`: "h2" when the checklist is its own section (guides); "p" under a page's own "… checklist" H2.
+const { checklist, linkify, as: Tag = "h2" } = Astro.props as { checklist: Checklist; linkify?: (s: string) => string; as?: "h2" | "p" };
 const d = checklist.data;
 const s = ui[langOf(Astro.url.pathname)];
 const base = `/downloads/${checklist.id}`;
 const total = d.sections.reduce((n, sec) => n + sec.items.length, 0);
 let n = 0;
 ---
-<section class="checklist not-prose my-8" data-checklist={checklist.id} id="checklist">
-  <h2 class="mb-2 text-xl font-semibold text-black dark:text-white">{d.title}</h2>
-  {d.regulation_line && <p class="mb-2 text-sm">{d.regulation_line}</p>}
-  <p class="mb-4 text-sm">{s.checklistNote}</p>
-  <div class="mb-4 flex flex-wrap gap-2 print:hidden">
-    <a class="rounded-md border border-black/20 px-3 py-1.5 text-sm font-medium hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" href={`${base}.pdf`} download data-track="download_pdf">{s.downloadPdf}</a>
-    <a class="rounded-md border border-black/20 px-3 py-1.5 text-sm font-medium hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" href={`${base}.xlsx`} download data-track="download_xlsx">{s.downloadExcel}</a>
-    <button type="button" class="rounded-md border border-black/20 px-3 py-1.5 text-sm font-medium hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" data-print>{s.print}</button>
-    <button type="button" class="rounded-md border border-black/20 px-3 py-1.5 text-sm hover:bg-black/5 dark:border-white/25 dark:hover:bg-white/5" data-reset>{s.resetChecklist}</button>
-    <span class="self-center text-sm" data-count aria-live="polite">{s.checked(0, total)}</span>
+<section class="checklist my-10 rounded-lg border border-line bg-subtle p-5 md:p-7" data-checklist={checklist.id} id="checklist">
+  {Tag === "h2"
+    ? <h2 class="!mt-0 text-[22px] font-bold leading-snug md:text-[24px]">{d.title}</h2>
+    : <p class="!mt-0 text-[20px] font-bold leading-snug md:text-[22px]">{d.title}</p>}
+  {d.regulation_line && <p class="meta !mt-1">{d.regulation_line}</p>}
+  <p class="!mt-3 text-[15px] text-muted">{s.checklistNote}</p>
+  <div class="mt-5 flex flex-wrap items-center gap-2 print:hidden">
+    <a class="ck-btn ck-primary" href={`${base}.pdf`} download data-track="download_pdf">
+      <svg aria-hidden="true" viewBox="0 0 16 16" class="size-4 fill-current"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14ZM7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/></svg>{s.downloadPdf}</a>
+    <a class="ck-btn ck-primary" href={`${base}.xlsx`} download data-track="download_xlsx">
+      <svg aria-hidden="true" viewBox="0 0 16 16" class="size-4 fill-current"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14ZM7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/></svg>{s.downloadExcel}</a>
+    <button type="button" class="ck-btn" data-print>{s.print}</button>
+    <button type="button" class="ck-btn" data-reset>{s.resetChecklist}</button>
+    <span class="meta ml-auto" data-count aria-live="polite">{s.checked(0, total)}</span>
   </div>
   {d.sections.map((sec) => (
-    <fieldset class="mb-6 break-inside-avoid-page">
-      <legend class="mb-2 font-semibold text-black dark:text-white">{sec.code}. {sec.title}</legend>
-      <ol class="space-y-2">
+    <fieldset class="mt-7 break-inside-avoid-page">
+      <legend class="mb-3 text-[13px] font-semibold tracking-wide text-muted uppercase">{sec.code}. {sec.title}</legend>
+      <ol class="ck-list">
         {sec.items.map(([name, check, clause]) => {
           n += 1;
           const id = `ck-${n}`;
           return (
-            <li class="flex gap-3 rounded-md border border-black/10 p-3 dark:border-white/15">
-              <input type="checkbox" id={id} class="mt-1 size-4 shrink-0 accent-amber-600" />
-              <label for={id} class="space-y-0.5">
-                <span class="block font-medium text-black dark:text-white">{n}. {name}</span>
-                <span class="block text-sm"><span class="sr-only">{s.whatToLookFor}: </span>{check}</span>
-                {clause && <span class="block text-xs" data-clause>{s.reference} <Fragment set:html={linkify ? linkify(clause) : clause} /></span>}
+            <li class="ck-item">
+              <input type="checkbox" id={id} class="mt-[3px] size-[18px] shrink-0 accent-[#1f2328]" />
+              <label for={id} class="block min-w-0 cursor-pointer">
+                <span class="block font-semibold text-ink">{n}. {name}</span>
+                <span class="mt-0.5 block text-[15px] text-muted"><span class="sr-only">{s.whatToLookFor}: </span>{check}</span>
+                {clause && <span class="mt-1 block font-mono text-[12.5px] text-muted" data-clause>{s.reference} <Fragment set:html={linkify ? linkify(clause) : clause} /></span>}
               </label>
             </li>
           );
@@ -44,7 +49,7 @@ let n = 0;
       </ol>
     </fieldset>
   ))}
-  {d.instructions.length > 0 && <ul class="mb-2 list-disc pl-5 text-sm">{d.instructions.map((i) => <li>{i}</li>)}</ul>}
+  {d.instructions.length > 0 && <ul class="!mt-6 list-disc pl-5 text-[15px] text-muted">{d.instructions.map((i) => <li>{i}</li>)}</ul>}
   <AppButton checklistId={checklist.id} />
 </section>
 <script>

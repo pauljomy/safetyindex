@@ -147,7 +147,9 @@ const industries = defineCollection({
 });
 
 const checklists = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./src/content/checklists" }),
+  // The id is the file path (us/<slug>), which pages reference in `checklist`. Without generateId the glob
+  // loader would use the JSON's own `slug` field as the id, and no page would find its checklist.
+  loader: glob({ pattern: "**/*.json", base: "./src/content/checklists", generateId: ({ entry }) => entry.replace(/\.json$/, "") }),
   schema: z.object({
     slug: z.string(),
     market: z.string(),

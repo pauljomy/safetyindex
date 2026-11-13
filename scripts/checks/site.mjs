@@ -130,6 +130,12 @@ export function runSiteChecks({ pages, dist, site }) {
     const art = article(html);
     // Hub linking to the page.
     if (![...(inbound.get(path) ?? [])].some((h) => hubPaths.has(h))) report(path, "no hub page links to it");
+    // A page with a checklist shows it on the page, with working PDF and Excel links (brief rule 3).
+    if (c?.data?.checklist) {
+      const id = c.data.checklist;
+      if (!html.includes(`data-checklist="${id}"`) || !/type="checkbox"/.test(html)) errors.push(`${path}: checklist ${id} is not shown on the page`);
+      for (const ext of ["pdf", "xlsx"]) if (!html.includes(`href="/downloads/${id}.${ext}"`) || !existsSync(join(dist, "downloads", `${id}.${ext}`))) errors.push(`${path}: checklist ${ext.toUpperCase()} download missing (/downloads/${id}.${ext})`);
+    }
     // Sources: French and German pages must cite their own country.
     const ext = [...art.matchAll(/<a\b[^>]*href="(https?:\/\/[^"]+)"/g)].map((m) => { try { return new URL(m[1]).hostname; } catch { return ""; } }).filter((h) => h && !h.endsWith(new URL(site).hostname));
     if (c && (c.market === "fr" || c.market === "de") && ext.length) {
