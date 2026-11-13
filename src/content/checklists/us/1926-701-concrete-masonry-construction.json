@@ -1,0 +1,131 @@
+{
+  "slug": "1926-701-concrete-masonry-construction",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-701-concrete-masonry-construction",
+  "doc_ref": "SI-US-1926-701",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Rebar Cap Checklist (29 CFR 1926.701)",
+  "subtitle": "For site walks during concrete work: rebar guards, loads, the tensioning area, buckets and pneumatic application.",
+  "regulation_line": "OSHA 29 CFR 1926.701",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For any Defect, stop the exposed work or keep employees away until it is corrected, then record the fix.",
+    "Manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Protruding reinforcing steel",
+      "items": [
+        [
+          "Rebar employees could fall onto",
+          "Every protruding bar end below or beside a work area or walkway is guarded.",
+          "1926.701(b)"
+        ],
+        [
+          "Rebar employees could fall into",
+          "Protruding bars in openings, forms or excavations are guarded.",
+          "1926.701(b)"
+        ],
+        [
+          "Guard condition",
+          "Guards are in place, undamaged and cover the bar so a falling worker could not be impaled.",
+          "1926.701(b)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Construction loads",
+      "items": [
+        [
+          "Structural design information",
+          "Information from a person qualified in structural design is available for the structure or portion being loaded.",
+          "1926.701(a)"
+        ],
+        [
+          "Employer determination",
+          "The employer has determined, from that information, that the structure or portion can support the planned loads.",
+          "1926.701(a)"
+        ],
+        [
+          "Loads placed",
+          "No construction loads sit on any concrete structure or portion that has not been assessed.",
+          "1926.701(a)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Post-tensioning operations",
+      "items": [
+        [
+          "Area behind the jack",
+          "During tensioning, only employees essential to the post-tensioning work are behind the jack.",
+          "1926.701(c)(1)"
+        ],
+        [
+          "Signs",
+          "Signs are erected to limit employee access to the post-tensioning area while tensioning is under way.",
+          "1926.701(c)(2)"
+        ],
+        [
+          "Barriers",
+          "Barriers are erected around the post-tensioning area while tensioning is under way.",
+          "1926.701(c)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Concrete buckets and pneumatic hose application",
+      "items": [
+        [
+          "Riding buckets",
+          "No employee rides a concrete bucket.",
+          "1926.701(d)"
+        ],
+        [
+          "Work under buckets",
+          "No employee is under a concrete bucket while it is being elevated or lowered into position.",
+          "1926.701(e)(1)"
+        ],
+        [
+          "Bucket route",
+          "Elevated buckets follow a route that exposes no employees, or the fewest practical, to a falling bucket.",
+          "1926.701(e)(2)"
+        ],
+        [
+          "Head protection at the hose",
+          "Each employee applying cement, sand and water mixture through a pneumatic hose wears protective head equipment.",
+          "1926.701(f)"
+        ],
+        [
+          "Face protection at the hose",
+          "Each employee applying the mixture through a pneumatic hose wears protective face equipment.",
+          "1926.701(f)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.701: General requirements (Part 1926 Subpart Q, Concrete and Masonry Construction)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

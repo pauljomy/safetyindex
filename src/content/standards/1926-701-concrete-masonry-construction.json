@@ -1,0 +1,316 @@
+{
+  "section": "1926.701",
+  "part": "1926",
+  "heading": "General requirements.",
+  "subpart": "Q",
+  "subpartTitle": "Concrete and Masonry Construction",
+  "title": "OSHA rebar cap requirements (29 CFR 1926.701)",
+  "seoTitle": "OSHA Rebar Cap Requirements: 29 CFR 1926.701",
+  "description": "OSHA rebar cap requirements in 29 CFR 1926.701: impalement guards, construction loads, tensioning jacks, concrete buckets, citation data and a checklist.",
+  "opening": "29 CFR 1926.701 requires employers to guard all protruding rebar that workers could fall onto or into so the impalement hazard is eliminated, and it also covers construction loads, concrete buckets, the post-tensioning area and pneumatic cement application.",
+  "keyword": "osha rebar cap requirements",
+  "cluster": [
+    {
+      "keyword": "osha concrete construction requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "concrete construction checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "concrete construction inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha rebar cap requirements",
+      "volume": 50,
+      "kd": 3,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rebar cap checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rebar cap inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha concrete and masonry construction requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "concrete and masonry construction checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "concrete and masonry construction inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.701",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 50,
+  "kd": 3,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 683,
+    "inspections": 682,
+    "byFy": {
+      "2022": 147,
+      "2023": 165,
+      "2024": 125,
+      "2025": 135,
+      "2026": 111
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)",
+        "count": 680
+      },
+      {
+        "paragraph": "(a)",
+        "count": 1
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 1
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 635,
+      "median": 3349,
+      "p25": 1897,
+      "p75": 5310,
+      "total": 2641010
+    },
+    "typeShares": {
+      "serious": 0.769,
+      "willful": 0,
+      "repeat": 0.028,
+      "otherThanSerious": 0.204,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 525,
+      "willful": 0,
+      "repeat": 19,
+      "otherThanSerious": 139,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 323,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 164,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 74,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 30,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2382",
+        "count": 24,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2373",
+        "count": 21,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2371",
+        "count": 11,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2383",
+        "count": 11,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2379",
+        "count": 6,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "2123",
+        "count": 2,
+        "title": "Nonmetallic Mineral Mining and Quarrying"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.701(b), which requires protruding reinforcing steel to be guarded against impalement, accounts for 680 of the 683 citations in FY2022–FY2026. Three other paragraphs drew 1 citation each: (a) on construction loads, (c)(1) on employees behind the post-tensioning jack and (e)(1) on employees under moving concrete buckets. Citations went from 147 in FY2022 to 165 in FY2023, dropped to 125 in FY2024, rose to 135 in FY2025 and stood at 111 in FY2026.",
+  "requirementsIntro": "1926.701 sits in Part 1926 Subpart Q (Concrete and Masonry Construction), and its rules are duties the employer must meet. It has six lettered paragraphs: (a) for construction loads, (b) for reinforcing steel, (c) for post-tensioning operations, (d) and (e) for concrete buckets and loads overhead, and (f) for protective equipment; the groups below give the main rules in plain language, and the full text on eCFR is the binding version.",
+  "requirements": [
+    {
+      "heading": "When must protruding rebar be guarded?",
+      "intro": "Under 1926.701(b), protruding reinforcing steel must be guarded whenever employees could fall onto it or into it.",
+      "items": [
+        {
+          "text": "Guard all protruding reinforcing steel that employees could fall onto.",
+          "clause": "1926.701(b)"
+        },
+        {
+          "text": "Guard all protruding reinforcing steel that employees could fall into.",
+          "clause": "1926.701(b)"
+        },
+        {
+          "text": "The guard used must eliminate the impalement hazard.",
+          "clause": "1926.701(b)"
+        }
+      ]
+    },
+    {
+      "heading": "When can construction loads be placed on a concrete structure?",
+      "intro": "Construction loads may go on a concrete structure, or a portion of one, only after the employer has determined it can support them, as 1926.701(a) sets out.",
+      "items": [
+        {
+          "text": "Do not place construction loads on a concrete structure or any portion of it until the employer has determined that the structure or portion can support those loads.",
+          "clause": "1926.701(a)"
+        },
+        {
+          "text": "Base that determination on information received from a person qualified in structural design.",
+          "clause": "1926.701(a)"
+        }
+      ]
+    },
+    {
+      "heading": "Who may be near the jack during post-tensioning?",
+      "intro": "During tensioning, 1926.701(c) keeps non-essential employees from behind the jack and requires access to the tensioning area to be limited.",
+      "items": [
+        {
+          "text": "Do not allow any employee behind the jack during tensioning operations, except those essential to the post-tensioning work.",
+          "clause": "1926.701(c)(1)"
+        },
+        {
+          "text": "Erect signs and barriers to limit employee access to the post-tensioning area during tensioning.",
+          "clause": "1926.701(c)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply to concrete buckets?",
+      "intro": "Paragraphs 1926.701(d) and (e) ban riding concrete buckets, ban work beneath buckets while they move into position, and require bucket routes that limit exposure.",
+      "items": [
+        {
+          "text": "Do not permit any employee to ride a concrete bucket.",
+          "clause": "1926.701(d)"
+        },
+        {
+          "text": "Do not permit employees to work under concrete buckets while the buckets are being elevated or lowered into position.",
+          "clause": "1926.701(e)(1)"
+        },
+        {
+          "text": "To the extent practical, route elevated concrete buckets so that no employee, or the fewest number of employees, is exposed to the hazards of a falling bucket.",
+          "clause": "1926.701(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What protective equipment is needed to apply cement mixtures through a pneumatic hose?",
+      "intro": "An employee applying a cement, sand and water mixture through a pneumatic hose must wear protective head and face equipment under 1926.701(f).",
+      "items": [
+        {
+          "text": "Do not permit an employee to apply the mixture through a pneumatic hose unless that employee is wearing protective head equipment.",
+          "clause": "1926.701(f)"
+        },
+        {
+          "text": "The same employee must also be wearing protective face equipment.",
+          "clause": "1926.701(f)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers rebar guards, construction loads, post-tensioning, concrete buckets and pneumatic application under 29 CFR 1926.701; use it on site walks while concrete work is under way.",
+  "checklist": "us/1926-701-concrete-masonry-construction",
+  "faq": [
+    {
+      "question": "Does 29 CFR 1926.701 say rebar caps must be used?",
+      "answer": "No. Paragraph 1926.701(b) does not name caps or any other device. It sets an outcome: the impalement hazard has to be eliminated, and whatever guard you pick must achieve that. If you're unsure whether a product does, ask OSHA or a competent person."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.701: General requirements (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.701"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "rebar impalement protection",
+    "protruding reinforcing steel",
+    "concrete construction"
+  ],
+  "cover": "1926-701-concrete-masonry-construction",
+  "coverPrompt": "A realistic photograph of a concrete foundation under construction with rows of vertical rebar sticking up from a footing, each bar end covered by a protective impalement guard, while workers in hard hats and high-visibility vests tie rebar in the background, seen from a distance.",
+  "coverAlt": "Vertical rebar in a concrete footing with guarded bar ends while workers in hard hats tie steel nearby",
+  "changes": []
+}
