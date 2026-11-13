@@ -1,0 +1,247 @@
+{
+  "naics": "7225",
+  "naicsTitle": "Restaurants and Other Eating Places",
+  "title": "Most-cited OSHA standards for restaurants and other eating places (NAICS 7225)",
+  "seoTitle": "Restaurant safety: top OSHA citations, NAICS 7225",
+  "description": "OSHA standards cited most in restaurants and other eating places (NAICS 7225), FY2022–FY2026: hazard communication leads with 990 of 3,369 citations.",
+  "opening": "In restaurants and other eating places (NAICS 7225), the OSHA standard cited most from FY2022–FY2026 is 1910.1200, hazard communication, with 990 of the 3,369 citations, ahead of 1910.132, the general requirements for personal protective equipment.",
+  "keyword": "restaurant safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 420,
+  "kd": 7,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 4594,
+    "citations": 3369,
+    "topStandards": [
+      {
+        "section": "1910.1200",
+        "count": 990
+      },
+      {
+        "section": "1910.132",
+        "count": 256
+      },
+      {
+        "section": "1910.303",
+        "count": 239
+      },
+      {
+        "section": "1910.305",
+        "count": 230
+      },
+      {
+        "section": "1910.157",
+        "count": 214
+      },
+      {
+        "section": "1910.22",
+        "count": 212
+      },
+      {
+        "section": "1910.151",
+        "count": 123
+      },
+      {
+        "section": "1910.37",
+        "count": 107
+      },
+      {
+        "section": "1904.39",
+        "count": 81
+      },
+      {
+        "section": "1910.133",
+        "count": 78
+      },
+      {
+        "section": "1910.36",
+        "count": 66
+      },
+      {
+        "section": "1910.138",
+        "count": 57
+      },
+      {
+        "section": "1910.212",
+        "count": 54
+      },
+      {
+        "section": "1910.141",
+        "count": 50
+      },
+      {
+        "section": "1910.147",
+        "count": 49
+      },
+      {
+        "section": "1910.263",
+        "count": 46
+      },
+      {
+        "section": "1910.28",
+        "count": 46
+      },
+      {
+        "section": "1904.40",
+        "count": 39
+      },
+      {
+        "section": "1910.38",
+        "count": 34
+      },
+      {
+        "section": "1910.304",
+        "count": 32
+      },
+      {
+        "section": "1910.101",
+        "count": 21
+      },
+      {
+        "section": "1910.1030",
+        "count": 20
+      },
+      {
+        "section": "1910.134",
+        "count": 19
+      },
+      {
+        "section": "1903.19",
+        "count": 18
+      },
+      {
+        "section": "1910.25",
+        "count": 18
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 315
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 270
+      },
+      {
+        "clause": "1910.1200(g)(8)",
+        "count": 131
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 118
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 113
+      },
+      {
+        "clause": "1910.1200(g)(1)",
+        "count": 83
+      },
+      {
+        "clause": "1910.133(a)(1)",
+        "count": 77
+      },
+      {
+        "clause": "1910.22(a)(3)",
+        "count": 72
+      },
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 71
+      },
+      {
+        "clause": "1910.1200(e)(1)(i)",
+        "count": 70
+      }
+    ],
+    "penalties": {
+      "n": 1739,
+      "median": 3687,
+      "p25": 1750,
+      "p75": 6857,
+      "total": 8819989
+    },
+    "typeShares": {
+      "serious": 0.589,
+      "willful": 0,
+      "repeat": 0.013,
+      "otherThanSerious": 0.398,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 49
+  },
+  "patternsSummary": "Most of the top standards in NAICS 7225 deal with chemicals, protective equipment, electrical installations, fire and exit safety, floors and first aid. Hazard communication under 1910.1200 leads with 990 citations, followed by the personal protective equipment general requirements under 1910.132 (256) and the Subpart S electrical rules 1910.303 (239) and 1910.305 (230). Portable fire extinguishers under 1910.157 (214), walking-working surfaces under 1910.22 (212), medical services and first aid under 1910.151 (123) and exit route maintenance under 1910.37 (107) complete the top eight. Further down the list, two more protective equipment sections appear: eye and face protection under 1910.133 (78) and hand protection under 1910.138 (57).",
+  "penaltiesSummary": "Where a penalty was recorded in FY2022–FY2026, the median was $3,687, and the middle half of penalties fell between $1,750 and $6,857. Of all citations, 59% were classed serious, 1% repeat and 0% willful; the remaining 40% were other-than-serious.",
+  "standardNotes": [
+    {
+      "section": "1910.1200",
+      "note": "OSHA's hazard communication standard, in Subpart Z (Toxic and Hazardous Substances)."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment, in Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.303",
+      "note": "General electrical rules, in Subpart S (Electrical)."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and equipment for general use, in Subpart S (Electrical)."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, in Subpart L (Fire Protection)."
+    },
+    {
+      "section": "1910.22",
+      "note": "General requirements for walking-working surfaces, in Subpart D."
+    },
+    {
+      "section": "1910.151",
+      "note": "Medical services and first aid, in Subpart K (Medical and First Aid)."
+    },
+    {
+      "section": "1910.37",
+      "note": "Maintenance, safeguards and operational features for exit routes, in Subpart E (Exit Routes and Emergency Planning)."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "restaurants and other eating places",
+    "NAICS 7225 restaurants"
+  ],
+  "cover": "7225-restaurants-other-eating-places",
+  "coverPrompt": "Realistic photograph of a busy commercial restaurant kitchen: cooks seen from behind and at a distance working at a stainless-steel cooking line, one wearing disposable gloves while prepping vegetables on a cutting board, a red portable fire extinguisher mounted on a wall bracket, dry tiled floor, clear walkway, bright overhead lighting, no text, no labels, no logos, no close-up faces.",
+  "coverAlt": "Cooks at a stainless-steel restaurant kitchen line with a fire extinguisher mounted on the wall",
+  "changes": []
+}
