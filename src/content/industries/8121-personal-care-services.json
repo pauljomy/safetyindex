@@ -1,0 +1,231 @@
+{
+  "naics": "8121",
+  "naicsTitle": "Personal Care Services",
+  "title": "Most-cited OSHA standards for personal care services, salons and barbers (NAICS 8121)",
+  "seoTitle": "Salon safety: top OSHA citations in NAICS 8121",
+  "description": "OSHA citations in personal care services (NAICS 8121), FY2022–FY2026: hazard communication leads, then bloodborne pathogens. Penalty median $1,050.",
+  "opening": "Hazard communication, 1910.1200, is the OSHA standard cited most in NAICS 8121, Personal Care Services, with 138 of 311 citations in FY2022–FY2026, followed by bloodborne pathogens, 1910.1030, with 69.",
+  "keyword": "salon safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 60,
+  "kd": 3,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 281,
+    "citations": 311,
+    "topStandards": [
+      {
+        "section": "1910.1200",
+        "count": 138
+      },
+      {
+        "section": "1910.1030",
+        "count": 69
+      },
+      {
+        "section": "1910.134",
+        "count": 17
+      },
+      {
+        "section": "1910.1048",
+        "count": 13
+      },
+      {
+        "section": "1910.132",
+        "count": 13
+      },
+      {
+        "section": "1910.151",
+        "count": 9
+      },
+      {
+        "section": "1910.157",
+        "count": 8
+      },
+      {
+        "section": "1910.305",
+        "count": 8
+      },
+      {
+        "section": "1910.133",
+        "count": 5
+      },
+      {
+        "section": "1910.303",
+        "count": 5
+      },
+      {
+        "section": "1910.37",
+        "count": 5
+      },
+      {
+        "section": "1910.147",
+        "count": 4
+      },
+      {
+        "section": "1926.1101",
+        "count": 4
+      },
+      {
+        "section": "1910.36",
+        "count": 3
+      },
+      {
+        "section": "1926.451",
+        "count": 3
+      },
+      {
+        "section": "1910.22",
+        "count": 2
+      },
+      {
+        "section": "1903.19",
+        "count": 1
+      },
+      {
+        "section": "1910.138",
+        "count": 1
+      },
+      {
+        "section": "1910.28",
+        "count": 1
+      },
+      {
+        "section": "1910.304",
+        "count": 1
+      },
+      {
+        "section": "1910.38",
+        "count": 1
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 46
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 33
+      },
+      {
+        "clause": "1910.1200(g)(8)",
+        "count": 19
+      },
+      {
+        "clause": "1910.1030(c)(1)(i)",
+        "count": 12
+      },
+      {
+        "clause": "1910.1200(f)(6)(ii)",
+        "count": 12
+      },
+      {
+        "clause": "1910.1200(g)(1)",
+        "count": 12
+      },
+      {
+        "clause": "1910.1030(g)(2)(i)",
+        "count": 10
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 9
+      },
+      {
+        "clause": "1910.1030(f)(1)(i)",
+        "count": 7
+      },
+      {
+        "clause": "1910.1200(e)(1)(i)",
+        "count": 7
+      }
+    ],
+    "penalties": {
+      "n": 105,
+      "median": 1050,
+      "p25": 518,
+      "p75": 2765,
+      "total": 245648
+    },
+    "typeShares": {
+      "serious": 0.691,
+      "willful": 0,
+      "repeat": 0.01,
+      "otherThanSerious": 0.299,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 11
+  },
+  "patternsSummary": "Chemical and biological exposure accounts for the top citations in NAICS 8121: hazard communication (1910.1200, 138 citations), bloodborne pathogens (1910.1030, 69) and formaldehyde (1910.1048, 13) all sit in Subpart Z, Toxic and Hazardous Substances. Personal protective equipment from Subpart I forms the next group, with respiratory protection (1910.134, 17), the general PPE requirements (1910.132, 13) and eye and face protection (1910.133, 5). First aid (1910.151, 9), portable fire extinguishers (1910.157, 8), electrical wiring (1910.305, 8), general electrical rules (1910.303, 5) and exit route maintenance (1910.37, 5) complete the 11 standards cited 5 or more times.",
+  "penaltiesSummary": "Across 105 penalties in FY2022–FY2026, the median was $1,050, and the middle half fell between $518 and $2,765. Serious violations made up 69% of citations, other-than-serious 30%, repeat 1% and willful 0%.",
+  "standardNotes": [
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication (Subpart Z); cited 138 times, more than any other standard in NAICS 8121."
+    },
+    {
+      "section": "1910.1030",
+      "note": "Bloodborne pathogens (Subpart Z); second most cited standard here, with 69 citations."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, under Subpart I, Personal Protective Equipment; 17 citations."
+    },
+    {
+      "section": "1910.1048",
+      "note": "Formaldehyde, a Subpart Z substance standard; 13 citations."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements of Subpart I, the PPE subpart; 13 citations."
+    },
+    {
+      "section": "1910.151",
+      "note": "Medical services and first aid (Subpart K); 9 citations."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, from Subpart L, Fire Protection; 8 citations."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components, and equipment for general use (Subpart S, Electrical); 8 citations."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "personal care services",
+    "barber shops and beauty salons"
+  ],
+  "cover": "8121-personal-care-services",
+  "coverPrompt": "Realistic photograph of a bright, tidy beauty salon interior: a stylist seen from behind wearing nitrile gloves and an apron mixes hair color in a bowl at a work station, with closed product bottles on a shelf, clean mirrors, styling chairs and a wall-mounted fire extinguisher in the background. Natural daylight, no readable text, labels, logos or close-up faces.",
+  "coverAlt": "Stylist in nitrile gloves mixing hair color at a salon work station",
+  "changes": []
+}
