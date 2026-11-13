@@ -1,0 +1,288 @@
+
+> safety-index-blog@0.1.0 engine
+> node scripts/engine/run.mjs --only standard,industry
+
+[2026-11-13 03:30:07] engine start: 47 of 622 jobs to do, 3 worker(s), writer cli
+[2026-11-13 03:30:07] ▶ [w1] standard:1910.146
+[2026-11-13 03:30:07] ▶ [w2] standard:1926.453
+[2026-11-13 03:30:08] ▶ [w3] standard:1910.29
+[2026-11-13 03:32:22]    [w2] · 1926-453-aerial-lifts write [cli]: 134s, $0.41 equiv.
+[2026-11-13 03:32:44]    [w2] · 1926-453-aerial-lifts check [cli]: 22s, $0.14 equiv.
+[2026-11-13 03:32:47] ✔ [w2] standard:1926.453 done (159s)
+[2026-11-13 03:32:51] ▶ [w2] standard:1926.502
+[2026-11-13 03:33:11]    [w1] · 1910-146-permit-required-confined-spaces write [cli]: 184s, $0.66 equiv.
+[2026-11-13 03:33:11]    [w1] ! 1910-146-permit-required-confined-spaces: 61 validation problem(s), retrying once:
+    - clause 1910.146(e)(1) is not in the eCFR text (paragraph (e)(1) not found in 29 CFR 1910.146)
+    - clause 1910.146(e)(2) is not in the eCFR text (paragraph (e)(2) not found in 29 CFR 1910.146)
+    - clause 1910.146(e)(3) is not in the eCFR text (paragraph (e)(3) not found in 29 CFR 1910.146)
+    - clause 1910.146(e)(4) is not in the eCFR text (paragraph (e)(4) not found in 29 CFR 1910.146)
+    - clause 1910.146(e)(5) is not in the eCFR text (paragraph (e)(5) not found in 29 CFR 1910.146)
+    - clause 1910.146(e)(6) is not in the eCFR text (paragraph (e)(6) not found in 29 CFR 1910.146)
+    - clause 1910.146(f) is not in the eCFR text (paragraph (f) not found in 29 CFR 1910.146)
+    - clause 1910.146(h)(4) is not in the eCFR text (paragraph (h)(4) not found in 29 CFR 1910.146)
+    - clause 1910.146(h)(5) is not in the eCFR text (paragraph (h)(5) not found in 29 CFR 1910.146)
+    - clause 1910.146(i)(3) is not in the eCFR text (paragraph (i)(3) not found in 29 CFR 1910.146)
+    - clause 1910.146(i)(4) is not in the eCFR text (paragraph (i)(4) not found in 29 CFR 1910.146)
+    - clause 1910.146(i)(6) is not in the eCFR text (paragraph (i)(6) not found in 29 CFR 1910.146)
+[2026-11-13 03:34:41]    [w3] · 1910-29-fall-protection-systems-falling-object write [cli]: 273s, $0.78 equiv.
+[2026-11-13 03:35:06]    [w1] · 1910-146-permit-required-confined-spaces retry [cli]: 115s, $0.63 equiv.
+[2026-11-13 03:35:13]    [w3] · 1910-29-fall-protection-systems-falling-object check [cli]: 33s, $0.23 equiv.
+[2026-11-13 03:35:13]    [w3] ! 1910-29-fall-protection-systems-falling-object: checking pass found 1 problem(s); rewriting once
+[2026-11-13 03:35:38]    [w1] · 1910-146-permit-required-confined-spaces check [cli]: 32s, $0.33 equiv.
+[2026-11-13 03:35:38]    [w1] ! 1910-146-permit-required-confined-spaces: checking pass found 1 problem(s); rewriting once
+[2026-11-13 03:36:57]    [w2] · 1926-502-fall-protection-systems-criteria-practices write [cli]: 246s, $0.77 equiv.
+[2026-11-13 03:37:31]    [w2] · 1926-502-fall-protection-systems-criteria-practices check [cli]: 34s, $0.28 equiv.
+[2026-11-13 03:37:31]    [w2] ! 1926-502-fall-protection-systems-criteria-practices: checking pass found 1 problem(s); rewriting once
+[2026-11-13 03:37:42]    [w3] · 1910-29-fall-protection-systems-falling-object rewrite [cli]: 149s, $0.60 equiv.
+[2026-11-13 03:37:45]    [w1] · 1910-146-permit-required-confined-spaces rewrite [cli]: 127s, $0.65 equiv.
+[2026-11-13 03:37:45]    [w1] ! 1910-146-permit-required-confined-spaces: rewrite has 2 validation problem(s); one mechanical fix
+[2026-11-13 03:38:09]    [w3] · 1910-29-fall-protection-systems-falling-object recheck [cli]: 27s, $0.22 equiv.
+[2026-11-13 03:38:12] ✔ [w3] standard:1910.29 done (484s)
+[2026-11-13 03:38:16] ▶ [w3] standard:1910.184
+[2026-11-13 03:38:47]    [w2] · 1926-502-fall-protection-systems-criteria-practices rewrite [cli]: 75s, $0.49 equiv.
+[2026-11-13 03:38:56]    [w1] · 1910-146-permit-required-confined-spaces fix [cli]: 71s, $0.52 equiv.
+[2026-11-13 03:39:18]    [w2] · 1926-502-fall-protection-systems-criteria-practices recheck [cli]: 31s, $0.28 equiv.
+[2026-11-13 03:39:21] ✔ [w2] standard:1926.502 done (390s)
+[2026-11-13 03:39:25] ▶ [w2] standard:1926.251
+[2026-11-13 03:39:25]    [w1] · 1910-146-permit-required-confined-spaces recheck [cli]: 29s, $0.32 equiv.
+[2026-11-13 03:39:30] ✔ [w1] standard:1910.146 done (563s)
+[2026-11-13 03:39:34] ▶ [w1] standard:1910.36
+[2026-11-13 03:41:40]    [w1] · 1910-36-design-construction-exit-routes write [cli]: 126s, $0.40 equiv.
+[2026-11-13 03:41:55]    [w1] · 1910-36-design-construction-exit-routes check [cli]: 15s, $0.12 equiv.
+[2026-11-13 03:41:58] ✔ [w1] standard:1910.36 done (144s)
+[2026-11-13 03:42:02] ▶ [w1] standard:1910.67
+[2026-11-13 03:42:42]    [w3] · 1910-184-slings write [cli]: 266s, $0.80 equiv.
+[2026-11-13 03:43:15]    [w3] · 1910-184-slings check [cli]: 32s, $0.25 equiv.
+[2026-11-13 03:43:15]    [w3] ! 1910-184-slings: checking pass found 1 problem(s); rewriting once
+[2026-11-13 03:43:49]    [w2] · 1926-251-rigging-equipment-material-handling write [cli]: 264s, $0.78 equiv.
+[2026-11-13 03:43:49]    [w2] ! 1926-251-rigging-equipment-material-handling: 1 validation problem(s), retrying once:
+    - the phrase "kept within rated capacity" appears 3 times in the prose (max 2)
+[2026-11-13 03:44:16]    [w1] · 1910-67-vehicle-mounted-elevating-rotating-work write [cli]: 133s, $0.42 equiv.
+[2026-11-13 03:44:34]    [w1] · 1910-67-vehicle-mounted-elevating-rotating-work check [cli]: 19s, $0.14 equiv.
+[2026-11-13 03:44:38] ✔ [w1] standard:1910.67 done (155s)
+[2026-11-13 03:44:42] ▶ [w1] standard:1926.600
+[2026-11-13 03:45:06]    [w2] · 1926-251-rigging-equipment-material-handling retry [cli]: 76s, $0.41 equiv.
+[2026-11-13 03:45:34]    [w2] · 1926-251-rigging-equipment-material-handling check [cli]: 28s, $0.21 equiv.
+[2026-11-13 03:45:34]    [w2] ! 1926-251-rigging-equipment-material-handling: checking pass found 1 problem(s); rewriting once
+[2026-11-13 03:45:47]    [w3] · 1910-184-slings rewrite [cli]: 152s, $0.63 equiv.
+[2026-11-13 03:46:20]    [w3] · 1910-184-slings recheck [cli]: 33s, $0.25 equiv.
+[2026-11-13 03:46:23] ✔ [w3] standard:1910.184 done (487s)
+[2026-11-13 03:46:27] ▶ [w3] standard:1910.94
+[2026-11-13 03:46:39]    [w1] · 1926-600-equipment write [cli]: 117s, $0.37 equiv.
+[2026-11-13 03:47:03]    [w1] · 1926-600-equipment check [cli]: 24s, $0.12 equiv.
+[2026-11-13 03:47:06] ✔ [w1] standard:1926.600 done (145s)
+[2026-11-13 03:47:11] ▶ [w1] standard:1910.141
+[2026-11-13 03:47:19]    [w2] · 1926-251-rigging-equipment-material-handling rewrite [cli]: 105s, $0.49 equiv.
+[2026-11-13 03:47:43]    [w2] · 1926-251-rigging-equipment-material-handling recheck [cli]: 25s, $0.21 equiv.
+[2026-11-13 03:47:47] ✔ [w2] standard:1926.251 done (502s)
+[2026-11-13 03:47:51] ▶ [w2] standard:1910.304
+[2026-11-13 03:49:17]    [w3] · 1910-94-ventilation write [cli]: 170s, $0.66 equiv.
+[2026-11-13 03:49:17]    [w3] ! 1910-94-ventilation: 1 validation problem(s), retrying once:
+    - clause "(b)(10)" is not in the eCFR text (paragraph (b)(10) not found in 29 CFR 1910.94)
+[2026-11-13 03:49:51]    [w1] · 1910-141-sanitation write [cli]: 160s, $0.49 equiv.
+[2026-11-13 03:50:13]    [w1] · 1910-141-sanitation check [cli]: 22s, $0.18 equiv.
+[2026-11-13 03:50:17] ✔ [w1] standard:1910.141 done (186s)
+[2026-11-13 03:50:21] ▶ [w1] standard:1910.25
+[2026-11-13 03:50:40]    [w3] · 1910-94-ventilation retry [cli]: 82s, $0.55 equiv.
+[2026-11-13 03:51:16]    [w3] · 1910-94-ventilation check [cli]: 36s, $0.34 equiv.
+[2026-11-13 03:51:19] ✔ [w3] standard:1910.94 done (291s)
+[2026-11-13 03:51:23] ▶ [w3] standard:1910.252
+[2026-11-13 03:51:39]    [w2] · 1910-304-wiring-design-protection write [cli]: 228s, $0.75 equiv.
+[2026-11-13 03:52:15]    [w2] · 1910-304-wiring-design-protection check [cli]: 35s, $0.30 equiv.
+[2026-11-13 03:52:16]    [w1] · 1910-25-stairways write [cli]: 115s, $0.37 equiv.
+[2026-11-13 03:52:16]    [w1] ! 1910-25-stairways: 1 validation problem(s), retrying once:
+    - the phrase "and tread rules in" appears 3 times in the prose (max 2)
+[2026-11-13 03:52:19] ✔ [w2] standard:1910.304 done (267s)
+[2026-11-13 03:52:23] ▶ [w2] standard:1910.106
+[2026-11-13 03:53:40]    [w1] · 1910-25-stairways retry [cli]: 83s, $0.36 equiv.
+[2026-11-13 03:54:06]    [w1] · 1910-25-stairways check [cli]: 26s, $0.14 equiv.
+[2026-11-13 03:54:06]    [w1] ! 1910-25-stairways: checking pass found 1 problem(s); rewriting once
+[2026-11-13 03:54:56]    [w1] · 1910-25-stairways rewrite [cli]: 51s, $0.29 equiv.
+[2026-11-13 03:55:22]    [w1] · 1910-25-stairways recheck [cli]: 25s, $0.14 equiv.
+[2026-11-13 03:55:25] ✔ [w1] standard:1910.25 done (304s)
+[2026-11-13 03:55:32] ▶ [w1] standard:1910.136
+[2026-11-13 03:55:44]    [w2] · 1910-106-flammable-liquids write [cli]: 201s, $0.75 equiv.
+[2026-11-13 03:56:32]    [w2] · 1910-106-flammable-liquids check [cli]: 48s, $0.40 equiv.
+[2026-11-13 03:56:35] ✔ [w2] standard:1910.106 done (251s)
+[2026-11-13 03:56:38] ▶ [w2] standard:1910.27
+[2026-11-13 03:58:33]    [w3] · 1910-252-welding-cutting-brazing write [cli]: 430s, $1.02 equiv.
+[2026-11-13 03:58:34]    [w1] · 1910-136-foot-protection write [cli]: 182s, $0.25 equiv.
+[2026-11-13 03:58:38]    [w2] · 1910-27-scaffolds-rope-descent-systems write [cli]: 120s, $0.30 equiv.
+[2026-11-13 03:58:54]    [w1] · 1910-136-foot-protection check [cli]: 20s, $0.08 equiv.
+[2026-11-13 03:58:57] ✔ [w1] standard:1910.136 done (204s)
+[2026-11-13 03:59:00] ▶ [w1] standard:1926.1417
+[2026-11-13 03:59:00]    [w2] · 1910-27-scaffolds-rope-descent-systems check [cli]: 22s, $0.12 equiv.
+[2026-11-13 03:59:03] ✔ [w2] standard:1910.27 done (145s)
+[2026-11-13 03:59:06] ▶ [w2] standard:1910.502
+[2026-11-13 03:59:17]    [w3] · 1910-252-welding-cutting-brazing check [cli]: 44s, $0.33 equiv.
+[2026-11-13 03:59:20] ✔ [w3] standard:1910.252 done (477s)
+[2026-11-13 03:59:23] ▶ [w3] standard:1926.1427
+[2026-11-13 04:01:21]    [w1] · 1926-1417-operation write [cli]: 142s, $0.45 equiv.
+[2026-11-13 04:01:34]    [w3] · 1926-1427-operator-training-certification-evaluation write [cli]: 131s, $0.45 equiv.
+[2026-11-13 04:01:34]    [w3] ! 1926-1427-operator-training-certification-evaluation: 1 validation problem(s), retrying once:
+    - requirements needs 2–10 groups
+[2026-11-13 04:01:48]    [w1] · 1926-1417-operation check [cli]: 27s, $0.17 equiv.
+[2026-11-13 04:01:48]    [w1] ! 1926-1417-operation: checking pass found 2 problem(s); rewriting once
+[2026-11-13 04:03:01]    [w1] · 1926-1417-operation rewrite [cli]: 73s, $0.37 equiv.
+[2026-11-13 04:03:03]    [w3] · 1926-1427-operator-training-certification-evaluation retry [cli]: 89s, $0.43 equiv.
+[2026-11-13 04:03:28]    [w1] · 1926-1417-operation recheck [cli]: 27s, $0.17 equiv.
+[2026-11-13 04:03:30] ✔ [w1] standard:1926.1417 done (271s)
+[2026-11-13 04:03:34] ▶ [w1] standard:1926.306
+[2026-11-13 04:03:44]    [w3] · 1926-1427-operator-training-certification-evaluation check [cli]: 41s, $0.24 equiv.
+[2026-11-13 04:03:46] ✔ [w3] standard:1926.1427 done (263s)
+[2026-11-13 04:03:50] ▶ [w3] standard:1910.101
+[2026-11-13 04:04:59]    [w1] · 1926-306-air-receivers write [cli]: 86s, $0.28 equiv.
+[2026-11-13 04:05:15]    [w2] · 1910-502-healthcare write [cli]: 369s, $1.14 equiv.
+[2026-11-13 04:05:27]    [w1] · 1926-306-air-receivers check [cli]: 28s, $0.11 equiv.
+[2026-11-13 04:05:27]    [w1] ! 1926-306-air-receivers: checking pass found 2 problem(s); rewriting once
+[2026-11-13 04:05:52]    [w2] · 1910-502-healthcare check [cli]: 36s, $0.35 equiv.
+[2026-11-13 04:05:53]    [w3] · 1910-101-compressed-gases write [cli]: 123s, $0.36 equiv.
+[2026-11-13 04:05:55] ✔ [w2] standard:1910.502 done (409s)
+[2026-11-13 04:05:58] ▶ [w2] standard:1910.169
+[2026-11-13 04:06:09]    [w1] · 1926-306-air-receivers rewrite [cli]: 42s, $0.22 equiv.
+[2026-11-13 04:06:09]    [w3] · 1910-101-compressed-gases check [cli]: 16s, $0.08 equiv.
+[2026-11-13 04:06:12] ✔ [w3] standard:1910.101 done (142s)
+[2026-11-13 04:06:15] ▶ [w3] standard:1910.215
+[2026-11-13 04:06:38]    [w1] · 1926-306-air-receivers recheck [cli]: 29s, $0.10 equiv.
+[2026-11-13 04:06:41] ✔ [w1] standard:1926.306 done (187s)
+[2026-11-13 04:06:44] ▶ [w1] standard:1910.180
+[2026-11-13 04:08:06]    [w2] · 1910-169-air-receivers write [cli]: 127s, $0.38 equiv.
+[2026-11-13 04:08:36]    [w2] · 1910-169-air-receivers check [cli]: 31s, $0.11 equiv.
+[2026-11-13 04:08:36]    [w2] ! 1910-169-air-receivers: checking pass found 1 problem(s); rewriting once
+[2026-11-13 04:09:15]    [w2] · 1910-169-air-receivers rewrite [cli]: 38s, $0.22 equiv.
+[2026-11-13 04:09:34]    [w2] · 1910-169-air-receivers recheck [cli]: 19s, $0.10 equiv.
+[2026-11-13 04:09:37] ✔ [w2] standard:1910.169 done (219s)
+[2026-11-13 04:09:40] ▶ [w2] standard:1926.1413
+[2026-11-13 04:11:27]    [w3] · 1910-215-abrasive-wheel-machinery write [cli]: 312s, $0.96 equiv.
+[2026-11-13 04:11:43]    [w1] · 1910-180-crawler-locomotive-truck-cranes write [cli]: 299s, $0.89 equiv.
+[2026-11-13 04:12:05]    [w3] · 1910-215-abrasive-wheel-machinery check [cli]: 38s, $0.31 equiv.
+[2026-11-13 04:12:08] ✔ [w3] standard:1910.215 done (352s)
+[2026-11-13 04:12:11] ▶ [w3] standard:1926.701
+[2026-11-13 04:12:19]    [w1] · 1910-180-crawler-locomotive-truck-cranes check [cli]: 37s, $0.27 equiv.
+[2026-11-13 04:12:19]    [w1] ! 1910-180-crawler-locomotive-truck-cranes: checking pass found 1 problem(s); rewriting once
+[2026-11-13 04:13:01]    [w2] · 1926-1413-wire-rope-inspection write [cli]: 201s, $0.60 equiv.
+[2026-11-13 04:13:13]    [w3] · 1926-701-concrete-masonry-construction write [cli]: 62s, $0.21 equiv.
+[2026-11-13 04:13:13]    [w3] ! 1926-701-concrete-masonry-construction: 1 validation problem(s), retrying once:
+    - writing pattern "ing-tail": "1926.701 is part of Part 1926 Subpart Q (Concrete and Masonry Construction) and " (Sentence ends in an evaluative '-ing' comment tail; cut the tail or replace it with a fact.)
+[2026-11-13 04:13:30]    [w2] · 1926-1413-wire-rope-inspection check [cli]: 29s, $0.18 equiv.
+[2026-11-13 04:13:33] ✔ [w2] standard:1926.1413 done (233s)
+[2026-11-13 04:13:37] ▶ [w2] standard:1926.152
+[2026-11-13 04:13:51]    [w3] · 1926-701-concrete-masonry-construction retry [cli]: 38s, $0.20 equiv.
+[2026-11-13 04:14:14]    [w3] · 1926-701-concrete-masonry-construction check [cli]: 22s, $0.10 equiv.
+[2026-11-13 04:14:17] ✔ [w3] standard:1926.701 done (126s)
+[2026-11-13 04:14:22] ▶ [w3] standard:1926.1211
+[2026-11-13 04:16:19]    [w3] · 1926-1211-rescue-emergency-services write [cli]: 117s, $0.38 equiv.
+[2026-11-13 04:16:39]    [w2] · 1926-152-flammable-liquids write [cli]: 183s, $0.70 equiv.
+[2026-11-13 04:16:41]    [w3] · 1926-1211-rescue-emergency-services check [cli]: 21s, $0.13 equiv.
+[2026-11-13 04:16:45] ✔ [w3] standard:1926.1211 done (143s)
+[2026-11-13 04:16:50] ▶ [w3] industry:2383
+[2026-11-13 04:16:57]    [w1] · 1910-180-crawler-locomotive-truck-cranes rewrite [cli]: 277s, $0.93 equiv.
+[2026-11-13 04:17:13]    [w2] · 1926-152-flammable-liquids check [cli]: 34s, $0.34 equiv.
+[2026-11-13 04:17:13]    [w2] ! 1926-152-flammable-liquids: checking pass found 1 problem(s); rewriting once
+[2026-11-13 04:17:27]    [w1] · 1910-180-crawler-locomotive-truck-cranes recheck [cli]: 31s, $0.26 equiv.
+[2026-11-13 04:17:32] ✔ [w1] standard:1910.180 done (647s)
+[2026-11-13 04:17:36] ▶ [w1] industry:4931
+[2026-11-13 04:17:37]    [w3] · 2383-building-finishing-contractors write [cli]: 47s, $0.17 equiv.
+[2026-11-13 04:17:52]    [w3] · 2383-building-finishing-contractors check [cli]: 16s, $0.06 equiv.
+[2026-11-13 04:17:52] ✔ [w3] industry:2383 done (63s)
+[2026-11-13 04:17:55] ▶ [w3] industry:2373
+[2026-11-13 04:18:15]    [w1] · 4931-warehousing-storage write [cli]: 38s, $0.15 equiv.
+[2026-11-13 04:18:24]    [w2] · 1926-152-flammable-liquids rewrite [cli]: 71s, $0.54 equiv.
+[2026-11-13 04:18:34]    [w1] · 4931-warehousing-storage check [cli]: 20s, $0.06 equiv.
+[2026-11-13 04:18:34] ✔ [w1] industry:4931 done (58s)
+[2026-11-13 04:18:36] ▶ [w1] industry:7225
+[2026-11-13 04:18:36]    [w3] · 2373-highway-street-bridge-construction write [cli]: 41s, $0.15 equiv.
+[2026-11-13 04:18:49]    [w3] · 2373-highway-street-bridge-construction check [cli]: 13s, $0.06 equiv.
+[2026-11-13 04:18:49] ✔ [w3] industry:2373 done (54s)
+[2026-11-13 04:18:51] ▶ [w3] industry:4451
+[2026-11-13 04:18:54]    [w2] · 1926-152-flammable-liquids recheck [cli]: 30s, $0.34 equiv.
+[2026-11-13 04:18:57] ✔ [w2] standard:1926.152 done (320s)
+[2026-11-13 04:19:00] ▶ [w2] industry:3327
+[2026-11-13 04:19:06]    [w1] · 7225-restaurants-other-eating-places write [cli]: 30s, $0.13 equiv.
+[2026-11-13 04:19:26]    [w1] · 7225-restaurants-other-eating-places check [cli]: 20s, $0.08 equiv.
+[2026-11-13 04:19:26]    [w1] ! 7225-restaurants-other-eating-places: checking pass found 2 problem(s); rewriting once
+[2026-11-13 04:19:40]    [w3] · 4451-grocery-convenience-retailers write [cli]: 49s, $0.18 equiv.
+[2026-11-13 04:19:46]    [w2] · 3327-machine-shops-turned-product-screw-nut write [cli]: 46s, $0.17 equiv.
+[2026-11-13 04:19:46]    [w2] ! 3327-machine-shops-turned-product-screw-nut: 1 validation problem(s), retrying once:
+    - number "10" is not in this page's data or source text
+[2026-11-13 04:19:47]    [w1] · 7225-restaurants-other-eating-places rewrite [cli]: 21s, $0.14 equiv.
+[2026-11-13 04:19:50]    [w3] · 4451-grocery-convenience-retailers check [cli]: 10s, $0.05 equiv.
+[2026-11-13 04:19:50] ✔ [w3] industry:4451 done (59s)
+[2026-11-13 04:19:52] ▶ [w3] industry:3399
+[2026-11-13 04:19:55]    [w1] · 7225-restaurants-other-eating-places recheck [cli]: 8s, $0.05 equiv.
+[2026-11-13 04:19:55] ✔ [w1] industry:7225 done (79s)
+[2026-11-13 04:19:57] ▶ [w1] industry:2131
+[2026-11-13 04:20:10]    [w2] · 3327-machine-shops-turned-product-screw-nut retry [cli]: 24s, $0.14 equiv.
+[2026-11-13 04:20:22]    [w2] · 3327-machine-shops-turned-product-screw-nut check [cli]: 12s, $0.06 equiv.
+[2026-11-13 04:20:22] ✔ [w2] industry:3327 done (82s)
+[2026-11-13 04:20:24] ▶ [w2] industry:5413
+[2026-11-13 04:20:28]    [w3] · 3399-other-miscellaneous-manufacturing write [cli]: 36s, $0.15 equiv.
+[2026-11-13 04:20:39]    [w1] · 2131-support-activities-for-mining write [cli]: 42s, $0.17 equiv.
+[2026-11-13 04:20:44]    [w3] · 3399-other-miscellaneous-manufacturing check [cli]: 16s, $0.07 equiv.
+[2026-11-13 04:20:44] ✔ [w3] industry:3399 done (52s)
+[2026-11-13 04:20:46] ▶ [w3] industry:1119
+[2026-11-13 04:20:52]    [w1] · 2131-support-activities-for-mining check [cli]: 13s, $0.06 equiv.
+[2026-11-13 04:20:52] ✔ [w1] industry:2131 done (55s)
+[2026-11-13 04:20:54] ▶ [w1] industry:3241
+[2026-11-13 04:21:00]    [w2] · 5413-architectural-engineering-related-services write [cli]: 36s, $0.16 equiv.
+[2026-11-13 04:21:15]    [w2] · 5413-architectural-engineering-related-services check [cli]: 15s, $0.07 equiv.
+[2026-11-13 04:21:15]    [w2] ! 5413-architectural-engineering-related-services: checking pass found 1 problem(s); rewriting once
+[2026-11-13 04:21:23]    [w3] · 1119-other-crop-farming write [cli]: 37s, $0.16 equiv.
+[2026-11-13 04:21:23]    [w3] ! 1119-other-crop-farming: 2 validation problem(s), retrying once:
+    - the phrase "of the general industry" appears 3 times in the prose (max 2)
+    - the phrase "the general industry standards" appears 3 times in the prose (max 2)
+[2026-11-13 04:21:26]    [w1] · 3241-petroleum-coal-products-manufacturing write [cli]: 32s, $0.15 equiv.
+[2026-11-13 04:21:30]    [w2] · 5413-architectural-engineering-related-services rewrite [cli]: 15s, $0.12 equiv.
+[2026-11-13 04:21:44]    [w1] · 3241-petroleum-coal-products-manufacturing check [cli]: 18s, $0.07 equiv.
+[2026-11-13 04:21:44] ✔ [w1] industry:3241 done (49s)
+[2026-11-13 04:21:45] ▶ [w1] industry:9281
+[2026-11-13 04:21:49]    [w2] · 5413-architectural-engineering-related-services recheck [cli]: 19s, $0.07 equiv.
+[2026-11-13 04:21:49] ✔ [w2] industry:5413 done (85s)
+[2026-11-13 04:21:51] ▶ [w2] industry:5419
+[2026-11-13 04:21:55]    [w3] · 1119-other-crop-farming retry [cli]: 32s, $0.15 equiv.
+[2026-11-13 04:22:14]    [w3] · 1119-other-crop-farming check [cli]: 19s, $0.07 equiv.
+[2026-11-13 04:22:14] ✔ [w3] industry:1119 done (88s)
+[2026-11-13 04:22:15] ▶ [w3] industry:6212
+[2026-11-13 04:22:21]    [w1] · 9281-national-security-international-affairs write [cli]: 35s, $0.14 equiv.
+[2026-11-13 04:22:34]    [w2] · 5419-other-professional-scientific-technical-services write [cli]: 43s, $0.17 equiv.
+[2026-11-13 04:22:41]    [w1] · 9281-national-security-international-affairs check [cli]: 21s, $0.07 equiv.
+[2026-11-13 04:22:41]    [w1] ! 9281-national-security-international-affairs: checking pass found 1 problem(s); rewriting once
+[2026-11-13 04:22:55]    [w3] · 6212-offices-dentists write [cli]: 39s, $0.16 equiv.
+[2026-11-13 04:22:58]    [w2] · 5419-other-professional-scientific-technical-services check [cli]: 24s, $0.09 equiv.
+[2026-11-13 04:22:58]    [w2] ! 5419-other-professional-scientific-technical-services: checking pass found 2 problem(s); rewriting once
+[2026-11-13 04:23:01]    [w1] · 9281-national-security-international-affairs rewrite [cli]: 20s, $0.13 equiv.
+[2026-11-13 04:23:11]    [w3] · 6212-offices-dentists check [cli]: 16s, $0.06 equiv.
+[2026-11-13 04:23:11] ✔ [w3] industry:6212 done (56s)
+[2026-11-13 04:23:13] ▶ [w3] industry:6214
+[2026-11-13 04:23:13]    [w1] · 9281-national-security-international-affairs recheck [cli]: 12s, $0.06 equiv.
+[2026-11-13 04:23:13] ✔ [w1] industry:9281 done (88s)
+[2026-11-13 04:23:16] ▶ [w1] industry:4884
+[2026-11-13 04:23:27]    [w2] · 5419-other-professional-scientific-technical-services rewrite [cli]: 29s, $0.16 equiv.
+[2026-11-13 04:23:44]    [w2] · 5419-other-professional-scientific-technical-services recheck [cli]: 18s, $0.06 equiv.
+[2026-11-13 04:23:44] ✔ [w2] industry:5419 done (114s)
+[2026-11-13 04:23:46] ▶ [w2] industry:8121
+[2026-11-13 04:23:59]    [w1] · 4884-support-activities-for-road-transportation write [cli]: 43s, $0.16 equiv.
+[2026-11-13 04:24:08]    [w3] · 6214-outpatient-care-centers write [cli]: 55s, $0.19 equiv.
+[2026-11-13 04:24:08]    [w3] ! 6214-outpatient-care-centers: 5 validation problem(s), retrying once:
+    - the phrase "toxic and hazardous substances" appears 3 times in the prose (max 2)
+    - number "91" is not in this page's data or source text
+    - number "92" is not in this page's data or source text
+    - number "93" is not in this page's data or source text
+    - number "98" is not in this page's data or source text
+[2026-11-13 04:24:17]    [w1] · 4884-support-activities-for-road-transportation check [cli]: 18s, $0.07 equiv.
+[2026-11-13 04:24:17] ✔ [w1] industry:4884 done (61s)
+[2026-11-13 04:24:19] ▶ [w1] industry:4882
+[2026-11-13 04:24:27]    [w2] · 8121-personal-care-services write [cli]: 41s, $1.39 equiv.
+[2026-11-13 04:24:27]    [w2] ! 8121-personal-care-services: 1 validation problem(s), retrying once:
+    - the phrase "toxic and hazardous substances" appears 3 times in the prose (max 2)
+[2026-11-13 04:24:36]    [w3] · 6214-outpatient-care-centers retry [cli]: 27s, $0.15 equiv.
+[2026-11-13 04:24:49]    [w3] · 6214-outpatient-care-centers check [cli]: 13s, $0.06 equiv.
+[2026-11-13 04:24:49] ✔ [w3] industry:6214 done (96s)
+[2026-11-13 04:24:53]    [w1] · 4882-support-activities-for-rail-transportation write [cli]: 34s, $0.15 equiv.
+[2026-11-13 04:24:56]    [w2] · 8121-personal-care-services retry [cli]: 29s, $0.14 equiv.
+[2026-11-13 04:25:05]    [w1] · 4882-support-activities-for-rail-transportation check [cli]: 12s, $0.06 equiv.
+[2026-11-13 04:25:05] ✔ [w1] industry:4882 done (46s)
+[2026-11-13 04:25:08]    [w2] · 8121-personal-care-services check [cli]: 12s, $0.06 equiv.
+[2026-11-13 04:25:08] ✔ [w2] industry:8121 done (82s)
+[2026-11-13 04:25:10] engine stop: 47 job(s) finished this run
+[2026-11-13 04:25:10]   standard: 29 done, 0 dropped; industry: 18 done, 0 dropped

@@ -8,7 +8,8 @@ Plain-English log of the build-out on the `build-out` branch (brief: `safetyinde
 - **Step 2 (fixes to the existing site): done.** See "Step 2" below.
 - **Step 3 (US data and keywords): done.** DOL enforcement data FY2022–FY2026 pulled and aggregated; 55 standard pages and 19 industry pages pass the thresholds; keyword research done (OpenSEO balance 2,020 credits).
 - **Step 4 (engine): done.** Tested on 11 pages across every page type; the full run is ready to start (Paul starts it).
-- **Steps 6–8: built.** Steps 5 and 7's first wave follow from the full run and the merge.
+- **Step 5 (full run): US standard and industry pages done (13 Nov 2026), then paused at Paul's request.** 54 standard pages and 19 industry pages written and checked. The guides (US, UK, AU, CA, NZ, French, German) are still queued.
+- **Steps 6–8: built.** The first release wave follows the merge.
 
 ## Things for Paul to do
 
@@ -234,3 +235,17 @@ The first wave takes the top 50 in queue order. The suggested names are cached (
 NAICS titles aren't searched ("foundation, structure, and building exterior contractors"), so phrases use the everyday trade name ("roofing safety", "osha roofing regulations"). Trades whose "safety" searches mostly come from the public (airlines, car rental, amusement parks, hotels) only count employer phrases ("osha … regulations").
 
 Keyword credits for step 3: about 1,630 in total (topic sheet 184, category research about 1,080, standard and industry phrases about 545 over three planning passes). Balance: **2,020**.
+
+## Step 5: Full run, part 1: US standard and industry pages (13 November 2026)
+
+Run with `npm run engine -- --only standard,industry`, then stopped as asked. The guide jobs are untouched.
+
+- **Written: 54 US standard pages and 19 US industry pages**, every one with a passed independent checking pass; standard pages also have a checklist plus PDF and Excel downloads. Every page meets the keyword rule (cluster volume 50+, main keyword KD under 15); its keyword, volume and KD are recorded on the page, and the build now fails a standard or industry page that doesn't meet it.
+- **The template pause worked as the brief intends.** It stopped the standard template twice, once for each pattern of real errors the checker caught:
+  1. 2 of 13 dropped (1926.1412 cranes, 1910.140 personal fall protection): an item that combined two rules under one paragraph reference, and a checklist heading that implied the wrong inspection frequency. Prompt fixed: one requirement per item with its own paragraph, and neutral headings.
+  2. 2 of 11 dropped (1910.146 confined spaces, 1910.178 forklifts): part of a list presented as the whole list on long standards. Prompt fixed: list every item or name the paragraph with the full list, and keep every step of a sequence. The checker now grades an omission in a summary as major only when the text reads as complete. (A first version of this fix made the writer repeat a stock sentence, which the repetition check caught; fixed again.)
+  All four pages were rewritten and passed after the fixes, so no planned standard page is left dropped.
+- **One page removed after writing: 1910.502**, the COVID-19 healthcare emergency temporary standard. The eCFR text still reads as current, but OSHA withdrew almost all of it, and its citations fell from 413 (FY2022) to none in FY2025–FY2026. The page would have presented withdrawn rules as current, and the checker couldn't know, because the text it was given doesn't say so. The planner now excludes any standard with no citations in the last two fiscal years. The plan is 54 standard pages.
+- **Fixes from the final audit:** generated links added to report table cells, FAQ answers, checklist reference lines and the industry pages' paragraph tables; the build's number check now uses the same allowed numbers as the writer (stats with display values, the NAICS code and its sub-industries); the eCFR number index is rebuilt in one pass (three workers had been overwriting each other's entries in the shared file); two checklists titled "…Checklist and OSHA Checklist" fixed.
+- **Final audit, all passing:** preview build of all 188 pages and the normal build (96 released pages) with every check in brief section 17; all 57 checklist downloads verified (PDF page counts, zero Excel formula errors, items match the page); Lighthouse on 10 pages across page types, 3 runs each: performance 96–98, accessibility 100, all mobile-friendly.
+- None of the new pages is live yet: they wait for the first release wave after the merge.

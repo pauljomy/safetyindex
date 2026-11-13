@@ -14,6 +14,7 @@ import { formatDate, latest } from "@lib/dates";
 import { slugify } from "@lib/slugify";
 import { readingTime } from "@lib/utils";
 import { withLinks } from "@lib/links";
+import { escapeHtml } from "@lib/linker.mjs";
 import { coverFor, socialCard } from "@lib/covers";
 import { blogPosting, breadcrumbList, faqPage, orgId, organization } from "@lib/schema";
 import { inLang, langOf, marketMeta, ui } from "../i18n/ui";
@@ -35,6 +36,8 @@ const [prevPost, nextPost] = [all[i - 1], all[i + 1]];
 const mainCategory = d.categories[0];
 const title = d.seoTitle ?? d.title;
 const checklist = await getChecklist(d.checklist);
+const clauseHtml = new Map<string, string>();
+for (const sec of checklist?.data.sections ?? []) for (const it of sec.items) if (it[2] && !clauseHtml.has(it[2])) clauseHtml.set(it[2], await withLinks(escapeHtml(it[2]), path, used));
 // Social card: the featured image cropped to 1200×630 JPEG (what Facebook, LinkedIn and X expect).
 const og = await socialCard(d.coverImage ?? coverFor(d.cover));
 const crumbs = lang === "en"
@@ -82,7 +85,7 @@ const dataAsOf = d.dataAsOf ?? latest(d.date, d.updated);
       <ul>{d.keyTakeaways.map((k) => <li>{k}</li>)}</ul>
       {headings.length > 2 && <TableOfContents headings={headings} />}
       <Fragment set:html={body} />
-      {checklist && <ChecklistBlock checklist={checklist} />}
+      {checklist && <ChecklistBlock checklist={checklist} linkify={(c) => clauseHtml.get(c) ?? c} />}
       {
         d.faq.length > 0 && (
           <>

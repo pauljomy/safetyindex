@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "results": [
   {
    "path": "/",
@@ -8,8 +8,56 @@
    "mobile": true
   },
   {
-   "path": "/us/reports/workplace-injury-statistics-2024",
-   "performance": 99,
+   "path": "/us/standards",
+   "performance": 97,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/us/standards/1904-29-forms",
+   "performance": 97,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/us/industries/1119-other-crop-farming",
+   "performance": 97,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/us/reports/most-cited-osha-standards-2026",
+   "performance": 97,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/us/osha-penalties",
+   "performance": 97,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/blog/hard-hat-types-and-classes",
+   "performance": 96,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/fr/blog/casque-de-chantier",
+   "performance": 96,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/de/blog/osha-bedeutung",
+   "performance": 96,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/blog",
+   "performance": 98,
    "accessibility": 100,
    "mobile": true
   }

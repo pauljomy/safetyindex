@@ -9,6 +9,8 @@ import { checkWriting } from "./writing.mjs";
 import { checkClauses, checkNumbers, numbersIn } from "./facts.mjs";
 import { similarity } from "../style/patterns.mjs";
 import { sectionNumbers } from "../data/ecfr-numbers.mjs";
+import { withDisplay } from "../engine/common.mjs";
+import { subIndustries } from "../data/naics.mjs";
 
 const POSTS = "src/content/posts";
 const fm = (md) => YAML.parse(md.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? "") ?? {};
@@ -191,7 +193,9 @@ export function runSiteChecks({ pages, dist, site }) {
       // Keyword rule for standard and industry pages (brief section 6): measurable cluster volume and a main keyword under the KD limit.
       const kt = c.kind === "standard" ? config.standard_page_keywords : config.industry_page_keywords;
       if (c.data.keywordSource !== "enforcement data" && !(c.data.clusterVolume >= kt.volume && c.data.kd != null && c.data.kd < kt.kd_under)) errors.push(`${c.path}: keyword "${c.data.keyword}" (cluster volume ${c.data.clusterVolume}, KD ${c.data.kd}) doesn't meet the rule (${kt.volume}+ / KD under ${kt.kd_under})`);
-      const allowed = numbersIn(c.data.stats);
+      // Same allowed numbers as when the page was written: stats with their display values, the NAICS code and its sub-industries.
+      const allowed = numbersIn(withDisplay(c.data.stats));
+      if (c.kind === "industry") { allowed.add(String(Number(c.data.naics))); for (const n of numbersIn(subIndustries(c.data.naics))) allowed.add(n); }
       for (const n of numbersIn({ cluster: c.data.cluster ?? [], penalties: config.osha_penalties })) allowed.add(n);
       if (c.data.section) for (const n of sectionNumbers(c.data.section)) allowed.add(n);
       if (c.kind === "industry") for (const st of c.data.stats.topStandards ?? []) for (const n of sectionNumbers(st.section)) allowed.add(n);

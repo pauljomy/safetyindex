@@ -43,6 +43,10 @@ const requirementsIntro = await link(d.requirementsIntro);
 const groups = [];
 for (const g of d.requirements) groups.push({ heading: g.heading, intro: await link(g.intro), items: await Promise.all(g.items.map(async (it) => ({ text: await link(it.text), clause: it.clause }))) });
 const checklistIntro = await link(d.checklistIntro);
+const faqHtml = await Promise.all(d.faq.map((f) => link(f.answer)));
+// Checklist reference lines get the same generated links (a clause of another standard with a live page links to it).
+const clauseHtml = new Map<string, string>();
+for (const sec of checklist?.data.sections ?? []) for (const it of sec.items) if (it[2] && !clauseHtml.has(it[2])) clauseHtml.set(it[2], await withLinks(escapeHtml(it[2]), path, used));
 const updated = latest(d.date, d.updated);
 const short = d.section;
 ---
@@ -117,7 +121,7 @@ const short = d.section;
 
       <h2 id="checklist-heading">{short} checklist</h2>
       <p><Fragment set:html={checklistIntro} /></p>
-      {checklist && <ChecklistBlock checklist={checklist} />}
+      {checklist && <ChecklistBlock checklist={checklist} linkify={(c) => clauseHtml.get(c) ?? c} />}
 
       <h2 id="penalties">What are the maximum OSHA penalties?</h2>
       <p>These are the current federal maximums for any standard, including {short}; see <a href={url.penalties()}>OSHA penalty amounts</a> for how they change each year.</p>
@@ -133,7 +137,7 @@ const short = d.section;
       {d.faq.length > 0 && (
         <>
           <h2>{s.faq}</h2>
-          {d.faq.map((f) => (<><h3>{f.question}</h3><p>{f.answer}</p></>))}
+          {d.faq.map((f, i) => (<><h3>{f.question}</h3><p><Fragment set:html={faqHtml[i]} /></p></>))}
         </>
       )}
       <h2>{s.sources}</h2>

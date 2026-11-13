@@ -1,5 +1,6 @@
 // Numbers that appear in each CFR section's text, so the build can re-check a standard page's numbers
-// without the raw eCFR XML (git-ignored). Written by the standard-page job (and `node scripts/data/ecfr-numbers.mjs`).
+// without the raw eCFR XML (git-ignored). Rebuilt in one pass by `node scripts/data/ecfr-numbers.mjs` (run after
+// an eCFR update); jobs don't write it, because parallel workers would overwrite each other's entries.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { numbersIn } from "../checks/facts.mjs";
 
