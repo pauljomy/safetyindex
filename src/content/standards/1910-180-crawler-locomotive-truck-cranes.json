@@ -1,0 +1,646 @@
+{
+  "section": "1910.180",
+  "part": "1910",
+  "heading": "Crawler locomotive and truck cranes.",
+  "subpart": "N",
+  "subpartTitle": "Materials Handling and Storage",
+  "title": "Mobile crane inspection and OSHA requirements (29 CFR 1910.180)",
+  "seoTitle": "Mobile crane inspection: OSHA 1910.180 requirements",
+  "description": "OSHA 29 CFR 1910.180 mobile crane inspection rules: frequent and periodic inspections, rope checks, load handling, citations and a printable checklist.",
+  "opening": "OSHA's 29 CFR 1910.180 requires employers using crawler, locomotive, truck and wheel-mounted cranes to let only designated personnel operate them, inspect cranes and ropes at set intervals with signed monthly records, never load beyond the rated load, and follow rules for moving and holding loads.",
+  "keyword": "mobile crane inspection",
+  "cluster": [
+    {
+      "keyword": "osha mobile crane requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "mobile crane checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "mobile crane inspection",
+      "volume": 50,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha truck crane requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "truck crane checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "truck crane inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha crawler locomotive and truck cranes requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crawler locomotive and truck cranes checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crawler locomotive and truck cranes inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.180",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 60,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 184,
+    "inspections": 110,
+    "byFy": {
+      "2022": 40,
+      "2023": 39,
+      "2024": 44,
+      "2025": 27,
+      "2026": 34
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(d)(6)",
+        "count": 37
+      },
+      {
+        "paragraph": "(d)(4)",
+        "count": 27
+      },
+      {
+        "paragraph": "(h)(3)(v)",
+        "count": 19
+      },
+      {
+        "paragraph": "(g)(1)",
+        "count": 14
+      },
+      {
+        "paragraph": "(d)(3)",
+        "count": 12
+      },
+      {
+        "paragraph": "(h)(1)(i)",
+        "count": 8
+      },
+      {
+        "paragraph": "(b)(3)",
+        "count": 7
+      },
+      {
+        "paragraph": "(h)(3)(i)(B)",
+        "count": 7
+      },
+      {
+        "paragraph": "(h)(3)(ix)",
+        "count": 5
+      },
+      {
+        "paragraph": "(c)(2)",
+        "count": 4
+      }
+    ],
+    "penalties": {
+      "n": 116,
+      "median": 4709,
+      "p25": 2838,
+      "p75": 8067,
+      "total": 672232
+    },
+    "typeShares": {
+      "serious": 0.658,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 0.342,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 121,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 63,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "5617",
+        "count": 65,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "2131",
+        "count": 8,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "2389",
+        "count": 6,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "3273",
+        "count": 6,
+        "title": "Cement and Concrete Product Manufacturing"
+      },
+      {
+        "naics": "4441",
+        "count": 6,
+        "title": "Building Material and Supplies Dealers"
+      },
+      {
+        "naics": "7139",
+        "count": 6,
+        "title": "Other Amusement and Recreation Industries"
+      },
+      {
+        "naics": "3366",
+        "count": 5,
+        "title": "Ship and Boat Building"
+      },
+      {
+        "naics": "4238",
+        "count": 5,
+        "title": "Machinery, Equipment, and Supplies Merchant Wholesalers"
+      },
+      {
+        "naics": "4239",
+        "count": 5,
+        "title": "Miscellaneous Durable Goods Merchant Wholesalers"
+      },
+      {
+        "naics": "2371",
+        "count": 4,
+        "title": "Utility System Construction"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.180(d)(6), the monthly certification records for critical items such as brakes, crane hooks and ropes, drew the most citations (37), followed by 1910.180(d)(4), the periodic complete inspection (27), and 1910.180(h)(3)(v), which bars hoisting, lowering, swinging or traveling while anyone is on the load or hook (19). Citations ran at 40 in FY2022, 39 in FY2023 and 44 in FY2024, fell to 27 in FY2025 and rose to 34 in FY2026.",
+  "requirementsIntro": "1910.180 applies to crawler cranes, locomotive cranes and wheel-mounted cranes of both truck and self-propelled wheel type, plus variations with the same fundamental characteristics, that are powered by internal combustion engines or electric motors and use drums and ropes; it covers them only when used as lifting cranes and excepts cranes designed for railway and automobile wreck clearances. The groups below give the main rules, from operators and load ratings through inspections, records, ropes and load handling to travel and refueling, and the full text of the section has more.",
+  "requirements": [
+    {
+      "heading": "Who may operate a crane, and how are load ratings set and tested?",
+      "intro": "Under 29 CFR 1910.180, only designated personnel may operate a covered crane, load ratings are capped at a share of the tipping load and posted in the cab, and test loads and rerating have set limits.",
+      "items": [
+        {
+          "text": "Only designated personnel may operate a crane covered by the section.",
+          "clause": "1910.180(b)(3)"
+        },
+        {
+          "text": "Crawler, locomotive and truck cranes constructed and used on or after August 31, 1971 must meet the design specifications of ANSI B30.5-1968, which is incorporated by reference in 1910.6.",
+          "clause": "1910.180(b)(2)"
+        },
+        {
+          "text": "Where stability governs lifting performance, load ratings may not exceed the percentage of tipping load set for each mounting, such as 75 percent for crawlers without outriggers and 85 percent for truck and wheel-mounted cranes with no outriggers or with outriggers fully extended; the table in this paragraph gives the locomotive and other crawler figures.",
+          "clause": "1910.180(c)(1)(i)"
+        },
+        {
+          "text": "The user must take into account freely suspended loads, track, wind or ground conditions, the condition and inflation of rubber tires, boom lengths, proper operating speeds for existing conditions, and careful and competent operation.",
+          "clause": "1910.180(c)(1)(iv)"
+        },
+        {
+          "text": "Each crane must have a substantial, durable rating chart with clearly legible letters and figures, securely fixed in the cab where the operator can easily see it while seated at the control station.",
+          "clause": "1910.180(c)(2)"
+        },
+        {
+          "text": "Written reports showing test procedures and confirming the adequacy of repairs or alterations must be available.",
+          "clause": "1910.180(e)(2)(i)"
+        },
+        {
+          "text": "Test loads may not exceed 110 percent of the rated load at any selected working radius.",
+          "clause": "1910.180(e)(2)(ii)"
+        },
+        {
+          "text": "No crane may be rerated above its original load ratings unless the crane manufacturer or final assembler approves the change.",
+          "clause": "1910.180(e)(2)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "When must a crane be inspected, and when may it return to use?",
+      "intro": "1910.180 requires an inspection of every new or altered crane before first use, frequent and periodic inspections for cranes in regular service, checks before idle cranes go back to work, and restored guards and safety devices after repairs.",
+      "items": [
+        {
+          "text": "All new and altered cranes must be inspected before initial use to confirm they comply with the section.",
+          "clause": "1910.180(d)(1)"
+        },
+        {
+          "text": "Frequent inspections are made at daily to monthly intervals.",
+          "clause": "1910.180(d)(2)(i)"
+        },
+        {
+          "text": "Periodic inspections are made at 1- to 12-month intervals, or as specifically recommended by the manufacturer.",
+          "clause": "1910.180(d)(2)(ii)"
+        },
+        {
+          "text": "A crane idle for one month or more but less than 6 months needs an inspection meeting (d)(3) and the rope inspection in (g)(2)(ii) before it is placed in service.",
+          "clause": "1910.180(d)(5)(i)"
+        },
+        {
+          "text": "A crane idle for six months needs a complete inspection meeting (d)(3), (d)(4) and (g)(2)(ii) before it goes back into service.",
+          "clause": "1910.180(d)(5)(ii)"
+        },
+        {
+          "text": "Standby cranes must be inspected at least semiannually to (d)(3) and (g)(2)(ii); those exposed to an adverse environment should be inspected more often.",
+          "clause": "1910.180(d)(5)(iii)"
+        },
+        {
+          "text": "After adjustments and repairs, the crane may not be operated until all guards are reinstalled, safety devices reactivated and maintenance equipment removed.",
+          "clause": "1910.180(f)"
+        }
+      ]
+    },
+    {
+      "heading": "What does the frequent inspection cover?",
+      "intro": "The frequent inspection under 1910.180(d)(3) looks for defects in items such as control mechanisms, safety devices, air and hydraulic systems, hooks, rope reeving and electrical apparatus.",
+      "items": [
+        {
+          "text": "Frequent inspections include watching the crane during operation for defects that appear between regular inspections.",
+          "clause": "1910.180(d)(3)"
+        },
+        {
+          "text": "Check all control mechanisms daily for maladjustment that interferes with proper operation.",
+          "clause": "1910.180(d)(3)(i)"
+        },
+        {
+          "text": "Check control mechanisms for excessive wear of components and for contamination by lubricants or other foreign matter.",
+          "clause": "1910.180(d)(3)(ii)"
+        },
+        {
+          "text": "Check all safety devices for malfunction.",
+          "clause": "1910.180(d)(3)(iii)"
+        },
+        {
+          "text": "Check air and hydraulic systems daily for deterioration or leakage.",
+          "clause": "1910.180(d)(3)(iv)"
+        },
+        {
+          "text": "Check crane hooks for deformations or cracks; the paragraph singles out hooks with cracks, more than 15 percent in excess of normal throat opening, or more than 10° twist from the plane of the unbent hook.",
+          "clause": "1910.180(d)(3)(v)"
+        },
+        {
+          "text": "Check rope reeving for noncompliance with the manufacturer's recommendations.",
+          "clause": "1910.180(d)(3)(vi)"
+        },
+        {
+          "text": "Check electrical apparatus for malfunction, signs of excessive deterioration, and dirt and moisture accumulation.",
+          "clause": "1910.180(d)(3)(vii)"
+        }
+      ]
+    },
+    {
+      "heading": "What does the periodic inspection add?",
+      "intro": "Periodic inspections under 1910.180(d)(4) are complete inspections that add the items in (d)(4)(i) through (x) to the frequent checks; the structural and wear items are listed here, and indicators, power plants, chain drives, travel devices and tires follow in the next group.",
+      "items": [
+        {
+          "text": "The interval depends on the crane's activity, severity of service and environment, within the range in (d)(2)(ii) or as the paragraph specifically indicates.",
+          "clause": "1910.180(d)(4)"
+        },
+        {
+          "text": "Each periodic inspection includes the frequent-inspection requirements of (d)(3).",
+          "clause": "1910.180(d)(4)"
+        },
+        {
+          "text": "Every deficiency found must be carefully examined to decide whether it constitutes a safety hazard.",
+          "clause": "1910.180(d)(4)"
+        },
+        {
+          "text": "Look for deformed, cracked or corroded members in the crane structure and boom.",
+          "clause": "1910.180(d)(4)(i)"
+        },
+        {
+          "text": "Look for loose bolts or rivets.",
+          "clause": "1910.180(d)(4)(ii)"
+        },
+        {
+          "text": "Look for cracked or worn sheaves and drums.",
+          "clause": "1910.180(d)(4)(iii)"
+        },
+        {
+          "text": "Look for worn, cracked or distorted parts such as pins, bearings, shafts, gears, rollers and locking devices.",
+          "clause": "1910.180(d)(4)(iv)"
+        },
+        {
+          "text": "Look for excessive wear on brake and clutch system parts, linings, pawls and ratchets.",
+          "clause": "1910.180(d)(4)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What else does the periodic inspection check, and what must be certified monthly?",
+      "intro": "The periodic inspection in 1910.180(d)(4) also covers indicators, power plants, chain drives, travel devices and tires, and 1910.180(d)(6) requires monthly certification records on critical items such as brakes, crane hooks and ropes.",
+      "items": [
+        {
+          "text": "Check load, boom angle and other indicators over their full range for any significant inaccuracies.",
+          "clause": "1910.180(d)(4)(vi)"
+        },
+        {
+          "text": "Check gasoline, diesel, electric or other power plants for improper performance or noncompliance with safety requirements.",
+          "clause": "1910.180(d)(4)(vii)"
+        },
+        {
+          "text": "Look for excessive wear of chain-drive sprockets and excessive chain stretch.",
+          "clause": "1910.180(d)(4)(viii)"
+        },
+        {
+          "text": "Check travel steering, braking and locking devices for malfunction.",
+          "clause": "1910.180(d)(4)(ix)"
+        },
+        {
+          "text": "Look for excessively worn or damaged tires.",
+          "clause": "1910.180(d)(4)(x)"
+        },
+        {
+          "text": "Certification records must be made monthly on critical items in use, such as brakes, crane hooks and ropes.",
+          "clause": "1910.180(d)(6)"
+        },
+        {
+          "text": "Each of these records shows the inspection date, the signature of the person who inspected, and the serial number or other identifier of the crane.",
+          "clause": "1910.180(d)(6)"
+        },
+        {
+          "text": "The certification record must be kept readily available.",
+          "clause": "1910.180(d)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "How must wire ropes be inspected and recorded?",
+      "intro": "1910.180(g) requires a thorough monthly inspection of all ropes in use by an appointed or authorized person, extra care at limited-travel sheaves, saddles and nonrotating rope, a pre-use inspection of rope left idle for a month or longer, and signed records for both.",
+      "items": [
+        {
+          "text": "Make a thorough inspection of all ropes in use at least once a month.",
+          "clause": "1910.180(g)(1)"
+        },
+        {
+          "text": "Only an appointed or authorized person may perform rope inspections.",
+          "clause": "1910.180(g)(1)"
+        },
+        {
+          "text": "The monthly rope inspection needs a certification record with the date, the inspector's signature and an identifier for the ropes, kept on file where it can be reached readily.",
+          "clause": "1910.180(g)(1)"
+        },
+        {
+          "text": "Watch for deterioration that results in appreciable loss of original strength and decide whether further use of the rope would be hazardous; 1910.180(g)(1)(i) to (vi) list conditions that can cause it, such as reduced diameter, broken or worn outside wires, corroded wires at end connections and severe kinking.",
+          "clause": "1910.180(g)(1)"
+        },
+        {
+          "text": "Take particular care at sections in contact with equalizer sheaves, other sheaves where rope travel is limited, or saddles, where heavy wear and broken wires may occur.",
+          "clause": "1910.180(g)(2)(i)"
+        },
+        {
+          "text": "Rope idle a month or more because its crane was shut down or stored must be thoroughly inspected for all types of deterioration before use, and the inspector's approval is required before it is used again.",
+          "clause": "1910.180(g)(2)(ii)"
+        },
+        {
+          "text": "The pre-use inspection of idle rope also needs a dated, signed record that identifies the rope, kept readily available.",
+          "clause": "1910.180(g)(2)(ii)"
+        },
+        {
+          "text": "Take particular care when inspecting nonrotating rope.",
+          "clause": "1910.180(g)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be in place before a crane lifts a load?",
+      "intro": "Before a lift, 1910.180(h) requires a load within the rated load, a level crane, a load attached with slings or approved devices and well secured, and a brake test when the load approaches the rating.",
+      "items": [
+        {
+          "text": "No crane may be loaded beyond the rated load, except for tests under paragraph (e).",
+          "clause": "1910.180(h)(1)(i)"
+        },
+        {
+          "text": "When a load is limited by structural competence rather than stability, its weight must be determined within plus or minus 10 percent before it is lifted.",
+          "clause": "1910.180(h)(1)(ii)"
+        },
+        {
+          "text": "The hoist rope must not be wrapped around the load.",
+          "clause": "1910.180(h)(2)(i)"
+        },
+        {
+          "text": "The load must be attached to the hook by slings or other approved devices.",
+          "clause": "1910.180(h)(2)(ii)"
+        },
+        {
+          "text": "The employer must assure the crane is level and, where necessary, properly blocked.",
+          "clause": "1910.180(h)(3)(i)(a)"
+        },
+        {
+          "text": "The load must be well secured and properly balanced in the sling or lifting device before it is raised more than a few inches.",
+          "clause": "1910.180(h)(3)(i)(b)"
+        },
+        {
+          "text": "On truck-mounted cranes, no loads may be lifted over the front area except as approved by the crane manufacturer.",
+          "clause": "1910.180(h)(3)(vii)"
+        },
+        {
+          "text": "Each time a load approaching the rated load is handled, the operator must test the brakes by raising it a few inches and applying them.",
+          "clause": "1910.180(h)(3)(viii)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply while a load is moving or suspended?",
+      "intro": "During load movement, 1910.180(h)(3) bars anyone riding on the hook or load and limits side loading, and 1910.180(h)(4) keeps the operator at the controls whenever a load hangs from the crane.",
+      "items": [
+        {
+          "text": "Side loading of booms is limited to freely suspended loads, and cranes may not be used to drag loads sideways.",
+          "clause": "1910.180(h)(3)(iv)"
+        },
+        {
+          "text": "No hoisting, lowering, swinging or traveling may be done while anyone is on the load or hook.",
+          "clause": "1910.180(h)(3)(v)"
+        },
+        {
+          "text": "Neither the load nor the boom may be lowered to the point where fewer than two full wraps of rope remain on its drum.",
+          "clause": "1910.180(h)(3)(x)"
+        },
+        {
+          "text": "A tag or restraint line must be used when rotation of the load is hazardous; the same paragraph also limits sudden starts, stops and rotational speed.",
+          "clause": "1910.180(h)(3)(xvi)"
+        },
+        {
+          "text": "When the crane is operated at a fixed radius, the boom-hoist pawl or other positive locking device must be engaged.",
+          "clause": "1910.180(h)(3)(xvii)"
+        },
+        {
+          "text": "The operator may not leave the position at the controls while the load is suspended.",
+          "clause": "1910.180(h)(4)(i)"
+        },
+        {
+          "text": "No person should be permitted to stand or pass under a load on the hook.",
+          "clause": "1910.180(h)(4)(ii)"
+        },
+        {
+          "text": "If the load must stay suspended for any considerable length of time, the operator must hold the drum from rotating in the lowering direction using the positive controllable means at the operator's station.",
+          "clause": "1910.180(h)(4)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules cover outriggers, ballast and multi-crane lifts?",
+      "intro": "1910.180(h)(3)(ix) requires outriggers whenever the load at a radius exceeds the manufacturer's rating without them and sets conditions for floats and wood blocking, 1910.180(i)(2) requires the maker's full ballast or counterweight, and one designated person runs any lift using two or more cranes.",
+      "items": [
+        {
+          "text": "Outriggers must be used when the load to be handled at that radius exceeds the rated load without outriggers given by the manufacturer for that crane.",
+          "clause": "1910.180(h)(3)(ix)"
+        },
+        {
+          "text": "Where floats are used, they must be securely attached to the outriggers.",
+          "clause": "1910.180(h)(3)(ix)"
+        },
+        {
+          "text": "Wood blocks supporting outriggers must be strong enough to prevent crushing.",
+          "clause": "1910.180(h)(3)(ix)(a)"
+        },
+        {
+          "text": "Outrigger blocking must also be free from defects.",
+          "clause": "1910.180(h)(3)(ix)(b)"
+        },
+        {
+          "text": "Each block must be wide and long enough to prevent shifting or toppling under load.",
+          "clause": "1910.180(h)(3)(ix)(c)"
+        },
+        {
+          "text": "Cranes may not be operated without the full ballast or counterweight specified by the maker, except that truck cranes that have dropped it may be operated temporarily, with special care and only for light loads.",
+          "clause": "1910.180(i)(2)"
+        },
+        {
+          "text": "The ballast or counterweight specified by the manufacturer must not be exceeded.",
+          "clause": "1910.180(i)(2)"
+        },
+        {
+          "text": "When two or more cranes lift one load, one designated person is responsible for the operation and must analyze it and instruct everyone involved on positioning, rigging and the movements to be made.",
+          "clause": "1910.180(h)(3)(xii)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules cover crane travel, refueling and fire extinguishers?",
+      "intro": "1910.180(h)(3) sets transit precautions and puts a designated person in charge of traveling with a load, and 1910.180(i) adds refueling precautions and a fire extinguisher at the crane.",
+      "items": [
+        {
+          "text": "In transit, the boom must be carried in line with the direction of motion.",
+          "clause": "1910.180(h)(3)(xiii)(a)"
+        },
+        {
+          "text": "In transit, the superstructure must be secured against rotation, except when negotiating turns when there is an operator in the cab or the boom is supported on a dolly.",
+          "clause": "1910.180(h)(3)(xiii)(b)"
+        },
+        {
+          "text": "The empty hook must be lashed or otherwise restrained during transit so it cannot swing freely.",
+          "clause": "1910.180(h)(3)(xiii)(c)"
+        },
+        {
+          "text": "Before a crane travels with a load, a designated person must determine and control safety, and decisions on load position, boom location, ground support, travel route and speed follow that person's determinations.",
+          "clause": "1910.180(h)(3)(xiv)"
+        },
+        {
+          "text": "A crane, loaded or not, may not travel with the boom so high that it may bounce back over the cab.",
+          "clause": "1910.180(h)(3)(xv)"
+        },
+        {
+          "text": "Refueling from small portable containers must use an approved safety can with an automatic closing cap and flame arrester; 1910.155(c)(3) defines approved.",
+          "clause": "1910.180(i)(4)(i)"
+        },
+        {
+          "text": "Machines may not be refueled with the engine running.",
+          "clause": "1910.180(i)(4)(ii)"
+        },
+        {
+          "text": "A carbon dioxide, dry chemical or equivalent fire extinguisher must be kept in the cab or vicinity of the crane.",
+          "clause": "1910.180(i)(5)(i)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the 1910.180 frequent and periodic inspection items, idle and standby crane checks, rope condition, inspection records and lift set-up, for use on site at each crane inspection and before lifting.",
+  "checklist": "us/1910-180-crawler-locomotive-truck-cranes",
+  "faq": [
+    {
+      "question": "Does 1910.180 cover crane work near overhead power lines?",
+      "answer": "Paragraph 1910.180(j) refers operations near overhead electric lines to 1910.333(c)(3), so the rules for that work are in that section, not in 1910.180."
+    },
+    {
+      "question": "What applies to cranes built before August 31, 1971?",
+      "answer": "Under 1910.180(b)(2), cranes constructed before that date should have been modified to the ANSI B30.5-1968 design specifications by February 15, 1972, unless it can be shown that the crane cannot feasibly or economically be altered and that it substantially complies with the section."
+    },
+    {
+      "question": "Are there extra rules for locomotive cranes?",
+      "answer": "1910.180 adds rules for locomotive cranes: rail clamps may not be used to restrain tipping (1910.180(i)(1)); before lifting without outriggers, means must be applied so the truck springs do not carry the load (1910.180(h)(3)(xi)); and the crane may not be swung where cars on an adjacent track might strike it until it is confirmed that cars are not being moved there and proper flag protection is in place (1910.180(i)(6))."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.180: Crawler locomotive and truck cranes (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.180"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "mobile crane inspection",
+    "truck cranes",
+    "crawler cranes"
+  ],
+  "cover": "1910-180-crawler-locomotive-truck-cranes",
+  "coverPrompt": "A truck-mounted crane with its outriggers fully extended on wide timber blocks lifts a steel beam at an open industrial yard, while a worker in a hard hat and high-visibility vest stands well clear and guides the load with a tag line, seen from a distance.",
+  "coverAlt": "Truck crane on extended outriggers lifting a steel beam while a worker guides it with a tag line",
+  "changes": []
+}

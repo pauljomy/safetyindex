@@ -1,0 +1,302 @@
+{
+  "slug": "1910-180-crawler-locomotive-truck-cranes",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-180-crawler-locomotive-truck-cranes",
+  "doc_ref": "SI-US-1910-180",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Mobile Crane Inspection Checklist (29 CFR 1910.180)",
+  "subtitle": "For frequent, periodic, idle-crane and standby-crane inspections, monthly rope checks and lift set-up.",
+  "regulation_line": "OSHA 29 CFR 1910.180",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For any defect, have it carefully examined and decide whether it is a safety hazard, as 1910.180(d)(3) and (d)(4) require; record what was found and done.",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Operator, Records and Readiness",
+      "items": [
+        [
+          "Designated operator",
+          "The person at the controls has been designated by the employer to operate this crane.",
+          "1910.180(b)(3)"
+        ],
+        [
+          "Load rating chart",
+          "Durable chart with legible letters and figures fixed in the cab, readable from the seated control position.",
+          "1910.180(c)(2)"
+        ],
+        [
+          "Monthly certification record",
+          "Record for brakes, hooks and ropes made this month, signed and dated, with the crane's serial number or other ID, and readily at hand.",
+          "1910.180(d)(6)"
+        ],
+        [
+          "Monthly rope inspection record",
+          "Thorough rope inspection done within the past month; record on file with date, inspector signature and rope identifier.",
+          "1910.180(g)(1)"
+        ],
+        [
+          "Idle crane (1 to under 6 months)",
+          "A crane idle one month or more but under 6 months was inspected under (d)(3) and (g)(2)(ii) before returning to service.",
+          "1910.180(d)(5)(i)"
+        ],
+        [
+          "Idle crane (six months)",
+          "A crane idle for six months had a complete inspection covering (d)(3), (d)(4) and (g)(2)(ii) before returning to service.",
+          "1910.180(d)(5)(ii)"
+        ],
+        [
+          "Standby crane",
+          "Standby crane given the (d)(3) and (g)(2)(ii) inspection at least semiannually.",
+          "1910.180(d)(5)(iii)"
+        ],
+        [
+          "Idle rope approval",
+          "Rope that sat idle for a month or more was thoroughly inspected and approved before use, with a signed, dated record.",
+          "1910.180(g)(2)(ii)"
+        ],
+        [
+          "Ballast or counterweight",
+          "Full ballast or counterweight specified by the maker in place and not exceeded; a truck crane that has dropped it is used only temporarily, with special care, for light loads.",
+          "1910.180(i)(2)"
+        ],
+        [
+          "Fire extinguisher",
+          "Carbon dioxide, dry chemical or equivalent extinguisher in the cab or near the crane.",
+          "1910.180(i)(5)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Frequent Inspection Items (Also Part of the Periodic Inspection)",
+      "items": [
+        [
+          "Control adjustment",
+          "Controls operate properly with no maladjustment; checked daily.",
+          "1910.180(d)(3)(i)"
+        ],
+        [
+          "Control wear and contamination",
+          "No excessive component wear; no lubricant or foreign matter fouling control mechanisms.",
+          "1910.180(d)(3)(ii)"
+        ],
+        [
+          "Safety devices",
+          "Every safety device functions with no malfunction.",
+          "1910.180(d)(3)(iii)"
+        ],
+        [
+          "Air and hydraulic systems",
+          "No leakage or deterioration in the air or hydraulic systems; checked daily.",
+          "1910.180(d)(3)(iv)"
+        ],
+        [
+          "Crane hooks",
+          "No cracks or deformation; throat opening no more than 15 percent over normal; twist no more than 10° from the plane of the unbent hook.",
+          "1910.180(d)(3)(v)"
+        ],
+        [
+          "Rope reeving",
+          "Reeving matches the manufacturer's recommendations.",
+          "1910.180(d)(3)(vi)"
+        ],
+        [
+          "Electrical apparatus",
+          "Works properly; no signs of excessive deterioration and no dirt or moisture build-up.",
+          "1910.180(d)(3)(vii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Periodic Inspection Items",
+      "items": [
+        [
+          "Structure and boom",
+          "No deformed, cracked or corroded members anywhere in the structure or boom.",
+          "1910.180(d)(4)(i)"
+        ],
+        [
+          "Bolts and rivets",
+          "No loose bolts or rivets.",
+          "1910.180(d)(4)(ii)"
+        ],
+        [
+          "Sheaves and drums",
+          "No cracked or worn sheaves or drums.",
+          "1910.180(d)(4)(iii)"
+        ],
+        [
+          "Pins, bearings, shafts and gears",
+          "Pins, bearings, shafts, gears, rollers and locking devices free of wear, cracks and distortion.",
+          "1910.180(d)(4)(iv)"
+        ],
+        [
+          "Brake and clutch parts",
+          "No excessive wear on brake and clutch parts, linings, pawls or ratchets.",
+          "1910.180(d)(4)(v)"
+        ],
+        [
+          "Indicators",
+          "Load, boom angle and other indicators read accurately across their full range.",
+          "1910.180(d)(4)(vi)"
+        ],
+        [
+          "Power plant",
+          "Gasoline, diesel, electric or other power plant performs properly and meets safety requirements.",
+          "1910.180(d)(4)(vii)"
+        ],
+        [
+          "Chain drives",
+          "No excessive sprocket wear or chain stretch.",
+          "1910.180(d)(4)(viii)"
+        ],
+        [
+          "Travel steering, brakes and locks",
+          "Travel steering, braking and locking devices work without malfunction.",
+          "1910.180(d)(4)(ix)"
+        ],
+        [
+          "Tires",
+          "No excessively worn or damaged tires.",
+          "1910.180(d)(4)(x)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Wire Rope",
+      "items": [
+        [
+          "Rope diameter",
+          "No reduction below nominal diameter from loss of core support, corrosion or outside-wire wear.",
+          "1910.180(g)(1)(i)"
+        ],
+        [
+          "Broken outside wires",
+          "Any broken outside wires counted and their concentration judged not to be a hazard.",
+          "1910.180(g)(1)(ii)"
+        ],
+        [
+          "Outside wire wear",
+          "No worn outside wires.",
+          "1910.180(g)(1)(iii)"
+        ],
+        [
+          "Wires at end connections",
+          "No corroded or broken wires at end connections.",
+          "1910.180(g)(1)(iv)"
+        ],
+        [
+          "End connections",
+          "End connections not corroded, cracked, bent or worn, and correctly applied.",
+          "1910.180(g)(1)(v)"
+        ],
+        [
+          "Kinks and damage",
+          "No severe kinking, crushing, cutting or unstranding.",
+          "1910.180(g)(1)(vi)"
+        ],
+        [
+          "Limited-travel sections",
+          "Rope at equalizer sheaves, limited-travel sheaves and saddles checked closely for heavy wear and broken wires.",
+          "1910.180(g)(2)(i)"
+        ],
+        [
+          "Nonrotating rope",
+          "Nonrotating rope given a close, careful inspection.",
+          "1910.180(g)(2)(iii)"
+        ],
+        [
+          "Hoist rope",
+          "Hoist rope free of kinks before hoisting starts.",
+          "1910.180(h)(3)(ii)(a)"
+        ],
+        [
+          "Multiple part lines",
+          "Part lines not twisted around each other.",
+          "1910.180(h)(3)(ii)(b)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Set-Up and Lifting",
+      "items": [
+        [
+          "Load within rating",
+          "Load, including blocks, hooks and slings, does not exceed the chart rating for the radius.",
+          "1910.180(h)(1)(i)"
+        ],
+        [
+          "Crane level",
+          "Crane is level and blocked where necessary.",
+          "1910.180(h)(3)(i)(a)"
+        ],
+        [
+          "Load secured and balanced",
+          "Load well secured and balanced in the sling or lifting device before it goes higher than a few inches.",
+          "1910.180(h)(3)(i)(b)"
+        ],
+        [
+          "Outriggers",
+          "Outriggers set whenever the load at the planned radius exceeds the manufacturer's no-outrigger rating.",
+          "1910.180(h)(3)(ix)"
+        ],
+        [
+          "Floats",
+          "Any floats in use are securely attached to the outriggers.",
+          "1910.180(h)(3)(ix)"
+        ],
+        [
+          "Outrigger blocking strength",
+          "Wood blocks strong enough to prevent crushing.",
+          "1910.180(h)(3)(ix)(a)"
+        ],
+        [
+          "Outrigger blocking condition",
+          "Wood blocks free from defects.",
+          "1910.180(h)(3)(ix)(b)"
+        ],
+        [
+          "Outrigger blocking size",
+          "Wood blocks wide and long enough that they cannot shift or topple under load.",
+          "1910.180(h)(3)(ix)(c)"
+        ],
+        [
+          "Hook position",
+          "Hook brought over the load so the load will not swing.",
+          "1910.180(h)(3)(ii)(c)"
+        ],
+        [
+          "No riders",
+          "No one rides the hook or the load during any hoisting, lowering, swinging or travel.",
+          "1910.180(h)(3)(v)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.180: Crawler locomotive and truck cranes (OSHA, Part 1910 Subpart N: Materials Handling and Storage)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
