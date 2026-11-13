@@ -1,0 +1,465 @@
+{
+  "section": "1910.157",
+  "part": "1910",
+  "heading": "Portable fire extinguishers.",
+  "subpart": "L",
+  "subpartTitle": "Fire Protection",
+  "title": "OSHA fire extinguisher inspection requirements (29 CFR 1910.157)",
+  "seoTitle": "OSHA Fire Extinguisher Inspection Requirements | 1910.157",
+  "description": "29 CFR 1910.157 explained: monthly and annual extinguisher inspections, hydrostatic test intervals, training, OSHA citation data and a checklist.",
+  "opening": "29 CFR 1910.157 requires employers who provide portable fire extinguishers for employee use to keep them accessible and fully charged, inspect them visually each month, maintain them annually, hydrostatically test them per Table L-1, and train employees at hire and at least annually.",
+  "keyword": "osha fire extinguisher inspection requirements",
+  "cluster": [
+    {
+      "keyword": "osha fire extinguisher requirements",
+      "volume": 880,
+      "kd": 16,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire extinguisher checklist",
+      "volume": 140,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha fire extinguisher inspection requirements",
+      "volume": 170,
+      "kd": 13,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire extinguisher inspection checklist",
+      "volume": 2900,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire extinguisher inspection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha portable fire extinguishers requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "portable fire extinguishers checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "portable fire extinguishers inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.157",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 4090,
+  "kd": 13,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 9603,
+    "inspections": 7148,
+    "byFy": {
+      "2022": 1749,
+      "2023": 1915,
+      "2024": 2193,
+      "2025": 1951,
+      "2026": 1795
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(1)",
+        "count": 3323
+      },
+      {
+        "paragraph": "(e)(2)",
+        "count": 2457
+      },
+      {
+        "paragraph": "(e)(3)",
+        "count": 1923
+      },
+      {
+        "paragraph": "(g)(1)",
+        "count": 705
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 398
+      },
+      {
+        "paragraph": "(g)(2)",
+        "count": 366
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 231
+      },
+      {
+        "paragraph": "(g)(4)",
+        "count": 68
+      },
+      {
+        "paragraph": "(g)(3)",
+        "count": 37
+      },
+      {
+        "paragraph": "(e)(4)",
+        "count": 22
+      }
+    ],
+    "penalties": {
+      "n": 2632,
+      "median": 2100,
+      "p25": 501,
+      "p75": 4900,
+      "total": 9591364
+    },
+    "typeShares": {
+      "serious": 0.382,
+      "willful": 0,
+      "repeat": 0.019,
+      "otherThanSerious": 0.598,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3672,
+      "willful": 4,
+      "repeat": 181,
+      "otherThanSerious": 5746,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "9221",
+        "count": 610,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "2373",
+        "count": 594,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "9211",
+        "count": 437,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "8111",
+        "count": 381,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "2213",
+        "count": 337,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "4931",
+        "count": 333,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "6111",
+        "count": 288,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "5612",
+        "count": 256,
+        "title": "Facilities Support Services"
+      },
+      {
+        "naics": "7225",
+        "count": 214,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "7211",
+        "count": 201,
+        "title": "Traveler Accommodation"
+      }
+    ]
+  },
+  "enforcementSummary": "From FY2022 to FY2026, OSHA cited 1910.157(c)(1) more than any other paragraph of the standard; it requires extinguishers to be provided and mounted, located and identified so they are readily accessible without exposing employees to possible injury. The next most cited are (e)(2), the monthly visual inspection, (e)(3), the annual maintenance check and its record, and (g)(1), the employee education program. Yearly citations rose from 1,749 in FY2022 to 2,193 in FY2024, then dropped to 1,951 in FY2025 and 1,795 in FY2026.",
+  "requirementsIntro": "1910.157 applies to the placement, use, maintenance and testing of portable fire extinguishers provided for employees, with exemptions in paragraphs (a) and (b) for some workplaces that have evacuation and fire prevention plans. It runs from general requirements (c) and selection and distribution (d) to inspection and maintenance (e), hydrostatic testing (f) and training (g).",
+  "requirements": [
+    {
+      "heading": "Does 1910.157 apply to your workplace?",
+      "intro": "1910.157 covers extinguishers provided for employee use, and paragraphs (a) and (b) narrow or remove its duties for employers whose plans rely on evacuation or on designated fire fighters.",
+      "items": [
+        {
+          "text": "The selection and distribution rules in paragraph (d) do not cover extinguishers provided for employees outside workplace buildings or structures.",
+          "clause": "1910.157(a)"
+        },
+        {
+          "text": "If extinguishers are present but not intended for employee use, and the employer has an emergency action plan meeting 29 CFR 1910.38 and a fire prevention plan meeting 29 CFR 1910.39, only paragraphs (e) and (f) apply.",
+          "clause": "1910.157(a)"
+        },
+        {
+          "text": "The whole section does not apply if the employer has established and implemented a written fire safety policy requiring immediate and total evacuation when the fire alarm sounds, the policy includes plans meeting 1910.38 and 1910.39, and no extinguishers are available in the workplace, unless another Part 1910 standard requires a portable extinguisher.",
+          "clause": "1910.157(b)(1)"
+        },
+        {
+          "text": "Paragraph (d) distribution rules do not apply where the 1910.38 plan names certain employees as the only ones authorized to use the available extinguishers and requires all other employees in the fire area to evacuate immediately when the alarm sounds.",
+          "clause": "1910.157(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What general duties apply to every portable extinguisher?",
+      "intro": "Under 1910.157(c), every extinguisher provided must be approved, readily accessible, fully charged, operable and kept in its designated place.",
+      "items": [
+        {
+          "text": "Provide extinguishers and mount, locate and identify them so employees can reach them readily without being exposed to possible injury.",
+          "clause": "1910.157(c)(1)"
+        },
+        {
+          "text": "Use only approved extinguishers to meet the requirements of the section.",
+          "clause": "1910.157(c)(2)"
+        },
+        {
+          "text": "Do not provide or make available extinguishers that use carbon tetrachloride or chlorobromomethane agents.",
+          "clause": "1910.157(c)(3)"
+        },
+        {
+          "text": "Keep each unit fully charged and operable, and in its designated place at all times except while it is being used.",
+          "clause": "1910.157(c)(4)"
+        },
+        {
+          "text": "Remove from service soldered or riveted shell self-generating soda acid, self-generating foam and gas cartridge water types that work by inverting the unit to rupture a cartridge or start an uncontrollable pressure-generating chemical reaction.",
+          "clause": "1910.157(c)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "How far can employees be from a fire extinguisher?",
+      "intro": "1910.157(d) limits travel distance for Class A fires to 75 feet (22.9 m) from any employee to an extinguisher, for Class B to 50 feet (15.2 m) from the Class B hazard area, and for Class D to 75 feet from the combustible metal working area to the extinguishing agent.",
+      "items": [
+        {
+          "text": "Select and distribute extinguishers according to the classes of fire anticipated in the workplace and the size and degree of hazard that would affect their use.",
+          "clause": "1910.157(d)(1)"
+        },
+        {
+          "text": "For Class A fires, the travel distance from any employee to an extinguisher must be 75 feet (22.9 m) or less.",
+          "clause": "1910.157(d)(2)"
+        },
+        {
+          "text": "Uniformly spaced standpipe systems or hose stations connected to a sprinkler system for emergency employee use may replace Class A extinguishers if they meet 1910.158 or 1910.159, cover the whole protected area, and employees are trained in their use no less than once a year.",
+          "clause": "1910.157(d)(3)"
+        },
+        {
+          "text": "For Class B fires, the travel distance from the Class B hazard area to an extinguisher must be 50 feet (15.2 m) or less.",
+          "clause": "1910.157(d)(4)"
+        },
+        {
+          "text": "Extinguishers for Class C hazards are distributed following the pattern that suits the existing Class A or Class B hazards.",
+          "clause": "1910.157(d)(5)"
+        },
+        {
+          "text": "Class D extinguishers are required in combustible metal working areas where metal powders, flakes, shavings or similarly sized products are generated at least once every two weeks, with extinguishers or other containers of Class D agent within 75 feet of the working area.",
+          "clause": "1910.157(d)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must fire extinguishers be inspected and maintained?",
+      "intro": "1910.157(e) requires every portable extinguisher to be visually inspected monthly and to receive an annual maintenance check, plus a 6-year emptying and maintenance cycle for some dry chemical units.",
+      "items": [
+        {
+          "text": "The employer is responsible for inspecting, maintaining and testing all portable extinguishers in the workplace.",
+          "clause": "1910.157(e)(1)"
+        },
+        {
+          "text": "Visually inspect extinguishers, and any hose used in their place under paragraph (d)(3), every month.",
+          "clause": "1910.157(e)(2)"
+        },
+        {
+          "text": "Give each extinguisher an annual maintenance check; stored pressure extinguishers do not need an internal examination.",
+          "clause": "1910.157(e)(3)"
+        },
+        {
+          "text": "Record the annual maintenance date, keep the record for one year after the last entry or for the life of the shell, whichever is less, and make it available to the Assistant Secretary on request.",
+          "clause": "1910.157(e)(3)"
+        },
+        {
+          "text": "Empty stored pressure dry chemical extinguishers that need a 12-year hydrostatic test and put them through applicable maintenance every 6 years; the 6-year count restarts after recharging or hydrostatic testing, and units with non-refillable disposable containers are exempt.",
+          "clause": "1910.157(e)(4)"
+        },
+        {
+          "text": "Provide alternate equivalent protection while extinguishers are out of service for maintenance and recharging.",
+          "clause": "1910.157(e)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "When must fire extinguishers be hydrostatically tested?",
+      "intro": "1910.157(f) requires hydrostatic testing by trained persons at the Table L-1 intervals: 5 years for types including carbon dioxide, stored pressure water and AFFF, and 12 years for types including Halon 1211 and dry chemical (stored pressure) units with mild steel, brazed brass or aluminum shells.",
+      "items": [
+        {
+          "text": "Hydrostatic tests must be done by trained persons with suitable testing equipment and facilities.",
+          "clause": "1910.157(f)(1)"
+        },
+        {
+          "text": "Test at the Table L-1 intervals, except under any of the conditions in (f)(2)(i)–(v): repair by soldering, welding, brazing or patching compounds; damaged cylinder or shell threads; corrosion that has caused pitting, including under removable name plate assemblies; burning in a fire; or calcium chloride agent used in a stainless steel shell.",
+          "clause": "1910.157(f)(2)"
+        },
+        {
+          "text": "Before the hydrostatic test, examine the cylinder or shell internally as well as externally.",
+          "clause": "1910.157(f)(3)"
+        },
+        {
+          "text": "Test an extinguisher whenever it shows new evidence of corrosion or mechanical injury, except under the (f)(2)(i)–(v) conditions.",
+          "clause": "1910.157(f)(4)"
+        },
+        {
+          "text": "Test hose assemblies fitted with a shut-off nozzle at the discharge end on the same interval as the extinguisher they are installed on.",
+          "clause": "1910.157(f)(5)"
+        },
+        {
+          "text": "Test carbon dioxide extinguishers, and nitrogen or carbon dioxide cylinders used with wheeled extinguishers, every 5 years at 5/3 of the service pressure stamped into the cylinder; nitrogen cylinders complying with 49 CFR 173.34(e)(15) may be tested every 10 years.",
+          "clause": "1910.157(f)(10)"
+        },
+        {
+          "text": "Remove from service and from the workplace any shell, cylinder or cartridge that fails its hydrostatic test or is unfit for testing.",
+          "clause": "1910.157(f)(14)"
+        },
+        {
+          "text": "Keep a certification record for each test showing the date, the tester's signature and the extinguisher's serial number or other identifier, until the next Table L-1 retest or until the unit is taken out of service, whichever comes first, and provide it to the Assistant Secretary on request.",
+          "clause": "1910.157(f)(16)"
+        }
+      ]
+    },
+    {
+      "heading": "What test pressures and equipment does 1910.157(f) specify?",
+      "intro": "1910.157(f) sets hydrostatic test pressures by extinguisher type and specifies the test equipment for compressed gas and non-compressed gas cylinders.",
+      "items": [
+        {
+          "text": "Test carbon dioxide hose assemblies that have a shut-off nozzle at 1,250 psi (8,620 kPa).",
+          "clause": "1910.157(f)(6)"
+        },
+        {
+          "text": "Dry chemical and dry powder hose assemblies with a shut-off nozzle are tested at 300 psi (2,070 kPa).",
+          "clause": "1910.157(f)(7)"
+        },
+        {
+          "text": "Carry out required hydrostatic tests of carbon dioxide extinguisher hose assemblies within a protective cage device.",
+          "clause": "1910.157(f)(9)"
+        },
+        {
+          "text": "Test all stored pressure and Halon 1211 extinguishers at the factory test pressure, never above two times the service pressure.",
+          "clause": "1910.157(f)(11)"
+        },
+        {
+          "text": "Test acceptable self-generating soda acid and foam extinguishers at 350 psi (2,410 kPa).",
+          "clause": "1910.157(f)(12)"
+        },
+        {
+          "text": "Equipment for compressed gas cylinders must be the water jacket type, with an expansion indicator accurate to within one percent of total expansion or .1cc (.1mL) of liquid.",
+          "clause": "1910.157(f)(15)(i)"
+        },
+        {
+          "text": "Equipment for non-compressed gas cylinders needs a hand or power pump able to produce at least 150 percent of the test pressure with check valves and fittings, a flexible connection to the nozzle, test bonnet or hose outlet, and a protective cage or barrier that lets the tester watch the unit.",
+          "clause": "1910.157(f)(15)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What fire extinguisher training must employees receive?",
+      "intro": "1910.157(g) requires a fire extinguisher education program for all employees wherever extinguishers are provided for their use, plus equipment training for employees designated to fight fires under an emergency action plan.",
+      "items": [
+        {
+          "text": "Provide an educational program that familiarizes employees with the general principles of extinguisher use and the hazards of incipient stage fire fighting.",
+          "clause": "1910.157(g)(1)"
+        },
+        {
+          "text": "Deliver that education when an employee is first hired and at least annually after that.",
+          "clause": "1910.157(g)(2)"
+        },
+        {
+          "text": "Employees designated under the emergency action plan to use fire fighting equipment must be trained in using the appropriate equipment.",
+          "clause": "1910.157(g)(3)"
+        },
+        {
+          "text": "Give designated employees that training on initial assignment to the group and at least once a year after that.",
+          "clause": "1910.157(g)(4)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers placement, the monthly visual inspection, annual maintenance and hydrostatic test records, and training under 1910.157; use it on each monthly round and when preparing for the yearly maintenance visit.",
+  "checklist": "us/1910-157-portable-fire-extinguishers",
+  "faq": [
+    {
+      "question": "Do hose assemblies that pass a hydrostatic test need to be stamped or recorded?",
+      "answer": "No. Under 1910.157(f)(8), hose assemblies that pass a hydrostatic test do not require any type of recording or stamping."
+    },
+    {
+      "question": "Can compressed air be used to hydrostatically test an extinguisher?",
+      "answer": "No. 1910.157(f)(13) states that air or gas pressure may not be used for hydrostatic testing."
+    },
+    {
+      "question": "What about old soldered brass soda acid or foam extinguishers?",
+      "answer": "Footnote 1 to Table L-1 says extinguishers with copper or brass shells joined by soft solder or rivets are not to be hydrostatically tested and had to be removed from service by January 1, 1982."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.157: Portable fire extinguishers (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.157"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "portable fire extinguishers",
+    "fire extinguisher inspection",
+    "extinguisher hydrostatic testing"
+  ],
+  "cover": "1910-157-portable-fire-extinguishers",
+  "coverPrompt": "A maintenance worker in a clean warehouse aisle, photographed from behind at mid distance, inspects a red portable fire extinguisher mounted on a wall bracket with a clear, unobstructed path in front of it, holding a clipboard. No legible text, labels, gauge markings or logos are visible.",
+  "coverAlt": "Worker inspecting a wall-mounted portable fire extinguisher in a warehouse aisle",
+  "changes": []
+}

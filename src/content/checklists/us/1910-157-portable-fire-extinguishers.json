@@ -1,0 +1,196 @@
+{
+  "slug": "1910-157-portable-fire-extinguishers",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-157-portable-fire-extinguishers",
+  "doc_ref": "SI-US-1910-157",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Fire Extinguisher Inspection Checklist (29 CFR 1910.157)",
+  "subtitle": "Use on the monthly extinguisher round and at the annual maintenance check.",
+  "regulation_line": "OSHA 29 CFR 1910.157",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item fails, correct it or take the unit out of service; when a unit is removed for maintenance or recharging, provide alternate equivalent protection (1910.157(e)(5)).",
+    "Each item names the 1910.157 paragraph it is based on; read that paragraph when a result is unclear."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Placement and access",
+      "items": [
+        [
+          "Approved extinguisher",
+          "Only approved extinguishers are in use.",
+          "1910.157(c)(2)"
+        ],
+        [
+          "Mounting and identification",
+          "Mounted, located and identified so it is readily accessible and reachable without risk of injury.",
+          "1910.157(c)(1)"
+        ],
+        [
+          "Designated place",
+          "Unit is in its designated place.",
+          "1910.157(c)(4)"
+        ],
+        [
+          "Class A travel distance",
+          "No employee has more than 75 feet of travel to an extinguisher for Class A fires.",
+          "1910.157(d)(2)"
+        ],
+        [
+          "Class B travel distance",
+          "Travel from each Class B hazard area to an extinguisher is 50 feet or less.",
+          "1910.157(d)(4)"
+        ],
+        [
+          "Class C coverage",
+          "Units for Class C hazards follow the Class A or Class B distribution pattern.",
+          "1910.157(d)(5)"
+        ],
+        [
+          "Class D coverage",
+          "Class D agent within 75 feet of any area that generates combustible metal powders, flakes or shavings at least once every two weeks.",
+          "1910.157(d)(6)"
+        ],
+        [
+          "Prohibited agents",
+          "No carbon tetrachloride or chlorobromomethane extinguishers on site.",
+          "1910.157(c)(3)"
+        ],
+        [
+          "Inverting-type units",
+          "No soldered or riveted shell self-generating soda acid, self-generating foam or gas cartridge water units that are inverted to rupture a cartridge or start an uncontrollable pressure-generating chemical reaction.",
+          "1910.157(c)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Monthly visual inspection",
+      "items": [
+        [
+          "Monthly inspection done",
+          "Visual inspection completed this month for each extinguisher and any hose used in place of Class A units.",
+          "1910.157(e)(2)"
+        ],
+        [
+          "Charge and condition",
+          "Unit is fully charged and operable.",
+          "1910.157(c)(4)"
+        ],
+        [
+          "Corrosion or damage",
+          "No new corrosion or mechanical injury. A unit showing it goes for hydrostatic testing unless a condition in 1910.157(f)(2)(i)–(v) applies, such as pitting corrosion, a soldered or welded repair, or fire damage; see the next item for units unfit for testing.",
+          "1910.157(f)(4)"
+        ],
+        [
+          "Failed or unfit units",
+          "No shell, cylinder or cartridge that failed a hydrostatic test or is unfit for testing remains in the workplace.",
+          "1910.157(f)(14)"
+        ],
+        [
+          "Cover during servicing",
+          "Alternate equivalent protection is in place for every unit away for maintenance or recharging.",
+          "1910.157(e)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Annual maintenance and hydrostatic testing",
+      "items": [
+        [
+          "Annual maintenance check",
+          "Annual maintenance check completed within the past year.",
+          "1910.157(e)(3)"
+        ],
+        [
+          "Maintenance record",
+          "Annual maintenance date recorded and the record kept for one year after the last entry or the life of the shell, whichever is less.",
+          "1910.157(e)(3)"
+        ],
+        [
+          "6-year maintenance",
+          "Stored pressure dry chemical units needing a 12-year hydrostatic test emptied and maintained every 6 years (clock restarts at recharge or hydrostatic test); non-refillable disposable units exempt.",
+          "1910.157(e)(4)"
+        ],
+        [
+          "Hydrostatic test date",
+          "Last hydrostatic test falls inside the Table L-1 interval for the extinguisher type (5 or 12 years).",
+          "1910.157(f)(2)"
+        ],
+        [
+          "CO2 and wheeled-unit cylinders",
+          "Carbon dioxide extinguishers and wheeled-unit nitrogen or CO2 cylinders tested within 5 years, or 10 years for nitrogen cylinders complying with 49 CFR 173.34(e)(15).",
+          "1910.157(f)(10)"
+        ],
+        [
+          "Hose assemblies",
+          "Hose ending in a shut-off nozzle tested on its extinguisher's interval.",
+          "1910.157(f)(5)"
+        ],
+        [
+          "Test certification record",
+          "Record shows test date, tester's signature and the unit's serial number or other identifier.",
+          "1910.157(f)(16)"
+        ],
+        [
+          "Tester",
+          "Tester is trained and uses suitable test equipment and facilities.",
+          "1910.157(f)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Training",
+      "items": [
+        [
+          "Education program",
+          "Program covering general principles of extinguisher use and incipient stage fire fighting hazards is in place.",
+          "1910.157(g)(1)"
+        ],
+        [
+          "Education frequency",
+          "Each employee received the education at hire and again in the last year.",
+          "1910.157(g)(2)"
+        ],
+        [
+          "Designated fire fighters",
+          "Employees designated to use fire fighting equipment are trained on the equipment they would use.",
+          "1910.157(g)(3)"
+        ],
+        [
+          "Designated group refresher",
+          "Designated employees trained on initial assignment and no more than a year ago.",
+          "1910.157(g)(4)"
+        ],
+        [
+          "Hose station users",
+          "Where hose stations or standpipes replace Class A extinguishers, employees trained in their use during the past 12 months.",
+          "1910.157(d)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.157: Portable fire extinguishers (Part 1910 Subpart L, Fire Protection)",
+    "Source: eCFR, Title 29, section 1910.157 (text as of 2026-11-09)"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
