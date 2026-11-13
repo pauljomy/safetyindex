@@ -440,6 +440,16 @@
       "pdf": "/downloads/us/1926-150-fire-protection.pdf",
       "xlsx": "/downloads/us/1926-150-fire-protection.xlsx"
     },
+    "us/1926-152-flammable-liquids": {
+      "hash": "ae2c0f8fd045b064d7fa986a369835c4885d037f91cc22705ef002c7bfd6df9f",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 26,
+      "page_url": "https://safetyindex.blog/us/standards/1926-152-flammable-liquids",
+      "pdf": "/downloads/us/1926-152-flammable-liquids.pdf",
+      "xlsx": "/downloads/us/1926-152-flammable-liquids.xlsx"
+    },
     "us/1926-251-rigging-equipment-material-handling": {
       "hash": "7f237dd9032e6155faacdcf4f9eb99a77d6d62cf10e8fec53d994b119c897ec9",
       "lang": "en",

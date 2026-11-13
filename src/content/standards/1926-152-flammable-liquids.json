@@ -1,0 +1,526 @@
+{
+  "section": "1926.152",
+  "part": "1926",
+  "heading": "Flammable liquids.",
+  "subpart": "F",
+  "subpartTitle": "Fire Protection and Prevention",
+  "title": "OSHA gas can requirements (29 CFR 1926.152)",
+  "seoTitle": "OSHA Gas Can Requirements: 29 CFR 1926.152",
+  "description": "OSHA gas can requirements under 29 CFR 1926.152: safety cans, storage limits, dispensing and refueling rules, citation data and a printable checklist.",
+  "opening": "29 CFR 1926.152 requires flammable liquids to be stored and handled only in approved containers and portable tanks, generally approved safety cans or DOT-approved containers for 5 gallons or less, and limits storage quantities, dispensing methods, ignition sources and extinguisher placement.",
+  "keyword": "osha gas can requirements",
+  "cluster": [
+    {
+      "keyword": "osha gas can requirements",
+      "volume": 50,
+      "kd": 14,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "gas can checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "gas can inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.152",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 50,
+  "kd": 14,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 258,
+    "inspections": 212,
+    "byFy": {
+      "2022": 51,
+      "2023": 47,
+      "2024": 71,
+      "2025": 48,
+      "2026": 41
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(e)(4)",
+        "count": 75
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 65
+      },
+      {
+        "paragraph": "(d)(2)",
+        "count": 20
+      },
+      {
+        "paragraph": "(f)(3)",
+        "count": 19
+      },
+      {
+        "paragraph": "(g)(9)",
+        "count": 17
+      },
+      {
+        "paragraph": "(c)(5)",
+        "count": 10
+      },
+      {
+        "paragraph": "(g)(11)",
+        "count": 10
+      },
+      {
+        "paragraph": "(i)(6)",
+        "count": 8
+      },
+      {
+        "paragraph": "(d)(4)",
+        "count": 5
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 4
+      }
+    ],
+    "penalties": {
+      "n": 190,
+      "median": 3075,
+      "p25": 1250,
+      "p75": 4712,
+      "total": 740402
+    },
+    "typeShares": {
+      "serious": 0.566,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 0.434,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 146,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 112,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 85,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 46,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 35,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2383",
+        "count": 31,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2371",
+        "count": 18,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 15,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2373",
+        "count": 7,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 5,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 5,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2211",
+        "count": 3,
+        "title": "Electric Power Generation, Transmission and Distribution"
+      }
+    ]
+  },
+  "enforcementSummary": "Of the 258 citations under 1926.152 in FY2022–FY2026, the most cited paragraph was 1926.152(e)(4) (75), which covers collision protection for dispensing units. Next came 1926.152(a)(1) (65), the rule on approved containers and safety cans, and 1926.152(d)(2) (20), the extinguisher placed near outdoor storage. Citations ran at 51 in FY2022 and 47 in FY2023, peaked at 71 in FY2024, and dropped to 48 in FY2025 and 41 in FY2026.",
+  "requirementsIntro": "Under 1926.152(h), the section applies to the handling, storage and use of flammable liquids with a flashpoint at or below 199.4 °F (93 °C), but not to bulk transportation of flammable liquids or to fuel oil tanks and containers connected with oil burning equipment. The groups below give the main rules in the order the standard runs (containers, storage, fire control, dispensing, point of use, refueling areas and tanks). The full eCFR text has more, including tank design codes, venting tables and piping rules.",
+  "requirements": [
+    {
+      "heading": "Which containers can be used for gas and other flammable liquids?",
+      "intro": "Under 1926.152(a)(1), only approved containers and portable tanks may be used to store and handle flammable liquids. Smaller quantities have their own container rules.",
+      "items": [
+        {
+          "text": "Store and handle flammable liquids only in approved containers and portable tanks.",
+          "clause": "1926.152(a)(1)"
+        },
+        {
+          "text": "For handling and using 5 gallons or less, use approved safety cans or Department of Transportation approved containers. Highly viscid liquids (extremely hard to pour) may be used and handled in their original shipping containers.",
+          "clause": "1926.152(a)(1)"
+        },
+        {
+          "text": "For quantities of one gallon or less, the original container may be used for storage, use and handling.",
+          "clause": "1926.152(a)(1)"
+        },
+        {
+          "text": "Containers of Category 1, 2 or 3 flammable liquids must stay closed when not actually in use.",
+          "clause": "1926.152(f)(1)"
+        },
+        {
+          "text": "In service and refueling areas, store flammable liquids in approved closed containers, in underground tanks or in aboveground portable tanks.",
+          "clause": "1926.152(g)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "Where can flammable liquids be stored, and how much per room or cabinet?",
+      "intro": "Section 1926.152 keeps flammable liquids out of exits and stairways and limits each room to 25 gallons outside an approved storage cabinet.",
+      "items": [
+        {
+          "text": "Do not store flammable liquids in exits, on stairways or in areas normally used for the safe passage of people.",
+          "clause": "1926.152(a)(2)"
+        },
+        {
+          "text": "Keep no more than 25 gallons in a room outside an approved storage cabinet.",
+          "clause": "1926.152(b)(1)"
+        },
+        {
+          "text": "Store any quantity over 25 gallons in an acceptable or approved cabinet.",
+          "clause": "1926.152(b)(2)"
+        },
+        {
+          "text": "Approved metal storage cabinets are acceptable.",
+          "clause": "1926.152(b)(2)(ii)"
+        },
+        {
+          "text": "Wooden cabinets must be built to the method in 1926.152(b)(2)(i) or an equivalent, which includes exterior-grade plywood at least 1 inch thick, rabbeted joints fastened in two directions with flathead wood screws, and fire retardant paint inside and out.",
+          "clause": "1926.152(b)(2)(i)"
+        },
+        {
+          "text": "Label cabinets in conspicuous lettering \"Flammable-Keep Away from Open Flames.\"",
+          "clause": "1926.152(b)(2)(iii)"
+        },
+        {
+          "text": "Put no more than 60 gallons of Category 1, 2 and/or 3 flammable liquids, or 120 gallons of Category 4, in any one cabinet.",
+          "clause": "1926.152(b)(3)"
+        },
+        {
+          "text": "Locate no more than three cabinets in a single storage area; larger quantities go in an inside storage room.",
+          "clause": "1926.152(b)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What does an inside storage room need?",
+      "intro": "An inside storage room under 1926.152(b)(4) needs spill containment at its openings, Class I, Division 1 electrical equipment, exhaust ventilation and quantities within Table F-2.",
+      "items": [
+        {
+          "text": "Openings to other rooms or buildings need noncombustible liquid-tight raised sills or ramps at least 4 inches high, or a storage floor at least 4 inches below the surrounding floor; an open-grated trench inside the room that drains to a safe location is a permitted alternative.",
+          "clause": "1926.152(b)(4)(ii)"
+        },
+        {
+          "text": "Fit openings with approved self-closing fire doors.",
+          "clause": "1926.152(b)(4)(ii)"
+        },
+        {
+          "text": "Do not store materials that react with water and create a fire hazard in the same room as flammable liquids.",
+          "clause": "1926.152(b)(4)(iii)"
+        },
+        {
+          "text": "Table F-2 sets the limits: 2-hour rooms up to 500 sq. ft may hold 10 gallons per square foot of floor area with fire protection or 4 without; 1-hour rooms up to 150 sq. ft may hold 5 with fire protection or 2 without.",
+          "clause": "1926.152(b)(4)(iv)"
+        },
+        {
+          "text": "Electrical wiring and equipment in the room must be approved for Class I, Division 1, Hazardous Locations.",
+          "clause": "1926.152(b)(4)(v)"
+        },
+        {
+          "text": "Provide a gravity or mechanical exhaust system that starts no more than 12 inches above the floor and changes the room's air at least 6 times per hour; the paragraph adds switch, pilot light and intake rules.",
+          "clause": "1926.152(b)(4)(vi)"
+        },
+        {
+          "text": "Maintain one clear aisle at least 3 feet wide.",
+          "clause": "1926.152(b)(4)(vii)"
+        },
+        {
+          "text": "Do not stack containers over 30 gallons capacity one upon the other.",
+          "clause": "1926.152(b)(4)(vii)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the rules for storage outside buildings?",
+      "intro": "Outside buildings, 1926.152(c)(1) limits containers of not more than 60 gallons each to 1,100 gallons in any one pile or area, with set clearances and fire access.",
+      "items": [
+        {
+          "text": "Keep each pile or area of containers (60 gallons or less each) to a maximum of 1,100 gallons.",
+          "clause": "1926.152(c)(1)"
+        },
+        {
+          "text": "Separate piles or groups of containers by a 5-foot clearance.",
+          "clause": "1926.152(c)(1)"
+        },
+        {
+          "text": "Keep piles or groups of containers at least 20 feet from any building.",
+          "clause": "1926.152(c)(1)"
+        },
+        {
+          "text": "Provide a 12-foot-wide access way for fire control apparatus within 200 feet of each pile.",
+          "clause": "1926.152(c)(2)"
+        },
+        {
+          "text": "Grade the storage area to divert spills away from buildings or other exposures, or surround it with a curb or earth dike at least 12 inches high, with drainage for water and spills where curbs or dikes are used.",
+          "clause": "1926.152(c)(3)"
+        },
+        {
+          "text": "Place outdoor portable tanks no nearer than 20 feet to any building; the paragraph also sets 5-foot clear areas between larger tanks and tank groups.",
+          "clause": "1926.152(c)(4)"
+        },
+        {
+          "text": "Keep storage areas free of weeds, debris and other combustible material not needed for the storage.",
+          "clause": "1926.152(c)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "Which fire extinguishers does 1926.152 require?",
+      "intro": "Paragraphs 1926.152(d) and (g)(11) set where portable fire extinguishers go and their minimum ratings: 20-B for storage and 20-B:C for fuel vehicles and fueling areas.",
+      "items": [
+        {
+          "text": "A portable extinguisher of at least 20-B must be outside, and not more than 10 feet from, the door of any room used to store more than 60 gallons of flammable liquids.",
+          "clause": "1926.152(d)(1)"
+        },
+        {
+          "text": "Outdoor storage areas need a portable extinguisher with a 20-B minimum rating placed between 25 and 75 feet from the area.",
+          "clause": "1926.152(d)(2)"
+        },
+        {
+          "text": "Every tank truck or other vehicle that transports or dispenses flammable liquids must carry an extinguisher rated not less than 20-B:C.",
+          "clause": "1926.152(d)(4)"
+        },
+        {
+          "text": "Each service or fueling area needs extinguishers rated 20-B:C or better, positioned so one is within 75 feet of each pump, dispenser, underground fill pipe opening, and lubrication or service area.",
+          "clause": "1926.152(g)(11)"
+        },
+        {
+          "text": "Where sprinklers are provided, install them to NFPA 13-1969.",
+          "clause": "1926.152(d)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "How must flammable liquids be dispensed and transferred?",
+      "intro": "Transfer and dispensing rules sit in 1926.152(e), starting with separating any area where more than 5 gallons is transferred at one time.",
+      "items": [
+        {
+          "text": "Where more than 5 gallons is transferred at one time from one tank or container to another, separate the area from other operations by 25 feet or by construction with a fire resistance of at least 1 hour.",
+          "clause": "1926.152(e)(1)"
+        },
+        {
+          "text": "Provide drainage or other means to control spills in those transfer areas.",
+          "clause": "1926.152(e)(1)"
+        },
+        {
+          "text": "Ventilate transfer areas, naturally or mechanically, to keep flammable vapor at or below 10 percent of the lower flammable limit.",
+          "clause": "1926.152(e)(1)"
+        },
+        {
+          "text": "Category 1–3 liquids may be transferred between containers only when the containers are electrically interconnected (bonded).",
+          "clause": "1926.152(e)(2)"
+        },
+        {
+          "text": "Draw or transfer liquids only through a closed piping system, from safety cans, by a device drawing through the top, or from a container or portable tank by gravity or pump through an approved self-closing valve.",
+          "clause": "1926.152(e)(3)"
+        },
+        {
+          "text": "Never transfer by putting air pressure on the container or portable tank.",
+          "clause": "1926.152(e)(3)"
+        },
+        {
+          "text": "Protect dispensing units against collision damage.",
+          "clause": "1926.152(e)(4)"
+        },
+        {
+          "text": "Use approved-type dispensing devices and nozzles for Category 1 to 3 flammable liquids.",
+          "clause": "1926.152(e)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "How are ignition sources, spills and working quantities controlled?",
+      "intro": "Paragraphs 1926.152(f), (i)(6) and (b)(5) control ignition sources near flammable liquids, spill cleanup and the amount kept beside spraying work.",
+      "items": [
+        {
+          "text": "Use Category 1, 2 or 3 flammable liquids only where no open flames or other ignition sources are within 50 feet of the operation, or farther if conditions warrant.",
+          "clause": "1926.152(f)(3)"
+        },
+        {
+          "text": "Where flammable vapors may be present, eliminate or control ignition sources; the examples listed in the paragraph include open flames, smoking, cutting and welding, hot surfaces, static and electrical sparks, and radiant heat.",
+          "clause": "1926.152(i)(6)"
+        },
+        {
+          "text": "Dispose of leaks and spills of flammable liquids promptly and safely.",
+          "clause": "1926.152(f)(2)"
+        },
+        {
+          "text": "Near spraying operations, keep only the minimum quantity needed, which should ordinarily not exceed a supply for 1 day or one shift.",
+          "clause": "1926.152(b)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What is required in service and refueling areas?",
+      "intro": "Service and refueling areas under 1926.152(g) need approved hoses and automatic-closing nozzles, a remote emergency power shutoff, no-smoking controls and engines off while fueling.",
+      "items": [
+        {
+          "text": "Use an approved type of dispensing hose.",
+          "clause": "1926.152(g)(3)"
+        },
+        {
+          "text": "Fit an approved automatic-closing dispensing nozzle without a latch-open device.",
+          "clause": "1926.152(g)(4)"
+        },
+        {
+          "text": "Provide clearly identified, easily accessible switches, located away from the dispensing devices, that shut off power to all dispensers in an emergency.",
+          "clause": "1926.152(g)(6)"
+        },
+        {
+          "text": "Allow no smoking or open flames where fueling, fuel system servicing on internal combustion engines, or receiving or dispensing of flammable liquids takes place.",
+          "clause": "1926.152(g)(8)"
+        },
+        {
+          "text": "Post conspicuous and legible no-smoking signs.",
+          "clause": "1926.152(g)(9)"
+        },
+        {
+          "text": "Shut off the motors of all equipment while it is being fueled.",
+          "clause": "1926.152(g)(10)"
+        },
+        {
+          "text": "Tank trucks must meet NFPA No. 385-1966.",
+          "clause": "1926.152(g)(2)"
+        },
+        {
+          "text": "Do not abandon underground tanks.",
+          "clause": "1926.152(g)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.152 require for storage tanks?",
+      "intro": "Paragraph 1926.152(i) covers tank materials, spacing, emergency venting, diking, burial, overflow and testing; the items below are a selection, and the venting tables and design codes are in the eCFR text.",
+      "items": [
+        {
+          "text": "Build tanks of steel unless 1926.152(i)(1)(i)(B) through (E) allow another material.",
+          "clause": "1926.152(i)(1)(i)(A)"
+        },
+        {
+          "text": "Space any two aboveground flammable liquid storage tanks at least 3 feet apart, with further spacing rules in 1926.152(i)(2)(ii)(B) through (F).",
+          "clause": "1926.152(i)(2)(ii)(A)"
+        },
+        {
+          "text": "Give every aboveground storage tank some construction or device that relieves excessive internal pressure caused by exposure fires.",
+          "clause": "1926.152(i)(2)(v)(A)"
+        },
+        {
+          "text": "Drain or dike the area around a tank or group of tanks so an accidental discharge cannot endanger adjoining property or reach waterways.",
+          "clause": "1926.152(i)(2)(vii)(A)"
+        },
+        {
+          "text": "Allow no loose combustible material and no empty or full drums or barrels inside a diked area.",
+          "clause": "1926.152(i)(2)(vii)(C)(6)"
+        },
+        {
+          "text": "Cover underground tanks with at least 2 feet of earth, or at least 1 foot of earth topped by a reinforced concrete slab at least 4 inches thick; heavier cover applies where tanks are subject to traffic.",
+          "clause": "1926.152(i)(3)(ii)"
+        },
+        {
+          "text": "Equip tanks inside buildings with a device or other means to prevent overflow into the building.",
+          "clause": "1926.152(i)(4)(iv)(H)"
+        },
+        {
+          "text": "Strength test every tank, shop built or field erected, before it is placed in service under the code it was built to; an ASME code stamp, API monogram or Underwriters' Laboratories label is evidence of that test.",
+          "clause": "1926.152(i)(7)(i)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers gas cans and other flammable liquid containers, storage areas, dispensing points and refueling areas under 29 CFR 1926.152; use it for site walk-throughs and when a fuel storage or fueling area is set up.",
+  "checklist": "us/1926-152-flammable-liquids",
+  "faq": [
+    {
+      "question": "Where are the rules for storing liquefied petroleum gas?",
+      "answer": "1926.152(b)(1) points to 29 CFR 1926.153 for LPG storage. Near flammable liquid storage tanks, 1926.152(i)(2)(ii)(F) sets a minimum separation of 20 feet between an LPG container and a tank. Where the flammable liquid tank operates above 2.5 p.s.i.g., or has emergency venting that lets pressure exceed 2.5 p.s.i.g., the spacing rules in 1926.152(i)(2)(ii)(A) and (B) apply instead. The same paragraph requires means such as diversion curbs or grading to stop flammable liquids collecting under adjacent LPG containers, and where the tanks are inside a diked area, the LPG containers must be outside it and at least 10 feet from the centerline of the dike wall. These provisions do not apply when LPG containers of 125 gallons or less are installed adjacent to fuel oil supply tanks of 550 gallons or less."
+    },
+    {
+      "question": "Can wood shelving be used in an inside flammable liquid storage room?",
+      "answer": "Yes. 1926.152(b)(4)(ii) permits wood of at least 1-inch nominal thickness for shelving, racks, dunnage, scuffboards, floor overlay and similar installations."
+    },
+    {
+      "question": "Can heaters be used in a lubrication or service area?",
+      "answer": "It depends on whether Category 1, 2 or 3 liquids are dispensed there. Where they are not dispensed or transferred, 1926.152(g)(7)(i) allows approved heating equipment if the bottom of the unit is at least 18 inches above the floor and protected from physical damage. Where they are dispensed, 1926.152(g)(7)(ii) requires heating equipment approved for garages and installed at least 8 feet above the floor."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.152: Flammable liquids (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.152"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "flammable liquids storage",
+    "safety cans",
+    "flammable storage cabinets"
+  ],
+  "cover": "1926-152-flammable-liquids",
+  "coverPrompt": "A construction worker in a hard hat and work gloves pours gasoline from a metal safety can with a flexible spout into a switched-off portable generator on an outdoor construction site, with a portable fire extinguisher standing nearby. Shot from the side at mid-distance, no visible text, labels, numbers or logos, and no close-up faces.",
+  "coverAlt": "Worker refueling a switched-off generator from a metal safety can on a construction site",
+  "changes": []
+}

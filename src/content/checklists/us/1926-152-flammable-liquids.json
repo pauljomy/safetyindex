@@ -1,0 +1,191 @@
+{
+  "slug": "1926-152-flammable-liquids",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-152-flammable-liquids",
+  "doc_ref": "SI-US-1926-152",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Gas Can Checklist (29 CFR 1926.152)",
+  "subtitle": "For walk-through checks of flammable liquid containers, storage, dispensing and refueling areas on site.",
+  "regulation_line": "OSHA 29 CFR 1926.152",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For each Defect, note the location and report it to the supervisor responsible for the area; this reporting step is a site practice, not a step taken from the regulation text.",
+    "The manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Gas cans and containers",
+      "items": [
+        [
+          "Approved containers",
+          "Flammable liquids are held only in approved containers or portable tanks; none in unapproved jugs or buckets",
+          "1926.152(a)(1)"
+        ],
+        [
+          "Small quantities",
+          "Liquids handled and used in quantities of 5 gallons or less are in approved safety cans or DOT-approved containers; the permitted alternatives are a highly viscid liquid in its original shipping container, or one gallon or less in the original container",
+          "1926.152(a)(1)"
+        ],
+        [
+          "Lids closed",
+          "Category 1–3 liquid containers are closed whenever not actually in use",
+          "1926.152(f)(1)"
+        ],
+        [
+          "Spills cleaned up",
+          "No standing leaks or spilled liquid; spill material has been removed and disposed of safely",
+          "1926.152(f)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Storage areas and extinguishers",
+      "items": [
+        [
+          "Exits and stairways clear",
+          "No flammable liquids stored in exits, on stairways or in walkways people normally use",
+          "1926.152(a)(2)"
+        ],
+        [
+          "Room quantity",
+          "No more than 25 gallons in the room outside an approved storage cabinet",
+          "1926.152(b)(1)"
+        ],
+        [
+          "Cabinet label",
+          "Cabinet carries conspicuous lettering reading \"Flammable-Keep Away from Open Flames\"",
+          "1926.152(b)(2)(iii)"
+        ],
+        [
+          "Cabinet contents",
+          "Each cabinet holds no more than 60 gallons of Category 1–3 liquids or 120 gallons of Category 4",
+          "1926.152(b)(3)"
+        ],
+        [
+          "Cabinets per area",
+          "Three cabinets or fewer in the storage area",
+          "1926.152(b)(3)"
+        ],
+        [
+          "Outdoor pile distance",
+          "Outdoor container piles are at least 20 feet from buildings, 5 feet apart and no larger than 1,100 gallons each",
+          "1926.152(c)(1)"
+        ],
+        [
+          "Outdoor housekeeping",
+          "No weeds, debris or unneeded combustible material in the outdoor storage area",
+          "1926.152(c)(5)"
+        ],
+        [
+          "Storage room extinguisher",
+          "20-B or greater unit mounted outside the door of a room holding over 60 gallons, within 10 feet of the opening",
+          "1926.152(d)(1)"
+        ],
+        [
+          "Outdoor storage extinguisher",
+          "20-B or greater unit placed 25 to 75 feet from the outdoor storage area",
+          "1926.152(d)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Dispensing, transfer and point of use",
+      "items": [
+        [
+          "Transfer area separation",
+          "Areas transferring more than 5 gallons at one time are 25 feet from other operations or behind 1-hour fire-resistant construction",
+          "1926.152(e)(1)"
+        ],
+        [
+          "Bonding",
+          "Bonding connection in place between containers before any Category 1–3 liquid is transferred",
+          "1926.152(e)(2)"
+        ],
+        [
+          "Transfer method",
+          "Liquid is moved by closed piping, from safety cans, by a top-drawing device, or by gravity or pump through an approved self-closing valve; no air pressure on containers",
+          "1926.152(e)(3)"
+        ],
+        [
+          "Dispenser protection",
+          "Dispensing unit is shielded from impact by vehicles and equipment",
+          "1926.152(e)(4)"
+        ],
+        [
+          "Ignition sources",
+          "No open flames, welding or other ignition sources within 50 feet of where Category 1–3 liquids are used, or a greater clearance where conditions warrant it",
+          "1926.152(f)(3)"
+        ],
+        [
+          "Fuel vehicle extinguisher",
+          "Tank truck or fuel-dispensing vehicle carries a 20-B:C or greater extinguisher",
+          "1926.152(d)(4)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Service and refueling areas",
+      "items": [
+        [
+          "Hose",
+          "Dispensing hose is an approved type",
+          "1926.152(g)(3)"
+        ],
+        [
+          "Nozzle",
+          "Approved automatic-closing nozzle with no latch-open device fitted",
+          "1926.152(g)(4)"
+        ],
+        [
+          "Emergency shutoff",
+          "Clearly identified, easily reached switch away from the dispensers cuts power to all of them",
+          "1926.152(g)(6)"
+        ],
+        [
+          "No smoking or flames",
+          "Nobody smoking and no open flames in fueling, receiving or dispensing areas",
+          "1926.152(g)(8)"
+        ],
+        [
+          "No-smoking signs",
+          "Conspicuous, legible no-smoking signs posted at the fueling area",
+          "1926.152(g)(9)"
+        ],
+        [
+          "Engines off",
+          "Equipment motors are shut off throughout fueling",
+          "1926.152(g)(10)"
+        ],
+        [
+          "Fueling area extinguisher",
+          "20-B:C or greater unit within 75 feet of every pump, dispenser, underground fill pipe opening and lubrication or service area",
+          "1926.152(g)(11)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.152: Flammable liquids (Part 1926 Subpart F, Fire Protection and Prevention)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
