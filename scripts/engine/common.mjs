@@ -49,7 +49,7 @@ export function checklistJson({ market, slug, lang = "en", pageUrl, checklist, d
   const data = {
     slug, market: market.toUpperCase() === "US" ? "us" : market, lang, paper: m.paper, page_url: `${site.url}${pageUrl}`,
     doc_ref: docRef, revision: "Rev 1", data_as_of: new Date(dataAsOf).toLocaleDateString(m.lang === "en" ? "en-GB" : `${m.lang}-${market.toUpperCase()}`, { day: "numeric", month: "long", year: "numeric" }),
-    title: checklist.title, subtitle: checklist.subtitle, regulation_line: regulationLine,
+    title: checklist.title.replace(/ checklist and OSHA checklist/i, " checklist"), subtitle: checklist.subtitle, regulation_line: regulationLine,
     info_fields: lang === "de" ? [["Datum", "Schicht"], ["Prüfer/in", "Bereich / Arbeitsmittel"]] : lang === "fr" ? [["Date", "Poste"], ["Vérificateur", "Zone / équipement"]] : [["Date", "Shift"], ["Inspector", "Area / equipment ID"]],
     instructions: checklist.instructions,
     sections: checklist.sections.map((s) => ({ code: s.code, title: s.title, items: s.items.map((i) => (i.clause ? [i.item, i.lookFor, i.clause] : [i.item, i.lookFor])) })),
