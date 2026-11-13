@@ -17,12 +17,12 @@ const here = Astro.url.pathname.replace(/\.html$/, "");
 ---
 <header class="bg-band text-white print-hide" data-pagefind-ignore>
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:text-ink">{s.skip}</a>
-  <div class="wrap flex h-16 items-center gap-6">
+  <div class="wrap flex h-[78px] items-center gap-10">
     <a href={inLang("/", lang)} class="flex shrink-0 items-center gap-2.5 text-[20px] font-bold tracking-[-0.02em]">
       <img src="/icon.svg" alt="" width="28" height="28" class="rounded" />
       <span>{site.name}</span>
     </a>
-    <nav aria-label="Main" class="hidden items-center gap-6 text-[15px] font-medium lg:flex">
+    <nav aria-label="Main" class="hidden items-center gap-9 text-[15px] font-medium lg:flex">
       {hubs.map((h) => <a href={h.path} class:list={["text-white/90 hover:text-white", here.startsWith(h.path) && "text-white underline underline-offset-8"]}>{h.label}</a>)}
       <a href={inLang("/about", lang)} class="text-white/90 hover:text-white">{s.about[0].toUpperCase() + s.about.slice(1)}</a>
     </nav>
@@ -50,8 +50,8 @@ const here = Astro.url.pathname.replace(/\.html$/, "");
     </div>
   </div>
   {topics.length > 0 && (
-    <div class="border-t border-white/10">
-      <nav aria-label="Topics" class="wrap flex gap-6 overflow-x-auto py-3 text-[14px] font-semibold whitespace-nowrap [scrollbar-width:none]">
+    <div class="border-t border-white/10 border-b border-b-white/10">
+      <nav aria-label="Topics" class="wrap flex gap-8 overflow-x-auto py-[18px] text-[14px] font-semibold whitespace-nowrap [scrollbar-width:none] xl:justify-between">
         {topics.map((t) => <a href={`${url.standardsHub()}#${t.slug}`} class="text-white/85 hover:text-white">{t.name}</a>)}
       </nav>
     </div>

@@ -6,11 +6,11 @@ import type { Crumb } from "@lib/schema";
 const { crumbs, title, subtitle, label, overlap = false } = Astro.props as { crumbs: Crumb[]; title: string; subtitle?: string; label?: string; overlap?: boolean };
 ---
 <section class:list={["bg-band text-white", overlap ? "pb-40 md:pb-56" : "pb-12 md:pb-16"]}>
-  <div class="wrap pt-6 md:pt-8">
+  <div class="wrap pt-10 md:pt-12">
     <div class="mx-auto max-w-[1040px]">
       <Breadcrumbs crumbs={crumbs} />
-      {label && <p class="label mt-8 text-[#ff80c8]">{label}</p>}
-      <h1 class:list={["display text-[34px] leading-[1.08] md:text-[48px]", label ? "mt-2" : "mt-8"]}>{title}</h1>
+      {label && <p class="label mt-12 text-[#ff80c8] md:mt-16">{label}</p>}
+      <h1 class:list={["display text-[34px] leading-[1.08] md:text-[48px]", label ? "mt-3" : "mt-12 md:mt-16"]}>{title}</h1>
       {subtitle && <p class="mt-4 max-w-3xl text-[17px] leading-relaxed text-white/75 md:text-[19px]">{subtitle}</p>}
       <slot />
     </div>

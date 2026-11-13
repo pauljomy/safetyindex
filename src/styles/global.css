@@ -1,16 +1,15 @@
 /*
   Safety Index design system. Layout and type follow the github.blog editorial pattern
   (dark header band, large heavy headlines, 1280px container, monospace dates, card lists
-  with square thumbnails), set in Mona Sans (SIL OFL, © GitHub; public/fonts/OFL-MonaSans.txt).
+  with square thumbnails), set in Mona Sans 1.0 variable (SIL OFL, © GitHub; public/fonts/OFL-MonaSans.txt).
   Our own name, icon and colours: no GitHub logos or brand marks.
 */
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-@font-face { font-family: 'Mona Sans'; src: url('/fonts/MonaSans-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Mona Sans'; src: url('/fonts/MonaSans-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Mona Sans'; src: url('/fonts/MonaSans-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Mona Sans'; src: url('/fonts/MonaSans-ExtraBold.woff2') format('woff2'); font-weight: 700 900; font-style: normal; font-display: swap; }
+/* Mona Sans 1.0 variable (the same font file github.blog serves): weights 200–900, widths 75–125%. */
+@font-face { font-family: 'Mona Sans'; src: url('/fonts/Mona-Sans.woff2') format('woff2-variations'), url('/fonts/Mona-Sans.woff2') format('woff2'); font-weight: 200 900; font-stretch: 75% 125%; font-style: normal; font-display: swap; }
+
 
 @theme {
   --font-sans: 'Mona Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
@@ -29,7 +28,7 @@
 @layer base {
   *, ::after, ::before, ::backdrop, ::file-selector-button { border-color: var(--color-line); }
   html { color-scheme: light; scroll-padding-top: 24px; -webkit-text-size-adjust: 100%; }
-  body { @apply bg-white font-sans text-[15px] leading-normal text-ink antialiased; font-feature-settings: 'ss01'; display: flex; min-height: 100vh; flex-direction: column; }
+  body { @apply bg-white font-sans text-[15px] leading-normal text-ink antialiased; display: flex; min-height: 100vh; flex-direction: column; }
   main { flex: 1 0 auto; }
   a { color: inherit; }
   :focus-visible { outline: 2px solid var(--color-link); outline-offset: 2px; border-radius: 3px; }
@@ -49,8 +48,8 @@
   /* Article body: github.blog proportions (680px measure, 18px text, heavy headings). */
   .article { @apply text-[17px] leading-[1.7] text-ink md:text-[18px]; }
   .article > * + * { margin-top: 1.1em; }
-  .article h2 { @apply mt-12 scroll-mt-6 text-[28px] leading-[1.2] font-extrabold tracking-[-0.025em] text-balance md:text-[32px]; }
-  .article h3 { @apply mt-9 scroll-mt-6 text-[21px] leading-snug font-semibold tracking-[-0.01em] md:text-[23px]; }
+  .article h2 { @apply mt-12 scroll-mt-6 text-[28px] leading-[1.25] font-bold tracking-[-0.01em] text-balance md:text-[32px]; }
+  .article h3 { @apply mt-9 scroll-mt-6 text-[20px] leading-snug font-semibold md:text-[22px]; }
   .article h4 { @apply mt-6 font-semibold; }
   .article p, .article li { @apply text-pretty; }
   .article a { @apply text-link underline decoration-1 underline-offset-[3px] hover:decoration-2; }
@@ -69,7 +68,7 @@
   .article tbody tr:nth-child(even) td { background: var(--color-subtle); }
   .article figure { @apply my-8; }
   .article figcaption { @apply mt-2 text-sm text-muted; }
-  .lead { @apply text-[20px] leading-[1.55] font-medium text-ink md:text-[22px]; }
+  .lead { @apply text-[19px] leading-[1.55] font-normal text-ink md:text-[21px]; }
 }
 
 /* Pagefind search modal (kept from the original theme). */

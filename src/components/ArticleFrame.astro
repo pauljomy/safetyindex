@@ -1,7 +1,8 @@
 ---
 // Article layout shared by guides, standard, industry, report and penalty pages (github.blog post pattern):
 // dark band with breadcrumbs + H1 + subtitle, the cover image straddling the band's edge, a monospace meta
-// row over a coloured rule, then the body (680px measure) beside a sticky sidebar (contents + related).
+// row over a coloured rule, then the body (680px measure) beside a sidebar whose table of contents stays in
+// view while reading (no inner scrolling); related pages follow below the article as image cards.
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import PageBand from "@components/PageBand.astro";
@@ -35,11 +36,16 @@ const hasImage = !!(image && alt);
         )}
         <slot />
       </div>
-      <aside class="space-y-12 lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:self-start lg:overflow-y-auto" data-pagefind-ignore>
+      <aside class="hidden lg:block" data-pagefind-ignore>
         <slot name="aside" />
-        {toc.length > 2 && <div class="hidden lg:block"><p class="border-b pb-2 text-[17px] font-semibold">Contents</p><Toc headings={toc} /></div>}
-        {related && <RelatedBlock exclude={relatedExclude} />}
+        {toc.length > 2 && (
+          <nav aria-label="Contents" class="sticky top-6 mt-10 first:mt-0">
+            <p class="border-b pb-2 text-[17px] font-semibold">Contents</p>
+            <Toc headings={toc} />
+          </nav>
+        )}
       </aside>
     </div>
+    {related && <RelatedBlock exclude={relatedExclude} variant="grid" />}
   </div>
 </div>

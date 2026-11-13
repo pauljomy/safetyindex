@@ -86,7 +86,7 @@ const glance = [
     <article class="article" data-pagefind-body>
       <p data-answer class="lead"><Fragment set:html={opening} /></p>
       <dl class="not-prose grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-line sm:grid-cols-4">
-        {glance.map(([v, k]) => <div class="bg-white p-4"><dt class="sr-only">{k}</dt><dd class="text-[24px] leading-tight font-extrabold tracking-[-0.02em]">{v}</dd><dd class="mt-1 text-[13px] leading-snug text-muted">{k}</dd></div>)}
+        {glance.map(([v, k]) => <div class="bg-white p-4"><dt class="sr-only">{k}</dt><dd class="text-[24px] leading-tight font-bold tracking-[-0.02em]">{v}</dd><dd class="mt-1 text-[13px] leading-snug text-muted">{k}</dd></div>)}
       </dl>
 
       <h2 id="enforcement">How often does OSHA cite {short}?</h2>
