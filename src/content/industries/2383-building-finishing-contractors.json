@@ -1,0 +1,247 @@
+{
+  "naics": "2383",
+  "naicsTitle": "Building Finishing Contractors",
+  "title": "Most-cited OSHA standards for drywall and other building finishing work (NAICS 2383)",
+  "seoTitle": "Drywall safety: top OSHA citations in NAICS 2383",
+  "description": "OSHA citations for NAICS 2383 building finishing contractors, FY2022–FY2026: fall protection under 1926.501 leads, then hazard communication, scaffolds.",
+  "opening": "In FY2022–FY2026 OSHA inspections of building finishing contractors (NAICS 2383), the most-cited standard was 1926.501, the construction duty to have fall protection, with 1,160 citations, just ahead of 1910.1200 hazard communication with 1,099.",
+  "keyword": "drywall safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 50,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 9202,
+    "citations": 10095,
+    "topStandards": [
+      {
+        "section": "1926.501",
+        "count": 1160
+      },
+      {
+        "section": "1910.1200",
+        "count": 1099
+      },
+      {
+        "section": "1926.451",
+        "count": 989
+      },
+      {
+        "section": "1910.134",
+        "count": 846
+      },
+      {
+        "section": "1926.503",
+        "count": 544
+      },
+      {
+        "section": "1926.1053",
+        "count": 522
+      },
+      {
+        "section": "1926.453",
+        "count": 520
+      },
+      {
+        "section": "1926.102",
+        "count": 279
+      },
+      {
+        "section": "1926.20",
+        "count": 234
+      },
+      {
+        "section": "1926.454",
+        "count": 230
+      },
+      {
+        "section": "1926.405",
+        "count": 215
+      },
+      {
+        "section": "1926.1101",
+        "count": 207
+      },
+      {
+        "section": "1926.1153",
+        "count": 192
+      },
+      {
+        "section": "1926.502",
+        "count": 191
+      },
+      {
+        "section": "1926.100",
+        "count": 184
+      },
+      {
+        "section": "1926.62",
+        "count": 167
+      },
+      {
+        "section": "1926.1052",
+        "count": 165
+      },
+      {
+        "section": "1926.452",
+        "count": 159
+      },
+      {
+        "section": "1903.19",
+        "count": 126
+      },
+      {
+        "section": "1926.416",
+        "count": 120
+      },
+      {
+        "section": "1904.39",
+        "count": 111
+      },
+      {
+        "section": "1926.1060",
+        "count": 108
+      },
+      {
+        "section": "1910.178",
+        "count": 107
+      },
+      {
+        "section": "1926.403",
+        "count": 106
+      },
+      {
+        "section": "1926.404",
+        "count": 99
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1926.501(b)(13)",
+        "count": 515
+      },
+      {
+        "clause": "1926.453(b)(2)(v)",
+        "count": 461
+      },
+      {
+        "clause": "1926.501(b)(1)",
+        "count": 374
+      },
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 351
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 304
+      },
+      {
+        "clause": "1926.503(a)(1)",
+        "count": 300
+      },
+      {
+        "clause": "1926.102(a)(1)",
+        "count": 266
+      },
+      {
+        "clause": "1926.1053(b)(1)",
+        "count": 197
+      },
+      {
+        "clause": "1926.503(b)(1)",
+        "count": 194
+      },
+      {
+        "clause": "1926.100(a)",
+        "count": 184
+      }
+    ],
+    "penalties": {
+      "n": 6677,
+      "median": 3121,
+      "p25": 1268,
+      "p75": 4708,
+      "total": 26511555
+    },
+    "typeShares": {
+      "serious": 0.715,
+      "willful": 0.003,
+      "repeat": 0.02,
+      "otherThanSerious": 0.262,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 82
+  },
+  "patternsSummary": "Work at height connects most of the leading standards for NAICS 2383: the duty to have fall protection (1926.501, 1,160 citations), general scaffold requirements (1926.451, 989), fall protection training (1926.503, 544), ladders (1926.1053, 522) and aerial lifts (1926.453, 520). The other places near the top go to hazard communication (1910.1200, 1,099) and respiratory protection (1910.134, 846), both general industry standards. Lower down the ranking, personal protective equipment shows up again with eye and face protection (1926.102, 279) and head protection (1926.100, 184).",
+  "penaltiesSummary": "Across 6,677 penalised citations in FY2022–FY2026, the median penalty was $3,121, and the middle half of penalties fell between $1,268 and $4,708. Of the 10,095 citations, 72% were classed as serious, 26% as other-than-serious and 2% as repeat, while willful citations rounded to 0%.",
+  "standardNotes": [
+    {
+      "section": "1926.501",
+      "note": "The construction employer's duty to have fall protection, part of Subpart M (Fall Protection)."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, part of the general industry rules in Subpart Z (Toxic and Hazardous Substances)."
+    },
+    {
+      "section": "1926.451",
+      "note": "General requirements for scaffolds, set out in construction Subpart L (Scaffolds)."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, part of general industry Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1926.503",
+      "note": "Training requirements for fall protection, set out in construction Subpart M (Fall Protection)."
+    },
+    {
+      "section": "1926.1053",
+      "note": "Ladders, covered in construction Subpart X (Stairways and Ladders)."
+    },
+    {
+      "section": "1926.453",
+      "note": "Aerial lifts, covered in construction Subpart L (Scaffolds)."
+    },
+    {
+      "section": "1926.102",
+      "note": "Eye and face protection, part of construction Subpart E (Personal Protective and Life Saving Equipment)."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "building finishing contractors",
+    "NAICS 2383"
+  ],
+  "cover": "2383-building-finishing-contractors",
+  "coverPrompt": "Realistic photograph of an interior commercial construction site where drywall installers fix and finish gypsum board panels on metal stud walls. One worker stands on a rolling scaffold with guardrails on all open sides, and another works from a properly set up stepladder. Both wear hard hats and safety glasses. Stacked drywall sheets, joint compound buckets and taping tools sit on a clean concrete floor, with natural light coming through unfinished window openings. Workers are seen from a distance or from the side, faces not in close-up, and there is no text, signage, labels, numbers or logos anywhere in the scene.",
+  "coverAlt": "Drywall installers finishing interior walls from a guarded rolling scaffold and a stepladder on a commercial site",
+  "changes": []
+}
