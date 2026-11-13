@@ -1,0 +1,247 @@
+{
+  "naics": "4884",
+  "naicsTitle": "Support Activities for Road Transportation",
+  "title": "Most-cited OSHA standards for support activities for road transportation (NAICS 4884)",
+  "seoTitle": "Towing safety: OSHA citations across NAICS 4884",
+  "description": "Which OSHA standards are cited most in NAICS 4884, towing and other road transport support: 366 citations from FY2022–FY2026, with penalty data.",
+  "opening": "In support activities for road transportation (NAICS 4884), the OSHA standard cited most in FY2022–FY2026 was 1910.1200, hazard communication, with 48 citations, followed by 1910.147, lockout/tagout, with 28.",
+  "keyword": "towing safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 70,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 439,
+    "citations": 366,
+    "topStandards": [
+      {
+        "section": "1910.1200",
+        "count": 48
+      },
+      {
+        "section": "1910.147",
+        "count": 28
+      },
+      {
+        "section": "1904.39",
+        "count": 27
+      },
+      {
+        "section": "1910.134",
+        "count": 24
+      },
+      {
+        "section": "1910.178",
+        "count": 22
+      },
+      {
+        "section": "1910.303",
+        "count": 17
+      },
+      {
+        "section": "1910.1030",
+        "count": 16
+      },
+      {
+        "section": "1910.157",
+        "count": 16
+      },
+      {
+        "section": "1910.132",
+        "count": 11
+      },
+      {
+        "section": "1910.305",
+        "count": 11
+      },
+      {
+        "section": "1910.146",
+        "count": 10
+      },
+      {
+        "section": "1910.212",
+        "count": 10
+      },
+      {
+        "section": "1904.29",
+        "count": 9
+      },
+      {
+        "section": "1904.40",
+        "count": 9
+      },
+      {
+        "section": "1910.253",
+        "count": 8
+      },
+      {
+        "section": "1910.29",
+        "count": 7
+      },
+      {
+        "section": "1910.37",
+        "count": 7
+      },
+      {
+        "section": "1910.67",
+        "count": 6
+      },
+      {
+        "section": "1926.200",
+        "count": 6
+      },
+      {
+        "section": "1910.101",
+        "count": 5
+      },
+      {
+        "section": "1910.151",
+        "count": 4
+      },
+      {
+        "section": "1910.28",
+        "count": 4
+      },
+      {
+        "section": "1910.141",
+        "count": 3
+      },
+      {
+        "section": "1910.177",
+        "count": 3
+      },
+      {
+        "section": "1910.22",
+        "count": 3
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 18
+      },
+      {
+        "clause": "1904.39(a)(1)",
+        "count": 16
+      },
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 11
+      },
+      {
+        "clause": "1904.40(a)",
+        "count": 9
+      },
+      {
+        "clause": "1904.29(a)",
+        "count": 8
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 8
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 7
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 6
+      },
+      {
+        "clause": "1910.147(c)(4)(i)",
+        "count": 6
+      },
+      {
+        "clause": "1910.157(e)(2)",
+        "count": 6
+      }
+    ],
+    "penalties": {
+      "n": 245,
+      "median": 4910,
+      "p25": 1702,
+      "p75": 8250,
+      "total": 1782452
+    },
+    "typeShares": {
+      "serious": 0.593,
+      "willful": 0,
+      "repeat": 0.03,
+      "otherThanSerious": 0.372,
+      "unclassified": 0.005
+    },
+    "standardsCited5Plus": 20
+  },
+  "patternsSummary": "Most of the top citations in NAICS 4884 fall under general industry rules on chemicals, energy and equipment: hazard communication (1910.1200), lockout/tagout (1910.147), respiratory protection (1910.134) and powered industrial trucks (1910.178). Reporting and recordkeeping also show up often: 1904.39, on reporting fatalities, hospitalizations, amputations and losses of an eye to OSHA, drew 27 citations, and 1904.29 (forms) and 1904.40 (providing records to government representatives) drew 9 each. Electrical rules in Subpart S add 17 citations under 1910.303 and 11 under 1910.305.",
+  "penaltiesSummary": "Across 245 citations with a penalty, the median was $4,910, and the middle half fell between $1,702 and $8,250. Of all citations, 59% were classified serious, 37% other-than-serious, 3% repeat and 0% willful.",
+  "standardNotes": [
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z (Toxic and Hazardous Substances) of the general industry standards; 48 citations in this code."
+    },
+    {
+      "section": "1910.147",
+      "note": "The control of hazardous energy (lockout/tagout), in Subpart J, General Environmental Controls; 28 citations."
+    },
+    {
+      "section": "1904.39",
+      "note": "Reporting work-related fatalities, hospitalizations, amputations and losses of an eye to OSHA; 27 citations."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, part of the personal protective equipment rules in Subpart I; 24 citations."
+    },
+    {
+      "section": "1910.178",
+      "note": "Powered industrial trucks, in Subpart N, Materials Handling and Storage; 22 citations."
+    },
+    {
+      "section": "1910.303",
+      "note": "The general section of the Subpart S electrical rules; 17 citations."
+    },
+    {
+      "section": "1910.1030",
+      "note": "Bloodborne pathogens, in Subpart Z, Toxic and Hazardous Substances; 16 citations."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, in Subpart L, Fire Protection; 16 citations."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "support activities for road transportation",
+    "towing and road transportation support"
+  ],
+  "cover": "4884-support-activities-for-road-transportation",
+  "coverPrompt": "Realistic daytime photograph of a roadside towing scene: a tow operator wearing a high-visibility vest, work gloves and safety boots stands beside a flatbed tow truck and secures a sedan to the tilted bed with wheel straps. Orange traffic cones are placed behind the truck on the road shoulder and the amber warning lights on the truck are on. Shot from a medium distance, so the worker is seen from the side with no close-up of the face. Plain vehicles with no logos, no visible text, no license plate numbers.",
+  "coverAlt": "Tow operator in a high-visibility vest strapping a car onto a flatbed tow truck on a road shoulder",
+  "changes": []
+}
