@@ -1,0 +1,142 @@
+{
+  "slug": "1910-169-air-receivers",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-169-air-receivers",
+  "doc_ref": "SI-US-1910-169",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Compressed Air Tank Inspection Checklist (29 CFR 1910.169)",
+  "subtitle": "Use for each air receiver when it is installed and at every routine site inspection.",
+  "regulation_line": "OSHA 29 CFR 1910.169",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A for each air receiver, and note the receiver's location or ID.",
+    "For any Defect, record what you found, report it to the person responsible for the compressed air system and have it corrected.",
+    "The manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Construction code",
+      "items": [
+        [
+          "Receiver construction code",
+          "A receiver installed after the effective date of the regulations is constructed to ASME BPVC Section VIII, 1968 edition",
+          "1910.169(a)(2)(i)"
+        ],
+        [
+          "Safety valve construction",
+          "Each safety valve is constructed to ASME BPVC Section VIII, 1968 edition",
+          "1910.169(a)(2)(ii)"
+        ],
+        [
+          "Safety valve installation and maintenance",
+          "Each safety valve is installed and maintained to ASME BPVC Section VIII, 1968 edition",
+          "1910.169(a)(2)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Location, access and drainage",
+      "items": [
+        [
+          "Access to drains and openings",
+          "The drain valve, handholes and manholes can all be reached easily, with nothing stored or built in front of them",
+          "1910.169(b)(1)"
+        ],
+        [
+          "Receiver location",
+          "The receiver is not buried underground and is not in an inaccessible place",
+          "1910.169(b)(1)"
+        ],
+        [
+          "Drain pipe and valve",
+          "A drain pipe and valve are fitted at the lowest point of the receiver",
+          "1910.169(b)(2)"
+        ],
+        [
+          "Draining",
+          "Opening the drain valve empties the receiver completely, and no excessive oil or water collects between drainings",
+          "1910.169(b)(2)"
+        ],
+        [
+          "Automatic trap (if fitted)",
+          "Any automatic trap is fitted in addition to a drain valve, which is still present",
+          "1910.169(b)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Pressure gage and safety valves",
+      "items": [
+        [
+          "Pressure gage",
+          "An indicating pressure gage is fitted and readily visible, not hidden or obscured",
+          "1910.169(b)(3)(i)"
+        ],
+        [
+          "Safety valves present",
+          "At least one spring-loaded safety valve is fitted to the receiver",
+          "1910.169(b)(3)(i)"
+        ],
+        [
+          "Relieving capacity",
+          "Combined safety valve capacity keeps receiver pressure within 10 percent above its MAWP",
+          "1910.169(b)(3)(i)"
+        ],
+        [
+          "No valve before safety valve",
+          "No valve of any type sits between the receiver and any of its safety valves",
+          "1910.169(b)(3)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Protection and testing of safety appliances",
+      "items": [
+        [
+          "Safety valves operable",
+          "No safety valve is blocked, tied or plugged, or set up so it could readily be made inoperative",
+          "1910.169(b)(3)(iii)"
+        ],
+        [
+          "Gages and controls operable",
+          "Indicating and controlling devices are installed so they cannot readily be disabled",
+          "1910.169(b)(3)(iii)"
+        ],
+        [
+          "Protection from the elements",
+          "Exposure to the elements cannot readily put any safety valve, gage or control out of action",
+          "1910.169(b)(3)(iii)"
+        ],
+        [
+          "Safety valve testing",
+          "Safety valves are tested frequently and at regular intervals, and the latest test found them in good operating condition",
+          "1910.169(b)(3)(iv)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.169: Air receivers (Part 1910 Subpart M, Compressed Gas and Compressed Air Equipment)",
+    "Source: eCFR, Title 29, text as of 2026-11-09",
+    "ASME Boiler and Pressure Vessel Code, Section VIII (1968 edition), incorporated by reference in 29 CFR 1910.6"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

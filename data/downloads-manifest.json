@@ -140,6 +140,16 @@
       "pdf": "/downloads/us/1910-157-portable-fire-extinguishers.pdf",
       "xlsx": "/downloads/us/1910-157-portable-fire-extinguishers.xlsx"
     },
+    "us/1910-169-air-receivers": {
+      "hash": "34b62bfb8b110db51331003c52be94040b055891dfcf59e410627b88f80f2d35",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 2,
+      "items": 16,
+      "page_url": "https://safetyindex.blog/us/standards/1910-169-air-receivers",
+      "pdf": "/downloads/us/1910-169-air-receivers.pdf",
+      "xlsx": "/downloads/us/1910-169-air-receivers.xlsx"
+    },
     "us/1910-178-powered-industrial-trucks": {
       "hash": "a655ebc96ce7dec84c1d53654491f3c784396a1f9945108a771d680f4371b053",
       "lang": "en",

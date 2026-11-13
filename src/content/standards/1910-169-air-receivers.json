@@ -1,0 +1,290 @@
+{
+  "section": "1910.169",
+  "part": "1910",
+  "heading": "Air receivers.",
+  "subpart": "M",
+  "subpartTitle": "Compressed Gas and Compressed Air Equipment",
+  "title": "Compressed air tank inspection checklist: OSHA 29 CFR 1910.169",
+  "seoTitle": "Compressed Air Tank Inspection: OSHA 1910.169 Rules",
+  "description": "OSHA 29 CFR 1910.169 air receiver requirements in plain language, citation data for FY2022–FY2026, and a free compressed air tank inspection checklist.",
+  "opening": "29 CFR 1910.169 requires compressed air receivers to be installed where their drains, handholes and manholes are easy to reach, drained often enough to stop excess liquid building up, and fitted with a readily visible pressure gage plus spring-loaded safety valves that are tested frequently.",
+  "keyword": "compressed air tank inspection",
+  "cluster": [
+    {
+      "keyword": "osha compressed air tank requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "compressed air tank checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "compressed air tank inspection",
+      "volume": 70,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.169",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 70,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 35,
+    "inspections": 33,
+    "byFy": {
+      "2022": 14,
+      "2023": 8,
+      "2024": 9,
+      "2025": 3,
+      "2026": 1
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(3)(i)",
+        "count": 19
+      },
+      {
+        "paragraph": "(b)(3)(iii)",
+        "count": 8
+      },
+      {
+        "paragraph": "(b)(3)(iv)",
+        "count": 4
+      },
+      {
+        "paragraph": "(a)(2)(i)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(2)(ii)",
+        "count": 1
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 12,
+      "median": 4281,
+      "p25": 2651,
+      "p75": 5374,
+      "total": 51559
+    },
+    "typeShares": {
+      "serious": 0.486,
+      "willful": 0,
+      "repeat": 0.029,
+      "otherThanSerious": 0.486,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 17,
+      "willful": 0,
+      "repeat": 1,
+      "otherThanSerious": 17,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2373",
+        "count": 3,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3327",
+        "count": 3,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "3211",
+        "count": 2,
+        "title": "Sawmills and Wood Preservation"
+      },
+      {
+        "naics": "3273",
+        "count": 2,
+        "title": "Cement and Concrete Product Manufacturing"
+      },
+      {
+        "naics": "3279",
+        "count": 2,
+        "title": "Other Nonmetallic Mineral Product Manufacturing"
+      },
+      {
+        "naics": "3321",
+        "count": 2,
+        "title": "Forging and Stamping"
+      },
+      {
+        "naics": "3362",
+        "count": 2,
+        "title": "Motor Vehicle Body and Trailer Manufacturing"
+      },
+      {
+        "naics": "4411",
+        "count": 2,
+        "title": "Automobile Dealers"
+      },
+      {
+        "naics": "2131",
+        "count": 1,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "3119",
+        "count": 1,
+        "title": "Other Food Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Of the 35 citations under 1910.169 in FY2022–FY2026, 19 cited (b)(3)(i). That paragraph requires every air receiver to have a readily visible indicating pressure gage and at least one spring-loaded safety valve. Another 8 cited (b)(3)(iii), which requires safety valves, indicating devices and controlling devices to be installed so they cannot readily be made inoperative, and 4 cited (b)(3)(iv), the safety valve testing rule. Citations per year were 14 in FY2022, 8 in FY2023, 9 in FY2024, 3 in FY2025 and 1 in FY2026.",
+  "requirementsIntro": "Section 1910.169 applies to compressed air receivers and other equipment used to supply and use compressed air for work such as cleaning, drilling, hoisting and chipping (1910.169(a)(1)). Paragraph (a) covers scope and construction codes, and paragraph (b) covers installation, drainage, gages and valves. The groups below give the main rules, and the full eCFR text of the section has more detail.",
+  "requirements": [
+    {
+      "heading": "Which code must new air receivers and safety valves be built to?",
+      "intro": "Under 1910.169(a)(2), receivers installed after the regulations took effect, and all safety valves used, must meet Section VIII of the 1968 ASME code.",
+      "items": [
+        {
+          "text": "Air receivers installed after the effective date of the regulations must be constructed to the 1968 edition of the ASME Boiler and Pressure Vessel Code, Section VIII, which 1910.6 incorporates by reference.",
+          "clause": "1910.169(a)(2)(i)"
+        },
+        {
+          "text": "Every safety valve used must be constructed, installed and maintained in line with that same code section and edition.",
+          "clause": "1910.169(a)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "Where can an air receiver be installed?",
+      "intro": "An air receiver may only be installed where its drains and its inspection openings (handholes and manholes) are easy to reach, under 1910.169(b)(1).",
+      "items": [
+        {
+          "text": "Install the receiver so every drain, handhole and manhole on it is easily accessible.",
+          "clause": "1910.169(b)(1)"
+        },
+        {
+          "text": "Never bury a receiver underground or put it somewhere inaccessible. The text allows no exception to this.",
+          "clause": "1910.169(b)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "How must air receivers be drained?",
+      "intro": "1910.169(b)(2) requires a drain pipe and valve at the lowest point of every air receiver so that accumulated oil and water can be removed.",
+      "items": [
+        {
+          "text": "Fit a drain pipe and valve at the receiver's lowest point.",
+          "clause": "1910.169(b)(2)"
+        },
+        {
+          "text": "Open the drain valve and drain the receiver completely, often enough and at intervals that stop excessive liquid from building up inside.",
+          "clause": "1910.169(b)(2)"
+        },
+        {
+          "text": "Adequate automatic traps may be fitted in addition to the drain valve.",
+          "clause": "1910.169(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What gage and safety valves must every air receiver have?",
+      "intro": "Under 1910.169(b)(3)(i), every air receiver needs an indicating pressure gage and one or more spring-loaded safety valves with enough relieving capacity to limit overpressure.",
+      "items": [
+        {
+          "text": "Fit an indicating pressure gage in a position where it is readily visible.",
+          "clause": "1910.169(b)(3)(i)"
+        },
+        {
+          "text": "Fit one or more spring-loaded safety valves.",
+          "clause": "1910.169(b)(3)(i)"
+        },
+        {
+          "text": "Size the safety valves so their total relieving capacity stops receiver pressure from going more than 10 percent above the receiver's maximum allowable working pressure.",
+          "clause": "1910.169(b)(3)(i)"
+        },
+        {
+          "text": "Do not place a valve of any type between the receiver and its safety valve or valves.",
+          "clause": "1910.169(b)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must safety appliances be protected and tested?",
+      "intro": "Safety appliances on an air receiver must be installed so they cannot readily be disabled (1910.169(b)(3)(iii)), and safety valves must be tested to confirm they work (1910.169(b)(3)(iv)).",
+      "items": [
+        {
+          "text": "Construct, locate and install safety appliances, such as safety valves, indicating devices and controlling devices, so they cannot readily be rendered inoperative by any means, including the elements.",
+          "clause": "1910.169(b)(3)(iii)"
+        },
+        {
+          "text": "Test all safety valves frequently and at regular intervals to find out whether they are in good operating condition.",
+          "clause": "1910.169(b)(3)(iv)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the construction, location, drainage, gage, safety valve and testing rules of 1910.169. Use it for each compressed air receiver when it is installed and at routine site inspections.",
+  "checklist": "us/1910-169-air-receivers",
+  "faq": [
+    {
+      "question": "Does 1910.169 cover air tanks on vehicles or air used in tunnels?",
+      "answer": "No. 1910.169(a)(1) says the section is not intended to apply to compressed air machinery and equipment on transportation vehicles such as steam railroad cars, electric railway cars and automotive equipment. It also does not deal with the special problems of using compressed air to convey materials, or of people working in compressed air, as in tunnels and caissons."
+    },
+    {
+      "question": "Does 1910.169 give a set number of days for draining or safety valve testing?",
+      "answer": "No. The section sets no fixed number of days or hours. Paragraph (b)(2) links how often you drain to keeping excessive liquid out of the receiver, and (b)(3)(iv) calls for frequent safety valve testing on a regular schedule."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.169: Air receivers (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.169"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "air receivers",
+    "compressed air tanks",
+    "air receiver safety valves"
+  ],
+  "cover": "1910-169-air-receivers",
+  "coverPrompt": "A realistic photograph of a horizontal compressed air receiver tank on supports in a clean machine shop, with a pressure gauge and safety valve on top seen from a distance and the drain valve easy to reach at the lowest point. A worker in safety glasses and gloves, seen from the side with no close-up of the face, opens the drain valve; no text, labels, numbers or logos.",
+  "coverAlt": "Worker opening the bottom drain valve on a compressed air receiver tank in a machine shop",
+  "changes": []
+}
