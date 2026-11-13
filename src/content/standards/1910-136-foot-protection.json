@@ -1,0 +1,287 @@
+{
+  "section": "1910.136",
+  "part": "1910",
+  "heading": "Foot protection.",
+  "subpart": "I",
+  "subpartTitle": "Personal Protective Equipment",
+  "title": "OSHA foot protection requirements (29 CFR 1910.136)",
+  "seoTitle": "OSHA Foot Protection Requirements: 29 CFR 1910.136",
+  "description": "OSHA foot protection requirements under 29 CFR 1910.136: when safety footwear is required, the ASTM and ANSI criteria, citation data and a checklist.",
+  "opening": "29 CFR 1910.136 requires employers to make sure each affected employee wears protective footwear where falling or rolling objects, sole-piercing objects or a remaining electrical hazard put feet at risk, and that the footwear meets a listed ASTM or ANSI standard or proven equivalent.",
+  "keyword": "osha foot protection requirements",
+  "cluster": [
+    {
+      "keyword": "osha safety shoe requirements",
+      "volume": 70,
+      "kd": 19,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "safety shoe checklist",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "safety shoe inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha steel toe boot requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "steel toe boot checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "steel toe boot inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha foot protection requirements",
+      "volume": 30,
+      "kd": 14,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "foot protection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "foot protection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.136",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 100,
+  "kd": 14,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 286,
+    "inspections": 286,
+    "byFy": {
+      "2022": 60,
+      "2023": 51,
+      "2024": 52,
+      "2025": 75,
+      "2026": 48
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)",
+        "count": 286
+      }
+    ],
+    "penalties": {
+      "n": 191,
+      "median": 4351,
+      "p25": 2500,
+      "p75": 8359,
+      "total": 1127298
+    },
+    "typeShares": {
+      "serious": 0.808,
+      "willful": 0,
+      "repeat": 0.007,
+      "otherThanSerious": 0.185,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 231,
+      "willful": 0,
+      "repeat": 2,
+      "otherThanSerious": 53,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "4931",
+        "count": 25,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "4451",
+        "count": 23,
+        "title": "Grocery and Convenience Retailers"
+      },
+      {
+        "naics": "3279",
+        "count": 8,
+        "title": "Other Nonmetallic Mineral Product Manufacturing"
+      },
+      {
+        "naics": "3323",
+        "count": 8,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "4233",
+        "count": 8,
+        "title": "Lumber and Other Construction Materials Merchant Wholesalers"
+      },
+      {
+        "naics": "3261",
+        "count": 7,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3372",
+        "count": 7,
+        "title": "Office Furniture (including Fixtures) Manufacturing"
+      },
+      {
+        "naics": "4244",
+        "count": 7,
+        "title": "Grocery and Related Product Merchant Wholesalers"
+      },
+      {
+        "naics": "4441",
+        "count": 7,
+        "title": "Building Material and Supplies Dealers"
+      },
+      {
+        "naics": "5617",
+        "count": 7,
+        "title": "Services to Buildings and Dwellings"
+      }
+    ]
+  },
+  "enforcementSummary": "All 286 citations in FY2022–FY2026 were issued under paragraph 1910.136(a), the employer's duty to ensure that affected employees actually use protective footwear in areas with falling, rolling or sole-piercing objects, or where footwear guards against a remaining electrical hazard. Citations went from 60 in FY2022 to 51 in FY2023 and 52 in FY2024, rose to 75 in FY2025, and were 48 in FY2026.",
+  "requirementsIntro": "1910.136 applies to employers whose employees work where feet could be injured by falling or rolling objects or by objects piercing the sole, or where footwear would protect against an electrical hazard left after other measures; paragraph (a) sets when footwear must be used and paragraph (b) sets the criteria it must meet. The groups below give the main rules, and the eCFR text has the exact wording.",
+  "requirements": [
+    {
+      "heading": "When must employers ensure employees wear protective footwear?",
+      "intro": "Under 1910.136(a), the employer must ensure that each affected employee uses protective footwear while working in areas with a danger of foot injury from falling objects, rolling objects or objects piercing the sole.",
+      "items": [
+        {
+          "text": "The duty sits with the employer, who must ensure that each affected employee uses the footwear, not only that it is available.",
+          "clause": "1910.136(a)"
+        },
+        {
+          "text": "Protective footwear is required in work areas where falling or rolling objects create a danger of foot injury.",
+          "clause": "1910.136(a)"
+        },
+        {
+          "text": "Protective footwear is required in work areas where objects could pierce the sole of the foot.",
+          "clause": "1910.136(a)"
+        }
+      ]
+    },
+    {
+      "heading": "When do electrical hazards call for protective footwear?",
+      "intro": "Paragraph 1910.136(a) also requires protective footwear when it will protect the affected employee from an electrical hazard, such as static discharge or electric shock.",
+      "items": [
+        {
+          "text": "Footwear is required where it will protect the employee from an electrical hazard; the regulation gives static-discharge and electric-shock hazards as examples.",
+          "clause": "1910.136(a)"
+        },
+        {
+          "text": "This electrical trigger covers the hazard that remains after the employer has taken the other necessary protective measures.",
+          "clause": "1910.136(a)"
+        }
+      ]
+    },
+    {
+      "heading": "Which standards must protective footwear meet?",
+      "intro": "Under 1910.136(b), protective footwear must comply with one of three listed consensus standards, or the employer must demonstrate that it is at least as effective as footwear built to one of them.",
+      "items": [
+        {
+          "text": "Footwear may comply with any one of the consensus standards listed in the paragraph; it does not have to meet all of them.",
+          "clause": "1910.136(b)(1)"
+        },
+        {
+          "text": "The first option is ASTM F-2412-2005 together with ASTM F-2413-2005, both incorporated by reference in § 1910.6.",
+          "clause": "1910.136(b)(1)(i)"
+        },
+        {
+          "text": "The second option is ANSI Z41-1999, incorporated by reference in § 1910.6.",
+          "clause": "1910.136(b)(1)(ii)"
+        },
+        {
+          "text": "The third option is ANSI Z41-1991, incorporated by reference in § 1910.6.",
+          "clause": "1910.136(b)(1)(iii)"
+        },
+        {
+          "text": "Footwear not built to a listed standard is treated as compliant if the employer demonstrates it is at least as effective as footwear constructed to one of them.",
+          "clause": "1910.136(b)(2)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers where protective footwear must be worn under 1910.136(a) and whether the footwear meets the criteria in 1910.136(b); use it when walking work areas or checking footwear issued to employees.",
+  "checklist": "us/1910-136-foot-protection",
+  "faq": [
+    {
+      "question": "Does 1910.136 require steel-toe boots specifically?",
+      "answer": "No. The regulation text names no toe-cap material. It sets the hazards that trigger footwear and the performance criteria the footwear must meet, so any footwear that satisfies 1910.136(b) qualifies."
+    },
+    {
+      "question": "Is footwear certified to a newer edition of ASTM F-2413 acceptable?",
+      "answer": "The text lists only the 2005 ASTM editions and the 1999 and 1991 ANSI editions. Footwear built to another edition complies under 1910.136(b)(2) when the employer demonstrates it is at least as effective as footwear made to one of those listed standards."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.136: Foot protection (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.136"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "foot protection",
+    "protective footwear"
+  ],
+  "cover": "1910-136-foot-protection",
+  "coverPrompt": "A realistic low-angle photograph in a warehouse of a worker wearing protective safety-toe work boots, a high-visibility vest and gloves, guiding a loaded pallet jack across a concrete floor between storage racks, with the boots in sharp focus. No text, signs, numbers, logos or close-up faces.",
+  "coverAlt": "Warehouse worker in protective safety boots moving a loaded pallet jack between storage racks",
+  "changes": []
+}

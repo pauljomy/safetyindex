@@ -1,0 +1,99 @@
+{
+  "slug": "1910-136-foot-protection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-136-foot-protection",
+  "doc_ref": "SI-US-1910-136",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Foot Protection Checklist (29 CFR 1910.136)",
+  "subtitle": "Use during area walk-throughs and when checking footwear issued to employees in foot-hazard areas.",
+  "regulation_line": "OSHA 29 CFR 1910.136",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For any Defect, record what was found, correct it (for example, supply compliant footwear) before the employee works in the hazard area again, and note the date it was fixed.",
+    "The footwear manufacturer's instructions and your site rules may add checks, such as condition and replacement of worn footwear."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Hazard areas and footwear use",
+      "items": [
+        [
+          "Falling-object areas",
+          "Every employee working where objects could fall on the feet is wearing protective footwear.",
+          "1910.136(a)"
+        ],
+        [
+          "Rolling-object areas",
+          "Every employee working where objects could roll onto or over the feet is wearing protective footwear.",
+          "1910.136(a)"
+        ],
+        [
+          "Sole-piercing hazards",
+          "Every employee working where objects could pierce the sole is wearing protective footwear.",
+          "1910.136(a)"
+        ],
+        [
+          "Electrical hazard areas",
+          "Where footwear protects against a static-discharge or electric-shock hazard, affected employees are wearing footwear suited to that hazard.",
+          "1910.136(a)"
+        ],
+        [
+          "Other electrical measures first",
+          "The other necessary protective measures for the electrical hazard are in place, and footwear addresses only the hazard that remains.",
+          "1910.136(a)"
+        ],
+        [
+          "Employer ensures use",
+          "Supervisors confirm that each affected employee in these areas is actually wearing the footwear, not just issued it.",
+          "1910.136(a)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Footwear criteria",
+      "items": [
+        [
+          "ASTM option",
+          "Manufacturer marking or documentation shows the footwear meets ASTM F-2412-2005 and ASTM F-2413-2005.",
+          "1910.136(b)(1)(i)"
+        ],
+        [
+          "ANSI Z41-1999 option",
+          "Manufacturer marking or documentation shows the footwear meets ANSI Z41-1999.",
+          "1910.136(b)(1)(ii)"
+        ],
+        [
+          "ANSI Z41-1991 option",
+          "Manufacturer marking or documentation shows the footwear meets ANSI Z41-1991.",
+          "1910.136(b)(1)(iii)"
+        ],
+        [
+          "Footwear not built to a listed standard",
+          "The employer can demonstrate the footwear is at least as effective as footwear constructed to one of the listed standards.",
+          "1910.136(b)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.136: Foot protection (Part 1910 Subpart I, Personal Protective Equipment)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
