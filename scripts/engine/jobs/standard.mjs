@@ -24,7 +24,7 @@ export function validateStandard(d, { section, allowed, regulationText }) {
   if (words(d.opening) > 45 || (d.opening.match(/[.!?](\s|$)/g) ?? []).length > 1) e.push("opening must be ONE sentence of at most 45 words");
   if (!d.opening.includes(section)) e.push(`opening must name ${section}`);
   if (d.coverAlt.length < 10 || d.coverAlt.length > 125) e.push(`coverAlt is ${d.coverAlt.length} characters (10–125)`);
-  if (d.requirements.length < 2 || d.requirements.length > 8) e.push("requirements needs 2–8 groups");
+  if (d.requirements.length < 2 || d.requirements.length > 10) e.push("requirements needs 2–10 groups");
   if (!d.linkPhrases.length || d.linkPhrases.length > 3 || d.linkPhrases.some((p) => p.trim().length < 4)) e.push("linkPhrases needs 1–3 phrases of at least 4 characters");
   for (const g of d.requirements) {
     if (!g.items.length) e.push(`requirement group "${g.heading}" has no items`);
