@@ -1,0 +1,571 @@
+{
+  "section": "1910.29",
+  "part": "1910",
+  "heading": "Fall protection systems and falling object protection—criteria and practices.",
+  "subpart": "D",
+  "subpartTitle": "Walking-Working Surfaces",
+  "title": "OSHA guardrail and falling object protection rules (29 CFR 1910.29)",
+  "seoTitle": "OSHA 1910.29: Guardrail and Falling Object Rules",
+  "description": "OSHA 1910.29 rules for guardrails, stair rails, covers, warning lines and toeboards, with citation data and a printable inspection checklist.",
+  "opening": "29 CFR 1910.29 sets the criteria that guardrails, stair rails, hole covers, warning lines, ladder safety systems, toeboards and other fall or falling object protection must meet, and requires employers to install them before employees start work that needs them.",
+  "keyword": "osha 1910.29",
+  "cluster": [
+    {
+      "keyword": "osha falling object protection requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "falling object protection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "falling object protection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha fall protection systems and falling object protectioncriteria and practices requirements",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "keyword": "fall protection systems and falling object protectioncriteria and practices checklist",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "keyword": "fall protection systems and falling object protectioncriteria and practices inspection",
+      "volume": null,
+      "kd": null
+    },
+    {
+      "keyword": "osha 1910.29",
+      "volume": 210,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 210,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1433,
+    "inspections": 1131,
+    "byFy": {
+      "2022": 224,
+      "2023": 298,
+      "2024": 306,
+      "2025": 347,
+      "2026": 258
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(1)",
+        "count": 347
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 228
+      },
+      {
+        "paragraph": "(b)(2)(i)",
+        "count": 206
+      },
+      {
+        "paragraph": "(f)(4)",
+        "count": 122
+      },
+      {
+        "paragraph": "(b)(3)",
+        "count": 83
+      },
+      {
+        "paragraph": "(b)(13)(i)",
+        "count": 52
+      },
+      {
+        "paragraph": "(b)(10)",
+        "count": 35
+      },
+      {
+        "paragraph": "(k)(1)",
+        "count": 35
+      },
+      {
+        "paragraph": "(b)(13)",
+        "count": 31
+      },
+      {
+        "paragraph": "(f)(7)",
+        "count": 28
+      }
+    ],
+    "penalties": {
+      "n": 726,
+      "median": 4774,
+      "p25": 2100,
+      "p75": 8284,
+      "total": 4255141
+    },
+    "typeShares": {
+      "serious": 0.789,
+      "willful": 0,
+      "repeat": 0.007,
+      "otherThanSerious": 0.204,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 1131,
+      "willful": 0,
+      "repeat": 10,
+      "otherThanSerious": 292,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2213",
+        "count": 105,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "2373",
+        "count": 84,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3219",
+        "count": 40,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "3261",
+        "count": 40,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3273",
+        "count": 37,
+        "title": "Cement and Concrete Product Manufacturing"
+      },
+      {
+        "naics": "8111",
+        "count": 35,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "3323",
+        "count": 33,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "4931",
+        "count": 32,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "9211",
+        "count": 30,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "5621",
+        "count": 24,
+        "title": "Waste Collection"
+      }
+    ]
+  },
+  "enforcementSummary": "The most cited paragraph is 1910.29(b)(1), the guardrail top-edge height of 42 inches with a 3-inch tolerance either way, with 347 citations, followed by 1910.29(b)(2) on midrails, screens and other intermediate members (228) and 1910.29(b)(2)(i) on placing midrails halfway up (206). Stair rail openings over 19 inches at their least dimension, covered by 1910.29(f)(4), drew 122. Citations climbed from 224 in FY2022 to 298, 306 and 347 in FY2023 to FY2025, and 258 are recorded for FY2026.",
+  "requirementsIntro": "1910.29 applies to employers who must provide the fall protection systems and falling object protection required under Part 1910; personal fall protection systems follow subpart I instead (1910.29(a)(1)). Paragraphs (a) to (l) cover general duties, guardrails, safety nets, designated areas, covers, handrails and stair rails, fixed-ladder cages and platforms, outdoor advertising, ladder safety systems, personal systems, falling objects and grab handles; the groups below give the main rules, and the full text has more detail.",
+  "requirements": [
+    {
+      "heading": "What must employers have in place before work starts?",
+      "intro": "Under 1910.29(a), employers must make sure required fall and falling object protection meets the section's criteria and is installed before anyone begins work that needs it.",
+      "items": [
+        {
+          "text": "Fall protection systems and falling object protection required by Part 1910, other than personal fall protection systems, meet the criteria in 1910.29.",
+          "clause": "1910.29(a)(1)"
+        },
+        {
+          "text": "Personal fall protection systems meet subpart I of Part 1910 rather than this section.",
+          "clause": "1910.29(a)(1)"
+        },
+        {
+          "text": "All required fall and falling object protection is provided and installed, and the other subpart D requirements are met, before any employee starts work that needs that protection.",
+          "clause": "1910.29(a)(2)"
+        },
+        {
+          "text": "Safety net systems meet 29 CFR part 1926, subpart M.",
+          "clause": "1910.29(c)"
+        },
+        {
+          "text": "Body belts, harnesses and other components of personal fall arrest, work positioning and travel restraint systems meet 1910.140.",
+          "clause": "1910.29(j)"
+        }
+      ]
+    },
+    {
+      "heading": "How high must a guardrail be, and what fills the gap below the top rail?",
+      "intro": "Under 1910.29(b)(1) a guardrail's top edge sits 42 inches above the walking-working surface, plus or minus 3 inches, and may exceed 45 inches if the system meets all other paragraph (b) criteria; under 1910.29(b)(2), midrails or other intermediate members fill the space below unless a wall or parapet at least 21 inches high is present.",
+      "items": [
+        {
+          "text": "Top rails or equivalent members are 42 inches (107 cm), plus or minus 3 inches (8 cm), above the surface; the top edge may be higher than 45 inches (114 cm) if the system meets every other criterion in paragraph (b).",
+          "clause": "1910.29(b)(1)"
+        },
+        {
+          "text": "Midrails, screens, mesh, intermediate vertical members, solid panels or equivalent members are installed between the surface and the top edge wherever there is no wall or parapet at least 21 inches (53 cm) high.",
+          "clause": "1910.29(b)(2)"
+        },
+        {
+          "text": "Midrails sit midway between the top edge of the guardrail and the walking-working surface.",
+          "clause": "1910.29(b)(2)(i)"
+        },
+        {
+          "text": "Screens and mesh run from the walking-working surface up to the top rail and across the whole opening between top rail supports.",
+          "clause": "1910.29(b)(2)(ii)"
+        },
+        {
+          "text": "Intermediate vertical members such as balusters are no more than 19 inches (48 cm) apart.",
+          "clause": "1910.29(b)(2)(iii)"
+        },
+        {
+          "text": "Other equivalent intermediate members, such as additional midrails and architectural panels, leave openings not more than 19 inches wide.",
+          "clause": "1910.29(b)(2)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "How strong must guardrail rails be, and what materials are ruled out?",
+      "intro": "Guardrail top rails must hold 200 pounds or more and intermediate members 150 pounds or more without failure, and 1910.29(b)(6) to (b)(9) and (b)(15) set the finish, material and inspection rules for the rails.",
+      "items": [
+        {
+          "text": "The system withstands, without failure, at least 200 pounds (890 N) applied downward or outward within 2 inches (5 cm) of the top edge anywhere along the top rail.",
+          "clause": "1910.29(b)(3)"
+        },
+        {
+          "text": "Under that 200-pound downward test load, the top rail does not deflect below 39 inches (99 cm) above the walking-working surface.",
+          "clause": "1910.29(b)(4)"
+        },
+        {
+          "text": "Midrails, screens, mesh, intermediate vertical members, solid panels and other intermediate members withstand at least 150 pounds (667 N) in any downward or outward direction at any point along the member without failure.",
+          "clause": "1910.29(b)(5)"
+        },
+        {
+          "text": "Guardrail systems are smooth-surfaced so they do not puncture or cut employees or catch or snag clothing.",
+          "clause": "1910.29(b)(6)"
+        },
+        {
+          "text": "Ends of top rails and midrails do not overhang the terminal posts, unless the overhang poses no projection hazard to employees.",
+          "clause": "1910.29(b)(7)"
+        },
+        {
+          "text": "Steel banding and plastic banding are not used as top rails or midrails.",
+          "clause": "1910.29(b)(8)"
+        },
+        {
+          "text": "Top rails and midrails are at least 0.25 inches (0.6 cm) in diameter or thickness.",
+          "clause": "1910.29(b)(9)"
+        },
+        {
+          "text": "Manila or synthetic rope used as a top rail or midrail is inspected as often as necessary to confirm it still meets the strength requirements of paragraphs (b)(3) and (b)(5).",
+          "clause": "1910.29(b)(15)"
+        }
+      ]
+    },
+    {
+      "heading": "How must guardrails be arranged at holes, hoist areas, ramps and runways?",
+      "intro": "At holes, guardrails go on every unprotected side, and 1910.29(b)(10) to (b)(14) add rules for hoist openings, holes used for passing materials, ladderway access points, ramps and runways.",
+      "items": [
+        {
+          "text": "At hoist areas, a removable guardrail section with a top rail and midrail is placed across the access opening whenever hoisting is not under way.",
+          "clause": "1910.29(b)(10)"
+        },
+        {
+          "text": "Chains or gates may replace that removable section only if the employer demonstrates they give safety equivalent to guardrails.",
+          "clause": "1910.29(b)(10)"
+        },
+        {
+          "text": "Guardrails around a hole are installed on all of its unprotected sides or edges.",
+          "clause": "1910.29(b)(11)"
+        },
+        {
+          "text": "While materials are passed through a hole, no more than two sides of its guardrail are removed.",
+          "clause": "1910.29(b)(12)(i)"
+        },
+        {
+          "text": "When nothing is being passed through, the hole is either guarded along every open side or edge or closed over with a cover.",
+          "clause": "1910.29(b)(12)(ii)"
+        },
+        {
+          "text": "A hole used as an access point, such as a ladderway, has a self-closing gate that slides or swings away from the hole, fitted with a top rail and midrail or equivalent member meeting paragraph (b).",
+          "clause": "1910.29(b)(13)(i)"
+        },
+        {
+          "text": "Instead of a gate, the access opening may be offset so an employee cannot walk or fall into the hole.",
+          "clause": "1910.29(b)(13)(ii)"
+        },
+        {
+          "text": "Guardrails on ramps and runways run along each unprotected side or edge.",
+          "clause": "1910.29(b)(14)"
+        }
+      ]
+    },
+    {
+      "heading": "What must designated areas and warning lines meet?",
+      "intro": "When an employer uses a designated area, 1910.29(d)(1)(ii) requires its perimeter to be marked by a warning line of rope, wire, tape or chain that meets the criteria below.",
+      "items": [
+        {
+          "text": "Employees stay inside the designated area while work operations are under way.",
+          "clause": "1910.29(d)(1)(i)"
+        },
+        {
+          "text": "Each warning line has a minimum breaking strength of 200 pounds (0.89 kN).",
+          "clause": "1910.29(d)(2)(i)"
+        },
+        {
+          "text": "The line's lowest point, including sag, is no lower than 34 inches (86 cm) and no higher than 39 inches (99 cm) off the walking-working surface.",
+          "clause": "1910.29(d)(2)(ii)"
+        },
+        {
+          "text": "The line is supported so that pulling on one section does not take up slack in adjacent sections and drop the line below those height limits.",
+          "clause": "1910.29(d)(2)(iii)"
+        },
+        {
+          "text": "The line is clearly visible from 25 feet (7.6 m) away and from anywhere inside the designated area.",
+          "clause": "1910.29(d)(2)(iv)"
+        },
+        {
+          "text": "The line is erected as close to the work area as the task permits.",
+          "clause": "1910.29(d)(2)(v)"
+        },
+        {
+          "text": "The line is at least 6 feet (1.8 m) from the roof edge for work that is both temporary and infrequent, and at least 15 feet (4.6 m) from it for other work.",
+          "clause": "1910.29(d)(2)(vi)"
+        },
+        {
+          "text": "Where mobile mechanical equipment does temporary and infrequent work in the area, the line is at least 6 feet (1.8 m) from an unprotected edge parallel to the equipment's direction of operation and at least 10 feet (3 m) from one perpendicular to it.",
+          "clause": "1910.29(d)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What must hole covers and grab handles meet?",
+      "intro": "Each hole cover must carry at least twice its maximum intended load and be secured in place, and each grab handle must meet the length, clearance and pull-out rules in 1910.29(l).",
+      "items": [
+        {
+          "text": "Covers for holes in a walking-working surface support, without failure, at least twice the maximum intended load that may be placed on them at any one time.",
+          "clause": "1910.29(e)(1)"
+        },
+        {
+          "text": "Covers are secured so they cannot be accidentally displaced.",
+          "clause": "1910.29(e)(2)"
+        },
+        {
+          "text": "Grab handles are not less than 12 inches (30 cm) long.",
+          "clause": "1910.29(l)(1)"
+        },
+        {
+          "text": "Grab handles are mounted with at least 3 inches (8 cm) of clearance from the framing or opening.",
+          "clause": "1910.29(l)(2)"
+        },
+        {
+          "text": "Grab handles withstand a maximum horizontal pull-out force of two times the maximum intended load or 200 pounds (890 N), whichever is greater.",
+          "clause": "1910.29(l)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What heights, clearances and strength apply to handrails and stair rails?",
+      "intro": "Handrails must be 30 to 38 inches high and stair rail systems at least 30 or 42 inches depending on when they were installed; both must also be smooth-surfaced (1910.29(f)(3)) with ends that present no projection hazard (1910.29(f)(6)).",
+      "items": [
+        {
+          "text": "Handrails are not less than 30 inches (76 cm) and not more than 38 inches (97 cm) high, measured from the leading edge of the stair tread to the top of the handrail.",
+          "clause": "1910.29(f)(1)(i)"
+        },
+        {
+          "text": "Stair rail systems installed before January 17, 2017 are at least 30 inches (76 cm) high from the tread's leading edge to the top of the top rail.",
+          "clause": "1910.29(f)(1)(ii)(A)"
+        },
+        {
+          "text": "Stair rail systems installed on or after January 17, 2017 are at least 42 inches (107 cm) high, measured the same way.",
+          "clause": "1910.29(f)(1)(ii)(B)"
+        },
+        {
+          "text": "A stair rail's top rail may double as the handrail only when it is 36 inches (91 cm) to 38 inches (97 cm) high at the tread's leading edge and also meets the other handrail requirements of paragraph (f).",
+          "clause": "1910.29(f)(1)(iii)"
+        },
+        {
+          "text": "Handrails have at least 2.25 inches (5.7 cm) of clearance from any other object.",
+          "clause": "1910.29(f)(2)"
+        },
+        {
+          "text": "No opening in a stair rail system is more than 19 inches (48 cm) at its least dimension.",
+          "clause": "1910.29(f)(4)"
+        },
+        {
+          "text": "Handrails have the shape and dimensions employees need to grasp them firmly.",
+          "clause": "1910.29(f)(5)"
+        },
+        {
+          "text": "Handrails and stair rail top rails withstand at least 200 pounds in any downward or outward direction within 2 inches (5 cm) of any point along the top edge, without failure.",
+          "clause": "1910.29(f)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "What must fixed-ladder cages, platforms and ladder safety systems meet?",
+      "intro": "Cages and wells on fixed ladders must permit easy access and egress (1910.29(g)(1)), and ladder safety system mountings and cable guides must not reduce the ladder's design strength (1910.29(i)(5)); the items below cover the other criteria.",
+      "items": [
+        {
+          "text": "Cages and wells run continuously along the fixed ladder's full length, except at access, egress and other transfer points.",
+          "clause": "1910.29(g)(2)"
+        },
+        {
+          "text": "Cages and wells are designed, built and maintained to contain an employee who falls and direct them to a lower landing.",
+          "clause": "1910.29(g)(3)"
+        },
+        {
+          "text": "Platforms used with fixed ladders give a horizontal surface of at least 24 inches by 30 inches (61 cm by 76 cm).",
+          "clause": "1910.29(g)(4)"
+        },
+        {
+          "text": "Ladder safety systems let the employee climb up and down with both hands and do not require continuously holding, pushing or pulling any part of the system.",
+          "clause": "1910.29(i)(1)"
+        },
+        {
+          "text": "The connection between the carrier or lifeline and the attachment point on the body harness or belt is 9 inches (23 cm) or less.",
+          "clause": "1910.29(i)(2)"
+        },
+        {
+          "text": "Rigid carriers have mountings at each end, plus intermediate mountings spaced as needed along the whole carrier so the system can stop falls.",
+          "clause": "1910.29(i)(3)"
+        },
+        {
+          "text": "Flexible carriers have mountings at each end and cable guides at least 25 feet (7.6 m) and not more than 40 feet (12.2 m) apart along their entire length.",
+          "clause": "1910.29(i)(4)"
+        },
+        {
+          "text": "Ladder safety systems and their support systems withstand, without failure, an 18-inch (41-cm) drop of a 500-pound (227-kg) weight.",
+          "clause": "1910.29(i)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "Who can climb fixed ladders without fall protection in outdoor advertising?",
+      "intro": "1910.29(h) applies only to employers in outdoor advertising operations (see 1910.28(b)(10)), and each employee who climbs a fixed ladder without fall protection must meet all four conditions below.",
+      "items": [
+        {
+          "text": "The employee is physically capable of the assigned duties, including climbing fixed ladders without fall protection, as shown by observing actual climbing or by a physical examination.",
+          "clause": "1910.29(h)(1)"
+        },
+        {
+          "text": "The employee has completed a training or apprenticeship program with hands-on training in safe ladder climbing and is retrained as needed to keep the skills.",
+          "clause": "1910.29(h)(2)"
+        },
+        {
+          "text": "The employee has the skill to climb safely, shown through formal classroom or on-the-job training and performance observation.",
+          "clause": "1910.29(h)(3)"
+        },
+        {
+          "text": "The employee climbs as part of routine work activity.",
+          "clause": "1910.29(h)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What falling object protection does 1910.29 require?",
+      "intro": "Toeboards used to protect employees below from falling objects must meet the six criteria in 1910.29(k)(1), and openings in guardrail systems must be small enough that objects cannot fall through them (1910.29(k)(2)(ii)).",
+      "items": [
+        {
+          "text": "Toeboards run along the exposed edge of the overhead surface for a length that protects the employees below.",
+          "clause": "1910.29(k)(1)(i)"
+        },
+        {
+          "text": "Toeboards are at least 3.5 inches (9 cm) high, measured from their top edge down to the walking-working surface.",
+          "clause": "1910.29(k)(1)(ii)"
+        },
+        {
+          "text": "Toeboards leave no more than a 0.25-inch (0.5-cm) clearance or opening above the surface.",
+          "clause": "1910.29(k)(1)(iii)"
+        },
+        {
+          "text": "Toeboards are solid or have no opening larger than 1 inch (3 cm) at its greatest dimension.",
+          "clause": "1910.29(k)(1)(iv)"
+        },
+        {
+          "text": "Around vehicle repair, service or assembly pits, toeboards are at least 2.5 inches (6 cm) high, and may be omitted where the employer can demonstrate a toeboard would prevent access to a vehicle over the pit.",
+          "clause": "1910.29(k)(1)(v)"
+        },
+        {
+          "text": "Toeboards withstand at least 50 pounds (222 N) applied downward or outward at any point along their length without failure.",
+          "clause": "1910.29(k)(1)(vi)"
+        },
+        {
+          "text": "Where tools, equipment or materials are piled above the toeboard, paneling or screening runs from the toeboard to the midrail, and up to the top rail if items are piled above the midrail, in each case for a length that protects workers below.",
+          "clause": "1910.29(k)(2)(i)"
+        },
+        {
+          "text": "Canopies used for falling object protection are strong enough to prevent collapse and penetration by falling objects.",
+          "clause": "1910.29(k)(3)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist turns the on-site 1910.29 checks for guardrails, holes and covers, designated areas, stairs and toeboards into a list for use before work starts and whenever these systems are installed or changed; it leaves out the strength and load criteria and the fixed-ladder, ladder safety system and grab handle rules, which are in the requirements above and the full text.",
+  "checklist": "us/1910-29-fall-protection-systems-falling-object",
+  "faq": [
+    {
+      "question": "Does 1910.29 cover guardrails on scaffolds?",
+      "answer": "No. A note in 1910.29 points to 29 CFR part 1926, subpart L for the criteria and practices that apply to scaffold guardrail systems."
+    },
+    {
+      "question": "Does 1910.29 say when a cage or well counts as fall protection on a fixed ladder?",
+      "answer": "No. Paragraph (g) only sets how cages, wells and platforms are built and maintained; a note to it says section 1910.28 sets the rules employers follow on using cages and wells as a means of fall protection."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.29: Fall protection systems and falling object protection—criteria and practices (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.29"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "falling object protection",
+    "guardrail systems",
+    "stair rail systems"
+  ],
+  "cover": "1910-29-fall-protection-systems-falling-object",
+  "coverPrompt": "A worker in a hard hat and safety glasses walks along an elevated steel mezzanine in a factory, protected by a yellow guardrail with a top rail, midrail and toeboard along the open edge, with a steel staircase and handrail in the background.",
+  "coverAlt": "Worker on an industrial mezzanine behind a guardrail with a midrail and toeboard",
+  "changes": []
+}

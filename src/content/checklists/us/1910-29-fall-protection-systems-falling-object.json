@@ -1,0 +1,287 @@
+{
+  "slug": "1910-29-fall-protection-systems-falling-object",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-29-fall-protection-systems-falling-object",
+  "doc_ref": "SI-US-1910-29",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Guardrail and Falling Object Protection Checklist (29 CFR 1910.29)",
+  "subtitle": "Use when guardrails, stairs, hole covers, warning lines or toeboards are installed, changed or inspected on site.",
+  "regulation_line": "OSHA 29 CFR 1910.29",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; use N/A only where that system is not used at the location.",
+    "For any Defect, record the location, keep employees from the work that needs that protection until it is fixed (1910.29(a)(2) requires protection before such work begins), and re-check after repair.",
+    "The manufacturer's instructions and site rules may add checks; the strength, load and fixed-ladder criteria are in the full text of 29 CFR 1910.29."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Guardrail systems",
+      "items": [
+        [
+          "Top rail height",
+          "Top edge measures 42 inches, within 3 inches either way, above the walking surface at several points; if higher than 45 inches, every other paragraph (b) criterion is still met.",
+          "1910.29(b)(1)"
+        ],
+        [
+          "Midrail position",
+          "Midrail sits halfway between the top edge and the surface wherever no wall or parapet of 21 inches or more is present.",
+          "1910.29(b)(2)(i)"
+        ],
+        [
+          "Screens and mesh",
+          "Screen or mesh fills the space from floor level to top rail across the full width between supports.",
+          "1910.29(b)(2)(ii)"
+        ],
+        [
+          "Balusters and vertical members",
+          "Gaps between balusters or other vertical members are 19 inches or less.",
+          "1910.29(b)(2)(iii)"
+        ],
+        [
+          "Other intermediate members",
+          "Openings left by additional midrails, architectural panels or other equivalent members are no more than 19 inches wide.",
+          "1910.29(b)(2)(iv)"
+        ],
+        [
+          "Rail surfaces",
+          "Rails are smooth, with no burrs, splinters or sharp edges that could cut skin or snag clothing.",
+          "1910.29(b)(6)"
+        ],
+        [
+          "Rail ends",
+          "Top rail and midrail ends stop at the terminal posts or, if they overhang, create no projection hazard.",
+          "1910.29(b)(7)"
+        ],
+        [
+          "Rail material",
+          "No steel or plastic banding is used as a top rail or midrail.",
+          "1910.29(b)(8)"
+        ],
+        [
+          "Rail size",
+          "Top rails and midrails are at least 0.25 inch in diameter or thickness.",
+          "1910.29(b)(9)"
+        ],
+        [
+          "Rope rails",
+          "Manila or synthetic rope rails are inspected as often as needed and still meet the strength required by paragraphs (b)(3) and (b)(5).",
+          "1910.29(b)(15)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Hoist areas, holes and ramps",
+      "items": [
+        [
+          "Hoist area opening",
+          "When no hoisting is happening, a removable section with upper and middle rails closes the access opening, or chains or gates the employer has shown to be equivalent.",
+          "1910.29(b)(10)"
+        ],
+        [
+          "Guardrails around holes",
+          "Rails stand on every open side or edge of the hole.",
+          "1910.29(b)(11)"
+        ],
+        [
+          "Holes while passing materials",
+          "Only one or two guardrail sides are open while materials go through.",
+          "1910.29(b)(12)(i)"
+        ],
+        [
+          "Holes when not passing materials",
+          "Rails are back on every open side, or a cover closes the hole.",
+          "1910.29(b)(12)(ii)"
+        ],
+        [
+          "Ladderway gate",
+          "Self-closing gate slides or swings away from the hole and carries upper and middle rails or an equivalent member.",
+          "1910.29(b)(13)(i)"
+        ],
+        [
+          "Offset ladderway opening",
+          "Where no gate is fitted, the opening is offset so no one can walk or fall straight into the hole.",
+          "1910.29(b)(13)(ii)"
+        ],
+        [
+          "Ramps and runways",
+          "Every open side or edge of each ramp and runway is guarded.",
+          "1910.29(b)(14)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Hole covers and designated areas",
+      "items": [
+        [
+          "Hole cover capacity",
+          "Cover can support at least double the heaviest load that may be on it at one time.",
+          "1910.29(e)(1)"
+        ],
+        [
+          "Hole cover secured",
+          "Cover is secured so it cannot be accidentally displaced.",
+          "1910.29(e)(2)"
+        ],
+        [
+          "Employees inside the area",
+          "Employees stay within the designated area while work is under way.",
+          "1910.29(d)(1)(i)"
+        ],
+        [
+          "Perimeter marked",
+          "The area's perimeter is marked with a warning line of rope, wire, tape or chain.",
+          "1910.29(d)(1)(ii)"
+        ],
+        [
+          "Warning line height",
+          "Lowest point of the line, sag included, is 34 to 39 inches above the surface.",
+          "1910.29(d)(2)(ii)"
+        ],
+        [
+          "Warning line support",
+          "Pulling on one section does not take up slack in neighbouring sections and drop the line below 34 inches.",
+          "1910.29(d)(2)(iii)"
+        ],
+        [
+          "Warning line visibility",
+          "Line can be clearly seen from 25 feet away and from every spot inside the area.",
+          "1910.29(d)(2)(iv)"
+        ],
+        [
+          "Warning line placement",
+          "Line is as close to the work area as the task permits.",
+          "1910.29(d)(2)(v)"
+        ],
+        [
+          "Warning line setback",
+          "Line is 6 feet or more from the roof edge for temporary and infrequent work, 15 feet or more for other work; see the next item where mobile mechanical equipment is used.",
+          "1910.29(d)(2)(vi)"
+        ],
+        [
+          "Setback with mobile equipment",
+          "Where mobile mechanical equipment does temporary and infrequent work, line is 6 feet or more from an unprotected edge parallel to the direction the equipment is operated and 10 feet or more from one perpendicular to it.",
+          "1910.29(d)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Handrails and stair rails",
+      "items": [
+        [
+          "Handrail height",
+          "Handrail top is 30 to 38 inches above the front edge of the tread.",
+          "1910.29(f)(1)(i)"
+        ],
+        [
+          "Stair rail height, newer stairs",
+          "Stair rail installed on or after January 17, 2017 is 42 inches or higher, measured from the front edge of the tread.",
+          "1910.29(f)(1)(ii)(B)"
+        ],
+        [
+          "Stair rail height, older stairs",
+          "Stair rail installed before January 17, 2017 is 30 inches or higher.",
+          "1910.29(f)(1)(ii)(A)"
+        ],
+        [
+          "Top rail used as handrail",
+          "Where the stair rail's upper rail also serves as the handrail, it is 36 to 38 inches high and meets the other handrail rules in paragraph (f).",
+          "1910.29(f)(1)(iii)"
+        ],
+        [
+          "Finger clearance",
+          "At least 2.25 inches between the handrail and any wall or other object.",
+          "1910.29(f)(2)"
+        ],
+        [
+          "Stair rail openings",
+          "No gap in the stair rail measures over 19 inches in its smallest direction.",
+          "1910.29(f)(4)"
+        ],
+        [
+          "Grip",
+          "Handrail can be firmly grasped along its length.",
+          "1910.29(f)(5)"
+        ],
+        [
+          "Rail surfaces",
+          "Handrails and stair rails are smooth, with nothing that could puncture skin or catch clothing.",
+          "1910.29(f)(3)"
+        ],
+        [
+          "Rail ends",
+          "Handrail and stair rail ends do not stick out where someone could strike them.",
+          "1910.29(f)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Falling object protection",
+      "items": [
+        [
+          "Toeboard coverage",
+          "Toeboard runs along the exposed overhead edge far enough to shield everyone working beneath.",
+          "1910.29(k)(1)(i)"
+        ],
+        [
+          "Toeboard height",
+          "Top edge is 3.5 inches or more above the surface.",
+          "1910.29(k)(1)(ii)"
+        ],
+        [
+          "Gap under toeboard",
+          "Clearance between the toeboard and the surface is 0.25 inch or less.",
+          "1910.29(k)(1)(iii)"
+        ],
+        [
+          "Toeboard openings",
+          "Toeboard is solid, or no hole in it is bigger than 1 inch in any direction.",
+          "1910.29(k)(1)(iv)"
+        ],
+        [
+          "Pit toeboards",
+          "Around vehicle repair, service or assembly pits, toeboard is 2.5 inches or higher, unless the employer has shown it would block access to a vehicle over the pit.",
+          "1910.29(k)(1)(v)"
+        ],
+        [
+          "Stacked items",
+          "Where items are piled above the toeboard, paneling or screening reaches the midrail, and reaches the upper rail if items rise above the midrail.",
+          "1910.29(k)(2)(i)"
+        ],
+        [
+          "Guardrail openings",
+          "Openings are small enough that tools and materials cannot fall through.",
+          "1910.29(k)(2)(ii)"
+        ],
+        [
+          "Canopies",
+          "Canopy is strong enough not to collapse or be pierced by falling objects.",
+          "1910.29(k)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.29: Fall protection systems and falling object protection—criteria and practices (Part 1910 Subpart D: Walking-Working Surfaces)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
