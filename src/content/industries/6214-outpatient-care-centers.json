@@ -1,0 +1,252 @@
+{
+  "naics": "6214",
+  "naicsTitle": "Outpatient Care Centers",
+  "title": "Most-cited OSHA standards for outpatient care centers and clinics (NAICS 6214)",
+  "seoTitle": "Clinic safety: OSHA citations, outpatient care NAICS 6214",
+  "description": "OSHA standards cited most at outpatient care centers (NAICS 6214), FY2022–FY2026: bloodborne pathogens leads, then respiratory protection and HazCom.",
+  "opening": "Bloodborne pathogens (1910.1030) is the OSHA standard cited most often in outpatient care centers (NAICS 6214), with 154 of the 465 citations in FY2022–FY2026, ahead of respiratory protection (1910.134, 66) and hazard communication (1910.1200, 55).",
+  "keyword": "clinic safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 140,
+  "kd": 3,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 516,
+    "citations": 465,
+    "topStandards": [
+      {
+        "section": "1910.1030",
+        "count": 154
+      },
+      {
+        "section": "1910.134",
+        "count": 66
+      },
+      {
+        "section": "1910.1200",
+        "count": 55
+      },
+      {
+        "section": "1910.502",
+        "count": 35
+      },
+      {
+        "section": "1910.132",
+        "count": 20
+      },
+      {
+        "section": "1910.37",
+        "count": 16
+      },
+      {
+        "section": "1910.303",
+        "count": 13
+      },
+      {
+        "section": "1910.305",
+        "count": 13
+      },
+      {
+        "section": "1910.157",
+        "count": 10
+      },
+      {
+        "section": "1910.22",
+        "count": 10
+      },
+      {
+        "section": "1910.147",
+        "count": 8
+      },
+      {
+        "section": "1910.151",
+        "count": 8
+      },
+      {
+        "section": "1904.39",
+        "count": 5
+      },
+      {
+        "section": "1910.141",
+        "count": 5
+      },
+      {
+        "section": "1910.146",
+        "count": 5
+      },
+      {
+        "section": "1910.38",
+        "count": 5
+      },
+      {
+        "section": "1910.36",
+        "count": 4
+      },
+      {
+        "section": "1904.29",
+        "count": 3
+      },
+      {
+        "section": "1904.32",
+        "count": 3
+      },
+      {
+        "section": "1910.1020",
+        "count": 3
+      },
+      {
+        "section": "1910.138",
+        "count": 3
+      },
+      {
+        "section": "1904.41",
+        "count": 2
+      },
+      {
+        "section": "1910.1001",
+        "count": 2
+      },
+      {
+        "section": "1910.213",
+        "count": 2
+      },
+      {
+        "section": "1910.334",
+        "count": 2
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 19
+      },
+      {
+        "clause": "1910.1030(g)(2)(i)",
+        "count": 16
+      },
+      {
+        "clause": "1910.134(f)(2)",
+        "count": 15
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 14
+      },
+      {
+        "clause": "1910.1030(c)(1)(i)",
+        "count": 13
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 12
+      },
+      {
+        "clause": "1910.1030(f)(1)(i)",
+        "count": 9
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 9
+      },
+      {
+        "clause": "1910.1200(e)(1)(i)",
+        "count": 8
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 8
+      }
+    ],
+    "penalties": {
+      "n": 191,
+      "median": 4219,
+      "p25": 2277,
+      "p75": 7000,
+      "total": 1070599
+    },
+    "typeShares": {
+      "serious": 0.613,
+      "willful": 0,
+      "repeat": 0.022,
+      "otherThanSerious": 0.366,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 16
+  },
+  "patternsSummary": "Exposure rules lead the list in outpatient care centers: two Subpart Z standards on toxic and hazardous substances (bloodborne pathogens and hazard communication) sit alongside the Subpart U COVID-19 healthcare standard, 1910.502, with 35 citations. Personal protective equipment shows up twice, as respiratory protection in 1910.134 and the Subpart I general requirements in 1910.132 (20 citations). Below those, the citations move to the building itself: exit routes under 1910.37 (16), electrical rules in 1910.303 and 1910.305 (13 each), portable fire extinguishers under 1910.157 (10) and walking-working surfaces under 1910.22 (10).",
+  "penaltiesSummary": "Across the 191 citations that carried a penalty in FY2022–FY2026, the median was $4,219, and the middle half fell between $2,277 and $7,000. Of all citations, 61% were classed as serious, 2% as repeat, 0% as willful and 37% as other-than-serious.",
+  "standardNotes": [
+    {
+      "section": "1910.1030",
+      "note": "Bloodborne pathogens, a Subpart Z standard; the most-cited standard across NAICS 6214, with 154 citations."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection under Subpart I (Personal Protective Equipment); 66 citations, the second-highest count for this code."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, the other Subpart Z (toxic and hazardous substances) standard in the top three; 55 citations."
+    },
+    {
+      "section": "1910.502",
+      "note": "The healthcare standard in Subpart U (COVID-19); 35 citations across FY2022–FY2026."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for protective equipment in Subpart I; 20 citations."
+    },
+    {
+      "section": "1910.37",
+      "note": "Maintenance, safeguards and operational features for exit routes, in Subpart E (Exit Routes and Emergency Planning); 16 citations."
+    },
+    {
+      "section": "1910.303",
+      "note": "General requirements of Subpart S (Electrical); cited 13 times."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and equipment for general use, in Subpart S (Electrical); 13 citations, level with 1910.303."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which kinds of workplaces does NAICS 6214 cover?",
+      "answer": "Under NAICS 2022, code 6214 groups six industries: family planning centers, outpatient mental health and substance abuse centers, HMO medical centers, kidney dialysis centers, freestanding ambulatory surgical and emergency centers, and all other outpatient care centers. The citation figures on this page cover all six together."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "outpatient care centers",
+    "outpatient clinics"
+  ],
+  "cover": "6214-outpatient-care-centers",
+  "coverPrompt": "Realistic photograph inside a bright, modern outpatient treatment room: a healthcare worker in scrubs and disposable nitrile gloves drops a used syringe into a wall-mounted sharps disposal container, seen from the side at waist height so no face is visible. Behind them, a padded treatment chair, a stainless steel instrument tray and a glove dispenser on the wall. Clean, natural daylight from a window, shallow depth of field, no text, labels, numbers or logos anywhere in the scene.",
+  "coverAlt": "Gloved healthcare worker placing a used syringe into a sharps container in an outpatient treatment room",
+  "changes": []
+}
