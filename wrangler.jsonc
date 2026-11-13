@@ -12,8 +12,9 @@
     "html_handling": "auto-trailing-slash",
     // Unknown paths get dist/404.html with a 404 status.
     "not_found_handling": "404-page"
-  },
-  // Cookie-free event counts (downloads, app button taps, store clicks), per market.
-  // Query them in the dashboard (Workers & Pages → Analytics Engine) or with the SQL API.
-  "analytics_engine_datasets": [{ "binding": "EVENTS", "dataset": "safetyindex_events" }]
+  }
+  // Cookie-free event counts (downloads, app button taps, store clicks), per market, go to Workers Analytics
+  // Engine. It must be enabled on the Cloudflare account first (deploys fail with code 10089 otherwise). Once it
+  // is (Workers & Pages → Analytics Engine), uncomment the next line; until then worker/index.js skips the write.
+  // "analytics_engine_datasets": [{ "binding": "EVENTS", "dataset": "safetyindex_events" }]
 }
