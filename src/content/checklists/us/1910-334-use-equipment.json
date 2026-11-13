@@ -1,0 +1,191 @@
+{
+  "slug": "1910-334-use-equipment",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-334-use-equipment",
+  "doc_ref": "SI-US-1910-334",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Electrical Equipment Use Checklist (29 CFR 1910.334)",
+  "subtitle": "For supervisors checking an area where extension cords, corded tools, circuits or test instruments are in use.",
+  "regulation_line": "OSHA 29 CFR 1910.334",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item fails, stop use of the equipment or task concerned, remove any damaged item from service and record the corrective action before work continues.",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Cords and portable equipment",
+      "items": [
+        [
+          "Cord not used for lifting",
+          "No equipment is being raised or lowered by its flexible cord.",
+          "1910.334(a)(1)"
+        ],
+        [
+          "Cord fastening and routing",
+          "No cords held with staples or hung in a way that could damage the jacket or insulation.",
+          "1910.334(a)(1)"
+        ],
+        [
+          "External condition",
+          "No loose parts, deformed or missing pins, or jacket or insulation damage on cords and equipment.",
+          "1910.334(a)(2)(i)"
+        ],
+        [
+          "Signs of internal damage",
+          "No pinched or crushed sections of outer jacket.",
+          "1910.334(a)(2)(i)"
+        ],
+        [
+          "Pre-use inspection",
+          "Items were visually inspected before use on this shift, or have stayed connected in place, unexposed to damage and not relocated.",
+          "1910.334(a)(2)(i)"
+        ],
+        [
+          "Damaged items out of service",
+          "Any item with damage that could injure an employee is withdrawn and not used until repaired and tested.",
+          "1910.334(a)(2)(ii)"
+        ],
+        [
+          "Plug and receptacle match",
+          "Plug and receptacle contacts are proper mating configurations before connection.",
+          "1910.334(a)(2)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Grounding and plug connections",
+      "items": [
+        [
+          "Grounding conductor in cord",
+          "Cords used with grounding-type equipment contain an equipment grounding conductor.",
+          "1910.334(a)(3)(i)"
+        ],
+        [
+          "Ground continuity at plug",
+          "No plug or receptacle connected or altered so the ground path is broken where they meet.",
+          "1910.334(a)(3)(ii)"
+        ],
+        [
+          "Grounding pole unaltered",
+          "No plug or receptacle altered to let the grounding pole enter a current-carrying slot.",
+          "1910.334(a)(3)(ii)"
+        ],
+        [
+          "Adapters",
+          "No adapter in use that interrupts the grounding connection.",
+          "1910.334(a)(3)(iii)"
+        ],
+        [
+          "Wet or conductive locations",
+          "Equipment and cords used where water or conductive liquids are present or likely to be contacted are approved for that location.",
+          "1910.334(a)(4)"
+        ],
+        [
+          "Dry hands",
+          "Workers plugging or unplugging energized equipment have dry hands.",
+          "1910.334(a)(5)(i)"
+        ],
+        [
+          "Wet energized connections",
+          "Insulating protective equipment is used to handle any energized connection that could conduct to the hand, such as a wet connector.",
+          "1910.334(a)(5)(ii)"
+        ],
+        [
+          "Locking connectors",
+          "Locking-type connectors are fully secured after connection.",
+          "1910.334(a)(5)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Circuits and overcurrent protection",
+      "items": [
+        [
+          "Switching under load",
+          "Circuits under load are opened, reversed or closed only with load rated switches, breakers or designed disconnecting means.",
+          "1910.334(b)(1)"
+        ],
+        [
+          "No improvised switching",
+          "Non-load-break connectors, fuses, terminal lugs and splices are not used to switch loaded circuits outside an emergency.",
+          "1910.334(b)(1)"
+        ],
+        [
+          "Reclosing after a trip",
+          "Tripped circuits are not manually reenergized until someone has determined the circuit and equipment can be safely energized.",
+          "1910.334(b)(2)"
+        ],
+        [
+          "Repeated resets",
+          "No repeated manual resetting of breakers or reenergizing through replaced fuses.",
+          "1910.334(b)(2)"
+        ],
+        [
+          "Overcurrent protection",
+          "Overcurrent protection is not modified, even temporarily, beyond what 1910.304(e) allows.",
+          "1910.334(b)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Test instruments and flammable materials",
+      "items": [
+        [
+          "Who is testing",
+          "Testing work on electric circuits or equipment is done only by qualified persons.",
+          "1910.334(c)(1)"
+        ],
+        [
+          "Test gear inspection",
+          "Test instruments, leads, cables, power cords, probes and connectors were visually inspected before use and show no external damage.",
+          "1910.334(c)(2)"
+        ],
+        [
+          "Damaged test gear",
+          "Damaged test gear that could injure an employee is withdrawn until repaired and tested.",
+          "1910.334(c)(2)"
+        ],
+        [
+          "Test gear rating",
+          "Instruments and accessories are rated for the circuits and equipment they connect to.",
+          "1910.334(c)(3)"
+        ],
+        [
+          "Test gear environment",
+          "Instruments and accessories are designed for the environment where they are used.",
+          "1910.334(c)(3)"
+        ],
+        [
+          "Occasional flammable materials",
+          "Where flammable gases, vapors, liquids, combustible dust or ignitible fibers are occasionally present, equipment able to ignite them is not used unless measures prevent hazardous conditions.",
+          "1910.334(d)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.334: Use of equipment (Part 1910 Subpart S: Electrical)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

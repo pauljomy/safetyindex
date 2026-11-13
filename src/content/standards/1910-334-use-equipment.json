@@ -1,0 +1,420 @@
+{
+  "section": "1910.334",
+  "part": "1910",
+  "heading": "Use of equipment.",
+  "subpart": "S",
+  "subpartTitle": "Electrical",
+  "title": "Equipment checklist and OSHA requirements (29 CFR 1910.334)",
+  "seoTitle": "Equipment Checklist: OSHA 1910.334 Electrical Use Rules",
+  "description": "OSHA 29 CFR 1910.334 requirements for using electrical equipment and cords, citation data for FY2022–FY2026, and a printable equipment checklist.",
+  "opening": "29 CFR 1910.334 requires visual inspection of cord- and plug-connected equipment and extension cords, an intact grounding path, safe opening and reclosing of circuits, testing by qualified persons only, and control of ignition sources near occasional flammable materials.",
+  "keyword": "equipment checklist",
+  "cluster": [
+    {
+      "keyword": "osha electrical equipment use requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical equipment use checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical equipment use inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha cord inspection requirements",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "cord inspection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "cord inspection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha equipment requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "equipment checklist",
+      "volume": 210,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "equipment inspection",
+      "volume": 210,
+      "kd": 3,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.334",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 430,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1679,
+    "inspections": 1510,
+    "byFy": {
+      "2022": 321,
+      "2023": 333,
+      "2024": 384,
+      "2025": 351,
+      "2026": 290
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(2)(ii)",
+        "count": 787
+      },
+      {
+        "paragraph": "(a)(2)(i)",
+        "count": 622
+      },
+      {
+        "paragraph": "(a)(3)(i)",
+        "count": 88
+      },
+      {
+        "paragraph": "(a)(3)(ii)",
+        "count": 48
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 45
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 27
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 15
+      },
+      {
+        "paragraph": "(a)(3)(iii)",
+        "count": 8
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 8
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 7
+      }
+    ],
+    "penalties": {
+      "n": 666,
+      "median": 3196,
+      "p25": 750,
+      "p75": 6250,
+      "total": 2717554
+    },
+    "typeShares": {
+      "serious": 0.585,
+      "willful": 0,
+      "repeat": 0.006,
+      "otherThanSerious": 0.407,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 983,
+      "willful": 0,
+      "repeat": 10,
+      "otherThanSerious": 684,
+      "unclassified": 2
+    },
+    "topIndustries": [
+      {
+        "naics": "3323",
+        "count": 100,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "2373",
+        "count": 88,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "8111",
+        "count": 78,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "6111",
+        "count": 67,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "3219",
+        "count": 66,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 48,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "4931",
+        "count": 37,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "9211",
+        "count": 35,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "9221",
+        "count": 34,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "7211",
+        "count": 33,
+        "title": "Traveler Accommodation"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.334(a)(2)(ii), which requires a defective or damaged item that could injure an employee to be taken out of service until it is repaired and tested, drew 787 of the 1,679 citations in FY2022–FY2026, and 1910.334(a)(2)(i), the visual check of cords and corded equipment before use on any shift, drew 622. Next came (a)(3)(i), a cord for grounding-type equipment that lacks a grounding conductor, with 88, and (a)(3)(ii), plugs or receptacles connected or altered so ground continuity is lost, with 48. Yearly citations went from 321 in FY2022 to 333 in FY2023 and 384 in FY2024, then 351 in FY2025 and 290 in FY2026.",
+  "requirementsIntro": "Paragraph (a) of 1910.334 applies to the use of cord- and plug-connected equipment, including flexible cord sets (extension cords). The rest of the section covers electric power and lighting circuits in (b), test instruments and equipment in (c), and occasional use of flammable or ignitible materials in (d).",
+  "requirements": [
+    {
+      "heading": "How must portable electric equipment and its cords be handled?",
+      "intro": "Under 1910.334(a)(1), portable equipment must be handled in a way that will not damage it, and its cords may not be used or fastened in ways that could harm them.",
+      "items": [
+        {
+          "text": "Handle portable equipment in a manner that will not cause damage.",
+          "clause": "1910.334(a)(1)"
+        },
+        {
+          "text": "Do not use a flexible cord attached to equipment to raise or lower that equipment.",
+          "clause": "1910.334(a)(1)"
+        },
+        {
+          "text": "Do not fasten flexible cords with staples or hang them in a way that could damage the outer jacket or insulation.",
+          "clause": "1910.334(a)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "When must extension cords and corded equipment be inspected?",
+      "intro": "1910.334(a)(2)(i) requires portable corded equipment and extension cords to be visually inspected before use on any shift, with an exception for items left connected in place and not exposed to damage.",
+      "items": [
+        {
+          "text": "Before use on any shift, visually inspect portable corded equipment and flexible cord sets for external defects such as loose parts, deformed or missing pins, or damage to the outer jacket or insulation.",
+          "clause": "1910.334(a)(2)(i)"
+        },
+        {
+          "text": "During that inspection, also look for evidence of possible internal damage, such as a pinched or crushed outer jacket.",
+          "clause": "1910.334(a)(2)(i)"
+        },
+        {
+          "text": "Equipment and cord sets that remain connected once put in place and are not exposed to damage need not be visually inspected until they are relocated.",
+          "clause": "1910.334(a)(2)(i)"
+        },
+        {
+          "text": "If a defect or evidence of damage might expose an employee to injury, remove the item from service; no employee may use it until the repairs and tests needed to make it safe have been made.",
+          "clause": "1910.334(a)(2)(ii)"
+        },
+        {
+          "text": "Before connecting an attachment plug to a receptacle, including one on a cord set, check that the plug and receptacle contacts are of proper mating configurations.",
+          "clause": "1910.334(a)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What grounding rules apply to cords, plugs and adapters?",
+      "intro": "1910.334(a)(3) requires the equipment grounding path to stay continuous from grounding-type equipment through its cord, plug and receptacle.",
+      "items": [
+        {
+          "text": "A flexible cord used with grounding-type equipment must contain an equipment grounding conductor.",
+          "clause": "1910.334(a)(3)(i)"
+        },
+        {
+          "text": "Attachment plugs and receptacles may not be connected or altered in a way that would prevent proper grounding continuity at the point where plugs attach to receptacles.",
+          "clause": "1910.334(a)(3)(ii)"
+        },
+        {
+          "text": "Plugs and receptacles may not be altered so that the grounding pole of a plug can be inserted into slots meant for the current-carrying conductors.",
+          "clause": "1910.334(a)(3)(ii)"
+        },
+        {
+          "text": "Adapters that interrupt the continuity of the grounding connection may not be used.",
+          "clause": "1910.334(a)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What applies in wet locations and when plugging in or unplugging?",
+      "intro": "1910.334(a)(4) and (a)(5) set rules for equipment used around water or conductive liquids and for handling plug connections when energized equipment is involved.",
+      "items": [
+        {
+          "text": "Portable electric equipment and flexible cords used in highly conductive work locations, such as those inundated with water or other conductive liquids, or where employees are likely to contact water or conductive liquids, must be approved for those locations.",
+          "clause": "1910.334(a)(4)"
+        },
+        {
+          "text": "Employees' hands may not be wet when plugging and unplugging flexible cords and corded equipment, if energized equipment is involved.",
+          "clause": "1910.334(a)(5)(i)"
+        },
+        {
+          "text": "Handle energized plug and receptacle connections only with insulating protective equipment if the condition of the connection could provide a conducting path to the employee's hand, for example a cord connector wet from immersion in water.",
+          "clause": "1910.334(a)(5)(ii)"
+        },
+        {
+          "text": "Properly secure locking-type connectors after connection.",
+          "clause": "1910.334(a)(5)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must power and lighting circuits be opened, closed and reclosed?",
+      "intro": "1910.334(b) requires devices designed as disconnecting means for switching circuits under load and limits reclosing after a protective device has operated.",
+      "items": [
+        {
+          "text": "Use load rated switches, circuit breakers or other devices specifically designed as disconnecting means to open, reverse or close circuits under load conditions.",
+          "clause": "1910.334(b)(1)"
+        },
+        {
+          "text": "Cable connectors not of the load-break type, fuses, terminal lugs and cable splice connections may not be used to open, reverse or close circuits under load, except in an emergency.",
+          "clause": "1910.334(b)(1)"
+        },
+        {
+          "text": "After a circuit protective device deenergizes a circuit, do not manually reenergize it until it has been determined that the equipment and circuit can be safely energized.",
+          "clause": "1910.334(b)(2)"
+        },
+        {
+          "text": "Repetitive manual reclosing of circuit breakers, or reenergizing circuits through replaced fuses, is prohibited.",
+          "clause": "1910.334(b)(2)"
+        },
+        {
+          "text": "Overcurrent protection of circuits and conductors may not be modified, even on a temporary basis, beyond what § 1910.304(e) allows.",
+          "clause": "1910.334(b)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "Who may test electric circuits, and what must test equipment meet?",
+      "intro": "1910.334(c) limits testing work on electric circuits or equipment to qualified persons and sets inspection and rating rules for test instruments.",
+      "items": [
+        {
+          "text": "Only qualified persons may perform testing work on electric circuits or equipment.",
+          "clause": "1910.334(c)(1)"
+        },
+        {
+          "text": "Visually inspect test instruments and equipment, and all associated test leads, cables, power cords, probes and connectors, for external defects and damage before the equipment is used.",
+          "clause": "1910.334(c)(2)"
+        },
+        {
+          "text": "Take test gear out of service if a defect or damage could injure an employee, and keep it out of use until repairs and tests make it safe.",
+          "clause": "1910.334(c)(2)"
+        },
+        {
+          "text": "Test instruments, equipment and their accessories must be rated for the circuits and equipment they will be connected to.",
+          "clause": "1910.334(c)(3)"
+        },
+        {
+          "text": "Test instruments, equipment and their accessories must be designed for the environment in which they will be used.",
+          "clause": "1910.334(c)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What if flammable materials are present only occasionally?",
+      "intro": "1910.334(d) bars electric equipment capable of igniting flammable materials that are present only occasionally, unless measures are taken to prevent hazardous conditions from developing.",
+      "items": [
+        {
+          "text": "Where flammable materials are present only occasionally, do not use electric equipment capable of igniting them unless measures are taken to prevent hazardous conditions from developing.",
+          "clause": "1910.334(d)"
+        },
+        {
+          "text": "These materials include, but are not limited to, flammable gases, vapors or liquids, combustible dust, and ignitible fibers or flyings.",
+          "clause": "1910.334(d)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers portable cords and corded equipment, grounding and plug connections, circuit switching, test instruments and occasional flammable materials under 1910.334, for use during a walk-through of any area where electrical equipment is in use.",
+  "checklist": "us/1910-334-use-equipment",
+  "faq": [
+    {
+      "question": "Must a circuit always be examined after a breaker trips?",
+      "answer": "Not always. The note to 1910.334(b)(2) says that when the design of the circuit and the overcurrent devices shows the device operated because of an overload rather than a fault, no examination of the circuit or connected equipment is needed before it is reenergized."
+    },
+    {
+      "question": "Does 1910.334(d) cover areas where flammable materials are always present?",
+      "answer": "No. Paragraph (d) deals with places where flammable materials are present only occasionally. Its note points to § 1910.307 for the electrical installation requirements that apply where flammable materials are present on a regular basis."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.334: Use of equipment (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.334"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "extension cord inspection",
+    "cord- and plug-connected equipment",
+    "electrical equipment use"
+  ],
+  "cover": "1910-334-use-equipment",
+  "coverPrompt": "A worker in a workshop wearing work gloves runs an extension cord through their hands to visually inspect the jacket and plug before use, with a corded drill resting on a clean workbench nearby.",
+  "coverAlt": "Worker visually inspecting an extension cord and plug before use at a workshop bench",
+  "changes": []
+}
