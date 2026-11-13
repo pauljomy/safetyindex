@@ -1,0 +1,262 @@
+{
+  "slug": "1926-1053-ladders",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1053-ladders",
+  "doc_ref": "SI-US-1926-1053",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Ladder Inspection Checklist and OSHA Checklist (29 CFR 1926.1053)",
+  "subtitle": "For periodic competent-person inspections and after any occurrence that may have damaged or disturbed a ladder.",
+  "regulation_line": "OSHA 29 CFR 1926.1053",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If a ladder has a structural defect, mark it as defective or tag it “Do Not Use” and keep it out of service until it is repaired (1926.1053(b)(16) and (b)(17)).",
+    "Record any other failed set-up or use item and correct it before the ladder is used."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Condition of portable ladders",
+      "items": [
+        [
+          "Competent-person inspection",
+          "A competent person has checked the ladder for visible defects as part of periodic inspections and after any event that might have affected it",
+          "1926.1053(b)(15)"
+        ],
+        [
+          "Rungs, cleats and steps",
+          "None broken or missing",
+          "1926.1053(b)(16)"
+        ],
+        [
+          "Rung alignment",
+          "Rungs, cleats and steps parallel, level and uniformly spaced with the ladder in position for use",
+          "1926.1053(a)(2)"
+        ],
+        [
+          "Side rails",
+          "No broken or split rails and no corroded components",
+          "1926.1053(b)(16)"
+        ],
+        [
+          "Defective ladder handling",
+          "Any ladder with a structural defect is marked as defective or tagged “Do Not Use” and kept out of service until repaired",
+          "1926.1053(b)(16)"
+        ],
+        [
+          "Slip treatment on metal rungs",
+          "Rungs and steps corrugated, knurled, dimpled, skid-resistant coated or otherwise treated",
+          "1926.1053(a)(6)(ii)"
+        ],
+        [
+          "Component surfaces",
+          "No surface that could puncture or cut a worker or snag clothing",
+          "1926.1053(a)(11)"
+        ],
+        [
+          "Wood ladder finish",
+          "No opaque paint or covering; labels only on one face of a side rail",
+          "1926.1053(a)(12)"
+        ],
+        [
+          "Slipping hazards",
+          "Rungs, steps and rails clean of oil, grease and other slippery material",
+          "1926.1053(b)(2)"
+        ],
+        [
+          "Repairs",
+          "Repaired ladders restored to their original design criteria before reuse",
+          "1926.1053(b)(18)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Stepladders",
+      "items": [
+        [
+          "Spreader or lock",
+          "Metal spreader or locking device present and engaged, holding front and back sections open",
+          "1926.1053(a)(8)"
+        ],
+        [
+          "Top and top step",
+          "Nobody standing on the top or top step",
+          "1926.1053(b)(13)"
+        ],
+        [
+          "Rear cross-bracing",
+          "Rear bracing not climbed unless the ladder has steps on both front and rear sections",
+          "1926.1053(b)(14)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Set-up and placement",
+      "items": [
+        [
+          "Extension above landing",
+          "Side rails reach 3 feet or more above the upper landing, or the top is secured to a rigid non-deflecting support with a grabrail or other grasping device",
+          "1926.1053(b)(1)"
+        ],
+        [
+          "Ladder angle",
+          "Horizontal distance from top support to foot about a quarter of the ladder's working length (non-self-supporting ladders)",
+          "1926.1053(b)(5)(i)"
+        ],
+        [
+          "Spliced job-made ladders",
+          "Horizontal distance from top support to foot is one-eighth of the working length (wood job-made ladders with spliced side rails)",
+          "1926.1053(b)(5)(ii)"
+        ],
+        [
+          "Top support",
+          "Both rails bearing equally at the top, unless a single support attachment is fitted",
+          "1926.1053(b)(10)"
+        ],
+        [
+          "Footing",
+          "Stable, level surface, or ladder secured against accidental displacement",
+          "1926.1053(b)(6)"
+        ],
+        [
+          "Slippery surfaces",
+          "Ladder secured or fitted with slip-resistant feet, and still placed, lashed or held with care",
+          "1926.1053(b)(7)"
+        ],
+        [
+          "Traffic areas",
+          "In passageways, doorways or driveways, ladder secured or traffic barricaded away",
+          "1926.1053(b)(8)"
+        ],
+        [
+          "Top and bottom clear",
+          "No materials or debris around the top and bottom of the ladder",
+          "1926.1053(b)(9)"
+        ],
+        [
+          "Joined ladders",
+          "Ladders not tied or fastened together for length unless designed for it",
+          "1926.1053(a)(7)"
+        ],
+        [
+          "Multiple ladders",
+          "Separate ladders serving one elevated area offset with a platform or landing between them",
+          "1926.1053(a)(10)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Use and climbing",
+      "items": [
+        [
+          "Load",
+          "Ladder not loaded beyond its maximum intended load or the manufacturer's rated capacity",
+          "1926.1053(b)(3)"
+        ],
+        [
+          "Purpose",
+          "Ladder used only for the purpose it was designed for",
+          "1926.1053(b)(4)"
+        ],
+        [
+          "Electrical exposure",
+          "Nonconductive siderails where the worker or ladder could contact exposed energized electrical equipment",
+          "1926.1053(b)(12)"
+        ],
+        [
+          "Occupied ladder",
+          "Ladder not moved, shifted or extended with anyone on it",
+          "1926.1053(b)(11)"
+        ],
+        [
+          "Facing the ladder",
+          "Climbers face the ladder going up and down",
+          "1926.1053(b)(20)"
+        ],
+        [
+          "Handhold",
+          "Climbers hold on with one hand or more while moving",
+          "1926.1053(b)(21)"
+        ],
+        [
+          "Carried loads",
+          "Nothing carried that could unbalance the climber",
+          "1926.1053(b)(22)"
+        ],
+        [
+          "Single-rail ladders",
+          "No single-rail ladders in use",
+          "1926.1053(b)(19)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Fixed ladders",
+      "items": [
+        [
+          "Defective fixed ladder",
+          "Ladder with structural defects tagged, marked or blocked and out of service until repaired",
+          "1926.1053(b)(17)"
+        ],
+        [
+          "Short climb with high top",
+          "Cage, well, ladder safety device or self-retracting lifeline where the top is more than 24 feet above lower levels",
+          "1926.1053(a)(18)"
+        ],
+        [
+          "Climbs of 24 feet or more",
+          "Ladder safety device; or self-retracting lifelines with rest platforms no more than 150 feet apart; or cage or well with offset sections of 50 feet or less and landing platforms at intervals of 50 feet or less",
+          "1926.1053(a)(19)"
+        ],
+        [
+          "Clearance behind rungs",
+          "7 inches or more to any obstruction behind the ladder (4 1/2 inches for elevator pit ladders)",
+          "1926.1053(a)(13)"
+        ],
+        [
+          "Climbing-side clearance",
+          "30 inches or more from rung centerline to obstructions, unless reduced under (a)(15) with a deflection device",
+          "1926.1053(a)(14)"
+        ],
+        [
+          "Side-rail extension",
+          "Side rails of through or side-step ladders extend 42 inches above the access level or landing platform",
+          "1926.1053(a)(24)"
+        ],
+        [
+          "Side clearance without cage or well",
+          "15 inches or more clear on each side of the ladder centerline to the nearest permanent object",
+          "1926.1053(a)(17)"
+        ],
+        [
+          "Pitch",
+          "Pitch no greater than 90 degrees from horizontal, measured to the back side of the ladder",
+          "1926.1053(b)(5)(iii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1053: Ladders (Part 1926, Subpart X: Stairways and Ladders)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

@@ -1,0 +1,511 @@
+{
+  "section": "1926.1053",
+  "part": "1926",
+  "heading": "Ladders.",
+  "subpart": "X",
+  "subpartTitle": "Stairways and Ladders",
+  "title": "Ladder inspection checklist and OSHA requirements (29 CFR 1926.1053)",
+  "seoTitle": "Ladder Inspection: OSHA 1926.1053 Rules and Checklist",
+  "description": "OSHA 29 CFR 1926.1053 ladder requirements in plain language, citation and penalty data for FY2022–FY2026, and a printable ladder inspection checklist.",
+  "opening": "29 CFR 1926.1053 sets strength, rung spacing and clearance rules for portable, fixed and job-made ladders, says when fixed ladders need cages, wells or safety devices, and governs how ladders are placed, used, inspected and withdrawn from service when defective.",
+  "keyword": "ladder inspection",
+  "cluster": [
+    {
+      "keyword": "ladder checklist",
+      "volume": 480,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ladder inspection",
+      "volume": 590,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha construction ladder requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction ladder checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction ladder inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha ladders requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ladders checklist",
+      "volume": 480,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ladders inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1053",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 1550,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 18168,
+    "inspections": 15097,
+    "byFy": {
+      "2022": 3623,
+      "2023": 3960,
+      "2024": 3711,
+      "2025": 4007,
+      "2026": 2867
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(1)",
+        "count": 11369
+      },
+      {
+        "paragraph": "(b)(13)",
+        "count": 1823
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 1766
+      },
+      {
+        "paragraph": "(b)(16)",
+        "count": 644
+      },
+      {
+        "paragraph": "(b)(22)",
+        "count": 445
+      },
+      {
+        "paragraph": "(b)(5)(i)",
+        "count": 434
+      },
+      {
+        "paragraph": "(b)(6)",
+        "count": 414
+      },
+      {
+        "paragraph": "(b)(15)",
+        "count": 247
+      },
+      {
+        "paragraph": "(b)(9)",
+        "count": 198
+      },
+      {
+        "paragraph": "(b)(10)",
+        "count": 102
+      }
+    ],
+    "penalties": {
+      "n": 15264,
+      "median": 3349,
+      "p25": 2128,
+      "p75": 4688,
+      "total": 62237402
+    },
+    "typeShares": {
+      "serious": 0.842,
+      "willful": 0.004,
+      "repeat": 0.069,
+      "otherThanSerious": 0.084,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 15303,
+      "willful": 78,
+      "repeat": 1260,
+      "otherThanSerious": 1524,
+      "unclassified": 3
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 14807,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 932,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 544,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2383",
+        "count": 522,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 439,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 229,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2371",
+        "count": 223,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2373",
+        "count": 51,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "4233",
+        "count": 46,
+        "title": "Lumber and Other Construction Materials Merchant Wholesalers"
+      },
+      {
+        "naics": "5617",
+        "count": 42,
+        "title": "Services to Buildings and Dwellings"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.1053(b)(1) drew 11,369 of the 18,168 citations in FY2022–FY2026. It requires a portable ladder used to reach an upper landing to extend 3 feet or more above it, or, if the ladder is too short, to be secured at the top to a rigid support with a grasping device provided. Next came (b)(13), on standing on a stepladder's top or top step, and (b)(4), on using ladders only for their designed purpose. Yearly citations went from 3,623 in FY2022 to 3,960 in FY2023, 3,711 in FY2024 and 4,007 in FY2025, and 2,867 are recorded for FY2026.",
+  "requirementsIntro": "Section 1926.1053 applies to all ladders, including job-made ladders. Paragraph (a) sets design requirements (load capacity, rung spacing, clearances, cages, wells and ladder safety devices), and paragraph (b) covers use, inspection and the removal of defective ladders.",
+  "requirements": [
+    {
+      "heading": "How often must ladders be inspected, and what happens to a defective one?",
+      "intro": "Ladder inspection under 1926.1053(b)(15) is done by a competent person, who looks for visible defects periodically and after any occurrence that could affect safe use; the paragraph gives no fixed interval in days or weeks.",
+      "items": [
+        {
+          "text": "A competent person inspects ladders for visible defects, both periodically and after any event that might compromise the ladder's safe use.",
+          "clause": "1926.1053(b)(15)"
+        },
+        {
+          "text": "A portable ladder with a structural defect (for example broken or missing rungs, cleats or steps, broken or split rails, or corroded components) must immediately be marked so it is readily identified as defective, or tagged “Do Not Use” or similar, and withdrawn from service until repaired.",
+          "clause": "1926.1053(b)(16)"
+        },
+        {
+          "text": "A fixed ladder with a structural defect must be taken out of service until it is repaired; immediately tagging it “Do Not Use” or similar, marking it as defective, or blocking it (such as with plywood spanning several rungs) meets that duty.",
+          "clause": "1926.1053(b)(17)"
+        },
+        {
+          "text": "Repairs must restore the ladder to a condition meeting its original design criteria before it goes back into use.",
+          "clause": "1926.1053(b)(18)"
+        }
+      ]
+    },
+    {
+      "heading": "How must a portable ladder be set up to reach an upper level?",
+      "intro": "Under 1926.1053(b)(1), a portable ladder used to access an upper landing surface must have its side rails extend at least 3 feet above that surface, and non-self-supporting ladders must be set at the angle given in 1926.1053(b)(5).",
+      "items": [
+        {
+          "text": "Side rails extend 3 feet (.9 m) or more above the upper landing surface. Where the ladder is too short for that, its top is secured to a rigid support that will not deflect and a grasping device, such as a grabrail, is provided for mounting and dismounting. The extension must never be such that ladder deflection under load would, by itself, make the ladder slip off its support.",
+          "clause": "1926.1053(b)(1)"
+        },
+        {
+          "text": "A non-self-supporting ladder is set so the horizontal distance from the top support to the foot is approximately one-quarter of the working length (measured along the ladder between the foot and the top support).",
+          "clause": "1926.1053(b)(5)(i)"
+        },
+        {
+          "text": "Wood job-made ladders with spliced side rails are set so the horizontal distance equals one-eighth the working length.",
+          "clause": "1926.1053(b)(5)(ii)"
+        },
+        {
+          "text": "The top of a non-self-supporting ladder rests with both rails supported equally, unless the ladder has a single support attachment.",
+          "clause": "1926.1053(b)(10)"
+        },
+        {
+          "text": "When two or more separate ladders are used to reach an elevated work area, they are offset with a platform or landing between them. This does not apply when portable ladders give access to fixed ladders whose bottom is elevated to limit access, such as on utility towers and billboards; guardrail and toeboard rules for the platforms are in subpart M.",
+          "clause": "1926.1053(a)(10)"
+        },
+        {
+          "text": "Ladders are not tied or fastened together to make longer sections unless they are specifically designed for such use.",
+          "clause": "1926.1053(a)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "Where can a ladder be placed?",
+      "intro": "Paragraphs 1926.1053(b)(6) through (b)(9) limit ladders to stable, level, uncluttered locations unless the ladder is secured or traffic is kept away from it.",
+      "items": [
+        {
+          "text": "Ladders are used only on stable and level surfaces, unless secured to prevent accidental displacement.",
+          "clause": "1926.1053(b)(6)"
+        },
+        {
+          "text": "On slippery surfaces, a ladder is used only if it is secured or has slip-resistant feet. Slip-resistant feet do not replace care in placing, lashing or holding a ladder on slippery surfaces, such as flat metal or concrete that cannot be kept from becoming slippery.",
+          "clause": "1926.1053(b)(7)"
+        },
+        {
+          "text": "Where workplace activities or traffic could displace a ladder, such as in passageways, doorways or driveways, the ladder is secured or a barricade keeps the activity or traffic away from it.",
+          "clause": "1926.1053(b)(8)"
+        },
+        {
+          "text": "The area around the top and bottom of the ladder is kept clear.",
+          "clause": "1926.1053(b)(9)"
+        },
+        {
+          "text": "Ladders have nonconductive siderails where the employee or the ladder could contact exposed energized electrical equipment, subject to the exceptions cross-referenced in that paragraph.",
+          "clause": "1926.1053(b)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "Which ladder uses does 1926.1053 prohibit?",
+      "intro": "The use prohibitions in 1926.1053(b) cover overloading, using a ladder for something it was not designed for, moving an occupied ladder, stepladder tops, rear cross-bracing and single-rail ladders.",
+      "items": [
+        {
+          "text": "A ladder is never loaded beyond the maximum intended load it was built for, nor beyond the manufacturer's rated capacity.",
+          "clause": "1926.1053(b)(3)"
+        },
+        {
+          "text": "A ladder is used only for the purpose for which it was designed.",
+          "clause": "1926.1053(b)(4)"
+        },
+        {
+          "text": "A ladder is not moved, shifted or extended while someone is on it.",
+          "clause": "1926.1053(b)(11)"
+        },
+        {
+          "text": "The top or top step of a stepladder is not used as a step.",
+          "clause": "1926.1053(b)(13)"
+        },
+        {
+          "text": "Cross-bracing on a stepladder's rear section is not climbed unless the ladder is designed and provided with steps for climbing on both front and rear sections.",
+          "clause": "1926.1053(b)(14)"
+        },
+        {
+          "text": "Single-rail ladders are not used.",
+          "clause": "1926.1053(b)(19)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees climb a ladder?",
+      "intro": "Employees climbing a ladder must face it, keep hold of it and avoid carrying loads that could unbalance them under 1926.1053(b)(20) to (b)(22), and the ladder must be kept free of slipping hazards under (b)(2).",
+      "items": [
+        {
+          "text": "The user faces the ladder when ascending or descending.",
+          "clause": "1926.1053(b)(20)"
+        },
+        {
+          "text": "Each employee grasps the ladder with at least one hand while moving up or down it.",
+          "clause": "1926.1053(b)(21)"
+        },
+        {
+          "text": "No employee carries an object or load that could cause them to lose balance and fall.",
+          "clause": "1926.1053(b)(22)"
+        },
+        {
+          "text": "Ladders are maintained free of oil, grease and other slipping hazards.",
+          "clause": "1926.1053(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What design rules apply to portable ladders and stepladders?",
+      "intro": "Portable ladders must carry at least four times their maximum intended load (3.3 times for extra-heavy-duty type 1A metal or plastic ladders) under 1926.1053(a)(1), and paragraph (a) also fixes rung spacing, rail width, slip treatment and stepladder spreaders.",
+      "items": [
+        {
+          "text": "Each self-supporting portable ladder sustains four times its maximum intended load or more (3.3 times for extra-heavy-duty type 1A metal or plastic), with the load applied vertically downward; ladders built and tested to the applicable provisions of appendix A of the subpart are deemed to comply.",
+          "clause": "1926.1053(a)(1)(i)"
+        },
+        {
+          "text": "Portable ladders that are not self-supporting meet the same load multiples, tested with the load applied vertically downward while the ladder stands at 75 1/2 degrees from the horizontal.",
+          "clause": "1926.1053(a)(1)(ii)"
+        },
+        {
+          "text": "Rungs, cleats and steps of portable ladders are spaced 10 to 14 inches apart, measured between their center lines, except for the step stools and extension trestle ladders covered in (a)(3)(ii) and (a)(3)(iii).",
+          "clause": "1926.1053(a)(3)(i)"
+        },
+        {
+          "text": "Step stool rungs, cleats and steps are 8 to 12 inches apart, center line to center line.",
+          "clause": "1926.1053(a)(3)(ii)"
+        },
+        {
+          "text": "The clear distance between side rails of every portable ladder is at least 11 1/2 inches.",
+          "clause": "1926.1053(a)(4)(ii)"
+        },
+        {
+          "text": "Rungs and steps of portable metal ladders are corrugated, knurled, dimpled, coated with skid-resistant material or otherwise treated to minimize slipping.",
+          "clause": "1926.1053(a)(6)(ii)"
+        },
+        {
+          "text": "Each stepladder has a metal spreader or locking device that holds the front and back sections open while the ladder is in use.",
+          "clause": "1926.1053(a)(8)"
+        },
+        {
+          "text": "Wood ladders carry no opaque coating; identification or warning labels may go on one face only of a side rail.",
+          "clause": "1926.1053(a)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "What strength and clearance rules apply to fixed ladders?",
+      "intro": "Fixed ladders under 1926.1053(a) must carry concentrated 250-pound loads, have at least 16 inches between side rails and keep minimum clearances behind, in front of and beside the rungs.",
+      "items": [
+        {
+          "text": "Each fixed ladder supports two or more 250-pound (114 kg) loads concentrated between any two consecutive attachments, plus further 250-pound loads based on anticipated usage and loads from ice buildup, winds, rigging and ladder-safety-device impact; each step or rung holds a single 250-pound load applied at its middle.",
+          "clause": "1926.1053(a)(1)(iii)"
+        },
+        {
+          "text": "The clear distance between side rails of fixed ladders, and between the sides of individual-rung/step ladders, is at least 16 inches.",
+          "clause": "1926.1053(a)(4)(i)"
+        },
+        {
+          "text": "Fixed metal ladders manufactured after March 15, 1991, have rungs and steps that are corrugated, knurled, dimpled, skid-resistant coated or otherwise treated to minimize slipping.",
+          "clause": "1926.1053(a)(6)(i)"
+        },
+        {
+          "text": "Perpendicular clearance between rungs, cleats or steps and any obstruction behind the ladder is at least 7 inches, or 4 1/2 inches for an elevator pit ladder.",
+          "clause": "1926.1053(a)(13)"
+        },
+        {
+          "text": "Perpendicular clearance from the rung center line to any obstruction on the climbing side is at least 30 inches, except as (a)(15) allows.",
+          "clause": "1926.1053(a)(14)"
+        },
+        {
+          "text": "Where an obstruction is unavoidable, climbing-side clearance may be reduced to 24 inches if a deflection device is installed to guide employees around it.",
+          "clause": "1926.1053(a)(15)"
+        },
+        {
+          "text": "Through fixed ladders have a step-across distance of 7 to 12 inches from the rung centerline to the nearest edge of the landing; if the normal distance exceeds 12 inches, a landing platform reduces it to that limit.",
+          "clause": "1926.1053(a)(16)"
+        },
+        {
+          "text": "Fixed ladders without cages or wells have a clear width of at least 15 inches to the nearest permanent object on each side of the ladder's centerline.",
+          "clause": "1926.1053(a)(17)"
+        }
+      ]
+    },
+    {
+      "heading": "When does a fixed ladder need a cage, well, ladder safety device or self-retracting lifeline?",
+      "intro": "Fixed-ladder fall protection under 1926.1053(a)(18) and (a)(19) depends on height: a climb shorter than 24 feet whose top is more than 24 feet above lower levels needs protection, and so does any climb of 24 feet or more.",
+      "items": [
+        {
+          "text": "Where the length of climb is less than 24 feet but the top of the ladder is more than 24 feet above lower levels, the ladder has a cage, well, ladder safety device or self-retracting lifeline.",
+          "clause": "1926.1053(a)(18)"
+        },
+        {
+          "text": "Where the total climb equals or exceeds 24 feet, one permitted option is a ladder safety device.",
+          "clause": "1926.1053(a)(19)(i)"
+        },
+        {
+          "text": "A second option for such climbs is self-retracting lifelines with rest platforms at intervals not exceeding 150 feet.",
+          "clause": "1926.1053(a)(19)(ii)"
+        },
+        {
+          "text": "A third option is a cage or well with multiple ladder sections, each no longer than 50 feet and offset from adjacent sections, with landing platforms at intervals of 50 feet or less.",
+          "clause": "1926.1053(a)(19)(iii)"
+        },
+        {
+          "text": "The bottom of a cage is 7 to 8 feet above the point of access at the base of the ladder and is flared at least 4 inches all around between the bottom horizontal band and the next band up.",
+          "clause": "1926.1053(a)(20)(vii)"
+        },
+        {
+          "text": "The top of a cage is a minimum of 42 inches above the top of the platform or the point of access at the top of the ladder, with provision for access to the platform.",
+          "clause": "1926.1053(a)(20)(viii)"
+        },
+        {
+          "text": "Ladder safety devices activate within 2 feet after a fall occurs and limit the employee's descending velocity to 7 feet per second or less.",
+          "clause": "1926.1053(a)(22)(iii)"
+        },
+        {
+          "text": "The connection between the carrier or lifeline and the attachment point on the body belt or harness is no longer than 9 inches.",
+          "clause": "1926.1053(a)(22)(iv)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers ladder condition, set-up, use and fixed-ladder features under 1926.1053, for a competent person's periodic inspections and for checks after anything that could affect a ladder's safe use.",
+  "checklist": "us/1926-1053-ladders",
+  "faq": [
+    {
+      "question": "Can a job-made ladder have spliced side rails?",
+      "answer": "Yes, provided the splice keeps the rail strong enough: 1926.1053(a)(9) requires a spliced side rail to be at least equivalent in strength to a one-piece side rail made of the same material."
+    },
+    {
+      "question": "What rung spacing applies to extension trestle ladders?",
+      "answer": "Under 1926.1053(a)(3)(iii), rungs, cleats and steps on the base section are 8 to 18 inches apart, and rungs on the extension section are 6 to 12 inches apart, measured center line to center line."
+    },
+    {
+      "question": "Do individual-rung ladders need grab bars at the top?",
+      "answer": "Yes, unless their access openings are covered with manhole covers or hatches. 1926.1053(a)(27) requires them to extend 42 inches or more above the access level or landing platform, either by continuing the rung spacing as horizontal grab bars or by vertical grab bars with the same lateral spacing as the rungs' vertical legs. Paragraph (a)(5) also requires their rungs to be shaped so feet cannot slide off the ends."
+    },
+    {
+      "question": "What drop test must a fixed-ladder safety device pass?",
+      "answer": "1926.1053(a)(22)(i) requires ladder safety devices and their support systems to withstand, without failure, an 18-inch drop of a 500-pound weight. Paragraph (a)(22)(ii) adds that the device must let the user climb without continually holding, pushing or pulling any part of it, so both hands stay free."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1053: Ladders (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1053"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "ladder inspection",
+    "portable ladders",
+    "stepladders"
+  ],
+  "cover": "1926-1053-ladders",
+  "coverPrompt": "A realistic photograph, taken from behind at medium distance in daylight, of a construction worker in a hard hat and gloves climbing an aluminum extension ladder that rests on firm level ground and extends well above the edge of a low roof, facing the ladder with one hand on a rung and the area around the base clear. No text, signs, numbers or logos.",
+  "coverAlt": "Worker climbing an extension ladder that extends above a roof edge on a construction site",
+  "changes": []
+}

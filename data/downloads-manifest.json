@@ -50,6 +50,16 @@
       "pdf": "/downloads/us/1910-303.pdf",
       "xlsx": "/downloads/us/1910-303.xlsx"
     },
+    "us/1926-1053-ladders": {
+      "hash": "54aed921e08fa15ec91e665adf366b458ea561cf7232be23aa1136301d48b473",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 39,
+      "page_url": "https://safetyindex.blog/us/standards/1926-1053-ladders",
+      "pdf": "/downloads/us/1926-1053-ladders.pdf",
+      "xlsx": "/downloads/us/1926-1053-ladders.xlsx"
+    },
     "us/1926-1101-asbestos": {
       "hash": "bdf6068a175fe2f0c65638319530d9a1d35e34e7e541e6cbc90a86d391c220ab",
       "lang": "en",
