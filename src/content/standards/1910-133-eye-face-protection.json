@@ -1,0 +1,397 @@
+{
+  "section": "1910.133",
+  "part": "1910",
+  "heading": "Eye and face protection.",
+  "subpart": "I",
+  "subpartTitle": "Personal Protective Equipment",
+  "title": "OSHA safety glasses requirements (29 CFR 1910.133)",
+  "seoTitle": "OSHA Safety Glasses Requirements: 29 CFR 1910.133",
+  "description": "OSHA safety glasses rules in 29 CFR 1910.133: requirements by paragraph, citation and penalty data, and a printable inspection checklist.",
+  "opening": "29 CFR 1910.133 requires employers to ensure that each affected employee uses appropriate eye or face protection when exposed to hazards from flying particles, molten metal, liquid chemicals, acids or caustic liquids, chemical gases or vapors, or potentially injurious light radiation.",
+  "keyword": "osha safety glasses requirements",
+  "cluster": [
+    {
+      "keyword": "osha safety glasses requirements",
+      "volume": 390,
+      "kd": 14,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "safety glasses checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "safety glasses inspection",
+      "volume": 10,
+      "kd": null,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha eye protection requirements",
+      "volume": 50,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "eye protection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "eye protection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.133",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 450,
+  "kd": 14,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 2373,
+    "inspections": 2317,
+    "byFy": {
+      "2022": 402,
+      "2023": 554,
+      "2024": 491,
+      "2025": 490,
+      "2026": 436
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(1)",
+        "count": 2151
+      },
+      {
+        "paragraph": "(a)(3)",
+        "count": 142
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 44
+      },
+      {
+        "paragraph": "(a)(5)",
+        "count": 23
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 7
+      },
+      {
+        "paragraph": "(a)",
+        "count": 2
+      },
+      {
+        "paragraph": "(b)(1)(i)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 1
+      },
+      {
+        "paragraph": "(b)(1)(ii)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 1523,
+      "median": 3015,
+      "p25": 1400,
+      "p75": 6610,
+      "total": 8098254
+    },
+    "typeShares": {
+      "serious": 0.851,
+      "willful": 0.005,
+      "repeat": 0.011,
+      "otherThanSerious": 0.133,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 2019,
+      "willful": 13,
+      "repeat": 25,
+      "otherThanSerious": 315,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "5617",
+        "count": 132,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "7211",
+        "count": 110,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "8111",
+        "count": 96,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "7225",
+        "count": 78,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "3371",
+        "count": 66,
+        "title": "Household and Institutional Furniture and Kitchen Cabinet Manufacturing"
+      },
+      {
+        "naics": "3219",
+        "count": 64,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "4931",
+        "count": 58,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "3329",
+        "count": 56,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3261",
+        "count": 54,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3323",
+        "count": 49,
+        "title": "Architectural and Structural Metals Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.133(a)(1) sets the general duty to have affected employees use suitable eye and face PPE against the listed hazards. It drew 2,151 of the 2,373 citations in FY2022–FY2026, ahead of (a)(3) on prescription lens wearers (142) and (a)(2) on side protection against flying objects (44). Yearly citations rose from 402 in FY2022 to 554 in FY2023, were 491 in FY2024 and 490 in FY2025, and fell to 436 in FY2026.",
+  "requirementsIntro": "1910.133 applies to employers whose employees are exposed to any of the hazards named in 1910.133(a)(1). Paragraph (a) covers when protection must be used, side protection, prescription lenses, manufacturer marking and filter lens shades, with a minimum-shade table. Paragraph (b) lists the ANSI Z87.1 editions that devices must meet, or be shown to equal.",
+  "requirements": [
+    {
+      "heading": "When must employees use eye and face protection?",
+      "intro": "Under 1910.133(a)(1), the employer must make sure every affected employee wears appropriate protective eyewear or face protection when exposed to eye or face hazards from any of the sources below.",
+      "items": [
+        {
+          "text": "Employees exposed to flying particles must use appropriate eye or face PPE.",
+          "clause": "1910.133(a)(1)"
+        },
+        {
+          "text": "Exposure to molten metal requires suitable protection for the eyes or face.",
+          "clause": "1910.133(a)(1)"
+        },
+        {
+          "text": "Liquid chemicals, acids or caustic liquids are listed hazards that call for protection.",
+          "clause": "1910.133(a)(1)"
+        },
+        {
+          "text": "Chemical gases or vapors are also listed hazards that call for protection.",
+          "clause": "1910.133(a)(1)"
+        },
+        {
+          "text": "Exposure to potentially injurious light radiation requires appropriate protection.",
+          "clause": "1910.133(a)(1)"
+        },
+        {
+          "text": "The duty is on the employer: it must make sure each affected employee actually uses the protection.",
+          "clause": "1910.133(a)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "When is side protection required?",
+      "intro": "1910.133(a)(2) requires eye protection with side protection whenever there is a hazard from flying objects.",
+      "items": [
+        {
+          "text": "Where flying objects are a hazard, the employer must ensure affected employees use eye protection that provides side protection.",
+          "clause": "1910.133(a)(2)"
+        },
+        {
+          "text": "Detachable side protectors, such as clip-on or slide-on side shields, are acceptable if they meet the pertinent requirements of 1910.133.",
+          "clause": "1910.133(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What do employees who wear prescription glasses need?",
+      "intro": "1910.133(a)(3) covers employees who wear prescription lenses while engaged in operations that involve eye hazards: their protection must either include the prescription or fit over their own glasses.",
+      "items": [
+        {
+          "text": "Eye protection may incorporate the employee's prescription in its design.",
+          "clause": "1910.133(a)(3)"
+        },
+        {
+          "text": "Alternatively, eye protection may be worn over the prescription lenses, provided it does not disturb the proper position of either the prescription lenses or the protective lenses.",
+          "clause": "1910.133(a)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "How must eye and face PPE be marked, and what standards must it meet?",
+      "intro": "1910.133(a)(4) requires manufacturer marking, and 1910.133(b) requires devices to comply with a listed ANSI Z87.1 edition or be shown to be equally effective.",
+      "items": [
+        {
+          "text": "Eye and face PPE must be distinctly marked so the manufacturer can be identified.",
+          "clause": "1910.133(a)(4)"
+        },
+        {
+          "text": "Protective eye and face devices must comply with any one of the consensus standards listed in 1910.133(b)(1).",
+          "clause": "1910.133(b)(1)"
+        },
+        {
+          "text": "ANSI/ISEA Z87.1-2010 is one of the accepted editions.",
+          "clause": "1910.133(b)(1)(i)"
+        },
+        {
+          "text": "ANSI Z87.1-2003 is also listed.",
+          "clause": "1910.133(b)(1)(ii)"
+        },
+        {
+          "text": "Devices built to ANSI Z87.1-1989 (R-1998) also comply.",
+          "clause": "1910.133(b)(1)(iii)"
+        },
+        {
+          "text": "A device made outside those editions is deemed to comply if the employer demonstrates it is at least as effective as a device constructed to one of them.",
+          "clause": "1910.133(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What filter shade is required for arc welding and cutting?",
+      "intro": "1910.133(a)(5) requires filter lenses with a shade number appropriate for the work, and its table sets a minimum protective shade for each arc process according to arc current.",
+      "items": [
+        {
+          "text": "Employees exposed to injurious light radiation must use equipment with filter lenses whose shade number suits the work being performed.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Shielded metal arc welding: minimum shade 7 for arc current less than 60, 8 for 60-160, 10 for 160-250 and 11 for 250-550.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Gas metal arc and flux cored arc welding: minimum shade 7 below 60, then 10 for each listed band (60-160, 160-250 and 250-500).",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Gas tungsten arc welding: minimum shade 8 below 50 and at 50-150, and 10 at 150-500.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Air carbon arc cutting: minimum shade 10 for light work below 500 and 11 for heavy work at 500-1000.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Plasma arc welding: minimum shade 6 below 20, 8 at 20-100, 10 at 100-400 and 11 at 400-800.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Plasma arc cutting: minimum shade 8 (light, below 300), 9 (medium, 300-400) and 10 (heavy, 400-800); these values apply where the arc is clearly seen, and the table notes lighter filters may be used when the workpiece hides the arc.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Carbon arc welding: minimum shade 14.",
+          "clause": "1910.133(a)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What filter shade is required for gas welding, oxygen cutting, brazing and soldering?",
+      "intro": "The second table under 1910.133(a)(5) sets minimum shades for gas welding and oxygen cutting by plate thickness, plus single values for torch brazing and torch soldering.",
+      "items": [
+        {
+          "text": "Gas welding: minimum shade 4 for plate under 1/8 in. (3.2 mm), 5 for 1/8 to 1/2 in. (3.2 to 12.7 mm) and 6 for plate over 1/2 in. (12.7 mm).",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Oxygen cutting: minimum shade 3 for plate under 1 in. (25 mm), 4 for 1 to 6 in. (25 to 150 mm) and 5 for plate over 6 in. (150 mm).",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Torch brazing: minimum shade 3.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Torch soldering: minimum shade 2.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "The table's rule of thumb for choosing a shade is to start with one too dark to see the weld zone, then move lighter until the weld zone is visible, never going below the minimum.",
+          "clause": "1910.133(a)(5)"
+        },
+        {
+          "text": "Where an oxyfuel gas welding or cutting torch produces a high yellow light, the table notes it is desirable to use a filter lens that absorbs the yellow or sodium line.",
+          "clause": "1910.133(a)(5)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "Use this checklist during a walk-through of any area where employees face flying particles, molten metal, chemicals or welding and cutting light, to confirm the right eyewear, face protection and filter shades are in use under 29 CFR 1910.133.",
+  "checklist": "us/1910-133-eye-face-protection",
+  "faq": [
+    {
+      "question": "Where are the ANSI Z87.1 editions named in 1910.133 incorporated into OSHA rules?",
+      "answer": "Paragraphs 1910.133(b)(1)(i), 1910.133(b)(1)(ii) and 1910.133(b)(1)(iii) each state that the edition is incorporated by reference in § 1910.6. The CFR section names the editions but does not reproduce their content."
+    },
+    {
+      "question": "Does the lighter-filter allowance for a hidden arc apply to every welding process?",
+      "answer": "No. In the 1910.133(a)(5) table, the double-asterisk note about the arc being hidden by the workpiece is attached only to the light, medium and heavy plasma arc cutting rows. For every other operation in the table, the minimum protective shade applies as listed."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.133: Eye and face protection (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.133"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "eye and face protection",
+    "safety glasses",
+    "welding filter lenses"
+  ],
+  "cover": "1910-133-eye-face-protection",
+  "coverPrompt": "A worker in a metal fabrication shop wears clear wraparound safety glasses with side shields under a clear face shield while using a guarded angle grinder on a steel part clamped to a workbench, with sparks directed away from the body. Shot from the side at mid distance, with no text, signs, numbers or logos and no close-up faces.",
+  "coverAlt": "Worker wearing safety glasses with side shields and a face shield while grinding a clamped steel part",
+  "changes": []
+}

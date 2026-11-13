@@ -1,0 +1,186 @@
+{
+  "slug": "1910-133-eye-face-protection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-133-eye-face-protection",
+  "doc_ref": "SI-US-1910-133",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Safety Glasses Checklist (29 CFR 1910.133)",
+  "subtitle": "For on-site checks of eye and face protection wherever eye or face hazards are present.",
+  "regulation_line": "OSHA 29 CFR 1910.133",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; use N/A only where the hazard or task is not present in the area checked.",
+    "When an item fails, stop the task until the correct protection is in place, and record the defect and the corrective action.",
+    "The manufacturer's instructions and site rules may add checks beyond this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Protection in use",
+      "items": [
+        [
+          "Flying particles",
+          "Every employee exposed to flying particles is wearing suitable eyewear or face protection during the task.",
+          "1910.133(a)(1)"
+        ],
+        [
+          "Molten metal",
+          "Workers exposed to molten metal have appropriate protection on and in position.",
+          "1910.133(a)(1)"
+        ],
+        [
+          "Liquid chemicals, acids and caustics",
+          "Workers exposed to liquid chemicals, acid or caustic liquids wear protection appropriate to that hazard.",
+          "1910.133(a)(1)"
+        ],
+        [
+          "Chemical gases and vapors",
+          "Workers exposed to chemical vapors or gases wear protection suited to the hazard.",
+          "1910.133(a)(1)"
+        ],
+        [
+          "Light radiation",
+          "Workers exposed to light radiation that could injure the eyes wear appropriate protection.",
+          "1910.133(a)(1)"
+        ],
+        [
+          "Side protection",
+          "Where flying objects are a hazard, the eyewear in use has side protection, built in or detachable.",
+          "1910.133(a)(2)"
+        ],
+        [
+          "Detachable side shields",
+          "Clip-on or slide-on side shields are fitted to the frame and are of a type that meets 1910.133.",
+          "1910.133(a)(2)"
+        ],
+        [
+          "Prescription wearers",
+          "Each employee wearing prescription lenses in operations with eye hazards wears protection with the prescription built in, or protection worn over the glasses.",
+          "1910.133(a)(3)"
+        ],
+        [
+          "Over-glasses fit",
+          "Protection worn over prescription glasses leaves both the prescription lenses and the protective lenses in their proper position.",
+          "1910.133(a)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Filter shades for arc welding and cutting",
+      "items": [
+        [
+          "Filter lenses fitted",
+          "Workers exposed to injurious light radiation use equipment with filter lenses that have a shade number suited to the work.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Shielded metal arc welding",
+          "Shade no lighter than 7, 8, 10 or 11 for arc current below 60, 60-160, 160-250 or 250-550 respectively.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Gas metal arc and flux cored arc welding",
+          "Shade no lighter than 7 below 60, and no lighter than 10 in the 60-160, 160-250 and 250-500 bands.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Gas tungsten arc welding",
+          "Shade no lighter than 8 up to 150 arc current, and no lighter than 10 at 150-500.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Air carbon arc cutting",
+          "Shade no lighter than 10 for light work (below 500) and 11 for heavy work (500-1000).",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Plasma arc welding",
+          "Shade no lighter than 6, 8, 10 or 11 for arc current below 20, 20-100, 100-400 or 400-800 respectively.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Plasma arc cutting",
+          "With the arc in clear view, shade no lighter than 8 (below 300), 9 (300-400) or 10 (400-800).",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Carbon arc welding",
+          "Filter shade is 14 or darker.",
+          "1910.133(a)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Filter shades for gas welding, oxygen cutting, brazing and soldering",
+      "items": [
+        [
+          "Gas welding",
+          "Shade no lighter than 4 for plate under 1/8 in., 5 for 1/8 to 1/2 in., and 6 for plate over 1/2 in.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Oxygen cutting",
+          "Shade no lighter than 3 for plate under 1 in., 4 for 1 to 6 in., and 5 for plate over 6 in.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Torch brazing",
+          "Filter shade is 3 or darker.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Torch soldering",
+          "Filter shade is 2 or darker.",
+          "1910.133(a)(5)"
+        ],
+        [
+          "Shade selection",
+          "The shade chosen gives a sufficient view of the weld zone and is not lighter than the table minimum for the operation.",
+          "1910.133(a)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Marking and design standard",
+      "items": [
+        [
+          "Manufacturer marking",
+          "Each eye and face device carries a distinct marking that identifies its manufacturer.",
+          "1910.133(a)(4)"
+        ],
+        [
+          "Consensus standard",
+          "Device markings or manufacturer documentation show compliance with ANSI/ISEA Z87.1-2010, ANSI Z87.1-2003 or ANSI Z87.1-1989 (R-1998).",
+          "1910.133(b)(1)"
+        ],
+        [
+          "Equivalent devices",
+          "Any device not made to one of those editions comes with the employer's demonstration that it protects at least as well as a conforming device.",
+          "1910.133(b)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.133: Eye and face protection (Part 1910 Subpart I, Personal Protective Equipment)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
