@@ -1,0 +1,196 @@
+{
+  "slug": "1926-1427-operator-training-certification-evaluation",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1427-operator-training-certification-evaluation",
+  "doc_ref": "SI-US-1926-1427",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Crane Operator Certification Checklist (29 CFR 1926.1427)",
+  "subtitle": "Use before an operator is assigned to a crane and during site inspections of crane work.",
+  "regulation_line": "OSHA 29 CFR 1926.1427",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is a Defect, stop the operator from running the equipment until it is corrected, and record what was done.",
+    "The crane manufacturer's instructions and site rules may add checks beyond this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Certification and licensing",
+      "items": [
+        [
+          "Operator certified or licensed",
+          "A certificate or license for the operator covers the equipment being operated",
+          "1926.1427(c)"
+        ],
+        [
+          "State or local license",
+          "Where the jurisdiction runs a qualifying crane operator licensing program, the operator holds that license",
+          "1926.1427(c)(1)"
+        ],
+        [
+          "License in date",
+          "License is within the period set by the licensing office and no more than 5 years old",
+          "1926.1427(c)(1)(v)"
+        ],
+        [
+          "Accredited certificate in date",
+          "Certificate from an accredited testing organization was issued within the last 5 years",
+          "1926.1427(d)(4)"
+        ],
+        [
+          "Certificate equipment type",
+          "Certificate states the equipment type the operator is certified for",
+          "1926.1427(d)(2)"
+        ],
+        [
+          "Audited-program certificate issuer",
+          "An audited employer program certificate was issued by the operator's current employer",
+          "1926.1427(e)(6)(i)"
+        ],
+        [
+          "No cost to operator",
+          "Operator confirms the employer provided the certification or license without charging them",
+          "1926.1427(c)(3)"
+        ],
+        [
+          "Test language recorded",
+          "Certification documentation notes the language the test was given in",
+          "1926.1427(h)(2)"
+        ],
+        [
+          "Manuals and load charts language",
+          "Operations manual and load charts on the equipment are in the language of the certification",
+          "1926.1427(h)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Operator evaluation",
+      "items": [
+        [
+          "Evaluation record on site",
+          "Signed evaluation document for the operator can be produced at the worksite",
+          "1926.1427(f)(6)"
+        ],
+        [
+          "Evaluation record contents",
+          "Record shows operator's name, evaluator's name and signature, date, and make, model and configuration of equipment used",
+          "1926.1427(f)(6)"
+        ],
+        [
+          "Equipment matches evaluation",
+          "Crane in use was used in the evaluation, or the employer can show it needs no substantially different skills or knowledge",
+          "1926.1427(f)(5)"
+        ],
+        [
+          "Assigned lifts covered",
+          "Blind lifts, personnel hoisting or multi-crane lifts planned for the operator were part of the demonstrated hoisting activities",
+          "1926.1427(f)(1)(ii)"
+        ],
+        [
+          "Evaluator competence",
+          "Evaluator named on the record has the knowledge, training and experience to assess crane operators",
+          "1926.1427(f)(4)"
+        ],
+        [
+          "Re-evaluation after retraining",
+          "Any operator retrained under (b)(5) has a re-evaluation on the retraining subject",
+          "1926.1427(f)(7)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Operator-in-training supervision",
+      "items": [
+        [
+          "Continuous monitoring",
+          "A trainer is on site watching the operator-in-training the whole time the equipment is operated",
+          "1926.1427(b)(2)"
+        ],
+        [
+          "Trainer's employment",
+          "Trainer works for the trainee's employer or acts as its agent",
+          "1926.1427(b)(4)(i)(A)"
+        ],
+        [
+          "Trainer not distracted",
+          "Trainer is doing no other tasks while monitoring",
+          "1926.1427(b)(4)(ii)"
+        ],
+        [
+          "Line of sight (non-tower cranes)",
+          "Trainer and trainee can see each other directly and communicate by voice or hand signals",
+          "1926.1427(b)(4)(iii)"
+        ],
+        [
+          "Direct communication (tower cranes)",
+          "Trainer and trainee are in direct communication",
+          "1926.1427(b)(4)(iii)"
+        ],
+        [
+          "Trainer breaks",
+          "Breaks last 15 minutes or less, with no more than one per hour",
+          "1926.1427(b)(4)(iv)(A)"
+        ],
+        [
+          "Break briefing",
+          "Trainer told the trainee the specific tasks and limits immediately before the break",
+          "1926.1427(b)(4)(iv)(B)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Restricted work for operators-in-training",
+      "items": [
+        [
+          "Power line clearance",
+          "Trainee is not operating where equipment, load line or load could reach within 20 feet of a line up to 350 kV or 50 feet of a line over 350 kV",
+          "1926.1427(b)(3)(i)"
+        ],
+        [
+          "Personnel hoisting",
+          "Trainee is not operating equipment used to hoist personnel",
+          "1926.1427(b)(3)(ii)"
+        ],
+        [
+          "Multiple-equipment lifts",
+          "Trainee is not operating in a multiple-equipment lift",
+          "1926.1427(b)(3)(iii)"
+        ],
+        [
+          "Shafts, cofferdams and tank farms",
+          "Trainee is not operating over a shaft or cofferdam or in a tank farm",
+          "1926.1427(b)(3)(iv)"
+        ],
+        [
+          "Multiple-lift rigging",
+          "Trainee does multiple-lift rigging only where the trainer has determined their skills are sufficient",
+          "1926.1427(b)(3)(v)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1427: Operator training, certification, and evaluation (Subpart CC: Cranes and Derricks in Construction)",
+    "Source: eCFR, Title 29, current as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

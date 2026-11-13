@@ -360,6 +360,16 @@
       "pdf": "/downloads/us/1926-1417-operation.pdf",
       "xlsx": "/downloads/us/1926-1417-operation.xlsx"
     },
+    "us/1926-1427-operator-training-certification-evaluation": {
+      "hash": "ae116bb465502a7079f38641423940383af3202af1d30dfa6187b92a02c2d00e",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 27,
+      "page_url": "https://safetyindex.blog/us/standards/1926-1427-operator-training-certification-evaluation",
+      "pdf": "/downloads/us/1926-1427-operator-training-certification-evaluation.pdf",
+      "xlsx": "/downloads/us/1926-1427-operator-training-certification-evaluation.xlsx"
+    },
     "us/1926-150-fire-protection": {
       "hash": "109181e82c754166978a3d5bdffccedc12d0ec8e27d046267a4dfbc22ca4a78d",
       "lang": "en",

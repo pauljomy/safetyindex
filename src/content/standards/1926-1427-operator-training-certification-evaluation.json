@@ -1,0 +1,574 @@
+{
+  "section": "1926.1427",
+  "part": "1926",
+  "heading": "Operator training, certification, and evaluation.",
+  "subpart": "CC",
+  "subpartTitle": "Cranes and Derricks in Construction",
+  "title": "OSHA crane operator certification requirements (29 CFR 1926.1427)",
+  "seoTitle": "OSHA crane operator certification requirements: 1926.1427",
+  "description": "29 CFR 1926.1427 crane operator training, certification and evaluation rules in plain language, with OSHA citation data and an on-site checklist.",
+  "opening": "29 CFR 1926.1427 requires employers to ensure each operator of crane equipment covered by Subpart CC, apart from the exceptions in 1926.1427(a)(2), is trained, certified or licensed, and evaluated before operating it; until then, an employee may operate only as a supervised operator-in-training.",
+  "keyword": "osha crane operator certification requirements",
+  "cluster": [
+    {
+      "keyword": "osha crane operator certification requirements",
+      "volume": 70,
+      "kd": 11,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane operator certification checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane operator certification inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha crane operator training requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane operator training checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane operator training inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha operator training certification and evaluation requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "operator training certification and evaluation checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "operator training certification and evaluation inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1427",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 80,
+  "kd": 11,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 213,
+    "inspections": 190,
+    "byFy": {
+      "2022": 44,
+      "2023": 49,
+      "2024": 54,
+      "2025": 38,
+      "2026": 28
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)",
+        "count": 121
+      },
+      {
+        "paragraph": "(c)(2)",
+        "count": 10
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 8
+      },
+      {
+        "paragraph": "(a)(1)(i)",
+        "count": 8
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 8
+      },
+      {
+        "paragraph": "(c)",
+        "count": 8
+      },
+      {
+        "paragraph": "(f)(1)(i)",
+        "count": 8
+      },
+      {
+        "paragraph": "(f)(6)",
+        "count": 7
+      },
+      {
+        "paragraph": "(d)(1)(i)",
+        "count": 6
+      },
+      {
+        "paragraph": "(d)(4)",
+        "count": 5
+      }
+    ],
+    "penalties": {
+      "n": 145,
+      "median": 4839,
+      "p25": 2837,
+      "p75": 10151,
+      "total": 1294690
+    },
+    "typeShares": {
+      "serious": 0.667,
+      "willful": 0.047,
+      "repeat": 0.028,
+      "otherThanSerious": 0.258,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 142,
+      "willful": 10,
+      "repeat": 6,
+      "otherThanSerious": 55,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 72,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 40,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 22,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2373",
+        "count": 15,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 10,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 9,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2371",
+        "count": 7,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 7,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "3339",
+        "count": 6,
+        "title": "Other General Purpose Machinery Manufacturing"
+      },
+      {
+        "naics": "5324",
+        "count": 5,
+        "title": "Commercial and Industrial Machinery and Equipment Rental and Leasing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.1427(a), the general duty to have each operator trained, certified/licensed and evaluated before operating, accounts for 121 of the 213 citations recorded in FY2022–FY2026. Far fewer citations name 1926.1427(c)(2), which requires certification under paragraph (d) or (e) where no license is required (10), or 1926.1427(f)(1)(i), the evaluation of an operator's skills and knowledge, and 1926.1427(b)(2), continuous on-site monitoring of an operator-in-training (8 each). Yearly citations rose from 44 in FY2022 to 49 and then 54 in FY2024, then dropped to 38 in FY2025 and 28 in FY2026.",
+  "requirementsIntro": "1926.1427 applies to employers whose employees operate equipment covered by Subpart CC (Cranes and Derricks in Construction), except operators of derricks, sideboom cranes and equipment rated at 2,000 pounds or less under 1926.1427(a)(2); it is organised into training, certification or licensing, evaluation, test language and certification criteria. The groups below give the main rules, and the full section on eCFR contains more detail.",
+  "requirements": [
+    {
+      "heading": "Who must be trained, certified and evaluated before operating a crane?",
+      "intro": "Under 1926.1427(a), no one may run Subpart CC equipment until the employer has seen to their training, certification or licensing, and evaluation; exceptions cover derricks, sideboom cranes, small-capacity equipment and some military operators.",
+      "items": [
+        {
+          "text": "The employer must ensure each operator meets this section's training, certification/licensing and evaluation rules before running any covered equipment.",
+          "clause": "1926.1427(a)"
+        },
+        {
+          "text": "An employee who is not yet certified/licensed and evaluated for the assigned equipment may operate it only as an operator-in-training under supervision that meets paragraph (b).",
+          "clause": "1926.1427(a)(1)"
+        },
+        {
+          "text": "Operators of derricks, sideboom cranes and equipment with a maximum manufacturer-rated hoisting/lifting capacity of 2,000 pounds or less do not have to comply with 1926.1427, but the training requirements in those equipment sections still apply.",
+          "clause": "1926.1427(a)(2)"
+        },
+        {
+          "text": "A Federal employee of the Department of Defense or Armed Forces (not a private contractor's employee) meets this section with a current U.S. military operator qualification for the equipment.",
+          "clause": "1926.1427(a)(3)(i)"
+        },
+        {
+          "text": "A military qualification is not portable: it counts only while the operator works for, and operates the equipment for, the employer that issued it.",
+          "clause": "1926.1427(a)(3)(ii)(A)"
+        },
+        {
+          "text": "A military qualification is valid for the period the issuing entity sets.",
+          "clause": "1926.1427(a)(3)(ii)(B)"
+        }
+      ]
+    },
+    {
+      "heading": "What training must an operator-in-training receive?",
+      "intro": "1926.1427(b) requires the employer to give each operator-in-training enough formal and practical instruction to operate the equipment safely for assigned work.",
+      "items": [
+        {
+          "text": "Training must combine formal and practical instruction and be sufficient for the trainee to develop the skills, knowledge and risk-recognition ability needed for the assigned work.",
+          "clause": "1926.1427(b)"
+        },
+        {
+          "text": "Instruction must cover the written-test knowledge and practical-test skills set out in paragraphs (j)(1) and (j)(2).",
+          "clause": "1926.1427(b)(1)"
+        },
+        {
+          "text": "The employer may assign an operator-in-training only tasks within that person's ability.",
+          "clause": "1926.1427(b)(3)"
+        },
+        {
+          "text": "The employer must retrain an operator in relevant topics when the operator's performance or an evaluation of their knowledge indicates retraining is necessary.",
+          "clause": "1926.1427(b)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "Which tasks are off-limits to an operator-in-training?",
+      "intro": "1926.1427(b)(3) bars an operator-in-training who is not certified under paragraph (c) from the circumstances listed below, with one trainer-approved exception for multiple-lift rigging.",
+      "items": [
+        {
+          "text": "No operation where any part of the equipment, load line or load (including rigging and lifting accessories), if operated up to the maximum working radius in the work zone, could get within 20 feet of a power line up to 350 kV, or within 50 feet of a power line over 350 kV.",
+          "clause": "1926.1427(b)(3)(i)"
+        },
+        {
+          "text": "No operation when the equipment is used to hoist personnel.",
+          "clause": "1926.1427(b)(3)(ii)"
+        },
+        {
+          "text": "No operation in multiple-equipment lifts.",
+          "clause": "1926.1427(b)(3)(iii)"
+        },
+        {
+          "text": "No operation over a shaft or cofferdam, or in a tank farm.",
+          "clause": "1926.1427(b)(3)(iv)"
+        },
+        {
+          "text": "No multiple-lift rigging operations unless the operator's trainer determines the trainee's skills are sufficient for this high-skill work.",
+          "clause": "1926.1427(b)(3)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "How must a trainer monitor an operator-in-training, including during breaks?",
+      "intro": "Under 1926.1427(b)(2) and (b)(4), an operator's trainer must continuously monitor the operator-in-training on site, stepping away only for short breaks that meet every condition in 1926.1427(b)(4)(iv).",
+      "items": [
+        {
+          "text": "A trainer must continuously monitor the operator-in-training on site while the trainee is operating equipment.",
+          "clause": "1926.1427(b)(2)"
+        },
+        {
+          "text": "The trainer must be an employee or agent of the trainee's employer.",
+          "clause": "1926.1427(b)(4)(i)(A)"
+        },
+        {
+          "text": "The trainer must have the knowledge, training, and experience to direct the trainee on the equipment in use.",
+          "clause": "1926.1427(b)(4)(i)(B)"
+        },
+        {
+          "text": "While monitoring, the trainer must not perform tasks that detract from the ability to watch the trainee.",
+          "clause": "1926.1427(b)(4)(ii)"
+        },
+        {
+          "text": "Trainer and trainee must be in direct line of sight and communicate verbally or by hand signals, except on tower cranes, where they must be in direct communication with each other.",
+          "clause": "1926.1427(b)(4)(iii)"
+        },
+        {
+          "text": "A monitoring break may last no longer than 15 minutes, with no more than one break per hour.",
+          "clause": "1926.1427(b)(4)(iv)(A)"
+        },
+        {
+          "text": "Immediately before the break, the trainer tells the trainee the specific tasks to perform and the limitations to follow while the trainer is away.",
+          "clause": "1926.1427(b)(4)(iv)(B)"
+        },
+        {
+          "text": "The tasks the trainee performs during the break must be within the trainee's abilities.",
+          "clause": "1926.1427(b)(4)(iv)(C)"
+        }
+      ]
+    },
+    {
+      "heading": "How can a crane operator be certified or licensed?",
+      "intro": "1926.1427(c) requires a state or local operator license where a qualifying government program exists, and otherwise certification through an accredited testing organization or an audited employer program.",
+      "items": [
+        {
+          "text": "Where a state or local government issues licenses for Subpart CC equipment and its program meets the conditions listed in 1926.1427(c)(1), the operator must hold that license to operate within that jurisdiction.",
+          "clause": "1926.1427(c)(1)"
+        },
+        {
+          "text": "A license is valid for the period the licensing office sets, but no longer than 5 years, for compliance with this section.",
+          "clause": "1926.1427(c)(1)(v)"
+        },
+        {
+          "text": "An operator not required to be licensed must be certified under paragraph (d) or (e).",
+          "clause": "1926.1427(c)(2)"
+        },
+        {
+          "text": "The employer must provide any required certification or licensure at no cost to employees.",
+          "clause": "1926.1427(c)(3)"
+        },
+        {
+          "text": "A testing entity may provide both training and testing if it meets the criteria of the applicable governmental or accrediting agency for organizations offering both services.",
+          "clause": "1926.1427(c)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What makes a certification from an accredited testing organization valid?",
+      "intro": "Under 1926.1427(d), a certification counts only if the testing organization meets the accreditation and testing conditions in 1926.1427(d)(1); such a certificate is portable and lasts 5 years.",
+      "items": [
+        {
+          "text": "The testing organization must be accredited by a nationally recognized accrediting agency.",
+          "clause": "1926.1427(d)(1)(i)"
+        },
+        {
+          "text": "Its written and practical tests must assess, at a minimum, the topics and skills in paragraphs (j)(1) and (j)(2).",
+          "clause": "1926.1427(d)(1)(ii)(A)"
+        },
+        {
+          "text": "Certification must be based on equipment type, or type and capacity.",
+          "clause": "1926.1427(d)(1)(ii)(B)"
+        },
+        {
+          "text": "The accrediting agency must review the organization's accreditation at least every 3 years.",
+          "clause": "1926.1427(d)(1)(v)"
+        },
+        {
+          "text": "If no accredited agency offers an exam for a type of equipment, certification for the most similar type with an available exam satisfies the requirement.",
+          "clause": "1926.1427(d)(2)"
+        },
+        {
+          "text": "The certificate must state the type of equipment the operator is certified for.",
+          "clause": "1926.1427(d)(2)"
+        },
+        {
+          "text": "The certification is portable among employers required to have operators certified under this option.",
+          "clause": "1926.1427(d)(3)"
+        },
+        {
+          "text": "The certification is valid for 5 years.",
+          "clause": "1926.1427(d)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What does an audited employer certification program require?",
+      "intro": "1926.1427(e) lets an employer certify its own employees if outside auditors approve the tests and how they are given, and the program is audited on the set schedule.",
+      "items": [
+        {
+          "text": "Written and practical tests must be developed by an accredited crane operator testing organization or approved by an auditor who meets every condition in 1926.1427(e)(1)(ii).",
+          "clause": "1926.1427(e)(1)"
+        },
+        {
+          "text": "An auditor approving tests must hold certification to evaluate such tests from an accredited testing organization under paragraph (d).",
+          "clause": "1926.1427(e)(1)(ii)(A)"
+        },
+        {
+          "text": "The auditor approving tests must not be an employee of the employer.",
+          "clause": "1926.1427(e)(1)(ii)(B)"
+        },
+        {
+          "text": "Tests must be administered under circumstances the auditor approves as meeting nationally recognized test administration standards.",
+          "clause": "1926.1427(e)(2)(i)"
+        },
+        {
+          "text": "The program must be audited within 3 months of its start and at least every 3 years after that.",
+          "clause": "1926.1427(e)(3)"
+        },
+        {
+          "text": "The program must include audited re-qualification testing procedures so operators continue to meet the knowledge and skills in paragraph (j).",
+          "clause": "1926.1427(e)(4)"
+        },
+        {
+          "text": "An audited-program certificate is not portable: it is valid only while the operator is employed by, and operating for, the employer that issued it.",
+          "clause": "1926.1427(e)(6)(i)"
+        },
+        {
+          "text": "An audited-program certificate is valid for 5 years.",
+          "clause": "1926.1427(e)(6)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What happens when an auditor finds a deficiency in an employer program?",
+      "intro": "When an auditor finds a significant deficiency, 1926.1427(e)(5) requires the employer to halt qualifications, arrange a re-audit and ensure OSHA is told.",
+      "items": [
+        {
+          "text": "No operator may be qualified until the auditor confirms the deficiency has been corrected.",
+          "clause": "1926.1427(e)(5)(i)"
+        },
+        {
+          "text": "The program must be audited again within 180 days of the confirmation that the deficiency was corrected.",
+          "clause": "1926.1427(e)(5)(ii)"
+        },
+        {
+          "text": "The auditor must file a documented report of the deficiency with the appropriate OSHA Regional Office within 15 days of finding it.",
+          "clause": "1926.1427(e)(5)(iii)"
+        },
+        {
+          "text": "The auditor must keep audit records for 3 years and make them available to the Secretary of Labor or a designated representative on request.",
+          "clause": "1926.1427(e)(5)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "How must the employer evaluate and document each operator?",
+      "intro": "1926.1427(f) requires the employer, separately from certification, to evaluate each operator's qualification through a demonstration and to document the result.",
+      "items": [
+        {
+          "text": "The evaluation must show the skills, knowledge and ability to recognize and avert risk for the equipment, including its safety devices, operational aids, software, and size and configuration (such as lifting capacity, boom length, attachments, luffing jib and counterweight set-up).",
+          "clause": "1926.1427(f)(1)(i)"
+        },
+        {
+          "text": "The operator must demonstrate the hoisting activities required for assigned work, including blind lifts, personnel hoisting and multi-crane lifts where applicable.",
+          "clause": "1926.1427(f)(1)(ii)"
+        },
+        {
+          "text": "Holding a certificate or degree cannot by itself make someone qualified for this evaluation.",
+          "clause": "1926.1427(f)(3)"
+        },
+        {
+          "text": "The person conducting the evaluation must be equipped, through knowledge, training and experience, to assess equipment operators.",
+          "clause": "1926.1427(f)(4)"
+        },
+        {
+          "text": "The evaluator must work for the employer or act as its agent, and an employer using an agent keeps the duty to meet paragraph (f).",
+          "clause": "1926.1427(f)(5)"
+        },
+        {
+          "text": "For operators employed before December 10, 2018, the employer may rely on its previous assessments instead of a new evaluation of existing knowledge and skills.",
+          "clause": "1926.1427(f)(2)"
+        },
+        {
+          "text": "The evaluation document must give the operator's name, the evaluator's name and signature, the date, and the make, model and configuration of equipment used, and must be available at the worksite while the operator is employed.",
+          "clause": "1926.1427(f)(6)"
+        },
+        {
+          "text": "After retraining under paragraph (b)(5), the operator must be re-evaluated on the subject of the retraining.",
+          "clause": "1926.1427(f)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "What must certification tests cover, and in what language?",
+      "intro": "1926.1427(j) sets the content of the written and practical certification tests, and 1926.1427(h) sets how language and literacy are handled.",
+      "items": [
+        {
+          "text": "The written test must confirm knowledge for safe operation of the specific equipment type, covering every topic listed in 1926.1427(j)(1)(i): controls and operating characteristics, load/capacity calculations, power line contact, Appendix C criteria, ground and site conditions, and Subpart CC itself.",
+          "clause": "1926.1427(j)(1)(i)"
+        },
+        {
+          "text": "The written test must confirm the operator can read and locate relevant information in the equipment manual and related materials.",
+          "clause": "1926.1427(j)(1)(ii)"
+        },
+        {
+          "text": "The practical test must confirm the operator can recognize the shift inspection items in 1926.1412(d), maneuver the equipment, apply load chart information and apply safe shut-down and securing procedures.",
+          "clause": "1926.1427(j)(2)"
+        },
+        {
+          "text": "Tests may be given and answered verbally only where the candidate passes a written literacy demonstration relevant to the work and shows the ability to use the written manufacturer procedures for that equipment class/type.",
+          "clause": "1926.1427(h)(1)"
+        },
+        {
+          "text": "Tests may be given in any language the candidate understands, and the certification documentation must note that language.",
+          "clause": "1926.1427(h)(2)"
+        },
+        {
+          "text": "The operator may only run equipment furnished with the required materials, such as operations manuals and load charts, written in the language of the certification.",
+          "clause": "1926.1427(h)(2)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers operator certification, evaluation records and supervision of operators-in-training under 29 CFR 1926.1427, for use before an operator starts work on a crane and during site inspections.",
+  "checklist": "us/1926-1427-operator-training-certification-evaluation",
+  "faq": [
+    {
+      "question": "When did 29 CFR 1926.1427 take effect?",
+      "answer": "Under 1926.1427(k), the section took effect on December 10, 2018, except the evaluation and documentation requirements in paragraphs (a) and (f), which took effect on February 7, 2019."
+    },
+    {
+      "question": "What happens if an operator fails a certification test or is decertified?",
+      "answer": "1926.1427(d)(1)(iii) requires an accredited testing organization to have procedures that let the operator re-apply and be re-tested. Under 1926.1427(d)(1)(iv), it must also have re-certification testing procedures so certified operators keep meeting the technical knowledge and skills requirements."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1427: Operator training, certification, and evaluation (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1427"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "crane operator certification",
+    "crane operator training",
+    "operator-in-training"
+  ],
+  "cover": "1926-1427-operator-training-certification-evaluation",
+  "coverPrompt": "A mobile crane on a construction site lifting a steel beam with tag lines, while a trainer in a hard hat and high-visibility vest stands near the cab watching the operator at the controls, photographed from a distance.",
+  "coverAlt": "Trainer watching a crane operator lift a steel beam on a construction site",
+  "changes": []
+}
