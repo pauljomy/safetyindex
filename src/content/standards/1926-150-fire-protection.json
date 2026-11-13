@@ -1,0 +1,443 @@
+{
+  "section": "1926.150",
+  "part": "1926",
+  "heading": "Fire protection.",
+  "subpart": "F",
+  "subpartTitle": "Fire Protection and Prevention",
+  "title": "Construction fire protection inspection checklist (29 CFR 1926.150)",
+  "seoTitle": "Fire protection inspection: OSHA 1926.150 checklist",
+  "description": "OSHA 29 CFR 1926.150 fire protection requirements for construction, FY2022–FY2026 citation data and a printable fire extinguisher inspection checklist.",
+  "opening": "29 CFR 1926.150 requires employers to develop a fire protection program for all phases of construction and demolition work and to provide accessible, maintained firefighting equipment, including rated extinguishers, a water supply, an alarm system and fire cutoffs.",
+  "keyword": "fire protection inspection",
+  "cluster": [
+    {
+      "keyword": "osha construction fire extinguisher requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction fire extinguisher checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction fire extinguisher inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha fire protection requirements",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire protection checklist",
+      "volume": 10,
+      "kd": 50,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fire protection inspection",
+      "volume": 390,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.150",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 400,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 901,
+    "inspections": 854,
+    "byFy": {
+      "2022": 242,
+      "2023": 202,
+      "2024": 135,
+      "2025": 158,
+      "2026": 164
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(1)(i)",
+        "count": 269
+      },
+      {
+        "paragraph": "(c)(1)(viii)",
+        "count": 206
+      },
+      {
+        "paragraph": "(c)(1)(iv)",
+        "count": 146
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 91
+      },
+      {
+        "paragraph": "(c)(1)(vi)",
+        "count": 78
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 68
+      },
+      {
+        "paragraph": "(a)(3)",
+        "count": 25
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 16
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 1
+      },
+      {
+        "paragraph": "(f)(1)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 438,
+      "median": 1600,
+      "p25": 300,
+      "p75": 3405,
+      "total": 1041471
+    },
+    "typeShares": {
+      "serious": 0.368,
+      "willful": 0,
+      "repeat": 0.026,
+      "otherThanSerious": 0.606,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 332,
+      "willful": 0,
+      "repeat": 23,
+      "otherThanSerious": 546,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 320,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 152,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 125,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 120,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2383",
+        "count": 87,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 40,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2371",
+        "count": 12,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2373",
+        "count": 9,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 7,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "5629",
+        "count": 5,
+        "title": "Remediation and Other Waste Management Services"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph, 1926.150(c)(1)(i), drew 269 citations and covers 2A extinguisher coverage by building area and the 100-foot travel distance limit. Next came 1926.150(c)(1)(viii) with 206, on periodic inspection and maintenance of portable extinguishers, and 1926.150(c)(1)(iv) with 146, on extinguishers for each floor and near stairways in multistory buildings. Citations fell from 242 in FY2022 to 135 in FY2024, then rose to 158 in FY2025 and 164 in FY2026.",
+  "requirementsIntro": "1926.150 puts its duties on employers doing construction and demolition work, as part of Part 1926 Subpart F (Fire Protection and Prevention). It is organised into general requirements (a), water supply (b), portable firefighting equipment (c), fixed firefighting equipment (d), fire alarm devices (e) and fire cutoffs (f).",
+  "requirements": [
+    {
+      "heading": "What must an employer's construction fire protection program cover?",
+      "intro": "Under 1926.150(a), the employer's program must be followed in every project phase, and the employer provides the firefighting equipment that Subpart F specifies.",
+      "items": [
+        {
+          "text": "Develop a fire protection program to be followed throughout all phases of the construction and demolition work.",
+          "clause": "1926.150(a)(1)"
+        },
+        {
+          "text": "Provide the necessary firefighting equipment without delay as fire hazards occur.",
+          "clause": "1926.150(a)(1)"
+        },
+        {
+          "text": "Maintain access to all available firefighting equipment at all times.",
+          "clause": "1926.150(a)(2)"
+        },
+        {
+          "text": "Place all firefighting equipment the employer provides in conspicuous locations.",
+          "clause": "1926.150(a)(3)"
+        },
+        {
+          "text": "Inspect all firefighting equipment periodically and keep it in operating condition.",
+          "clause": "1926.150(a)(4)"
+        },
+        {
+          "text": "Replace defective firefighting equipment immediately.",
+          "clause": "1926.150(a)(4)"
+        },
+        {
+          "text": "Where the project warrants it, provide a trained and equipped fire brigade to assure adequate protection to life.",
+          "clause": "1926.150(a)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "When must a construction site have a firefighting water supply?",
+      "intro": "1926.150(b) requires a temporary or permanent water supply to be made available as soon as combustible materials accumulate on the project.",
+      "items": [
+        {
+          "text": "Make available a water supply of sufficient volume, duration and pressure to properly operate the firefighting equipment once combustible materials accumulate.",
+          "clause": "1926.150(b)(1)"
+        },
+        {
+          "text": "Where underground water mains are to be provided, install and complete them and make them available for use as soon as practicable.",
+          "clause": "1926.150(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "How many fire extinguishers does a construction site need, and where do they go?",
+      "intro": "1926.150(c)(1) sets extinguisher coverage by building area, travel distance, floor and proximity to flammable liquids or gases, using 2A and 10B minimum ratings.",
+      "items": [
+        {
+          "text": "Provide a fire extinguisher rated at least 2A for each 3,000 square feet of the protected building area, or major fraction thereof.",
+          "clause": "1926.150(c)(1)(i)"
+        },
+        {
+          "text": "Keep travel distance from any point of the protected area to the closest extinguisher at 100 feet or less.",
+          "clause": "1926.150(c)(1)(i)"
+        },
+        {
+          "text": "Provide one or more extinguishers rated not less than 2A on each floor.",
+          "clause": "1926.150(c)(1)(iv)"
+        },
+        {
+          "text": "In multistory buildings, locate at least one extinguisher adjacent to a stairway.",
+          "clause": "1926.150(c)(1)(iv)"
+        },
+        {
+          "text": "Provide an extinguisher rated at least 10B within 50 feet of wherever more than 5 gallons of flammable or combustible liquids or 5 pounds of flammable gas are being used on the jobsite; this does not apply to the integral fuel tanks of motor vehicles.",
+          "clause": "1926.150(c)(1)(vi)"
+        },
+        {
+          "text": "Protect extinguishers and water drums that are subject to freezing from freezing.",
+          "clause": "1926.150(c)(1)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "Which fire extinguishers are allowed, and how must they be maintained?",
+      "intro": "1926.150(c)(1) requires listed or approved extinguishers, bans toxic vaporizing liquid types and requires periodic inspection and maintenance of portable units.",
+      "items": [
+        {
+          "text": "Use fire extinguishers listed or approved by a nationally recognized testing laboratory to meet the subpart's requirements.",
+          "clause": "1926.150(c)(1)(ix)"
+        },
+        {
+          "text": "Do not use carbon tetrachloride or other toxic vaporizing liquid fire extinguishers.",
+          "clause": "1926.150(c)(1)(vii)"
+        },
+        {
+          "text": "Inspect portable fire extinguishers periodically and maintain them in accordance with NFPA No. 10A-1970.",
+          "clause": "1926.150(c)(1)(viii)"
+        },
+        {
+          "text": "Table F-1 may be used as a guide when selecting portable fire extinguishers.",
+          "clause": "1926.150(c)(1)(x)"
+        }
+      ]
+    },
+    {
+      "heading": "What can replace a 2A extinguisher, and what hose lines are required?",
+      "intro": "1926.150(c) lets employers substitute a water drum or a hose line for a 2A-rated extinguisher when stated conditions are met, and sets duties for hose connections and demolition hose lines.",
+      "items": [
+        {
+          "text": "One 55-gallon open drum of water with two fire pails may be substituted for a 2A-rated extinguisher.",
+          "clause": "1926.150(c)(1)(ii)"
+        },
+        {
+          "text": "A 1/2-inch garden-type hose line no longer than 100 feet, with a nozzle, may replace a 2A-rated extinguisher if it can discharge at least 5 gallons per minute with a hose stream range of at least 30 feet horizontally.",
+          "clause": "1926.150(c)(1)(iii)"
+        },
+        {
+          "text": "Mount garden-type hose lines on conventional racks or reels.",
+          "clause": "1926.150(c)(1)(iii)"
+        },
+        {
+          "text": "Set the number and location of hose racks or reels so that at least one hose stream can be applied to all points in the area.",
+          "clause": "1926.150(c)(1)(iii)"
+        },
+        {
+          "text": "One hundred feet or less of 1 1/2-inch hose, with a nozzle discharging 25 gallons or more per minute, can take the place of an extinguisher rated not more than 2A in the designated area, provided the hose line can reach every point there.",
+          "clause": "1926.150(c)(2)(i)"
+        },
+        {
+          "text": "If fire hose connections are not compatible with local firefighting equipment, the contractor provides adapters, or equivalent, to permit connections.",
+          "clause": "1926.150(c)(2)(ii)"
+        },
+        {
+          "text": "During demolition involving combustible materials, make charged hose lines available, supplied by hydrants, water tank trucks with pumps, or equivalent.",
+          "clause": "1926.150(c)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "When must sprinklers and standpipes be in service during construction?",
+      "intro": "1926.150(d) requires sprinkler and standpipe protection to keep pace with construction and to stay in service while a structure is altered or demolished, as that paragraph sets out.",
+      "items": [
+        {
+          "text": "If the facility includes automatic sprinkler protection, the installation closely follows construction and is placed in service as soon as applicable laws permit following completion of each story.",
+          "clause": "1926.150(d)(1)(i)"
+        },
+        {
+          "text": "During demolition or alterations, retain existing automatic sprinkler installations in service as long as reasonable.",
+          "clause": "1926.150(d)(1)(ii)"
+        },
+        {
+          "text": "Permit only properly authorized persons to operate sprinkler control valves.",
+          "clause": "1926.150(d)(1)(ii)"
+        },
+        {
+          "text": "Check sprinkler control valves daily at close of work to confirm the protection is in service.",
+          "clause": "1926.150(d)(1)(ii)"
+        },
+        {
+          "text": "In structures where standpipes are required, or where they exist in structures being altered, bring them up as soon as applicable laws permit.",
+          "clause": "1926.150(d)(2)"
+        },
+        {
+          "text": "Maintain standpipes as construction progresses so they are always ready for fire protection use.",
+          "clause": "1926.150(d)(2)"
+        },
+        {
+          "text": "Provide standpipes with Siamese fire department connections, conspicuously marked, on the outside of the structure at street level.",
+          "clause": "1926.150(d)(2)"
+        },
+        {
+          "text": "Provide at least one standard hose outlet at each floor of the standpipe system.",
+          "clause": "1926.150(d)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What fire alarm and fire cutoff measures does 1926.150 require?",
+      "intro": "1926.150(e) and (f) require an emergency alarm system with posted reporting instructions, priority for fire walls and exit stairways, and retention of fire cutoffs during alterations or demolition.",
+      "items": [
+        {
+          "text": "Establish an alarm system by which employees on the site and the local fire department can be alerted for an emergency.",
+          "clause": "1926.150(e)(1)"
+        },
+        {
+          "text": "Post the alarm code and reporting instructions conspicuously at phones and at employee entrances.",
+          "clause": "1926.150(e)(2)"
+        },
+        {
+          "text": "Give construction priority to fire walls and exit stairways required for the completed building.",
+          "clause": "1926.150(f)(1)"
+        },
+        {
+          "text": "Hang fire doors with automatic closing devices on openings as soon as practicable.",
+          "clause": "1926.150(f)(1)"
+        },
+        {
+          "text": "Retain fire cutoffs in buildings undergoing alterations or demolition until operations necessitate their removal.",
+          "clause": "1926.150(f)(2)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers extinguishers, water supply, hose lines, sprinklers, standpipes, alarms and fire cutoffs under 29 CFR 1926.150; use it on jobsite walks while building, alteration or demolition work is under way.",
+  "checklist": "us/1926-150-fire-protection",
+  "faq": [
+    {
+      "question": "Does 1926.150 set a fixed interval for fire extinguisher inspections?",
+      "answer": "No. Paragraphs (a)(4) and (c)(1)(viii) say only that equipment is inspected \"periodically\". Paragraph (c)(1)(viii) points to NFPA 10A-1970 for how portable extinguishers are inspected and maintained, so check that document, your regulator or a competent person for the interval that applies."
+    },
+    {
+      "question": "What kind of alarm system meets 1926.150(e)(1)?",
+      "answer": "The paragraph lists a telephone system and a siren as examples (\"e.g.\"), so they are not the only options. Whatever is used has to be able to alert site employees and the local fire department in an emergency."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.150: Fire protection (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.150"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "construction fire protection",
+    "jobsite fire extinguishers",
+    "construction fire extinguisher requirements"
+  ],
+  "cover": "1926-150-fire-protection",
+  "coverPrompt": "Interior of a building under construction with exposed steel framing and a concrete floor, a red portable fire extinguisher mounted on a column beside a stairway, and a worker in a hard hat and high-visibility vest walking past in the background.",
+  "coverAlt": "Portable fire extinguisher mounted beside a stairway on an unfinished building floor",
+  "changes": []
+}

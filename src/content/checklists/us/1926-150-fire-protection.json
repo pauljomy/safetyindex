@@ -1,0 +1,217 @@
+{
+  "slug": "1926-150-fire-protection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-150-fire-protection",
+  "doc_ref": "SI-US-1926-150",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Construction Fire Protection Inspection Checklist (29 CFR 1926.150)",
+  "subtitle": "For jobsite walks to check firefighting equipment, water supply, alarms and fire cutoffs.",
+  "regulation_line": "OSHA 29 CFR 1926.150",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each defect and the action taken; defective firefighting equipment must be replaced immediately under 1926.150(a)(4).",
+    "The manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Program, access and equipment condition",
+      "items": [
+        [
+          "Fire protection program",
+          "The site's fire protection program exists and covers the current phase of construction or demolition work",
+          "1926.150(a)(1)"
+        ],
+        [
+          "Access to equipment",
+          "No materials, debris or vehicles block any extinguisher, hose rack, drum or standpipe outlet",
+          "1926.150(a)(2)"
+        ],
+        [
+          "Conspicuous location",
+          "Employer-provided firefighting equipment is in plain view or clearly marked where it is",
+          "1926.150(a)(3)"
+        ],
+        [
+          "Operating condition",
+          "Equipment is in operating condition; anything defective has been replaced, not left in place",
+          "1926.150(a)(4)"
+        ],
+        [
+          "Fire brigade",
+          "Where the project warrants one, a trained and equipped fire brigade is in place",
+          "1926.150(a)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Portable fire extinguishers",
+      "items": [
+        [
+          "Coverage by area",
+          "At least one extinguisher rated 2A or higher for each 3,000 sq ft, or major fraction, of the protected building area",
+          "1926.150(c)(1)(i)"
+        ],
+        [
+          "Travel distance",
+          "No point in the protected area is more than 100 feet of travel from an extinguisher",
+          "1926.150(c)(1)(i)"
+        ],
+        [
+          "Each floor",
+          "One or more extinguishers rated 2A or higher on every floor",
+          "1926.150(c)(1)(iv)"
+        ],
+        [
+          "Stairway extinguisher",
+          "In a multistory building, at least one extinguisher sits adjacent to a stairway",
+          "1926.150(c)(1)(iv)"
+        ],
+        [
+          "Flammable liquids and gas",
+          "A 10B-or-higher extinguisher within 50 feet wherever more than 5 gallons of flammable or combustible liquids or 5 pounds of flammable gas are in use (vehicle integral fuel tanks excluded)",
+          "1926.150(c)(1)(vi)"
+        ],
+        [
+          "Freeze protection",
+          "Extinguishers and water drums exposed to freezing are protected from it",
+          "1926.150(c)(1)(v)"
+        ],
+        [
+          "Listed or approved",
+          "Each extinguisher is listed or approved by a nationally recognized testing laboratory",
+          "1926.150(c)(1)(ix)"
+        ],
+        [
+          "Prohibited types",
+          "No carbon tetrachloride or other toxic vaporizing liquid extinguishers on site",
+          "1926.150(c)(1)(vii)"
+        ],
+        [
+          "Inspection and maintenance",
+          "Evidence that each portable extinguisher is inspected periodically and maintained per NFPA No. 10A-1970",
+          "1926.150(c)(1)(viii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Water supply and hose lines",
+      "items": [
+        [
+          "Water supply",
+          "Once combustible materials have accumulated, water of sufficient volume, duration and pressure is available to run the firefighting equipment",
+          "1926.150(b)(1)"
+        ],
+        [
+          "Water drum substitute",
+          "Any drum used in place of a 2A extinguisher is a 55-gallon open drum of water with two fire pails",
+          "1926.150(c)(1)(ii)"
+        ],
+        [
+          "Garden-type hose substitute",
+          "Hose is 1/2-inch, 100 feet or shorter, has a nozzle, delivers at least 5 gallons per minute and reaches at least 30 feet horizontally",
+          "1926.150(c)(1)(iii)"
+        ],
+        [
+          "Hose racks or reels",
+          "Garden-type hose is on conventional racks or reels placed so a hose stream reaches all points in the area",
+          "1926.150(c)(1)(iii)"
+        ],
+        [
+          "Hose connection adapters",
+          "Adapters or equivalent are on hand where hose connections don't fit local firefighting equipment",
+          "1926.150(c)(2)(ii)"
+        ],
+        [
+          "Demolition hose lines",
+          "During demolition involving combustible materials, charged hose lines fed by hydrants, tank trucks with pumps or equivalent are available",
+          "1926.150(c)(2)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Sprinklers and standpipes",
+      "items": [
+        [
+          "New sprinkler installation",
+          "Where sprinklers are part of the facility, installation keeps pace with construction and is in service on completed stories where laws permit",
+          "1926.150(d)(1)(i)"
+        ],
+        [
+          "Existing sprinklers",
+          "During demolition or alterations, existing sprinklers remain in service as long as reasonable",
+          "1926.150(d)(1)(ii)"
+        ],
+        [
+          "Sprinkler control valves",
+          "Valves were checked at close of work today and show protection in service; only authorized persons operate them",
+          "1926.150(d)(1)(ii)"
+        ],
+        [
+          "Standpipe readiness",
+          "Required or existing standpipes are brought up with the structure and ready for fire protection use",
+          "1926.150(d)(2)"
+        ],
+        [
+          "Siamese connection",
+          "Fire department connection is outside the structure at street level and conspicuously marked",
+          "1926.150(d)(2)"
+        ],
+        [
+          "Hose outlets",
+          "At least one standard hose outlet on each floor",
+          "1926.150(d)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Alarms and fire cutoffs",
+      "items": [
+        [
+          "Alarm system",
+          "A working means, such as a telephone system or siren, alerts employees on site and the fire department in an emergency",
+          "1926.150(e)(1)"
+        ],
+        [
+          "Posted alarm code",
+          "Alarm code and reporting instructions are posted where they are easy to see at phones and employee entrances",
+          "1926.150(e)(2)"
+        ],
+        [
+          "Fire doors",
+          "Fire doors with automatic closing devices are hung on openings once practicable",
+          "1926.150(f)(1)"
+        ],
+        [
+          "Fire cutoffs during alterations or demolition",
+          "Fire cutoffs remain in place until operations make removal necessary",
+          "1926.150(f)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.150: Fire protection (Part 1926 Subpart F, Fire Protection and Prevention)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
