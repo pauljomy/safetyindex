@@ -1,0 +1,522 @@
+{
+  "section": "1910.140",
+  "part": "1910",
+  "heading": "Personal fall protection systems.",
+  "subpart": "I",
+  "subpartTitle": "Personal Protective Equipment",
+  "title": "Safety harness inspection checklist and OSHA rules (29 CFR 1910.140)",
+  "seoTitle": "Safety Harness Inspection: OSHA 1910.140 Checklist",
+  "description": "Safety harness inspection and OSHA 1910.140 requirements, with citation data and a free printable checklist for personal fall arrest systems.",
+  "opening": "OSHA's 29 CFR 1910.140 sets performance, care and use criteria for every personal fall protection system, including harnesses, lanyards, lifelines, connectors and anchorages, and requires each system to be inspected before initial use during each workshift.",
+  "keyword": "safety harness inspection",
+  "cluster": [
+    {
+      "keyword": "osha safety harness requirements",
+      "volume": 260,
+      "kd": 16,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "safety harness checklist",
+      "volume": 210,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "safety harness inspection",
+      "volume": 260,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha personal fall arrest requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal fall arrest checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal fall arrest inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha personal fall protection systems requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal fall protection systems checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal fall protection systems inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.140",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 730,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 443,
+    "inspections": 344,
+    "byFy": {
+      "2022": 77,
+      "2023": 95,
+      "2024": 104,
+      "2025": 97,
+      "2026": 70
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(18)",
+        "count": 112
+      },
+      {
+        "paragraph": "(c)(13)(i)",
+        "count": 52
+      },
+      {
+        "paragraph": "(d)(2)(ii)",
+        "count": 52
+      },
+      {
+        "paragraph": "(c)(13)(ii)",
+        "count": 38
+      },
+      {
+        "paragraph": "(d)(3)",
+        "count": 31
+      },
+      {
+        "paragraph": "(c)(20)",
+        "count": 24
+      },
+      {
+        "paragraph": "(c)(22)",
+        "count": 15
+      },
+      {
+        "paragraph": "(c)(12)",
+        "count": 14
+      },
+      {
+        "paragraph": "(c)(10)(i)",
+        "count": 13
+      },
+      {
+        "paragraph": "(c)(11)(i)",
+        "count": 13
+      }
+    ],
+    "penalties": {
+      "n": 291,
+      "median": 5485,
+      "p25": 3330,
+      "p75": 10938,
+      "total": 2230789
+    },
+    "typeShares": {
+      "serious": 0.837,
+      "willful": 0.002,
+      "repeat": 0.011,
+      "otherThanSerious": 0.149,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 371,
+      "willful": 1,
+      "repeat": 5,
+      "otherThanSerious": 66,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "5617",
+        "count": 80,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "4931",
+        "count": 46,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "2373",
+        "count": 20,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3116",
+        "count": 17,
+        "title": "Animal Slaughtering and Processing"
+      },
+      {
+        "naics": "2131",
+        "count": 12,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "2213",
+        "count": 12,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "2381",
+        "count": 9,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "4421",
+        "count": 9,
+        "title": null
+      },
+      {
+        "naics": "4441",
+        "count": 9,
+        "title": "Building Material and Supplies Dealers"
+      },
+      {
+        "naics": "3219",
+        "count": 8,
+        "title": "Other Wood Product Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1910.140(c)(18), with 112 citations. It requires the per-shift check for mildew, wear, damage and deterioration and removal of defective components. Next come 1910.140(c)(13)(i) on anchorage strength and 1910.140(d)(2)(ii) on rigging that limits free fall to 6 feet, at 52 citations each. Yearly citations rose from 77 in FY2022 to 95 in FY2023 and 104 in FY2024, then fell to 97 in FY2025 and 70 in FY2026.",
+  "requirementsIntro": "Under 1910.140(a), the section covers every personal fall protection system an employer uses to comply with Part 1910. Paragraph (c) sets general rules for all systems, paragraph (d) adds rules for personal fall arrest systems, and paragraph (e) adds rules for positioning systems, including window cleaners' systems.",
+  "requirements": [
+    {
+      "heading": "When must harnesses and other fall protection equipment be inspected?",
+      "intro": "Under 1910.140, each system must be inspected before its first use in every workshift. After impact loading, equipment stays out of service until a competent person clears it, and knots in lanyards and vertical lifelines must be checked before use.",
+      "items": [
+        {
+          "text": "Inspect each personal fall protection system before initial use during each workshift for mildew, wear, damage and other deterioration.",
+          "clause": "1910.140(c)(18)"
+        },
+        {
+          "text": "Remove from service any defective component found during that inspection.",
+          "clause": "1910.140(c)(18)"
+        },
+        {
+          "text": "Remove a system or component subjected to impact loading from service immediately. Do not use it again until a competent person inspects it and determines that it is undamaged and safe for employee fall protection.",
+          "clause": "1910.140(c)(17)"
+        },
+        {
+          "text": "Before any employee uses a lanyard or vertical lifeline, a competent person or qualified person must inspect each knot in it to confirm that the line still meets the strength rules in 1910.140(c)(4) and 1910.140(c)(5).",
+          "clause": "1910.140(c)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What strength and design rules apply to connectors, lanyards and lifelines?",
+      "intro": "Under 1910.140(c), lanyards, vertical lifelines, self-retracting devices, D-rings, snaphooks and carabiners each have a minimum strength. Snaphooks and carabiners must also lock automatically.",
+      "items": [
+        {
+          "text": "Connectors must be drop forged, pressed or formed steel, or made of equivalent materials.",
+          "clause": "1910.140(c)(1)"
+        },
+        {
+          "text": "Connectors must have a corrosion-resistant finish, with smooth surfaces and edges so they do not damage the parts they connect to.",
+          "clause": "1910.140(c)(2)"
+        },
+        {
+          "text": "Lanyards and vertical lifelines must have a minimum breaking strength of 5,000 pounds (22.2 kN).",
+          "clause": "1910.140(c)(4)"
+        },
+        {
+          "text": "Self-retracting lifelines and lanyards that automatically limit free fall to 2 feet (0.61 m) or less must have components that can sustain a minimum tensile load of 3,000 pounds (13.3 kN) with the line fully extended.",
+          "clause": "1910.140(c)(5)"
+        },
+        {
+          "text": "D-rings, snaphooks and carabiners must be able to sustain a minimum tensile load of 5,000 pounds (22.2 kN).",
+          "clause": "1910.140(c)(7)"
+        },
+        {
+          "text": "D-rings, snaphooks and carabiners must be proof tested to a minimum tensile load of 3,600 pounds (16 kN) without cracking, breaking or permanent deformation.",
+          "clause": "1910.140(c)(8)"
+        },
+        {
+          "text": "Snaphook and carabiner gates must withstand a minimum load of 3,600 pounds (16 kN) without separating from the nose of the body by more than 0.125 inches (3.175 mm).",
+          "clause": "1910.140(c)(8)"
+        },
+        {
+          "text": "Snaphooks and carabiners must be the automatic locking type, needing at least two separate, consecutive movements to open.",
+          "clause": "1910.140(c)(9)"
+        }
+      ]
+    },
+    {
+      "heading": "Where can snaphooks and carabiners be clipped?",
+      "intro": "Under 1910.140(c)(10), snaphooks and carabiners must not be connected in the ways listed below unless they are designed for that connection.",
+      "items": [
+        {
+          "text": "Do not clip them directly to webbing, rope or wire rope unless the connector is designed for it.",
+          "clause": "1910.140(c)(10)(i)"
+        },
+        {
+          "text": "Do not clip snaphooks or carabiners to each other unless they are made for that connection.",
+          "clause": "1910.140(c)(10)(ii)"
+        },
+        {
+          "text": "Do not attach one to a D-ring that already holds another snaphook, carabiner or connector, unless its design allows this.",
+          "clause": "1910.140(c)(10)(iii)"
+        },
+        {
+          "text": "Do not connect one to a horizontal lifeline unless it is designed for horizontal lifeline use.",
+          "clause": "1910.140(c)(10)(iv)"
+        },
+        {
+          "text": "Do not connect one to an object whose shape or size could press the gate open and let the parts separate, unless the hook or carabiner is designed for that object.",
+          "clause": "1910.140(c)(10)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What must anchorages and lifelines meet?",
+      "intro": "Under 1910.140(c)(12) and 1910.140(c)(13), fall protection anchorages must be independent of anchorages used to suspend workers or platforms. Each must also either support a set load per employee or be engineered under a qualified person, and lifelines have their own rules.",
+      "items": [
+        {
+          "text": "Anchorages for fall protection equipment must be independent of any anchorage used to suspend employees or the platforms they work on.",
+          "clause": "1910.140(c)(12)"
+        },
+        {
+          "text": "On mobile work platforms on powered industrial trucks, the fall protection anchorage must be attached to an overhead member of the platform, above and near its center.",
+          "clause": "1910.140(c)(12)"
+        },
+        {
+          "text": "One way to comply is an anchorage that can support at least 5,000 pounds (22.2 kN) for each employee attached. Window cleaners' belt anchors are covered by paragraph (e) instead.",
+          "clause": "1910.140(c)(13)(i)"
+        },
+        {
+          "text": "The alternative is an anchorage designed, installed and used under the supervision of a qualified person, as part of a complete system that maintains a safety factor of at least two.",
+          "clause": "1910.140(c)(13)(ii)"
+        },
+        {
+          "text": "When vertical lifelines are used, each employee must be attached to a separate lifeline.",
+          "clause": "1910.140(c)(3)"
+        },
+        {
+          "text": "Each horizontal lifeline must be designed, installed and used under the supervision of a qualified person.",
+          "clause": "1910.140(c)(11)(i)"
+        },
+        {
+          "text": "Each horizontal lifeline must be part of a complete personal fall arrest system that keeps a safety factor of two or more.",
+          "clause": "1910.140(c)(11)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must a personal fall arrest system be rigged and worn?",
+      "intro": "Under 1910.140, a personal fall arrest system must use a body harness, normally attached at the center of the back near shoulder level. It must be rigged so the worker cannot free fall more than 6 feet (1.8 m) or hit a lower level, apart from the manufacturer-tested exception in 1910.140(d)(2)(ii).",
+      "items": [
+        {
+          "text": "Body belts are prohibited as part of a personal fall arrest system.",
+          "clause": "1910.140(d)(3)"
+        },
+        {
+          "text": "Wear the system with the body harness attachment point in the center of the employee's back near shoulder level.",
+          "clause": "1910.140(c)(22)"
+        },
+        {
+          "text": "The attachment point may be in the pre-sternal (chest) position only if free fall is limited to 2 feet (0.6 m) or less.",
+          "clause": "1910.140(c)(22)"
+        },
+        {
+          "text": "Rig the system so the employee cannot free fall more than 6 feet (1.8 m) or contact a lower level.",
+          "clause": "1910.140(d)(2)(ii)"
+        },
+        {
+          "text": "A free fall over 6 feet is allowed only if the employer can demonstrate that the manufacturer designed the system for it and tested it to ensure that the maximum arresting force of 1,800 pounds (8 kN) is not exceeded.",
+          "clause": "1910.140(d)(2)(ii)"
+        },
+        {
+          "text": "On a horizontal lifeline that may become a vertical lifeline, the connecting device must be able to lock in both directions on the lifeline.",
+          "clause": "1910.140(d)(2)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What forces and distances must a personal fall arrest system limit?",
+      "intro": "1910.140(d)(1) sets performance limits for personal fall arrest systems, including a maximum arresting force of 1,800 pounds (8 kN) and a maximum deceleration distance of 3.5 feet (1.1 m).",
+      "items": [
+        {
+          "text": "Limit the maximum arresting force on the employee to 1,800 pounds (8 kN).",
+          "clause": "1910.140(d)(1)(i)"
+        },
+        {
+          "text": "Bring the employee to a complete stop within a maximum deceleration distance of 3.5 feet (1.1 m).",
+          "clause": "1910.140(d)(1)(ii)"
+        },
+        {
+          "text": "Have enough strength to withstand twice the potential impact energy of the employee free falling 6 feet (1.8 m), or the free fall distance the system permits.",
+          "clause": "1910.140(d)(1)(iii)"
+        },
+        {
+          "text": "Hold the employee in the system or strap configuration without contact with the neck and chin area.",
+          "clause": "1910.140(d)(1)(iv)"
+        },
+        {
+          "text": "A system that meets the criteria and protocols in appendix D of the subpart, used by an employee whose combined body and tool weight is under 310 pounds (140 kg), is considered compliant with 1910.140(d)(1)(i) through 1910.140(d)(1)(iii).",
+          "clause": "1910.140(d)(1)(v)"
+        },
+        {
+          "text": "For an employee whose combined body and tool weight is 310 pounds (140 kg) or more, the system is deemed compliant with those three limits only if the employer has appropriately modified the appendix D criteria and protocols.",
+          "clause": "1910.140(d)(1)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "How must equipment be used and protected, and who handles rescue?",
+      "intro": "Under 1910.140(c), fall protection equipment may be used only for fall protection. It must be protected from cutting, abrasion and melting, and the employer must provide for prompt rescue after a fall.",
+      "items": [
+        {
+          "text": "Use systems and components only for employee fall protection, never for another purpose such as hoisting equipment or materials.",
+          "clause": "1910.140(c)(16)"
+        },
+        {
+          "text": "Protect ropes, belts, lanyards, lifelines and harnesses from being cut, abraded, melted or otherwise damaged.",
+          "clause": "1910.140(c)(20)"
+        },
+        {
+          "text": "Ropes, belts, lanyards and harnesses must be compatible with all the connectors used with them.",
+          "clause": "1910.140(c)(19)"
+        },
+        {
+          "text": "Lifelines must not be made of natural fiber rope.",
+          "clause": "1910.140(c)(15)"
+        },
+        {
+          "text": "Polypropylene rope must contain an ultraviolet (UV) light inhibitor.",
+          "clause": "1910.140(c)(15)"
+        },
+        {
+          "text": "The employer must provide for prompt rescue of each employee in the event of a fall.",
+          "clause": "1910.140(c)(21)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra rules apply to positioning and window cleaners' systems?",
+      "intro": "1910.140(e) sets drop tests for positioning systems and use rules for window cleaners' positioning systems, which secure a window cleaner's belt to window anchors.",
+      "items": [
+        {
+          "text": "Positioning systems other than window cleaners' systems must withstand, without failure, a 4-foot (1.2-m) drop of a 250-pound (113-kg) weight.",
+          "clause": "1910.140(e)(1)(i)"
+        },
+        {
+          "text": "Window cleaners' positioning systems must withstand, without failure, a 6-foot (1.8-m) drop of a 250-pound (113-kg) weight.",
+          "clause": "1910.140(e)(1)(ii)(A)"
+        },
+        {
+          "text": "Window anchors must be installed in the side frames or mullions, not less than 42 inches (106.7 cm) and not more than 51 inches (129.5 cm) above the window sill.",
+          "clause": "1910.140(e)(2)(ii)"
+        },
+        {
+          "text": "Each window anchor must be able to support a minimum load of 6,000 pounds (26.5 kN).",
+          "clause": "1910.140(e)(2)(iii)"
+        },
+        {
+          "text": "Installed window anchors must not be used for anything other than attaching the window cleaner's belt.",
+          "clause": "1910.140(e)(2)(iv)"
+        },
+        {
+          "text": "During any cleaning operation, both belt terminals must be attached to separate window anchors.",
+          "clause": "1910.140(e)(2)(vii)"
+        },
+        {
+          "text": "The employee attaches at least one belt terminal to a window anchor before climbing through the window opening, and keeps one attached until completely back inside.",
+          "clause": "1910.140(e)(2)(x)"
+        },
+        {
+          "text": "No employee works on a sill or ledge that has snow, ice or another slippery condition, or that is weakened or rotted.",
+          "clause": "1910.140(e)(2)(viii)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "Use this checklist for the harness, connector, anchorage, rigging and window-cleaning checks in 1910.140, both at the per-shift inspection before first use and whenever equipment has taken an impact load.",
+  "checklist": "us/1910-140-personal-fall-protection-systems",
+  "faq": [
+    {
+      "question": "What is the difference between a competent person and a qualified person in 1910.140?",
+      "answer": "Under the 1910.140(b) definitions, a competent person can identify existing and predictable hazards in a fall protection system, its components and their use, and has authority to take prompt corrective action. A qualified person has a recognized degree, certificate or professional standing, or has shown through extensive knowledge, training and experience the ability to solve problems in the subject matter."
+    },
+    {
+      "question": "Does free fall distance include the extension of a self-retracting lifeline?",
+      "answer": "Yes. The 1910.140(b) definition of free fall distance includes any deceleration device slide distance or self-retracting lifeline/lanyard extension before the device operates. It excludes deceleration distance and lifeline and lanyard elongation."
+    },
+    {
+      "question": "Are travel restraint systems covered by 1910.140?",
+      "answer": "Yes. The 1910.140(b) definition of a personal fall protection system names travel restraint systems as an example. Under 1910.140(c)(14), travel restraint lines must sustain a tensile load of at least 5,000 pounds (22.2 kN)."
+    },
+    {
+      "question": "What tests apply to lineman's body belt and pole strap systems?",
+      "answer": "1910.140(e)(1)(iv) requires a dielectric test of 819.7 volts AC per centimeter (25,000 volts per foot) for 3 minutes without visible deterioration. It also requires a leakage test of 98.4 volts AC per centimeter (3,000 volts per foot) with leakage current of no more than 1 mA, and a flammability test under Table I-7 of the section."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.140: Personal fall protection systems (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.140"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "personal fall arrest systems",
+    "safety harness inspection",
+    "personal fall protection systems"
+  ],
+  "cover": "1910-140-personal-fall-protection-systems",
+  "coverPrompt": "A maintenance worker in a warehouse holds up a full-body safety harness and checks its webbing and back D-ring before putting it on. A shock-absorbing lanyard with locking snaphooks lies on a workbench beside them. The photo is taken from a medium distance in natural light, and the worker's face is not shown in close-up.",
+  "coverAlt": "Worker checking the webbing and back D-ring of a full-body safety harness before a shift",
+  "changes": []
+}

@@ -1,0 +1,242 @@
+{
+  "slug": "1910-140-personal-fall-protection-systems",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-140-personal-fall-protection-systems",
+  "doc_ref": "SI-US-1910-140",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Safety Harness Inspection Checklist (29 CFR 1910.140)",
+  "subtitle": "For the inspection before initial use in each workshift, plus anchorage, rigging and rescue checks on site.",
+  "regulation_line": "OSHA 29 CFR 1910.140",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Remove any defective component from service (1910.140(c)(18)). Equipment subjected to impact loading stays out of use until a competent person clears it (1910.140(c)(17)).",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Harness, lanyards and lifelines",
+      "items": [
+        [
+          "Webbing, stitching and rope condition",
+          "No mildew, wear, damage or other deterioration on any strap, stitch line or rope",
+          "1910.140(c)(18)"
+        ],
+        [
+          "Impact loading",
+          "Not subjected to impact loading, or a competent person has inspected it and found it undamaged and safe",
+          "1910.140(c)(17)"
+        ],
+        [
+          "Harness type",
+          "Full body harness in use; no body belt used as part of a personal fall arrest system",
+          "1910.140(d)(3)"
+        ],
+        [
+          "Knots in lanyards or vertical lifelines",
+          "Every knot inspected by a competent or qualified person before the line is used",
+          "1910.140(c)(6)"
+        ],
+        [
+          "Lifeline material",
+          "No natural fiber rope used as a lifeline",
+          "1910.140(c)(15)"
+        ],
+        [
+          "Polypropylene rope",
+          "Any polypropylene rope contains a UV light inhibitor",
+          "1910.140(c)(15)"
+        ],
+        [
+          "Protection from damage",
+          "Lines and harness kept clear of anything that could cut, abrade or melt them",
+          "1910.140(c)(20)"
+        ],
+        [
+          "Use limited to fall protection",
+          "Equipment not used to hoist tools or materials",
+          "1910.140(c)(16)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Connectors: D-rings, snaphooks and carabiners",
+      "items": [
+        [
+          "Finish and edges",
+          "Corrosion-resistant finish; smooth surfaces and edges with nothing that could damage connected parts",
+          "1910.140(c)(2)"
+        ],
+        [
+          "Locking gates",
+          "Snaphooks and carabiners lock automatically and need two separate, consecutive movements to open",
+          "1910.140(c)(9)"
+        ],
+        [
+          "Rated strength",
+          "D-rings, snaphooks and carabiners rated to sustain at least 5,000 pounds (22.2 kN) tensile load",
+          "1910.140(c)(7)"
+        ],
+        [
+          "Clip to webbing or rope",
+          "Not clipped directly to webbing, rope or wire rope, or the connector is designed for that",
+          "1910.140(c)(10)(i)"
+        ],
+        [
+          "Hook to hook",
+          "No snaphook or carabiner clipped to another, unless built for it",
+          "1910.140(c)(10)(ii)"
+        ],
+        [
+          "Shared D-ring",
+          "No connector added to a D-ring already holding another connector, unless designed for it",
+          "1910.140(c)(10)(iii)"
+        ],
+        [
+          "Horizontal lifeline connection",
+          "Only connectors designed for horizontal lifelines are attached to one",
+          "1910.140(c)(10)(iv)"
+        ],
+        [
+          "Shape compatibility",
+          "Connected object cannot press the gate open and let the parts separate",
+          "1910.140(c)(10)(v)"
+        ],
+        [
+          "Compatibility with straps and lines",
+          "Ropes, belts, lanyards and harness match every connector used with them",
+          "1910.140(c)(19)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Anchorages and lifelines",
+      "items": [
+        [
+          "Independent anchorage",
+          "Fall protection anchorage separate from any anchorage that suspends workers or platforms",
+          "1910.140(c)(12)"
+        ],
+        [
+          "Powered industrial truck platform",
+          "Anchorage on an overhead member of the platform, above and near its center",
+          "1910.140(c)(12)"
+        ],
+        [
+          "Anchorage rating",
+          "Anchorage supports at least 5,000 pounds (22.2 kN) for each employee attached",
+          "1910.140(c)(13)(i)"
+        ],
+        [
+          "Engineered anchorage (if not rated per employee)",
+          "Designed, installed and used under a qualified person's supervision, as part of a complete system with a safety factor of two or more",
+          "1910.140(c)(13)(ii)"
+        ],
+        [
+          "Vertical lifelines",
+          "One employee per vertical lifeline",
+          "1910.140(c)(3)"
+        ],
+        [
+          "Horizontal lifeline supervision",
+          "Designed, installed and used under the supervision of a qualified person",
+          "1910.140(c)(11)(i)"
+        ],
+        [
+          "Horizontal lifeline that may become vertical",
+          "Connecting device locks in both directions on the lifeline",
+          "1910.140(d)(2)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Fit, rigging and rescue",
+      "items": [
+        [
+          "Attachment point",
+          "Harness attachment point in the center of the back near shoulder level; chest point only where free fall is 2 feet (0.6 m) or less",
+          "1910.140(c)(22)"
+        ],
+        [
+          "Free fall and clearance",
+          "Rigged so the worker cannot free fall more than 6 feet (1.8 m) or contact a lower level, unless the manufacturer exception in the clause is demonstrated",
+          "1910.140(d)(2)(ii)"
+        ],
+        [
+          "Neck and chin",
+          "Strap configuration would hold the worker without contacting the neck and chin area",
+          "1910.140(d)(1)(iv)"
+        ],
+        [
+          "Rescue",
+          "Arrangements for prompt rescue of each employee after a fall are in place for this job",
+          "1910.140(c)(21)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Window cleaners' positioning systems",
+      "items": [
+        [
+          "Window anchor condition",
+          "Anchors with damaged or deteriorated fastenings or supports are removed, or their heads detached so they cannot be used",
+          "1910.140(e)(2)(v)"
+        ],
+        [
+          "Window anchor height",
+          "Anchor in the side frame or mullion, 42 to 51 inches (106.7 to 129.5 cm) above the sill",
+          "1910.140(e)(2)(ii)"
+        ],
+        [
+          "Rope condition",
+          "No rope in use with wear or deterioration that affects its strength",
+          "1910.140(e)(2)(vi)"
+        ],
+        [
+          "Both terminals attached",
+          "Each belt terminal on a separate window anchor during cleaning",
+          "1910.140(e)(2)(vii)"
+        ],
+        [
+          "Attachment before climbing out",
+          "At least one terminal attached before the worker climbs through the opening and until fully back inside",
+          "1910.140(e)(2)(x)"
+        ],
+        [
+          "Sill or ledge surface",
+          "No snow, ice or other slippery condition; not weakened or rotted",
+          "1910.140(e)(2)(viii)"
+        ],
+        [
+          "Sill or ledge width and slope",
+          "At least 4 inches (10 cm) wide and sloping no more than 15 degrees below horizontal (steeper sills: see 1910.140(e)(2)(ix)(B))",
+          "1910.140(e)(2)(ix)(A)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.140: Personal fall protection systems (Part 1910 Subpart I, Personal Protective Equipment)",
+    "Source: eCFR, Title 29, https://www.ecfr.gov/current/title-29/section-1910.140 (text as of 2026-11-09)"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
