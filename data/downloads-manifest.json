@@ -200,6 +200,16 @@
       "pdf": "/downloads/us/1910-25-stairways.pdf",
       "xlsx": "/downloads/us/1910-25-stairways.xlsx"
     },
+    "us/1910-252-welding-cutting-brazing": {
+      "hash": "ae567c9c2b9fbfbf13105a89a975becbe1edb5c19a5f5e0f74c1bf81d425e2c3",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 44,
+      "page_url": "https://safetyindex.blog/us/standards/1910-252-welding-cutting-brazing",
+      "pdf": "/downloads/us/1910-252-welding-cutting-brazing.pdf",
+      "xlsx": "/downloads/us/1910-252-welding-cutting-brazing.xlsx"
+    },
     "us/1910-27-scaffolds-rope-descent-systems": {
       "hash": "b481eccb0c5b74fd863f3ced913fb545aa90ce5ea59c48c3825568c19a16bb1c",
       "lang": "en",

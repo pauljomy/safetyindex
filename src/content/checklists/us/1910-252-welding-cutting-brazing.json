@@ -1,0 +1,287 @@
+{
+  "slug": "1910-252-welding-cutting-brazing",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-252-welding-cutting-brazing",
+  "doc_ref": "SI-US-1910-252",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Welding Safety Checklist (29 CFR 1910.252)",
+  "subtitle": "Use before hot work starts and while welding, cutting or brazing is under way.",
+  "regulation_line": "OSHA 29 CFR 1910.252",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is marked Defect, do not start or continue the hot work until it is corrected, and record what was done.",
+    "The equipment manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Area preparation and authorization",
+      "items": [
+        [
+          "Area inspected and authorized",
+          "The authorizing person has inspected the area and named the precautions before work begins",
+          "1910.252(a)(2)(iv)"
+        ],
+        [
+          "Combustibles moved or covered",
+          "Combustibles at least 35 feet from the work, or, where moving them is impracticable, under flameproofed covers or behind metal guards or curtains",
+          "1910.252(a)(2)(vii)"
+        ],
+        [
+          "Floor cleared",
+          "Floor clear of paper clippings, wood shavings, textile fibers and similar combustibles for 35 feet around the work",
+          "1910.252(a)(2)(v)"
+        ],
+        [
+          "Floor and wall openings",
+          "Cracks, floor openings, wall holes, open doorways and broken windows closed or protected so sparks cannot reach combustibles beyond them",
+          "1910.252(a)(2)(i)"
+        ],
+        [
+          "Ducts and conveyors",
+          "Ducts and conveyors that could carry sparks to distant combustibles are protected or shut down",
+          "1910.252(a)(2)(viii)"
+        ],
+        [
+          "Sprinklers in service",
+          "In a sprinklered building, sprinkler protection is not impaired",
+          "1910.252(a)(2)(vi)(B)"
+        ],
+        [
+          "No explosive atmosphere",
+          "No flammable gas, vapor, liquid or dust mixtures with air at the work, and no accumulation of combustible dust",
+          "1910.252(a)(2)(vi)(C)"
+        ],
+        [
+          "Used containers cleaned",
+          "Used drums, barrels or tanks cleaned of flammables, greases, tars and acids before hot work",
+          "1910.252(a)(3)(i)"
+        ],
+        [
+          "Extinguishing equipment",
+          "Extinguishers, hose, water pails or sand buckets suited to the combustibles present, ready for instant use",
+          "1910.252(a)(2)(ii)"
+        ],
+        [
+          "Far side of metal walls",
+          "Combustibles behind a metal wall, partition, ceiling or roof relocated, or a fire watch posted on that side",
+          "1910.252(a)(2)(x)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Fire watch and training",
+      "items": [
+        [
+          "Fire watch assigned where needed",
+          "A fire watcher is assigned where more than a minor fire could develop or a condition in 1910.252(a)(2)(iii)(A) applies, such as combustibles within 35 feet",
+          "1910.252(a)(2)(iii)(A)"
+        ],
+        [
+          "Fire watcher equipped and trained",
+          "Fire watcher has an extinguisher or other firefighting equipment within reach and has been trained to use it",
+          "1910.252(a)(2)(iii)(B)"
+        ],
+        [
+          "Alarm known",
+          "Fire watcher knows where and how to raise the alarm",
+          "1910.252(a)(2)(iii)(B)"
+        ],
+        [
+          "Watch after work ends",
+          "Fire watch continues for at least a half hour after hot work ends",
+          "1910.252(a)(2)(iii)(B)"
+        ],
+        [
+          "Welders and supervisors trained",
+          "Cutters, welders and their supervisors can show training in safe operation of the equipment and process",
+          "1910.252(a)(2)(xiii)(C)"
+        ],
+        [
+          "Fire protection located",
+          "Firefighting equipment is properly located at the site",
+          "1910.252(a)(2)(xiv)(F)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Eye, face and body protection",
+      "items": [
+        [
+          "Arc welding helmet",
+          "Each arc welder or arc cutter uses a helmet or hand shield (submerged arc welding excluded)",
+          "1910.252(b)(2)(i)(A)"
+        ],
+        [
+          "Helper eye protection",
+          "Helpers and attendants wear proper eye protection",
+          "1910.252(b)(2)(i)(A)"
+        ],
+        [
+          "Gas welding eye protection",
+          "Gas welders and oxygen cutters wear goggles or other suitable eye protection",
+          "1910.252(b)(2)(i)(B)"
+        ],
+        [
+          "Lens marking",
+          "Lenses carry a permanent mark showing source and shade",
+          "1910.252(b)(2)(ii)(G)"
+        ],
+        [
+          "Booth or screens",
+          "Where the work permits, the welder works inside a booth or noncombustible screens with a low-reflectivity finish",
+          "1910.252(b)(2)(iii)"
+        ],
+        [
+          "Floor-level air",
+          "Air can move freely under or through booths and screens at floor level",
+          "1910.252(b)(2)(iii)"
+        ],
+        [
+          "Adjacent workers shielded",
+          "People next to the welding area are behind noncombustible or flameproof screens or shields, or wear appropriate goggles",
+          "1910.252(b)(2)(iii)"
+        ],
+        [
+          "Protective clothing",
+          "Protective clothing and other PPE selected under 1910.132 for the size, nature and location of the job",
+          "1910.252(b)(3)"
+        ],
+        [
+          "Fall protection",
+          "Welders and helpers on platforms, scaffolds or runways are protected by railings, safety belts, life lines or an equally effective safeguard",
+          "1910.252(b)(1)(i)"
+        ],
+        [
+          "Cable routing",
+          "Welding cable and equipment kept out of passageways and off ladders and stairways",
+          "1910.252(b)(1)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Ventilation, fumes and hazard communication",
+      "items": [
+        [
+          "Fume levels controlled",
+          "Exhaust or general ventilation running and positioned so toxic fumes, gases and dusts stay below the 1910.1000 limits",
+          "1910.252(c)(1)(iii)"
+        ],
+        [
+          "Mechanical ventilation where required",
+          "Mechanical ventilation provided in spaces under 10,000 cubic feet per welder, under a 16-foot ceiling, or with obstructed cross ventilation",
+          "1910.252(c)(2)(i)"
+        ],
+        [
+          "Exhaust hood position",
+          "Movable hood placed as near as practicable to the work",
+          "1910.252(c)(3)(i)"
+        ],
+        [
+          "Degreasing vapors",
+          "Chlorinated hydrocarbon degreasing located so its vapors cannot reach the welding atmosphere",
+          "1910.252(c)(11)(ii)"
+        ],
+        [
+          "Lead-bearing metals",
+          "Lead-bearing metals and lead paint worked indoors only with local exhaust ventilation or airline respirators running",
+          "1910.252(c)(7)(iii)"
+        ],
+        [
+          "Labels and safety data sheets",
+          "Workers can reach the labels and safety data sheets for the fluxes, filler metals and coatings in use",
+          "1910.252(c)(1)(iv)"
+        ],
+        [
+          "Filler metal notice",
+          "Filler metal and fusible granular material containers carry the ventilation warning notice",
+          "1910.252(c)(1)(v)(B)"
+        ],
+        [
+          "First aid",
+          "First-aid equipment on hand during all work",
+          "1910.252(c)(13)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Confined spaces and containers",
+      "items": [
+        [
+          "Cylinders and machines outside",
+          "Gas cylinders and welding machines are outside the confined space",
+          "1910.252(b)(4)(iii)"
+        ],
+        [
+          "Wheeled equipment blocked",
+          "Heavy wheeled portable equipment securely blocked before work starts",
+          "1910.252(b)(4)(iii)"
+        ],
+        [
+          "Rescue means",
+          "A way to pull the welder out quickly is in place, and any lifeline is attached so the body cannot jam in the opening",
+          "1910.252(b)(4)(iv)"
+        ],
+        [
+          "Outside attendant",
+          "Attendant stationed outside, watching the welder continuously, with a preplanned rescue procedure",
+          "1910.252(b)(4)(iv)"
+        ],
+        [
+          "Ventilation and air supply",
+          "Space ventilated, and replacement air is clean and respirable",
+          "1910.252(c)(4)(i)"
+        ],
+        [
+          "No oxygen ventilation",
+          "Oxygen is not being used to ventilate the space",
+          "1910.252(c)(4)(v)"
+        ],
+        [
+          "Electrode holders",
+          "During long breaks in arc welding, electrodes are out of holders, holders placed safely and the machine disconnected",
+          "1910.252(b)(4)(v)"
+        ],
+        [
+          "Torch and gas supply",
+          "During long breaks, torch valves closed and fuel-gas and oxygen shut off at a point outside the space",
+          "1910.252(b)(4)(vi)"
+        ],
+        [
+          "Hollow spaces vented",
+          "Hollow spaces, cavities and containers vented to let air or gases escape before preheating, cutting or welding",
+          "1910.252(a)(3)(ii)"
+        ],
+        [
+          "Hot metal marked",
+          "Hot metal marked or another warning given to other workers after welding",
+          "1910.252(b)(4)(vii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.252: General requirements (Part 1910 Subpart Q: Welding, Cutting and Brazing)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

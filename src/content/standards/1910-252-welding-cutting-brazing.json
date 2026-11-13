@@ -1,0 +1,642 @@
+{
+  "section": "1910.252",
+  "part": "1910",
+  "heading": "General requirements.",
+  "subpart": "Q",
+  "subpartTitle": "Welding, Cutting and Brazing",
+  "title": "Welding safety checklist and OSHA requirements (29 CFR 1910.252)",
+  "seoTitle": "Welding Safety Checklist: OSHA 1910.252 Rules",
+  "description": "OSHA 29 CFR 1910.252 welding, cutting and brazing requirements in plain language, enforcement data and a printable welding safety inspection checklist.",
+  "opening": "29 CFR 1910.252 requires employers to prevent fires before any welding, cutting or brazing starts, protect workers' eyes, skin and body from the arc and sparks, ventilate the work to keep fumes below exposure limits, and take extra precautions in confined spaces.",
+  "keyword": "welding safety checklist",
+  "cluster": [
+    {
+      "keyword": "osha welding safety requirements",
+      "volume": 30,
+      "kd": 30,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "welding safety checklist",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "welding safety inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha hot work requirements",
+      "volume": 40,
+      "kd": 17,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hot work checklist",
+      "volume": 20,
+      "kd": 19,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hot work inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha welding cutting and brazing requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "welding cutting and brazing checklist",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "welding cutting and brazing inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.252",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 120,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1109,
+    "inspections": 874,
+    "byFy": {
+      "2022": 166,
+      "2023": 255,
+      "2024": 214,
+      "2025": 250,
+      "2026": 224
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(2)(iii)",
+        "count": 479
+      },
+      {
+        "paragraph": "(b)(2)(i)(A)",
+        "count": 60
+      },
+      {
+        "paragraph": "(b)(3)",
+        "count": 60
+      },
+      {
+        "paragraph": "(c)(1)(iv)",
+        "count": 51
+      },
+      {
+        "paragraph": "(a)(3)(i)",
+        "count": 50
+      },
+      {
+        "paragraph": "(a)(2)(vii)",
+        "count": 35
+      },
+      {
+        "paragraph": "(a)(2)(vi)(C)",
+        "count": 29
+      },
+      {
+        "paragraph": "(a)(2)(xiii)(C)",
+        "count": 27
+      },
+      {
+        "paragraph": "(a)(2)(iv)",
+        "count": 26
+      },
+      {
+        "paragraph": "(a)(2)(ii)",
+        "count": 25
+      }
+    ],
+    "penalties": {
+      "n": 823,
+      "median": 4965,
+      "p25": 2500,
+      "p75": 9218,
+      "total": 5824374
+    },
+    "typeShares": {
+      "serious": 0.787,
+      "willful": 0.002,
+      "repeat": 0.014,
+      "otherThanSerious": 0.197,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 873,
+      "willful": 2,
+      "repeat": 16,
+      "otherThanSerious": 218,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "3323",
+        "count": 202,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 82,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3362",
+        "count": 53,
+        "title": "Motor Vehicle Body and Trailer Manufacturing"
+      },
+      {
+        "naics": "8111",
+        "count": 47,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "3339",
+        "count": 41,
+        "title": "Other General Purpose Machinery Manufacturing"
+      },
+      {
+        "naics": "4239",
+        "count": 37,
+        "title": "Miscellaneous Durable Goods Merchant Wholesalers"
+      },
+      {
+        "naics": "3331",
+        "count": 35,
+        "title": "Agriculture, Construction, and Mining Machinery Manufacturing"
+      },
+      {
+        "naics": "3327",
+        "count": 27,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "8113",
+        "count": 27,
+        "title": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+      },
+      {
+        "naics": "3363",
+        "count": 26,
+        "title": "Motor Vehicle Parts Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.252(b)(2)(iii), which covers shielding welders and the people next to them from arc rays with booths, screens or goggles, drew 479 of the 1,109 citations in FY2022–FY2026. Helmets or hand shields for arc welding (1910.252(b)(2)(i)(A)) and protective equipment under 1910.132 (1910.252(b)(3)) followed with 60 citations each. Citations rose from 166 in FY2022 to 255 in FY2023, then ran at 214, 250 and 224 in FY2024 to FY2026.",
+  "requirementsIntro": "1910.252 sets the general requirements for welding, cutting and brazing under Part 1910 Subpart Q and places duties on employers, on management where the work is done, on supervisors and on welders and cutters, including outside contractors. It is organised as (a) fire prevention and protection, (b) protection of personnel, (c) health protection and ventilation and (d) industrial applications for transmission pipelines and mechanical piping; the groups below give the main rules, and the full text on eCFR has more, including the lens shade and hood airflow tables.",
+  "requirements": [
+    {
+      "heading": "When may welding or cutting go ahead near fire hazards?",
+      "intro": "Welding or cutting may go ahead only in an area made fire safe: 1910.252(a)(1) requires fire hazards to be moved or guarded when the work itself cannot be moved, and bans the work if neither is possible.",
+      "items": [
+        {
+          "text": "If the object to be welded or cut cannot readily be moved, take all movable fire hazards in the vicinity to a safe place.",
+          "clause": "1910.252(a)(1)(i)"
+        },
+        {
+          "text": "If the object cannot be moved and not all fire hazards can be removed, use guards to confine heat, sparks and slag and to protect the fire hazards that stay.",
+          "clause": "1910.252(a)(1)(ii)"
+        },
+        {
+          "text": "If neither of those two precautions can be followed, do not weld or cut.",
+          "clause": "1910.252(a)(1)(iii)"
+        },
+        {
+          "text": "Permit cutting or welding only in areas that are or have been made fire safe; where the work cannot practically be moved, remove combustibles or protect them from ignition sources.",
+          "clause": "1910.252(a)(2)(xv)"
+        },
+        {
+          "text": "Before work is permitted, the person responsible for authorizing cutting and welding must inspect the area and designate the precautions to follow.",
+          "clause": "1910.252(a)(2)(iv)"
+        },
+        {
+          "text": "Keep suitable fire extinguishing equipment ready for instant use; pails of water, buckets of sand, hose or portable extinguishers can qualify depending on the type and amount of combustible material exposed.",
+          "clause": "1910.252(a)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "Where and on what is welding or cutting prohibited?",
+      "intro": "1910.252 bans cutting or welding in the four situations listed in (a)(2)(vi), on certain walls and pipes, and on used containers that have not been cleaned.",
+      "items": [
+        {
+          "text": "Cutting or welding is not permitted in areas management has not authorized.",
+          "clause": "1910.252(a)(2)(vi)(A)"
+        },
+        {
+          "text": "Sprinklered buildings are off limits while the sprinkler protection is impaired.",
+          "clause": "1910.252(a)(2)(vi)(B)"
+        },
+        {
+          "text": "Hot work is banned where explosive atmospheres of flammable gases, vapors, liquids or dusts mixed with air are present or may develop, including inside uncleaned or improperly prepared tanks or equipment and in areas where combustible dust accumulates.",
+          "clause": "1910.252(a)(2)(vi)(C)"
+        },
+        {
+          "text": "Work near storage of large quantities of exposed, readily ignitible materials, such as bulk sulfur, baled paper or cotton, is prohibited.",
+          "clause": "1910.252(a)(2)(vi)(D)"
+        },
+        {
+          "text": "Welding must not be attempted on a metal partition, wall, ceiling or roof with a combustible covering, or on walls or partitions of combustible sandwich-type panel construction.",
+          "clause": "1910.252(a)(2)(xi)"
+        },
+        {
+          "text": "Cutting or welding on pipes or other metal touching combustible walls, partitions, ceilings or roofs must not be done if the work is close enough to ignite them by conduction.",
+          "clause": "1910.252(a)(2)(xii)"
+        },
+        {
+          "text": "Do no welding, cutting or other hot work on used drums, barrels, tanks or other containers until they are cleaned thoroughly enough to be certain that no flammable materials remain, nor substances such as greases, tars or acids that could give off flammable or toxic vapors when heated.",
+          "clause": "1910.252(a)(3)(i)"
+        },
+        {
+          "text": "Disconnect or blank any pipe lines or connections to the drum or vessel.",
+          "clause": "1910.252(a)(3)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "How must combustibles near the work be protected?",
+      "intro": "1910.252(a)(2) requires combustibles to be moved at least 35 feet from the work where practicable and otherwise shielded, with extra precautions for floors, openings, ducts and walls.",
+      "items": [
+        {
+          "text": "Where practicable, relocate all combustibles at least 35 feet (10.7 m) from the work site; where that is impracticable, protect them with flameproofed covers or shield them with metal or asbestos guards or curtains.",
+          "clause": "1910.252(a)(2)(vii)"
+        },
+        {
+          "text": "Where paper clippings, wood shavings, textile fibers or similar combustibles are on the floor, sweep the floor clean for a 35-foot radius.",
+          "clause": "1910.252(a)(2)(v)"
+        },
+        {
+          "text": "Keep combustible floors wet, cover them with damp sand or protect them with fire-resistant shields.",
+          "clause": "1910.252(a)(2)(v)"
+        },
+        {
+          "text": "Where floors have been wet down, protect anyone operating arc welding or cutting equipment from possible shock.",
+          "clause": "1910.252(a)(2)(v)"
+        },
+        {
+          "text": "Where floor openings or cracks cannot be closed, take precautions so sparks dropping through cannot reach readily combustible materials on the floor below; the same applies to cracks or holes in walls, open doorways and open or broken windows.",
+          "clause": "1910.252(a)(2)(i)"
+        },
+        {
+          "text": "Suitably protect or shut down ducts and conveyor systems that might carry sparks to distant combustibles.",
+          "clause": "1910.252(a)(2)(viii)"
+        },
+        {
+          "text": "Provide fire-resistant shields or guards when cutting or welding near walls, partitions, ceilings or roofs of combustible construction.",
+          "clause": "1910.252(a)(2)(ix)"
+        },
+        {
+          "text": "When welding on a metal wall, partition, ceiling or roof, prevent ignition of combustibles on the other side, preferably by relocating them; if they are not relocated, post a fire watch on the opposite side.",
+          "clause": "1910.252(a)(2)(x)"
+        }
+      ]
+    },
+    {
+      "heading": "When is a fire watch required under 1910.252?",
+      "intro": "Fire watchers are required under 1910.252(a)(2)(iii)(A) wherever welding or cutting could start more than a minor fire, or where any of the four conditions below exists.",
+      "items": [
+        {
+          "text": "Appreciable combustible material, in the building construction or contents, lies closer than 35 feet (10.7 m) to the point of operation.",
+          "clause": "1910.252(a)(2)(iii)(A)(1)"
+        },
+        {
+          "text": "Appreciable combustibles are more than 35 feet away but are easily ignited by sparks.",
+          "clause": "1910.252(a)(2)(iii)(A)(2)"
+        },
+        {
+          "text": "Wall or floor openings within a 35-foot radius expose combustible material in adjacent areas, including concealed spaces in walls or floors.",
+          "clause": "1910.252(a)(2)(iii)(A)(3)"
+        },
+        {
+          "text": "Combustible materials are next to the opposite side of metal partitions, walls, ceilings or roofs and are likely to be ignited by conduction or radiation.",
+          "clause": "1910.252(a)(2)(iii)(A)(4)"
+        },
+        {
+          "text": "Fire watchers must have fire extinguishing equipment readily available and be trained in its use.",
+          "clause": "1910.252(a)(2)(iii)(B)"
+        },
+        {
+          "text": "Fire watchers must know the facilities for sounding an alarm, watch all exposed areas, try to put out a fire only when it is obviously within the capacity of the equipment available, and sound the alarm for any fire beyond that capacity.",
+          "clause": "1910.252(a)(2)(iii)(B)"
+        },
+        {
+          "text": "Keep the fire watch for at least a half hour after welding or cutting is finished to detect and put out smoldering fires.",
+          "clause": "1910.252(a)(2)(iii)(B)"
+        }
+      ]
+    },
+    {
+      "heading": "What are management and supervisors responsible for?",
+      "intro": "1910.252(a)(2)(xiii) makes management responsible for safe use of cutting and welding equipment on its property, and 1910.252(a)(2)(xiv) assigns site duties to the supervisor, including some not listed here.",
+      "items": [
+        {
+          "text": "Management must establish areas for cutting and welding based on the fire potential of plant facilities, and set procedures for cutting and welding in other areas.",
+          "clause": "1910.252(a)(2)(xiii)(A)"
+        },
+        {
+          "text": "Management must designate an individual responsible for authorizing cutting and welding in areas not specifically designed for it.",
+          "clause": "1910.252(a)(2)(xiii)(B)"
+        },
+        {
+          "text": "Management must insist that cutters, welders and their supervisors are suitably trained in safe operation of the equipment and safe use of the process.",
+          "clause": "1910.252(a)(2)(xiii)(C)"
+        },
+        {
+          "text": "Management must advise all contractors about flammable materials or hazardous conditions they may not be aware of.",
+          "clause": "1910.252(a)(2)(xiii)(D)"
+        },
+        {
+          "text": "The supervisor must determine which combustible materials and hazardous areas are present or likely to be present at the work location.",
+          "clause": "1910.252(a)(2)(xiv)(B)"
+        },
+        {
+          "text": "The supervisor must schedule cutting and welding so that plant operations that might expose combustibles to ignition are not started during the work.",
+          "clause": "1910.252(a)(2)(xiv)(C)(3)"
+        },
+        {
+          "text": "The supervisor must secure authorization for the operation from the designated management representative.",
+          "clause": "1910.252(a)(2)(xiv)(D)"
+        },
+        {
+          "text": "Where fire watches are required, the supervisor must see that they are available at the site.",
+          "clause": "1910.252(a)(2)(xiv)(G)"
+        }
+      ]
+    },
+    {
+      "heading": "What eye and face protection does 1910.252 require?",
+      "intro": "1910.252(b)(2) requires a helmet or hand shield for arc welding and cutting, eye protection such as goggles for gas welding, oxygen cutting and brazing, and sets construction rules for the protectors.",
+      "items": [
+        {
+          "text": "Use helmets or hand shields during all arc welding and arc cutting, except submerged arc welding.",
+          "clause": "1910.252(b)(2)(i)(A)"
+        },
+        {
+          "text": "Provide helpers or attendants with proper eye protection.",
+          "clause": "1910.252(b)(2)(i)(A)"
+        },
+        {
+          "text": "Use goggles or other suitable eye protection during all gas welding and oxygen cutting; spectacles without side shields but with suitable filter lenses are permitted for gas welding on light work, torch brazing or inspection.",
+          "clause": "1910.252(b)(2)(i)(B)"
+        },
+        {
+          "text": "Operators and attendants of resistance welding or resistance brazing equipment must use transparent face shields or goggles, depending on the job.",
+          "clause": "1910.252(b)(2)(i)(C)"
+        },
+        {
+          "text": "Provide suitable goggles where needed for brazing not covered by 1910.252(b)(2)(i)(A) through (C).",
+          "clause": "1910.252(b)(2)(i)(D)"
+        },
+        {
+          "text": "Helmets and hand shields must protect the face, neck and ears from direct radiant energy from the arc.",
+          "clause": "1910.252(b)(2)(ii)(B)"
+        },
+        {
+          "text": "Lenses must carry a permanent distinctive marking that identifies their source and shade.",
+          "clause": "1910.252(b)(2)(ii)(G)"
+        },
+        {
+          "text": "Filter lenses must meet the radiant energy transmission test in any of the consensus standards listed in 29 CFR 1910.133(b)(1).",
+          "clause": "1910.252(b)(2)(ii)(I)"
+        }
+      ]
+    },
+    {
+      "heading": "What else does 1910.252 require to protect welders and nearby workers?",
+      "intro": "1910.252(b) also requires shielding from arc rays, protective equipment under 1910.132, fall protection on raised work surfaces and safe cable routing, and 1910.252(c)(13) adds first aid.",
+      "items": [
+        {
+          "text": "Where the work permits, enclose the welder in an individual booth or within noncombustible screens, finished in a low-reflectivity paint such as zinc oxide and lamp black.",
+          "clause": "1910.252(b)(2)(iii)"
+        },
+        {
+          "text": "Booths and screens must let air circulate at floor level.",
+          "clause": "1910.252(b)(2)(iii)"
+        },
+        {
+          "text": "Protect workers and other persons next to welding areas from the rays with noncombustible or flameproof screens or shields, or require them to wear appropriate goggles.",
+          "clause": "1910.252(b)(2)(iii)"
+        },
+        {
+          "text": "Protect employees exposed to welding, cutting or brazing hazards with personal protective equipment that meets 1910.132; the clothing needed varies with the size, nature and location of the work.",
+          "clause": "1910.252(b)(3)"
+        },
+        {
+          "text": "Protect a welder or helper working on platforms, scaffolds or runways against falling, using railings, safety belts, life lines or another equally effective safeguard.",
+          "clause": "1910.252(b)(1)(i)"
+        },
+        {
+          "text": "Place welding cable and other equipment clear of passageways, ladders and stairways.",
+          "clause": "1910.252(b)(1)(ii)"
+        },
+        {
+          "text": "After welding is completed, the welder must mark the hot metal or give other workers some other warning.",
+          "clause": "1910.252(b)(4)(vii)"
+        },
+        {
+          "text": "Keep first-aid equipment available at all times.",
+          "clause": "1910.252(c)(13)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra precautions apply to welding in confined spaces?",
+      "intro": "Ventilation is a prerequisite for welding in a confined space under 1910.252(b)(4)(ii), and paragraphs (b)(4) and (c)(4) add equipment, rescue and air-supply rules beyond those listed here.",
+      "items": [
+        {
+          "text": "Leave gas cylinders and welding machines outside the confined space.",
+          "clause": "1910.252(b)(4)(iii)"
+        },
+        {
+          "text": "Where a welder enters through a manhole or other small opening, provide a means to remove the welder quickly in an emergency; safety belts and lifelines used for this must be attached so the body cannot jam in a small exit opening.",
+          "clause": "1910.252(b)(4)(iv)"
+        },
+        {
+          "text": "Station an attendant outside with a preplanned rescue procedure, able to observe the welder at all times and start a rescue.",
+          "clause": "1910.252(b)(4)(iv)"
+        },
+        {
+          "text": "When arc welding stops for a substantial period, such as lunch or overnight, remove all electrodes from the holders, place the holders where accidental contact cannot occur and disconnect the machine from the power source.",
+          "clause": "1910.252(b)(4)(v)"
+        },
+        {
+          "text": "When a gas torch will not be used for a substantial period, such as lunch hour or overnight, close the torch valves and positively shut off the fuel-gas and oxygen supply at a point outside the confined area; where practicable, remove the torch and hose as well.",
+          "clause": "1910.252(b)(4)(vi)"
+        },
+        {
+          "text": "Ventilate confined-space welding and cutting adequately to prevent toxic build-up or oxygen deficiency for the welder, helpers and others nearby, with clean, respirable replacement air.",
+          "clause": "1910.252(c)(4)(i)"
+        },
+        {
+          "text": "Where such ventilation is impossible, use airline respirators or hose masks approved by NIOSH under 42 CFR part 84.",
+          "clause": "1910.252(c)(4)(ii)"
+        },
+        {
+          "text": "Never use oxygen for ventilation.",
+          "clause": "1910.252(c)(4)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What ventilation does 1910.252 require for welding fumes?",
+      "intro": "1910.252(c) requires local exhaust or general ventilation that keeps toxic fumes, gases and dusts below the limits in 1910.1000, with mechanical ventilation in smaller or obstructed spaces.",
+      "items": [
+        {
+          "text": "Provide and arrange local exhaust or general ventilating systems to keep toxic fumes, gases or dusts below the maximum allowable concentration in 1910.1000.",
+          "clause": "1910.252(c)(1)(iii)"
+        },
+        {
+          "text": "For metals not covered by 1910.252(c)(5) through (c)(12), provide mechanical ventilation when welding or cutting in a space of less than 10,000 cubic feet (284 m³) per welder, in a room with a ceiling under 16 feet (5 m), or in a confined space or one where partitions, balconies or other structural barriers significantly obstruct cross ventilation.",
+          "clause": "1910.252(c)(2)(i)"
+        },
+        {
+          "text": "That mechanical ventilation must run at a minimum of 2,000 cubic feet (57 m³) per minute per welder, unless local exhaust hoods and booths under 1910.252(c)(3) or approved airline respirators are provided.",
+          "clause": "1910.252(c)(2)(ii)"
+        },
+        {
+          "text": "Natural ventilation is sufficient where none of the conditions in 1910.252(c)(2)(i) are present.",
+          "clause": "1910.252(c)(2)(ii)"
+        },
+        {
+          "text": "A freely movable hood placed as near as practicable to the work must draw enough air to give 100 linear feet (30 m) per minute toward the hood in the welding zone at its most remote distance from the point of welding; the paragraph's table lists, for example, 150 cubic feet per minute with a 3-inch duct when the zone is 4 to 6 inches from the arc or torch.",
+          "clause": "1910.252(c)(3)(i)"
+        },
+        {
+          "text": "A fixed enclosure needs a top and at least two sides around the operation and enough airflow to keep a velocity away from the welder of at least 100 linear feet (30 m) per minute.",
+          "clause": "1910.252(c)(3)(ii)"
+        },
+        {
+          "text": "Oxygen cutting of stainless steel with chemical flux or iron powder, and gas-shielded arc cutting of stainless steel, require mechanical ventilation adequate to remove the fumes.",
+          "clause": "1910.252(c)(12)"
+        },
+        {
+          "text": "Locate degreasing and other cleaning with chlorinated hydrocarbons so no vapors reach or are drawn into the air around any welding operation.",
+          "clause": "1910.252(c)(11)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "Which welding materials need extra fume controls and labeling?",
+      "intro": "Paragraphs (c)(5) through (c)(12) of 1910.252 set added controls for fluorine compounds, zinc, lead, beryllium, cadmium, mercury, cleaning compounds and stainless steel cutting, and 1910.252(c)(1)(iv) brings welding materials into the hazard communication program.",
+      "items": [
+        {
+          "text": "Include potentially hazardous materials in fluxes, coatings, coverings and filler metals in the program set up under the Hazard Communication Standard (1910.1200).",
+          "clause": "1910.252(c)(1)(iv)"
+        },
+        {
+          "text": "Make sure each employee has access to the container labels and safety data sheets for those materials.",
+          "clause": "1910.252(c)(1)(iv)"
+        },
+        {
+          "text": "Labels on brazing filler metals with significant cadmium must state cadmium hazards, including cancer, lung and kidney effects and acute toxicity.",
+          "clause": "1910.252(c)(1)(v)(C)"
+        },
+        {
+          "text": "In confined spaces or indoors, welding or cutting metals that contain lead (other than as an impurity) or carry lead-bearing coatings, including paint, must be done with local exhaust ventilation or airline respirators.",
+          "clause": "1910.252(c)(7)(iii)"
+        },
+        {
+          "text": "Outdoors, the same lead work requires respirators approved by NIOSH under 42 CFR part 84.",
+          "clause": "1910.252(c)(7)(iii)"
+        },
+        {
+          "text": "Welding or cutting beryllium-containing base or filler metals indoors, outdoors or in confined spaces needs both local exhaust ventilation and airline respirators, unless tests under the most adverse conditions establish that exposure is within the acceptable concentrations in 1910.1000.",
+          "clause": "1910.252(c)(8)"
+        },
+        {
+          "text": "Indoors or in confined spaces, cadmium-bearing or cadmium-coated base metals must be welded or cut with either local exhaust or airline respirators, unless atmospheric tests under the most adverse conditions show exposure within 29 CFR 1910.1000.",
+          "clause": "1910.252(c)(9)(i)"
+        },
+        {
+          "text": "In confined spaces or indoors, welding or cutting metals coated with mercury-bearing materials, including paint, needs local exhaust or airline respirators unless worst-case atmospheric testing shows exposure within the 1910.1000 limits.",
+          "clause": "1910.252(c)(10)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This welding safety inspection checklist covers hot work authorization, fire watch, eye and body protection, ventilation and confined spaces under 1910.252; use it before a job starts and while the work is under way.",
+  "checklist": "us/1910-252-welding-cutting-brazing",
+  "faq": [
+    {
+      "question": "Does 1910.252 require a written hot work permit?",
+      "answer": "Paragraph 1910.252(a)(2)(iv) says the authorizing person designates the precautions \"preferably in the form of a written permit\". The text states a preference for a written permit; it does not make a written form mandatory."
+    },
+    {
+      "question": "What filter shade does 1910.252 list for welding and cutting?",
+      "answer": "The table in 1910.252(b)(2)(ii)(H) is a guide that may be varied to suit the individual. Examples: shade 10 for shielded metal-arc welding with 1/16- to 5/32-inch electrodes, 12 for gas-shielded arc welding of ferrous metal with the same electrodes, 14 for carbon arc welding, 3 or 4 for torch brazing and 2 for soldering."
+    },
+    {
+      "question": "What counts as a confined space under 1910.252?",
+      "answer": "1910.252(b)(4)(i) describes a confined space as a relatively small or restricted space, giving a tank, boiler, pressure vessel or small compartment of a ship as examples."
+    },
+    {
+      "question": "Does 1910.252 apply to pipeline welding?",
+      "answer": "Yes. For transmission pipelines, 1910.252(d)(1)(i) applies paragraphs (b) and (c) plus 1910.254, and field shop operations under (d)(1)(ii) also bring in paragraph (a) and 1910.253. Arc welding in wet or highly humid conditions needs special protection against electric shock under (d)(1)(iii). Mechanical piping systems follow paragraphs (a) to (c), 1910.253 and 1910.254 under (d)(2)(i)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.252: General requirements (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.252"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "welding safety",
+    "hot work fire prevention",
+    "welding fume ventilation"
+  ],
+  "cover": "1910-252-welding-cutting-brazing",
+  "coverPrompt": "A welder in a leather jacket, leather gloves and a welding helmet with the visor down arc welds a steel beam inside a booth surrounded by dark non-reflective screens, with a movable fume extraction hood positioned close to the arc in a fabrication shop.",
+  "coverAlt": "Welder in helmet and leather gear arc welding inside a screened booth with a fume extraction hood near the arc",
+  "changes": []
+}
