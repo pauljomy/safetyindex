@@ -1,0 +1,247 @@
+{
+  "naics": "2373",
+  "naicsTitle": "Highway, Street, and Bridge Construction",
+  "title": "Most-cited OSHA standards for highway, street, and bridge construction (NAICS 2373)",
+  "seoTitle": "Road construction safety: top OSHA citations, NAICS 2373",
+  "description": "OSHA standards cited most in highway, street, and bridge construction (NAICS 2373), FY2022–FY2026: ranked citations, penalties and violation types.",
+  "opening": "From FY2022–FY2026, the OSHA standard cited most in highway, street, and bridge construction (NAICS 2373) was 1910.1200, hazard communication, with 1,257 citations, ahead of 1910.147, the control of hazardous energy (lockout/tagout).",
+  "keyword": "road construction safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 50,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 5753,
+    "citations": 11302,
+    "topStandards": [
+      {
+        "section": "1910.1200",
+        "count": 1257
+      },
+      {
+        "section": "1910.147",
+        "count": 766
+      },
+      {
+        "section": "1910.132",
+        "count": 640
+      },
+      {
+        "section": "1910.303",
+        "count": 623
+      },
+      {
+        "section": "1910.157",
+        "count": 594
+      },
+      {
+        "section": "1910.305",
+        "count": 529
+      },
+      {
+        "section": "1910.215",
+        "count": 413
+      },
+      {
+        "section": "1926.1153",
+        "count": 349
+      },
+      {
+        "section": "1910.37",
+        "count": 347
+      },
+      {
+        "section": "1910.244",
+        "count": 267
+      },
+      {
+        "section": "1910.212",
+        "count": 257
+      },
+      {
+        "section": "1926.651",
+        "count": 254
+      },
+      {
+        "section": "1910.134",
+        "count": 239
+      },
+      {
+        "section": "1904.29",
+        "count": 231
+      },
+      {
+        "section": "1910.22",
+        "count": 219
+      },
+      {
+        "section": "1926.21",
+        "count": 209
+      },
+      {
+        "section": "1926.652",
+        "count": 197
+      },
+      {
+        "section": "1910.178",
+        "count": 191
+      },
+      {
+        "section": "1910.253",
+        "count": 185
+      },
+      {
+        "section": "1910.184",
+        "count": 182
+      },
+      {
+        "section": "1910.106",
+        "count": 168
+      },
+      {
+        "section": "1910.151",
+        "count": 140
+      },
+      {
+        "section": "1910.95",
+        "count": 118
+      },
+      {
+        "section": "1910.176",
+        "count": 112
+      },
+      {
+        "section": "1910.146",
+        "count": 110
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 426
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 389
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 294
+      },
+      {
+        "clause": "1904.29(a)",
+        "count": 221
+      },
+      {
+        "clause": "1926.21(b)(2)",
+        "count": 207
+      },
+      {
+        "clause": "1910.215(a)(4)",
+        "count": 205
+      },
+      {
+        "clause": "1910.147(c)(1)",
+        "count": 199
+      },
+      {
+        "clause": "1910.244(a)(1)(ii)",
+        "count": 195
+      },
+      {
+        "clause": "1910.157(c)(1)",
+        "count": 189
+      },
+      {
+        "clause": "1910.215(b)(9)",
+        "count": 185
+      }
+    ],
+    "penalties": {
+      "n": 4038,
+      "median": 2800,
+      "p25": 600,
+      "p75": 6300,
+      "total": 21287542
+    },
+    "typeShares": {
+      "serious": 0.775,
+      "willful": 0.003,
+      "repeat": 0.004,
+      "otherThanSerious": 0.218,
+      "unclassified": 0.001
+    },
+    "standardsCited5Plus": 110
+  },
+  "patternsSummary": "Across 11,302 citations from 5,753 inspections, two of the top standards deal with chemical and dust exposure: hazard communication (1910.1200) and respirable crystalline silica (1926.1153, 349 citations), with respiratory protection (1910.134) close behind at 239. Machines and hazardous energy form a second group, made up of lockout/tagout (1910.147, 766), abrasive wheel machinery (1910.215, 413), other portable tools and equipment (1910.244, 267) and general requirements for all machines (1910.212, 257). Electrical citations split between the Subpart S general section (1910.303, 623) and wiring methods (1910.305, 529), and excavation work shows up through 1926.651, specific excavation requirements, at 254.",
+  "penaltiesSummary": "Across 4038 penalty amounts, the median was $2,800 and the middle half fell between $600 and $6,300. OSHA classed 78% of citations as serious and 22% as other-than-serious, and willful and repeat citations each rounded to 0%.",
+  "standardNotes": [
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z (Toxic and Hazardous Substances) of Part 1910."
+    },
+    {
+      "section": "1910.147",
+      "note": "The control of hazardous energy (lockout/tagout), in Subpart J, General Environmental Controls."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements of Subpart I, Personal Protective Equipment."
+    },
+    {
+      "section": "1910.303",
+      "note": "General section of Subpart S, Electrical."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, in Subpart L, Fire Protection."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components, and equipment for general use, in Subpart S, Electrical."
+    },
+    {
+      "section": "1910.215",
+      "note": "Abrasive wheel machinery, in Subpart O, Machinery and Machine Guarding."
+    },
+    {
+      "section": "1926.1153",
+      "note": "Respirable crystalline silica, in Subpart Z (Toxic and Hazardous Substances) of Part 1926."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "highway, street, and bridge construction",
+    "road and bridge construction"
+  ],
+  "cover": "2373-highway-street-bridge-construction",
+  "coverPrompt": "Realistic daytime photograph of a highway paving worksite: an asphalt paver and a steel-drum roller working a fresh lane next to a concrete bridge approach, a lane closed off with orange traffic cones and barrels, road workers seen from a distance wearing hard hats, high-visibility vests, long trousers and safety boots, standing clear of the machines. No text, signs with writing, logos, numbers or close-up faces.",
+  "coverAlt": "Road crew in hard hats and high-visibility vests paving a coned-off highway lane near a bridge",
+  "changes": []
+}
