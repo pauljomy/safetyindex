@@ -1,0 +1,482 @@
+{
+  "section": "1926.651",
+  "part": "1926",
+  "heading": "Specific excavation requirements.",
+  "subpart": "P",
+  "subpartTitle": "Excavations",
+  "title": "OSHA Excavation Requirements (29 CFR 1926.651)",
+  "seoTitle": "OSHA Excavation Requirements: 29 CFR 1926.651",
+  "description": "OSHA 1926.651 excavation requirements in plain English, with FY2022–FY2026 citation data and a trench inspection checklist you can print.",
+  "opening": "29 CFR 1926.651 requires employers to locate utilities before digging, give safe ways in and out of trenches 4 feet or deeper, keep spoil and equipment back from the edge, control water and hazardous atmospheres, and have a competent person inspect excavations daily.",
+  "keyword": "osha excavation requirements",
+  "cluster": [
+    {
+      "keyword": "osha excavation requirements",
+      "volume": 140,
+      "kd": 13,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "excavation checklist",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "excavation inspection",
+      "volume": 20,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha trench safety requirements",
+      "volume": 50,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "trench safety checklist",
+      "volume": 10,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "trench safety inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha specific excavation requirements requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "specific excavation requirements checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "specific excavation requirements inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.651",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 250,
+  "kd": 13,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 4905,
+    "inspections": 2985,
+    "byFy": {
+      "2022": 909,
+      "2023": 1188,
+      "2024": 1000,
+      "2025": 901,
+      "2026": 907
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(2)",
+        "count": 1429
+      },
+      {
+        "paragraph": "(k)(1)",
+        "count": 1072
+      },
+      {
+        "paragraph": "(j)(2)",
+        "count": 1071
+      },
+      {
+        "paragraph": "(k)(2)",
+        "count": 287
+      },
+      {
+        "paragraph": "(h)(1)",
+        "count": 164
+      },
+      {
+        "paragraph": "(j)(1)",
+        "count": 158
+      },
+      {
+        "paragraph": "(i)(3)",
+        "count": 114
+      },
+      {
+        "paragraph": "(e)",
+        "count": 110
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 80
+      },
+      {
+        "paragraph": "(d)",
+        "count": 68
+      }
+    ],
+    "penalties": {
+      "n": 4085,
+      "median": 4900,
+      "p25": 3036,
+      "p75": 8873,
+      "total": 33598196
+    },
+    "typeShares": {
+      "serious": 0.789,
+      "willful": 0.013,
+      "repeat": 0.037,
+      "otherThanSerious": 0.161,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3870,
+      "willful": 66,
+      "repeat": 181,
+      "otherThanSerious": 788,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2371",
+        "count": 1785,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 965,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2382",
+        "count": 568,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2381",
+        "count": 384,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2373",
+        "count": 254,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2362",
+        "count": 231,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 198,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 115,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "2213",
+        "count": 69,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "5617",
+        "count": 57,
+        "title": "Services to Buildings and Dwellings"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph, 1926.651(c)(2) with 1,429 citations, requires a stairway, ladder, ramp or other safe means of egress so that employees in a trench need no more than 25 feet of lateral travel to reach it. Next come (k)(1), the daily competent-person inspection (1,072 citations), and (j)(2), keeping excavated material and equipment back from the edge or held by retaining devices (1,071). Citations rose from 909 in FY2022 to 1,188 in FY2023, then dropped to 1,000 in FY2024 and 901 in FY2025, with 907 recorded for FY2026.",
+  "requirementsIntro": "Section 1926.651 sits in Part 1926 Subpart P (Excavations) and sets the specific duties employers owe employees who work in or around excavations. It runs from paragraph (a) to (l): surface encumbrances, underground installations, access and egress, traffic, falling loads, mobile equipment, hazardous atmospheres, water, adjacent structures, loose rock and soil, inspections and walkways.",
+  "requirements": [
+    {
+      "heading": "What must employers do about surface hazards and underground utilities?",
+      "intro": "Under 1926.651(a) and (b), employers must deal with hazardous surface encumbrances, determine where underground utility installations are before and during digging, and protect, support or remove them while the excavation is open.",
+      "items": [
+        {
+          "text": "Remove or support any surface encumbrance located so that it creates a hazard to employees.",
+          "clause": "1926.651(a)"
+        },
+        {
+          "text": "Determine the estimated location of sewer, telephone, fuel, electric, water and any other underground installations reasonably expected to be encountered before the excavation is opened.",
+          "clause": "1926.651(b)(1)"
+        },
+        {
+          "text": "Contact utility companies or owners within established or customary local response times, tell them about the proposed work and ask them to establish the location of their installations before actual excavation starts.",
+          "clause": "1926.651(b)(2)"
+        },
+        {
+          "text": "If utility companies or owners cannot respond within 24 hours (unless state or local law requires a longer period) or cannot establish the exact location, the employer may proceed only with caution and while using detection equipment or other acceptable means to locate the installations.",
+          "clause": "1926.651(b)(2)"
+        },
+        {
+          "text": "As digging approaches the estimated location of underground installations, determine their exact location by safe and acceptable means.",
+          "clause": "1926.651(b)(3)"
+        },
+        {
+          "text": "While the excavation is open, protect, support or remove underground installations as necessary to safeguard employees.",
+          "clause": "1926.651(b)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees get in and out of an excavation?",
+      "intro": "Section 1926.651(c) requires a safe means of egress in trench excavations 4 feet (1.22 m) or more deep and sets design and construction rules for structural ramps.",
+      "items": [
+        {
+          "text": "In trench excavations 4 feet (1.22 m) or more in depth, provide a stairway, ladder, ramp or other safe means of egress located so that employees travel no more than 25 feet (7.62 m) laterally to reach it.",
+          "clause": "1926.651(c)(2)"
+        },
+        {
+          "text": "Structural ramps used solely by employees for access or egress must be designed by a competent person.",
+          "clause": "1926.651(c)(1)(i)"
+        },
+        {
+          "text": "Structural ramps used by equipment must be designed by a competent person qualified in structural design and built in accordance with that design.",
+          "clause": "1926.651(c)(1)(i)"
+        },
+        {
+          "text": "Ramps and runways made of two or more structural members must have those members connected together to prevent displacement.",
+          "clause": "1926.651(c)(1)(ii)"
+        },
+        {
+          "text": "Structural members used for ramps and runways must be of uniform thickness.",
+          "clause": "1926.651(c)(1)(iii)"
+        },
+        {
+          "text": "Cleats or other means connecting runway members must be attached to the bottom of the runway or attached so they do not create a tripping hazard.",
+          "clause": "1926.651(c)(1)(iv)"
+        },
+        {
+          "text": "Structural ramps used in place of steps need cleats or another surface treatment on the top surface to prevent slipping.",
+          "clause": "1926.651(c)(1)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What is required where people or equipment cross an excavation?",
+      "intro": "Paragraph 1926.651(l) requires walkways for crossings and guardrails on walkways 6 feet (1.8 m) or more above lower levels.",
+      "items": [
+        {
+          "text": "Provide walkways wherever employees or equipment are required or permitted to cross over an excavation.",
+          "clause": "1926.651(l)"
+        },
+        {
+          "text": "Where a walkway is 6 feet (1.8 m) or more above lower levels, fit guardrails that meet the OSHA guardrail criteria cross-referenced in this paragraph.",
+          "clause": "1926.651(l)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees be protected from traffic, loads and mobile equipment?",
+      "intro": "Paragraphs 1926.651(d), (e) and (f) cover high-visibility garments near public traffic, staying clear of lifted and loaded material, and warning systems for equipment working near an excavation.",
+      "items": [
+        {
+          "text": "Employees exposed to public vehicular traffic must be given, and must wear, warning vests or other garments marked with or made of reflectorized or high-visibility material.",
+          "clause": "1926.651(d)"
+        },
+        {
+          "text": "No employee may be underneath loads handled by lifting or digging equipment.",
+          "clause": "1926.651(e)"
+        },
+        {
+          "text": "Employees must stand away from any vehicle being loaded or unloaded so spillage or falling materials cannot strike them.",
+          "clause": "1926.651(e)"
+        },
+        {
+          "text": "Operators may stay in the cab of a vehicle being loaded or unloaded only when the vehicle is equipped, under the cab-protection rule this paragraph cross-references, to give the operator adequate protection.",
+          "clause": "1926.651(e)"
+        },
+        {
+          "text": "When mobile equipment works next to an excavation or must approach its edge and the operator has no clear and direct view of that edge, use a warning system such as barricades, hand or mechanical signals, or stop logs.",
+          "clause": "1926.651(f)"
+        },
+        {
+          "text": "Where possible, the grade should slope away from the excavation.",
+          "clause": "1926.651(f)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees be protected from falling material and unstable structures?",
+      "intro": "Paragraphs 1926.651(i) and (j) require protection from loose rock or soil on the face, from material and equipment rolling in, and from collapse of adjoining structures or undermined pavement.",
+      "items": [
+        {
+          "text": "Protect employees from loose rock or soil that could fall or roll from an excavation face by scaling off loose material, installing protective barricades on the face at intervals as necessary, or other means giving equivalent protection.",
+          "clause": "1926.651(j)(1)"
+        },
+        {
+          "text": "Keep excavated or other materials and equipment at least 2 feet (.61 m) from the edge, use retaining devices sufficient to stop them falling or rolling in, or combine both if necessary.",
+          "clause": "1926.651(j)(2)"
+        },
+        {
+          "text": "Where excavation endangers the stability of adjoining buildings, walls or other structures, provide support systems such as shoring, bracing or underpinning.",
+          "clause": "1926.651(i)(1)"
+        },
+        {
+          "text": "Do not excavate below the base or footing of a foundation or retaining wall where this could reasonably be expected to pose a hazard, except when one of four conditions is met: a support system such as underpinning is provided; the excavation is in stable rock; a registered professional engineer has approved the determination that the structure is far enough away to be unaffected; or a registered professional engineer has approved the determination that the work will not pose a hazard to employees.",
+          "clause": "1926.651(i)(2)"
+        },
+        {
+          "text": "Sidewalks, pavements and appurtenant structures must not be undermined unless a support system or another method of protection guards employees against their possible collapse.",
+          "clause": "1926.651(i)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.651 require for hazardous atmospheres and rescue?",
+      "intro": "Where an oxygen-deficient or hazardous atmosphere exists or could reasonably be expected, 1926.651(g) requires testing, controls and rescue equipment, on top of the atmosphere rules in subparts D and E of Part 1926.",
+      "items": [
+        {
+          "text": "Where oxygen deficiency (less than 19.5 percent oxygen) or a hazardous atmosphere exists or could reasonably be expected, such as in landfill areas or near stored hazardous substances, test the atmosphere before employees enter excavations greater than 4 feet (1.22 m) deep.",
+          "clause": "1926.651(g)(1)(i)"
+        },
+        {
+          "text": "Take adequate precautions, including proper respiratory protection or ventilation under subparts D and E, to prevent exposure to atmospheres below 19.5 percent oxygen and other hazardous atmospheres.",
+          "clause": "1926.651(g)(1)(ii)"
+        },
+        {
+          "text": "Take precautions such as ventilation to prevent exposure to a flammable gas concentration above 20 percent of the gas's lower flammable limit.",
+          "clause": "1926.651(g)(1)(iii)"
+        },
+        {
+          "text": "When controls are used to bring contaminants down to acceptable levels, test as often as necessary to ensure the atmosphere stays safe.",
+          "clause": "1926.651(g)(1)(iv)"
+        },
+        {
+          "text": "Keep emergency rescue equipment, such as breathing apparatus, a safety harness and line, or a basket stretcher, readily available where hazardous atmospheric conditions exist or may reasonably be expected to develop.",
+          "clause": "1926.651(g)(2)(i)"
+        },
+        {
+          "text": "Emergency rescue equipment must be attended when in use.",
+          "clause": "1926.651(g)(2)(i)"
+        },
+        {
+          "text": "Employees entering bell-bottom pier holes or similar deep and confined footing excavations must wear a harness with a lifeline securely attached.",
+          "clause": "1926.651(g)(2)(ii)"
+        },
+        {
+          "text": "That lifeline must be separate from any line used to handle materials and individually attended at all times while the wearer is in the excavation.",
+          "clause": "1926.651(g)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be done when water collects in an excavation?",
+      "intro": "Paragraph 1926.651(h) bars work in excavations with accumulated or accumulating water unless adequate precautions protect employees, and requires surface water to be diverted where natural drainage is interrupted.",
+      "items": [
+        {
+          "text": "Employees must not work where water has accumulated or is accumulating unless adequate precautions are in place; depending on the situation these could include special support or shield systems, water removal to control the level, or a safety harness and lifeline.",
+          "clause": "1926.651(h)(1)"
+        },
+        {
+          "text": "Where water removal equipment is used to control or prevent accumulation, a competent person must monitor the equipment and operations to ensure they work properly.",
+          "clause": "1926.651(h)(2)"
+        },
+        {
+          "text": "If the work interrupts natural drainage of surface water such as streams, use diversion ditches, dikes or other suitable means to keep surface water out and drain the adjacent area.",
+          "clause": "1926.651(h)(3)"
+        },
+        {
+          "text": "Excavations subject to runoff from heavy rains require a competent person's inspection and compliance with paragraphs (h)(1) and (h)(2).",
+          "clause": "1926.651(h)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "When must the competent person inspect an excavation?",
+      "intro": "Paragraph 1926.651(k) requires a competent person to inspect excavations, adjacent areas and protective systems daily and to remove exposed employees when a hazard is found, where employee exposure can reasonably be anticipated.",
+      "items": [
+        {
+          "text": "The competent person must inspect excavations, adjacent areas and protective systems daily for evidence of possible cave-ins, signs of protective system failure, hazardous atmospheres or other hazardous conditions.",
+          "clause": "1926.651(k)(1)"
+        },
+        {
+          "text": "An inspection is required before work starts and as needed throughout the shift.",
+          "clause": "1926.651(k)(1)"
+        },
+        {
+          "text": "Inspections are also required after every rainstorm or other hazard-increasing occurrence.",
+          "clause": "1926.651(k)(1)"
+        },
+        {
+          "text": "These inspections are required only when employee exposure can reasonably be anticipated.",
+          "clause": "1926.651(k)(1)"
+        },
+        {
+          "text": "When the competent person finds evidence of a possible cave-in, protective system failure, hazardous atmosphere or other hazardous condition, exposed employees must be removed from the hazardous area until precautions make it safe.",
+          "clause": "1926.651(k)(2)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the site conditions in 29 CFR 1926.651, from utilities and spoil placement to egress, atmospheres, water and the competent person's inspection, for use at each inspection that 1926.651(k)(1) requires.",
+  "checklist": "us/1926-651-excavation",
+  "faq": [
+    {
+      "question": "Does 1926.651 replace OSHA's other rules on air contaminants in excavations?",
+      "answer": "No. Paragraph 1926.651(g)(1) states that its testing and control duties apply in addition to subparts D and E of Part 1926, which cover harmful atmospheric contaminants, respiratory protection and ventilation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.651: Specific excavation requirements (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.651"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "excavation requirements",
+    "trench safety",
+    "trench egress"
+  ],
+  "cover": "1926-651-excavation",
+  "coverPrompt": "A realistic photograph of a utility trench on a construction site, with a worker in a hard hat and high-visibility vest climbing a secured ladder out of the trench, excavated soil piled well back from the edge and an excavator parked behind barricades.",
+  "coverAlt": "Worker climbing a ladder out of a utility trench, with soil piled back from the edge and an excavator behind barricades",
+  "changes": []
+}

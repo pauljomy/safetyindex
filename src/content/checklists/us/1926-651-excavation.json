@@ -1,0 +1,257 @@
+{
+  "slug": "1926-651-excavation",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-651-excavation",
+  "doc_ref": "SI-US-1926-651",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Excavation Checklist (29 CFR 1926.651)",
+  "subtitle": "For the competent person's inspection before work, during the shift as needed, and after rain or other hazard-increasing events.",
+  "regulation_line": "OSHA 29 CFR 1926.651",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is a Defect, record it and, where it creates a hazardous condition, remove exposed employees from the area until precautions are in place (1926.651(k)(2)).",
+    "Equipment manufacturers' instructions, site rules and other Subpart P sections may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Utilities, surface hazards and adjoining structures",
+      "items": [
+        [
+          "Surface encumbrances",
+          "Anything at the surface that could endanger employees has been removed or supported",
+          "1926.651(a)"
+        ],
+        [
+          "Utility locations estimated",
+          "Estimated locations of sewer, telephone, fuel, electric, water and other underground lines determined before the excavation was opened",
+          "1926.651(b)(1)"
+        ],
+        [
+          "Utility owners contacted",
+          "Utility companies or owners contacted within established or customary local response times, advised of the proposed work and asked to establish the location of their installations before excavation started",
+          "1926.651(b)(2)"
+        ],
+        [
+          "Proceeding without a locate",
+          "Where owners could not respond within 24 hours (or a longer period required by state or local law) or could not establish the exact location, work proceeds with caution and with detection equipment or other acceptable means in use",
+          "1926.651(b)(2)"
+        ],
+        [
+          "Exact location near lines",
+          "Exact location confirmed by safe and acceptable means as digging nears the estimated location",
+          "1926.651(b)(3)"
+        ],
+        [
+          "Exposed utilities",
+          "Exposed underground installations protected, supported or removed",
+          "1926.651(b)(4)"
+        ],
+        [
+          "Adjoining structures",
+          "Shoring, bracing or underpinning in place where buildings, walls or other structures are endangered",
+          "1926.651(i)(1)"
+        ],
+        [
+          "Digging below footings",
+          "No excavation below a foundation or retaining wall footing unless one of the conditions in 1926.651(i)(2)(i)–(iv) is met",
+          "1926.651(i)(2)"
+        ],
+        [
+          "Sidewalks and pavement",
+          "Not undermined, or a support system or other protection is provided",
+          "1926.651(i)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Access, egress and crossings",
+      "items": [
+        [
+          "Trench egress",
+          "In trenches 4 feet (1.22 m) or deeper, a stairway, ladder, ramp or other safe egress within 25 feet (7.62 m) of lateral travel for every employee",
+          "1926.651(c)(2)"
+        ],
+        [
+          "Employee ramp design",
+          "Structural ramps used only by employees designed by a competent person",
+          "1926.651(c)(1)(i)"
+        ],
+        [
+          "Equipment ramp design",
+          "Equipment ramps designed by a competent person qualified in structural design and built to that design",
+          "1926.651(c)(1)(i)"
+        ],
+        [
+          "Ramp members connected",
+          "Ramp and runway members joined so they cannot shift",
+          "1926.651(c)(1)(ii)"
+        ],
+        [
+          "Member thickness",
+          "Ramp and runway members of uniform thickness",
+          "1926.651(c)(1)(iii)"
+        ],
+        [
+          "Runway cleats",
+          "Connecting cleats fixed under the runway or placed so they are not a trip hazard",
+          "1926.651(c)(1)(iv)"
+        ],
+        [
+          "Ramp surface",
+          "Ramps used instead of steps have cleats or a non-slip top surface",
+          "1926.651(c)(1)(v)"
+        ],
+        [
+          "Walkways",
+          "Walkways provided wherever employees or equipment cross over the excavation",
+          "1926.651(l)"
+        ],
+        [
+          "Walkway guardrails",
+          "Guardrails on walkways 6 feet (1.8 m) or more above lower levels",
+          "1926.651(l)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Traffic, loads, equipment and falling material",
+      "items": [
+        [
+          "High-visibility garments",
+          "Employees exposed to public traffic wearing reflectorized or high-visibility vests or garments",
+          "1926.651(d)"
+        ],
+        [
+          "No one under loads",
+          "Nobody beneath loads handled by lifting or digging equipment",
+          "1926.651(e)"
+        ],
+        [
+          "Clear of loading vehicles",
+          "Employees standing away from vehicles being loaded or unloaded",
+          "1926.651(e)"
+        ],
+        [
+          "Mobile equipment warning system",
+          "Barricades, hand or mechanical signals, or stop logs in use where operators near the edge lack a clear and direct view of it",
+          "1926.651(f)"
+        ],
+        [
+          "Spoil and equipment setback",
+          "Excavated material and equipment 2 feet (.61 m) or more back from the edge, or retaining devices holding them",
+          "1926.651(j)(2)"
+        ],
+        [
+          "Loose rock or soil on the face",
+          "Face scaled, protective barricades installed, or equivalent protection against falling or rolling material",
+          "1926.651(j)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Atmosphere and water",
+      "items": [
+        [
+          "Atmosphere tested",
+          "Where a hazardous or oxygen-deficient atmosphere could exist, air tested before entry into excavations greater than 4 feet deep",
+          "1926.651(g)(1)(i)"
+        ],
+        [
+          "Oxygen and contaminant controls",
+          "Ventilation or respiratory protection in place where oxygen is below 19.5 percent or the atmosphere is hazardous",
+          "1926.651(g)(1)(ii)"
+        ],
+        [
+          "Flammable gas",
+          "Ventilation or other precautions keep exposure from exceeding 20 percent of the lower flammable limit",
+          "1926.651(g)(1)(iii)"
+        ],
+        [
+          "Retesting with controls",
+          "Atmosphere retested as often as needed while controls are relied on",
+          "1926.651(g)(1)(iv)"
+        ],
+        [
+          "Rescue equipment",
+          "Breathing apparatus, harness and line, basket stretcher or similar readily available where hazardous atmospheres exist or may develop, and attended when in use",
+          "1926.651(g)(2)(i)"
+        ],
+        [
+          "Pier hole lifelines",
+          "Employees in bell-bottom pier holes or similar deep confined footings wear a harness with a separate, individually attended lifeline",
+          "1926.651(g)(2)(ii)"
+        ],
+        [
+          "Accumulated water",
+          "No work in standing or accumulating water unless precautions such as shield systems, water removal or harness and lifeline are in place",
+          "1926.651(h)(1)"
+        ],
+        [
+          "Water removal monitored",
+          "A competent person monitors pumps and water removal operations",
+          "1926.651(h)(2)"
+        ],
+        [
+          "Surface water diverted",
+          "Diversion ditches, dikes or other means keep surface water out where natural drainage is interrupted",
+          "1926.651(h)(3)"
+        ],
+        [
+          "Runoff from heavy rains",
+          "Excavations subject to heavy-rain runoff inspected by a competent person, with (h)(1) and (h)(2) met",
+          "1926.651(h)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Competent person inspection",
+      "items": [
+        [
+          "Inspection scope",
+          "Excavation, adjacent areas and protective systems checked for signs of cave-in, protective system failure, hazardous atmospheres and other hazards",
+          "1926.651(k)(1)"
+        ],
+        [
+          "Inspection timing",
+          "Inspection done before work started and repeated as needed during the shift",
+          "1926.651(k)(1)"
+        ],
+        [
+          "After rain or other events",
+          "Re-inspection completed after every rainstorm or other hazard-increasing occurrence",
+          "1926.651(k)(1)"
+        ],
+        [
+          "Employees removed from hazards",
+          "Exposed employees kept out of any area where a hazard was found until precautions are taken",
+          "1926.651(k)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.651: Specific excavation requirements (Part 1926 Subpart P: Excavations)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
