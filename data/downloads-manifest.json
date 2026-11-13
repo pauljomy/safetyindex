@@ -60,6 +60,16 @@
       "pdf": "/downloads/us/1910-140-personal-fall-protection-systems.pdf",
       "xlsx": "/downloads/us/1910-140-personal-fall-protection-systems.xlsx"
     },
+    "us/1910-146-permit-required-confined-spaces": {
+      "hash": "37336957685a7efd64396ed3dab1e1084660999836792a64015c7111d014d6f9",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 31,
+      "page_url": "https://safetyindex.blog/us/standards/1910-146-permit-required-confined-spaces",
+      "pdf": "/downloads/us/1910-146-permit-required-confined-spaces.pdf",
+      "xlsx": "/downloads/us/1910-146-permit-required-confined-spaces.xlsx"
+    },
     "us/1910-147-control-hazardous-energy-lockout-tagout": {
       "hash": "27a4250770f5504d7f5343928fcdfa45c41a6876078dedd448a56b37d7168136",
       "lang": "en",

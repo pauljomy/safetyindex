@@ -1,0 +1,586 @@
+{
+  "section": "1910.146",
+  "part": "1910",
+  "heading": "Permit-required confined spaces.",
+  "subpart": "J",
+  "subpartTitle": "General Environmental Controls",
+  "title": "OSHA Confined Space Requirements (29 CFR 1910.146)",
+  "seoTitle": "OSHA Confined Space Requirements: 29 CFR 1910.146",
+  "description": "OSHA confined space requirements, 29 CFR 1910.146: evaluation, signs, written program, testing, attendants, rescue, citation data and a checklist.",
+  "opening": "29 CFR 1910.146 requires general industry employers to evaluate their workplace for permit-required confined spaces, warn employees about them, and either keep workers out or run a written program covering permits, atmospheric testing, attendants, training and rescue before anyone enters.",
+  "keyword": "osha confined space requirements",
+  "cluster": [
+    {
+      "keyword": "osha confined space requirements",
+      "volume": 210,
+      "kd": 11,
+      "intent": "transactional",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space checklist",
+      "volume": 50,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space inspection",
+      "volume": 30,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha confined space permit requirements",
+      "volume": 110,
+      "kd": 12,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space permit checklist",
+      "volume": 20,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "confined space permit inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha permit-required confined spaces requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "permit-required confined spaces checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "permit-required confined spaces inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.146",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 420,
+  "kd": 11,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 3902,
+    "inspections": 1529,
+    "byFy": {
+      "2022": 607,
+      "2023": 816,
+      "2024": 831,
+      "2025": 799,
+      "2026": 849
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(2)",
+        "count": 595
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 481
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 442
+      },
+      {
+        "paragraph": "(g)(1)",
+        "count": 328
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 157
+      },
+      {
+        "paragraph": "(d)(9)",
+        "count": 103
+      },
+      {
+        "paragraph": "(d)(3)",
+        "count": 96
+      },
+      {
+        "paragraph": "(d)(5)(i)",
+        "count": 85
+      },
+      {
+        "paragraph": "(c)(3)",
+        "count": 77
+      },
+      {
+        "paragraph": "(g)(4)",
+        "count": 73
+      }
+    ],
+    "penalties": {
+      "n": 2019,
+      "median": 6250,
+      "p25": 2839,
+      "p75": 11292,
+      "total": 18102366
+    },
+    "typeShares": {
+      "serious": 0.824,
+      "willful": 0.008,
+      "repeat": 0.008,
+      "otherThanSerious": 0.159,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 3216,
+      "willful": 32,
+      "repeat": 33,
+      "otherThanSerious": 619,
+      "unclassified": 2
+    },
+    "topIndustries": [
+      {
+        "naics": "2213",
+        "count": 551,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "3273",
+        "count": 134,
+        "title": "Cement and Concrete Product Manufacturing"
+      },
+      {
+        "naics": "5629",
+        "count": 132,
+        "title": "Remediation and Other Waste Management Services"
+      },
+      {
+        "naics": "3328",
+        "count": 118,
+        "title": "Coating, Engraving, Heat Treating, and Allied Activities"
+      },
+      {
+        "naics": "2373",
+        "count": 110,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2371",
+        "count": 99,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "8111",
+        "count": 93,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "3119",
+        "count": 91,
+        "title": "Other Food Manufacturing"
+      },
+      {
+        "naics": "3121",
+        "count": 83,
+        "title": "Beverage Manufacturing"
+      },
+      {
+        "naics": "4882",
+        "count": 79,
+        "title": "Support Activities for Rail Transportation"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraphs of 1910.146 are (c)(2), with 595 citations, for not warning exposed employees of permit spaces by danger signs or an equally effective means; (c)(1), with 481, for not evaluating the workplace for permit spaces; and (c)(4), with 442, for the written permit space program required when employees will enter, while the general training duty comes fourth with 328. Citations rose from 607 in FY2022 to 816 in FY2023 and 831 in FY2024, dipped to 799 in FY2025 and reached 849 in FY2026.",
+  "requirementsIntro": "1910.146 covers general industry employers whose employees face the hazards of entering permit-required confined spaces; it does not apply to agriculture, construction or shipyard employment, which fall under parts 1928, 1926 and 1915. The groups below give the main rules on identifying spaces, the written program, testing, roles, rescue, contractors, alternate procedures and reclassification, and the full eCFR text has more, including detailed sections on permit contents, training, role duties and rescue services.",
+  "requirements": [
+    {
+      "heading": "Which spaces count as permit-required confined spaces?",
+      "intro": "Under 1910.146, a confined space is one an employee can bodily enter to do assigned work, with limited or restricted means of entry or exit, that is not designed for continuous occupancy; it becomes a permit space when it has at least one of the hazards in the definition.",
+      "items": [
+        {
+          "text": "A permit space has one or more of these: an actual or potential hazardous atmosphere, material that could engulf an entrant, an internal shape (inwardly converging walls or a floor sloping down to a smaller cross-section) that could trap or asphyxiate an entrant, or any other recognized serious safety or health hazard.",
+          "clause": "1910.146(b)"
+        },
+        {
+          "text": "A hazardous atmosphere includes flammable gas, vapor or mist above 10 percent of its lower flammable limit and oxygen below 19.5 percent or above 23.5 percent; the definition lists further causes such as airborne combustible dust and exposures above a published permissible exposure limit.",
+          "clause": "1910.146(b)"
+        },
+        {
+          "text": "The employer must evaluate the workplace to determine whether any spaces are permit-required confined spaces.",
+          "clause": "1910.146(c)(1)"
+        },
+        {
+          "text": "Where permit spaces exist, exposed employees must be informed of their existence, location and danger by posted danger signs or any other equally effective means.",
+          "clause": "1910.146(c)(2)"
+        },
+        {
+          "text": "An employer that decides its employees will not enter permit spaces must take effective measures to keep them out and still comply with paragraphs (c)(1), (c)(2), (c)(6) and (c)(8).",
+          "clause": "1910.146(c)(3)"
+        },
+        {
+          "text": "When changes in the use or configuration of a non-permit confined space might increase hazards to entrants, the employer must reevaluate it and, if necessary, reclassify it as a permit space.",
+          "clause": "1910.146(c)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What must a written permit space program include?",
+      "intro": "An employer whose employees will enter permit spaces must develop and implement a written permit space program under 1910.146(c)(4), and paragraph (d) lists what that program must do.",
+      "items": [
+        {
+          "text": "The written program must be available for inspection by employees and their authorized representatives.",
+          "clause": "1910.146(c)(4)"
+        },
+        {
+          "text": "The program must put in place the measures needed to prevent unauthorized entry.",
+          "clause": "1910.146(d)(1)"
+        },
+        {
+          "text": "Hazards of permit spaces must be identified and evaluated before employees enter them.",
+          "clause": "1910.146(d)(2)"
+        },
+        {
+          "text": "Safe entry means, procedures and practices must be developed and implemented, including at least: specifying acceptable entry conditions, letting each entrant or their representative observe monitoring or testing, isolating the space, purging, inerting, flushing or ventilating as necessary to eliminate or control atmospheric hazards, barriers as necessary against external hazards, and verifying conditions stay acceptable for the whole entry.",
+          "clause": "1910.146(d)(3)"
+        },
+        {
+          "text": "The equipment listed in 1910.146(d)(4), among it testing, ventilating, communications, lighting, barrier, ladder and rescue equipment, must be provided at no cost to employees, properly maintained and properly used.",
+          "clause": "1910.146(d)(4)"
+        },
+        {
+          "text": "Where employees of more than one employer work simultaneously as entrants in a permit space, procedures must coordinate the work so one employer's employees do not endanger another's.",
+          "clause": "1910.146(d)(11)"
+        },
+        {
+          "text": "When the employer has reason to believe the program's measures may not protect employees, entry operations must be reviewed and deficiencies corrected before later entries are authorized.",
+          "clause": "1910.146(d)(13)"
+        },
+        {
+          "text": "The program must be reviewed using the canceled permits within 1 year after each entry and revised as necessary.",
+          "clause": "1910.146(d)(14)"
+        }
+      ]
+    },
+    {
+      "heading": "How must permit space atmospheres be tested?",
+      "intro": "Under 1910.146(d)(5), the employer tests conditions before entry is authorized, keeps testing or monitoring during the work, and shares every result with entrants.",
+      "items": [
+        {
+          "text": "Conditions must be tested to determine whether acceptable entry conditions exist before entry is authorized to begin.",
+          "clause": "1910.146(d)(5)(i)"
+        },
+        {
+          "text": "If isolation is infeasible because the space is large or part of a continuous system such as a sewer, pre-entry testing is done to the extent feasible and, if entry is authorized, conditions are continuously monitored in the areas where entrants are working.",
+          "clause": "1910.146(d)(5)(i)"
+        },
+        {
+          "text": "The space must be tested or monitored as necessary to confirm acceptable conditions are maintained while entry operations continue.",
+          "clause": "1910.146(d)(5)(ii)"
+        },
+        {
+          "text": "Atmospheric testing follows a set order: oxygen first, then combustible gases and vapors, then toxic gases and vapors.",
+          "clause": "1910.146(d)(5)(iii)"
+        },
+        {
+          "text": "Each authorized entrant, or their authorized representative, must have an opportunity to observe pre-entry and any later testing or monitoring.",
+          "clause": "1910.146(d)(5)(iv)"
+        },
+        {
+          "text": "The employer must reevaluate the space in the presence of an entrant or representative who asks for it because they have reason to believe the evaluation may not have been adequate.",
+          "clause": "1910.146(d)(5)(v)"
+        },
+        {
+          "text": "Testing results must be given immediately to each authorized entrant or that employee's representative.",
+          "clause": "1910.146(d)(5)(vi)"
+        }
+      ]
+    },
+    {
+      "heading": "How does the entry permit system work?",
+      "intro": "Under 1910.146, an entry permit is the written or printed document the employer provides to allow and control entry into a permit space, and 1910.146(d)(10) requires a system for preparing, issuing, using and cancelling those permits.",
+      "items": [
+        {
+          "text": "The permit system is the employer's written procedure for preparing and issuing entry permits and for returning the space to service after entry ends.",
+          "clause": "1910.146(b)"
+        },
+        {
+          "text": "The program must include a system for the preparation, issuance, use and cancellation of entry permits.",
+          "clause": "1910.146(d)(10)"
+        },
+        {
+          "text": "Procedures for concluding the entry once operations are complete, such as closing off the space and canceling the permit, must be developed and implemented.",
+          "clause": "1910.146(d)(12)"
+        },
+        {
+          "text": "A prohibited condition is any condition in the space that the permit does not allow during the period entry is authorized.",
+          "clause": "1910.146(b)"
+        }
+      ]
+    },
+    {
+      "heading": "Who must be assigned a role during a permit space entry?",
+      "intro": "1910.146 requires at least one attendant outside the space throughout entry operations and requires the employer to designate everyone with an active role, from entrants to the entry supervisor.",
+      "items": [
+        {
+          "text": "An attendant is an individual stationed outside one or more permit spaces who monitors the authorized entrants and performs all attendant duties assigned in the employer's program.",
+          "clause": "1910.146(b)"
+        },
+        {
+          "text": "The entry supervisor is the person responsible for determining whether acceptable entry conditions are present, authorizing entry, overseeing entry operations and terminating entry as the standard requires.",
+          "clause": "1910.146(b)"
+        },
+        {
+          "text": "At least one attendant must be provided outside the space into which entry is authorized for the duration of entry operations.",
+          "clause": "1910.146(d)(6)"
+        },
+        {
+          "text": "If one attendant monitors multiple spaces, the program must include the means and procedures for that attendant to respond to an emergency in one or more of them without distraction from the attendant's responsibilities.",
+          "clause": "1910.146(d)(7)"
+        },
+        {
+          "text": "Persons with active roles, such as authorized entrants, attendants, entry supervisors or atmosphere testers, must be designated, have their duties identified and be given the training the standard requires.",
+          "clause": "1910.146(d)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "What rescue arrangements does 1910.146 require?",
+      "intro": "Under 1910.146(d)(9), the permit space program must include rescue and emergency procedures, and a later section of the standard sets how rescuers are evaluated, trained and equipped.",
+      "items": [
+        {
+          "text": "Procedures for summoning rescue and emergency services must be developed and implemented.",
+          "clause": "1910.146(d)(9)"
+        },
+        {
+          "text": "Procedures for rescuing entrants from permit spaces must be developed and implemented.",
+          "clause": "1910.146(d)(9)"
+        },
+        {
+          "text": "Procedures must cover providing necessary emergency services to rescued employees.",
+          "clause": "1910.146(d)(9)"
+        },
+        {
+          "text": "Procedures must prevent unauthorized personnel from attempting a rescue.",
+          "clause": "1910.146(d)(9)"
+        },
+        {
+          "text": "The employer provides the rescue and emergency equipment needed for those procedures, except to the extent the equipment is provided by rescue services.",
+          "clause": "1910.146(d)(4)(viii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must host employers and contractors tell each other?",
+      "intro": "When a host employer brings in a contractor for work involving permit space entry, 1910.146(c)(8) and (c)(9) set information and coordination duties for both sides.",
+      "items": [
+        {
+          "text": "The host tells the contractor that the workplace contains permit spaces and that entry is allowed only under a program meeting 1910.146.",
+          "clause": "1910.146(c)(8)(i)"
+        },
+        {
+          "text": "The host tells the contractor what makes the space a permit space, including the hazards identified and the host's experience with it.",
+          "clause": "1910.146(c)(8)(ii)"
+        },
+        {
+          "text": "The host tells the contractor about precautions or procedures it has put in place for employees in or near the permit spaces where contractor personnel will work.",
+          "clause": "1910.146(c)(8)(iii)"
+        },
+        {
+          "text": "When host and contractor personnel will both be working in or near permit spaces, the host coordinates entry operations with the contractor as (d)(11) requires.",
+          "clause": "1910.146(c)(8)(iv)"
+        },
+        {
+          "text": "At the end of entry operations, the host debriefs the contractor on the program followed and on hazards confronted or created.",
+          "clause": "1910.146(c)(8)(v)"
+        },
+        {
+          "text": "The contractor obtains any available information on permit space hazards and entry operations from the host.",
+          "clause": "1910.146(c)(9)(i)"
+        },
+        {
+          "text": "The contractor coordinates its entry operations with the host whenever personnel of both employers will be working in or near permit spaces.",
+          "clause": "1910.146(c)(9)(ii)"
+        },
+        {
+          "text": "The contractor informs the host of the program it will follow and of hazards confronted or created, by debriefing or during the entry.",
+          "clause": "1910.146(c)(9)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "When can alternate procedures replace full permit entry?",
+      "intro": "1910.146(c)(5)(i) lets an employer whose employees enter a permit space skip paragraphs (d) through (f) and (h) through (k) only when every condition listed there, (A) through (F), is met, and (c)(5)(ii)(H) adds a written certification before entry.",
+      "items": [
+        {
+          "text": "The employer must be able to demonstrate that the only hazard in the space is an actual or potential hazardous atmosphere.",
+          "clause": "1910.146(c)(5)(i)(A)"
+        },
+        {
+          "text": "The employer must be able to demonstrate that continuous forced air ventilation alone keeps the space safe for entry.",
+          "clause": "1910.146(c)(5)(i)(B)"
+        },
+        {
+          "text": "Monitoring and inspection data developed by the employer must support both demonstrations.",
+          "clause": "1910.146(c)(5)(i)(C)"
+        },
+        {
+          "text": "If an initial entry is needed to gather that data, it must be made under the full permit-entry requirements.",
+          "clause": "1910.146(c)(5)(i)(D)"
+        },
+        {
+          "text": "The determinations and supporting data must be documented and made available to each employee who enters under these terms, or to that employee's authorized representative.",
+          "clause": "1910.146(c)(5)(i)(E)"
+        },
+        {
+          "text": "Entry under these terms must follow the procedure set out in (c)(5)(ii).",
+          "clause": "1910.146(c)(5)(i)(F)"
+        },
+        {
+          "text": "Before entry, a written certification with the date, the space's location and the certifier's signature confirms the space is safe and the pre-entry measures were taken.",
+          "clause": "1910.146(c)(5)(ii)(H)"
+        }
+      ]
+    },
+    {
+      "heading": "What steps apply to an entry under alternate procedures?",
+      "intro": "1910.146(c)(5)(ii) sets the entry steps for alternate procedures, covering the entrance cover, testing, ventilation and the response to a hazardous atmosphere, and (c)(5)(ii)(E)(3) also requires the ventilation air to come from a clean source that does not increase the hazards in the space.",
+      "items": [
+        {
+          "text": "Any conditions that make it unsafe to remove an entrance cover are eliminated before the cover comes off.",
+          "clause": "1910.146(c)(5)(ii)(A)"
+        },
+        {
+          "text": "Once a cover is removed, the opening is promptly guarded by a railing, temporary cover or other temporary barrier that prevents an accidental fall through it and protects each employee in the space from foreign objects entering.",
+          "clause": "1910.146(c)(5)(ii)(B)"
+        },
+        {
+          "text": "Before anyone enters, the internal atmosphere is tested with a calibrated direct-reading instrument for oxygen, flammable gases and vapors, and potential toxic air contaminants, in that order.",
+          "clause": "1910.146(c)(5)(ii)(C)"
+        },
+        {
+          "text": "No hazardous atmosphere may be present in the space whenever any employee is inside.",
+          "clause": "1910.146(c)(5)(ii)(D)"
+        },
+        {
+          "text": "No employee may enter until the forced air ventilation has eliminated any hazardous atmosphere.",
+          "clause": "1910.146(c)(5)(ii)(E)(1)"
+        },
+        {
+          "text": "The forced air ventilation is directed at the immediate areas where an employee is or will be inside the space and keeps running until all employees have left.",
+          "clause": "1910.146(c)(5)(ii)(E)(2)"
+        },
+        {
+          "text": "The atmosphere is tested periodically as necessary to make sure the continuous ventilation is preventing a hazardous atmosphere from accumulating.",
+          "clause": "1910.146(c)(5)(ii)(F)"
+        },
+        {
+          "text": "If a hazardous atmosphere is detected during entry, each employee leaves immediately, the space is evaluated to find how it developed, and protective measures are put in place before any later entry.",
+          "clause": "1910.146(c)(5)(ii)(G)"
+        }
+      ]
+    },
+    {
+      "heading": "When can a permit space be reclassified as a non-permit space?",
+      "intro": "1910.146(c)(7) allows reclassification to a non-permit confined space only while the hazards stay eliminated, and it requires a signed certification of the basis.",
+      "items": [
+        {
+          "text": "A space with no actual or potential atmospheric hazards may be reclassified if all hazards are eliminated without entry, for as long as the non-atmospheric hazards remain eliminated.",
+          "clause": "1910.146(c)(7)(i)"
+        },
+        {
+          "text": "If entry is needed to eliminate hazards, it is made under the full permit-entry requirements, and the space may be reclassified if testing and inspection during that entry show the hazards are gone, for as long as they remain eliminated.",
+          "clause": "1910.146(c)(7)(ii)"
+        },
+        {
+          "text": "Controlling atmospheric hazards with forced air ventilation does not count as eliminating them.",
+          "clause": "1910.146(c)(7)(ii)"
+        },
+        {
+          "text": "The basis for finding all hazards eliminated is documented in a certification with the date, the location of the space and the signature of the person making the determination, available to each employee entering or their representative.",
+          "clause": "1910.146(c)(7)(iii)"
+        },
+        {
+          "text": "If hazards arise in a declassified space, each employee inside must exit, and the employer then reevaluates whether the space must become a permit space again.",
+          "clause": "1910.146(c)(7)(iv)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers space identification, the program and permit, atmospheric testing and controls, and rescue and close-out; use it at the space before entry is authorized and again while work inside continues.",
+  "checklist": "us/1910-146-permit-required-confined-spaces",
+  "faq": [
+    {
+      "question": "When does entry into a permit space legally begin?",
+      "answer": "Under the definitions in 1910.146(b), entry has occurred as soon as any part of the entrant's body breaks the plane of an opening into the space, and it includes the work that follows inside."
+    },
+    {
+      "question": "Can one person be both the entry supervisor and the attendant?",
+      "answer": "Yes. The note to the entry supervisor definition in 1910.146(b) allows an entry supervisor to also serve as attendant or authorized entrant if trained and equipped for each role, and supervisor duties may pass from one person to another during an entry."
+    },
+    {
+      "question": "Is the yearly program review needed if no entries took place?",
+      "answer": "No. The note to 1910.146(d)(14) lets employers do a single annual review covering all entries in a 12-month period and says no review is necessary if no entry was performed in that period."
+    },
+    {
+      "question": "Does inerting a space make it safe to enter?",
+      "answer": "No. Inerting displaces the atmosphere with a noncombustible gas such as nitrogen, and the note to that definition in 1910.146(b) says the procedure produces an IDLH oxygen-deficient atmosphere."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.146: Permit-required confined spaces (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.146"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "permit-required confined spaces",
+    "confined space entry",
+    "confined space permits"
+  ],
+  "cover": "1910-146-permit-required-confined-spaces",
+  "coverPrompt": "A worker in a full-body harness, clipped to a retrieval line on a tripod winch, climbs down a ladder through a round manhole into an underground utility vault. An attendant stands outside beside a portable gas monitor and a ventilation blower hose, with a yellow barrier rail around the opening.",
+  "coverAlt": "Worker in harness entering a manhole on a tripod retrieval line while an attendant watches from outside",
+  "changes": []
+}

@@ -1,0 +1,216 @@
+{
+  "slug": "1910-146-permit-required-confined-spaces",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-146-permit-required-confined-spaces",
+  "doc_ref": "SI-US-1910-146",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Confined Space Checklist (29 CFR 1910.146)",
+  "subtitle": "Use at each permit-required confined space before authorizing entry and during the work.",
+  "regulation_line": "OSHA 29 CFR 1910.146",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each Defect, tell the entry supervisor, and correct it before entry begins or continues.",
+    "Your permit space program, equipment manufacturers' instructions and site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Space identification and program",
+      "items": [
+        [
+          "Workplace evaluation",
+          "This space has been evaluated and classified as permit-required or non-permit.",
+          "1910.146(c)(1)"
+        ],
+        [
+          "Danger warning",
+          "A danger sign or equally effective means at the space tells employees it is a permit space and what the danger is.",
+          "1910.146(c)(2)"
+        ],
+        [
+          "Unauthorized entry",
+          "The program's measures to prevent unauthorized entry are in place at this space.",
+          "1910.146(d)(1)"
+        ],
+        [
+          "Written program",
+          "The written permit space program is available for employees and their representatives to inspect.",
+          "1910.146(c)(4)"
+        ],
+        [
+          "Hazard evaluation",
+          "The hazards of this space were identified and evaluated before anyone entered.",
+          "1910.146(d)(2)"
+        ],
+        [
+          "Changes to non-permit spaces",
+          "Any change in use or configuration that might increase hazards has led to a reevaluation of the space.",
+          "1910.146(c)(6)"
+        ],
+        [
+          "Contractor informed",
+          "Any contractor entering has been told the site has permit spaces and entry requires a compliant program.",
+          "1910.146(c)(8)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Permit and roles",
+      "items": [
+        [
+          "Permit issued",
+          "A permit for this entry was prepared and issued under the site's written permit system.",
+          "1910.146(d)(10)"
+        ],
+        [
+          "Acceptable entry conditions",
+          "The acceptable entry conditions for this space are specified.",
+          "1910.146(d)(3)(i)"
+        ],
+        [
+          "Attendant posted",
+          "At least one attendant is outside the space for the whole entry.",
+          "1910.146(d)(6)"
+        ],
+        [
+          "Multiple spaces",
+          "If the attendant covers more than one space, the program sets out how they respond to an emergency in any of them.",
+          "1910.146(d)(7)"
+        ],
+        [
+          "Roles designated",
+          "Entrants, attendant, entry supervisor and testers on this entry are designated, know their duties and have had the required training.",
+          "1910.146(d)(8)"
+        ],
+        [
+          "Communications equipment",
+          "Communications equipment is provided and working for contact between entrants and the attendant.",
+          "1910.146(d)(4)(iii)"
+        ],
+        [
+          "Multi-employer coordination",
+          "Where entrants from more than one employer work at once, coordination procedures are in use.",
+          "1910.146(d)(11)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Atmosphere, isolation and equipment",
+      "items": [
+        [
+          "Pre-entry test",
+          "Conditions were tested and found acceptable before entry was authorized.",
+          "1910.146(d)(5)(i)"
+        ],
+        [
+          "Test order",
+          "Oxygen was tested first, then combustible gases and vapors, then toxic gases and vapors.",
+          "1910.146(d)(5)(iii)"
+        ],
+        [
+          "Testing during entry",
+          "The space is tested or monitored as needed to show acceptable conditions are maintained.",
+          "1910.146(d)(5)(ii)"
+        ],
+        [
+          "Entrants can observe testing",
+          "Entrants or their representatives were offered the chance to watch the testing.",
+          "1910.146(d)(5)(iv)"
+        ],
+        [
+          "Results shared",
+          "Test results were given to entrants or their representatives as soon as they were available.",
+          "1910.146(d)(5)(vi)"
+        ],
+        [
+          "Isolation",
+          "The space is isolated, for example by blanking, double block and bleed or lockout, as the program requires.",
+          "1910.146(d)(3)(iii)"
+        ],
+        [
+          "Atmospheric control",
+          "Purging, inerting, flushing or ventilating is done as necessary to eliminate or control atmospheric hazards.",
+          "1910.146(d)(3)(iv)"
+        ],
+        [
+          "External barriers",
+          "Pedestrian, vehicle or other barriers protect entrants from outside hazards where needed.",
+          "1910.146(d)(3)(v)"
+        ],
+        [
+          "Lighting",
+          "Lighting lets entrants see well enough to work safely and exit quickly in an emergency.",
+          "1910.146(d)(4)(v)"
+        ],
+        [
+          "Ingress and egress",
+          "Ladders or other equipment for safe entry and exit are in place.",
+          "1910.146(d)(4)(vii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Rescue and close-out",
+      "items": [
+        [
+          "Summoning rescue",
+          "A procedure for calling rescue and emergency services is in place and known to the entry team.",
+          "1910.146(d)(9)"
+        ],
+        [
+          "Rescue procedure",
+          "A procedure for getting entrants out of this space is in place.",
+          "1910.146(d)(9)"
+        ],
+        [
+          "No unauthorized rescue",
+          "Procedures stop unauthorized personnel from attempting a rescue.",
+          "1910.146(d)(9)"
+        ],
+        [
+          "Rescue equipment",
+          "The employer has provided the rescue and emergency equipment the rescue procedures need, except to the extent the rescue service provides it.",
+          "1910.146(d)(4)(viii)"
+        ],
+        [
+          "Conditions verified throughout",
+          "Conditions are checked and stay acceptable for the full duration of the entry.",
+          "1910.146(d)(3)(vi)"
+        ],
+        [
+          "Entry concluded",
+          "After the work, the space is closed off and the permit canceled under the concluding procedure.",
+          "1910.146(d)(12)"
+        ],
+        [
+          "Program review",
+          "Any unauthorized entry, uncovered hazard, prohibited condition, injury or near-miss led to a program review before the next entry.",
+          "1910.146(d)(13)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.146: Permit-required confined spaces (OSHA general industry)",
+    "Source: eCFR, Title 29, Part 1910, Subpart J"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
