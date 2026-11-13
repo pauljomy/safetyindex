@@ -1,0 +1,277 @@
+{
+  "slug": "1910-305-wiring-methods-components-equipment-use",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-305-wiring-methods-components-equipment-use",
+  "doc_ref": "SI-US-1910-305",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Electrical Wiring Inspection Checklist (29 CFR 1910.305)",
+  "subtitle": "For site walk-throughs of cords, boxes, panels, temporary wiring and general-use electrical equipment.",
+  "regulation_line": "OSHA 29 CFR 1910.305",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; use N/A only where the condition does not exist on site (for example, no temporary wiring or no wet locations).",
+    "For each Defect, record the location, what is wrong and the cited paragraph, and re-inspect the item once it has been corrected.",
+    "Each item cites the 1910.305 paragraph it checks; read the full paragraph for its exceptions and conditions."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Flexible cords and cables",
+      "items": [
+        [
+          "Cord suited to use and location",
+          "Each cord is of a type approved for how and where it is being used.",
+          "1910.305(g)(1)(i)"
+        ],
+        [
+          "Plug and receptacle supply",
+          "Cords serving portable lamps or appliances have an attachment plug and are fed from an approved receptacle outlet.",
+          "1910.305(g)(1)(iii)"
+        ],
+        [
+          "No cords as fixed wiring",
+          "No cord is doing the job of the building's permanent wiring.",
+          "1910.305(g)(1)(iv)(A)"
+        ],
+        [
+          "No cords through walls, ceilings or floors",
+          "No cord passes through a hole in a wall, ceiling or floor.",
+          "1910.305(g)(1)(iv)(B)"
+        ],
+        [
+          "No cords through doorways or windows",
+          "No cord runs through a doorway, window or similar opening.",
+          "1910.305(g)(1)(iv)(C)"
+        ],
+        [
+          "No cords fastened to the building",
+          "No cord is attached to walls, ceilings or other building surfaces.",
+          "1910.305(g)(1)(iv)(D)"
+        ],
+        [
+          "No concealed cords",
+          "No cord is hidden behind walls, ceilings or floors.",
+          "1910.305(g)(1)(iv)(E)"
+        ],
+        [
+          "Cord surface marking",
+          "On the cord types named in the clause, type designation, size and number of conductors are legible along the jacket at intervals not exceeding 610 mm (24 in.).",
+          "1910.305(g)(2)(i)"
+        ],
+        [
+          "No splices or taps",
+          "Cords are continuous lengths; any repair is on No. 14 or larger hard-service or junior hard-service cord and keeps the original insulation, sheath properties and usage characteristics.",
+          "1910.305(g)(2)(ii)"
+        ],
+        [
+          "Strain relief at plugs and fittings",
+          "Plugs, connectors and fittings grip the cord so a pull on the cord does not reach joints or terminal screws.",
+          "1910.305(g)(2)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Boxes, cabinets and covers",
+      "items": [
+        [
+          "Conductor entry protection",
+          "Conductors entering cutout boxes, cabinets and fittings are protected from abrasion.",
+          "1910.305(b)(1)(i)"
+        ],
+        [
+          "Entry openings closed",
+          "Openings where conductors enter are effectively closed around them.",
+          "1910.305(b)(1)(i)"
+        ],
+        [
+          "Unused openings closed",
+          "No open knockouts or holes in cabinets, boxes or fittings; every unused opening is effectively closed.",
+          "1910.305(b)(1)(ii)"
+        ],
+        [
+          "Cables secured",
+          "Each cable is secured to its cabinet, cutout box or meter socket enclosure, or meets every condition of the exception in the clause.",
+          "1910.305(b)(1)(iii)"
+        ],
+        [
+          "Pull and junction box covers",
+          "Every pull box, junction box and fitting has a cover identified for the purpose in place; metal covers are grounded.",
+          "1910.305(b)(2)(i)"
+        ],
+        [
+          "Outlet box covers",
+          "In completed installations, every outlet box has a cover, faceplate or fixture canopy.",
+          "1910.305(b)(2)(i)"
+        ],
+        [
+          "High-voltage box marking",
+          "Covers of pull and junction boxes on systems over 600 volts, nominal, carry a permanent, legible \"HIGH VOLTAGE\" marking on the outside.",
+          "1910.305(b)(3)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Switches, panelboards and wet-location enclosures",
+      "items": [
+        [
+          "Knife switch orientation",
+          "Single-throw knife switches are placed so gravity will not tend to close them.",
+          "1910.305(c)(1)"
+        ],
+        [
+          "Snap switch faceplates",
+          "Faceplates on flush snap switches completely cover the box opening and sit against the finished surface.",
+          "1910.305(c)(4)"
+        ],
+        [
+          "Switchboards with exposed live parts",
+          "Any switchboard with exposed live parts is in a permanently dry location and can be reached only by qualified persons.",
+          "1910.305(d)(1)"
+        ],
+        [
+          "Panelboards enclosed and dead front",
+          "Panelboards sit in cabinets, cutout boxes or enclosures designed for the purpose and are dead front, or else can be reached only by qualified persons.",
+          "1910.305(d)(2)"
+        ],
+        [
+          "Damp and wet location enclosures",
+          "Enclosures in damp or wet areas keep water out, sit with at least 6.35 mm (0.25 in.) airspace from the wall unless nonmetallic on concrete, masonry, tile or similar, and are weatherproof in wet locations.",
+          "1910.305(e)(1)"
+        ],
+        [
+          "Wet location switchgear",
+          "Switches, circuit breakers and switchboards in wet locations are in weatherproof enclosures.",
+          "1910.305(e)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Temporary wiring",
+      "items": [
+        [
+          "Permitted purpose",
+          "Temporary wiring of 600 volts, nominal, or less serves remodeling, maintenance or repair; Christmas decorative lighting, carnivals or similar purposes for no more than 90 days; or experimental, development or emergency work.",
+          "1910.305(a)(2)(i)"
+        ],
+        [
+          "Removed when finished",
+          "No temporary wiring left in place after its project or purpose has ended.",
+          "1910.305(a)(2)(ii)"
+        ],
+        [
+          "Conductors off the floor",
+          "No branch-circuit conductors are laid on the floor.",
+          "1910.305(a)(2)(v)(C)"
+        ],
+        [
+          "Grounding-type receptacles",
+          "Every receptacle on temporary wiring is a grounding type and is electrically connected to the grounding conductor.",
+          "1910.305(a)(2)(vi)"
+        ],
+        [
+          "Equipment grounding conductor",
+          "Each temporary branch circuit has a separate equipment grounding conductor, unless it is installed in a continuous grounded metallic raceway or metallic covered cable.",
+          "1910.305(a)(2)(vi)"
+        ],
+        [
+          "Means of disconnection",
+          "Each temporary circuit has disconnecting switches or plug connectors that cut all ungrounded conductors.",
+          "1910.305(a)(2)(viii)"
+        ],
+        [
+          "Lamp guards",
+          "Lamps for general illumination are in a fixture or lampholder with a guard against contact or breakage.",
+          "1910.305(a)(2)(ix)"
+        ],
+        [
+          "Cords protected from damage",
+          "Cords and cables are kept clear of sharp corners, projections, doorways and other pinch points.",
+          "1910.305(a)(2)(x)"
+        ],
+        [
+          "Cords supported",
+          "Cords and cable assemblies are held in place by staples, cable ties, straps or similar fittings that do not damage them.",
+          "1910.305(a)(2)(xi)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Fixtures, receptacles and general-use equipment",
+      "items": [
+        [
+          "No exposed live parts on fixtures and receptacles",
+          "Fixtures, lampholders, lamps and receptacles have no live parts exposed to contact, except permitted terminals at least 2.44 m (8.0 ft) above the floor.",
+          "1910.305(j)(1)(i)"
+        ],
+        [
+          "Portable handlamps",
+          "Cord-connected handlamps have a molded or identified handle and a substantial guard on the lampholder or handle.",
+          "1910.305(j)(1)(ii)"
+        ],
+        [
+          "Handlamp lampholders",
+          "No portable handlamp uses a metal shell, paper-lined lampholder.",
+          "1910.305(j)(1)(ii)"
+        ],
+        [
+          "Plugs and connectors",
+          "15- and 20-ampere plugs and connectors show no current-carrying parts other than the prongs, blades or pins.",
+          "1910.305(j)(2)(i)"
+        ],
+        [
+          "Grounding plugs in grounding receptacles",
+          "No grounding-type plug is used in a nongrounding-type receptacle or connector.",
+          "1910.305(j)(2)(iii)"
+        ],
+        [
+          "Wet location receptacles for unattended loads",
+          "Receptacles in wet locations serving unattended products have enclosures that stay weatherproof with the plug inserted or removed.",
+          "1910.305(j)(2)(vi)"
+        ],
+        [
+          "Appliance nameplates",
+          "Each electric appliance has a nameplate with its identifying name and rating in volts and amperes or volts and watts.",
+          "1910.305(j)(3)(iii)"
+        ],
+        [
+          "Motor disconnect position",
+          "Each motor disconnecting means plainly shows whether it is open (off) or closed (on).",
+          "1910.305(j)(4)(iv)"
+        ],
+        [
+          "Transformer vaults clear",
+          "No material stored inside transformer vaults.",
+          "1910.305(j)(5)(viii)"
+        ],
+        [
+          "Battery ventilation",
+          "Storage battery areas have diffusion and ventilation that prevent gases building up into explosive mixtures.",
+          "1910.305(j)(7)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.305: Wiring methods, components, and equipment for general use (Part 1910 Subpart S: Electrical)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

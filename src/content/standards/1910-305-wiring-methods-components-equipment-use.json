@@ -1,0 +1,524 @@
+{
+  "section": "1910.305",
+  "part": "1910",
+  "heading": "Wiring methods, components, and equipment for general use.",
+  "subpart": "S",
+  "subpartTitle": "Electrical",
+  "title": "Electrical wiring inspection and OSHA requirements (29 CFR 1910.305)",
+  "seoTitle": "Electrical Wiring Inspection: OSHA 1910.305 Checklist",
+  "description": "OSHA 29 CFR 1910.305 wiring requirements in plain language, with citation and penalty data and an electrical wiring inspection checklist (PDF, Excel).",
+  "opening": "29 CFR 1910.305 sets OSHA's rules for wiring methods and general-use electrical equipment: temporary wiring, boxes and covers, switches, panelboards, conductor insulation, flexible cords, fixtures, receptacles, motors, transformers, capacitors and storage batteries.",
+  "keyword": "electrical wiring inspection",
+  "cluster": [
+    {
+      "keyword": "osha extension cord requirements",
+      "volume": 320,
+      "kd": 18,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "extension cord checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "extension cord inspection",
+      "volume": 170,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha electrical wiring requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical wiring checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical wiring inspection",
+      "volume": 210,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha wiring methods components and equipment for general use requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wiring methods components and equipment for general use checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wiring methods components and equipment for general use inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.305",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 710,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 13243,
+    "inspections": 9243,
+    "byFy": {
+      "2022": 2493,
+      "2023": 2906,
+      "2024": 2870,
+      "2025": 2517,
+      "2026": 2457
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(g)(1)(iv)(A)",
+        "count": 2532
+      },
+      {
+        "paragraph": "(b)(2)(i)",
+        "count": 2303
+      },
+      {
+        "paragraph": "(b)(1)(ii)",
+        "count": 1933
+      },
+      {
+        "paragraph": "(g)(2)(iii)",
+        "count": 1766
+      },
+      {
+        "paragraph": "(g)(1)(iv)",
+        "count": 635
+      },
+      {
+        "paragraph": "(g)(1)(iv)(B)",
+        "count": 476
+      },
+      {
+        "paragraph": "(g)(1)(iv)(D)",
+        "count": 418
+      },
+      {
+        "paragraph": "(b)(1)(i)",
+        "count": 386
+      },
+      {
+        "paragraph": "(g)(2)(ii)",
+        "count": 280
+      },
+      {
+        "paragraph": "(g)(1)(iv)(C)",
+        "count": 249
+      }
+    ],
+    "penalties": {
+      "n": 5384,
+      "median": 3500,
+      "p25": 1100,
+      "p75": 6384,
+      "total": 23817045
+    },
+    "typeShares": {
+      "serious": 0.613,
+      "willful": 0,
+      "repeat": 0.012,
+      "otherThanSerious": 0.375,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 8122,
+      "willful": 0,
+      "repeat": 153,
+      "otherThanSerious": 4966,
+      "unclassified": 2
+    },
+    "topIndustries": [
+      {
+        "naics": "9221",
+        "count": 564,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "2373",
+        "count": 529,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2213",
+        "count": 505,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "8111",
+        "count": 467,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "3323",
+        "count": 448,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "7211",
+        "count": 389,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "9211",
+        "count": 376,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "3219",
+        "count": 363,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "4931",
+        "count": 352,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "6111",
+        "count": 349,
+        "title": "Elementary and Secondary Schools"
+      }
+    ]
+  },
+  "enforcementSummary": "Across FY2022–FY2026 the most-cited paragraph was 1910.305(g)(1)(iv)(A), which bars cords and cables from standing in for a structure's fixed wiring unless (g)(1)(ii) permits otherwise. It was followed by (b)(2)(i) on covers for pull boxes, junction boxes and fittings, (b)(1)(ii) on closing unused openings in boxes, cabinets and fittings, and (g)(2)(iii) on cord strain relief. Yearly citations rose from 2,493 in FY2022 to 2,906 in FY2023, then fell each year to 2,457 in FY2026.",
+  "requirementsIntro": "1910.305 is part of Subpart S (Electrical) of 29 CFR Part 1910, and under 1910.305(a) its provisions do not apply to conductors that are an integral part of factory-assembled equipment. It is organised in ten paragraphs: wiring methods (a), cabinets, boxes and fittings (b), switches (c), switchboards and panelboards (d), enclosures for damp or wet locations (e), conductors for general wiring (f), flexible cords and cables (g), portable cables over 600 volts (h), fixture wires (i) and equipment for general use (j).",
+  "requirements": [
+    {
+      "heading": "When may flexible cords be used?",
+      "intro": "Under 1910.305(g)(1), cords and cables must be approved for their conditions and location of use, may serve only the purposes listed in (g)(1)(ii), and, unless (g)(1)(ii) specifically permits otherwise, are banned from the installations listed in (g)(1)(iv).",
+      "items": [
+        {
+          "text": "Every flexible cord or cable must be approved for the conditions of use and location.",
+          "clause": "1910.305(g)(1)(i)"
+        },
+        {
+          "text": "Cords and cables may be used only for the listed purposes, such as pendants, fixture wiring, connecting portable lamps or appliances, wiring of cranes and hoists, connecting moving parts and temporary wiring permitted by paragraph (a)(2).",
+          "clause": "1910.305(g)(1)(ii)"
+        },
+        {
+          "text": "A cord connecting portable lamps or appliances, stationary equipment that is frequently interchanged, or appliances designed for removal for maintenance must have an attachment plug and be energized from an approved receptacle outlet.",
+          "clause": "1910.305(g)(1)(iii)"
+        },
+        {
+          "text": "Cords may not take the place of a structure's fixed wiring.",
+          "clause": "1910.305(g)(1)(iv)(A)"
+        },
+        {
+          "text": "Cords may not be run through holes in walls, ceilings or floors.",
+          "clause": "1910.305(g)(1)(iv)(B)"
+        },
+        {
+          "text": "Cords may not be run through doorways, windows or similar openings.",
+          "clause": "1910.305(g)(1)(iv)(C)"
+        },
+        {
+          "text": "Cords may not be attached to building surfaces.",
+          "clause": "1910.305(g)(1)(iv)(D)"
+        },
+        {
+          "text": "Cords may not be concealed behind building walls, ceilings or floors.",
+          "clause": "1910.305(g)(1)(iv)(E)"
+        }
+      ]
+    },
+    {
+      "heading": "How must flexible cords be marked, spliced and connected?",
+      "intro": "1910.305(g)(2) requires flexible cords to have identifiable grounding conductors and surface markings, to run without splices except for permitted repairs, and to have strain relief at devices and fittings.",
+      "items": [
+        {
+          "text": "A cord or cable conductor used as a grounded conductor or an equipment grounding conductor must be distinguishable from the other conductors.",
+          "clause": "1910.305(g)(2)(i)"
+        },
+        {
+          "text": "The cord and cable types named in the paragraph must be durably marked on the surface, at intervals not exceeding 610 mm (24 in.), with the type designation, size and number of conductors.",
+          "clause": "1910.305(g)(2)(i)"
+        },
+        {
+          "text": "Flexible cords may be used only in continuous lengths without splice or tap.",
+          "clause": "1910.305(g)(2)(ii)"
+        },
+        {
+          "text": "Hard-service and junior hard-service cord No. 14 and larger may be repaired by splicing only if the splice keeps the insulation, outer sheath properties and usage characteristics of the original cord.",
+          "clause": "1910.305(g)(2)(ii)"
+        },
+        {
+          "text": "Strain relief is required where cords and cables connect to devices and fittings, so that pull is not passed directly to joints or terminal screws.",
+          "clause": "1910.305(g)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1910.305 require for boxes, cabinets and covers?",
+      "intro": "1910.305(b) requires conductor entries into boxes, cabinets and fittings to be protected and closed, unused openings to be closed, cables to be secured, covers on pull boxes, junction boxes and fittings, and a cover, faceplate or fixture canopy on each outlet box in completed installations.",
+      "items": [
+        {
+          "text": "Conductors entering cutout boxes, cabinets or fittings must be protected from abrasion.",
+          "clause": "1910.305(b)(1)(i)"
+        },
+        {
+          "text": "Openings through which conductors enter must be effectively closed.",
+          "clause": "1910.305(b)(1)(i)"
+        },
+        {
+          "text": "Unused openings in cabinets, boxes and fittings must be effectively closed.",
+          "clause": "1910.305(b)(1)(ii)"
+        },
+        {
+          "text": "Each cable must be secured to the cabinet, cutout box or meter socket enclosure, apart from the nonmetallic-sheathed cable exception and its conditions set out in this paragraph.",
+          "clause": "1910.305(b)(1)(iii)"
+        },
+        {
+          "text": "Pull boxes, junction boxes and fittings must have covers identified for the purpose, and metal covers must be grounded.",
+          "clause": "1910.305(b)(2)(i)"
+        },
+        {
+          "text": "In completed installations, each outlet box must have a cover, faceplate or fixture canopy.",
+          "clause": "1910.305(b)(2)(i)"
+        },
+        {
+          "text": "Covers of pull and junction boxes for systems over 600 volts, nominal, must be permanently marked \"HIGH VOLTAGE\" on the outside, readily visible and legible.",
+          "clause": "1910.305(b)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the OSHA rules for temporary wiring?",
+      "intro": "Under 1910.305(a)(2), temporary wiring must meet the subpart's permanent wiring rules except where that paragraph modifies them, is allowed only for set purposes, and must be removed when the purpose ends.",
+      "items": [
+        {
+          "text": "Temporary power and lighting of 600 volts, nominal, or less is allowed only during remodeling, maintenance or repair work; for up to 90 days for Christmas decorative lighting, carnivals and similar purposes; or for experimental or development work and during emergencies.",
+          "clause": "1910.305(a)(2)(i)"
+        },
+        {
+          "text": "Temporary wiring must be removed immediately once the project or purpose it was installed for is complete.",
+          "clause": "1910.305(a)(2)(ii)"
+        },
+        {
+          "text": "No branch-circuit conductor may be laid on the floor.",
+          "clause": "1910.305(a)(2)(v)(C)"
+        },
+        {
+          "text": "Receptacles on temporary wiring must be of the grounding type.",
+          "clause": "1910.305(a)(2)(vi)"
+        },
+        {
+          "text": "Unless installed in a continuous grounded metallic raceway or metallic covered cable, each temporary branch circuit must contain a separate equipment grounding conductor, and all receptacles must be electrically connected to the grounding conductor.",
+          "clause": "1910.305(a)(2)(vi)"
+        },
+        {
+          "text": "Bare conductors and earth returns may not be used to wire any temporary circuit.",
+          "clause": "1910.305(a)(2)(vii)"
+        },
+        {
+          "text": "Disconnecting switches or plug connectors must allow every ungrounded conductor of each temporary circuit to be disconnected.",
+          "clause": "1910.305(a)(2)(viii)"
+        },
+        {
+          "text": "Cords and cables in temporary installations need protection from accidental damage, for example from sharp corners, projections, doorways or other pinch points.",
+          "clause": "1910.305(a)(2)(x)"
+        }
+      ]
+    },
+    {
+      "heading": "What do switches, panelboards and wet-location enclosures need?",
+      "intro": "1910.305(c), (d) and (e) set how knife and snap switches are mounted, require panelboards to be enclosed and dead front, and require enclosures exposed to moisture to keep water out.",
+      "items": [
+        {
+          "text": "Single-throw knife switches must be placed so that gravity will not tend to close them.",
+          "clause": "1910.305(c)(1)"
+        },
+        {
+          "text": "Snap switches mounted in boxes must have faceplates that completely cover the opening and seat against the finished surface.",
+          "clause": "1910.305(c)(4)"
+        },
+        {
+          "text": "Switchboards that have any exposed live parts must be located in permanently dry locations and be accessible only to qualified persons.",
+          "clause": "1910.305(d)(1)"
+        },
+        {
+          "text": "Panelboards must be dead front and mounted in cabinets, cutout boxes or enclosures designed for the purpose, though other panelboard types are permitted where only qualified persons can access them.",
+          "clause": "1910.305(d)(2)"
+        },
+        {
+          "text": "Cabinets, cutout boxes, fittings, boxes and panelboard enclosures in damp or wet locations must be installed to prevent moisture or water from entering and accumulating inside.",
+          "clause": "1910.305(e)(1)"
+        },
+        {
+          "text": "These enclosures must be mounted with at least 6.35 mm (0.25 in.) airspace between the enclosure and the wall or other supporting surface; nonmetallic enclosures may go without the airspace on concrete, masonry, tile or similar surfaces.",
+          "clause": "1910.305(e)(1)"
+        },
+        {
+          "text": "In wet locations, these enclosures must be weatherproof.",
+          "clause": "1910.305(e)(1)"
+        },
+        {
+          "text": "Switches, circuit breakers and switchboards installed in wet locations must be in weatherproof enclosures.",
+          "clause": "1910.305(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What applies to conductors, fixtures, receptacles and plugs?",
+      "intro": "1910.305(f) and (j)(1)–(j)(2) require general wiring conductors to be insulated and identifiable, and fixtures, receptacles and plugs to have no normally exposed live parts.",
+      "items": [
+        {
+          "text": "All conductors used for general wiring must be insulated unless Subpart S permits otherwise.",
+          "clause": "1910.305(f)(1)"
+        },
+        {
+          "text": "Insulated conductors must be distinguishable by color or other suitable means as grounded, ungrounded or equipment grounding conductors.",
+          "clause": "1910.305(f)(3)"
+        },
+        {
+          "text": "Fixtures, lampholders, lamps, rosettes and receptacles may have no live parts normally exposed to employee contact, though rosettes and cleat-type lampholders and receptacles at least 2.44 m (8.0 ft) above the floor may have exposed terminals.",
+          "clause": "1910.305(j)(1)(i)"
+        },
+        {
+          "text": "Portable handlamps supplied through flexible cords need a handle of molded composition or other identified material and a substantial guard on the lampholder or handle.",
+          "clause": "1910.305(j)(1)(ii)"
+        },
+        {
+          "text": "Metal shell, paper-lined lampholders may not be used on portable handlamps.",
+          "clause": "1910.305(j)(1)(ii)"
+        },
+        {
+          "text": "All 15- and 20-ampere attachment plugs and connectors must have no exposed current-carrying parts except the prongs, blades or pins.",
+          "clause": "1910.305(j)(2)(i)"
+        },
+        {
+          "text": "Nongrounding-type receptacles and connectors may not be used for grounding-type attachment plugs.",
+          "clause": "1910.305(j)(2)(iii)"
+        },
+        {
+          "text": "A receptacle in a wet location serving a product that is not attended while in use needs an enclosure that is weatherproof with the plug inserted or removed.",
+          "clause": "1910.305(j)(2)(vi)"
+        }
+      ]
+    },
+    {
+      "heading": "What do motors, transformers, capacitors and batteries need?",
+      "intro": "1910.305(j)(4) to (j)(7) require visible, accessible disconnects for motors and controllers, vaults for certain transformers, automatic discharge for capacitors and ventilation for storage batteries.",
+      "items": [
+        {
+          "text": "\"Within sight of\" means visible and not more than 15.24 m (50.0 ft) from the other piece of equipment.",
+          "clause": "1910.305(j)(4)(i)"
+        },
+        {
+          "text": "Each motor controller needs an individual disconnecting means within sight of the controller location, subject to the grouped-controller and over-600-volt exceptions in the paragraph.",
+          "clause": "1910.305(j)(4)(ii)"
+        },
+        {
+          "text": "A motor disconnecting means must plainly indicate whether it is open (off) or closed (on).",
+          "clause": "1910.305(j)(4)(iv)"
+        },
+        {
+          "text": "The disconnecting means must be readily accessible; where more than one serves the same equipment, only one needs to be.",
+          "clause": "1910.305(j)(4)(v)"
+        },
+        {
+          "text": "Oil-insulated transformers installed indoors must be in a vault.",
+          "clause": "1910.305(j)(5)(iv)"
+        },
+        {
+          "text": "Material may not be stored in transformer vaults.",
+          "clause": "1910.305(j)(5)(viii)"
+        },
+        {
+          "text": "Capacitors, other than surge capacitors or those that are a component of other apparatus, need an automatic means of draining the stored charge after disconnection from the supply.",
+          "clause": "1910.305(j)(6)(i)"
+        },
+        {
+          "text": "Storage batteries need enough diffusion and ventilation of gases to prevent explosive mixtures from accumulating.",
+          "clause": "1910.305(j)(7)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "Use this checklist on a walk-through of cords, boxes, switches, panels, temporary wiring and general-use equipment to check each condition against the 1910.305 paragraph it comes from.",
+  "checklist": "us/1910-305-wiring-methods-components-equipment-use",
+  "faq": [
+    {
+      "question": "Does 1910.305 use the term \"extension cord\"?",
+      "answer": "No. The section's cord rules are written for \"flexible cords and cables\" in paragraph (g), with further cord rules for temporary wiring in paragraph (a)(2)."
+    },
+    {
+      "question": "What counts as a receptacle location protected from the weather?",
+      "answer": "The note to 1910.305(j)(2)(v) treats a receptacle as protected when it is under a roofed open porch, canopy, marquee or the like and will not be subjected to beating rain or water runoff. Such a receptacle, like one in other damp locations, needs an enclosure that is weatherproof when the receptacle is covered."
+    },
+    {
+      "question": "Can a metal cable tray serve as an equipment grounding conductor?",
+      "answer": "Only where continuous maintenance and supervision ensure that qualified persons will service the installed cable tray system, under 1910.305(a)(3)(iii)."
+    },
+    {
+      "question": "Must motor overload protection always stop the motor?",
+      "answer": "No. Under 1910.305(j)(4)(vii), overload protection that stops a motor is not required where a shutdown is likely to add or increase hazards, as with fire pumps, or where continued running is needed for a safe shutdown and the overload sensing devices are connected to a supervised alarm."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.305: Wiring methods, components, and equipment for general use (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.305"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "electrical wiring methods",
+    "flexible cords",
+    "temporary wiring"
+  ],
+  "cover": "1910-305-wiring-methods-components-equipment-use",
+  "coverPrompt": "A realistic photograph, taken from a few meters away, of an electrician wearing safety glasses and work gloves fastening a blank cover onto a metal junction box on a warehouse wall, with metal conduit running neatly into the box. Plain walls, no signs, text or logos.",
+  "coverAlt": "Electrician fastening a cover onto a conduit-fed metal junction box on a warehouse wall",
+  "changes": []
+}
