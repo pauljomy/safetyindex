@@ -1,0 +1,247 @@
+{
+  "naics": "2131",
+  "naicsTitle": "Support Activities for Mining",
+  "title": "Most-cited OSHA standards for support activities for mining (NAICS 2131)",
+  "seoTitle": "Oilfield safety: OSHA citations across NAICS 2131",
+  "description": "OSHA citations in support activities for mining (NAICS 2131), including oil and gas well drilling, FY2022–FY2026: top standards and penalties.",
+  "opening": "From FY2022–FY2026, the OSHA standard cited most in support activities for mining (NAICS 2131), which covers oil and gas drilling and support plus coal, metal and mineral mining support, was 1910.305, electrical wiring methods, components and equipment, with 109 citations.",
+  "keyword": "oilfield safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 100,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 1606,
+    "citations": 1397,
+    "topStandards": [
+      {
+        "section": "1910.305",
+        "count": 109
+      },
+      {
+        "section": "1910.134",
+        "count": 100
+      },
+      {
+        "section": "1910.147",
+        "count": 95
+      },
+      {
+        "section": "1910.1200",
+        "count": 82
+      },
+      {
+        "section": "1910.303",
+        "count": 70
+      },
+      {
+        "section": "1910.132",
+        "count": 65
+      },
+      {
+        "section": "1910.28",
+        "count": 65
+      },
+      {
+        "section": "1910.146",
+        "count": 64
+      },
+      {
+        "section": "1904.39",
+        "count": 52
+      },
+      {
+        "section": "1910.178",
+        "count": 44
+      },
+      {
+        "section": "1910.151",
+        "count": 43
+      },
+      {
+        "section": "1910.157",
+        "count": 41
+      },
+      {
+        "section": "1910.184",
+        "count": 35
+      },
+      {
+        "section": "1910.304",
+        "count": 34
+      },
+      {
+        "section": "1910.22",
+        "count": 30
+      },
+      {
+        "section": "1910.212",
+        "count": 29
+      },
+      {
+        "section": "1910.106",
+        "count": 20
+      },
+      {
+        "section": "1910.252",
+        "count": 16
+      },
+      {
+        "section": "1910.29",
+        "count": 16
+      },
+      {
+        "section": "1910.30",
+        "count": 16
+      },
+      {
+        "section": "1910.133",
+        "count": 14
+      },
+      {
+        "section": "1910.334",
+        "count": 14
+      },
+      {
+        "section": "1910.25",
+        "count": 13
+      },
+      {
+        "section": "1910.140",
+        "count": 12
+      },
+      {
+        "section": "1910.179",
+        "count": 12
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 43
+      },
+      {
+        "clause": "1910.28(b)(1)(i)",
+        "count": 42
+      },
+      {
+        "clause": "1910.305(g)(2)(iii)",
+        "count": 33
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 30
+      },
+      {
+        "clause": "1910.304(g)(5)",
+        "count": 27
+      },
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 22
+      },
+      {
+        "clause": "1910.147(c)(4)(i)",
+        "count": 21
+      },
+      {
+        "clause": "1910.132(a)",
+        "count": 20
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 19
+      },
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 17
+      }
+    ],
+    "penalties": {
+      "n": 1117,
+      "median": 6384,
+      "p25": 3263,
+      "p75": 10646,
+      "total": 8610214
+    },
+    "typeShares": {
+      "serious": 0.513,
+      "willful": 0.005,
+      "repeat": 0.013,
+      "otherThanSerious": 0.47,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 52
+  },
+  "patternsSummary": "Electrical rules lead the list: the Subpart S sections 1910.305 (109 citations), 1910.303 (70) and 1910.304 (34) all appear in the ranking. Personal protective equipment comes next, with 1910.134 respiratory protection at 100 and 1910.132 general PPE requirements at 65, alongside two Subpart J sections: 1910.147 lockout/tagout (95) and 1910.146 permit-required confined spaces (64). Hazard communication under 1910.1200 drew 82 citations, and 1904.39, the duty to report fatalities, hospitalizations, amputations and losses of an eye to OSHA, drew 52.",
+  "penaltiesSummary": "The median penalty was $6,384, and the middle half of penalties fell between $3,263 and $10,646. Of the citations, 51% were classed as serious and 47% as other-than-serious, while willful and repeat citations made up 1% each.",
+  "standardNotes": [
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and electrical equipment for general use, part of the Subpart S electrical standards."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, the Subpart I personal protective equipment section on respirators."
+    },
+    {
+      "section": "1910.147",
+      "note": "Control of hazardous energy (lockout/tagout), in Subpart J, General Environmental Controls."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z, Toxic and Hazardous Substances."
+    },
+    {
+      "section": "1910.303",
+      "note": "General requirements within the Subpart S electrical standards."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment, Subpart I."
+    },
+    {
+      "section": "1910.28",
+      "note": "Duty to have fall protection and falling object protection, in Subpart D, Walking-Working Surfaces."
+    },
+    {
+      "section": "1910.146",
+      "note": "Permit-required confined spaces, in Subpart J, General Environmental Controls."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "support activities for mining",
+    "oil and gas drilling and mining support"
+  ],
+  "cover": "2131-support-activities-for-mining",
+  "coverPrompt": "Realistic wide-angle daylight photograph of a land oil and gas drilling rig in open country. Several crew members on the rig floor, seen from a distance with no faces visible, wear hard hats, safety glasses, flame-resistant coveralls and work gloves. Guardrails line the elevated work platforms, and pipe racks, mud tanks and a parked support truck sit around the rig. Equipment is shown in correct use. Natural light, no text, labels, numbers or logos anywhere.",
+  "coverAlt": "Crew in hard hats and flame-resistant coveralls working on a guarded land drilling rig floor",
+  "changes": []
+}
