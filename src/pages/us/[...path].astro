@@ -9,6 +9,8 @@ import ReportView from "../../views/ReportView.astro";
 import PenaltiesView from "../../views/PenaltiesView.astro";
 import { categoryName, getIndustries, getReports, getStandards, livePages, url } from "../../lib/content";
 import { categories } from "../../data/categories.mjs";
+import { standardTopics } from "../../data/topics.mjs";
+import { naicsTitle } from "../../../scripts/data/naics.mjs";
 import { latest } from "../../lib/dates";
 import { ui } from "../../i18n/ui";
 import { site } from "../../config/site.mjs";
@@ -38,33 +40,31 @@ const us = { label: "United States", href: url.market("us") };
 const newest = (kind: string) => latest(new Date(site.updated), ...live.filter((p) => p.kind === kind).map((p) => p.updated));
 
 let hub: any;
+const row = (p: (typeof live)[number], extra?: string) => ({ path: p.path, title: p.title, description: p.description, image: p.image, label: p.label, date: p.released, extra });
 if (view === "standards-hub") {
   const st = (await getStandards()).filter((x) => !x.data.noindex);
-  const groups = new Map<string, any[]>();
-  for (const x of [...st].sort((a, b) => a.data.section.localeCompare(b.data.section, "en", { numeric: true }))) {
-    const key = `Part ${x.data.part}${x.data.subpart ? `, Subpart ${x.data.subpart}${x.data.subpartTitle ? `: ${x.data.subpartTitle}` : ""}` : ""}`;
-    (groups.get(key) ?? groups.set(key, []).get(key)!).push({ path: url.standard(x.id), title: x.data.title, extra: x.data.stats.citations.toLocaleString("en-US") });
-  }
+  const cites = new Map(st.map((x) => [url.standard(x.id), x.data.stats.citations]));
+  const pages = live.filter((p) => p.kind === "standard").sort((a, b) => (cites.get(b.path) ?? 0) - (cites.get(a.path) ?? 0));
+  const groups = standardTopics.map((t) => ({ heading: t.name, slug: t.slug, rows: pages.filter((p) => p.topic === t.slug).map((p) => row(p, `${(cites.get(p.path) ?? 0).toLocaleString("en-US")} citations`)) })).filter((g) => g.rows.length);
   hub = {
-    title: "OSHA standards: requirements and checklists", description: "Every OSHA standard page on Safety Index: plain-language requirements, enforcement data and a checklist for each, grouped by CFR part and subpart.",
+    title: "OSHA standards: requirements and checklists", description: "Every OSHA standard page on Safety Index: plain-language requirements, enforcement data and a checklist for each, grouped by topic.",
     intro: "Each page explains what the standard requires, clause by clause, shows how often OSHA cites it and with what penalties, and has a checklist you can tick, print or download.",
-    groups: [...groups].map(([heading, rows]) => ({ heading, rows })), extraHeader: "Citations (5 FY)", crumbs: [home, us, { label: s.hubStandards, href: url.standardsHub() }], updated: newest("standard"),
+    groups, crumbs: [home, us, { label: s.hubStandards, href: url.standardsHub() }], updated: newest("standard"),
   };
 } else if (view === "industries-hub") {
+  const pages = live.filter((p) => p.kind === "industry");
   const ind = (await getIndustries()).filter((x) => !x.data.noindex);
-  const groups = new Map<string, any[]>();
-  for (const x of ind) {
-    const key = `NAICS ${x.data.naics.slice(0, 2)}`;
-    (groups.get(key) ?? groups.set(key, []).get(key)!).push({ path: url.industry(x.id), title: x.data.title, extra: x.data.stats.inspections.toLocaleString("en-US") });
-  }
+  const sectorOf = (path: string) => { const x = ind.find((i) => url.industry(i.id) === path)!; return { code: x.data.naics.slice(0, 2), name: naicsTitle(x.data.naics.slice(0, 2)) ?? `NAICS ${x.data.naics.slice(0, 2)}`, insp: x.data.stats.inspections }; };
+  const groups = new Map<string, { heading: string; rows: any[] }>();
+  for (const p of pages) { const sec = sectorOf(p.path); (groups.get(sec.code) ?? groups.set(sec.code, { heading: sec.name, rows: [] }).get(sec.code)!).rows.push(row(p, `${sec.insp.toLocaleString("en-US")} inspections`)); }
   hub = {
     title: "OSHA citations by industry", description: "The OSHA standards cited most in each industry, with citation counts, the most-cited paragraphs and penalty patterns, by NAICS code.",
     intro: "Each industry page ranks the OSHA standards cited most in that industry over the last five complete fiscal years and links to the standard pages.",
-    groups: [...groups].sort(([a], [b]) => a.localeCompare(b)).map(([heading, rows]) => ({ heading, rows })), extraHeader: "Inspections (5 FY)", crumbs: [home, us, { label: s.hubIndustries, href: url.industriesHub() }], updated: newest("industry"),
+    groups: [...groups].sort(([a], [b]) => a.localeCompare(b)).map(([, g]) => g), crumbs: [home, us, { label: s.hubIndustries, href: url.industriesHub() }], updated: newest("industry"),
   };
 } else if (view === "guides-hub") {
   const guides = live.filter((p) => p.kind === "guide");
-  const groups = categories.map((c) => ({ heading: categoryName(c.slug, "en"), rows: guides.filter((g) => g.category === c.slug).map((g) => ({ path: g.path, title: g.title, description: g.description })) })).filter((g) => g.rows.length);
+  const groups = categories.map((c) => ({ heading: categoryName(c.slug, "en"), slug: c.slug, rows: guides.filter((g) => g.category === c.slug).map((g) => row(g)) })).filter((g) => g.rows.length);
   hub = {
     title: s.guidesHubTitle("the United States"), description: s.guidesHubDescription("the United States"),
     intro: "How-to guides for US workplaces, written from OSHA regulations and guidance. For the regulation text and enforcement data behind each topic, see the standard pages.",
@@ -75,8 +75,8 @@ if (view === "standards-hub") {
   hub = {
     title: "Workplace safety data reports", description: "Yearly reports built from public OSHA enforcement data and Bureau of Labor Statistics injury data, with charts and downloadable tables.",
     intro: "Reports built from public data, with the method, sample size and downloadable tables on each page.",
-    groups: [{ heading: "Reports", rows: reps.map((r) => ({ path: r.path, title: r.title, description: r.description })) }], crumbs: [home, us, { label: s.hubReports, href: url.reportsHub() }], updated: newest("report"),
-    featured: live.filter((p) => p.kind === "penalties").map((p) => ({ path: p.path, title: p.title, description: p.description })),
+    groups: [{ heading: "Reports", rows: reps.map((r) => row(r)) }], crumbs: [home, us, { label: s.hubReports, href: url.reportsHub() }], updated: newest("report"),
+    featured: live.filter((p) => p.kind === "penalties").map((p) => row(p)), jump: false,
   };
 }
 ---

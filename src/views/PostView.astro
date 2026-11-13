@@ -1,15 +1,9 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import TableOfContents from "@components/TableOfContents.astro";
-import PostNavigation from "@components/PostNavigation.astro";
-import Chip from "@components/Chip.astro";
-import Cover from "@components/Cover.astro";
+import ArticleFrame from "@components/ArticleFrame.astro";
 import ChecklistBlock from "@components/ChecklistBlock.astro";
 import PageNotes from "@components/PageNotes.astro";
-import RelatedBlock from "@components/RelatedBlock.astro";
-import { categoryName, getChecklist, getGuides, postAlternates, postMarket, url, type Post } from "@lib/content";
+import { categoryName, getChecklist, postAlternates, postMarket, url, type Post } from "@lib/content";
 import { formatDate, latest } from "@lib/dates";
 import { slugify } from "@lib/slugify";
 import { readingTime } from "@lib/utils";
@@ -30,84 +24,50 @@ const headings = post.rendered?.metadata?.headings ?? [];
 const used = new Set<string>();
 const body = await withLinks(post.rendered?.html ?? "", path, used);
 const alternates = await postAlternates(post);
-const all = await getGuides(market);
-const i = all.findIndex((p) => p.id === post.id);
-const [prevPost, nextPost] = [all[i - 1], all[i + 1]];
 const mainCategory = d.categories[0];
 const title = d.seoTitle ?? d.title;
 const checklist = await getChecklist(d.checklist);
 const clauseHtml = new Map<string, string>();
 for (const sec of checklist?.data.sections ?? []) for (const it of sec.items) if (it[2] && !clauseHtml.has(it[2])) clauseHtml.set(it[2], await withLinks(escapeHtml(it[2]), path, used));
-// Social card: the featured image cropped to 1200×630 JPEG (what Facebook, LinkedIn and X expect).
-const og = await socialCard(d.coverImage ?? coverFor(d.cover));
+const image = d.coverImage ?? coverFor(d.cover);
+const og = await socialCard(image);
 const crumbs = lang === "en"
   ? [{ label: s.home, href: "/" }, { label: marketMeta[market].name, href: url.market(market) }, { label: s.hubGuides, href: url.guidesHub(market) }, { label: d.title, href: path }]
   : [{ label: s.home, href: inLang("/", lang) }, { label: s.hubGuides, href: url.guidesHub(market) }, { label: d.title, href: path }];
 const dataAsOf = d.dataAsOf ?? latest(d.date, d.updated);
+const meta = [formatDate(d.date, locale), ...(d.updated ? [`${s.updated} ${formatDate(d.updated, locale)}`] : []), s.minRead(readingTime(post.body ?? ""))];
+const toc = [{ depth: 2, slug: "key-takeaways", text: s.keyTakeaways }, ...headings, ...(checklist ? [{ depth: 2, slug: "checklist", text: s.checklist }] : []), ...(d.faq.length ? [{ depth: 2, slug: "faq", text: s.faq }] : []), { depth: 2, slug: "sources", text: s.sources }];
+const showTags = market === "us" || market === "fr" || market === "de";
 ---
 
-<Layout notes={false}
-  title={title}
-  description={d.description}
-  published={d.date}
-  updated={latest(d.date, d.updated)}
-  type="article"
-  noindex={d.noindex}
-  alternates={alternates}
-  image={og}
+<Layout notes={false} title={title} description={d.description} published={d.date} updated={latest(d.date, d.updated)} type="article" noindex={d.noindex} alternates={alternates} image={og}
   jsonLd={[
     blogPosting({ path, title: d.title, description: d.description, image: og, date: d.date, updated: d.updated, keywords: [d.keyword, ...d.tags], section: categoryName(mainCategory, lang), lang: marketMeta[market].hreflang }),
     breadcrumbList(crumbs),
     ...(d.faq.length ? [faqPage(d.faq)] : []),
     { ...organization(), "@id": orgId },
-  ]}
->
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <div class="mb-10 space-y-1">
-      <div class="animate flex flex-wrap items-center gap-1.5 text-sm">
-        <time datetime={d.date.toISOString()}>{formatDate(d.date, locale)}</time>
-        {d.updated && <span>• {s.updated} <time datetime={d.updated.toISOString()}>{formatDate(d.updated, locale)}</time></span>}
-        <span>• {s.minRead(readingTime(post.body ?? ""))}</span>
-      </div>
-      <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
-      <p class="animate pt-1 text-lg">{d.subtitle}</p>
-      <div class="animate flex flex-wrap gap-2 pt-1">
-        {lang !== "en" || market === "us" ? d.categories.map((c) => <Chip href={url.category(c, lang)}>{categoryName(c, lang)}</Chip>) : null}
-        {market === "us" || market === "fr" || market === "de" ? d.tags.map((t) => <Chip href={url.tag(slugify(t), lang)}>#{t}</Chip>) : null}
-      </div>
+  ]}>
+  <ArticleFrame crumbs={crumbs} title={d.title} subtitle={d.subtitle} label={categoryName(mainCategory, lang)} image={image} alt={d.coverAlt} meta={meta} toc={toc}>
+    <div slot="aside" class="flex flex-wrap gap-2">
+      {(lang !== "en" || market === "us") && d.categories.map((c) => <a class="chip" href={url.category(c, lang)}>{categoryName(c, lang)}</a>)}
+      {showTags && d.tags.map((t) => <a class="chip" href={url.tag(slugify(t), lang)}>{t}</a>)}
     </div>
-    <Cover image={d.coverImage} subject={d.cover} alt={d.coverAlt} />
-    <article class="animate" data-pagefind-body>
-      <p data-answer class="lead font-medium text-black dark:text-white">{d.summary}</p>
-      {d.localRule && <p class="rounded-md border-l-4 border-amber-500 bg-amber-50 px-4 py-2 text-sm dark:bg-amber-950/30" data-local-rule><strong>{s.inMarket(marketMeta[market].name)}:</strong> {d.localRule}</p>}
-      <h2>{s.keyTakeaways}</h2>
+    <article class="article" data-pagefind-body>
+      <p data-answer class="lead">{d.summary}</p>
+      {d.localRule && <p class="rounded-md border-l-4 border-safety bg-[#fff8e5] px-4 py-3 text-[15px]" data-local-rule><strong>{s.inMarket(marketMeta[market].name)}:</strong> {d.localRule}</p>}
+      <h2 id="key-takeaways">{s.keyTakeaways}</h2>
       <ul>{d.keyTakeaways.map((k) => <li>{k}</li>)}</ul>
-      {headings.length > 2 && <TableOfContents headings={headings} />}
       <Fragment set:html={body} />
       {checklist && <ChecklistBlock checklist={checklist} linkify={(c) => clauseHtml.get(c) ?? c} />}
-      {
-        d.faq.length > 0 && (
-          <>
-            <h2>{s.faq}</h2>
-            {d.faq.map((f) => (
-              <>
-                <h3>{f.question}</h3>
-                <p>{f.answer}</p>
-              </>
-            ))}
-          </>
-        )
-      }
-      <h2>{s.sources}</h2>
-      <ul>
-        {d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}
-      </ul>
+      {d.faq.length > 0 && (
+        <>
+          <h2 id="faq">{s.faq}</h2>
+          {d.faq.map((f) => (<><h3>{f.question}</h3><p>{f.answer}</p></>))}
+        </>
+      )}
+      <h2 id="sources">{s.sources}</h2>
+      <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
       <PageNotes dataAsOf={dataAsOf} sources={d.sources} />
     </article>
-    <RelatedBlock />
-    <div class="mt-16" data-pagefind-ignore>
-      <PostNavigation {prevPost} {nextPost} />
-    </div>
-  </Container>
+  </ArticleFrame>
 </Layout>

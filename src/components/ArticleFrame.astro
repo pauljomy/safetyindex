@@ -1,0 +1,45 @@
+---
+// Article layout shared by guides, standard, industry, report and penalty pages (github.blog post pattern):
+// dark band with breadcrumbs + H1 + subtitle, the cover image straddling the band's edge, a monospace meta
+// row over a coloured rule, then the body (680px measure) beside a sticky sidebar (contents + related).
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import PageBand from "@components/PageBand.astro";
+import Toc from "@components/Toc.astro";
+import RelatedBlock from "@components/RelatedBlock.astro";
+import type { Crumb } from "@lib/schema";
+const { crumbs, title, subtitle, label, image, alt, meta = [], toc = [], related = true, relatedExclude = [] } = Astro.props as {
+  crumbs: Crumb[]; title: string; subtitle?: string; label?: string; image?: ImageMetadata; alt?: string;
+  meta?: string[]; toc?: { depth: number; slug: string; text: string }[]; related?: boolean; relatedExclude?: string[];
+};
+const hasImage = !!(image && alt);
+---
+<PageBand crumbs={crumbs} title={title} subtitle={subtitle} label={label} overlap={hasImage} />
+<div class:list={["wrap", hasImage ? "-mt-32 md:-mt-48" : "mt-0"]}>
+  <div class="mx-auto max-w-[1040px]">
+    {hasImage && (
+      <figure class="overflow-hidden rounded-lg bg-subtle shadow-[0_8px_32px_rgba(0,0,0,0.18)]">
+        <Image src={image!} alt={alt!} widths={[480, 768, 1040, 1600]} sizes="(min-width: 1088px) 1040px, 100vw" class="aspect-[16/9] w-full object-cover" loading="eager" fetchpriority="high" />
+      </figure>
+    )}
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 border-b-2 border-link py-4 meta">
+      {meta.map((m, i) => <>{i > 0 && <span aria-hidden="true" class="text-line">|</span>}<span>{m}</span></>)}
+    </div>
+    <div class="mt-10 grid gap-14 lg:grid-cols-[minmax(0,680px)_280px] lg:justify-between">
+      <div class="min-w-0">
+        {toc.length > 2 && (
+          <details class="mb-8 rounded-md border p-4 lg:hidden">
+            <summary class="cursor-pointer font-semibold">Contents</summary>
+            <Toc headings={toc} />
+          </details>
+        )}
+        <slot />
+      </div>
+      <aside class="space-y-12 lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:self-start lg:overflow-y-auto" data-pagefind-ignore>
+        <slot name="aside" />
+        {toc.length > 2 && <div class="hidden lg:block"><p class="border-b pb-2 text-[17px] font-semibold">Contents</p><Toc headings={toc} /></div>}
+        {related && <RelatedBlock exclude={relatedExclude} />}
+      </aside>
+    </div>
+  </div>
+</div>

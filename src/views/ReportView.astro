@@ -3,12 +3,9 @@
 // charts, tables (downloadable as CSV and Excel), the method, data source, sample size and
 // update date. Built by script from public data; no writer involved.
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import Cover from "@components/Cover.astro";
+import ArticleFrame from "@components/ArticleFrame.astro";
 import BarChart from "@components/BarChart.astro";
 import PageNotes from "@components/PageNotes.astro";
-import RelatedBlock from "@components/RelatedBlock.astro";
 import { getIndustries, standardFor, url, type Report } from "@lib/content";
 import { formatDate, latest } from "@lib/dates";
 import { withLinks } from "@lib/links";
@@ -45,21 +42,17 @@ const cell = (c: string | number | Cell) => (typeof c === "object" ? c : { text:
 ---
 <Layout notes={false} title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" image={og} noindex={d.noindex}
   jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US" }), breadcrumbList(crumbs)]}>
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
-    <p class="animate mb-8 mt-2 text-sm">Updated {formatDate(updated)} · Data: {data.dataYear} · Sample: {data.sampleSize}</p>
-    <Cover subject={d.cover} alt={d.coverAlt} />
-    <article class="animate" data-pagefind-body>
-      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={summary} /></p>
+  <ArticleFrame crumbs={crumbs} title={d.title} label="Data report" image={coverFor(d.cover)} alt={d.coverAlt} meta={[`Updated ${formatDate(updated)}`, `Data: ${data.dataYear}`, `Sample: ${data.sampleSize}`]} toc={[...sections.map((sec, i) => ({ depth: 2, slug: `s${i + 1}`, text: sec.heading })), { depth: 2, slug: "method", text: "How this report was made" }, { depth: 2, slug: "sources", text: s.sources }]}>
+    <article class="article" data-pagefind-body>
+      <p data-answer class="lead"><Fragment set:html={summary} /></p>
       {data.downloads.length > 0 && (
-        <p class="not-prose flex flex-wrap gap-2 text-sm print:hidden">
-          {data.downloads.map((f) => <a class="rounded-md border border-black/20 px-3 py-1.5 font-medium hover:bg-black/5 dark:border-white/25" href={f.file} download data-track={f.file.endsWith(".csv") ? "download_csv" : "download_xlsx"}>{f.label}</a>)}
+        <p class="flex flex-wrap gap-2 text-sm print:hidden">
+          {data.downloads.map((f) => <a class="chip no-underline" href={f.file} download data-track={f.file.endsWith(".csv") ? "download_csv" : "download_xlsx"}>{f.label}</a>)}
         </p>
       )}
-      {sections.map((sec) => (
+      {sections.map((sec, i) => (
         <>
-          <h2>{sec.heading}</h2>
+          <h2 id={`s${i + 1}`}>{sec.heading}</h2>
           <p><Fragment set:html={sec.opening} /></p>
           {sec.chart && <BarChart title={sec.chart.title} data={sec.chart.data} format={fmt(sec.chart.unit)} />}
           {sec.table && (
@@ -71,12 +64,11 @@ const cell = (c: string | number | Cell) => (typeof c === "object" ? c : { text:
           {sec.note && <p class="text-sm">{sec.note}</p>}
         </>
       ))}
-      <h2>How this report was made</h2>
+      <h2 id="method">How this report was made</h2>
       <p>{d.method}</p>
-      <h2>{s.sources}</h2>
+      <h2 id="sources">{s.sources}</h2>
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
       <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} data />
     </article>
-    <RelatedBlock />
-  </Container>
+  </ArticleFrame>
 </Layout>

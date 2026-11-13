@@ -2,12 +2,10 @@
 // US industry page (brief section 7c): most-cited standards (ranked, with counts), most-cited
 // paragraphs, penalty patterns, links to each standard page. No standard × industry pages.
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import Cover from "@components/Cover.astro";
+import ArticleFrame from "@components/ArticleFrame.astro";
 import BarChart from "@components/BarChart.astro";
 import PageNotes from "@components/PageNotes.astro";
-import RelatedBlock from "@components/RelatedBlock.astro";
+import { formatDate } from "@lib/dates";
 import { standardFor, url, type Industry } from "@lib/content";
 import { latest } from "@lib/dates";
 import { withLinks } from "@lib/links";
@@ -43,13 +41,9 @@ const updated = latest(d.date, d.updated);
 ---
 <Layout notes={false} title={d.seoTitle} description={d.description} published={d.date} updated={updated} type="article" noindex={d.noindex} image={og}
   jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US", about: `NAICS ${d.naics} ${d.naicsTitle}` }), breadcrumbList(crumbs), ...(d.faq.length ? [faqPage(d.faq)] : [])]}>
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
-    <p class="animate mb-8 mt-2 text-sm">NAICS {d.naics}: {d.naicsTitle}</p>
-    <Cover subject={d.cover} alt={d.coverAlt} />
-    <article class="animate" data-pagefind-body>
-      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={opening} /></p>
+  <ArticleFrame crumbs={crumbs} title={d.title} subtitle={`NAICS ${d.naics}: ${d.naicsTitle}`} label="Industry" image={coverFor(d.cover)} alt={d.coverAlt} meta={[formatDate(d.date), `Data ${span}`, `${st.inspections.toLocaleString("en-US")} inspections`]} toc={[{ depth: 2, slug: "standards", text: "Most-cited standards" }, { depth: 2, slug: "paragraphs", text: "Most-cited paragraphs" }, { depth: 2, slug: "penalties", text: "Penalties" }, { depth: 2, slug: "sources", text: s.sources }]} relatedExclude={standards.flatMap((x) => (x.page ? [x.page.path] : []))}>
+    <article class="article" data-pagefind-body>
+      <p data-answer class="lead"><Fragment set:html={opening} /></p>
       <h2 id="standards">Which OSHA standards are cited most in this industry?</h2>
       <p>Federal and state OSHA inspectors opened {st.inspections.toLocaleString("en-US")} inspections in NAICS {d.naics} in {span} and issued {st.citations.toLocaleString("en-US")} citations under 29 CFR standards.</p>
       <p><Fragment set:html={patterns} /></p>
@@ -82,11 +76,10 @@ const updated = latest(d.date, d.updated);
       </table>
       <p>See <a href={url.penalties()}>current maximum OSHA penalties</a> for the federal ceilings.</p>
       {d.faq.length > 0 && (<><h2>{s.faq}</h2>{d.faq.map((f, i) => (<><h3>{f.question}</h3><p><Fragment set:html={faqHtml[i]} /></p></>))}</>)}
-      <h2>{s.sources}</h2>
+      <h2 id="sources">{s.sources}</h2>
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
       <p class="text-sm">Enforcement data: U.S. Department of Labor OSHA inspection and violation datasets, {span}. Industry titles: NAICS 2022, U.S. Census Bureau.</p>
       <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
     </article>
-    <RelatedBlock exclude={standards.flatMap((x) => (x.page ? [x.page.path] : []))} />
-  </Container>
+  </ArticleFrame>
 </Layout>

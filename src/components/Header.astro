@@ -1,51 +1,59 @@
 ---
-import Container from "@components/Container.astro";
-import Link from "@components/Link.astro";
+// Dark two-row header (github.blog pattern): brand + main sections + search + language, then a row of
+// topics that leads straight to groups of standard pages. Only sections with live pages are shown.
 import { site } from "../config/site.mjs";
 import { inLang, langOf, langs, meta, ui, type Market } from "../i18n/ui";
+import { marketHubs, url, livePages } from "@lib/content";
+import { standardTopics } from "../data/topics.mjs";
 
 const { alternates } = Astro.props as { alternates?: Partial<Record<Market, string>> };
 const lang = langOf(Astro.url.pathname);
 const s = ui[lang];
+const market: Market = lang === "en" ? "us" : (lang as Market);
+const hubs = await marketHubs(market);
+const live = await livePages();
+const topics = lang === "en" ? standardTopics.filter((t) => live.some((p) => p.topic === t.slug)) : [];
+const here = Astro.url.pathname.replace(/\.html$/, "");
 ---
-
-<header>
-  <Container>
-    <div class="flex flex-wrap items-center justify-between gap-y-2">
-      <Link href={inLang("/", lang)} underline={false}>
-        <div class="font-semibold">{site.name}&nbsp;🦺</div>
-      </Link>
-      <nav class="flex flex-wrap items-center gap-1 text-sm" aria-label="Main">
-        <Link href={inLang("/blog", lang)}>{s.blog}</Link>
-        <span>/</span>
-        <Link href={inLang("/about", lang)}>{s.about}</Link>
-        <span>/</span>
-        <span class="flex items-center gap-1" aria-label={s.language}>
-          {
-            langs.map((l, i) => (
-              <>
-                {i > 0 && <span class="text-black/30 dark:text-white/30">·</span>}
-                {l === lang ? (
-                  <span class="font-semibold text-black dark:text-white" aria-current="true">{l.toUpperCase()}</span>
-                ) : (
-                  <a href={alternates?.[l === "en" ? "us" : l] ?? inLang("/", l)} hreflang={meta[l].hreflang} lang={meta[l].hreflang} title={meta[l].label} class="hover:text-black dark:hover:text-white">{l.toUpperCase()}</a>
-                )}
-              </>
-            ))
-          }
-        </span>
-        <span>/</span>
-        <button
-          id="magnifying-glass"
-          aria-label={s.search}
-          class="flex items-center rounded-sm border border-black/15 bg-neutral-100 px-2 py-1 text-xs transition-colors duration-300 ease-in-out hover:bg-black/5 hover:text-black focus-visible:bg-black/5 focus-visible:text-black dark:border-white/20 dark:bg-neutral-900 dark:hover:bg-white/5 dark:hover:text-white dark:focus-visible:bg-white/5 dark:focus-visible:text-white"
-        >
-          <svg height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"
-            ><path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 7C3.5 5.067 5.067 3.5 7 3.5C8.933 3.5 10.5 5.067 10.5 7C10.5 7.88461 10.1718 8.69256 9.63058 9.30876L9.30876 9.63058C8.69256 10.1718 7.88461 10.5 7 10.5C5.067 10.5 3.5 8.933 3.5 7ZM9.96544 11.0261C9.13578 11.6382 8.11014 12 7 12C4.23858 12 2 9.76142 2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7C12 8.11014 11.6382 9.13578 11.0261 9.96544L14.0303 12.9697L14.5607 13.5L13.5 14.5607L12.9697 14.0303L9.96544 11.0261Z" fill="currentColor"></path></svg
-          >
-          &nbsp;{s.search}
-        </button>
+<header class="bg-band text-white print-hide" data-pagefind-ignore>
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:text-ink">{s.skip}</a>
+  <div class="wrap flex h-16 items-center gap-6">
+    <a href={inLang("/", lang)} class="flex shrink-0 items-center gap-2.5 text-[20px] font-bold tracking-[-0.02em]">
+      <img src="/icon.svg" alt="" width="28" height="28" class="rounded" />
+      <span>{site.name}</span>
+    </a>
+    <nav aria-label="Main" class="hidden items-center gap-6 text-[15px] font-medium lg:flex">
+      {hubs.map((h) => <a href={h.path} class:list={["text-white/90 hover:text-white", here.startsWith(h.path) && "text-white underline underline-offset-8"]}>{h.label}</a>)}
+      <a href={inLang("/about", lang)} class="text-white/90 hover:text-white">{s.about[0].toUpperCase() + s.about.slice(1)}</a>
+    </nav>
+    <div class="ml-auto flex items-center gap-3">
+      <button id="magnifying-glass" aria-label={s.search} class="flex size-9 items-center justify-center rounded-md text-white/90 hover:bg-white/10 hover:text-white">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M3.5 7a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM9.97 11.03A5 5 0 1 1 11.03 9.97l3 3-1.06 1.06-3-3Z"/></svg>
+      </button>
+      <span class="hidden items-center gap-1 rounded-md border border-white/25 p-0.5 text-[13px] font-semibold sm:flex" aria-label={s.language}>
+        {langs.map((l) => l === lang
+          ? <span class="rounded bg-white px-2 py-1 text-ink" aria-current="true">{l.toUpperCase()}</span>
+          : <a href={alternates?.[l === "en" ? "us" : l] ?? inLang("/", l)} hreflang={meta[l].hreflang} lang={meta[l].hreflang} title={meta[l].label} class="rounded px-2 py-1 text-white/85 hover:bg-white/10 hover:text-white">{l.toUpperCase()}</a>)}
+      </span>
+      <details class="relative lg:hidden">
+        <summary class="flex size-9 cursor-pointer list-none items-center justify-center rounded-md hover:bg-white/10" aria-label="Menu">
+          <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75Zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75ZM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Z"/></svg>
+        </summary>
+        <nav aria-label="Menu" class="absolute right-0 top-11 z-40 w-64 rounded-lg border border-white/15 bg-band p-2 shadow-2xl">
+          {hubs.map((h) => <a href={h.path} class="block rounded px-3 py-2 text-[15px] hover:bg-white/10">{h.label}</a>)}
+          <a href={inLang("/about", lang)} class="block rounded px-3 py-2 text-[15px] hover:bg-white/10">{s.about[0].toUpperCase() + s.about.slice(1)}</a>
+          <div class="mt-2 flex gap-1 border-t border-white/15 px-3 pt-3 text-[13px] sm:hidden">
+            {langs.map((l) => <a href={alternates?.[l === "en" ? "us" : l] ?? inLang("/", l)} class:list={["rounded px-2 py-1", l === lang ? "bg-white text-ink" : "hover:bg-white/10"]}>{l.toUpperCase()}</a>)}
+          </div>
+        </nav>
+      </details>
+    </div>
+  </div>
+  {topics.length > 0 && (
+    <div class="border-t border-white/10">
+      <nav aria-label="Topics" class="wrap flex gap-6 overflow-x-auto py-3 text-[14px] font-semibold whitespace-nowrap [scrollbar-width:none]">
+        {topics.map((t) => <a href={`${url.standardsHub()}#${t.slug}`} class="text-white/85 hover:text-white">{t.name}</a>)}
       </nav>
     </div>
-  </Container>
+  )}
 </header>

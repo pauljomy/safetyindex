@@ -12,7 +12,7 @@ const max = Math.max(1, ...data.map((d) => d.value));
 const plotW = width - labelW - valueW;
 const id = `chart-${Math.random().toString(36).slice(2, 8)}`;
 ---
-<figure class="not-prose my-6 overflow-x-auto">
+<figure class="my-8 max-w-[560px] overflow-x-auto">
   <svg viewBox={`0 0 ${width} ${h}`} width="100%" role="img" aria-labelledby={id} class="max-w-full text-black dark:text-white" style="min-width: 300px">
     <title id={id}>{title}</title>
     {data.map((d, i) => {

@@ -1,9 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
-import BackToPrevious from "@components/BackToPrevious.astro";
-import Chip from "@components/Chip.astro";
 import { getTags, hubAlternates, url } from "@lib/content";
 import { latest } from "@lib/dates";
 import { breadcrumbList } from "@lib/schema";
@@ -18,6 +15,9 @@ const tag = slug ? tags.find((t) => t.slug === slug)! : undefined;
 const posts = tag ? tag.posts : [];
 const updated = latest(site.updated, ...(tag ? posts : tags.flatMap((t) => t.posts)).map((p) => latest(p.data.date, p.data.updated)));
 const crumbs = [{ label: s.home, href: inLang("/", lang) }, { label: s.tags, href: url.tags(lang) }, ...(tag ? [{ label: tag.name, href: url.tag(tag.slug, lang) }] : [])];
+import PageBand from "@components/PageBand.astro";
+import Card from "@components/Card.astro";
+import { postCard } from "@lib/content";
 ---
 
 <Layout
@@ -27,24 +27,12 @@ const crumbs = [{ label: s.home, href: inLang("/", lang) }, { label: s.tags, hre
   alternates={tag ? undefined : hubAlternates("/tags")}
   jsonLd={[breadcrumbList(crumbs)]}
 >
-  <Container>
-    <div class="space-y-10" data-pagefind-ignore>
-      {
-        tag ? (
-          <>
-            <BackToPrevious href={url.tags(lang)}>{s.allTags}</BackToPrevious>
-            <h1 class="animate font-semibold text-black dark:text-white">{s.postsTagged(tag.name)}</h1>
-            <ul class="animate not-prose flex flex-col gap-4">{posts.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
-          </>
-        ) : (
-          <>
-            <h1 class="animate font-semibold text-black dark:text-white">{s.allTags}</h1>
-            <div class="animate flex flex-wrap gap-2">
-              {tags.map((t) => <Chip href={url.tag(t.slug, lang)}>{t.name} <span class="text-sm text-gray-600">({t.posts.length})</span></Chip>)}
-            </div>
-          </>
-        )
-      }
-    </div>
+  <PageBand crumbs={crumbs} title={tag ? s.postsTagged(tag.name) : s.allTags} subtitle={tag ? undefined : s.tagsDescription} />
+  <Container wide>
+    {tag ? (
+      <div class="mt-6 grid gap-x-12 md:grid-cols-2">{posts.map((p) => <Card item={postCard(p)} />)}</div>
+    ) : (
+      <ul class="mt-12 flex flex-wrap gap-2">{tags.map((t) => <li><a class="chip" href={url.tag(t.slug, lang)}>{t.name} <span class="ml-1 font-mono text-muted">{t.posts.length}</span></a></li>)}</ul>
+    )}
   </Container>
 </Layout>

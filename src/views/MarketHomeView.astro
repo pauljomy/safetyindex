@@ -2,7 +2,6 @@
 // Market home (/us, /uk, /au, /ca, /nz): links every hub of the market, plus the reports for the US.
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
 import { livePages, marketHubs, url } from "@lib/content";
 import { latest } from "@lib/dates";
 import { breadcrumbList } from "@lib/schema";
@@ -19,25 +18,25 @@ const reports = pages.filter((p) => p.kind === "report");
 const latestGuides = pages.filter((p) => p.kind === "guide").sort((a, b) => b.released.getTime() - a.released.getTime()).slice(0, 6);
 const crumbs = [{ label: s.home, href: "/" }, { label: name, href: url.market(market) }];
 const updated = latest(site.updated, ...pages.map((p) => p.updated));
+import PageBand from "@components/PageBand.astro";
+import Card from "@components/Card.astro";
 ---
 <Layout title={s.marketHomeTitle(inText)} description={s.marketHomeDescription(inText)} updated={updated} jsonLd={[breadcrumbList(crumbs)]}>
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate mb-4 text-2xl font-semibold text-black dark:text-white">{s.marketHomeTitle(inText)}</h1>
-    <p class="animate mb-8">{s.marketHomeDescription(inText)}</p>
-    <ul class="animate not-prose mb-10 grid gap-3 sm:grid-cols-2" data-hubs>
-      {hubs.map((h) => <li><a href={h.path} class="block rounded-lg border border-black/15 px-4 py-3 font-medium hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/5">{h.label}{h.count > 1 && <span class="block text-sm font-normal">{h.count} pages</span>}</a></li>)}
+  <PageBand crumbs={crumbs} title={s.marketHomeTitle(inText)} subtitle={s.marketHomeDescription(inText)} />
+  <Container wide>
+    <ul class="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" data-hubs>
+      {hubs.map((h) => <li><a href={h.path} class="flex h-full items-center justify-between rounded-md border px-5 py-5 text-[17px] font-semibold hover:border-ink">{h.label}<span class="meta">{h.count}</span></a></li>)}
     </ul>
     {reports.length > 0 && (
-      <section class="animate mb-10 space-y-2">
-        <h2 class="font-semibold text-black dark:text-white">{s.hubReports}</h2>
-        <ul class="not-prose space-y-2">{reports.map((r) => <li><a href={r.path} class="font-medium underline decoration-black/30 underline-offset-2">{r.title}</a><span class="block text-sm">{r.description}</span></li>)}</ul>
+      <section class="mt-14">
+        <h2 class="rule-top section-title"><span>{s.hubReports}</span></h2>
+        <div class="grid gap-x-12 md:grid-cols-2">{reports.map((r) => <Card item={{ path: r.path, title: r.title, description: r.description, image: r.image, label: r.label, date: r.released }} />)}</div>
       </section>
     )}
     {latestGuides.length > 0 && (
-      <section class="animate space-y-2">
-        <h2 class="font-semibold text-black dark:text-white">{s.latest}</h2>
-        <ul class="not-prose space-y-2">{latestGuides.map((r) => <li><a href={r.path} class="font-medium underline decoration-black/30 underline-offset-2">{r.title}</a></li>)}</ul>
+      <section class="mt-14">
+        <h2 class="rule-top section-title"><span>{s.latest}</span></h2>
+        <div class="grid gap-x-12 md:grid-cols-2">{latestGuides.map((r) => <Card item={{ path: r.path, title: r.title, description: r.description, image: r.image, label: r.label, date: r.released }} />)}</div>
       </section>
     )}
   </Container>

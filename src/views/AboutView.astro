@@ -8,6 +8,7 @@ import { entity, site } from "../config/site.mjs";
 
 const { lang } = Astro.props as { lang: Lang };
 const s = ui[lang];
+import PageBand from "@components/PageBand.astro";
 ---
 
 <Layout
@@ -17,9 +18,10 @@ const s = ui[lang];
   alternates={hubAlternates("/about")}
   jsonLd={[breadcrumbList([{ label: s.home, href: inLang("/", lang) }, { label: s.aboutTitle, href: inLang("/about", lang) }]), organization()]}
 >
+  <PageBand crumbs={[{ label: s.home, href: inLang("/", lang) }, { label: s.aboutTitle, href: Astro.url.pathname }]} title={s.aboutTitle} />
   <Container>
-    <h1 class="animate mb-6 text-2xl font-semibold text-black dark:text-white">{s.aboutTitle}</h1>
-    <article class="animate" data-pagefind-ignore>
+    <div class="article mt-12">
+    <article data-pagefind-ignore>
       {
         s.aboutBody.map((block) =>
           block.startsWith("## ") ? <h2 id={block.includes("write") || block.includes("écrivons") || block.includes("schreiben") ? "how-we-write" : undefined}>{block.slice(3)}</h2> : <p>{block}</p>,
@@ -27,5 +29,6 @@ const s = ui[lang];
       }
       {lang === "en" && <p>{entity.definition}</p>}
     </article>
+    </div>
   </Container>
 </Layout>

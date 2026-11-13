@@ -93,9 +93,15 @@ export function runSiteChecks({ pages, dist, site }) {
     if (h1 > 100 * 1024) errors.push(`${path}: the H1 starts after the first 100 KB of HTML`);
     if (!/data-as-of/.test(html)) report(path, "missing the data-as-of date");
     if (!/data-disclaimer/.test(html)) report(path, "missing the not-legal-advice note");
-    for (const [, src, rest] of html.matchAll(/<img\b[^>]*?src="([^"]+)"([^>]*)>/g)) {
+    // Every image needs an alt attribute; decorative thumbnails and icons use alt="" (their card title follows).
+    // A page's cover image (inside <figure>) needs real alt text.
+    for (const m of html.matchAll(/<img\b[^>]*>/g)) {
+      const tag = m[0];
+      const src = tag.match(/\bsrc="([^"]+)"/)?.[1] ?? "";
       if (/^https?:\/\//.test(src) && !src.startsWith(site)) errors.push(`${path}: image from outside the repo (${src})`);
-      if (!/alt="[^"]+"/.test(`${src}" ${rest}`) && !/alt="[^"]+"/.test(html.slice(html.indexOf(src) - 400, html.indexOf(src) + 400))) errors.push(`${path}: image without alt text (${src})`);
+      if (!/\balt(?:=|[\s>])/.test(tag)) { errors.push(`${path}: image without an alt attribute (${src})`); continue; }
+      const before = html.slice(Math.max(0, m.index - 300), m.index);
+      if (/<figure\b(?![\s\S]*<\/figure>)/.test(before) && /\balt(?:=""|[\s>])/.test(tag)) errors.push(`${path}: cover image without alt text (${src})`);
     }
     // JSON-LD headline/name matches the page.
     const h1Text = strip(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? "").trim();

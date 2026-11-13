@@ -1,82 +1,108 @@
 ---
+// Home page (github.blog pattern): dark hero with a featured page and three more beside it, then
+// "Latest" and "Most-cited standards" columns, topics, guides and industries. Every section links
+// straight to live pages, so each one is one click from home.
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
-import Link from "@components/Link.astro";
-import Chip from "@components/Chip.astro";
-import { getCategories, getPosts, hubAlternates, liveMarkets, livePages, marketHubs, url } from "@lib/content";
-import { marketMeta } from "../i18n/ui";
+import Card from "@components/Card.astro";
+import { getStandards, hubAlternates, liveMarkets, livePages, marketHubs, url, type LivePage } from "@lib/content";
 import { latest } from "@lib/dates";
 import { organization } from "@lib/schema";
-import { inLang, ui, type Lang } from "../i18n/ui";
+import { standardTopics } from "../data/topics.mjs";
+import { inLang, marketMeta, ui, type Lang, type Market } from "../i18n/ui";
 import { site } from "../config/site.mjs";
 
 const { lang } = Astro.props as { lang: Lang };
 const s = ui[lang];
-const posts = await getPosts(lang);
-const categories = await getCategories(lang);
-const markets = lang === "en" ? (await liveMarkets()).filter((m) => m !== "fr" && m !== "de") : [];
-const usHubs = lang === "en" ? await marketHubs("us") : [];
-const reports = lang === "en" ? (await livePages()).filter((p) => p.market === "us" && (p.kind === "report" || p.kind === "penalties")) : [];
-const updated = latest(site.updated, ...posts.map((p) => latest(p.data.date, p.data.updated)));
+const market: Market = lang === "en" ? "us" : (lang as Market);
+const intl = marketMeta[market].intl;
+const live = (await livePages()).filter((p) => p.market === market);
+const byNew = [...live].sort((a, b) => b.released.getTime() - a.released.getTime() || a.title.localeCompare(b.title));
+const card = (p: LivePage, extra?: string) => ({ path: p.path, title: p.title, description: p.description, image: p.image, label: p.label, date: p.released, extra });
+
+const report = live.find((p) => p.kind === "report" && p.path.includes("most-cited"));
+const others = live.filter((p) => p.kind === "penalties" || (p.kind === "report" && p !== report));
+const standards = (await getStandards()).filter((x) => !x.data.noindex);
+const stdPages = live.filter((p) => p.kind === "standard");
+const topStd = standards.slice(0, 4).map((x) => ({ page: stdPages.find((p) => p.own === x.data.section)!, n: x.data.stats.citations })).filter((x) => x.page);
+const feature = report ?? byNew[0];
+const side = [...others, ...topStd.map((x) => x.page), ...byNew].filter((p, i, a) => p && p !== feature && a.indexOf(p) === i).slice(0, 3);
+const shown = new Set([feature?.path, ...side.map((p) => p.path)]);
+const latestList = byNew.filter((p) => !shown.has(p.path)).slice(0, 5);
+const topics = standardTopics.map((t) => ({ ...t, count: stdPages.filter((p) => p.topic === t.slug).length })).filter((t) => t.count);
+const guides = byNew.filter((p) => p.kind === "guide").slice(0, 6);
+const industries = live.filter((p) => p.kind === "industry").slice(0, 6);
+const hubs = await marketHubs(market);
+const markets = lang === "en" ? (await liveMarkets()).filter((m) => m !== "us") : [];
+const updated = latest(site.updated, ...live.map((p) => p.updated));
 ---
 
-<Layout
-  title={s.homeTitle}
-  description={s.homeDescription}
-  updated={updated}
-  alternates={hubAlternates("/")}
-  jsonLd={[{ "@type": "WebSite", name: site.name, url: site.url, inLanguage: lang }, organization()]}
->
-  <Container>
-    <aside data-pagefind-ignore>
-      <h1 class="animate text-2xl font-semibold text-black dark:text-white">{s.heroTitle}</h1>
-      <div class="mt-6 space-y-16">
-        <p class="animate">{s.heroText}</p>
-        {
-          lang === "en" && (
-            <section class="animate space-y-3" data-markets>
-              <h2 class="font-semibold text-black dark:text-white">United States</h2>
-              <ul class="not-prose flex flex-wrap gap-2">
-                <li><Chip href={url.market("us")}>US overview</Chip></li>
-                {usHubs.map((h) => <li><Chip href={h.path}>{h.label}</Chip></li>)}
-              </ul>
-              {reports.length > 0 && <ul class="not-prose space-y-1 text-sm">{reports.map((r) => <li><a class="underline decoration-black/30 underline-offset-2" href={r.path}>{r.title}</a></li>)}</ul>}
-              {markets.length > 1 && (
-                <>
-                  <h2 class="pt-4 font-semibold text-black dark:text-white">Other countries</h2>
-                  <ul class="not-prose flex flex-wrap gap-2">{markets.filter((m) => m !== "us").map((m) => <li><Chip href={url.market(m)}>{marketMeta[m].name}</Chip></li>)}</ul>
-                </>
-              )}
-            </section>
-          )
-        }
-        {
-          categories.length > 0 && (
-            <section class="animate space-y-3">
-              <h2 class="font-semibold text-black dark:text-white">{s.categories}</h2>
-              <div class="flex flex-wrap gap-2">
-                {categories.map((c) => <Chip href={url.category(c.slug, lang)}>{c.names[lang]}</Chip>)}
-              </div>
-            </section>
-          )
-        }
-        <section class="animate space-y-6">
-          <div class="flex flex-wrap items-center justify-between gap-y-2">
-            <h2 class="font-semibold text-black dark:text-white">{s.latest}</h2>
-            <Link href={url.blog(lang)}>{s.seeAll}</Link>
-          </div>
-          {
-            posts.length ? (
-              <ul class="not-prose flex flex-col gap-4">
-                {posts.slice(0, 8).map((p) => <li><ArrowCard entry={p} /></li>)}
-              </ul>
-            ) : (
-              <p>{s.noPosts}</p>
-            )
-          }
-        </section>
+<Layout title={s.homeTitle} description={s.homeDescription} updated={updated} alternates={hubAlternates("/")}
+  jsonLd={[{ "@type": "WebSite", name: site.name, url: site.url, inLanguage: marketMeta[market].hreflang }, organization()]}>
+  <section class="bg-night bg-[radial-gradient(ellipse_at_bottom,rgba(191,57,137,0.22),transparent_60%)] pb-16 text-white">
+    <div class="wrap pt-10 md:pt-14">
+      <div class="max-w-3xl">
+        <h1 class="display text-[28px] leading-tight md:text-[36px]">{s.heroTitle}</h1>
+        <p class="mt-3 text-[16px] leading-relaxed text-white/70 md:text-[18px]">{s.heroText}</p>
       </div>
-    </aside>
-  </Container>
+      {feature && (
+        <div class="mt-10 grid gap-10 lg:grid-cols-2 lg:gap-12">
+          <Card item={card(feature)} variant="feature" headingLevel={2} eager intl={intl} />
+          <div class="-mt-6">{side.map((p) => <Card item={card(p)} variant="dark" intl={intl} />)}</div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <div class="wrap">
+    {(latestList.length > 0 || topStd.length > 0) && (
+      <div class="mt-16 grid gap-12 lg:grid-cols-2">
+        {latestList.length > 0 && (
+          <section>
+            <h2 class="rule-top section-title"><span>{lang === "en" ? "Latest" : s.latest}</span>{hubs[0] && <a href={hubs[0].path} class="text-sm font-medium text-muted hover:text-ink">{lang === "en" ? "See all" : s.seeAll} ›</a>}</h2>
+            {latestList.map((p) => <Card item={card(p)} intl={intl} />)}
+          </section>
+        )}
+        {topStd.length > 0 && (
+          <section>
+            <h2 class="rule-top section-title"><span>Most-cited OSHA standards</span><a href={url.standardsHub()} class="text-sm font-medium text-muted hover:text-ink">All standards ›</a></h2>
+            {topStd.map((x) => <Card item={card(x.page, `${x.n.toLocaleString("en-US")} citations`)} intl={intl} />)}
+          </section>
+        )}
+      </div>
+    )}
+
+    {topics.length > 0 && (
+      <section class="mt-20">
+        <h2 class="rule-top section-title"><span>Browse OSHA standards by topic</span></h2>
+        <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {topics.map((t) => <li><a href={`${url.standardsHub()}#${t.slug}`} class="flex h-full items-center justify-between gap-3 rounded-md border px-4 py-4 font-semibold hover:border-ink">{t.name}<span class="meta">{t.count}</span></a></li>)}
+        </ul>
+      </section>
+    )}
+
+    {guides.length > 0 && (
+      <section class="mt-20">
+        <h2 class="rule-top section-title"><span>{s.hubGuides}</span><a href={url.guidesHub(market)} class="text-sm font-medium text-muted hover:text-ink">{s.seeAll} ›</a></h2>
+        <div class="grid gap-x-12 lg:grid-cols-2">{guides.map((p) => <Card item={card(p)} intl={intl} />)}</div>
+      </section>
+    )}
+
+    {industries.length > 0 && (
+      <section class="mt-20">
+        <h2 class="rule-top section-title"><span>{s.hubIndustries}</span><a href={url.industriesHub()} class="text-sm font-medium text-muted hover:text-ink">{s.seeAll} ›</a></h2>
+        <div class="grid gap-x-12 lg:grid-cols-2">{industries.map((p) => <Card item={card(p)} intl={intl} />)}</div>
+      </section>
+    )}
+
+    <section class="mt-20 grid gap-10 rounded-lg border bg-subtle p-8 md:grid-cols-[1fr_auto] md:items-center">
+      <div>
+        <h2 class="display text-[26px]">{lang === "en" ? "Every page links to the regulation it comes from" : s.heroTitle}</h2>
+        <p class="mt-2 max-w-2xl text-muted">{s.madeBy} <a href={`${inLang("/about", lang)}#how-we-write`} class="text-link underline underline-offset-2">{s.aboutTitle}</a></p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        {hubs.slice(0, 3).map((h) => <a href={h.path} class="btn">{h.label}</a>)}
+        {markets.map((m) => <a href={url.market(m)} class="btn">{marketMeta[m].name}</a>)}
+      </div>
+    </section>
+  </div>
 </Layout>

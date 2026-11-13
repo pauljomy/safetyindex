@@ -2,7 +2,8 @@
 import type { ImageMetadata } from "astro";
 import { getImage } from "astro:assets";
 
-const files = import.meta.glob<{ default: ImageMetadata }>("../assets/covers/*.webp", { eager: true });
+// Shared subject images, plus the original guides' photos (French and German versions reuse the English one).
+const files = { ...import.meta.glob<{ default: ImageMetadata }>("../content/posts/images/*.webp", { eager: true }), ...import.meta.glob<{ default: ImageMetadata }>("../assets/covers/*.webp", { eager: true }) };
 const bySubject = new Map(Object.entries(files).map(([k, v]) => [k.replace(/^.*\/|\.webp$/g, ""), v.default]));
 
 export const coverFor = (subject?: string) => (subject ? bySubject.get(subject) : undefined);

@@ -3,60 +3,60 @@
  "results": [
   {
    "path": "/",
-   "performance": 97,
+   "performance": 98,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/us/standards",
-   "performance": 97,
+   "performance": 98,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/us/standards/1904-29-forms",
-   "performance": 97,
-   "accessibility": 100,
-   "mobile": true
-  },
-  {
-   "path": "/us/industries/1119-other-crop-farming",
-   "performance": 97,
+   "performance": 98,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/us/reports/most-cited-osha-standards-2026",
-   "performance": 97,
+   "performance": 99,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/us/osha-penalties",
-   "performance": 97,
+   "performance": 99,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/blog/hard-hat-types-and-classes",
-   "performance": 96,
+   "performance": 95,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/fr/blog/casque-de-chantier",
-   "performance": 96,
+   "performance": 97,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/de/blog/osha-bedeutung",
-   "performance": 96,
+   "performance": 93,
    "accessibility": 100,
    "mobile": true
   },
   {
    "path": "/blog",
+   "performance": 98,
+   "accessibility": 100,
+   "mobile": true
+  },
+  {
+   "path": "/us",
    "performance": 98,
    "accessibility": 100,
    "mobile": true

@@ -7,6 +7,9 @@ import { entity, site } from "../config/site.mjs";
 import { latest } from "./dates";
 import { slugify } from "./slugify";
 import { isReleased, releaseOf } from "./release";
+import { coverFor } from "./covers";
+import { topicOf } from "../data/topics.mjs";
+import type { ImageMetadata } from "astro";
 import { defaultLang, inLang, langOf, langOfMarket, langs, marketMeta, marketOf, meta, stripLang, ui, type Lang, type Market } from "../i18n/ui";
 
 export type Post = CollectionEntry<"posts">;
@@ -132,6 +135,12 @@ export interface LivePage {
   updated: Date; released: Date;
   /** Section this page is *about* (standard pages). */
   own?: string;
+  /** Card image (the page's cover), when one exists. */
+  image?: ImageMetadata;
+  /** Short label shown above the title on cards (topic, category or page type). */
+  label: string;
+  /** Topic slug for standard pages (src/data/topics.mjs). */
+  topic?: string;
 }
 
 const SECTION_RE = /\b(19(?:04|10|15|17|18|26|28))\.(\d{1,4}[a-z]?)(?![\d.])/g;
@@ -149,6 +158,7 @@ export const livePages = (): Promise<LivePage[]> =>
         kind: "guide", market: m, path: url.post(p.id), title: p.data.title, description: p.data.description,
         sections: m === "us" ? citedSections(p.body ?? "") : [], industries: [], category: p.data.categories[0], tags: p.data.tags,
         phrases: p.data.linkPhrases.length ? p.data.linkPhrases : [], updated: stamp(p.data), released: releaseOf(p.data) ?? p.data.date,
+        image: p.data.coverImage ?? coverFor(p.data.cover), label: categoryName(p.data.categories[0], langOfMarket(m)),
       });
     }
     for (const s of await getStandards()) {
@@ -157,6 +167,7 @@ export const livePages = (): Promise<LivePage[]> =>
         kind: "standard", market: "us", path: url.standard(s.id), title: s.data.title, description: s.data.description,
         sections: [s.data.section], own: s.data.section, industries: s.data.stats.topIndustries.map((i) => String(i.naics)), category: s.data.subpart, tags: [],
         phrases: s.data.linkPhrases, updated: stamp(s.data), released: releaseOf(s.data) ?? s.data.date,
+        image: coverFor(s.data.cover), label: topicOf(s.data.section).name, topic: topicOf(s.data.section).slug,
       });
     }
     for (const i of await getIndustries()) {
@@ -165,6 +176,7 @@ export const livePages = (): Promise<LivePage[]> =>
         kind: "industry", market: "us", path: url.industry(i.id), title: i.data.title, description: i.data.description,
         sections: i.data.stats.topStandards.map((s) => String(s.section)), industries: [i.data.naics], category: i.data.naics.slice(0, 2), tags: [],
         phrases: i.data.linkPhrases, updated: stamp(i.data), released: releaseOf(i.data) ?? i.data.date,
+        image: coverFor(i.data.cover), label: `Industry · NAICS ${i.data.naics}`,
       });
     }
     for (const r of await getReports()) {
@@ -173,6 +185,7 @@ export const livePages = (): Promise<LivePage[]> =>
         kind: r.data.kind === "penalties" ? "penalties" : "report", market: "us", path: r.data.kind === "penalties" ? url.penalties() : url.report(r.id),
         title: r.data.title, description: r.data.description, sections: [], industries: [], tags: [], phrases: r.data.linkPhrases,
         updated: stamp(r.data), released: releaseOf(r.data) ?? r.data.date,
+        image: coverFor(r.data.cover), label: r.data.kind === "penalties" ? "OSHA penalties" : "Data report",
       });
     }
     return pages;
@@ -276,3 +289,9 @@ export async function siteIndex(): Promise<IndexedPage[]> {
 }
 
 export { entity };
+
+/** A guide as a card (image, category label, date). */
+export const postCard = (p: Post) => ({
+  path: url.post(p.id), title: p.data.title, description: p.data.description, image: p.data.coverImage ?? coverFor(p.data.cover),
+  label: categoryName(p.data.categories[0], langOfMarket(postMarket(p))), date: releaseOf(p.data) ?? p.data.date,
+});

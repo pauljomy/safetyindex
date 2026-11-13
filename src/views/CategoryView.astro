@@ -1,8 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
-import BackToPrevious from "@components/BackToPrevious.astro";
 import { categoryDescription, categoryName, getPosts, url } from "@lib/content";
 import { latest } from "@lib/dates";
 import { breadcrumbList } from "@lib/schema";
@@ -17,6 +15,9 @@ const name = categoryName(slug, lang);
 const present = [];
 for (const l of langs) if ((await getPosts(l)).some((p) => p.data.categories.includes(slug))) present.push(l);
 const alternates = present.length > 1 ? Object.fromEntries(present.map((l) => [l === "en" ? "us" : l, url.category(slug, l)])) : undefined;
+import PageBand from "@components/PageBand.astro";
+import Card from "@components/Card.astro";
+import { postCard } from "@lib/content";
 ---
 
 <Layout
@@ -26,14 +27,8 @@ const alternates = present.length > 1 ? Object.fromEntries(present.map((l) => [l
   alternates={alternates}
   jsonLd={[breadcrumbList([{ label: s.home, href: inLang("/", lang) }, { label: s.categories, href: url.blog(lang) }, { label: name, href: url.category(slug, lang) }])]}
 >
-  <Container>
-    <div class="space-y-10" data-pagefind-ignore>
-      <BackToPrevious href={url.blog(lang)}>{s.backToBlog}</BackToPrevious>
-      <div class="animate space-y-2">
-        <h1 class="font-semibold text-black dark:text-white">{s.categoryTitle(name)}</h1>
-        <p>{categoryDescription(slug, lang)}</p>
-      </div>
-      <ul class="animate not-prose flex flex-col gap-4">{posts.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
-    </div>
+  <PageBand crumbs={[{ label: s.home, href: inLang("/", lang) }, { label: s.blog, href: url.blog(lang) }, { label: name, href: url.category(slug, lang) }]} title={s.categoryTitle(name)} subtitle={categoryDescription(slug, lang)} />
+  <Container wide>
+    <div class="mt-6 grid gap-x-12 md:grid-cols-2">{posts.map((p) => <Card item={postCard(p)} />)}</div>
   </Container>
 </Layout>

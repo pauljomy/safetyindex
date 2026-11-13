@@ -2,12 +2,9 @@
 // /us/osha-penalties (brief section 7d): one URL, updated in place every January, with the
 // year in the title and the date updated on the page. Amounts come from scripts/config.yml.
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import Cover from "@components/Cover.astro";
+import ArticleFrame from "@components/ArticleFrame.astro";
 import PenaltyMaxTable from "@components/PenaltyMaxTable.astro";
 import PageNotes from "@components/PageNotes.astro";
-import RelatedBlock from "@components/RelatedBlock.astro";
 import { url, type Report } from "@lib/content";
 import { formatDate, latest } from "@lib/dates";
 import { withLinks } from "@lib/links";
@@ -31,13 +28,9 @@ const updated = latest(d.date, d.updated);
 ---
 <Layout notes={false} title={d.seoTitle} description={d.description} published={d.date} updated={updated} image={og}
   jsonLd={[webPage({ path, title: d.title, description: d.description, date: d.date, updated: d.updated, image: og, lang: "en-US" }), breadcrumbList(crumbs)]}>
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
-    <p class="animate mb-8 mt-2 text-sm">Updated {formatDate(updated)}</p>
-    <Cover subject={d.cover} alt={d.coverAlt} />
-    <article class="animate" data-pagefind-body>
-      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={summary} /></p>
+  <ArticleFrame crumbs={crumbs} title={d.title} label="OSHA penalties" image={coverFor(d.cover)} alt={d.coverAlt} meta={[`Updated ${formatDate(updated)}`]} toc={[]}>
+    <article class="article" data-pagefind-body>
+      <p data-answer class="lead"><Fragment set:html={summary} /></p>
       <h2>What are the current maximum OSHA penalties?</h2>
       <p>The table lists OSHA's current maximum penalty for each type of violation.</p>
       <PenaltyMaxTable />
@@ -46,6 +39,5 @@ const updated = latest(d.date, d.updated);
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
       <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} data />
     </article>
-    <RelatedBlock />
-  </Container>
+  </ArticleFrame>
 </Layout>

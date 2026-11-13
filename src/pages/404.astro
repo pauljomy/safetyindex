@@ -3,13 +3,16 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import BackToPrevious from "@components/BackToPrevious.astro";
 import { site } from "../config/site.mjs";
+import PageBand from "@components/PageBand.astro";
 ---
 
 <Layout title="Page not found" description="This page does not exist." updated={new Date(site.updated)} noindex>
+  <PageBand crumbs={[{ label: "Home", href: "/" }, { label: "404: Page not found", href: Astro.url.pathname }]} title={"404: Page not found"} />
   <Container>
+    <div class="article mt-12">
     <div class="mt-16 grid place-items-center gap-3">
-      <h1 class="animate text-2xl font-semibold text-black dark:text-white">404: Page not found</h1>
-      <span class="animate"><BackToPrevious href="/">Go to home page</BackToPrevious></span>
+      <span><BackToPrevious href="/">Go to home page</BackToPrevious></span>
+    </div>
     </div>
   </Container>
 </Layout>

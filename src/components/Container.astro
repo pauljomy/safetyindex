@@ -1,5 +1,5 @@
 ---
-
+// Centred content column inside the 1280px grid. `wide` uses the full grid (hubs, home); otherwise a reading width.
+const { wide = false } = Astro.props as { wide?: boolean };
 ---
-
-<div class="mx-auto max-w-(--breakpoint-sm) px-3"><slot /></div>
+<div class="wrap"><div class:list={["mx-auto", wide ? "max-w-[1040px]" : "max-w-3xl"]}><slot /></div></div>

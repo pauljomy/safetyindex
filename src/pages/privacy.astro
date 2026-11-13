@@ -3,6 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import { breadcrumbList } from "@lib/schema";
 import { site } from "../config/site.mjs";
+import PageBand from "@components/PageBand.astro";
 ---
 
 <Layout
@@ -11,12 +12,14 @@ import { site } from "../config/site.mjs";
   updated={new Date(site.updated)}
   jsonLd={[breadcrumbList([{ label: "Home", href: "/" }, { label: "Privacy policy", href: "/privacy" }])]}
 >
+  <PageBand crumbs={[{ label: "Home", href: "/" }, { label: "Privacy policy", href: Astro.url.pathname }]} title={"Privacy policy"} />
   <Container>
-    <h1 class="animate mb-6 text-2xl font-semibold text-black dark:text-white">Privacy policy</h1>
-    <article class="animate" data-pagefind-ignore>
+    <div class="article mt-12">
+    <article data-pagefind-ignore>
       <p>Safety Index does not use analytics, advertising or tracking cookies, and has no accounts or forms. The only cookie-like storage is your light/dark theme choice, saved in your own browser (localStorage) and never sent to us.</p>
       <p>Like any website, the hosting provider keeps technical server logs (IP address, requested page, time) for security and operations. Site search runs entirely in your browser.</p>
       <p>If you email us, we use your address only to reply. Questions about this policy: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p>
     </article>
+    </div>
   </Container>
 </Layout>

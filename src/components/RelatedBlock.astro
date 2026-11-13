@@ -3,16 +3,15 @@
 import { relatedPages } from "@lib/content";
 import { langOf, ui } from "../i18n/ui";
 import { pagePath } from "@lib/paths";
+import Card from "@components/Card.astro";
 const { exclude = [], title } = Astro.props as { exclude?: string[]; title?: string };
 const path = pagePath(Astro.url.pathname);
 const s = ui[langOf(path)];
 const pages = await relatedPages(path, { exclude });
 ---
 {pages.length > 0 && (
-  <section class="animate mt-12 space-y-3" data-pagefind-ignore data-related>
-    <h2 class="font-semibold text-black dark:text-white">{title ?? s.related}</h2>
-    <ul class="not-prose space-y-2">
-      {pages.map((p) => <li><a href={p.path} class="font-medium underline decoration-black/30 underline-offset-2 hover:text-black dark:decoration-white/30 dark:hover:text-white">{p.title}</a><span class="block text-sm">{p.description}</span></li>)}
-    </ul>
+  <section data-pagefind-ignore data-related>
+    <h2 class="border-b pb-2 text-[17px] font-semibold">{title ?? s.related}</h2>
+    {pages.map((p) => <Card item={{ path: p.path, title: p.title, description: p.description }} variant="compact" />)}
   </section>
 )}

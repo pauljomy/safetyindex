@@ -3,14 +3,14 @@
 // what the standard requires (clause on every requirement), checklist, maximum penalties,
 // related standards/industries/guides, sources + data-as-of + not-legal-advice + attribution.
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import Cover from "@components/Cover.astro";
+import ArticleFrame from "@components/ArticleFrame.astro";
 import BarChart from "@components/BarChart.astro";
 import ChecklistBlock from "@components/ChecklistBlock.astro";
 import PenaltyMaxTable from "@components/PenaltyMaxTable.astro";
 import PageNotes from "@components/PageNotes.astro";
-import RelatedBlock from "@components/RelatedBlock.astro";
+import { slugify } from "@lib/slugify";
+import { formatDate } from "@lib/dates";
+import { topicOf } from "../data/topics.mjs";
 import { getChecklist, getIndustries, livePages, url, type Standard } from "@lib/content";
 import { latest } from "@lib/dates";
 import { withLinks } from "@lib/links";
@@ -49,6 +49,23 @@ const clauseHtml = new Map<string, string>();
 for (const sec of checklist?.data.sections ?? []) for (const it of sec.items) if (it[2] && !clauseHtml.has(it[2])) clauseHtml.set(it[2], await withLinks(escapeHtml(it[2]), path, used));
 const updated = latest(d.date, d.updated);
 const short = d.section;
+const image = coverFor(d.cover);
+const toc = [
+  { depth: 2, slug: "enforcement", text: `How often OSHA cites ${short}` },
+  { depth: 2, slug: "requirements", text: `What ${short} requires` },
+  ...groups.map((g) => ({ depth: 3, slug: slugify(g.heading), text: g.heading })),
+  { depth: 2, slug: "checklist-heading", text: "Checklist" },
+  { depth: 2, slug: "penalties", text: "Maximum penalties" },
+  ...(guides.length ? [{ depth: 2, slug: "guides", text: s.guidesUsingStandard }] : []),
+  ...(d.faq.length ? [{ depth: 2, slug: "faq", text: s.faq }] : []),
+  { depth: 2, slug: "sources", text: s.sources },
+];
+const glance = [
+  [st.citations.toLocaleString("en-US"), `citations, ${span}`],
+  [st.inspections.toLocaleString("en-US"), "inspections citing it"],
+  [usd(st.penalties.median), "median initial penalty"],
+  [pct(st.typeShares.serious), "classed serious"],
+];
 ---
 
 <Layout notes={false}
@@ -65,13 +82,12 @@ const short = d.section;
     ...(d.faq.length ? [faqPage(d.faq)] : []),
   ]}
 >
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate text-3xl font-semibold text-black dark:text-white">{d.title}</h1>
-    <p class="animate mb-8 mt-2 text-sm">29 CFR {d.section}: {d.heading.replace(/\.$/, "")}{d.subpartTitle && <> · Subpart {d.subpart}, {d.subpartTitle}</>}</p>
-    <Cover subject={d.cover} alt={d.coverAlt} />
-    <article class="animate" data-pagefind-body>
-      <p data-answer class="lead font-medium text-black dark:text-white"><Fragment set:html={opening} /></p>
+  <ArticleFrame crumbs={crumbs} title={d.title} subtitle={`29 CFR ${d.section}: ${d.heading.replace(/\.$/, "")}${d.subpartTitle ? ` · Subpart ${d.subpart}, ${d.subpartTitle}` : ""}`} label={topicOf(d.section).name} image={image} alt={d.coverAlt} meta={[formatDate(d.date), `Data ${span}`, `eCFR as of ${d.ecfrDate}`]} toc={toc} relatedExclude={guides.map((g) => g.path)}>
+    <article class="article" data-pagefind-body>
+      <p data-answer class="lead"><Fragment set:html={opening} /></p>
+      <dl class="not-prose grid grid-cols-2 gap-px overflow-hidden rounded-lg border bg-line sm:grid-cols-4">
+        {glance.map(([v, k]) => <div class="bg-white p-4"><dt class="sr-only">{k}</dt><dd class="text-[24px] leading-tight font-extrabold tracking-[-0.02em]">{v}</dd><dd class="mt-1 text-[13px] leading-snug text-muted">{k}</dd></div>)}
+      </dl>
 
       <h2 id="enforcement">How often does OSHA cite {short}?</h2>
       <p>OSHA cited {short} {st.citations.toLocaleString("en-US")} times in {span} ({st.fiscalYearCount} complete fiscal years), in {st.inspections.toLocaleString("en-US")} inspections.</p>
@@ -113,7 +129,7 @@ const short = d.section;
       <p><Fragment set:html={requirementsIntro} /></p>
       {groups.map((g) => (
         <>
-          <h3>{g.heading}</h3>
+          <h3 id={slugify(g.heading)}>{g.heading}</h3>
           <p><Fragment set:html={g.intro} /></p>
           <ul>{g.items.map((it) => <li><Fragment set:html={it.text} /> <a href={ecfr(it.clause)} rel="noopener" class="whitespace-nowrap text-sm" data-clause>{it.clause.startsWith(d.section) ? it.clause : `${d.section}${it.clause}`}</a></li>)}</ul>
         </>
@@ -136,15 +152,14 @@ const short = d.section;
 
       {d.faq.length > 0 && (
         <>
-          <h2>{s.faq}</h2>
+          <h2 id="faq">{s.faq}</h2>
           {d.faq.map((f, i) => (<><h3>{f.question}</h3><p><Fragment set:html={faqHtml[i]} /></p></>))}
         </>
       )}
-      <h2>{s.sources}</h2>
+      <h2 id="sources">{s.sources}</h2>
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a></li>)}</ul>
       <p class="text-sm">Regulation text from the eCFR as of {d.ecfrDate}. Enforcement data: U.S. Department of Labor OSHA inspection and violation datasets, {span}.</p>
       <PageNotes dataAsOf={d.dataAsOf ?? updated} sources={d.sources} />
     </article>
-    <RelatedBlock exclude={guides.map((g) => g.path)} />
-  </Container>
+  </ArticleFrame>
 </Layout>

@@ -1,0 +1,49 @@
+---
+// One card component for every list on the site (github.blog pattern).
+//   feature: large image on top, big heavy headline, summary, date (home hero)
+//   row:     square thumbnail left, label, title, summary, date (lists on light background)
+//   dark:    row layout for the dark hero column
+//   compact: title + summary only (sidebars)
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import { formatDate } from "@lib/dates";
+export interface CardData { path: string; title: string; description?: string; image?: ImageMetadata; label?: string; date?: Date; extra?: string }
+const { item, variant = "row", headingLevel = 3, eager = false, intl = "en-US" } = Astro.props as { item: CardData; variant?: "feature" | "row" | "dark" | "compact"; headingLevel?: 2 | 3; eager?: boolean; intl?: string };
+const H = headingLevel === 2 ? "h2" : "h3";
+const dark = variant === "feature" || variant === "dark";
+const date = item.date ? formatDate(item.date, intl) : undefined;
+---
+{variant === "feature" ? (
+  <article class="group">
+    <a href={item.path} class="block">
+      {item.image
+        ? <Image src={item.image} alt="" widths={[480, 768, 1100]} sizes="(min-width: 1024px) 600px, 100vw" class="aspect-[16/9] w-full rounded-md object-cover" loading={eager ? "eager" : "lazy"} fetchpriority={eager ? "high" : "auto"} />
+        : <div class="flex aspect-[16/9] w-full items-end rounded-md bg-gradient-to-br from-[#2f3a46] via-[#3b2f52] to-[#5a2a4a] p-6"><img src="/icon.svg" alt="" width="56" height="56" class="opacity-90" /></div>}
+      {item.label && <p class="label mt-6 text-[#ff80c8]">{item.label}</p>}
+      <H class="display mt-2 text-[32px] leading-[1.08] text-white group-hover:underline md:text-[44px]">{item.title}</H>
+      {item.description && <p class="mt-4 text-[16px] leading-relaxed text-white/70">{item.description}</p>}
+      {(date || item.extra) && <p class="meta mt-4 text-white/60">{item.extra}{item.extra && date && " · "}{date}</p>}
+    </a>
+  </article>
+) : variant === "compact" ? (
+  <article class="group border-t py-4 first:border-t-0">
+    <a href={item.path} class="block">
+      <H class="text-[16px] leading-snug font-semibold text-ink group-hover:underline">{item.title}</H>
+      {item.description && <p class="mt-1 line-clamp-3 text-sm text-muted">{item.description}</p>}
+    </a>
+  </article>
+) : (
+  <article class:list={["group py-6", dark ? "border-b border-white/10 last:border-b-0" : "border-b"]}>
+    <a href={item.path} class="grid grid-cols-[96px_1fr] gap-5 sm:grid-cols-[168px_1fr] sm:gap-6">
+      {item.image
+        ? <Image src={item.image} alt="" widths={[200, 340]} sizes="168px" class="aspect-square w-full rounded-md object-cover" loading="lazy" />
+        : <div class:list={["flex aspect-square w-full items-center justify-center rounded-md", dark ? "bg-white/10" : "bg-subtle"]}><img src="/icon.svg" alt="" width="40" height="40" class="opacity-80" /></div>}
+      <div class="min-w-0">
+        {item.label && <p class:list={["label", dark && "text-[#ff80c8]"]}>{item.label}</p>}
+        <H class:list={["mt-1 text-[18px] leading-snug font-semibold tracking-[-0.01em] group-hover:underline sm:text-[20px]", dark ? "text-white" : "text-ink"]}>{item.title}</H>
+        {item.description && <p class:list={["mt-2 line-clamp-3 text-[15px] leading-relaxed", dark ? "text-white/65" : "text-muted"]}>{item.description}</p>}
+        {(date || item.extra) && <p class:list={["meta mt-3", dark && "text-white/55"]}>{item.extra}{item.extra && date && " · "}{date}</p>}
+      </div>
+    </a>
+  </article>
+)}

@@ -1,0 +1,8 @@
+---
+// Table of contents from H2/H3 headings (sidebar and the mobile disclosure).
+const { headings } = Astro.props as { headings: { depth: number; slug: string; text: string }[] };
+const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+<ol class="mt-3 space-y-2 text-[14px] leading-snug">
+  {items.map((h) => <li class:list={[h.depth === 3 && "pl-4"]}><a href={`#${h.slug}`} class="text-muted hover:text-ink hover:underline">{h.text}</a></li>)}
+</ol>

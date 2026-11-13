@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 let titles;
 export const NAICS_SOURCE = "https://www.census.gov/naics/2022NAICS/2-6%20digit_2022_Codes.xlsx";
 export function naicsTitle(code) {
-  titles ??= JSON.parse(readFileSync(new URL("../../data/pages/us/naics.json", import.meta.url), "utf8"));
+  titles ??= JSON.parse(readFileSync(`${process.cwd()}/data/pages/us/naics.json`, "utf8"));
   return titles[String(code)] ?? null;
 }
 

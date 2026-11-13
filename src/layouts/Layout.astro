@@ -22,19 +22,11 @@ const lang = hreflangOf(Astro.url.pathname);
     {jsonLd.map((data) => <JsonLd data={data} />)}
   </head>
   <body>
-    <noscript>
-      <style>
-        .animate {
-          opacity: 1;
-          translate: var(--tw-translate-x) calc(var(--spacing) * 0);
-        }
-      </style>
-    </noscript>
     <Header alternates={seo.alternates} />
-    <main>
+    <main id="main">
       <slot />
       {notes && (
-        <div class="mx-auto mt-12 max-w-(--breakpoint-sm) px-5 text-xs" data-page-notes>
+        <div class="wrap mt-16 text-xs text-muted" data-page-notes>
           <p data-as-of>{s.dataAsOf(formatDate(seo.updated, intl))}</p>
           <p data-disclaimer>{s.disclaimer}</p>
         </div>

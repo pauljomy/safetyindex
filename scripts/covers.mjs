@@ -23,7 +23,8 @@ function* files(dir, ext) { if (!existsSync(dir)) return; for (const e of readdi
 for (const f of files("src/content/posts", ".md")) add(YAML.parse(readFileSync(f, "utf8").match(/^---\n([\s\S]*?)\n---/)[1]), f);
 for (const dir of ["src/content/standards", "src/content/industries", "src/content/reports"]) for (const f of files(dir, ".json")) add(JSON.parse(readFileSync(f, "utf8")), f);
 
-const missing = [...subjects].filter(([s]) => !existsSync(join(DIR, `${s}.webp`)));
+// A subject with an original guide photo (src/content/posts/images) already has its image.
+const missing = [...subjects].filter(([s]) => !existsSync(join(DIR, `${s}.webp`)) && !existsSync(join("src/content/posts/images", `${s}.webp`)));
 // Released pages first, then the pages about to be released (queue order is close enough to file order here).
 const todo = [...missing.filter(([, v]) => v.released), ...missing.filter(([, v]) => !v.released).slice(0, config.release_per_week || 1e9)].slice(0, config.max_images_per_run);
 console.log(`${missing.length} subject(s) without an image; making ${todo.length} this run (cap ${config.max_images_per_run})`);

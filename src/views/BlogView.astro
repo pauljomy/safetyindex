@@ -1,8 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
 import { categoryName, getPosts, hubAlternates, url } from "@lib/content";
 import { categories } from "../data/categories.mjs";
 import { latest } from "@lib/dates";
@@ -16,6 +14,9 @@ const posts = await getPosts(lang);
 // The language's guides hub: every guide, grouped by topic (category), newest first within a topic.
 const groups = categories.map((c) => ({ slug: c.slug, name: categoryName(c.slug, lang), posts: posts.filter((p) => p.data.categories[0] === c.slug) })).filter((g) => g.posts.length);
 const crumbs = [{ label: s.home, href: inLang("/", lang) }, { label: s.blog, href: url.blog(lang) }];
+import PageBand from "@components/PageBand.astro";
+import Card from "@components/Card.astro";
+import { postCard } from "@lib/content";
 ---
 
 <Layout
@@ -25,22 +26,17 @@ const crumbs = [{ label: s.home, href: inLang("/", lang) }, { label: s.blog, hre
   alternates={hubAlternates("/blog")}
   jsonLd={[breadcrumbList(crumbs)]}
 >
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <aside data-pagefind-ignore>
-      <h1 class="animate mb-8 font-semibold text-black dark:text-white">{s.blogTitle}</h1>
-      <div class="space-y-10">
-        {
-          groups.map((g) => (
-            <section class="animate space-y-4">
-              <h2 class="font-semibold text-black dark:text-white"><a href={url.category(g.slug, lang)}>{g.name}</a></h2>
-              <ul class="not-prose flex flex-col gap-4">{g.posts.map((p) => <li><ArrowCard entry={p} /></li>)}</ul>
-            </section>
-          ))
-        }
-        {posts.length === 0 && <p>{s.noPosts}</p>}
-        {posts.length > 0 && <p class="animate text-sm"><a href={url.tags(lang)}>{s.allTags}</a></p>}
-      </div>
-    </aside>
+  <PageBand crumbs={crumbs} title={s.blogTitle} subtitle={s.blogDescription}>
+    {groups.length > 2 && <nav aria-label={s.categories} class="mt-8 flex flex-wrap gap-2">{groups.map((g) => <a href={`#${g.slug}`} class="rounded-full border border-white/25 px-3 py-1 text-[13px] font-semibold text-white/85 hover:border-white hover:text-white">{g.name}</a>)}</nav>}
+  </PageBand>
+  <Container wide>
+    {groups.map((g) => (
+      <section id={g.slug} class="mt-14 scroll-mt-6">
+        <h2 class="rule-top section-title"><a href={url.category(g.slug, lang)} class="hover:underline">{g.name}</a><span class="meta">{g.posts.length}</span></h2>
+        <div class="grid gap-x-12 md:grid-cols-2">{g.posts.map((p) => <Card item={postCard(p)} />)}</div>
+      </section>
+    ))}
+    {posts.length === 0 && <p class="mt-12">{s.noPosts}</p>}
+    {posts.length > 0 && <p class="mt-12 text-sm"><a class="text-link underline" href={url.tags(lang)}>{s.allTags}</a></p>}
   </Container>
 </Layout>

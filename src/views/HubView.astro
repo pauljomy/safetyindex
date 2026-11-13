@@ -1,47 +1,39 @@
 ---
-// Hub page (brief section 8): a table linking every live page in the group, grouped by topic.
-// Built only when the group has at least one live page.
+// Hub page (brief section 8): every live page in the group, grouped by topic, as image cards.
+// Each group has an anchor (#slug) so the header's topic row and the home page can link to it.
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/Container.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
+import PageBand from "@components/PageBand.astro";
+import Card, { type CardData } from "@components/Card.astro";
 import type { Crumb } from "@lib/schema";
 import { breadcrumbList } from "@lib/schema";
+import { slugify } from "@lib/slugify";
 import type { Market } from "../i18n/ui";
 
-export interface HubRow { path: string; title: string; description?: string; extra?: string }
-export interface HubGroup { heading: string; rows: HubRow[] }
-const { title, description, intro, crumbs, groups, extraHeader, updated, alternates, featured = [] } = Astro.props as {
+export interface HubRow extends CardData {}
+export interface HubGroup { heading: string; slug?: string; rows: HubRow[] }
+const { title, description, intro, crumbs, groups, updated, alternates, featured = [], jump = true } = Astro.props as {
   title: string; description: string; intro: string; crumbs: Crumb[]; groups: HubGroup[]; extraHeader?: string; updated: Date;
-  alternates?: Partial<Record<Market, string>>; featured?: HubRow[];
+  alternates?: Partial<Record<Market, string>>; featured?: HubRow[]; jump?: boolean;
 };
+const anchored = groups.map((g) => ({ ...g, slug: g.slug ?? slugify(g.heading) }));
 ---
 <Layout title={title} description={description} updated={updated} alternates={alternates} jsonLd={[breadcrumbList(crumbs)]}>
-  <Container>
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="animate mb-4 text-2xl font-semibold text-black dark:text-white">{title}</h1>
-    <p class="animate mb-8">{intro}</p>
-    {featured.length > 0 && (
-      <ul class="animate not-prose mb-10 space-y-2" data-featured>
-        {featured.map((f) => <li><a href={f.path} class="font-medium underline decoration-black/30 underline-offset-2">{f.title}</a>{f.description && <span class="block text-sm">{f.description}</span>}</li>)}
-      </ul>
+  <PageBand crumbs={crumbs} title={title} subtitle={intro}>
+    {jump && anchored.length > 2 && (
+      <nav aria-label="Sections" class="mt-8 flex flex-wrap gap-2">
+        {anchored.map((g) => <a href={`#${g.slug}`} class="rounded-full border border-white/25 px-3 py-1 text-[13px] font-semibold text-white/85 hover:border-white hover:text-white">{g.heading} <span class="font-mono text-white/50">{g.rows.length}</span></a>)}
+      </nav>
     )}
-    <div class="animate space-y-10" data-hub>
-      {groups.map((g) => (
-        <section>
-          <h2 class="mb-3 font-semibold text-black dark:text-white">{g.heading}</h2>
-          <table class="w-full text-sm">
-            <thead><tr><th class="text-left">Page</th>{extraHeader && <th class="text-right">{extraHeader}</th>}</tr></thead>
-            <tbody>
-              {g.rows.map((r) => (
-                <tr>
-                  <td class="py-1.5 pr-4"><a href={r.path} class="font-medium">{r.title}</a>{r.description && <span class="block">{r.description}</span>}</td>
-                  {extraHeader && <td class="py-1.5 text-right whitespace-nowrap">{r.extra}</td>}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+  </PageBand>
+  <div class="wrap">
+    <div class="mx-auto max-w-[1040px]" data-hub>
+      {featured.length > 0 && <div class="mt-10 grid gap-x-12 md:grid-cols-2">{featured.map((f) => <Card item={f} />)}</div>}
+      {anchored.map((g) => (
+        <section id={g.slug} class="mt-14 scroll-mt-6">
+          <h2 class="rule-top section-title"><span>{g.heading}</span><span class="meta">{g.rows.length}</span></h2>
+          <div class="grid gap-x-12 md:grid-cols-2">{g.rows.map((r) => <Card item={r} />)}</div>
         </section>
       ))}
     </div>
-  </Container>
+  </div>
 </Layout>

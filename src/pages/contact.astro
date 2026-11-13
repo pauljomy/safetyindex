@@ -3,6 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import { breadcrumbList } from "@lib/schema";
 import { site } from "../config/site.mjs";
+import PageBand from "@components/PageBand.astro";
 ---
 
 <Layout
@@ -11,11 +12,13 @@ import { site } from "../config/site.mjs";
   updated={new Date(site.updated)}
   jsonLd={[breadcrumbList([{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }])]}
 >
+  <PageBand crumbs={[{ label: "Home", href: "/" }, { label: "Contact", href: Astro.url.pathname }]} title={"Contact"} />
   <Container>
-    <h1 class="animate mb-6 text-2xl font-semibold text-black dark:text-white">Contact</h1>
-    <article class="animate" data-pagefind-ignore>
+    <div class="article mt-12">
+    <article data-pagefind-ignore>
       <p>Found a mistake, an out-of-date rule or a broken source link? Email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a> with the page address and what is wrong. We correct confirmed errors and update the page date when the content changes.</p>
       <p>We cannot give individual legal or safety advice. For your own workplace, contact your regulator or a competent safety professional.</p>
     </article>
+    </div>
   </Container>
 </Layout>
