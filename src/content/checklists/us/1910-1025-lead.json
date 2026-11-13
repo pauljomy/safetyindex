@@ -1,0 +1,302 @@
+{
+  "slug": "1910-1025-lead",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-1025-lead",
+  "doc_ref": "SI-US-1910-1025",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Lead Inspection Checklist for OSHA 29 CFR 1910.1025 Lead Exposure",
+  "subtitle": "Use on walk-throughs of general industry lead work areas, after process changes and before the annual review of the compliance program.",
+  "regulation_line": "OSHA 29 CFR 1910.1025",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A, and note the area, date and inspector.",
+    "For each Defect, record what was found, who will correct it and by when, then recheck the item once it is fixed.",
+    "Manufacturer's instructions for respirators, ventilation and vacuums, and your site rules, may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Exposure assessment and monitoring",
+      "items": [
+        [
+          "Initial determination",
+          "An initial determination covers each workplace or operation with lead and states whether anyone may be exposed at or above the action level of 30 µg/m³.",
+          "1910.1025(d)(2)"
+        ],
+        [
+          "Negative determination record",
+          "If the determination was negative, a written record shows the basis, date, worksite location and employees monitored.",
+          "1910.1025(d)(5)"
+        ],
+        [
+          "Sampling method",
+          "Personal samples run 7 or more continuous hours, with one or more per shift for every job classification and work area.",
+          "1910.1025(d)(1)(ii)"
+        ],
+        [
+          "Monitoring between action level and PEL",
+          "Exposures at or above the action level but below the PEL are re-sampled at 6-month intervals or more often.",
+          "1910.1025(d)(6)(ii)"
+        ],
+        [
+          "Monitoring above the PEL",
+          "Results above 50 µg/m³ are followed by quarterly monitoring.",
+          "1910.1025(d)(6)(iii)"
+        ],
+        [
+          "Monitoring after changes",
+          "Each production, process, control or personnel change that may add lead exposure since the last sampling was followed by additional monitoring.",
+          "1910.1025(d)(7)"
+        ],
+        [
+          "Results given to employees",
+          "Each affected employee received results in writing or by posting within 15 working days of the employer receiving them.",
+          "1910.1025(d)(8)(i)"
+        ],
+        [
+          "Over-PEL notice",
+          "Written notices for results over the PEL say the PEL was exceeded and describe the corrective action taken or planned.",
+          "1910.1025(d)(8)(ii)"
+        ],
+        [
+          "Monitoring records",
+          "Records list sample dates, number, duration, location and results, methods with evidence of accuracy, any respirators worn, names and job classifications of employees monitored and represented, and environmental variables.",
+          "1910.1025(n)(1)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Controls, ventilation and respirators",
+      "items": [
+        [
+          "Written compliance program content",
+          "The written program describes each lead-emitting operation, the chosen controls, technology considered, monitoring data on emission sources and an implementation schedule.",
+          "1910.1025(e)(3)(ii)"
+        ],
+        [
+          "Program kept current",
+          "The written program shows a revision within the last 12 months.",
+          "1910.1025(e)(3)(iv)"
+        ],
+        [
+          "Program available on site",
+          "A copy is kept at the worksite and can be examined and copied by affected employees and their representatives.",
+          "1910.1025(e)(3)(iii)"
+        ],
+        [
+          "Ventilation performance checks",
+          "Capture velocity, duct velocity or static pressure readings are logged at least every 3 months and within 5 days of any production, process or control change.",
+          "1910.1025(e)(4)(i)"
+        ],
+        [
+          "Recirculated air",
+          "Any recirculating exhaust has a high efficiency filter, a back-up filter, and working lead monitoring with automatic bypass.",
+          "1910.1025(e)(4)(ii)"
+        ],
+        [
+          "Job rotation schedule",
+          "Where rotation is used, the schedule lists each employee's name or ID number, time spent and exposure levels at each job or station.",
+          "1910.1025(e)(5)"
+        ],
+        [
+          "Respiratory protection program",
+          "A respiratory protection program meeting 1910.134 covers every employee required to wear a respirator.",
+          "1910.1025(f)(2)(i)"
+        ],
+        [
+          "Respirator filters",
+          "Every powered and non-powered air-purifying respirator in use has HEPA filters.",
+          "1910.1025(f)(3)(i)(C)"
+        ],
+        [
+          "Full facepiece where aerosols irritate",
+          "Full facepiece respirators, not half masks, are worn where lead aerosols irritate eyes or skin.",
+          "1910.1025(f)(3)(i)(B)"
+        ],
+        [
+          "Respirators on request",
+          "An employee who asks for a respirator is given one.",
+          "1910.1025(f)(1)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Protective clothing and housekeeping",
+      "items": [
+        [
+          "Protective clothing issued",
+          "Employees over the PEL or at risk of irritation to skin or eyes wear coveralls, gloves, hats, shoes or shoe covers and eye or face protection, issued free.",
+          "1910.1025(g)(1)"
+        ],
+        [
+          "Clean clothing supply",
+          "Clean, dry clothing is issued at least weekly, and daily to anyone whose exposure, without regard to respirators, is over 200 µg/m³ as an 8-hour TWA.",
+          "1910.1025(g)(2)(i)"
+        ],
+        [
+          "Contaminated clothing containers",
+          "Used clothing goes into closed containers in the change room.",
+          "1910.1025(g)(2)(v)"
+        ],
+        [
+          "Container labels",
+          "Bags and containers of contaminated clothing carry the full DANGER label wording set out in the standard.",
+          "1910.1025(g)(2)(vii)(A)"
+        ],
+        [
+          "Launderer informed",
+          "Whoever cleans or launders the clothing has been told in writing about lead's harmful effects.",
+          "1910.1025(g)(2)(vi)"
+        ],
+        [
+          "No blowing or shaking",
+          "No one blows, shakes or otherwise dusts off clothing or equipment.",
+          "1910.1025(g)(2)(viii)"
+        ],
+        [
+          "Surfaces",
+          "Floors, ledges and equipment show no lead dust buildup that could practicably be removed.",
+          "1910.1025(h)(1)"
+        ],
+        [
+          "No compressed air cleaning",
+          "No compressed air is used to clean floors or surfaces where lead collects.",
+          "1910.1025(h)(2)(i)"
+        ],
+        [
+          "Sweeping justified",
+          "Sweeping, shoveling or brushing is used only where vacuuming or an equally effective method was tried and failed.",
+          "1910.1025(h)(2)(ii)"
+        ],
+        [
+          "Vacuum handling",
+          "Vacuums are used and emptied in a way that minimises lead dust returning to the work area.",
+          "1910.1025(h)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Hygiene facilities",
+      "items": [
+        [
+          "No eating, drinking or smoking",
+          "No food, drinks, tobacco products or cosmetic use in above-PEL areas outside change rooms, lunchrooms and showers.",
+          "1910.1025(i)(1)"
+        ],
+        [
+          "Clean change rooms",
+          "Clean change rooms are provided for employees working where airborne exposure is above the PEL, without regard to respirators.",
+          "1910.1025(i)(2)(i)"
+        ],
+        [
+          "Separate storage",
+          "Change rooms have separate storage for protective clothing and equipment and for street clothes that prevents cross-contamination.",
+          "1910.1025(i)(2)(ii)"
+        ],
+        [
+          "End-of-shift showers",
+          "Employees working over the PEL shower at the end of the shift.",
+          "1910.1025(i)(3)(i)"
+        ],
+        [
+          "Work clothing stays on site",
+          "No one required to shower leaves wearing shift clothing or equipment.",
+          "1910.1025(i)(3)(iii)"
+        ],
+        [
+          "Lunchroom air",
+          "The lunchroom has a temperature-controlled, positive-pressure, filtered air supply and is readily accessible.",
+          "1910.1025(i)(4)(ii)"
+        ],
+        [
+          "Hand and face washing",
+          "Employees wash hands and face before eating, drinking, smoking or applying cosmetics.",
+          "1910.1025(i)(4)(iii)"
+        ],
+        [
+          "Clothing in the lunchroom",
+          "Protective clothing brought into the lunchroom has had surface lead dust removed by vacuuming, downdraft booth or other cleaning.",
+          "1910.1025(i)(4)(iv)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Medical surveillance, training and signs",
+      "items": [
+        [
+          "Surveillance enrolment",
+          "Everyone who is or may be exposed at or above the action level for more than 30 days per year is enrolled in medical surveillance.",
+          "1910.1025(j)(1)(i)"
+        ],
+        [
+          "Routine blood testing",
+          "Each covered employee has been offered blood lead and ZPP testing no less often than every 6 months.",
+          "1910.1025(j)(2)(i)(A)"
+        ],
+        [
+          "Elevated blood lead testing",
+          "Employees whose last result was at or over 40 µg/100 g are retested at least every two months.",
+          "1910.1025(j)(2)(i)(B)"
+        ],
+        [
+          "Medical removal",
+          "No employee whose periodic and follow-up tests both showed at least 60 µg/100 g remains in work with lead exposure at or above the action level.",
+          "1910.1025(k)(1)(i)(A)"
+        ],
+        [
+          "Written medical opinions",
+          "Each examined employee has a copy of every examining or consulting physician's written opinion.",
+          "1910.1025(j)(3)(v)(A)"
+        ],
+        [
+          "Appendix information",
+          "Employees in any area with potential airborne lead exposure have been told what the two appendices (A and B) contain.",
+          "1910.1025(l)(1)(i)"
+        ],
+        [
+          "Annual training",
+          "Each employee in the training program has been trained within the past 12 months.",
+          "1910.1025(l)(1)(iv)"
+        ],
+        [
+          "Labels and safety data sheets",
+          "Containers of lead are labelled and employees can reach the safety data sheets.",
+          "1910.1025(m)(1)(iii)"
+        ],
+        [
+          "Warning signs posted",
+          "Required DANGER lead signs are posted at every work area where the PEL is exceeded.",
+          "1910.1025(m)(2)(i)"
+        ],
+        [
+          "Signs legible",
+          "Signs are lit and clean so the legend is readily visible.",
+          "1910.1025(m)(2)(iii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.1025: Lead (Part 1910 Subpart Z, Toxic and Hazardous Substances)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

@@ -1,0 +1,507 @@
+{
+  "section": "1910.1025",
+  "part": "1910",
+  "heading": "Lead.",
+  "subpart": "Z",
+  "subpartTitle": "Toxic and Hazardous Substances",
+  "title": "Lead inspection checklist and OSHA requirements (29 CFR 1910.1025)",
+  "seoTitle": "Lead inspection checklist: OSHA 1910.1025 requirements",
+  "description": "OSHA 29 CFR 1910.1025 lead requirements in plain language, citation and penalty data for FY2022–FY2026, and a printable lead inspection checklist.",
+  "opening": "29 CFR 1910.1025 requires employers outside construction and part 1928 agriculture to keep employee lead exposure at or below 50 µg/m³ (8-hour average), assess and monitor exposure, and, depending on measured levels, provide controls, respirators, protective clothing, hygiene facilities, medical surveillance and training.",
+  "keyword": "lead inspection",
+  "cluster": [
+    {
+      "keyword": "osha lead exposure requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "lead exposure checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "lead exposure inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha lead requirements",
+      "volume": 20,
+      "kd": 30,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "lead checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "lead inspection",
+      "volume": 1000,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.1025",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 1030,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1494,
+    "inspections": 579,
+    "byFy": {
+      "2022": 198,
+      "2023": 348,
+      "2024": 292,
+      "2025": 305,
+      "2026": 351
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(h)(1)",
+        "count": 237
+      },
+      {
+        "paragraph": "(l)(1)(i)",
+        "count": 225
+      },
+      {
+        "paragraph": "(d)(2)",
+        "count": 222
+      },
+      {
+        "paragraph": "(m)(1)(iii)",
+        "count": 65
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 56
+      },
+      {
+        "paragraph": "(e)(1)(i)",
+        "count": 43
+      },
+      {
+        "paragraph": "(l)(1)(ii)",
+        "count": 40
+      },
+      {
+        "paragraph": "(e)(3)(i)",
+        "count": 39
+      },
+      {
+        "paragraph": "(h)(2)(ii)",
+        "count": 37
+      },
+      {
+        "paragraph": "(e)(4)(i)",
+        "count": 30
+      }
+    ],
+    "penalties": {
+      "n": 731,
+      "median": 4839,
+      "p25": 2074,
+      "p75": 8702,
+      "total": 4944682
+    },
+    "typeShares": {
+      "serious": 0.722,
+      "willful": 0.004,
+      "repeat": 0.04,
+      "otherThanSerious": 0.232,
+      "unclassified": 0.002
+    },
+    "typeCounts": {
+      "serious": 1078,
+      "willful": 6,
+      "repeat": 60,
+      "otherThanSerious": 347,
+      "unclassified": 3
+    },
+    "topIndustries": [
+      {
+        "naics": "7139",
+        "count": 292,
+        "title": "Other Amusement and Recreation Industries"
+      },
+      {
+        "naics": "3329",
+        "count": 129,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "9221",
+        "count": 99,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "4239",
+        "count": 91,
+        "title": "Miscellaneous Durable Goods Merchant Wholesalers"
+      },
+      {
+        "naics": "3359",
+        "count": 64,
+        "title": "Other Electrical Equipment and Component Manufacturing"
+      },
+      {
+        "naics": "4511",
+        "count": 55,
+        "title": null
+      },
+      {
+        "naics": "3315",
+        "count": 45,
+        "title": "Foundries"
+      },
+      {
+        "naics": "3345",
+        "count": 43,
+        "title": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing"
+      },
+      {
+        "naics": "3251",
+        "count": 39,
+        "title": "Basic Chemical Manufacturing"
+      },
+      {
+        "naics": "3328",
+        "count": 35,
+        "title": "Coating, Engraving, Heat Treating, and Allied Activities"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraphs are 1910.1025(h)(1) (237 citations), which requires surfaces to be kept as free as practicable of lead accumulations; 1910.1025(l)(1)(i) (225), which requires informing employees of Appendices A and B wherever airborne lead exposure is possible at any level; and 1910.1025(d)(2) (222), the initial determination of whether any employee may be exposed at or above the action level. Citations went from 198 in FY2022 to 348 in FY2023, dipped to 292 in FY2024, then rose to 305 in FY2025 and 351 in FY2026.",
+  "requirementsIntro": "1910.1025 covers all occupational exposure to lead except in the construction industry and in agricultural operations covered by 29 CFR part 1928 (1910.1025(a)(2)). Its paragraphs run in order from definitions and exposure limits through monitoring, controls, respirators, clothing, housekeeping, hygiene, medical surveillance, medical removal, training, signs, records and observation of monitoring.",
+  "requirements": [
+    {
+      "heading": "What are the OSHA exposure limits for lead?",
+      "intro": "Under 1910.1025 the permissible exposure limit (PEL) for lead is 50 µg/m³ and the action level is 30 µg/m³, both as 8-hour time-weighted averages.",
+      "items": [
+        {
+          "text": "No employee may be exposed to lead above 50 µg/m³ averaged over an 8-hour period.",
+          "clause": "1910.1025(c)(1)"
+        },
+        {
+          "text": "For a work day longer than 8 hours, that day's limit drops to 400 divided by the hours worked (in µg/m³).",
+          "clause": "1910.1025(c)(2)"
+        },
+        {
+          "text": "The action level is an airborne lead concentration of 30 µg/m³ averaged over an 8-hour period, measured as if no respirator were worn.",
+          "clause": "1910.1025(b)"
+        },
+        {
+          "text": "Lead here means metallic lead, all inorganic lead compounds and organic lead soaps; all other organic lead compounds are excluded.",
+          "clause": "1910.1025(b)"
+        },
+        {
+          "text": "When respirators back up the required controls and all of 1910.1025(f) is met, exposure during the periods a respirator is worn may be counted at the level its protection factor provides when judging PEL compliance.",
+          "clause": "1910.1025(c)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "When must employers monitor lead exposure?",
+      "intro": "Under 1910.1025 every covered employer must first determine whether any employee may be exposed at the action level or higher, then monitor each exposed employee and keep monitoring at a frequency set by the results.",
+      "items": [
+        {
+          "text": "Determine, for each covered workplace or work operation, whether any employee may be exposed to lead at the action level or higher, basing that determination on exposure monitoring results and the other considerations listed in 1910.1025(d)(3)(i).",
+          "clause": "1910.1025(d)(2)"
+        },
+        {
+          "text": "Where that determination shows the possibility of any employee exposure at or above the action level, conduct monitoring representative of the exposure for each employee in the workplace who is exposed to lead.",
+          "clause": "1910.1025(d)(4)(i)"
+        },
+        {
+          "text": "Apart from initial-determination monitoring under 1910.1025(d)(3), collect full-shift personal samples lasting at least 7 continuous hours, with at least one sample for each shift for each job classification in each work area.",
+          "clause": "1910.1025(d)(1)(ii)"
+        },
+        {
+          "text": "If the determination finds no employee exposed at or over the action level, make a written record that includes the 1910.1025(d)(3) information, the date, the location within the worksite and the employees monitored.",
+          "clause": "1910.1025(d)(5)"
+        },
+        {
+          "text": "Where exposure is at or above the action level but below the PEL, repeat monitoring at least every 6 months until two consecutive measurements taken at least 7 days apart fall below the action level.",
+          "clause": "1910.1025(d)(6)(ii)"
+        },
+        {
+          "text": "Where initial monitoring shows exposure above the PEL, monitor quarterly until two consecutive measurements, again at least 7 days apart, are below the PEL but still at or over the action level; then move to the 6-month schedule.",
+          "clause": "1910.1025(d)(6)(iii)"
+        },
+        {
+          "text": "Monitor again whenever a production, process, control or personnel change may cause new or additional lead exposure, or when there is any other reason to suspect such a change.",
+          "clause": "1910.1025(d)(7)"
+        },
+        {
+          "text": "Tell each affected employee the monitoring results within 15 working days of receiving them, either individually in writing or by posting them where affected employees can see them.",
+          "clause": "1910.1025(d)(8)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What controls and written program does 1910.1025 require?",
+      "intro": "Where any employee is exposed to lead above the PEL for more than 30 days per year, 1910.1025 requires engineering and work practice controls, including administrative controls, unless the employer can demonstrate they are not feasible; every employer must also keep a written compliance program.",
+      "items": [
+        {
+          "text": "If feasible controls cannot bring exposure down to the PEL, use them to reach the lowest feasible level and add respirators that meet 1910.1025(f).",
+          "clause": "1910.1025(e)(1)(i)"
+        },
+        {
+          "text": "If exposure exceeds the PEL on 30 days or fewer per year, use engineering controls to bring exposure down to 200 µg/m³; after that, any mix of engineering, work practice (including administrative) and respiratory controls may be used to reach 50 µg/m³ or below.",
+          "clause": "1910.1025(e)(1)(ii)"
+        },
+        {
+          "text": "Establish and implement a written compliance program to reduce exposure to the PEL or below, and to interim levels if applicable, solely by engineering and work practice controls.",
+          "clause": "1910.1025(e)(3)(i)"
+        },
+        {
+          "text": "The written plan must describe each lead-emitting operation, the means and engineering studies chosen to achieve compliance, the technology considered, air monitoring data documenting emission sources, an implementation schedule, a work practice program and any job rotation schedule.",
+          "clause": "1910.1025(e)(3)(ii)"
+        },
+        {
+          "text": "Revise and update the written program at least annually to reflect its current status.",
+          "clause": "1910.1025(e)(3)(iv)"
+        },
+        {
+          "text": "Where ventilation controls exposure, measure its effectiveness (for example capture velocity, duct velocity or static pressure) at least every 3 months, and within 5 days of any production, process or control change that might change lead exposure.",
+          "clause": "1910.1025(e)(4)(i)"
+        },
+        {
+          "text": "If exhaust air is recirculated into the workplace, fit a high efficiency filter with a reliable back-up filter, plus installed, operating and maintained controls that monitor lead in the return air and bypass recirculation automatically if the system fails.",
+          "clause": "1910.1025(e)(4)(ii)"
+        },
+        {
+          "text": "If job rotation is used to cut time-weighted exposure, keep a schedule giving each affected employee's name or ID number and the duration and exposure levels at each job or work station.",
+          "clause": "1910.1025(e)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "When are respirators and protective clothing required for lead?",
+      "intro": "1910.1025 requires respirators while controls are being installed, where controls cannot reduce exposure to the PEL and whenever an employee asks for one, and protective clothing where exposure is over the PEL or skin or eye irritation is possible.",
+      "items": [
+        {
+          "text": "Run a respiratory protection program meeting the parts of 1910.134 listed in this paragraph for every employee who must wear a respirator under this standard.",
+          "clause": "1910.1025(f)(2)(i)"
+        },
+        {
+          "text": "Issue full facepiece respirators instead of half masks where lead aerosols cause eye or skin irritation at the use concentrations.",
+          "clause": "1910.1025(f)(3)(i)(B)"
+        },
+        {
+          "text": "Fit HEPA filters to powered and non-powered air-purifying respirators.",
+          "clause": "1910.1025(f)(3)(i)(C)"
+        },
+        {
+          "text": "Provide at no cost, and make sure employees use, protective clothing and equipment such as coveralls, gloves, hats, shoes or disposable shoe coverlets, and face shields or vented goggles meeting 1910.133, when exposure is over the PEL regardless of respirators or the eyes or skin may be irritated.",
+          "clause": "1910.1025(g)(1)"
+        },
+        {
+          "text": "Supply the protective clothing clean and dry at least weekly, and daily to employees exposed above 200 µg/m³ as an 8-hour TWA, respirators disregarded.",
+          "clause": "1910.1025(g)(2)(i)"
+        },
+        {
+          "text": "Make sure all protective clothing is removed at the completion of a work shift only in change rooms provided for that purpose under 1910.1025(i)(2).",
+          "clause": "1910.1025(g)(2)(iv)"
+        },
+        {
+          "text": "Place contaminated clothing that is to be cleaned, laundered or disposed of in a closed container in the change room that stops lead dispersing outside it.",
+          "clause": "1910.1025(g)(2)(v)"
+        },
+        {
+          "text": "Prohibit removing lead from clothing or equipment by blowing, shaking or any other method that puts lead into the air.",
+          "clause": "1910.1025(g)(2)(viii)"
+        }
+      ]
+    },
+    {
+      "heading": "What housekeeping and hygiene rules apply in lead work areas?",
+      "intro": "1910.1025 requires every surface to be kept as free as practicable of lead accumulations and, for employees whose airborne exposure is above the PEL, change rooms, showers and lunchrooms.",
+      "items": [
+        {
+          "text": "Do not clean floors or other surfaces where lead accumulates with compressed air.",
+          "clause": "1910.1025(h)(2)(i)"
+        },
+        {
+          "text": "Use shoveling, dry or wet sweeping and brushing only after vacuuming or other equally effective methods have been tried and found not effective.",
+          "clause": "1910.1025(h)(2)(ii)"
+        },
+        {
+          "text": "Use and empty vacuums in a way that minimises lead getting back into the workplace.",
+          "clause": "1910.1025(h)(3)"
+        },
+        {
+          "text": "In areas over the PEL (respirators disregarded), keep out food, drinks and tobacco products and do not allow cosmetics to be applied, except in the required change rooms, lunchrooms and showers.",
+          "clause": "1910.1025(i)(1)"
+        },
+        {
+          "text": "Give change rooms separate storage for protective clothing and equipment and for street clothes, arranged to prevent cross-contamination.",
+          "clause": "1910.1025(i)(2)(ii)"
+        },
+        {
+          "text": "Make sure employees whose airborne exposure is above the PEL shower at the end of the work shift.",
+          "clause": "1910.1025(i)(3)(i)"
+        },
+        {
+          "text": "Make sure employees required to shower do not leave the workplace in any clothing or equipment worn during the shift.",
+          "clause": "1910.1025(i)(3)(iii)"
+        },
+        {
+          "text": "Keep protective clothing and equipment out of lunchrooms unless surface lead dust has been removed by vacuuming, a downdraft booth or another cleaning method.",
+          "clause": "1910.1025(i)(4)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "Who needs medical surveillance, and when must a worker be removed from lead exposure?",
+      "intro": "Under 1910.1025, employers must run a medical surveillance program, at no cost to employees and by or under a licensed physician, for every employee whose exposure is or may be at least the action level for more than 30 days per year.",
+      "items": [
+        {
+          "text": "Offer blood sampling for lead and zinc protoporphyrin (ZPP) at least every 6 months to each covered employee.",
+          "clause": "1910.1025(j)(2)(i)(A)"
+        },
+        {
+          "text": "Offer blood sampling at least every two months to an employee whose last result was 40 µg/100 g or higher, until two consecutive results come in under 40.",
+          "clause": "1910.1025(j)(2)(i)(B)"
+        },
+        {
+          "text": "Provide a second (follow-up) blood sampling test within two weeks after receiving a first result at or above the medical removal criterion in 1910.1025(k)(1)(i)(A).",
+          "clause": "1910.1025(j)(2)(ii)"
+        },
+        {
+          "text": "Within five working days of receiving results, notify in writing each employee at 40 µg/100 g or higher of their level and that the standard requires temporary medical removal with Medical Removal Protection benefits once blood lead meets the removal criterion in 1910.1025(k)(1)(i).",
+          "clause": "1910.1025(j)(2)(iv)"
+        },
+        {
+          "text": "Offer a medical examination before an employee is first assigned to an area where airborne lead concentrations equal or exceed the action level.",
+          "clause": "1910.1025(j)(3)(i)(B)"
+        },
+        {
+          "text": "Remove an employee from work with lead exposure at the action level or above each time a periodic blood test and its follow-up test both show 60 µg/100 g or more.",
+          "clause": "1910.1025(k)(1)(i)(A)"
+        },
+        {
+          "text": "Also remove an employee from such work when the average of the last three blood tests (or of all tests over the previous six months, if that is longer) is 50 µg/100 g or more, unless the latest test is below 40 µg/100 g.",
+          "clause": "1910.1025(k)(1)(i)(B)"
+        },
+        {
+          "text": "Provide up to 18 months of medical removal protection benefits on each occasion an employee is removed from lead exposure or otherwise limited under the standard.",
+          "clause": "1910.1025(k)(2)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What training, signs and records does 1910.1025 require?",
+      "intro": "1910.1025 requires lead hazard information for employees wherever airborne lead exposure is possible, a formal training program, hazard communication and warning signs, and long-term exposure and medical records.",
+      "items": [
+        {
+          "text": "Inform employees of the content of Appendices A and B in any workplace with potential exposure to airborne lead at any level.",
+          "clause": "1910.1025(l)(1)(i)"
+        },
+        {
+          "text": "Train each employee exposed to lead at the action level or higher, or for whom skin or eye irritation is possible, and ensure they take part in the program.",
+          "clause": "1910.1025(l)(1)(ii)"
+        },
+        {
+          "text": "Repeat the training at least annually for each employee.",
+          "clause": "1910.1025(l)(1)(iv)"
+        },
+        {
+          "text": "Cover the standard and its appendices, the operations that could push exposure past the action level, respirator selection, fit, use and limits, the medical surveillance and medical removal protection programs with the health effects of lead (especially reproductive effects in males and females), job controls and work practices, any compliance plan in effect, and the instruction that chelating agents are not for routine use and only under a licensed physician's direction.",
+          "clause": "1910.1025(l)(1)(v)"
+        },
+        {
+          "text": "Include lead in the hazard communication program kept under 1910.1200, give each employee access to labels on lead containers and safety data sheets, and train them under the HCS and 1910.1025(l).",
+          "clause": "1910.1025(m)(1)(iii)"
+        },
+        {
+          "text": "Post the required DANGER lead warning signs wherever the PEL is exceeded in a work area.",
+          "clause": "1910.1025(m)(2)(i)"
+        },
+        {
+          "text": "Keep exposure monitoring records for at least 40 years or the duration of employment plus 20 years, whichever is longer.",
+          "clause": "1910.1025(n)(1)(iii)"
+        },
+        {
+          "text": "Keep medical records, or make sure the examining physician keeps them, for at least 40 years or the duration of employment plus 20 years, whichever is longer.",
+          "clause": "1910.1025(n)(2)(iv)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist turns the 1910.1025 duties for monitoring, controls, respirators, clothing, housekeeping, hygiene, medical surveillance, training and signs into on-site checks to run during walk-throughs of lead work areas and after any process change.",
+  "checklist": "us/1910-1025-lead",
+  "faq": [
+    {
+      "question": "Can earlier air sampling results be used instead of new monitoring?",
+      "answer": "Airborne lead measurements taken in the preceding 12 months can satisfy the monitoring for the initial determination (1910.1025(d)(3)(iii)) and the initial monitoring after a positive determination (1910.1025(d)(4)(ii)), but only if the sampling and analytical methods met 1910.1025(d)(9): an accuracy of plus or minus 20 percent at a 95% confidence level for airborne lead of 30 µg/m³ or higher."
+    },
+    {
+      "question": "Can an employee get a second medical opinion under the lead standard?",
+      "answer": "Where the employer picks the initial physician, the employee may designate a second physician to review the findings and run any tests that physician considers necessary (1910.1025(j)(3)(iii)(A)). The employer must promptly tell the employee of this right after each examination or consultation, and may make its participation and payment conditional on the employee, within 15 days of that notice or of receiving the initial physician's written opinion (whichever is later), saying they intend to seek a second opinion and starting to book an appointment (1910.1025(j)(3)(iii)(B)). If the two physicians cannot quickly resolve a disagreement, a third physician is designated, and the employer must act consistent with that physician's findings unless employer and employee agree on a course consistent with at least one of the three physicians (1910.1025(j)(3)(iii)(D) and 1910.1025(j)(3)(iii)(E))."
+    },
+    {
+      "question": "Is chelation allowed to lower a worker's blood lead?",
+      "answer": "1910.1025(j)(4)(i) bars anyone the employer retains, employs, supervises or controls from giving any employee prophylactic chelation at any time. Therapeutic or diagnostic chelation by such a person must be supervised by a licensed physician in a clinical setting with thorough and appropriate medical monitoring, and the employee must be notified in writing beforehand (1910.1025(j)(4)(ii))."
+    },
+    {
+      "question": "What if a removed employee's blood lead has not come down after 18 months?",
+      "answer": "For an employee removed for elevated blood lead who has not returned to their former job status within 18 months, the employer must make a medical examination available to obtain a final medical determination stating whether the employee may return and, if not, what steps will protect their health (1910.1025(k)(2)(vi)(A) and 1910.1025(k)(2)(vi)(B)). Until that determination is obtained, or while it says the employee cannot yet return, removal benefits continue until the employee returns to former job status or a final medical determination finds they can never safely return (1910.1025(k)(2)(vi)(C))."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.1025: Lead (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.1025"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "lead exposure",
+    "blood lead levels",
+    "lead medical surveillance"
+  ],
+  "cover": "1910-1025-lead",
+  "coverPrompt": "A worker in a metal foundry wearing a full-facepiece respirator with HEPA filters, disposable coveralls, gloves and shoe covers cleans dust from the concrete floor with an industrial vacuum beside a local exhaust ventilation hood. The face is hidden by the respirator and the scene contains no text, signs, numbers or logos.",
+  "coverAlt": "Foundry worker in a full-face respirator and coveralls vacuuming lead dust beside an exhaust ventilation hood",
+  "changes": []
+}

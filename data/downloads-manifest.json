@@ -10,6 +10,16 @@
       "pdf": "/downloads/fr/casque-de-chantier.pdf",
       "xlsx": "/downloads/fr/casque-de-chantier.xlsx"
     },
+    "us/1910-1025-lead": {
+      "hash": "87680fbf8663fca2edcbe570e7bcc7e3714f79cff79836ba0d8f8372325d39d8",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 5,
+      "items": 47,
+      "page_url": "https://safetyindex.blog/us/standards/1910-1025-lead",
+      "pdf": "/downloads/us/1910-1025-lead.pdf",
+      "xlsx": "/downloads/us/1910-1025-lead.xlsx"
+    },
     "us/1910-132-personal-protective-equipment": {
       "hash": "1145e0780eab8cb9f128b25e1d61157a987a0103f8200123b896323d492c98ed",
       "lang": "en",
