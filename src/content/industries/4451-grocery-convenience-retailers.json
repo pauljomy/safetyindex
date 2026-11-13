@@ -1,0 +1,247 @@
+{
+  "naics": "4451",
+  "naicsTitle": "Grocery and Convenience Retailers",
+  "title": "Most-cited OSHA standards for grocery and convenience retailers (NAICS 4451)",
+  "seoTitle": "Grocery store safety: top OSHA citations, NAICS 4451",
+  "description": "OSHA standards cited most at grocery and convenience retailers (NAICS 4451), FY2022–FY2026: electrical, hazard communication and industrial trucks.",
+  "opening": "From FY2022 to FY2026, the OSHA standard cited most often in grocery and convenience retailers (NAICS 4451) was 1910.303, the general section of Subpart S (Electrical), with 292 citations.",
+  "keyword": "grocery store safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 50,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 3511,
+    "citations": 2582,
+    "topStandards": [
+      {
+        "section": "1910.303",
+        "count": 292
+      },
+      {
+        "section": "1910.1200",
+        "count": 231
+      },
+      {
+        "section": "1910.178",
+        "count": 222
+      },
+      {
+        "section": "1910.305",
+        "count": 200
+      },
+      {
+        "section": "1910.157",
+        "count": 163
+      },
+      {
+        "section": "1910.37",
+        "count": 163
+      },
+      {
+        "section": "1910.212",
+        "count": 147
+      },
+      {
+        "section": "1910.22",
+        "count": 143
+      },
+      {
+        "section": "1910.132",
+        "count": 109
+      },
+      {
+        "section": "1910.147",
+        "count": 83
+      },
+      {
+        "section": "1910.36",
+        "count": 70
+      },
+      {
+        "section": "1910.28",
+        "count": 68
+      },
+      {
+        "section": "1910.151",
+        "count": 65
+      },
+      {
+        "section": "1910.23",
+        "count": 56
+      },
+      {
+        "section": "1904.39",
+        "count": 51
+      },
+      {
+        "section": "1910.1030",
+        "count": 42
+      },
+      {
+        "section": "1910.176",
+        "count": 37
+      },
+      {
+        "section": "1904.41",
+        "count": 36
+      },
+      {
+        "section": "1910.141",
+        "count": 28
+      },
+      {
+        "section": "1910.304",
+        "count": 24
+      },
+      {
+        "section": "1904.32",
+        "count": 23
+      },
+      {
+        "section": "1910.136",
+        "count": 23
+      },
+      {
+        "section": "1904.40",
+        "count": 22
+      },
+      {
+        "section": "1910.38",
+        "count": 22
+      },
+      {
+        "section": "1926.1101",
+        "count": 22
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.37(a)(3)",
+        "count": 92
+      },
+      {
+        "clause": "1910.157(c)(1)",
+        "count": 83
+      },
+      {
+        "clause": "1910.303(g)(1)",
+        "count": 79
+      },
+      {
+        "clause": "1910.212(a)(3)(ii)",
+        "count": 71
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 68
+      },
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 67
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 62
+      },
+      {
+        "clause": "1910.22(a)(3)",
+        "count": 56
+      },
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 54
+      },
+      {
+        "clause": "1910.178(l)(6)",
+        "count": 52
+      }
+    ],
+    "penalties": {
+      "n": 1466,
+      "median": 6010,
+      "p25": 2500,
+      "p75": 9708,
+      "total": 14941248
+    },
+    "typeShares": {
+      "serious": 0.491,
+      "willful": 0.003,
+      "repeat": 0.045,
+      "otherThanSerious": 0.46,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 40
+  },
+  "patternsSummary": "Electrical rules lead the list: 1910.303 heads it, and 1910.305 on wiring methods, components and equipment for general use was cited 200 times. Hazard communication (1910.1200, 231 citations) and powered industrial trucks (1910.178, 222) come next. Fire and exit safety follow, with 1910.157 portable fire extinguishers and 1910.37 exit route maintenance at 163 citations each, then machine guarding under 1910.212 (147) and walking-working surfaces under 1910.22 (143).",
+  "penaltiesSummary": "The median penalty in this industry was $6,010, and the middle half of penalties fell between $2,500 and $9,708. Of all citations, 49% were classified serious, 46% other-than-serious and 5% repeat, while willful citations rounded to 0%.",
+  "standardNotes": [
+    {
+      "section": "1910.303",
+      "note": "The general section of Subpart S, Electrical, in OSHA's general industry standards."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z, Toxic and Hazardous Substances."
+    },
+    {
+      "section": "1910.178",
+      "note": "Powered industrial trucks, in Subpart N, Materials Handling and Storage."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and equipment for general use, also in Subpart S, Electrical."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, in Subpart L, Fire Protection."
+    },
+    {
+      "section": "1910.37",
+      "note": "Maintenance, safeguards and operational features for exit routes, in Subpart E, Exit Routes and Emergency Planning."
+    },
+    {
+      "section": "1910.212",
+      "note": "General requirements for all machines, in Subpart O, Machinery and Machine Guarding."
+    },
+    {
+      "section": "1910.22",
+      "note": "General requirements for walking-working surfaces in Subpart D, the subpart that also holds the fall protection and ladder sections."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "grocery and convenience retailers",
+    "supermarkets and convenience stores"
+  ],
+  "cover": "4451-grocery-convenience-retailers",
+  "coverPrompt": "Realistic photograph of a supermarket aisle during the day: a store worker seen from behind, in a work apron and closed-toe shoes, restocking a shelf with canned goods from a flat stocking cart. The floor is clean and dry, the aisle is clear, and shelves are neatly stocked. Natural overhead store lighting, wide shot, no readable text, labels, prices, logos or close-up faces.",
+  "coverAlt": "Supermarket worker restocking shelves from a cart in a clear, dry grocery aisle",
+  "changes": []
+}
