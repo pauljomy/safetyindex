@@ -1,0 +1,247 @@
+{
+  "naics": "3399",
+  "naicsTitle": "Other Miscellaneous Manufacturing",
+  "title": "Most-cited OSHA standards for other miscellaneous manufacturing (NAICS 3399)",
+  "seoTitle": "Manufacturing safety, NAICS 3399: top OSHA citations",
+  "description": "OSHA standards cited most in other miscellaneous manufacturing (NAICS 3399), FY2022–FY2026: respirators, hazard communication, machine guards.",
+  "opening": "From FY2022 to FY2026, the OSHA standard cited most in other miscellaneous manufacturing (NAICS 3399) was 1910.134, respiratory protection, with 487 citations, just ahead of 1910.1200, hazard communication, with 481.",
+  "keyword": "manufacturing safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 130,
+  "kd": 4,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 1669,
+    "citations": 3211,
+    "topStandards": [
+      {
+        "section": "1910.134",
+        "count": 487
+      },
+      {
+        "section": "1910.1200",
+        "count": 481
+      },
+      {
+        "section": "1910.212",
+        "count": 228
+      },
+      {
+        "section": "1910.147",
+        "count": 207
+      },
+      {
+        "section": "1910.178",
+        "count": 156
+      },
+      {
+        "section": "1910.132",
+        "count": 91
+      },
+      {
+        "section": "1910.303",
+        "count": 91
+      },
+      {
+        "section": "1910.305",
+        "count": 91
+      },
+      {
+        "section": "1910.107",
+        "count": 84
+      },
+      {
+        "section": "1926.453",
+        "count": 82
+      },
+      {
+        "section": "1910.157",
+        "count": 65
+      },
+      {
+        "section": "1910.215",
+        "count": 54
+      },
+      {
+        "section": "1910.213",
+        "count": 49
+      },
+      {
+        "section": "1910.219",
+        "count": 45
+      },
+      {
+        "section": "1910.37",
+        "count": 44
+      },
+      {
+        "section": "1910.151",
+        "count": 40
+      },
+      {
+        "section": "1910.67",
+        "count": 36
+      },
+      {
+        "section": "1910.95",
+        "count": 36
+      },
+      {
+        "section": "1926.501",
+        "count": 36
+      },
+      {
+        "section": "1910.1052",
+        "count": 34
+      },
+      {
+        "section": "1910.22",
+        "count": 34
+      },
+      {
+        "section": "1910.133",
+        "count": 33
+      },
+      {
+        "section": "1910.242",
+        "count": 32
+      },
+      {
+        "section": "1910.217",
+        "count": 30
+      },
+      {
+        "section": "1910.1053",
+        "count": 29
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 152
+      },
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 135
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 124
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 87
+      },
+      {
+        "clause": "1926.453(b)(2)(v)",
+        "count": 74
+      },
+      {
+        "clause": "1910.134(c)(1)",
+        "count": 70
+      },
+      {
+        "clause": "1910.1200(g)(8)",
+        "count": 56
+      },
+      {
+        "clause": "1910.212(a)(3)(ii)",
+        "count": 54
+      },
+      {
+        "clause": "1910.147(c)(4)(i)",
+        "count": 50
+      },
+      {
+        "clause": "1910.134(f)(2)",
+        "count": 45
+      }
+    ],
+    "penalties": {
+      "n": 1868,
+      "median": 3687,
+      "p25": 1288,
+      "p75": 6452,
+      "total": 9451977
+    },
+    "typeShares": {
+      "serious": 0.69,
+      "willful": 0.001,
+      "repeat": 0.008,
+      "otherThanSerious": 0.301,
+      "unclassified": 0.001
+    },
+    "standardsCited5Plus": 63
+  },
+  "patternsSummary": "Two themes run through the most-cited standards in NAICS 3399: hazardous substances and machinery. On the substance side, 1910.134 respiratory protection (487 citations) and 1910.1200 hazard communication (481) lead the list, and 1910.107 spray finishing using flammable and combustible materials adds 84. On the machinery side, 1910.212 general requirements for all machines (228) and 1910.147 lockout/tagout (207) come next, with abrasive wheel machinery (1910.215), woodworking machinery (1910.213) and mechanical power-transmission apparatus (1910.219) further down. The Subpart S electrical standards 1910.303 and 1910.305 drew 91 citations each, and the construction aerial lifts standard 1926.453 drew 82.",
+  "penaltiesSummary": "The median penalty per citation in other miscellaneous manufacturing over FY2022–FY2026 was $3,687, and the middle half of penalties fell between $1,288 and $6,452. Of the 3,211 citations, 69% were classified serious, 30% other-than-serious and 1% repeat, and only 2 were willful.",
+  "standardNotes": [
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection for general industry workers, in Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication for hazardous chemicals, in Subpart Z (Toxic and Hazardous Substances)."
+    },
+    {
+      "section": "1910.212",
+      "note": "General requirements for all machines, the basic machine guarding rule in Subpart O (Machinery and Machine Guarding)."
+    },
+    {
+      "section": "1910.147",
+      "note": "Control of hazardous energy, known as lockout/tagout, in Subpart J (General Environmental Controls)."
+    },
+    {
+      "section": "1910.178",
+      "note": "Powered industrial trucks such as forklifts, in Subpart N (Materials Handling and Storage)."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment, in Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.303",
+      "note": "General electrical requirements in Subpart S (Electrical)."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and equipment for general use, in Subpart S (Electrical)."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "other miscellaneous manufacturing",
+    "miscellaneous manufacturing"
+  ],
+  "cover": "3399-other-miscellaneous-manufacturing",
+  "coverPrompt": "A realistic photograph of a small US manufacturing workshop that makes signs and sporting goods: wooden and metal workbenches, a bench grinder with its guards in place, an enclosed spray booth with its doors closed in the background, and a worker seen from behind wearing safety glasses and a half-face respirator while sanding a wooden panel. A forklift is parked with its forks lowered to the floor, aisles are clear and marked, and daylight comes in through high windows. No text, labels, logos or numbers, and no close-up faces.",
+  "coverAlt": "Small manufacturing workshop with a worker in a respirator and safety glasses, guarded machines and a spray booth",
+  "changes": []
+}
