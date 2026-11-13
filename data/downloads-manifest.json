@@ -50,6 +50,16 @@
       "pdf": "/downloads/us/1910-157-portable-fire-extinguishers.pdf",
       "xlsx": "/downloads/us/1910-157-portable-fire-extinguishers.xlsx"
     },
+    "us/1910-22-walking-working-surfaces": {
+      "hash": "295d8e872723a5dbc098ceaeaefc17b71147f3af1f117c6ac88c238c52096880",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 2,
+      "items": 18,
+      "page_url": "https://safetyindex.blog/us/standards/1910-22-walking-working-surfaces",
+      "pdf": "/downloads/us/1910-22-walking-working-surfaces.pdf",
+      "xlsx": "/downloads/us/1910-22-walking-working-surfaces.xlsx"
+    },
     "us/1910-23-ladders": {
       "hash": "8909c643c62b8270d6d4cd91b8abfdd403b957161fc637f5ed51500093f496a5",
       "lang": "en",

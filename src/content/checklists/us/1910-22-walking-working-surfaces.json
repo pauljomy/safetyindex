@@ -1,0 +1,151 @@
+{
+  "slug": "1910-22-walking-working-surfaces",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-22-walking-working-surfaces",
+  "doc_ref": "SI-US-1910-22",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Housekeeping Inspection Checklist (OSHA 29 CFR 1910.22)",
+  "subtitle": "Use on routine walk-throughs of work areas, passageways and storerooms, and after spills, leaks, snow or surface damage.",
+  "regulation_line": "OSHA 29 CFR 1910.22",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For any Defect, correct or repair it before anyone uses the surface again. If that cannot happen immediately, guard the area to keep people off it, then note the action taken.",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Housekeeping and floors",
+      "items": [
+        [
+          "Work areas",
+          "Work areas are clean, orderly and sanitary, with no accumulated waste or scattered materials.",
+          "1910.22(a)(1)"
+        ],
+        [
+          "Passageways",
+          "Passageways are clean and orderly, with nothing stored or left in the walking path.",
+          "1910.22(a)(1)"
+        ],
+        [
+          "Storerooms and service rooms",
+          "Storerooms and service rooms are tidy and sanitary, with floors clear of debris.",
+          "1910.22(a)(1)"
+        ],
+        [
+          "Workroom floors",
+          "Floors are clean and, where feasible, dry.",
+          "1910.22(a)(2)"
+        ],
+        [
+          "Wet-process drainage",
+          "Drains in wet-process areas are working, and process water flows away instead of pooling.",
+          "1910.22(a)(2)"
+        ],
+        [
+          "Dry standing places",
+          "At wet-process stations, false floors, platforms or mats are in place where feasible, so workers stand on a dry surface.",
+          "1910.22(a)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Surface hazards",
+      "items": [
+        [
+          "Sharp or protruding objects",
+          "No nails, bolts, metal edges or other objects stick out of or above the walking surface.",
+          "1910.22(a)(3)"
+        ],
+        [
+          "Loose boards",
+          "Boards, planks and panels are secure and do not shift underfoot.",
+          "1910.22(a)(3)"
+        ],
+        [
+          "Corrosion",
+          "Gratings, plates and other metal walking surfaces show no corrosion.",
+          "1910.22(a)(3)"
+        ],
+        [
+          "Leaks and spills",
+          "No pipes, equipment or containers leak onto walking surfaces, and any spills have been cleaned up.",
+          "1910.22(a)(3)"
+        ],
+        [
+          "Snow and ice",
+          "Walking-working surfaces are clear of snow and ice.",
+          "1910.22(a)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Loads and access",
+      "items": [
+        [
+          "Maximum intended load",
+          "The surface can support the maximum intended load, with no sagging, cracking or other sign of overloading.",
+          "1910.22(b)"
+        ],
+        [
+          "Means of access and egress",
+          "Each surface has a safe way on and off, and that route is clear.",
+          "1910.22(c)"
+        ],
+        [
+          "Access route in use",
+          "Employees use the provided access route and do not climb racks, equipment or stored materials.",
+          "1910.22(c)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Inspection and repair",
+      "items": [
+        [
+          "Surface inspection",
+          "Surfaces are inspected regularly and whenever conditions call for it, and they are in a safe condition.",
+          "1910.22(d)(1)"
+        ],
+        [
+          "Hazards corrected before use",
+          "Every hazardous condition found has been corrected or repaired before employees use that surface again.",
+          "1910.22(d)(2)"
+        ],
+        [
+          "Unrepaired hazards guarded",
+          "Where a repair could not be made immediately, the hazard is guarded so employees cannot use the surface.",
+          "1910.22(d)(2)"
+        ],
+        [
+          "Structural repairs",
+          "Any repair that affects structural integrity is done or supervised by a qualified person.",
+          "1910.22(d)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.22: General requirements (Part 1910 Subpart D, Walking-Working Surfaces)",
+    "Source: eCFR, Title 29, text current as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

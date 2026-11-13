@@ -1,0 +1,336 @@
+{
+  "section": "1910.22",
+  "part": "1910",
+  "heading": "General requirements.",
+  "subpart": "D",
+  "subpartTitle": "Walking-Working Surfaces",
+  "title": "Housekeeping checklist and OSHA requirements (29 CFR 1910.22)",
+  "seoTitle": "Housekeeping Checklist: OSHA 1910.22 Requirements",
+  "description": "OSHA 1910.22 housekeeping and walking-working surface requirements, FY2022–FY2026 citation data, and a printable housekeeping inspection checklist.",
+  "opening": "OSHA's 29 CFR 1910.22 requires employers to keep workplaces and walking-working surfaces clean, orderly, sanitary and free of hazards, make sure each surface can hold its maximum intended load, provide safe access and egress, and inspect surfaces and fix hazards before reuse.",
+  "keyword": "housekeeping checklist",
+  "cluster": [
+    {
+      "keyword": "osha walking working surfaces requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "walking working surfaces checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "walking working surfaces inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha housekeeping requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "housekeeping checklist",
+      "volume": 390,
+      "kd": 9,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "housekeeping inspection",
+      "volume": 170,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha walking-working surfaces requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "walking-working surfaces checklist",
+      "volume": 10,
+      "kd": 47,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "walking-working surfaces inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.22",
+      "volume": 140,
+      "kd": 18,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 740,
+  "kd": 9,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 6157,
+    "inspections": 5449,
+    "byFy": {
+      "2022": 1145,
+      "2023": 1311,
+      "2024": 1320,
+      "2025": 1225,
+      "2026": 1156
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(1)",
+        "count": 2232
+      },
+      {
+        "paragraph": "(a)(3)",
+        "count": 1536
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 791
+      },
+      {
+        "paragraph": "(d)(1)",
+        "count": 662
+      },
+      {
+        "paragraph": "(c)",
+        "count": 385
+      },
+      {
+        "paragraph": "(d)(2)",
+        "count": 323
+      },
+      {
+        "paragraph": "(b)",
+        "count": 203
+      },
+      {
+        "paragraph": "(d)(3)",
+        "count": 12
+      },
+      {
+        "paragraph": "(d)",
+        "count": 7
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 4
+      }
+    ],
+    "penalties": {
+      "n": 3972,
+      "median": 4900,
+      "p25": 2350,
+      "p75": 8270,
+      "total": 30374055
+    },
+    "typeShares": {
+      "serious": 0.633,
+      "willful": 0.003,
+      "repeat": 0.03,
+      "otherThanSerious": 0.335,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3895,
+      "willful": 17,
+      "repeat": 183,
+      "otherThanSerious": 2061,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "9221",
+        "count": 279,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "2373",
+        "count": 219,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "7225",
+        "count": 212,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "3219",
+        "count": 193,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "9211",
+        "count": 185,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "8111",
+        "count": 175,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "2213",
+        "count": 171,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "6111",
+        "count": 162,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "4451",
+        "count": 143,
+        "title": "Grocery and Convenience Retailers"
+      },
+      {
+        "naics": "4931",
+        "count": 135,
+        "title": "Warehousing and Storage"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1910.22(a)(1), with 2,232 citations. It covers keeping places of employment, passageways, storerooms, service rooms and walking-working surfaces clean and sanitary. Next come (a)(3), on hazards such as spills, loose boards, snow and ice (1,536), and (a)(2), on workroom floors that are clean and, where feasible, dry (791). Yearly citations rose from 1,145 in FY2022 to 1,320 in FY2024, then fell to 1,225 in FY2025 and 1,156 in FY2026.",
+  "requirementsIntro": "Section 1910.22 puts its duties on the employer. It applies to walking-working surfaces, and paragraph (a)(1) also covers places of employment, passageways, storerooms and service rooms. The section has four paragraphs: (a) surface conditions, (b) loads, (c) access and egress, and (d) inspection, maintenance and repair.",
+  "requirements": [
+    {
+      "heading": "What housekeeping does OSHA 1910.22 require?",
+      "intro": "OSHA 1910.22(a)(1) and (a)(2) require the employer to keep work areas orderly and sanitary, and to keep workroom floors clean and, to the extent feasible, dry.",
+      "items": [
+        {
+          "text": "Keep all places of employment, passageways, storerooms, service rooms and walking-working surfaces clean, orderly and sanitary.",
+          "clause": "1910.22(a)(1)"
+        },
+        {
+          "text": "Keep the floor of every workroom clean and, as far as feasible, dry.",
+          "clause": "1910.22(a)(2)"
+        },
+        {
+          "text": "Where wet processes are used, maintain drainage.",
+          "clause": "1910.22(a)(2)"
+        },
+        {
+          "text": "Where wet processes are used, provide dry standing places such as false floors, platforms or mats, to the extent feasible.",
+          "clause": "1910.22(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "Which hazards must be kept off walking-working surfaces?",
+      "intro": "Under 1910.22(a)(3), walking-working surfaces must be kept free of hazards. The paragraph gives sharp or protruding objects, loose boards, corrosion, leaks, spills, snow and ice as examples.",
+      "items": [
+        {
+          "text": "Keep surfaces free of sharp or protruding objects and loose boards.",
+          "clause": "1910.22(a)(3)"
+        },
+        {
+          "text": "Keep surfaces free of corrosion, leaks and spills.",
+          "clause": "1910.22(a)(3)"
+        },
+        {
+          "text": "Keep surfaces clear of snow and ice.",
+          "clause": "1910.22(a)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What load and access duties does 1910.22 set?",
+      "intro": "Paragraphs 1910.22(b) and (c) require every walking-working surface to support its maximum intended load. The employer must also provide safe access and egress and make sure employees use it.",
+      "items": [
+        {
+          "text": "Ensure each walking-working surface can support the maximum intended load for that surface.",
+          "clause": "1910.22(b)"
+        },
+        {
+          "text": "Provide a safe means of access to and egress from walking-working surfaces.",
+          "clause": "1910.22(c)"
+        },
+        {
+          "text": "Ensure each employee uses that route on and off the surface.",
+          "clause": "1910.22(c)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must walking-working surfaces be inspected and repaired?",
+      "intro": "Paragraph 1910.22(d) gives no fixed interval. It requires walking-working surfaces to be inspected regularly and as necessary, kept in a safe condition, and hazards to be corrected, repaired or guarded before the surface is used again.",
+      "items": [
+        {
+          "text": "Inspect walking-working surfaces regularly and as necessary, and maintain them in a safe condition.",
+          "clause": "1910.22(d)(1)"
+        },
+        {
+          "text": "Correct or repair hazardous conditions before an employee uses the surface again.",
+          "clause": "1910.22(d)(2)"
+        },
+        {
+          "text": "If the correction or repair cannot be made immediately, guard the hazard so employees cannot use the surface until it is corrected or repaired.",
+          "clause": "1910.22(d)(2)"
+        },
+        {
+          "text": "Have a qualified person perform or supervise any correction or repair that involves the structural integrity of the surface.",
+          "clause": "1910.22(d)(3)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the housekeeping, surface hazard, load, access, inspection and repair duties in 1910.22. Use it on a walk-through of each area and whenever a spill, leak, snowfall or damaged surface is reported.",
+  "checklist": "us/1910-22-walking-working-surfaces",
+  "faq": [],
+  "sources": [
+    {
+      "title": "29 CFR 1910.22: General requirements (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.22"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "walking-working surfaces",
+    "workplace housekeeping"
+  ],
+  "cover": "1910-22-walking-working-surfaces",
+  "coverPrompt": "A worker in safety boots and a high-visibility vest sweeps debris from a clean, dry concrete warehouse aisle with a push broom, with neatly stacked pallets on racking either side, photographed from a distance.",
+  "coverAlt": "Worker sweeping a clean, dry warehouse aisle beside neatly stacked pallet racking",
+  "changes": []
+}
