@@ -1,0 +1,473 @@
+{
+  "section": "1926.1412",
+  "part": "1926",
+  "heading": "Inspections.",
+  "subpart": "CC",
+  "subpartTitle": "Cranes and Derricks in Construction",
+  "title": "OSHA crane inspection requirements (29 CFR 1926.1412)",
+  "seoTitle": "OSHA Crane Inspection Requirements: 29 CFR 1926.1412",
+  "description": "OSHA crane inspection requirements under 29 CFR 1926.1412: shift, monthly, annual and post-repair inspections, citation data and a printable checklist.",
+  "opening": "29 CFR 1926.1412 requires cranes and derricks in construction to be inspected each shift, each month in service and at least every 12 months, plus after safety-related modifications or repairs, assembly, severe service or 3 or more months idle.",
+  "keyword": "osha crane inspection requirements",
+  "cluster": [
+    {
+      "keyword": "osha crane inspection requirements",
+      "volume": 320,
+      "kd": 14,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane inspection checklist",
+      "volume": 320,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane inspection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha inspections requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "inspections checklist",
+      "volume": 1000,
+      "kd": 11,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "inspections inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1412",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 1640,
+  "kd": 14,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 281,
+    "inspections": 182,
+    "byFy": {
+      "2022": 47,
+      "2023": 53,
+      "2024": 74,
+      "2025": 62,
+      "2026": 45
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(f)(1)",
+        "count": 93
+      },
+      {
+        "paragraph": "(d)(1)",
+        "count": 45
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 40
+      },
+      {
+        "paragraph": "(f)(7)",
+        "count": 24
+      },
+      {
+        "paragraph": "(e)(3)(i)",
+        "count": 22
+      },
+      {
+        "paragraph": "(e)(3)",
+        "count": 9
+      },
+      {
+        "paragraph": "(f)(2)",
+        "count": 7
+      },
+      {
+        "paragraph": "(d)(2)",
+        "count": 5
+      },
+      {
+        "paragraph": "(d)(1)(xii)",
+        "count": 4
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 3
+      }
+    ],
+    "penalties": {
+      "n": 152,
+      "median": 3176,
+      "p25": 1350,
+      "p75": 7846,
+      "total": 773328
+    },
+    "typeShares": {
+      "serious": 0.623,
+      "willful": 0.021,
+      "repeat": 0.028,
+      "otherThanSerious": 0.327,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 175,
+      "willful": 6,
+      "repeat": 8,
+      "otherThanSerious": 92,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 91,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 72,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 26,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2373",
+        "count": 22,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 17,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2371",
+        "count": 9,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 7,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "3339",
+        "count": 7,
+        "title": "Other General Purpose Machinery Manufacturing"
+      },
+      {
+        "naics": "5324",
+        "count": 5,
+        "title": "Commercial and Industrial Machinery and Equipment Rental and Leasing"
+      },
+      {
+        "naics": "3364",
+        "count": 4,
+        "title": "Aerospace Product and Parts Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.1412(f)(1), the annual/comprehensive inspection, drew 93 of the 281 citations, ahead of the shift inspection in (d)(1) with 45 and the monthly inspection in (e)(1) with 40. The documentation duties for the annual inspection ((f)(7), 24) and the monthly inspection ((e)(3)(i), 22) come next. Citations rose from 47 in FY2022 to 53 in FY2023 and 74 in FY2024, then fell to 62 in FY2025 and 45 in FY2026.",
+  "requirementsIntro": "Section 1926.1412 sits in Part 1926 Subpart CC (Cranes and Derricks in Construction) and sets the inspection duties for the equipment that subpart covers. It is organised by trigger: modification (a), repair or adjustment (b), assembly (c), each shift (d), monthly (e), annual/comprehensive (f), severe service (g) and idle equipment (h), followed by manufacturer procedures (j) and access to records (k).",
+  "requirements": [
+    {
+      "heading": "What must the crane shift inspection include?",
+      "intro": "The shift inspection in 1926.1412(d) is a visual check for apparent deficiencies by a competent person, covering at least the items listed in (d)(1)(i) through (xiv).",
+      "items": [
+        {
+          "text": "A competent person must begin the visual inspection before each shift the equipment will be used and complete it before or during that shift.",
+          "clause": "1926.1412(d)(1)"
+        },
+        {
+          "text": "Hooks and latches are checked for deformation, cracks, excessive wear, or damage such as from chemicals or heat.",
+          "clause": "1926.1412(d)(1)(v)"
+        },
+        {
+          "text": "Ground conditions around the equipment are checked for proper support, including settling under and around outriggers/stabilizers and supporting foundations and ground water accumulation; this item does not apply to railroad tracks in the general railroad system regulated by the Federal Railroad Administration under 49 CFR part 213.",
+          "clause": "1926.1412(d)(1)(x)"
+        },
+        {
+          "text": "The equipment is checked for level within the manufacturer's tolerances, both before each shift and after each move and setup.",
+          "clause": "1926.1412(d)(1)(xi)"
+        },
+        {
+          "text": "Safety devices and operational aids are checked for proper operation.",
+          "clause": "1926.1412(d)(1)(xiv)"
+        },
+        {
+          "text": "When a deficiency is found in items (d)(1)(i) through (xiii), or in extra items other sections of the standard require for specific equipment types, the competent person decides immediately whether it is a safety hazard.",
+          "clause": "1926.1412(d)(2)"
+        },
+        {
+          "text": "Equipment with a deficiency judged to be a safety hazard is taken out of service until the deficiency has been corrected.",
+          "clause": "1926.1412(d)(2)"
+        },
+        {
+          "text": "A deficiency in safety devices or operational aids calls for the action in 1926.1415 and 1926.1416 before the equipment is used.",
+          "clause": "1926.1412(d)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What does the monthly crane inspection require?",
+      "intro": "Under 1926.1412(e), equipment must be inspected to the shift-inspection requirements of paragraph (d) each month it is in service, and the inspecting employer keeps a written record for at least three months.",
+      "items": [
+        {
+          "text": "Each month the equipment is in service, it is inspected as paragraph (d) requires for each shift.",
+          "clause": "1926.1412(e)(1)"
+        },
+        {
+          "text": "The equipment must not be used until the monthly inspection shows that no corrective action under (d)(2) or (d)(3) is required.",
+          "clause": "1926.1412(e)(2)"
+        },
+        {
+          "text": "The employer that conducts the monthly inspection documents and maintains a record of what was checked and the results.",
+          "clause": "1926.1412(e)(3)(i)(A)"
+        },
+        {
+          "text": "The monthly record includes the inspector's name and signature and the date.",
+          "clause": "1926.1412(e)(3)(i)(B)"
+        },
+        {
+          "text": "The monthly record is retained for a minimum of three months.",
+          "clause": "1926.1412(e)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What does the annual/comprehensive crane inspection cover?",
+      "intro": "At least every 12 months, a qualified person must inspect the equipment both against the shift items in paragraph (d) and against the detailed list in (f)(2), and the inspection must include functional testing.",
+      "items": [
+        {
+          "text": "A qualified person inspects the equipment to the paragraph (d) shift items at intervals of no more than 12 months, applying the corrective action in (f)(4) to (f)(6) instead of (d)(2) and (d)(3).",
+          "clause": "1926.1412(f)(1)"
+        },
+        {
+          "text": "A qualified person also inspects the equipment for every item listed in (f)(2), with disassembly as necessary to complete the inspection.",
+          "clause": "1926.1412(f)(2)"
+        },
+        {
+          "text": "Structural members, including the boom and any jib, are checked for deformation, cracks or significant corrosion.",
+          "clause": "1926.1412(f)(2)(i)(A)"
+        },
+        {
+          "text": "Relief valves are checked for failure to reach correct pressure, and any manufacturer procedure for checking pressure is followed.",
+          "clause": "1926.1412(f)(2)(xii)(D)"
+        },
+        {
+          "text": "Warning labels and decals originally supplied with the equipment by the manufacturer, or otherwise required under the standard, are checked for being missing or unreadable.",
+          "clause": "1926.1412(f)(2)(xvii)"
+        },
+        {
+          "text": "Functional testing confirms that the equipment, as configured in the inspection, is functioning properly.",
+          "clause": "1926.1412(f)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "How are annual inspection deficiencies handled and recorded?",
+      "intro": "At the annual/comprehensive inspection, the qualified person decides immediately whether a deficiency found is a safety hazard or, though not yet a hazard, needs monitoring in the monthly inspections, and the inspecting employer keeps a signed record for at least 12 months.",
+      "items": [
+        {
+          "text": "For any deficiency found, the qualified person immediately determines whether it is a safety hazard or, though not yet a safety hazard, needs to be monitored in the monthly inspections.",
+          "clause": "1926.1412(f)(4)"
+        },
+        {
+          "text": "A deficiency judged a safety hazard takes the equipment out of service until corrected, except when temporary alternative measures are implemented as specified in 1926.1416(d) or 1926.1435(e).",
+          "clause": "1926.1412(f)(5)"
+        },
+        {
+          "text": "Where the qualified person determines a deficiency needs monitoring, the employer must ensure it is checked in the monthly inspections.",
+          "clause": "1926.1412(f)(6)"
+        },
+        {
+          "text": "The annual record lists the items checked and the results of the inspection.",
+          "clause": "1926.1412(f)(7)(i)"
+        },
+        {
+          "text": "The annual record gives the name and signature of the person who conducted the inspection and the date.",
+          "clause": "1926.1412(f)(7)(ii)"
+        },
+        {
+          "text": "The employer that performed the annual inspection documents, maintains and retains the record for a minimum of 12 months.",
+          "clause": "1926.1412(f)(7)"
+        },
+        {
+          "text": "Every document produced under 1926.1412 is available, during its retention period, to all persons who conduct inspections under the section.",
+          "clause": "1926.1412(k)"
+        }
+      ]
+    },
+    {
+      "heading": "When must modified crane equipment be inspected?",
+      "intro": "Equipment with modifications or additions that affect safe operation or capacity needs a qualified person's inspection once the work is complete and before initial use, under 1926.1412(a).",
+      "items": [
+        {
+          "text": "Examples in the rule include modifications or additions involving a safety device or operational aid, a critical part of a control system, the power plant, braking system, load-sustaining structural components, load hook or in-use operating mechanism.",
+          "clause": "1926.1412(a)(1)"
+        },
+        {
+          "text": "The inspection confirms the work was done in accordance with the approval obtained under 1926.1434 (Equipment modifications).",
+          "clause": "1926.1412(a)(1)(i)"
+        },
+        {
+          "text": "The inspection includes functional testing of the equipment.",
+          "clause": "1926.1412(a)(1)(ii)"
+        },
+        {
+          "text": "No use is allowed until the inspection demonstrates that the approval requirement in (a)(1)(i) has been met.",
+          "clause": "1926.1412(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What inspection is required after a crane repair or adjustment?",
+      "intro": "After a repair or adjustment that relates to safe operation, 1926.1412(b) requires a qualified person to inspect the equipment once the work is completed and before its initial use.",
+      "items": [
+        {
+          "text": "The qualified person determines whether the repair or adjustment meets manufacturer equipment criteria, where those are applicable and available.",
+          "clause": "1926.1412(b)(1)(i)"
+        },
+        {
+          "text": "Where manufacturer criteria are unavailable or inapplicable, the qualified person must determine whether a registered professional engineer (RPE) is needed; the employer ensures criteria are developed by the RPE if one is needed, or otherwise by the qualified person.",
+          "clause": "1926.1412(b)(1)(ii)(A)"
+        },
+        {
+          "text": "The qualified person then determines whether the repair or adjustment meets those developed criteria.",
+          "clause": "1926.1412(b)(1)(ii)(B)"
+        },
+        {
+          "text": "The inspection includes functional testing of the repaired or adjusted parts and of other components the work may affect.",
+          "clause": "1926.1412(b)(1)(iii)"
+        },
+        {
+          "text": "The equipment stays out of use until the inspection demonstrates the repair or adjustment meets the manufacturer criteria or, where applicable, the developed criteria.",
+          "clause": "1926.1412(b)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What inspection is required after crane assembly?",
+      "intro": "On completion of assembly, 1926.1412(c) requires a qualified person to inspect the equipment to assure it is configured in accordance with manufacturer equipment criteria.",
+      "items": [
+        {
+          "text": "The post-assembly inspection checks the equipment's configuration against the manufacturer's equipment criteria.",
+          "clause": "1926.1412(c)(1)"
+        },
+        {
+          "text": "Where manufacturer criteria are unavailable, it is up to the qualified person to determine if an RPE familiar with the type of equipment is needed; the employer ensures configuration criteria are developed by that RPE if needed, or otherwise by the qualified person.",
+          "clause": "1926.1412(c)(2)(i)"
+        },
+        {
+          "text": "Next, the qualified person checks whether the equipment meets the developed criteria.",
+          "clause": "1926.1412(c)(2)(ii)"
+        },
+        {
+          "text": "Use is prohibited until the inspection demonstrates the equipment is configured in accordance with the applicable criteria.",
+          "clause": "1926.1412(c)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "When do severe service, idle time or manufacturer procedures add crane inspections?",
+      "intro": "Paragraphs (g) and (h) of 1926.1412 add inspections after severe service and after idle periods of 3 months or more, and paragraph (j) makes stricter manufacturer inspection procedures mandatory.",
+      "items": [
+        {
+          "text": "Where the severity of use or conditions makes damage or excessive wear reasonably probable, such as loading or shock loading that may have exceeded rated capacity or prolonged exposure to a corrosive atmosphere, the employer must stop using the equipment.",
+          "clause": "1926.1412(g)"
+        },
+        {
+          "text": "After severe service, a qualified person inspects the equipment for structural damage to determine whether it can continue to be used safely.",
+          "clause": "1926.1412(g)(1)"
+        },
+        {
+          "text": "In light of the use or conditions, the qualified person identifies which items listed in paragraph (f) need inspecting, and inspects them.",
+          "clause": "1926.1412(g)(2)"
+        },
+        {
+          "text": "Any deficiency found after severe service is handled under (f)(4) through (f)(6).",
+          "clause": "1926.1412(g)(3)"
+        },
+        {
+          "text": "Before equipment idle for 3 months or more is first used again, it must get a qualified person's inspection to the monthly requirements in paragraph (e).",
+          "clause": "1926.1412(h)"
+        },
+        {
+          "text": "Any part of the manufacturer's inspection procedures relating to safe operation that is more comprehensive, or on a more frequent schedule, than 1926.1412 must be followed.",
+          "clause": "1926.1412(j)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the paragraph (d) items checked at the shift, monthly and annual inspections, every additional annual/comprehensive item listed in 1926.1412(f)(2), the annual functional test and record retention, so use it each time one of those inspections is due.",
+  "checklist": "us/1926-1412-inspections",
+  "faq": [
+    {
+      "question": "Does the crane shift inspection require taking components apart or booming down?",
+      "answer": "No. Under 1926.1412(d)(1), disassembly and booming down are needed only when the visual inspection or trial operation shows that further investigation requiring them is needed."
+    },
+    {
+      "question": "Do shift inspection findings still stand once the crane is working?",
+      "answer": "Not automatically. 1926.1412(d)(1) requires the determinations made during the shift inspection to be reassessed in light of what is observed while the equipment operates."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1412: Inspections (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1412"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "crane inspections",
+    "crane and derrick inspections",
+    "annual crane inspection"
+  ],
+  "cover": "1926-1412-inspections",
+  "coverPrompt": "A crane inspector in a hard hat, high-visibility vest and gloves examines the hook block and wire rope of a mobile crane on a construction site, with the outriggers fully extended on pads and the crane set up level. Daylight, photographed from a medium distance with the inspector's face turned away from the camera.",
+  "coverAlt": "Inspector checking the hook block and wire rope of a mobile crane on a construction site",
+  "changes": []
+}

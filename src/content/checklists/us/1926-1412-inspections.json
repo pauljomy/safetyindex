@@ -1,0 +1,277 @@
+{
+  "slug": "1926-1412-inspections",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1412-inspections",
+  "doc_ref": "SI-US-1926-1412",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Crane Inspection Checklist (29 CFR 1926.1412)",
+  "subtitle": "For the shift, monthly and annual/comprehensive inspections of cranes and derricks under 29 CFR 1926.1412.",
+  "regulation_line": "OSHA 29 CFR 1926.1412",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; sections A and B apply at the shift, monthly and annual inspections, sections C to E at the annual/comprehensive inspection. For monthly and annual/comprehensive inspections, record the items checked, the results, the inspector's name and signature and the date (1926.1412(e)(3)(i), 1926.1412(f)(7)).",
+    "If a shift or monthly item fails, the competent person decides immediately whether it is a safety hazard; if so, the equipment is taken out of service until corrected (1926.1412(d)(2)), and a safety device or operational aid defect needs the action in 1926.1415 and 1926.1416 before use (1926.1412(d)(3)). Deficiencies found at the annual/comprehensive inspection are handled by the qualified person under 1926.1412(f)(4) to (f)(6).",
+    "The manufacturer's inspection procedures (1926.1412(j)) and site rules may add checks or require them more often."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Controls, lines, hooks and rope (each shift, monthly and annual)",
+      "items": [
+        [
+          "Control mechanisms",
+          "No maladjustment interfering with proper operation",
+          "1926.1412(d)(1)(i)"
+        ],
+        [
+          "Control and drive mechanisms",
+          "No apparent excessive wear of components; no contamination by lubricants, water or other foreign matter",
+          "1926.1412(d)(1)(ii)"
+        ],
+        [
+          "Air, hydraulic and other pressurized lines",
+          "No deterioration or leakage, including on lines that flex in normal operation",
+          "1926.1412(d)(1)(iii)"
+        ],
+        [
+          "Hydraulic fluid level",
+          "Hydraulic system fluid at the proper level",
+          "1926.1412(d)(1)(iv)"
+        ],
+        [
+          "Hooks and latches",
+          "No deformation, cracks, excessive wear, or damage from chemicals or heat",
+          "1926.1412(d)(1)(v)"
+        ],
+        [
+          "Wire rope reeving",
+          "Reeving complies with the manufacturer's specifications",
+          "1926.1412(d)(1)(vi)"
+        ],
+        [
+          "Wire rope",
+          "Rope inspected in accordance with 1926.1413(a)",
+          "1926.1412(d)(1)(vii)"
+        ],
+        [
+          "Electrical apparatus",
+          "No malfunction, no apparent excessive deterioration, no dirt or moisture accumulation",
+          "1926.1412(d)(1)(viii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Setup, cab and safety devices (each shift, monthly and annual)",
+      "items": [
+        [
+          "Tires (when in use)",
+          "Properly inflated and in proper condition",
+          "1926.1412(d)(1)(ix)"
+        ],
+        [
+          "Ground conditions",
+          "Ground gives proper support; no settling under or around outriggers/stabilizers or foundations; no ground water accumulation (excludes general railroad system track regulated under 49 CFR part 213)",
+          "1926.1412(d)(1)(x)"
+        ],
+        [
+          "Level",
+          "Equipment level within the manufacturer's tolerances before the shift and after each move and setup",
+          "1926.1412(d)(1)(xi)"
+        ],
+        [
+          "Operator cab windows",
+          "No significant cracks, breaks or other deficiencies that would hamper the operator's view",
+          "1926.1412(d)(1)(xii)"
+        ],
+        [
+          "Rails, rail stops, rail clamps and supporting surfaces (rail-travelling equipment)",
+          "Checked with no deficiency found (not required for Federal Railroad Administration-regulated track that is part of the general railroad system)",
+          "1926.1412(d)(1)(xiii)"
+        ],
+        [
+          "Safety devices and operational aids",
+          "All operate properly",
+          "1926.1412(d)(1)(xiv)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Annual/comprehensive: structure, mechanical parts and power plant",
+      "items": [
+        [
+          "Structural members, boom and jib",
+          "Not deformed, cracked or significantly corroded",
+          "1926.1412(f)(2)(i)(A)"
+        ],
+        [
+          "Bolts, rivets and other fasteners",
+          "None loose, failed or significantly corroded",
+          "1926.1412(f)(2)(i)(B)"
+        ],
+        [
+          "Welds",
+          "No cracks",
+          "1926.1412(f)(2)(i)(C)"
+        ],
+        [
+          "Sheaves and drums",
+          "No cracks or significant wear",
+          "1926.1412(f)(2)(ii)"
+        ],
+        [
+          "Pins, bearings, shafts, gears, rollers and locking devices",
+          "No distortion, cracks or significant wear",
+          "1926.1412(f)(2)(iii)"
+        ],
+        [
+          "Brake and clutch parts, linings, pawls and ratchets",
+          "No excessive wear",
+          "1926.1412(f)(2)(iv)"
+        ],
+        [
+          "Safety device and operational aid accuracy",
+          "Operate properly with no significant inaccuracies",
+          "1926.1412(f)(2)(v)"
+        ],
+        [
+          "Power plant",
+          "No safety-related problems such as leaking exhaust; emergency shut-down feature works; operates properly",
+          "1926.1412(f)(2)(vi)"
+        ],
+        [
+          "Chains and chain drive sprockets",
+          "No excessive sprocket wear or excessive chain stretch",
+          "1926.1412(f)(2)(vii)"
+        ],
+        [
+          "Travel steering, brakes and locking devices",
+          "All operate properly",
+          "1926.1412(f)(2)(viii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Annual/comprehensive: tires, hydraulics, pads, electrics, labels and seat",
+      "items": [
+        [
+          "Tires",
+          "No damage or excessive wear",
+          "1926.1412(f)(2)(ix)"
+        ],
+        [
+          "Hydraulic, pneumatic and other pressurized hoses, fittings and tubing",
+          "No leak indications on flexible hose or at its junction with fittings; no leaks at threaded or clamped joints; hose outer covering free of blistering, abnormal deformation or other signs of failure; no excessive abrasion or scrubbing on hoses, rigid tubes or fittings",
+          "1926.1412(f)(2)(x)"
+        ],
+        [
+          "Hydraulic and pneumatic pumps and motors",
+          "No unusual noise or vibration, low operating speed, excessive fluid heating or low pressure; no loose bolts or fasteners; no leaks at shaft seals or joints between pump sections",
+          "1926.1412(f)(2)(xi)"
+        ],
+        [
+          "Hydraulic and pneumatic valves",
+          "Spools free of sticking and leaks and return properly to neutral; no leaks; no valve housing cracks; relief valves reach correct pressure, using the manufacturer's pressure-check procedure where one exists",
+          "1926.1412(f)(2)(xii)"
+        ],
+        [
+          "Hydraulic and pneumatic cylinders",
+          "No drifting from fluid leaking across the piston; no leaks at rod seals or welded joints; rods free of scores, nicks or dents; no significant dents in the case (barrel); rod eyes and connecting joints not loose or deformed",
+          "1926.1412(f)(2)(xiii)"
+        ],
+        [
+          "Outrigger or stabilizer pads/floats",
+          "No excessive wear or cracks",
+          "1926.1412(f)(2)(xiv)"
+        ],
+        [
+          "Slider pads",
+          "No excessive wear or cracks",
+          "1926.1412(f)(2)(xv)"
+        ],
+        [
+          "Electrical components and wiring",
+          "No cracked or split insulation; no loose or corroded terminations",
+          "1926.1412(f)(2)(xvi)"
+        ],
+        [
+          "Warning labels and decals",
+          "All labels and decals originally supplied with the equipment by the manufacturer, or otherwise required under the standard, present and readable",
+          "1926.1412(f)(2)(xvii)"
+        ],
+        [
+          "Originally equipped operator seat",
+          "Originally equipped operator seat (or equivalent) present",
+          "1926.1412(f)(2)(xviii)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Seat, access, functional test and records",
+      "items": [
+        [
+          "Operator seat condition",
+          "Seat serviceable",
+          "1926.1412(f)(2)(xix)"
+        ],
+        [
+          "Originally equipped steps, ladders, handrails and guards",
+          "None missing",
+          "1926.1412(f)(2)(xx)"
+        ],
+        [
+          "Steps, ladders, handrails and guards condition",
+          "In usable, safe condition",
+          "1926.1412(f)(2)(xxi)"
+        ],
+        [
+          "Annual functional test",
+          "Equipment, as configured in the inspection, tested and functioning properly",
+          "1926.1412(f)(3)"
+        ],
+        [
+          "Monitored deficiencies",
+          "Each deficiency the qualified person determined needs monitoring is checked in the monthly inspections",
+          "1926.1412(f)(6)"
+        ],
+        [
+          "Annual record retention",
+          "Record on file, kept at least 12 months by the employer that conducted the inspection",
+          "1926.1412(f)(7)"
+        ],
+        [
+          "Monthly record retention",
+          "Record kept at least three months",
+          "1926.1412(e)(3)(ii)"
+        ],
+        [
+          "Access to records",
+          "Inspection documents within their retention period available to everyone who conducts inspections under 1926.1412",
+          "1926.1412(k)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1412: Inspections (Part 1926 Subpart CC, Cranes and Derricks in Construction)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

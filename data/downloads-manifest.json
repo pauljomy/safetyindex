@@ -160,6 +160,16 @@
       "pdf": "/downloads/us/1926-1101-asbestos.pdf",
       "xlsx": "/downloads/us/1926-1101-asbestos.xlsx"
     },
+    "us/1926-1412-inspections": {
+      "hash": "4b625e47c45f7027d6b37547976d0e55b20f2fa0cb265446c6576a07bdd04d0d",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 42,
+      "page_url": "https://safetyindex.blog/us/standards/1926-1412-inspections",
+      "pdf": "/downloads/us/1926-1412-inspections.pdf",
+      "xlsx": "/downloads/us/1926-1412-inspections.xlsx"
+    },
     "us/1926-352-fire-prevention": {
       "hash": "c46e896eeb65dc80923c28c154580b884183bfbcc423337d52a5408b40f24d41",
       "lang": "en",
