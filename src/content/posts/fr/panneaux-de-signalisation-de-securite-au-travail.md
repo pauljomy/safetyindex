@@ -1,4 +1,7 @@
 ---
+cover: panneaux-de-signalisation-de-securite-au-travail
+coverPrompt: "Close view of a clean warehouse wall beside a loading door with four mounted safety signs made only of pictograms: two round blue mandatory signs (a white helmet, a white safety boot) and two yellow triangular warning signs (a black forklift silhouette, a black walking person). The signs carry absolutely no words, letters or numbers. Unbranded plain grey pallet truck in soft focus, no logos anywhere, no people"
+coverAlt: "Mur d'entrepôt avec panneaux d'obligation bleus et panneaux d'avertissement jaunes à pictogrammes"
 topicType: regional
 keywordSource: topic sheet
 title: "Panneaux de signalisation de sécurité au travail : ce que dit la réglementation en France"
@@ -6,8 +9,6 @@ seoTitle: "Panneaux de signalisation de sécurité au travail : règles"
 subtitle: Les familles de panneaux de l'arrêté du 4 novembre 1993, ce que le Code du travail impose pour les secours, et ce qu'il faut vérifier chez vous.
 description: "Panneaux de signalisation de sécurité au travail : catégories de l'arrêté du 4 novembre 1993, signalisation des secours, limites et points à vérifier."
 date: 2026-11-09
-coverImage: ../images/safety-signals-signs-symbols-colours.webp
-coverAlt: Couloir d'atelier avec extincteur mural, armoire de secours et issue de secours, un salarié qui passe
 categories:
   - toolbox-talks-safety-meetings
 tags:

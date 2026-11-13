@@ -1,4 +1,7 @@
 ---
+cover: psa-arbeitsschutz
+coverPrompt: "Personal protective equipment neatly laid out on a wooden workbench in a workshop: safety helmet, safety goggles, ear defenders, cut-resistant gloves, safety shoes and a FFP2 respirator, soft daylight, no people"
+coverAlt: "Persönliche Schutzausrüstung auf einer Werkbank: Schutzhelm, Schutzbrille, Gehörschutz, Handschuhe, Sicherheitsschuhe und Atemschutzmaske"
 topicType: regional
 keywordSource: topic sheet
 title: "PSA Arbeitsschutz: Persönliche Schutzausrüstung – Arten, Kategorien und wer zahlt"
@@ -6,8 +9,6 @@ seoTitle: "PSA Arbeitsschutz: Persönliche Schutzausrüstung erklärt"
 subtitle: Was PSA bedeutet, was die PSA-Benutzungsverordnung verlangt, welche Arten und Kategorien es gibt und welche Pflichten Arbeitgeber und Beschäftigte in Deutschland haben.
 description: PSA im Arbeitsschutz heißt persönliche Schutzausrüstung. Definition nach PSA-BV, Arten, Kategorien I–III, Gehörschutz ab 80/85 dB(A) und wer zahlt.
 date: 2026-11-06
-coverImage: ../images/what-does-ppe-stand-for.webp
-coverAlt: Bauarbeiter mit Schutzhelm, Schutzbrille, Gehörschutz, Warnweste, Handschuhen und Sicherheitsschuhen
 categories:
   - ppe
 tags:

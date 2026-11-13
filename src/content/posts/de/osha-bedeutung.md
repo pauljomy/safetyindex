@@ -1,4 +1,7 @@
 ---
+cover: osha-bedeutung
+coverPrompt: "A German workplace safety officer in a high-visibility vest and hard hat walks through a bright modern machine workshop with a clipboard, checking a guarded machine, workers in safety boots and gloves in the background"
+coverAlt: "Fachkraft für Arbeitssicherheit mit Klemmbrett prüft in einer Werkstatt eine Maschine mit Schutzeinrichtung"
 topicType: country-only
 keywordSource: topic sheet
 noindex: true
@@ -7,8 +10,6 @@ seoTitle: "OSHA Bedeutung: Was bedeutet OSHA im Arbeitsschutz?"
 subtitle: "OSHA übersetzt, die US-Behörde eingeordnet und erklärt, wer in Deutschland für Arbeitsschutz zuständig ist: Berufsgenossenschaften, Unfallkassen und Länderbehörden."
 description: "OSHA Bedeutung: Die Abkürzung steht für Occupational Safety and Health Administration, die US-Arbeitsschutzbehörde. Was in Deutschland gilt."
 date: 2026-11-12
-coverImage: ../images/what-does-osha-stand-for.webp
-coverAlt: Sicherheitsverantwortlicher und zwei Beschäftigte mit Schutzausrüstung besprechen eine Checkliste auf einer Baustelle
 categories:
   - osha-compliance
 tags:

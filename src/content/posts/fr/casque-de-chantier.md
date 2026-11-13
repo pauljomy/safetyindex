@@ -1,4 +1,7 @@
 ---
+cover: casque-de-chantier
+coverPrompt: "Two construction workers on a concrete building site in France putting on white and yellow safety helmets with chin straps beside a tower crane base, overcast daylight, rebar and formwork around them"
+coverAlt: "Deux ouvriers casqués en gilet haute visibilité près de la base d'une grue à tour sur un chantier"
 title: "Casque de chantier : quelle norme et quelles obligations ?"
 seoTitle: "Casque de chantier : norme, port et obligations"
 subtitle: Normes citées par l'INRS, obligations de l'employeur, intérimaires, casque isolant, durée de vie et contrôle avant usage, d'après le Code du travail.
@@ -8,9 +11,6 @@ updated: 2026-11-12
 generatedOn: 2026-11-12
 releaseDate: 2026-11-12
 dataAsOf: 2026-11-12
-cover: hard-hat-types-and-classes
-coverPrompt: A construction site where workers wear safety helmets with their chin straps fastened, one worker inspecting the inside harness of a helmet before putting it on, with scaffolding and a concrete structure in the background.
-coverAlt: Ouvriers casqués sur un chantier, l'un vérifiant le harnais intérieur de son casque avant de le porter
 categories:
   - ppe
 tags:

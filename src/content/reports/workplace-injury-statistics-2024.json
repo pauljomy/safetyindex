@@ -9,9 +9,9 @@
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-02-19",
   "checkPass": "passed",
-  "cover": "data-report",
-  "coverPrompt": "A quiet workplace safety office: a desk with printed reports in folders, a hard hat, safety glasses and a high-visibility vest, a window with soft daylight, no people, no screens, no text",
-  "coverAlt": "Safety office desk with report folders, a hard hat, safety glasses and a high-visibility vest",
+  "cover": "workplace-injury-statistics-2024",
+  "coverPrompt": "A workplace first aid station on a factory wall: a green first aid cabinet, an eyewash station and a stretcher mounted beside it, clean concrete floor, soft daylight, no people, no text",
+  "coverAlt": "First aid station on a factory wall with a first aid cabinet, an eyewash station and a mounted stretcher",
   "linkPhrases": [
     "workplace injury statistics"
   ],

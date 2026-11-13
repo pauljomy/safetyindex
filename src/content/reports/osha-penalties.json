@@ -9,9 +9,9 @@
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-11-12",
   "checkPass": "passed",
-  "cover": "data-report",
-  "coverPrompt": "A tidy workplace safety office with binders, a hard hat and safety glasses on a desk beside a window, soft daylight, no screens, no text, no people",
-  "coverAlt": "Safety office desk with binders, a hard hat and safety glasses",
+  "cover": "osha-penalties",
+  "coverPrompt": "An empty workplace inspection meeting room in an industrial building: a table with closed folders, a hard hat and a pair of safety glasses, a window overlooking a factory yard, no people, no screens, no text",
+  "coverAlt": "Factory meeting room table with closed folders, a hard hat and safety glasses, factory yard through the window",
   "linkPhrases": [
     "OSHA penalties",
     "maximum OSHA penalties"

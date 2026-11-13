@@ -62,6 +62,7 @@ export function runSiteChecks({ pages, dist, site }) {
   const content = loadContent();
   const byPath = new Map(content.map((c) => [c.path, c]));
   const built = new Map(pages.map((p) => [p.path, p]));
+  const coverUsers = new Map(); // cover file → pages showing it (every page has its own photo)
   const report = (path, msg) => {
     const c = byPath.get(path);
     if (c?.legacy) { warnings.push(`${path}: ${msg}`); (rewrite.get(path) ?? rewrite.set(path, []).get(path)).push(msg); }
@@ -101,7 +102,9 @@ export function runSiteChecks({ pages, dist, site }) {
       if (/^https?:\/\//.test(src) && !src.startsWith(site)) errors.push(`${path}: image from outside the repo (${src})`);
       if (!/\balt(?:=|[\s>])/.test(tag)) { errors.push(`${path}: image without an alt attribute (${src})`); continue; }
       const before = html.slice(Math.max(0, m.index - 300), m.index);
-      if (/<figure\b(?![\s\S]*<\/figure>)/.test(before) && /\balt(?:=""|[\s>])/.test(tag)) errors.push(`${path}: cover image without alt text (${src})`);
+      const isCover = /<figure\b(?![\s\S]*<\/figure>)/.test(before);
+      if (isCover && /\balt(?:=""|[\s>])/.test(tag)) errors.push(`${path}: cover image without alt text (${src})`);
+      if (isCover) { const file = src.replace(/^.*\//, "").split(".")[0]; coverUsers.set(file, [...(coverUsers.get(file) ?? []), path]); }
     }
     // JSON-LD headline/name matches the page.
     const h1Text = strip(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? "").trim();
@@ -241,6 +244,9 @@ export function runSiteChecks({ pages, dist, site }) {
       if (canon !== loc) errors.push(`${f.slice(dist.length)}: lists ${path}, whose canonical points elsewhere`);
     }
   }
+
+  // --- images: no two pages share a cover photo.
+  for (const [file, users] of coverUsers) if (users.length > 1) errors.push(`${users.join(", ")}: share one cover image (${file}); every page needs its own`);
 
   // --- images: cover files carry the IPTC AI label.
   for (const dir of ["src/assets/covers", "src/content/posts/images"]) {

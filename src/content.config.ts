@@ -36,7 +36,7 @@ const pageMeta = {
   changes: z.array(change).default([]),
   /** Phrases that, when another page mentions them, link here (generated in-body links). */
   linkPhrases: z.array(z.string()).default([]),
-  /** Shared cover image subject: src/assets/covers/<cover>.webp (pages on the same subject share one file). */
+  /** Cover image subject: src/assets/covers/<cover>.webp. Unique per page (the build fails if two pages share a photo). */
   cover: z.string().optional(),
   /** Scene for the cover image, made later by `npm run covers` (no text, logos or close-up faces). */
   coverPrompt: z.string().optional(),
@@ -68,7 +68,7 @@ const posts = defineCollection({
     sources: sources.min(3),
     /** English slugs of related guides; the site maps them to the page's language. */
     relatedPosts: z.array(z.string()).default([]),
-    /** Featured image (AI-generated photograph); translations reuse the English file. */
+    /** Featured image (AI-generated photograph); used only by the four original English guides. */
     coverImage: image().optional(),
     /** Checklist id (<market>/<slug>) when the guide has a downloadable checklist. */
     checklist: z.string().optional(),

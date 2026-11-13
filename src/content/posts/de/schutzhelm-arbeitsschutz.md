@@ -1,4 +1,7 @@
 ---
+cover: schutzhelm-arbeitsschutz
+coverPrompt: "Close view of a white industrial safety helmet with a fastened chin strap held in a worker's gloved hands, the inner harness visible, a timber-frame construction site softly blurred behind"
+coverAlt: "Beschäftigter hält einen weißen Schutzhelm mit Kinnriemen und sichtbarer Innenausstattung auf einer Baustelle"
 topicType: regional
 keywordSource: topic sheet
 title: "Schutzhelm Arbeitsschutz: Industrieschutzhelm nach DIN EN 397, Typ 1 und Typ 2"
@@ -6,8 +9,6 @@ seoTitle: "Schutzhelm Arbeitsschutz: DIN EN 397, Typ 1 und Typ 2"
 subtitle: Wann Kopfschutz Pflicht ist, was Typ 1 und Typ 2 der neuen DIN EN 397 bedeuten und worauf Sie bei Elektroarbeiten, Gebrauchsdauer und Kennzeichnung achten.
 description: "Schutzhelm Arbeitsschutz in Deutschland: Pflicht nach Gefährdungsbeurteilung, DIN EN 397 Typ 1 und Typ 2, EN 50365, Gebrauchsdauer und Anstoßkappe."
 date: 2026-11-10
-coverImage: ../images/hard-hat-types-and-classes.webp
-coverAlt: Bauarbeiter mit Schutzhelm und Kinnriemen auf einer Baustelle mit Stahlbau und Gerüst
 categories:
   - ppe
 tags:

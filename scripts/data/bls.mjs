@@ -412,9 +412,9 @@ async function build() {
   const file = `src/content/reports/${slug}.json`;
   const page = {
     kind: "injury-statistics", title, seoTitle, description, summary, year, date: today, generatedOn: today,
-    dataAsOf: [soiiRelease, cfoiRelease].filter(Boolean).sort().at(-1), checkPass: "passed", cover: "data-report",
-    coverPrompt: "A quiet workplace safety office: a desk with printed reports in folders, a hard hat, safety glasses and a high-visibility vest, a window with soft daylight, no people, no screens, no text",
-    coverAlt: "Safety office desk with report folders, a hard hat, safety glasses and a high-visibility vest",
+    dataAsOf: [soiiRelease, cfoiRelease].filter(Boolean).sort().at(-1), checkPass: "passed", cover: slug,
+    coverPrompt: "A workplace first aid station on a factory wall: a green first aid cabinet, an eyewash station and a stretcher mounted beside it, clean concrete floor, soft daylight, no people, no text",
+    coverAlt: "First aid station on a factory wall with a first aid cabinet, an eyewash station and a mounted stretcher",
     linkPhrases: ["workplace injury statistics"], changes: [], sources, method,
     data: {
       dataYear, sampleSize,

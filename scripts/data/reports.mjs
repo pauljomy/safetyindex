@@ -48,9 +48,9 @@ async function penalties() {
     kind: "penalties", title: `OSHA penalties ${year}: current maximum fines per violation`, seoTitle: `OSHA penalties ${year}: maximum fines per violation`,
     description: `OSHA's current maximum penalties for ${year}: serious, other-than-serious, failure to abate, willful and repeated violations, from OSHA's own figures.`.slice(0, 155),
     summary: `OSHA's maximum penalty is ${usd(serious)} per serious or other-than-serious violation and ${usd(willful)} per willful or repeated violation, for penalties assessed after ${eff ?? "the latest annual adjustment"}.`,
-    year: Number(year), date: today, generatedOn: today, dataAsOf: today, checkPass: "passed", cover: "data-report",
-    coverPrompt: "A tidy workplace safety office with binders, a hard hat and safety glasses on a desk beside a window, soft daylight, no screens, no text, no people",
-    coverAlt: "Safety office desk with binders, a hard hat and safety glasses", linkPhrases: ["OSHA penalties", "maximum OSHA penalties"], changes: [],
+    year: Number(year), date: today, generatedOn: today, dataAsOf: today, checkPass: "passed", cover: "osha-penalties",
+    coverPrompt: "An empty workplace inspection meeting room in an industrial building: a table with closed folders, a hard hat and a pair of safety glasses, a window overlooking a factory yard, no people, no screens, no text",
+    coverAlt: "Factory meeting room table with closed folders, a hard hat and safety glasses, factory yard through the window", linkPhrases: ["OSHA penalties", "maximum OSHA penalties"], changes: [],
     data: { sections }, method: "Maximum amounts copied from OSHA's penalties page on the date shown; enforcement figures from the U.S. Department of Labor OSHA violation dataset.",
     sources: [{ title: "OSHA penalties", url: config.osha_penalties.source_url }, ...(enf ? [{ title: "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)", url: "https://dataportal.dol.gov/" }] : [])],
   });

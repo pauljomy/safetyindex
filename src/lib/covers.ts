@@ -1,8 +1,8 @@
-// Shared cover images by subject (src/assets/covers/<subject>.webp), made by scripts/lib/cover.mjs.
+// Cover images by subject (one per page) (src/assets/covers/<subject>.webp), made by scripts/lib/cover.mjs.
 import type { ImageMetadata } from "astro";
 import { getImage } from "astro:assets";
 
-// Shared subject images, plus the original guides' photos (French and German versions reuse the English one).
+// Generated subject images, plus the four original English guides' photos.
 const files = { ...import.meta.glob<{ default: ImageMetadata }>("../content/posts/images/*.webp", { eager: true }), ...import.meta.glob<{ default: ImageMetadata }>("../assets/covers/*.webp", { eager: true }) };
 const bySubject = new Map(Object.entries(files).map(([k, v]) => [k.replace(/^.*\/|\.webp$/g, ""), v.default]));
 

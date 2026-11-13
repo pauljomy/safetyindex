@@ -1,4 +1,7 @@
 ---
+cover: osha-c-est-quoi
+coverPrompt: "A safety inspector in a hard hat and high-visibility vest talking with a site manager beside a scaffold on a residential construction site, both looking at a folder, daylight"
+coverAlt: "Contrôleur de sécurité casqué en gilet haute visibilité échangeant avec un chef de chantier près d'un échafaudage"
 topicType: country-only
 keywordSource: topic sheet
 title: OSHA c'est quoi ? Signification, rôle et équivalent en France
@@ -6,8 +9,6 @@ seoTitle: OSHA c'est quoi ? Signification et équivalent en France
 subtitle: "Sens de l'acronyme, rôle de l'agence américaine et correspondances en France : qui contrôle, qui conseille, et ce que l'employeur doit faire."
 description: "OSHA c'est quoi ? Agence américaine de santé et sécurité au travail, et ce qui joue ce rôle en France : inspection du travail, INRS, Carsat."
 date: 2026-11-12
-coverImage: ../images/what-does-osha-stand-for.webp
-coverAlt: Encadrant et deux ouvriers équipés d'EPI contrôlant une liste de vérification sur un chantier
 categories:
   - osha-compliance
 tags:

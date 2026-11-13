@@ -1,4 +1,7 @@
 ---
+cover: que-veut-dire-epi
+coverPrompt: "A worker in a workshop putting on protective gloves, already wearing safety goggles, ear defenders and a high-visibility vest, a metal lathe and tool racks behind, warm daylight"
+coverAlt: "Ouvrier en atelier enfilant ses gants de protection, portant déjà lunettes de sécurité, casque antibruit et gilet"
 topicType: regional
 keywordSource: topic sheet
 title: Que veut dire EPI ? Définition, exemples et règles des EPI en France
@@ -6,8 +9,6 @@ seoTitle: Que veut dire EPI ? Définition, exemples et règles
 subtitle: Le sens du sigle EPI, sa définition légale, des exemples concrets, la différence avec les EPC, qui paie, la formation et les vérifications, d'après l'INRS.
 description: "Que veut dire EPI ? Équipement de protection individuelle : définition du Code du travail, exemples, qui paie et ce que doit faire l'employeur."
 date: 2026-11-06
-coverImage: ../images/what-does-ppe-stand-for.webp
-coverAlt: Ouvrier de chantier portant casque, lunettes de sécurité, casque antibruit, gilet haute visibilité, gants et bottes
 categories:
   - ppe
 tags:

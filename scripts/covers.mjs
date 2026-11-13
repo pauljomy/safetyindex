@@ -1,6 +1,6 @@
 // Cover images for pages that have none yet (brief section 9): released pages and the next wave,
-// capped at max_images_per_run (the rest follow next run). One image per subject (`cover` field),
-// shared by every page on that subject and by the French and German versions. Runs in the weekly
+// capped at max_images_per_run (the rest follow next run). One image per subject (`cover` field);
+// every page has its own subject, French and German versions included (the build checks this). Runs in the weekly
 // GitHub Action (GOOGLE_CLOUD_API_KEY is a secret there) or locally when the key is in .env.
 //   npm run covers [-- --dry-run]
 import { existsSync, readFileSync, readdirSync, appendFileSync, mkdirSync } from "node:fs";

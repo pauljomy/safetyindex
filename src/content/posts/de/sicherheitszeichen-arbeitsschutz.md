@@ -1,4 +1,7 @@
 ---
+cover: sicherheitszeichen-arbeitsschutz
+coverPrompt: "A clean factory corridor with a green emergency exit sign above a door, a red fire extinguisher on the wall and yellow-and-black floor marking tape along a forklift lane, signs show only pictograms, no readable text, no people"
+coverAlt: "Fabrikgang mit grünem Rettungszeichen über der Tür, rotem Feuerlöscher und gelb-schwarzer Bodenmarkierung"
 topicType: regional
 keywordSource: topic sheet
 noindex: true
@@ -7,8 +10,6 @@ seoTitle: "Sicherheitszeichen Arbeitsschutz: Regeln und Bedeutung"
 subtitle: Wo Sie die deutschen Vorgaben zur Sicherheitskennzeichnung finden, was das US-System (OSHA) anders regelt und wie Sie eine Unterweisung aufbauen.
 description: "Sicherheitszeichen Arbeitsschutz: Wo die deutschen Regeln stehen, was US-OSHA anders macht und wie Sie eine Unterweisung zur Kennzeichnung aufbauen."
 date: 2026-11-09
-coverImage: ../images/safety-signals-signs-symbols-colours.webp
-coverAlt: Beschäftigter mit Helm und Warnweste geht in einer Lagerhalle an einem Gefahrenschild an der Wand vorbei
 categories:
   - toolbox-talks-safety-meetings
 tags:

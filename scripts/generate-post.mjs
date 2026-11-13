@@ -146,7 +146,8 @@ export async function writeGuide(topic, market, { log = console.log, replace } =
   const englishSlugs = new Set(existing.filter((x) => x.market === "us").map((x) => x.slug));
   const data = {
     title: p.title, seoTitle: p.seoTitle, subtitle: p.subtitle, description: p.description, date: oldData?.date ?? date, ...(oldData && { updated: date, releaseDate: date, changes: [...(oldData.changes ?? []), { date, kind: "rewrite", share: 1, note: "rewritten from local sources" }] }), generatedOn: date, dataAsOf: date,
-    cover: enPost?.slug ?? finalSlug, coverPrompt: p.coverPrompt, coverAlt: p.coverAlt,
+    // Every page gets its own photo: market versions and translations never reuse the English one.
+    cover: oldData?.cover && oldData.cover !== enPost?.slug ? oldData.cover : market === "us" ? finalSlug : `${market}-${finalSlug}`, coverPrompt: p.coverPrompt, coverAlt: p.coverAlt,
     categories: [category.slug], tags: p.tags, keyword, ...(market !== "us" && enPost && { translationOf: enPost.slug }),
     topicType: topic.topicType || "regional", keywordSource: kw.source, clusterVolume: kw.clusterVolume, kd: kw.kd, goNoGo: gate.text, checkPass: "passed",
     ...(p.localRule?.trim() && { localRule: p.localRule.trim() }), ...(checklistId && { checklist: checklistId }),
