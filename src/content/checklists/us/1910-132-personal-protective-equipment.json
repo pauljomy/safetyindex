@@ -1,0 +1,196 @@
+{
+  "slug": "1910-132-personal-protective-equipment",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-132-personal-protective-equipment",
+  "doc_ref": "SI-US-1910-132",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "PPE Inspection Checklist (OSHA 29 CFR 1910.132)",
+  "subtitle": "For supervisors checking PPE paperwork, condition, fit, training and payment on site.",
+  "regulation_line": "OSHA 29 CFR 1910.132",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Where an item is marked Defect, do not use defective or damaged PPE (1910.132(e)) and correct the item.",
+    "Each item cites the 1910.132 paragraph it checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Hazard assessment and certification",
+      "items": [
+        [
+          "Workplace hazard assessment",
+          "The employer has assessed this workplace to determine whether hazards needing PPE are present or likely to be present.",
+          "1910.132(d)(1)"
+        ],
+        [
+          "Workplace named on certification",
+          "The written certification identifies the workplace that was evaluated.",
+          "1910.132(d)(2)"
+        ],
+        [
+          "Certifying person named",
+          "The certification names the person who certifies the evaluation was performed.",
+          "1910.132(d)(2)"
+        ],
+        [
+          "Assessment date recorded",
+          "The date or dates the assessment was carried out appear on the certification.",
+          "1910.132(d)(2)"
+        ],
+        [
+          "Document labelled as certification",
+          "The document states that it is a certification of hazard assessment.",
+          "1910.132(d)(2)"
+        ],
+        [
+          "PPE selected for identified hazards",
+          "The PPE types selected protect against the hazards the assessment identified.",
+          "1910.132(d)(1)(i)"
+        ],
+        [
+          "Selection communicated",
+          "Workers asked on site can say which PPE was selected for their task.",
+          "1910.132(d)(1)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "PPE use and condition",
+      "items": [
+        [
+          "PPE worn as selected",
+          "Every worker on a task covered by the assessment is wearing the selected PPE types.",
+          "1910.132(d)(1)(i)"
+        ],
+        [
+          "Fit",
+          "Each worker's PPE fits that worker properly.",
+          "1910.132(d)(1)(iii)"
+        ],
+        [
+          "Sanitary and reliable",
+          "Protective equipment is kept in a sanitary and reliable condition.",
+          "1910.132(a)"
+        ],
+        [
+          "Shields and barriers",
+          "Protective shields and barriers needed for the hazard are in place and intact.",
+          "1910.132(a)"
+        ],
+        [
+          "No damaged PPE in use",
+          "No item in use is cracked, torn, holed, missing parts or otherwise damaged; damaged items are taken out of service.",
+          "1910.132(e)"
+        ],
+        [
+          "Suitable design",
+          "PPE in use is of safe design and construction for the job being done.",
+          "1910.132(c)"
+        ],
+        [
+          "Employee-owned PPE",
+          "Any PPE workers supply themselves has been confirmed adequate, maintained and sanitary.",
+          "1910.132(b)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Training and retraining",
+      "items": [
+        [
+          "Training given",
+          "Each worker required to use PPE has been trained.",
+          "1910.132(f)(1)"
+        ],
+        [
+          "When PPE is needed",
+          "Workers can say when PPE is required for their tasks.",
+          "1910.132(f)(1)(i)"
+        ],
+        [
+          "Which PPE is needed",
+          "Workers can name the PPE required for their tasks.",
+          "1910.132(f)(1)(ii)"
+        ],
+        [
+          "Donning, doffing and adjusting",
+          "Workers put on, adjust, wear and take off their PPE correctly when observed.",
+          "1910.132(f)(1)(iii)"
+        ],
+        [
+          "Limitations",
+          "Workers can describe the limitations of their PPE.",
+          "1910.132(f)(1)(iv)"
+        ],
+        [
+          "Care and disposal",
+          "Workers know how to care for and maintain their PPE, its useful life and how to dispose of it.",
+          "1910.132(f)(1)(v)"
+        ],
+        [
+          "Demonstrated before work",
+          "Each worker has demonstrated understanding of the training and the ability to use PPE properly before starting work that requires PPE.",
+          "1910.132(f)(2)"
+        ],
+        [
+          "Retraining after changes",
+          "Workers whose previous training was made obsolete by workplace changes or by changes in PPE types have been retrained.",
+          "1910.132(f)(3)"
+        ],
+        [
+          "Retraining after observed gaps",
+          "Workers seen misusing assigned PPE or lacking knowledge of it have been retrained.",
+          "1910.132(f)(3)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "PPE payment",
+      "items": [
+        [
+          "PPE at no cost",
+          "Workers have not been charged for required PPE outside the listed exceptions.",
+          "1910.132(h)(1)"
+        ],
+        [
+          "Replacements",
+          "Replacement PPE is provided at no cost unless the worker lost it or damaged it on purpose.",
+          "1910.132(h)(5)"
+        ],
+        [
+          "Workers not made to buy PPE",
+          "No worker is required to provide or pay for their own PPE beyond the excepted items.",
+          "1910.132(h)(6)"
+        ],
+        [
+          "Safety-toe and prescription eyewear",
+          "Where workers pay for non-specialty safety-toe footwear or non-specialty prescription safety eyewear, they may wear it off the job site.",
+          "1910.132(h)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.132: General requirements (Part 1910 Subpart I, Personal Protective Equipment)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

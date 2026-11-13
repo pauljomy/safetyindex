@@ -1,0 +1,436 @@
+{
+  "section": "1910.132",
+  "part": "1910",
+  "heading": "General requirements.",
+  "subpart": "I",
+  "subpartTitle": "Personal Protective Equipment",
+  "title": "PPE inspection checklist and OSHA requirements (29 CFR 1910.132)",
+  "seoTitle": "PPE Inspection Checklist & OSHA 1910.132 Requirements",
+  "description": "OSHA 29 CFR 1910.132 PPE requirements in plain language, citation data for FY2022–FY2026, and a printable PPE inspection checklist for site supervisors.",
+  "opening": "29 CFR 1910.132 requires employers to assess the workplace for hazards that need personal protective equipment, certify that assessment in writing, select fitting PPE, train employees who must use it, pay for it with listed exceptions, and remove defective or damaged equipment from use.",
+  "keyword": "ppe inspection",
+  "cluster": [
+    {
+      "keyword": "osha ppe requirements",
+      "volume": 480,
+      "kd": 22,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ppe checklist",
+      "volume": 90,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ppe inspection",
+      "volume": 140,
+      "kd": 8,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha ppe hazard assessment requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ppe hazard assessment checklist",
+      "volume": 20,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ppe hazard assessment inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha personal protective equipment requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal protective equipment checklist",
+      "volume": 90,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal protective equipment inspection",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.132",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 830,
+  "kd": 8,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 9891,
+    "inspections": 8357,
+    "byFy": {
+      "2022": 1657,
+      "2023": 2076,
+      "2024": 1995,
+      "2025": 2138,
+      "2026": 2025
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(d)(2)",
+        "count": 4382
+      },
+      {
+        "paragraph": "(d)(1)",
+        "count": 2595
+      },
+      {
+        "paragraph": "(a)",
+        "count": 1195
+      },
+      {
+        "paragraph": "(f)(1)",
+        "count": 748
+      },
+      {
+        "paragraph": "(d)(1)(i)",
+        "count": 522
+      },
+      {
+        "paragraph": "(e)",
+        "count": 88
+      },
+      {
+        "paragraph": "(h)(1)",
+        "count": 70
+      },
+      {
+        "paragraph": "(d)(1)(iii)",
+        "count": 38
+      },
+      {
+        "paragraph": "(f)(3)(iii)",
+        "count": 30
+      },
+      {
+        "paragraph": "(f)(2)",
+        "count": 24
+      }
+    ],
+    "penalties": {
+      "n": 4454,
+      "median": 4144,
+      "p25": 1172,
+      "p75": 8036,
+      "total": 25330976
+    },
+    "typeShares": {
+      "serious": 0.473,
+      "willful": 0.002,
+      "repeat": 0.008,
+      "otherThanSerious": 0.517,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 4680,
+      "willful": 16,
+      "repeat": 76,
+      "otherThanSerious": 5109,
+      "unclassified": 10
+    },
+    "topIndustries": [
+      {
+        "naics": "2373",
+        "count": 640,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "9221",
+        "count": 478,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "2213",
+        "count": 402,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "5617",
+        "count": 366,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "8111",
+        "count": 338,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "7225",
+        "count": 256,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "6111",
+        "count": 212,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "3323",
+        "count": 198,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "7211",
+        "count": 195,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "4931",
+        "count": 192,
+        "title": "Warehousing and Storage"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.132(d)(2), the written certification that a hazard assessment was done, draws the most citations, followed by 1910.132(d)(1), the workplace hazard assessment itself, and 1910.132(a), the duty to provide, use and maintain protective equipment, with training under 1910.132(f)(1) next. Citations rose from 1,657 in FY2022 to 2,076 in FY2023, then stayed close to that level at 1,995 in FY2024, 2,138 in FY2025 and 2,025 in FY2026.",
+  "requirementsIntro": "Section 1910.132 applies wherever protective equipment is necessary because hazards of processes or environment, chemical or radiological hazards, or mechanical irritants can cause injury or impair the function of any part of the body. It moves from general duties in paragraphs (a) to (c), through hazard assessment in (d), defective equipment in (e) and training in (f), to the scope limit in (g) and payment rules in (h).",
+  "requirements": [
+    {
+      "heading": "When must employers provide PPE under 1910.132?",
+      "intro": "Under 1910.132(a), employers must provide protective equipment wherever process or environmental hazards, chemical or radiological hazards, or mechanical irritants could injure any part of the body or impair its function through absorption, inhalation or physical contact.",
+      "items": [
+        {
+          "text": "Provide, use and maintain protective equipment in a sanitary and reliable condition, including eye, face, head and extremity protection, protective clothing, respiratory devices, and protective shields and barriers.",
+          "clause": "1910.132(a)"
+        },
+        {
+          "text": "Where employees bring their own protective equipment, the employer remains responsible for its adequacy, including proper maintenance and sanitation.",
+          "clause": "1910.132(b)"
+        },
+        {
+          "text": "All PPE must be of safe design and construction for the work performed.",
+          "clause": "1910.132(c)"
+        },
+        {
+          "text": "Defective or damaged PPE must not be used.",
+          "clause": "1910.132(e)"
+        }
+      ]
+    },
+    {
+      "heading": "What does an OSHA PPE hazard assessment require?",
+      "intro": "Under 1910.132(d)(1), employers must assess the workplace for hazards that are present, or likely to be present, which call for PPE, and the paragraph sets out what to do when such hazards are found.",
+      "items": [
+        {
+          "text": "Assess the workplace to determine whether hazards needing PPE are present or likely to be present.",
+          "clause": "1910.132(d)(1)"
+        },
+        {
+          "text": "If they are, select the types of PPE that protect against the hazards the assessment identified, and have each affected employee use them.",
+          "clause": "1910.132(d)(1)(i)"
+        },
+        {
+          "text": "Tell each affected employee what PPE has been selected.",
+          "clause": "1910.132(d)(1)(ii)"
+        },
+        {
+          "text": "Select PPE that properly fits each affected employee.",
+          "clause": "1910.132(d)(1)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must the written hazard assessment certification contain?",
+      "intro": "1910.132(d)(2) requires the employer to verify that the workplace assessment was performed through a written certification containing the elements listed below.",
+      "items": [
+        {
+          "text": "The workplace that was evaluated.",
+          "clause": "1910.132(d)(2)"
+        },
+        {
+          "text": "The person certifying that the evaluation was performed.",
+          "clause": "1910.132(d)(2)"
+        },
+        {
+          "text": "The date or dates of the assessment.",
+          "clause": "1910.132(d)(2)"
+        },
+        {
+          "text": "A statement identifying the document as a certification of hazard assessment.",
+          "clause": "1910.132(d)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What PPE training does OSHA require?",
+      "intro": "Under 1910.132(f)(1), the employer must train each employee whom this section requires to use PPE, covering at least the topics below.",
+      "items": [
+        {
+          "text": "When PPE is necessary.",
+          "clause": "1910.132(f)(1)(i)"
+        },
+        {
+          "text": "What PPE is necessary.",
+          "clause": "1910.132(f)(1)(ii)"
+        },
+        {
+          "text": "How to properly put on, take off, adjust and wear PPE.",
+          "clause": "1910.132(f)(1)(iii)"
+        },
+        {
+          "text": "The limitations of the PPE.",
+          "clause": "1910.132(f)(1)(iv)"
+        },
+        {
+          "text": "Proper care, maintenance, useful life and disposal of the PPE.",
+          "clause": "1910.132(f)(1)(v)"
+        },
+        {
+          "text": "Before doing work that requires PPE, each affected employee must demonstrate an understanding of the training and the ability to use PPE properly.",
+          "clause": "1910.132(f)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "When must employees be retrained on PPE?",
+      "intro": "1910.132(f)(3) requires retraining whenever the employer has reason to believe a trained employee lacks the understanding and skill required by 1910.132(f)(2).",
+      "items": [
+        {
+          "text": "The duty applies whenever that reason to believe exists; the situations in (f)(3)(i) to (f)(3)(iii) are examples, not a complete list.",
+          "clause": "1910.132(f)(3)"
+        },
+        {
+          "text": "Changes in the workplace make previous training obsolete.",
+          "clause": "1910.132(f)(3)(i)"
+        },
+        {
+          "text": "Changes in the types of PPE used make previous training obsolete.",
+          "clause": "1910.132(f)(3)(ii)"
+        },
+        {
+          "text": "An employee's knowledge or use of assigned PPE shows they have not retained the required understanding or skill.",
+          "clause": "1910.132(f)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "Which PPE standards do the assessment and training rules apply to?",
+      "intro": "1910.132(g) limits the hazard assessment and training paragraphs to a named set of PPE sections.",
+      "items": [
+        {
+          "text": "The assessment, selection and certification duties in (d) and the training duties in (f) cover only §§ 1910.133, 1910.135, 1910.136, 1910.138 and 1910.140.",
+          "clause": "1910.132(g)"
+        },
+        {
+          "text": "Paragraphs (d) and (f) do not apply to §§ 1910.134 and 1910.137.",
+          "clause": "1910.132(g)"
+        }
+      ]
+    },
+    {
+      "heading": "Who pays for PPE under 1910.132?",
+      "intro": "Under 1910.132(h)(1), the employer must provide protective equipment used to comply with Part 1910 at no cost to employees, subject to the exceptions in (h)(2) through (h)(6).",
+      "items": [
+        {
+          "text": "Employers need not pay for non-specialty safety-toe footwear (such as steel-toe shoes or boots) or non-specialty prescription safety eyewear, provided they permit these items to be worn off the job site.",
+          "clause": "1910.132(h)(2)"
+        },
+        {
+          "text": "When the employer provides metatarsal guards and an employee asks to use shoes or boots with built-in metatarsal protection instead, the employer does not have to reimburse those shoes or boots.",
+          "clause": "1910.132(h)(3)"
+        },
+        {
+          "text": "The logging boots required by 29 CFR 1910.266(d)(1)(v) are excepted from employer payment.",
+          "clause": "1910.132(h)(4)(i)"
+        },
+        {
+          "text": "Everyday clothing, such as long-sleeve shirts, long pants, street shoes and normal work boots, is also excepted.",
+          "clause": "1910.132(h)(4)(ii)"
+        },
+        {
+          "text": "Ordinary clothing, skin creams and other items used solely for weather protection, such as winter coats, parkas, rubber boots, raincoats, ordinary sunglasses and sunscreen, are excepted too.",
+          "clause": "1910.132(h)(4)(iii)"
+        },
+        {
+          "text": "Replacement PPE is the employer's cost, except when the employee lost or intentionally damaged it.",
+          "clause": "1910.132(h)(5)"
+        },
+        {
+          "text": "An employer may let an employee use adequate PPE they own without reimbursing them, but may not require employees to provide or pay for their own PPE unless it falls under the exceptions in (h)(2) to (h)(5).",
+          "clause": "1910.132(h)(6)"
+        },
+        {
+          "text": "Where another OSHA standard states whether the employer must pay for specific equipment, that standard's payment rules prevail.",
+          "clause": "1910.132(h)(7)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the hazard assessment certification, PPE condition and fit, training and payment under 1910.132; use it on site walks and whenever tasks or PPE change.",
+  "checklist": "us/1910-132-personal-protective-equipment",
+  "faq": [
+    {
+      "question": "Does OSHA give an example of a compliant PPE hazard assessment?",
+      "answer": "Yes. A note to 1910.132(d)(1)(iii) points to non-mandatory appendix B, which contains an example of procedures that would comply with the hazard assessment requirement. The appendix is labelled non-mandatory."
+    },
+    {
+      "question": "When did the PPE payment requirements take effect?",
+      "answer": "Under 1910.132(h)(7), paragraph (h) became effective on February 13, 2008, and employers had to implement the payment requirements no later than May 15, 2008."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.132: General requirements (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.132"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "personal protective equipment",
+    "ppe hazard assessment",
+    "ppe training"
+  ],
+  "cover": "1910-132-personal-protective-equipment",
+  "coverPrompt": "A supervisor in a hard hat and high-visibility vest checks a worker's safety glasses, hard hat and work gloves on a factory floor before a shift, shot from a medium distance with machinery in the background. No text, signs, numbers or logos.",
+  "coverAlt": "Supervisor inspecting a worker's hard hat, safety glasses and gloves on a factory floor",
+  "changes": []
+}

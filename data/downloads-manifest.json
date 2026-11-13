@@ -10,6 +10,16 @@
       "pdf": "/downloads/fr/casque-de-chantier.pdf",
       "xlsx": "/downloads/fr/casque-de-chantier.xlsx"
     },
+    "us/1910-132-personal-protective-equipment": {
+      "hash": "1145e0780eab8cb9f128b25e1d61157a987a0103f8200123b896323d492c98ed",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 27,
+      "page_url": "https://safetyindex.blog/us/standards/1910-132-personal-protective-equipment",
+      "pdf": "/downloads/us/1910-132-personal-protective-equipment.pdf",
+      "xlsx": "/downloads/us/1910-132-personal-protective-equipment.xlsx"
+    },
     "us/1910-147-control-hazardous-energy-lockout-tagout": {
       "hash": "27a4250770f5504d7f5343928fcdfa45c41a6876078dedd448a56b37d7168136",
       "lang": "en",
