@@ -524,7 +524,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -537,5 +537,6 @@
   "cover": "1926-451-scaffolds",
   "coverPrompt": "A realistic photograph of a multi-level steel frame scaffold against a brick building under construction. It has fully planked platforms, guardrails, midrails and toeboards on every level and base plates on timber mud sills, and two workers in hard hats and high-visibility vests work on the upper platform, seen from a distance. No text, signs with writing, numbers, logos or close-up faces.",
   "coverAlt": "Steel frame scaffold with guardrails, toeboards and planked platforms against a building, two workers in hard hats",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-13"
 }

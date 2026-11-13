@@ -5,7 +5,7 @@
   "description": "U.S. workplace injury statistics for 2024 from BLS: injury and illness rates by industry, days-away cases, and work deaths by event and industry.",
   "summary": "U.S. private employers reported 2,488,400 nonfatal workplace injuries and illnesses in 2024, a rate of 2.3 per 100 full-time workers, and 5,070 workers died from work injuries, a rate of 3.3 per 100,000 full-time workers.",
   "year": 2024,
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-02-19",
   "checkPass": "passed",
@@ -1112,5 +1112,6 @@
       ],
       "checkedOn": "2026-11-12"
     }
-  }
+  },
+  "releaseDate": "2026-11-13"
 }

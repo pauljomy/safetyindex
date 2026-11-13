@@ -27,7 +27,7 @@ const dry = args.includes("--dry-run");
 const apply = args.includes("--apply");
 const noPush = args.includes("--no-push");
 const day = today();
-export const CRON_LINE = "0 6 * * 1 cd /mnt/e/safetyindex && /usr/bin/env PATH=$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin npm run weekly >> data/weekly.log 2>&1";
+export const CRON_LINE = "0 6 * * 5 cd /mnt/e/safetyindex && /usr/bin/env PATH=$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin npm run weekly >> data/weekly.log 2>&1";
 // Paths a weekly run may change (never anything else is committed).
 const PATHS = ["src/content", "docs/Safety_Blog_Topics.xlsx", "data", "public/_redirects", "public/downloads", "PROGRESS.md"];
 

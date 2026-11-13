@@ -5,7 +5,7 @@
   "description": "OSHA's current maximum penalties for 2026: serious, other-than-serious, failure to abate, willful and repeated violations, from OSHA's own figures.",
   "summary": "OSHA's maximum penalty is $16,550 per serious or other-than-serious violation and $165,514 per willful or repeated violation, for penalties assessed after Jan. 15, 2026.",
   "year": 2026,
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-11-12",
   "checkPass": "passed",
@@ -43,5 +43,6 @@
       "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
       "url": "https://dataportal.dol.gov/"
     }
-  ]
+  ],
+  "releaseDate": "2026-11-13"
 }

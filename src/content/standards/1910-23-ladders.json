@@ -492,7 +492,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -505,5 +505,6 @@
   "cover": "1910-23-ladders",
   "coverPrompt": "A maintenance worker in a hard hat and work gloves climbs a fixed steel ladder on the side of an industrial building in daylight. The worker faces the ladder with one hand gripping a rung, and the side rails extend above the roof edge. Photographed from a distance, with no visible signs or markings.",
   "coverAlt": "Worker in a hard hat climbing a fixed steel ladder on the side of an industrial building",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-13"
 }

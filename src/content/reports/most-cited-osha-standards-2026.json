@@ -5,7 +5,7 @@
   "description": "The OSHA standards cited most in FY2022–FY2026, the top paragraphs, trends by year and penalties by industry, from DOL enforcement data. Tables to download",
   "summary": "1926.501 Duty to have fall protection was OSHA's most-cited standard in FY2022–FY2026, with 41,926 citations out of 459,547 issued under 29 CFR standards in 358,585 inspections.",
   "year": 2026,
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-11-12",
   "checkPass": "passed",
@@ -998,5 +998,6 @@
       "title": "North American Industry Classification System (U.S. Census Bureau)",
       "url": "https://www.census.gov/naics/"
     }
-  ]
+  ],
+  "releaseDate": "2026-11-13"
 }

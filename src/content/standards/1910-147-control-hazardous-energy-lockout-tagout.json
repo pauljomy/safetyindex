@@ -508,7 +508,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "generatedOn": "2026-11-12",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -521,5 +521,6 @@
   "cover": "1910-147-control-hazardous-energy-lockout-tagout",
   "coverPrompt": "A maintenance technician wearing work gloves fits a red padlock and a blank tag to the lowered handle of an industrial electrical disconnect switch beside a stopped conveyor in a factory, photographed from the side.",
   "coverAlt": "Technician fitting a padlock to an electrical disconnect switch before servicing a factory conveyor",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-13"
 }

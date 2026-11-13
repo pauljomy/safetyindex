@@ -249,3 +249,13 @@ Run with `npm run engine -- --only standard,industry`, then stopped as asked. Th
 - **Fixes from the final audit:** generated links added to report table cells, FAQ answers, checklist reference lines and the industry pages' paragraph tables; the build's number check now uses the same allowed numbers as the writer (stats with display values, the NAICS code and its sub-industries); the eCFR number index is rebuilt in one pass (three workers had been overwriting each other's entries in the shared file); two checklists titled "…Checklist and OSHA Checklist" fixed.
 - **Final audit, all passing:** preview build of all 188 pages and the normal build (96 released pages) with every check in brief section 17; all 57 checklist downloads verified (PDF page counts, zero Excel formula errors, items match the page); Lighthouse on 10 pages across page types, 3 runs each: performance 96–98, accessibility 100, all mobile-friendly.
 - None of the new pages is live yet: they wait for the first release wave after the merge.
+
+## Weekly reading lists
+
+### Pages for Paul to read this week (2026-11-13)
+
+- https://safetyindex.blog/us/standards/1910-1025-lead
+- https://safetyindex.blog/us/standards/1910-141-sanitation
+- https://safetyindex.blog/us/standards/1926-451-scaffolds
+- https://safetyindex.blog/us/standards/1926-651-excavation
+- https://safetyindex.blog/us/osha-penalties
