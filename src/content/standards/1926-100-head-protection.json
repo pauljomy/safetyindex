@@ -1,0 +1,286 @@
+{
+  "section": "1926.100",
+  "part": "1926",
+  "heading": "Head protection.",
+  "subpart": "E",
+  "subpartTitle": "Personal Protective and Life Saving Equipment",
+  "title": "Hard hat inspection checklist and OSHA requirements (29 CFR 1926.100)",
+  "seoTitle": "Hard Hat Inspection Checklist: OSHA 1926.100",
+  "description": "OSHA 29 CFR 1926.100 head protection requirements in plain language, citation data for FY2022–FY2026, and a printable hard hat inspection checklist.",
+  "opening": "29 CFR 1926.100 requires employees in areas with a possible danger of head injury from impact, falling or flying objects, or electrical shock and burns to be protected by helmets meeting ANSI Z89.1-2009, Z89.1-2003 or Z89.1-1997, or shown to be at least as effective.",
+  "keyword": "hard hat inspection",
+  "cluster": [
+    {
+      "keyword": "hard hat checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hard hat inspection",
+      "volume": 880,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha head protection requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "head protection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "head protection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.100",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 890,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 6687,
+    "inspections": 6684,
+    "byFy": {
+      "2022": 1412,
+      "2023": 1504,
+      "2024": 1313,
+      "2025": 1413,
+      "2026": 1045
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)",
+        "count": 6677
+      },
+      {
+        "paragraph": "(b)",
+        "count": 9
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 6332,
+      "median": 2679,
+      "p25": 1050,
+      "p75": 3729,
+      "total": 20218989
+    },
+    "typeShares": {
+      "serious": 0.875,
+      "willful": 0.004,
+      "repeat": 0.059,
+      "otherThanSerious": 0.062,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 5852,
+      "willful": 24,
+      "repeat": 393,
+      "otherThanSerious": 415,
+      "unclassified": 3
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 5049,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 297,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 255,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 236,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2371",
+        "count": 210,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2362",
+        "count": 190,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2383",
+        "count": 184,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2373",
+        "count": 52,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "5617",
+        "count": 27,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "2211",
+        "count": 18,
+        "title": "Electric Power Generation, Transmission and Distribution"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.100(a), the duty to protect employees exposed to head-injury hazards with protective helmets, drew 6,677 of the 6,687 citations in FY2022–FY2026. Paragraph (b), the helmet criteria, drew 9, and (b)(2), electrical insulation for high-voltage exposure, drew 1. Citations rose from 1,412 in FY2022 to 1,504 in FY2023, fell to 1,313 in FY2024, returned to 1,413 in FY2025 and dropped to 1,045 in FY2026, the lowest of the 5 fiscal years.",
+  "requirementsIntro": "1926.100 covers employees working where the head could be hurt by impact, by falling or flying objects, or by electric shock and burns. Paragraph (a) sets when protective helmets are required, and paragraph (b) sets the criteria the employer's helmets must meet, an electrical insulation rule and an equivalence route.",
+  "requirements": [
+    {
+      "heading": "When must employees wear hard hats under 1926.100?",
+      "intro": "Under 1926.100(a), employees must be protected by protective helmets when they work in areas with a possible danger of head injury from any of the hazards listed below.",
+      "items": [
+        {
+          "text": "Areas where the head could be injured by impact.",
+          "clause": "1926.100(a)"
+        },
+        {
+          "text": "Areas where objects could fall or fly and injure the head.",
+          "clause": "1926.100(a)"
+        },
+        {
+          "text": "Areas where electrical shock and burns could injure the head.",
+          "clause": "1926.100(a)"
+        },
+        {
+          "text": "The hazards are listed as alternatives, so one of them is enough to require helmets in that area.",
+          "clause": "1926.100(a)"
+        }
+      ]
+    },
+    {
+      "heading": "Which hard hats does OSHA accept under 1926.100(b)(1)?",
+      "intro": "1926.100(b)(1) requires the employer to provide each employee with head protection that meets the specifications of any one of three ANSI Z89.1 editions, each incorporated by reference in § 1926.6.",
+      "items": [
+        {
+          "text": "The employer provides the head protection to each employee.",
+          "clause": "1926.100(b)(1)"
+        },
+        {
+          "text": "Helmets meeting ANSI Z89.1-2009 qualify.",
+          "clause": "1926.100(b)(1)(i)"
+        },
+        {
+          "text": "Helmets meeting the 2003 edition, ANSI Z89.1-2003, qualify.",
+          "clause": "1926.100(b)(1)(ii)"
+        },
+        {
+          "text": "Helmets meeting the 1997 edition, ANSI Z89.1-1997, qualify.",
+          "clause": "1926.100(b)(1)(iii)"
+        },
+        {
+          "text": "Meeting any one of the three listed editions satisfies this paragraph.",
+          "clause": "1926.100(b)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "What head protection is required for high-voltage exposure?",
+      "intro": "1926.100(b)(2) requires the employer to ensure that helmets for employees exposed to high-voltage electric shock and burns also meet Section 9.7 (Electrical Insulation) of one of the editions listed in 1926.100(b)(1).",
+      "items": [
+        {
+          "text": "The duty covers each employee exposed to high-voltage shock and burn hazards.",
+          "clause": "1926.100(b)(2)"
+        },
+        {
+          "text": "Their helmets must meet the (b)(1) criteria and, in addition, Section 9.7 of any of the three ANSI Z89.1 editions listed in (b)(1).",
+          "clause": "1926.100(b)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "Can an employer use a helmet not built to a listed ANSI Z89.1 edition?",
+      "intro": "Yes: under 1926.100(b)(3), OSHA will deem a head protection device compliant if the employer demonstrates it is at least as effective as one constructed under an edition listed in 1926.100(b)(1).",
+      "items": [
+        {
+          "text": "Compliance is deemed only where the employer demonstrates the equivalence.",
+          "clause": "1926.100(b)(3)"
+        },
+        {
+          "text": "The benchmark is a helmet constructed in accordance with ANSI Z89.1-2009, -2003 or -1997.",
+          "clause": "1926.100(b)(3)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers each paragraph of 1926.100, from identifying head-injury hazard areas to helmet criteria, high-voltage insulation and equivalent helmets; use it at the start of work and whenever tasks, crews or helmets change.",
+  "checklist": "us/1926-100-head-protection",
+  "faq": [
+    {
+      "question": "Does 1926.100 set an inspection or replacement interval for hard hats?",
+      "answer": "No. The eCFR text of 1926.100 (as of 2026-11-09) has paragraphs (a) and (b)(1) to (b)(3) and states no inspection, cleaning or replacement interval. Use the helmet manufacturer's instructions and your site rules for those checks, and ask your OSHA area office or a competent person if you are unsure."
+    },
+    {
+      "question": "Where can I find the ANSI Z89.1 editions that 1926.100 refers to?",
+      "answer": "Each edition listed in 1926.100(b)(1)(i) to (iii) is incorporated by reference in § 1926.6 of Title 29. The ANSI documents are not reprinted in 1926.100 itself, so confirm a helmet's edition from its label or the manufacturer's documentation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.100: Head protection (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.100"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "head protection",
+    "hard hats",
+    "protective helmets"
+  ],
+  "cover": "1926-100-head-protection",
+  "coverPrompt": "A construction worker wearing a hard hat, high-visibility vest and work gloves holds a second white hard hat and inspects its inner suspension on a building site, seen from the side at mid-distance with steel framing in the background.",
+  "coverAlt": "Construction worker inspecting the suspension inside a hard hat on a building site",
+  "changes": []
+}

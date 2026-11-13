@@ -1,0 +1,141 @@
+{
+  "slug": "1926-100-head-protection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-100-head-protection",
+  "doc_ref": "SI-US-1926-100",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Hard Hat Inspection Checklist (OSHA 29 CFR 1926.100)",
+  "subtitle": "For site supervisors checking helmet use and helmet criteria in any area with head-injury hazards.",
+  "regulation_line": "OSHA 29 CFR 1926.100",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For any Defect, record what you found and correct it before the employee works in the hazard area.",
+    "The helmet manufacturer's instructions and your site rules may add checks, such as helmet condition; follow them as well."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Head-injury hazards and helmet use",
+      "items": [
+        [
+          "Impact hazards",
+          "Areas where a worker's head could be injured by impact are identified for the shift.",
+          "1926.100(a)"
+        ],
+        [
+          "Falling objects",
+          "Areas where objects could fall onto workers' heads are identified.",
+          "1926.100(a)"
+        ],
+        [
+          "Flying objects",
+          "Areas where objects could be propelled toward workers' heads are identified.",
+          "1926.100(a)"
+        ],
+        [
+          "Electric shock or burns",
+          "Areas where employees face electric shock or burn hazards to the head are identified.",
+          "1926.100(a)"
+        ],
+        [
+          "Helmets worn",
+          "Every employee in an identified area is wearing a protective helmet.",
+          "1926.100(a)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Helmet criteria",
+      "items": [
+        [
+          "Helmet provided by employer",
+          "Each employee has been provided with head protection by the employer.",
+          "1926.100(b)(1)"
+        ],
+        [
+          "ANSI Z89.1-2009",
+          "Helmet label or documentation shows ANSI Z89.1-2009 (mark N/A if another listed edition applies).",
+          "1926.100(b)(1)(i)"
+        ],
+        [
+          "ANSI Z89.1-2003",
+          "Marking or maker's data confirms ANSI Z89.1-2003 (mark N/A if another listed edition applies).",
+          "1926.100(b)(1)(ii)"
+        ],
+        [
+          "ANSI Z89.1-1997",
+          "Manufacturer's records confirm ANSI Z89.1-1997 (mark N/A if another listed edition applies).",
+          "1926.100(b)(1)(iii)"
+        ],
+        [
+          "Edition identified for every helmet",
+          "Every helmet in use matches at least one of the three listed editions or has an equivalence record (section D).",
+          "1926.100(b)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "High-voltage exposure",
+      "items": [
+        [
+          "Exposed employees identified",
+          "Employees exposed to high-voltage shock and burn hazards are listed by name or task.",
+          "1926.100(b)(2)"
+        ],
+        [
+          "Electrical insulation",
+          "Their helmets meet Section 9.7 (Electrical Insulation) of ANSI Z89.1-2009, -2003 or -1997, as shown on the label or maker's documentation.",
+          "1926.100(b)(2)"
+        ],
+        [
+          "No uninsulated helmets in use",
+          "No employee exposed to high-voltage hazards wears a helmet lacking the Section 9.7 insulation specification.",
+          "1926.100(b)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Alternative helmets",
+      "items": [
+        [
+          "Non-listed helmets identified",
+          "Any helmet not built to a listed ANSI Z89.1 edition is identified by type and wearer.",
+          "1926.100(b)(3)"
+        ],
+        [
+          "Equivalence demonstrated",
+          "The employer can demonstrate the helmet is equally or more effective than one built to a (b)(1) edition.",
+          "1926.100(b)(3)"
+        ],
+        [
+          "Evidence available",
+          "The equivalence evidence can be produced on site or on request.",
+          "1926.100(b)(3)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.100: Head protection (Part 1926 Subpart E: Personal Protective and Life Saving Equipment)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
