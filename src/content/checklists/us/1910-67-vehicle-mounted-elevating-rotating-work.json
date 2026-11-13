@@ -1,0 +1,192 @@
+{
+  "slug": "1910-67-vehicle-mounted-elevating-rotating-work",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-67-vehicle-mounted-elevating-rotating-work",
+  "doc_ref": "SI-US-1910-67",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Bucket Truck Inspection Checklist (29 CFR 1910.67)",
+  "subtitle": "For supervisors checking a bucket truck or other vehicle-mounted aerial lift on site before use and before travel.",
+  "regulation_line": "OSHA 29 CFR 1910.67",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item fails, report it and keep the lift out of use until the defect is corrected; record what was done.",
+    "The manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Equipment, modifications and electrical tests",
+      "items": [
+        [
+          "Design standard",
+          "Records show a lift acquired on or after July 1, 1975 was designed and built to ANSI A92.2-1969, or an older lift meets it or was modified to conform",
+          "1910.67(b)(1)"
+        ],
+        [
+          "Field modifications",
+          "Any field modification has written certification from the manufacturer or an equivalent entity, such as a nationally recognized testing laboratory",
+          "1910.67(b)(2)"
+        ],
+        [
+          "Electrical test record",
+          "Test record shows testing to ANSI A92.2-1969 Section 5, or a DC voltage test approved by the manufacturer or an equivalent entity",
+          "1910.67(c)(3)"
+        ],
+        [
+          "Insulated portion",
+          "No alteration to the insulated portion that might reduce its insulating value",
+          "1910.67(c)(2)(xi)"
+        ],
+        [
+          "Vehicle stability",
+          "The vehicle provides a stable support for the aerial device",
+          "1910.67(b)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Operator, controls and setup",
+      "items": [
+        [
+          "Operator training",
+          "The person operating the lift is trained",
+          "1910.67(c)(2)(ii)"
+        ],
+        [
+          "Daily controls test",
+          "Lift controls were tested today before use and found in safe working condition",
+          "1910.67(c)(2)(i)"
+        ],
+        [
+          "Upper and lower controls",
+          "A boom platform designed mainly as a personnel carrier has both platform (upper) and lower controls",
+          "1910.67(c)(2)(ix)"
+        ],
+        [
+          "Upper control position",
+          "Upper controls are in or beside the platform, within easy reach of the operator",
+          "1910.67(c)(2)(ix)"
+        ],
+        [
+          "Lower control override",
+          "Lower controls override the upper controls",
+          "1910.67(c)(2)(ix)"
+        ],
+        [
+          "Control markings",
+          "Each control is plainly marked as to its function",
+          "1910.67(c)(2)(ix)"
+        ],
+        [
+          "Brakes",
+          "Brakes are set",
+          "1910.67(c)(2)(vii)"
+        ],
+        [
+          "Outriggers",
+          "Outriggers in use sit on pads or a solid surface",
+          "1910.67(c)(2)(vii)"
+        ],
+        [
+          "Wheel chocks",
+          "On an incline, wheel chocks are installed before the lift is used",
+          "1910.67(c)(2)(vii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Working from the basket",
+      "items": [
+        [
+          "Fall protection worn",
+          "Each worker in the basket wears a fall arrest or restraint system that meets subpart I of part 1910",
+          "1910.67(c)(2)(v)"
+        ],
+        [
+          "Attachment point",
+          "The system is connected at the boom or the basket",
+          "1910.67(c)(2)(v)"
+        ],
+        [
+          "No belting off",
+          "No worker is belted off to an adjacent pole, structure or equipment",
+          "1910.67(c)(2)(iii)"
+        ],
+        [
+          "Footing",
+          "Workers stay on the basket floor; nobody sits or climbs on the basket edge",
+          "1910.67(c)(2)(iv)"
+        ],
+        [
+          "No raised work positions",
+          "No planks, ladders or other devices are used as a work position",
+          "1910.67(c)(2)(iv)"
+        ],
+        [
+          "Climbers",
+          "No climbers are worn by anyone working from the lift",
+          "1910.67(c)(2)(x)"
+        ],
+        [
+          "Load limits",
+          "Boom and basket loads are within the manufacturer's specified limits",
+          "1910.67(c)(2)(vi)"
+        ],
+        [
+          "Lower control use",
+          "Lower controls are operated only with permission from the worker in the lift, unless there is an emergency",
+          "1910.67(c)(2)(ix)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Moving the truck",
+      "items": [
+        [
+          "No travel with boom raised",
+          "Truck is not moved with the boom elevated and workers in the basket, unless the equipment is specifically designed for it",
+          "1910.67(c)(2)(viii)"
+        ],
+        [
+          "Boom cradled",
+          "Before travel, the boom or booms are inspected and properly cradled",
+          "1910.67(c)(2)(xii)"
+        ],
+        [
+          "Outriggers stowed",
+          "Before travel, outriggers are in the stowed position",
+          "1910.67(c)(2)(xii)"
+        ],
+        [
+          "Aerial ladder secured (ladder and tower trucks)",
+          "Before highway travel, the aerial ladder is locked in the lower traveling position by the device above the cab and the manual device at the ladder base, or an equally effective means",
+          "1910.67(c)(1)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.67: Vehicle-mounted elevating and rotating work platforms",
+    "Work near overhead electric lines: 29 CFR 1910.333(c)(3), referenced in 1910.67(b)(4)",
+    "Source: eCFR, Title 29 (text as of 2026-11-09)"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

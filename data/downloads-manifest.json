@@ -210,6 +210,16 @@
       "pdf": "/downloads/us/1910-37-maintenance-safeguards-operational-features-exit.pdf",
       "xlsx": "/downloads/us/1910-37-maintenance-safeguards-operational-features-exit.xlsx"
     },
+    "us/1910-67-vehicle-mounted-elevating-rotating-work": {
+      "hash": "c944335cb9b167b483256dada4e442542a13504f1cd5a7da6749458a55fdac06",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 26,
+      "page_url": "https://safetyindex.blog/us/standards/1910-67-vehicle-mounted-elevating-rotating-work",
+      "pdf": "/downloads/us/1910-67-vehicle-mounted-elevating-rotating-work.pdf",
+      "xlsx": "/downloads/us/1910-67-vehicle-mounted-elevating-rotating-work.xlsx"
+    },
     "us/1926-100-head-protection": {
       "hash": "2a0733fabceda846323f2eb38383e4d04ef60eefe25804c3f184e243fa6593af",
       "lang": "en",
