@@ -1,0 +1,252 @@
+{
+  "slug": "1910-141-sanitation",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-141-sanitation",
+  "doc_ref": "SI-US-1910-141",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Sanitation Inspection Checklist (29 CFR 1910.141)",
+  "subtitle": "Use on a walk-through of housekeeping, water supply, toilets, washrooms and eating areas at a permanent workplace.",
+  "regulation_line": "OSHA 29 CFR 1910.141",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A, and note the location of each defect.",
+    "When an item fails, record it, assign someone to correct it and recheck it before closing it out.",
+    "Manufacturer's instructions for fixtures and dispensers, other OSHA standards and site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Housekeeping, waste and vermin",
+      "items": [
+        [
+          "General cleanliness",
+          "Work areas are clean as far as the work allows, with no avoidable buildup of dirt or debris.",
+          "1910.141(a)(3)(i)"
+        ],
+        [
+          "Workroom floors",
+          "Floors are dry where practicable; wet-process areas have working drainage and mats, platforms or false floors, or waterproof footgear is provided.",
+          "1910.141(a)(3)(ii)"
+        ],
+        [
+          "Floor and passageway surfaces",
+          "No protruding nails, splinters, loose boards, or unnecessary holes and openings in floors, working places or passageways.",
+          "1910.141(a)(3)(iii)"
+        ],
+        [
+          "Waste receptacle condition",
+          "Receptacles for putrescible waste do not leak and can be thoroughly cleaned.",
+          "1910.141(a)(4)(i)"
+        ],
+        [
+          "Waste receptacle covers",
+          "Each putrescible-waste receptacle has a lid that is solid and fits tightly, unless it stays sanitary without one.",
+          "1910.141(a)(4)(i)"
+        ],
+        [
+          "Waste removal",
+          "Sweepings, refuse and garbage are removed often enough that the area stays sanitary and no waste creates a health menace.",
+          "1910.141(a)(4)(ii)"
+        ],
+        [
+          "Vermin entry and harborage",
+          "No signs of rodents or insects; openings and spaces that would let vermin in or shelter them are closed off so far as reasonably practicable.",
+          "1910.141(a)(5)"
+        ],
+        [
+          "Extermination program",
+          "Where vermin have been detected, a continuing and effective extermination program is in place.",
+          "1910.141(a)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Potable and nonpotable water",
+      "items": [
+        [
+          "Potable water supply",
+          "Potable water is available for drinking, washing, cooking, food and utensil washing, and personal service rooms.",
+          "1910.141(b)(1)(i)"
+        ],
+        [
+          "Portable drinking water dispensers",
+          "Dispensers are clean, can be closed and have a tap.",
+          "1910.141(b)(1)(iii)"
+        ],
+        [
+          "Open drinking containers",
+          "No barrels, pails or tanks from which drinking water is dipped or poured, covered or not.",
+          "1910.141(b)(1)(v)"
+        ],
+        [
+          "Shared cups and utensils",
+          "No common drinking cup or other common utensils in use.",
+          "1910.141(b)(1)(vi)"
+        ],
+        [
+          "Nonpotable outlet marking",
+          "Every nonpotable outlet is posted or marked as unsafe and not for drinking, washing or cooking.",
+          "1910.141(b)(2)(i)"
+        ],
+        [
+          "Backflow protection",
+          "Nonpotable systems are built so nothing can backflow or backsiphon into the potable supply.",
+          "1910.141(b)(2)(ii)"
+        ],
+        [
+          "Nonpotable water use",
+          "Nonpotable water is not used to wash people, cooking or eating utensils, or clothing.",
+          "1910.141(b)(2)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Toilet facilities",
+      "items": [
+        [
+          "Number of water closets",
+          "For each sex, the water closet count meets Table J-1 for the most employees of that sex present at one time on a regular shift.",
+          "1910.141(c)(1)(i)"
+        ],
+        [
+          "Separate or single-occupancy rooms",
+          "Toilet rooms are separate for each sex, or are single-occupancy rooms that lock from the inside and contain at least one water closet.",
+          "1910.141(c)(1)(i)"
+        ],
+        [
+          "Privacy compartments",
+          "Each water closet is in its own compartment with a door and partitions high enough for privacy.",
+          "1910.141(c)(2)(i)"
+        ],
+        [
+          "Sewage disposal",
+          "No leaks, overflows or backups from the sewage disposal method that could endanger employees.",
+          "1910.141(c)(1)(iii)"
+        ],
+        [
+          "Mobile crews and unattended locations",
+          "Where this exception is relied on, transportation to nearby compliant toilet facilities is immediately available.",
+          "1910.141(c)(1)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Washing facilities and showers",
+      "items": [
+        [
+          "Washing facility condition",
+          "Sinks and washrooms are clean and sanitary.",
+          "1910.141(d)(1)"
+        ],
+        [
+          "Lavatories available",
+          "Lavatories are available to employees at the workplace.",
+          "1910.141(d)(2)(i)"
+        ],
+        [
+          "Lavatory water",
+          "Each lavatory runs hot and cold water, or tepid water.",
+          "1910.141(d)(2)(ii)"
+        ],
+        [
+          "Hand soap",
+          "Hand soap or a similar cleansing agent is stocked at the lavatories.",
+          "1910.141(d)(2)(iii)"
+        ],
+        [
+          "Hand drying",
+          "Individual cloth or paper towels, air blowers, or clean continuous cloth toweling are stocked and working near the lavatories.",
+          "1910.141(d)(2)(iv)"
+        ],
+        [
+          "Number of showers",
+          "If showers are required by another standard: one shower for each 10 employees of each sex, or fraction thereof, who must shower on the same shift.",
+          "1910.141(d)(3)(ii)"
+        ],
+        [
+          "Shower soap",
+          "Body soap or another cleansing agent is available near the showers.",
+          "1910.141(d)(3)(iii)"
+        ],
+        [
+          "Shower water supply",
+          "Showers have hot and cold water feeding a common discharge line.",
+          "1910.141(d)(3)(iv)"
+        ],
+        [
+          "Shower towels",
+          "Each employee using a shower gets an individual clean towel.",
+          "1910.141(d)(3)(v)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Change rooms, clothes drying, eating areas and food",
+      "items": [
+        [
+          "Change rooms",
+          "Where protective clothing is required by another standard because of possible toxic contamination, change rooms have storage for street clothes and separate storage for protective clothing.",
+          "1910.141(e)"
+        ],
+        [
+          "Drying work clothes",
+          "Employer-provided work clothes that get wet or are washed between shifts are dry before reuse.",
+          "1910.141(f)"
+        ],
+        [
+          "Eating and drinking locations",
+          "No one eats or drinks in toilet rooms or in areas exposed to a toxic material.",
+          "1910.141(g)(2)"
+        ],
+        [
+          "Food waste receptacle material",
+          "Food waste receptacles are smooth, corrosion resistant and easily cleanable, or disposable.",
+          "1910.141(g)(3)"
+        ],
+        [
+          "Food waste receptacle emptying",
+          "Receptacles in use are emptied at least once each working day and are not overfilled.",
+          "1910.141(g)(3)"
+        ],
+        [
+          "Food waste receptacle lids",
+          "Receptacles have a solid lid that fits tightly, unless they stay sanitary without one.",
+          "1910.141(g)(3)"
+        ],
+        [
+          "Food and drink storage",
+          "No food or beverages stored in toilet rooms or in areas exposed to a toxic material.",
+          "1910.141(g)(4)"
+        ],
+        [
+          "Food service hygiene",
+          "Where food service is provided, food is wholesome, free from spoilage and stored and handled so it is protected from contamination.",
+          "1910.141(h)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.141: Sanitation (Part 1910 Subpart J, General Environmental Controls)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

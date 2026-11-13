@@ -60,6 +60,16 @@
       "pdf": "/downloads/us/1910-140-personal-fall-protection-systems.pdf",
       "xlsx": "/downloads/us/1910-140-personal-fall-protection-systems.xlsx"
     },
+    "us/1910-141-sanitation": {
+      "hash": "7ef4098b5ebc7b63b9076c67743e6d0aa062f531ecd56b9c91338ccd96d95e55",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 37,
+      "page_url": "https://safetyindex.blog/us/standards/1910-141-sanitation",
+      "pdf": "/downloads/us/1910-141-sanitation.pdf",
+      "xlsx": "/downloads/us/1910-141-sanitation.xlsx"
+    },
     "us/1910-146-permit-required-confined-spaces": {
       "hash": "37336957685a7efd64396ed3dab1e1084660999836792a64015c7111d014d6f9",
       "lang": "en",

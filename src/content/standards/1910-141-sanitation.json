@@ -1,0 +1,491 @@
+{
+  "section": "1910.141",
+  "part": "1910",
+  "heading": "Sanitation.",
+  "subpart": "J",
+  "subpartTitle": "General Environmental Controls",
+  "title": "Sanitation inspection checklist and OSHA rules (29 CFR 1910.141)",
+  "seoTitle": "Sanitation inspection: OSHA 1910.141 requirements",
+  "description": "OSHA 29 CFR 1910.141 sanitation requirements in plain language, citation data from FY2022–FY2026, and a sanitation inspection checklist to print.",
+  "opening": "29 CFR 1910.141 sets the basic sanitation rules for permanent places of employment: housekeeping, waste and vermin control, potable water, toilets, washing facilities, change rooms, and where employees may eat and drink.",
+  "keyword": "sanitation inspection",
+  "cluster": [
+    {
+      "keyword": "osha workplace restroom requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "workplace restroom checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "workplace restroom inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha sanitation requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "sanitation checklist",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "sanitation inspection",
+      "volume": 110,
+      "kd": 2,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.141",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 150,
+  "kd": 2,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 2104,
+    "inspections": 1721,
+    "byFy": {
+      "2022": 388,
+      "2023": 434,
+      "2024": 468,
+      "2025": 420,
+      "2026": 394
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(3)(i)",
+        "count": 699
+      },
+      {
+        "paragraph": "(a)(5)",
+        "count": 423
+      },
+      {
+        "paragraph": "(b)(1)(i)",
+        "count": 135
+      },
+      {
+        "paragraph": "(c)(1)(i)",
+        "count": 134
+      },
+      {
+        "paragraph": "(d)(2)(ii)",
+        "count": 128
+      },
+      {
+        "paragraph": "(g)(2)",
+        "count": 87
+      },
+      {
+        "paragraph": "(a)(3)(ii)",
+        "count": 77
+      },
+      {
+        "paragraph": "(a)(4)(ii)",
+        "count": 64
+      },
+      {
+        "paragraph": "(d)(1)",
+        "count": 63
+      },
+      {
+        "paragraph": "(d)(2)(iii)",
+        "count": 53
+      }
+    ],
+    "penalties": {
+      "n": 1036,
+      "median": 2836,
+      "p25": 1128,
+      "p75": 5489,
+      "total": 4820501
+    },
+    "typeShares": {
+      "serious": 0.438,
+      "willful": 0,
+      "repeat": 0.021,
+      "otherThanSerious": 0.539,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 921,
+      "willful": 1,
+      "repeat": 45,
+      "otherThanSerious": 1134,
+      "unclassified": 3
+    },
+    "topIndustries": [
+      {
+        "naics": "9221",
+        "count": 189,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "6111",
+        "count": 117,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "9211",
+        "count": 113,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "8111",
+        "count": 57,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "7225",
+        "count": 50,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "4931",
+        "count": 48,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "9231",
+        "count": 46,
+        "title": "Administration of Human Resource Programs"
+      },
+      {
+        "naics": "4523",
+        "count": 35,
+        "title": null
+      },
+      {
+        "naics": "4539",
+        "count": 35,
+        "title": null
+      },
+      {
+        "naics": "2213",
+        "count": 31,
+        "title": "Water, Sewage and Other Systems"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.141(a)(3)(i), the duty to keep places of employment clean as far as the nature of the work allows, drew 699 of the 2,104 citations over FY2022–FY2026, followed by 1910.141(a)(5) on keeping rodents, insects and other vermin out, with 423. Potable water under 1910.141(b)(1)(i) (135) and toilet facilities under 1910.141(c)(1)(i) (134) came next. Yearly citations rose from 388 in FY2022 to 468 in FY2024, then fell to 420 in FY2025 and 394 in FY2026.",
+  "requirementsIntro": "Under 1910.141(a)(1), the standard applies to permanent places of employment, and it runs from paragraph (a) to (h): housekeeping, waste and vermin, water supply, toilets, washing facilities, change rooms, clothes drying, eating areas and food handling. The groups below give the main rules; the full text on eCFR has more detail, including the definitions in 1910.141(a)(2).",
+  "requirements": [
+    {
+      "heading": "What housekeeping does 1910.141 require?",
+      "intro": "Under 1910.141(a)(3), workplaces must be kept clean as far as the work allows, workroom floors kept dry where practicable, and walking surfaces kept free of defects that get in the way of cleaning.",
+      "items": [
+        {
+          "text": "Keep all places of employment clean to the extent that the nature of the work allows.",
+          "clause": "1910.141(a)(3)(i)"
+        },
+        {
+          "text": "Maintain the floor of every workroom in a dry condition, so far as practicable.",
+          "clause": "1910.141(a)(3)(ii)"
+        },
+        {
+          "text": "Where wet processes are used, maintain drainage and provide false floors, platforms, mats or other dry standing places where practicable, or otherwise provide appropriate waterproof footgear.",
+          "clause": "1910.141(a)(3)(ii)"
+        },
+        {
+          "text": "Keep every floor, working place and passageway free from protruding nails, splinters, loose boards, and unnecessary holes and openings.",
+          "clause": "1910.141(a)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must waste and vermin be controlled?",
+      "intro": "Paragraphs 1910.141(a)(4) and (a)(5) require leak-proof, cleanable waste receptacles, waste removal often enough to keep the workplace sanitary, and enclosed workplaces built and kept to keep vermin out.",
+      "items": [
+        {
+          "text": "Receptacles for putrescible solid or liquid waste or refuse must not leak and must be able to be thoroughly cleaned and kept sanitary.",
+          "clause": "1910.141(a)(4)(i)"
+        },
+        {
+          "text": "Equip those receptacles with a solid tight-fitting cover unless they can be kept sanitary without one; the same paragraph also permits receptacles designed to stay sanitary without meeting these construction rules.",
+          "clause": "1910.141(a)(4)(i)"
+        },
+        {
+          "text": "Remove sweepings, solid or liquid wastes, refuse and garbage in a way that avoids creating a menace to health, and as often as needed to keep the workplace sanitary.",
+          "clause": "1910.141(a)(4)(ii)"
+        },
+        {
+          "text": "Construct, equip and maintain every enclosed workplace, so far as reasonably practicable, to prevent the entrance or harborage of rodents, insects and other vermin.",
+          "clause": "1910.141(a)(5)"
+        },
+        {
+          "text": "Institute a continuing and effective extermination program wherever vermin are detected.",
+          "clause": "1910.141(a)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What drinking water must employers provide?",
+      "intro": "Employers must provide potable water in all places of employment, and 1910.141(b)(1) also limits how drinking water may be dispensed.",
+      "items": [
+        {
+          "text": "Provide potable water for drinking, washing of the person, cooking, washing of foods, washing of cooking or eating utensils, washing of food preparation or processing premises, and personal service rooms.",
+          "clause": "1910.141(b)(1)(i)"
+        },
+        {
+          "text": "Portable drinking water dispensers must be designed, constructed and serviced so they stay sanitary, must be capable of being closed, and must have a tap.",
+          "clause": "1910.141(b)(1)(iii)"
+        },
+        {
+          "text": "Open containers such as barrels, pails or tanks from which drinking water must be dipped or poured are prohibited, whether or not they have a cover.",
+          "clause": "1910.141(b)(1)(v)"
+        },
+        {
+          "text": "A common drinking cup and other common utensils are prohibited.",
+          "clause": "1910.141(b)(1)(vi)"
+        }
+      ]
+    },
+    {
+      "heading": "How must nonpotable water be kept separate?",
+      "intro": "Nonpotable water, such as water for industrial or firefighting purposes, must be clearly marked, kept out of the potable system and restricted in use under 1910.141(b)(2).",
+      "items": [
+        {
+          "text": "Post or mark every nonpotable outlet so it clearly shows the water is unsafe and not for drinking, washing of the person, cooking, washing food or cooking and eating utensils, washing food preparation or processing premises or personal service rooms, or washing clothes.",
+          "clause": "1910.141(b)(2)(i)"
+        },
+        {
+          "text": "Build nonpotable water systems, and systems carrying any other nonpotable substance, so they prevent backflow or backsiphonage into a potable water system.",
+          "clause": "1910.141(b)(2)(ii)"
+        },
+        {
+          "text": "Do not use nonpotable water for washing any part of the body, cooking or eating utensils, or clothing.",
+          "clause": "1910.141(b)(2)(iii)"
+        },
+        {
+          "text": "Nonpotable water may clean work premises other than food processing and preparation premises and personal service rooms, provided it holds no chemicals, fecal coliform or other substances in concentrations that could create insanitary conditions or harm employees.",
+          "clause": "1910.141(b)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "How many toilets does OSHA require?",
+      "intro": "1910.141(c)(1)(i) requires toilet facilities, in toilet rooms separate for each sex, in all places of employment, in the minimum numbers set by Table J-1.",
+      "items": [
+        {
+          "text": "Unless otherwise specified, the number of employees means the maximum number present at any one time on a regular shift.",
+          "clause": "1910.141(a)(2)"
+        },
+        {
+          "text": "Base the number of facilities for each sex on the number of employees of that sex for whom the facilities are furnished.",
+          "clause": "1910.141(c)(1)(i)"
+        },
+        {
+          "text": "Table J-1 minimum water closets: 1 for 1 to 15 employees, 2 for 16 to 35, 3 for 36 to 55, 4 for 56 to 80, 5 for 81 to 110, 6 for 111 to 150, and over 150, 1 additional fixture for each additional 40 employees.",
+          "clause": "1910.141(c)(1)(i)"
+        },
+        {
+          "text": "Where toilet facilities will not be used by women, urinals may be provided instead of water closets, but the number of water closets may not fall below two-thirds of the table's minimum.",
+          "clause": "1910.141(c)(1)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "How must toilet rooms be arranged, and which exceptions apply?",
+      "intro": "Paragraph 1910.141(c) also sets the single-occupancy room option, the exception for mobile crews and unattended locations, sewage disposal and privacy for each water closet.",
+      "items": [
+        {
+          "text": "Separate toilet rooms for each sex are not required where a room is occupied by no more than one person at a time, can be locked from the inside and contains at least one water closet.",
+          "clause": "1910.141(c)(1)(i)"
+        },
+        {
+          "text": "When a single-occupancy room has more than one toilet facility, only one of them counts toward Table J-1.",
+          "clause": "1910.141(c)(1)(i)"
+        },
+        {
+          "text": "The toilet requirements of 1910.141(c)(1)(i) do not apply to mobile crews or normally unattended work locations as long as employees there have transportation immediately available to nearby toilet facilities that meet the other requirements of the subparagraph.",
+          "clause": "1910.141(c)(1)(ii)"
+        },
+        {
+          "text": "The sewage disposal method must not endanger the health of employees.",
+          "clause": "1910.141(c)(1)(iii)"
+        },
+        {
+          "text": "Each water closet must occupy a separate compartment with a door, and walls or partitions between fixtures high enough to assure privacy.",
+          "clause": "1910.141(c)(2)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What must washing facilities provide?",
+      "intro": "Washing facilities must be kept sanitary, and every lavatory needs running water, soap and a way to dry hands under 1910.141(d)(1) and (d)(2).",
+      "items": [
+        {
+          "text": "Maintain washing facilities in a sanitary condition.",
+          "clause": "1910.141(d)(1)"
+        },
+        {
+          "text": "Make lavatories available in all places of employment; this does not apply to mobile crews or normally unattended work locations if employees there have transportation readily available to nearby washing facilities that meet the other requirements of paragraph (d).",
+          "clause": "1910.141(d)(2)(i)"
+        },
+        {
+          "text": "Provide each lavatory with hot and cold running water, or tepid running water.",
+          "clause": "1910.141(d)(2)(ii)"
+        },
+        {
+          "text": "Provide hand soap or similar cleansing agents.",
+          "clause": "1910.141(d)(2)(iii)"
+        },
+        {
+          "text": "Provide individual hand towels or sections of them (cloth or paper), air blowers, or clean individual sections of continuous cloth toweling, convenient to the lavatories.",
+          "clause": "1910.141(d)(2)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "When are showers, change rooms and clothes drying required?",
+      "intro": "Showers and change rooms are required only when another particular standard calls for them, and clothes drying applies when employer-provided working clothes get wet or are washed between shifts.",
+      "items": [
+        {
+          "text": "Whenever a particular standard requires showers, provide them in line with 1910.141(d)(3)(ii) through (v).",
+          "clause": "1910.141(d)(3)(i)"
+        },
+        {
+          "text": "Provide one shower for each 10 employees of each sex, or numerical fraction thereof, who are required to shower during the same shift.",
+          "clause": "1910.141(d)(3)(ii)"
+        },
+        {
+          "text": "Provide body soap or other appropriate cleansing agents convenient to the showers.",
+          "clause": "1910.141(d)(3)(iii)"
+        },
+        {
+          "text": "Supply showers with hot and cold water feeding a common discharge line.",
+          "clause": "1910.141(d)(3)(iv)"
+        },
+        {
+          "text": "Give employees who use showers individual clean towels.",
+          "clause": "1910.141(d)(3)(v)"
+        },
+        {
+          "text": "Whenever a particular standard requires protective clothing because of possible contamination with toxic materials, provide change rooms with storage for street clothes and separate storage for the protective clothing.",
+          "clause": "1910.141(e)"
+        },
+        {
+          "text": "Where the employer provides working clothes that become wet or are washed between shifts, make provision to ensure they are dry before reuse.",
+          "clause": "1910.141(f)"
+        }
+      ]
+    },
+    {
+      "heading": "Where may employees eat and drink at work?",
+      "intro": "Where employees are permitted to eat or drink on the premises (1910.141(g)(1)), eating, drinking and food storage are barred from toilet rooms and areas exposed to toxic material, and food waste receptacles must meet 1910.141(g)(3).",
+      "items": [
+        {
+          "text": "Do not allow any employee to consume food or beverages in a toilet room or in any area exposed to a toxic material.",
+          "clause": "1910.141(g)(2)"
+        },
+        {
+          "text": "Provide and use receptacles for waste food made of smooth, corrosion resistant, easily cleanable, or disposable materials.",
+          "clause": "1910.141(g)(3)"
+        },
+        {
+          "text": "Set the number, size and location of food waste receptacles so they encourage use and do not result in overfilling.",
+          "clause": "1910.141(g)(3)"
+        },
+        {
+          "text": "Empty food waste receptacles not less often than once each working day, unless unused, and keep them clean and sanitary.",
+          "clause": "1910.141(g)(3)"
+        },
+        {
+          "text": "Fit food waste receptacles with a solid, tight-fitting lid unless sanitary conditions can be maintained without it.",
+          "clause": "1910.141(g)(3)"
+        },
+        {
+          "text": "Do not store food or beverages in toilet rooms or in an area exposed to a toxic material.",
+          "clause": "1910.141(g)(4)"
+        },
+        {
+          "text": "Carry out all employee food service facilities and operations in accordance with sound hygienic principles.",
+          "clause": "1910.141(h)"
+        },
+        {
+          "text": "Where all or part of the food service is provided, the food dispensed must be wholesome, free from spoilage, and processed, prepared, handled and stored so it is protected against contamination.",
+          "clause": "1910.141(h)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the housekeeping, water, toilet, washing, shower, change room and eating-area rules of 1910.141 for a walk-through of a permanent workplace.",
+  "checklist": "us/1910-141-sanitation",
+  "faq": [
+    {
+      "question": "What counts as potable water under 1910.141?",
+      "answer": "The definitions in 1910.141(a)(2) treat water as potable if it meets the drinking water standards of the State or local authority with jurisdiction, or the quality standards in the U.S. Environmental Protection Agency's National Primary Drinking Water Regulations (40 CFR 141)."
+    },
+    {
+      "question": "What is a wet process?",
+      "answer": "1910.141(a)(2) defines a wet process as any process or operation in a workroom that normally leaves surfaces where employees walk or stand wet. That definition decides when the drainage and dry standing place rules of 1910.141(a)(3)(ii) come into play."
+    },
+    {
+      "question": "What does toxic material mean for the eating and food storage rules?",
+      "answer": "Under 1910.141(a)(2), a toxic material is one present above the limit set by an applicable standard, such as 1910.1000 or 1910.1001. Where no standard applies, it is a material toxic enough to be a recognized hazard causing, or likely to cause, death or serious physical harm."
+    },
+    {
+      "question": "What is a personal service room?",
+      "answer": "1910.141(a)(2) defines it as a room used for activities not directly connected with the establishment's production or service work, including, but not limited to, first-aid, medical services, dressing, showering, toilet use, washing and eating."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.141: Sanitation (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.141"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "workplace sanitation",
+    "workplace toilet facilities",
+    "potable drinking water"
+  ],
+  "cover": "1910-141-sanitation",
+  "coverPrompt": "A realistic photograph of a clean, well-lit workplace washroom with a row of sinks, wall-mounted soap and paper towel dispensers, and a worker in work clothes washing hands at a sink, seen from behind at a distance. No text, signs, numbers or logos.",
+  "coverAlt": "Worker washing hands at a clean workplace washroom sink with soap and paper towel dispensers",
+  "changes": []
+}
