@@ -1,0 +1,140 @@
+{
+  "slug": "1910-212-machinery-machine-guarding-all-machines",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-212-machinery-machine-guarding-all-machines",
+  "doc_ref": "SI-US-1910-212",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Machine Guarding Checklist (29 CFR 1910.212)",
+  "subtitle": "For on-site inspections of machines and their guards.",
+  "regulation_line": "OSHA 29 CFR 1910.212",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A, and note the machine or asset ID.",
+    "Report each Defect to the supervisor, keep the machine out of use while employees are exposed, and record the fix.",
+    "The manufacturer's instructions, machine-specific OSHA standards and site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Guarding methods and guard mounting",
+      "items": [
+        [
+          "Hazards guarded",
+          "Point of operation, ingoing nip points, rotating parts and sources of flying chips or sparks are each covered by at least one guarding method.",
+          "1910.212(a)(1)"
+        ],
+        [
+          "Other employees protected",
+          "Guarding also protects employees working near the machine, not just the operator.",
+          "1910.212(a)(1)"
+        ],
+        [
+          "Guard fixed to machine",
+          "Guard is fastened to the machine wherever attachment is possible; no loose or propped-up guards.",
+          "1910.212(a)(2)"
+        ],
+        [
+          "Off-machine guards secured",
+          "Where a guard cannot be fastened to the machine, it is firmly secured elsewhere and stays in position.",
+          "1910.212(a)(2)"
+        ],
+        [
+          "Guard creates no hazard",
+          "Guard has no feature that could injure someone, for example sharp edges, new pinch points or loose parts.",
+          "1910.212(a)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Point of operation",
+      "items": [
+        [
+          "Point of operation identified",
+          "The area where the machine actually works on the material is identified for this machine.",
+          "1910.212(a)(3)(i)"
+        ],
+        [
+          "Point of operation guarded",
+          "Where the machine's operation exposes an employee to injury, a guard or device protects the working area.",
+          "1910.212(a)(3)(ii)"
+        ],
+        [
+          "Applicable standard met",
+          "Guarding device conforms to any appropriate standard that applies to this machine type.",
+          "1910.212(a)(3)(ii)"
+        ],
+        [
+          "Danger zone unreachable",
+          "Where no specific standard applies, the operator cannot place any body part inside the danger zone at any point in the operating cycle.",
+          "1910.212(a)(3)(ii)"
+        ],
+        [
+          "Hand tools usable",
+          "Special hand tools let the operator place and remove material easily with hands kept out of the danger zone.",
+          "1910.212(a)(3)(iii)"
+        ],
+        [
+          "Hand tools not replacing guards",
+          "Required guarding stays in place when hand tools are used; the tools only supplement it.",
+          "1910.212(a)(3)(iii)"
+        ],
+        [
+          "Listed machine types checked",
+          "Any guillotine cutters, shears, alligator shears, power presses, milling machines, power saws, jointers, portable power tools, forming rolls or calenders on site have been checked for point-of-operation guarding.",
+          "1910.212(a)(3)(iv)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Drums, fans and anchoring",
+      "items": [
+        [
+          "Revolving drum enclosure",
+          "Revolving drums, barrels and containers are enclosed by a guard.",
+          "1910.212(a)(4)"
+        ],
+        [
+          "Drum interlock",
+          "With the enclosure open or removed, the drum, barrel or container cannot revolve; interlock tested.",
+          "1910.212(a)(4)"
+        ],
+        [
+          "Low fan blades guarded",
+          "Every fan whose blade periphery sits under 7 feet from the floor or working level has a guard.",
+          "1910.212(a)(5)"
+        ],
+        [
+          "Fan guard openings",
+          "No opening in the fan guard is larger than 1/2 inch, checked with a gauge or rule.",
+          "1910.212(a)(5)"
+        ],
+        [
+          "Fixed machines anchored",
+          "Machines designed for a fixed location are securely anchored and do not walk or move during operation.",
+          "1910.212(b)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.212: General requirements for all machines (Part 1910 Subpart O: Machinery and Machine Guarding)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

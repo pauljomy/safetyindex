@@ -1,0 +1,343 @@
+{
+  "section": "1910.212",
+  "part": "1910",
+  "heading": "General requirements for all machines.",
+  "subpart": "O",
+  "subpartTitle": "Machinery and Machine Guarding",
+  "title": "Machine guarding checklist and OSHA requirements (29 CFR 1910.212)",
+  "seoTitle": "Machine guarding checklist: OSHA 29 CFR 1910.212",
+  "description": "OSHA 29 CFR 1910.212 machine guarding requirements in plain language, citation data for FY2022–FY2026 and a free printable inspection checklist.",
+  "opening": "29 CFR 1910.212 requires employers to guard machines so operators and nearby employees are protected from hazards such as the point of operation, ingoing nip points, rotating parts, flying chips and sparks, and to anchor fixed machines so they cannot walk or move.",
+  "keyword": "machine guarding checklist",
+  "cluster": [
+    {
+      "keyword": "osha machine guarding requirements",
+      "volume": 320,
+      "kd": 19,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "machine guarding checklist",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "machine guarding inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha all machines requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "all machines checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "all machines inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.212",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 350,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 12787,
+    "inspections": 11425,
+    "byFy": {
+      "2022": 2401,
+      "2023": 2687,
+      "2024": 2708,
+      "2025": 2665,
+      "2026": 2326
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(1)",
+        "count": 7825
+      },
+      {
+        "paragraph": "(a)(3)(ii)",
+        "count": 2929
+      },
+      {
+        "paragraph": "(b)",
+        "count": 1001
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 386
+      },
+      {
+        "paragraph": "(a)(5)",
+        "count": 239
+      },
+      {
+        "paragraph": "(a)(3)(iii)",
+        "count": 215
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 47
+      },
+      {
+        "paragraph": "(a)",
+        "count": 36
+      },
+      {
+        "paragraph": "(a)(3)(i)",
+        "count": 28
+      },
+      {
+        "paragraph": "(a)(3)(iv)(F)",
+        "count": 21
+      }
+    ],
+    "penalties": {
+      "n": 11239,
+      "median": 6857,
+      "p25": 3500,
+      "p75": 11585,
+      "total": 109616027
+    },
+    "typeShares": {
+      "serious": 0.859,
+      "willful": 0.004,
+      "repeat": 0.029,
+      "otherThanSerious": 0.108,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 10989,
+      "willful": 45,
+      "repeat": 365,
+      "otherThanSerious": 1383,
+      "unclassified": 5
+    },
+    "topIndustries": [
+      {
+        "naics": "3323",
+        "count": 929,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3261",
+        "count": 704,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "3327",
+        "count": 653,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 577,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3219",
+        "count": 411,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "3222",
+        "count": 290,
+        "title": "Converted Paper Product Manufacturing"
+      },
+      {
+        "naics": "3116",
+        "count": 262,
+        "title": "Animal Slaughtering and Processing"
+      },
+      {
+        "naics": "3118",
+        "count": 260,
+        "title": "Bakeries and Tortilla Manufacturing"
+      },
+      {
+        "naics": "2373",
+        "count": 257,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3119",
+        "count": 242,
+        "title": "Other Food Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.212(a)(1), the general duty to protect operators and nearby employees from hazards such as nip points, rotating parts and flying chips, draws the most citations, followed by 1910.212(a)(3)(ii) on guarding the point of operation and 1910.212(b) on anchoring fixed machinery. Citations rose from 2,401 in FY2022 to 2,708 in FY2024, then fell to 2,665 in FY2025 and 2,326 in FY2026.",
+  "requirementsIntro": "29 CFR 1910.212 sets the general requirements for all machines in Part 1910 Subpart O, and its guarding duties protect both the operator and other employees in the machine area. Paragraph (a) covers guarding methods, guard attachment, point-of-operation protection, revolving drums and fan blades; paragraph (b) covers anchoring fixed machinery.",
+  "requirements": [
+    {
+      "heading": "What guarding does 1910.212 require on machines?",
+      "intro": "Under 1910.212(a)(1), employers must provide one or more guarding methods that protect the operator and other employees in the machine area from machine hazards.",
+      "items": [
+        {
+          "text": "Provide one or more methods of machine guarding that protect the operator and other employees in the machine area.",
+          "clause": "1910.212(a)(1)"
+        },
+        {
+          "text": "Guarding must address hazards such as those created by the point of operation, ingoing nip points, rotating parts, flying chips and sparks.",
+          "clause": "1910.212(a)(1)"
+        },
+        {
+          "text": "Barrier guards, two-hand tripping devices and electronic safety devices are given as examples of guarding methods; the list ends with \"etc.\", so other methods can qualify.",
+          "clause": "1910.212(a)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "How must machine guards be attached?",
+      "intro": "1910.212(a)(2) requires guards to be fixed to the machine where possible and not to create a hazard of their own.",
+      "items": [
+        {
+          "text": "Affix each guard to the machine wherever attachment is possible.",
+          "clause": "1910.212(a)(2)"
+        },
+        {
+          "text": "If a guard cannot be attached to the machine for any reason, secure it elsewhere.",
+          "clause": "1910.212(a)(2)"
+        },
+        {
+          "text": "A guard must not itself offer an accident hazard.",
+          "clause": "1910.212(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "When must a machine's point of operation be guarded?",
+      "intro": "1910.212(a)(3)(ii) requires guarding at the point of operation of machines whose operation exposes an employee to injury.",
+      "items": [
+        {
+          "text": "Point of operation means the area on a machine where work is actually performed on the material being processed.",
+          "clause": "1910.212(a)(3)(i)"
+        },
+        {
+          "text": "Wherever a machine's operation exposes an employee to injury, its point of operation must be guarded.",
+          "clause": "1910.212(a)(3)(ii)"
+        },
+        {
+          "text": "The guarding device must conform to any appropriate standard for that machine.",
+          "clause": "1910.212(a)(3)(ii)"
+        },
+        {
+          "text": "Where no specific standard applies, the device must be designed and built so the operator cannot have any part of the body in the danger zone during the operating cycle.",
+          "clause": "1910.212(a)(3)(ii)"
+        },
+        {
+          "text": "Machines that usually require point-of-operation guarding include guillotine cutters, shears, alligator shears, power presses, milling machines, power saws, jointers, portable power tools, and forming rolls and calenders.",
+          "clause": "1910.212(a)(3)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "Can special hand tools replace a point-of-operation guard?",
+      "intro": "No: 1910.212(a)(3)(iii) allows special hand tools for placing and removing material only as a supplement to the guarding the section requires.",
+      "items": [
+        {
+          "text": "Special hand tools for placing and removing material must allow easy handling without the operator putting a hand into the danger zone.",
+          "clause": "1910.212(a)(3)(iii)"
+        },
+        {
+          "text": "These tools cannot be used instead of required guarding; they may only add to the protection already provided.",
+          "clause": "1910.212(a)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What do revolving drums, fan blades and fixed machines need?",
+      "intro": "1910.212(a)(4), 1910.212(a)(5) and 1910.212(b) add specific rules for revolving drums, barrels and containers, low fan blades, and machines designed for a fixed location.",
+      "items": [
+        {
+          "text": "Guard revolving drums, barrels and containers with an enclosure interlocked with the drive mechanism, so they cannot revolve unless the enclosure is in place.",
+          "clause": "1910.212(a)(4)"
+        },
+        {
+          "text": "Guard fan blades when the periphery of the blades is less than seven (7) feet above the floor or working level.",
+          "clause": "1910.212(a)(5)"
+        },
+        {
+          "text": "Openings in a fan blade guard must be no larger than one-half (1/2) inch.",
+          "clause": "1910.212(a)(5)"
+        },
+        {
+          "text": "Securely anchor machines designed for a fixed location to prevent walking or moving.",
+          "clause": "1910.212(b)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "Use this checklist during a walkthrough or before a machine returns to use to check guarding methods, guard mounting, point-of-operation protection, revolving drums, fan blades and anchoring against 1910.212.",
+  "checklist": "us/1910-212-machinery-machine-guarding-all-machines",
+  "faq": [
+    {
+      "question": "How is the 7-foot fan rule measured on a platform or mezzanine?",
+      "answer": "1910.212(a)(5) measures from \"the floor or working level\". Read plainly, a fan mounted high above the ground floor still needs a guard if its blade edge is less than 7 feet above a platform or mezzanine where people work."
+    },
+    {
+      "question": "Is the machine list in 1910.212(a)(3)(iv) complete?",
+      "answer": "No. The paragraph calls them \"some of the machines\" that usually need point-of-operation guarding. A machine missing from the list still needs it if its operation exposes an employee to injury."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.212: General requirements for all machines (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.212"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "machine guarding",
+    "point of operation guarding",
+    "machine guards"
+  ],
+  "cover": "1910-212-machinery-machine-guarding-all-machines",
+  "coverPrompt": "A machinist operating a metal milling machine in a clean factory workshop, with a clear polycarbonate barrier guard closed over the cutting area, hands well away from the cutter, wearing safety glasses. Side view at mid-distance in natural industrial lighting, no visible text, signs or logos.",
+  "coverAlt": "Machinist running a milling machine with a clear barrier guard closed over the cutting area",
+  "changes": []
+}
