@@ -1,0 +1,161 @@
+{
+  "slug": "1904-29-forms",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1904-29-forms",
+  "doc_ref": "SI-US-1904-29",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA 300 Log Checklist (29 CFR 1904.29)",
+  "subtitle": "Use when auditing injury and illness records and before completing the year's 300-A summary.",
+  "regulation_line": "OSHA 29 CFR 1904.29",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For a Defect, correct the form or entry, note the date it was fixed, and recheck the item.",
+    "Company recordkeeping procedures and site rules may add checks; this list covers 1904.29 only."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Forms in use",
+      "items": [
+        [
+          "Required forms",
+          "Log, summary and incident report forms (OSHA or equivalent) are used for every recordable case",
+          "1904.29(a)"
+        ],
+        [
+          "Equivalent forms",
+          "Any substitute form holds the same information as the OSHA form, is as readable, and follows the same instructions",
+          "1904.29(b)(4)"
+        ],
+        [
+          "Insurance forms",
+          "An insurance form used instead of the 301 carries every item the 301 asks for, with OSHA-required details added where missing",
+          "1904.29(b)(4)"
+        ],
+        [
+          "Computer records",
+          "The recordkeeping system can print equivalent forms on request",
+          "1904.29(b)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "300 Log, 300-A and 301 entries",
+      "items": [
+        [
+          "Establishment details",
+          "Business information is filled in at the top of the current log",
+          "1904.29(b)(1)"
+        ],
+        [
+          "Case descriptions",
+          "Every logged case has a short description of one or two lines",
+          "1904.29(b)(1)"
+        ],
+        [
+          "Annual summary",
+          "Last year's log totals are summarized on a 300-A",
+          "1904.29(b)(1)"
+        ],
+        [
+          "301 for each case",
+          "Each case number on the log has a matching 301 or equivalent incident report",
+          "1904.29(b)(2)"
+        ],
+        [
+          "Recording deadline",
+          "Dates show each case was logged and its 301 completed no more than 7 calendar days after the information was received",
+          "1904.29(b)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Privacy concern cases",
+      "items": [
+        [
+          "Listed case types",
+          "Cases in every 1904.29(b)(7) category, such as mental illness or an injury from sexual assault, are handled as privacy cases",
+          "1904.29(b)(7)"
+        ],
+        [
+          "Contaminated sharps",
+          "Contaminated needlesticks and sharps cuts of the kind described in 1904.29(b)(7)(v) are entered as privacy cases",
+          "1904.29(b)(7)(v)"
+        ],
+        [
+          "Employee requests",
+          "Other illnesses are marked privacy case only where the employee voluntarily asked",
+          "1904.29(b)(7)(vi)"
+        ],
+        [
+          "No extra categories",
+          "No case outside the 1904.29(b)(7) list is recorded with a privacy case entry",
+          "1904.29(b)(8)"
+        ],
+        [
+          "Name column",
+          "The words \"privacy case\" stand in place of the name; no employee name appears for these entries",
+          "1904.29(b)(6)"
+        ],
+        [
+          "Confidential list",
+          "A separate confidential list links case numbers to employee names and is kept up to date",
+          "1904.29(b)(6)"
+        ],
+        [
+          "Descriptions",
+          "Where a description could still point to the worker, the log and incident report give the cause and general severity without intimate details",
+          "1904.29(b)(9)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Disclosure of the forms",
+      "items": [
+        [
+          "Voluntary disclosure",
+          "Copies given to anyone outside the government, employees, former employees and authorized representatives had names and identifying details removed or hidden",
+          "1904.29(b)(10)"
+        ],
+        [
+          "Auditor or consultant",
+          "Unredacted copies went only to an auditor or consultant the employer hired to evaluate the safety and health program",
+          "1904.29(b)(10)(i)"
+        ],
+        [
+          "Insurance claims",
+          "Names were shared only as far as needed to process a workers' compensation or other insurance benefits claim",
+          "1904.29(b)(10)(ii)"
+        ],
+        [
+          "Public health and law enforcement",
+          "Disclosures with names to a public health authority or law enforcement agency are limited to uses that need no consent, authorization or opportunity to agree or object under 45 CFR 164.512",
+          "1904.29(b)(10)(iii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1904.29: Forms (Part 1904 Subpart C: Recordkeeping Forms and Recording Criteria)",
+    "Source: eCFR, Title 29, current as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

@@ -1,0 +1,402 @@
+{
+  "section": "1904.29",
+  "part": "1904",
+  "heading": "Forms.",
+  "subpart": "C",
+  "subpartTitle": "Recordkeeping Forms and Recording Criteria",
+  "title": "OSHA 300 log requirements (29 CFR 1904.29)",
+  "seoTitle": "OSHA 300 Log Requirements: 29 CFR 1904.29 Forms",
+  "description": "What 29 CFR 1904.29 requires for the OSHA 300 log, 300-A and 301 forms, with FY2022–FY2026 citation data and a printable inspection checklist.",
+  "opening": "29 CFR 1904.29 requires employers to enter each recordable injury and illness on the OSHA 300 Log and a 301 Incident Report, or equivalent forms, within seven calendar days of receiving information about it, and to summarize the log on the 300-A at year end.",
+  "keyword": "osha 300 log requirements",
+  "cluster": [
+    {
+      "keyword": "osha osha 300 log requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 300 log checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 300 log inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 300 log requirements",
+      "volume": 480,
+      "kd": 9,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "300 log checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "300 log inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha forms requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "forms checklist",
+      "volume": 50,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "forms inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1904.29",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 530,
+  "kd": 9,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 2936,
+    "inspections": 1853,
+    "byFy": {
+      "2022": 553,
+      "2023": 618,
+      "2024": 593,
+      "2025": 649,
+      "2026": 523
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)",
+        "count": 1721
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 654
+      },
+      {
+        "paragraph": "(b)(3)",
+        "count": 348
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 131
+      },
+      {
+        "paragraph": "(b)(6)",
+        "count": 35
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 17
+      },
+      {
+        "paragraph": "(b)(7)(v)",
+        "count": 17
+      },
+      {
+        "paragraph": "(b)(8)",
+        "count": 9
+      },
+      {
+        "paragraph": "(b)(10)",
+        "count": 1
+      },
+      {
+        "paragraph": "(b)(5)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 2340,
+      "median": 922,
+      "p25": 700,
+      "p75": 1450,
+      "total": 2807745
+    },
+    "typeShares": {
+      "serious": 0.001,
+      "willful": 0,
+      "repeat": 0.004,
+      "otherThanSerious": 0.995,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3,
+      "willful": 1,
+      "repeat": 11,
+      "otherThanSerious": 2920,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "5612",
+        "count": 344,
+        "title": "Facilities Support Services"
+      },
+      {
+        "naics": "2373",
+        "count": 231,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "9221",
+        "count": 216,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "6111",
+        "count": 141,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "2381",
+        "count": 89,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "9211",
+        "count": 74,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "7139",
+        "count": 71,
+        "title": "Other Amusement and Recreation Industries"
+      },
+      {
+        "naics": "2213",
+        "count": 63,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "6221",
+        "count": 62,
+        "title": "General Medical and Surgical Hospitals"
+      },
+      {
+        "naics": "2382",
+        "count": 46,
+        "title": "Building Equipment Contractors"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1904.29(a), the basic duty to use the 300, 300-A and 301 forms or equivalents, drew 1721 of the 2,936 citations in FY2022–FY2026, ahead of 1904.29(b)(1) on filling in the log and year-end summary (654) and 1904.29(b)(3) on the recording deadline (348). Yearly counts were 553 in FY2022, 618 in FY2023, 593 in FY2024, 649 in FY2025 and 523 in FY2026, with FY2025 the highest. Citations under 1904.29(b)(2), which requires a 301 Incident Report for every logged case, numbered 131.",
+  "requirementsIntro": "Section 1904.29 covers the forms used for recordable injuries and illnesses under part 1904; it does not itself say which employers must keep records. Paragraph (a) sets the basic duty, and paragraphs (b)(1) to (b)(10) answer questions on completing the forms, deadlines, equivalent and computer forms, privacy cases and disclosure.",
+  "requirements": [
+    {
+      "heading": "Which forms does 1904.29 require for recordkeeping?",
+      "intro": "1904.29(a) requires the OSHA 300 Log of Work-Related Injuries and Illnesses, the 300-A Summary and the 301 Injury and Illness Incident Report, or equivalent forms, for every recordable case.",
+      "items": [
+        {
+          "text": "Use the OSHA 300, 300-A and 301 forms, or equivalent forms, for recordable injuries and illnesses.",
+          "clause": "1904.29(a)"
+        },
+        {
+          "text": "An equivalent form must contain the same information, be as readable and understandable, and be completed using the same instructions as the OSHA form it replaces.",
+          "clause": "1904.29(b)(4)"
+        },
+        {
+          "text": "The rule notes that many employers use an insurance form in place of the 301, or add the extra information OSHA requires to an insurance form.",
+          "clause": "1904.29(b)(4)"
+        },
+        {
+          "text": "Records may be kept on a computer system if it can produce equivalent forms when they are needed, as described under 1904.35 and 1904.40.",
+          "clause": "1904.29(b)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be entered on the OSHA 300 Log and 300-A?",
+      "intro": "Under 1904.29(b)(1), the 300 Log needs information about the business at the top and a one- or two-line description of each recordable case, and the 300-A summarizes that information at the end of the year.",
+      "items": [
+        {
+          "text": "Enter information about your business at the top of the 300 Log.",
+          "clause": "1904.29(b)(1)"
+        },
+        {
+          "text": "Enter a one- or two-line description for each recordable injury or illness.",
+          "clause": "1904.29(b)(1)"
+        },
+        {
+          "text": "Summarize the log information on the OSHA 300-A at the end of the year.",
+          "clause": "1904.29(b)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "How fast must an injury or illness be recorded?",
+      "intro": "1904.29(b)(3) sets a deadline of seven (7) calendar days, counted from receiving information that a recordable injury or illness has occurred, to enter the case on both the 300 Log and the 301 Incident Report.",
+      "items": [
+        {
+          "text": "Fill in an OSHA 301, or an equivalent form, for each case entered on the 300 Log.",
+          "clause": "1904.29(b)(2)"
+        },
+        {
+          "text": "Enter each recordable case on the 300 Log and the 301 within seven (7) calendar days of receiving information that it occurred.",
+          "clause": "1904.29(b)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "Which injuries and illnesses count as privacy concern cases?",
+      "intro": "1904.29(b)(7) lists the injuries and illnesses employers must consider privacy concern cases, and 1904.29(b)(8) says the list is complete for part 1904 purposes.",
+      "items": [
+        {
+          "text": "An injury or illness to an intimate body part or the reproductive system.",
+          "clause": "1904.29(b)(7)(i)"
+        },
+        {
+          "text": "Injuries or illnesses resulting from a sexual assault.",
+          "clause": "1904.29(b)(7)(ii)"
+        },
+        {
+          "text": "Mental illnesses.",
+          "clause": "1904.29(b)(7)(iii)"
+        },
+        {
+          "text": "HIV infection, hepatitis or tuberculosis.",
+          "clause": "1904.29(b)(7)(iv)"
+        },
+        {
+          "text": "Needlestick injuries and cuts from sharp objects contaminated with another person's blood or other potentially infectious material, as defined in 1904.8.",
+          "clause": "1904.29(b)(7)(v)"
+        },
+        {
+          "text": "Other illnesses, but only if the employee voluntarily asks that their name not be entered on the log.",
+          "clause": "1904.29(b)(7)(vi)"
+        },
+        {
+          "text": "No other types of injury or illness may be added to the privacy concern list.",
+          "clause": "1904.29(b)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "How must privacy concern cases be recorded?",
+      "intro": "For a privacy concern case, 1904.29(b)(6) forbids putting the employee's name on the log and requires the words \"privacy case\" in its place, backed by a separate confidential list.",
+      "items": [
+        {
+          "text": "Write \"privacy case\" in the space normally used for the employee's name.",
+          "clause": "1904.29(b)(6)"
+        },
+        {
+          "text": "Keep a separate, confidential list of case numbers and employee names for these cases, so you can update them and give the information to the government if asked.",
+          "clause": "1904.29(b)(6)"
+        },
+        {
+          "text": "If you have a reasonable basis to believe the description could identify the employee even without a name, you may use discretion in describing the case on both the 300 and 301.",
+          "clause": "1904.29(b)(9)"
+        },
+        {
+          "text": "Even then, enter enough to identify the cause of the incident and the general severity; intimate or private details can be left out, so an assault case could read \"injury from assault\".",
+          "clause": "1904.29(b)(9)"
+        }
+      ]
+    },
+    {
+      "heading": "When can OSHA Forms 300 and 301 be shared with names left in?",
+      "intro": "1904.29(b)(10) requires employee names and other personally identifying information to be removed or hidden whenever an employer voluntarily discloses Forms 300 and 301 to anyone other than government representatives, employees, former employees or authorized representatives, except in the cases listed below.",
+      "items": [
+        {
+          "text": "Before such a voluntary disclosure, remove or hide the names and any other details that personally identify employees.",
+          "clause": "1904.29(b)(10)"
+        },
+        {
+          "text": "An auditor or consultant hired by the employer to evaluate the safety and health program may receive the forms with identifying information.",
+          "clause": "1904.29(b)(10)(i)"
+        },
+        {
+          "text": "Identifying information may be disclosed to the extent necessary for processing a claim for workers' compensation or other insurance benefits.",
+          "clause": "1904.29(b)(10)(ii)"
+        },
+        {
+          "text": "A public health authority or law enforcement agency may receive it for uses and disclosures that require no consent, authorization or opportunity to agree or object under the HHS privacy standards at 45 CFR 164.512.",
+          "clause": "1904.29(b)(10)(iii)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the 300 Log, 300-A summary, 301 incident reports, privacy cases and disclosure under 1904.29; use it for a periodic records audit and before closing out the year's log on the 300-A.",
+  "checklist": "us/1904-29-forms",
+  "faq": [
+    {
+      "question": "Who sees \"privacy case\" in place of a name on the 300 Log?",
+      "answer": "The entry shields the injured or ill employee when another employee, a former employee or an authorized employee representative is given access to the 300 Log, as 1904.29(b)(6) explains. The access rules themselves are in 1904.35."
+    },
+    {
+      "question": "How could an injury to a reproductive organ be described?",
+      "answer": "1904.29(b)(9) offers \"lower abdominal injury\" as example wording, for use when the employer has a reasonable basis to believe the description could identify the employee even with the name removed."
+    },
+    {
+      "question": "Is every needlestick a privacy concern case?",
+      "answer": "No. 1904.29(b)(7)(v) covers needlesticks and sharps cuts only when the object is contaminated with another person's blood or other potentially infectious material, using the definitions in 1904.8."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1904.29: Forms (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1904.29"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "osha 300 log",
+    "injury and illness recordkeeping forms",
+    "privacy concern cases"
+  ],
+  "cover": "1904-29-forms",
+  "coverPrompt": "A safety manager seated at a desk in a warehouse office reviews a paper injury log binder next to a laptop, with shelving and a parked forklift softly blurred through the window behind. No readable text, numbers, logos or close-up faces.",
+  "coverAlt": "Safety manager reviewing an injury and illness log binder at a desk beside a warehouse window",
+  "changes": []
+}
