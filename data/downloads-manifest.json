@@ -380,6 +380,16 @@
       "pdf": "/downloads/us/1926-1412-inspections.pdf",
       "xlsx": "/downloads/us/1926-1412-inspections.xlsx"
     },
+    "us/1926-1413-wire-rope-inspection": {
+      "hash": "3cdf2f504ff45b92e5bcfb4c30a99521e1b6e47a0fdf1eea62e6037fbcdd67d9",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 34,
+      "page_url": "https://safetyindex.blog/us/standards/1926-1413-wire-rope-inspection",
+      "pdf": "/downloads/us/1926-1413-wire-rope-inspection.pdf",
+      "xlsx": "/downloads/us/1926-1413-wire-rope-inspection.xlsx"
+    },
     "us/1926-1417-operation": {
       "hash": "18411e4bc095f16b3bc4bb00c3361bc0cbda6a4e857e66a22bf36d9aaa75c535",
       "lang": "en",

@@ -1,0 +1,532 @@
+{
+  "section": "1926.1413",
+  "part": "1926",
+  "heading": "Wire rope—inspection.",
+  "subpart": "CC",
+  "subpartTitle": "Cranes and Derricks in Construction",
+  "title": "Crane wire rope inspection checklist and OSHA rules (29 CFR 1926.1413)",
+  "seoTitle": "Crane Wire Rope Inspection: OSHA 1926.1413",
+  "description": "OSHA 29 CFR 1926.1413 crane wire rope inspection requirements: shift, monthly and annual checks, removal criteria, citation data and a checklist.",
+  "opening": "29 CFR 1926.1413 requires wire ropes on construction cranes and derricks to be inspected each shift by a competent person, every month, and at least every 12 months by a qualified person, and sets when damaged rope must come out of service.",
+  "keyword": "crane wire rope inspection",
+  "cluster": [
+    {
+      "keyword": "osha wire rope inspection requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wire rope inspection checklist",
+      "volume": 20,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wire rope inspection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha crane wire rope requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane wire rope checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "crane wire rope inspection",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha wire ropeinspection requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wire ropeinspection checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "wire ropeinspection inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1413",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 60,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 63,
+    "inspections": 42,
+    "byFy": {
+      "2022": 10,
+      "2023": 13,
+      "2024": 8,
+      "2025": 19,
+      "2026": 13
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(1)",
+        "count": 15
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 14
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 9
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 7
+      },
+      {
+        "paragraph": "(e)",
+        "count": 5
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 3
+      },
+      {
+        "paragraph": "(a)(2)(i)(A)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(4)(i)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(2)(i)",
+        "count": 1
+      },
+      {
+        "paragraph": "(a)(2)(iii)(A)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 19,
+      "median": 1000,
+      "p25": 450,
+      "p75": 4813,
+      "total": 65491
+    },
+    "typeShares": {
+      "serious": 0.397,
+      "willful": 0,
+      "repeat": 0.016,
+      "otherThanSerious": 0.587,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 25,
+      "willful": 0,
+      "repeat": 1,
+      "otherThanSerious": 37,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2389",
+        "count": 23,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2381",
+        "count": 16,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 6,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "3399",
+        "count": 4,
+        "title": "Other Miscellaneous Manufacturing"
+      },
+      {
+        "naics": "2362",
+        "count": 2,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2371",
+        "count": 2,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 2,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "3339",
+        "count": 2,
+        "title": "Other General Purpose Machinery Manufacturing"
+      },
+      {
+        "naics": "2373",
+        "count": 1,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2383",
+        "count": 1,
+        "title": "Building Finishing Contractors"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraphs are 1926.1413(c)(1), the annual inspection of ropes in use by a qualified person (15 citations), 1926.1413(b)(1), the monthly inspection (14), and 1926.1413(a)(1), the competent person's shift inspection (9); 1926.1413(b)(4), documenting the monthly inspection, follows with 7. Citations went from 10 in FY2022 and 13 in FY2023 down to 8 in FY2024, then rose to 19 in FY2025 and stood at 13 in FY2026.",
+  "requirementsIntro": "Section 1926.1413 sits in Part 1926 Subpart CC (Cranes and Derricks in Construction) and covers inspection of the running and standing wire ropes on equipment under that subpart: paragraph (a) sets the shift inspection, deficiency categories and removal rules, (b) the monthly inspection, (c) the annual/comprehensive inspection, and (d) and (e) lubricants and documents. The groups below give the main rules; the full eCFR text has more detail.",
+  "requirements": [
+    {
+      "heading": "What must the shift inspection of crane wire rope cover?",
+      "intro": "A competent person must visually check, each shift the equipment is used, the running and standing ropes likely to be in use, with particular attention to the critical review items in 1926.1413(a)(3).",
+      "items": [
+        {
+          "text": "A competent person must begin the visual inspection before each shift the equipment is used and complete it before or during that shift.",
+          "clause": "1926.1413(a)(1)"
+        },
+        {
+          "text": "The inspection observes the running and standing wire ropes likely to be in use during the shift for apparent deficiencies, including those listed in 1926.1413(a)(2).",
+          "clause": "1926.1413(a)(1)"
+        },
+        {
+          "text": "Untwisting (opening) the rope or booming down is not required as part of the shift inspection.",
+          "clause": "1926.1413(a)(1)"
+        },
+        {
+          "text": "Check rotation resistant wire rope in use closely.",
+          "clause": "1926.1413(a)(3)(i)"
+        },
+        {
+          "text": "Look closely at rope used for boom hoists and luffing hoists, especially at reverse bends.",
+          "clause": "1926.1413(a)(3)(ii)"
+        },
+        {
+          "text": "Examine rope at flange points, crossover points and repetitive pickup points on drums.",
+          "clause": "1926.1413(a)(3)(iii)"
+        },
+        {
+          "text": "Focus on rope at or near terminal ends.",
+          "clause": "1926.1413(a)(3)(iv)"
+        },
+        {
+          "text": "Inspect rope in contact with saddles, equalizer sheaves or other sheaves where rope travel is limited.",
+          "clause": "1926.1413(a)(3)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What counts as a Category I wire rope deficiency?",
+      "intro": "Category I apparent deficiencies, set out in 1926.1413(a)(2)(i), include the following damage to the rope and its end connections.",
+      "items": [
+        {
+          "text": "Significant distortion of the rope structure, such as kinking, crushing, unstranding, birdcaging, signs of core failure or steel core protruding between the outer strands.",
+          "clause": "1926.1413(a)(2)(i)(A)"
+        },
+        {
+          "text": "Significant corrosion.",
+          "clause": "1926.1413(a)(2)(i)(B)"
+        },
+        {
+          "text": "Electric arc damage from a source other than power lines, or heat damage.",
+          "clause": "1926.1413(a)(2)(i)(C)"
+        },
+        {
+          "text": "Improperly applied end connections.",
+          "clause": "1926.1413(a)(2)(i)(D)"
+        },
+        {
+          "text": "End connections that are significantly corroded, cracked, bent or worn, such as from severe service.",
+          "clause": "1926.1413(a)(2)(i)(E)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the Category II and Category III deficiencies?",
+      "intro": "Category II, in 1926.1413(a)(2)(ii), is defined by broken-wire counts and diameter loss; Category III, in 1926.1413(a)(2)(iii), includes core failure in rotation resistant rope, power line contact and a broken strand.",
+      "items": [
+        {
+          "text": "Category II, running ropes: six randomly distributed broken wires in one rope lay, or three broken wires in one strand within a single lay.",
+          "clause": "1926.1413(a)(2)(ii)(A)(1)"
+        },
+        {
+          "text": "Category II, rotation resistant ropes: two broken wires randomly distributed over six rope diameters, or four randomly distributed broken wires within 30 rope diameters.",
+          "clause": "1926.1413(a)(2)(ii)(A)(2)"
+        },
+        {
+          "text": "Category II, pendants or standing ropes: more than two broken wires per lay in rope beyond the end connections, and/or more than one broken wire in a lay located at an end connection.",
+          "clause": "1926.1413(a)(2)(ii)(A)(3)"
+        },
+        {
+          "text": "Category II: a diameter reduction of more than 5% from nominal diameter.",
+          "clause": "1926.1413(a)(2)(ii)(B)"
+        },
+        {
+          "text": "Category III: core protrusion or other distortion indicating core failure in rotation resistant rope.",
+          "clause": "1926.1413(a)(2)(iii)(A)"
+        },
+        {
+          "text": "Category III: prior electrical contact with a power line.",
+          "clause": "1926.1413(a)(2)(iii)(B)"
+        },
+        {
+          "text": "Category III: a broken strand.",
+          "clause": "1926.1413(a)(2)(iii)(C)"
+        }
+      ]
+    },
+    {
+      "heading": "What must happen when a Category I deficiency is found?",
+      "intro": "The competent person must decide at once whether a Category I deficiency is a safety hazard; if so, work with that rope stops until it is replaced or a localized problem is cut out under 1926.1413(a)(4)(i).",
+      "items": [
+        {
+          "text": "The competent person must make an immediate determination of whether the Category I deficiency constitutes a safety hazard.",
+          "clause": "1926.1413(a)(4)(i)"
+        },
+        {
+          "text": "If the competent person finds a hazard, operations involving the rope are prohibited until one of the fixes in 1926.1413(a)(4)(i)(A) or (B) is made.",
+          "clause": "1926.1413(a)(4)(i)"
+        },
+        {
+          "text": "One permitted fix is replacing the rope (see 1926.1417).",
+          "clause": "1926.1413(a)(4)(i)(A)"
+        },
+        {
+          "text": "If the deficiency is localized, the rope may be severed in two and the undamaged portion kept in use.",
+          "clause": "1926.1413(a)(4)(i)(B)"
+        },
+        {
+          "text": "Joining lengths of wire rope by splicing is prohibited.",
+          "clause": "1926.1413(a)(4)(i)(B)"
+        },
+        {
+          "text": "If the rope is shortened, the employer must ensure the drum still has two wraps of wire when the load and/or boom is in its lowest position.",
+          "clause": "1926.1413(a)(4)(i)(B)"
+        },
+        {
+          "text": "Where a rope must be removed from service, the equipment as a whole or the hoist with that rope must be tagged out under 1926.1417(f)(1) until the rope is repaired or replaced.",
+          "clause": "1926.1413(a)(4)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "What must happen when a Category II or III deficiency is found?",
+      "intro": "Once a Category II or Category III deficiency is identified, the rope may not be used until one of the fixes in 1926.1413(a)(4)(ii) or (a)(4)(iii) is complete.",
+      "items": [
+        {
+          "text": "Category II: comply with the rope manufacturer's established criterion for removal from service, or a different criterion the manufacturer has approved in writing for that specific rope.",
+          "clause": "1926.1413(a)(4)(ii)(A)"
+        },
+        {
+          "text": "Category II: replace the rope (see 1926.1417).",
+          "clause": "1926.1413(a)(4)(ii)(B)"
+        },
+        {
+          "text": "Category II: if the deficiency is localized, sever the rope in two and keep using the good part; 1926.1413(a)(4)(ii)(C) repeats the splicing ban and drum-wrap rule.",
+          "clause": "1926.1413(a)(4)(ii)(C)"
+        },
+        {
+          "text": "Category III: replace the rope (see 1926.1417).",
+          "clause": "1926.1413(a)(4)(iii)(A)"
+        },
+        {
+          "text": "Category III: a localized deficiency other than power line contact may be corrected by severing the rope in two.",
+          "clause": "1926.1413(a)(4)(iii)(B)"
+        },
+        {
+          "text": "Rope that contacted an energized power line must not be repaired.",
+          "clause": "1926.1413(a)(4)(iii)(B)"
+        }
+      ]
+    },
+    {
+      "heading": "What does the monthly wire rope inspection require?",
+      "intro": "Each month, ropes must be inspected to the shift inspection rules in 1926.1413(a), including any deficiencies the annual inspection flagged for monitoring, and the result documented.",
+      "items": [
+        {
+          "text": "Each month, conduct an inspection in accordance with the shift inspection in paragraph (a).",
+          "clause": "1926.1413(b)(1)"
+        },
+        {
+          "text": "Include any deficiencies that the qualified person doing the annual inspection decided under 1926.1413(c)(3)(ii) must be monitored.",
+          "clause": "1926.1413(b)(2)"
+        },
+        {
+          "text": "Ropes must not be used until this inspection shows that no corrective action under 1926.1413(a)(4) is required.",
+          "clause": "1926.1413(b)(3)"
+        },
+        {
+          "text": "Document the inspection according to 1926.1412(e)(3).",
+          "clause": "1926.1413(b)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What does the annual/comprehensive wire rope inspection require?",
+      "intro": "A qualified person must inspect ropes in use on equipment at least every 12 months, both to the shift inspection rules and through a complete, full-length surface inspection under 1926.1413(c)(2).",
+      "items": [
+        {
+          "text": "Within each 12-month period, a qualified person must inspect the wire ropes in use on equipment in accordance with the shift inspection in 1926.1413(a).",
+          "clause": "1926.1413(c)(1)"
+        },
+        {
+          "text": "A further inspection, also due within each 12-month period and done by a qualified person, looks for the deficiency types listed in 1926.1413(a)(2).",
+          "clause": "1926.1413(c)(2)(i)"
+        },
+        {
+          "text": "That inspection must be complete and thorough, covering the surface of the entire length of the ropes.",
+          "clause": "1926.1413(c)(2)(ii)"
+        },
+        {
+          "text": "It gives particular attention to the (a)(3) critical review items.",
+          "clause": "1926.1413(c)(2)(ii)(A)"
+        },
+        {
+          "text": "Sections normally hidden during shift and monthly inspections get particular attention.",
+          "clause": "1926.1413(c)(2)(ii)(B)"
+        },
+        {
+          "text": "Rope subject to reverse bends is a focus area.",
+          "clause": "1926.1413(c)(2)(ii)(C)"
+        },
+        {
+          "text": "Rope passing over sheaves is also a focus area.",
+          "clause": "1926.1413(c)(2)(ii)(D)"
+        },
+        {
+          "text": "If the (c)(2) inspection is not feasible because of the equipment's existing set-up and configuration (such as where an assist crane is needed) or site conditions (such as a dense urban setting), it must be done as soon as it becomes feasible, but no longer than an additional 6 months for running ropes and, for standing ropes, at the time of disassembly.",
+          "clause": "1926.1413(c)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must happen when the annual inspection finds a deficiency?",
+      "intro": "Under 1926.1413(c)(3), the qualified person must decide immediately whether a deficiency found in the annual inspection is a safety hazard, and 1926.1413(c)(4) requires the inspection to be documented.",
+      "items": [
+        {
+          "text": "The qualified person makes an immediate determination of whether the deficiency constitutes a safety hazard.",
+          "clause": "1926.1413(c)(3)"
+        },
+        {
+          "text": "If the deficiency is a hazard, the rope must stay out of operation until a fix in 1926.1413(c)(3)(i)(A) or (B) is made.",
+          "clause": "1926.1413(c)(3)(i)"
+        },
+        {
+          "text": "Replacing the rope (see 1926.1417) is one permitted fix.",
+          "clause": "1926.1413(c)(3)(i)(A)"
+        },
+        {
+          "text": "A localized deficiency may instead be cut out by severing the rope, on the same no-splicing and drum-wrap terms as the shift inspection repair.",
+          "clause": "1926.1413(c)(3)(i)(B)"
+        },
+        {
+          "text": "If the qualified person decides the deficiency is not presently a safety hazard but needs monitoring, the employer must ensure it is checked in the monthly inspections.",
+          "clause": "1926.1413(c)(3)(ii)"
+        },
+        {
+          "text": "Document the inspection according to 1926.1412(f)(7).",
+          "clause": "1926.1413(c)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply to rope lubricants and inspection documents?",
+      "intro": "Lubricants that hinder inspection are banned by 1926.1413(d), and 1926.1413(e) makes every document produced under the section available to the people who inspect.",
+      "items": [
+        {
+          "text": "Do not use rope lubricants of a type that hinders inspection.",
+          "clause": "1926.1413(d)"
+        },
+        {
+          "text": "All documents produced under 1926.1413 must be available, during the applicable document retention period, to everyone who conducts inspections under the section.",
+          "clause": "1926.1413(e)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the shift inspection points, the three deficiency categories, removal from service, and the monthly, annual, lubricant and record rules in 29 CFR 1926.1413; use it at each shift, monthly and annual wire rope inspection.",
+  "checklist": "us/1926-1413-wire-rope-inspection",
+  "faq": [
+    {
+      "question": "Where does arc damage from a power line fit in the deficiency categories?",
+      "answer": "Category I covers electric arc damage only from a source other than power lines (1926.1413(a)(2)(i)(C)). Prior contact with a power line is Category III under 1926.1413(a)(2)(iii)(B). Under 1926.1413(a)(4)(iii)(B), severing out a localized section is not an option for power line contact, and a rope that touched an energized line can't be repaired, which leaves replacement."
+    },
+    {
+      "question": "What is a rope lay when counting broken wires?",
+      "answer": "1926.1413(a)(2)(ii)(A)(1) defines a rope lay as the length along the rope in which one strand makes a complete revolution around the rope. Limits for running ropes and for pendants or standing ropes are counted per lay; limits for rotation resistant rope are counted over six or 30 rope diameters."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1413: Wire rope—inspection (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1413"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "crane wire rope inspection",
+    "wire rope removal criteria",
+    "crane wire rope"
+  ],
+  "cover": "1926-1413-wire-rope-inspection",
+  "coverPrompt": "A realistic photograph of a crane inspector in a hard hat, high-visibility vest and gloves, seen from the side at a distance, examining the steel wire rope wound on a mobile crane's hoist drum at a construction site in overcast daylight.",
+  "coverAlt": "Inspector in hard hat and gloves checking steel wire rope on a mobile crane hoist drum at a construction site",
+  "changes": []
+}

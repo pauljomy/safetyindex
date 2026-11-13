@@ -1,0 +1,237 @@
+{
+  "slug": "1926-1413-wire-rope-inspection",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1413-wire-rope-inspection",
+  "doc_ref": "SI-US-1926-1413",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Crane Wire Rope Inspection Checklist (29 CFR 1926.1413)",
+  "subtitle": "For shift, monthly and annual wire rope inspections on cranes and derricks under Subpart CC.",
+  "regulation_line": "OSHA 29 CFR 1926.1413",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark each item OK, Defect or N/A.",
+    "Report any Defect at once to the competent or qualified person running the inspection; 1926.1413(a)(4) and (c)(3) set when the rope must come out of service.",
+    "The rope manufacturer's instructions and site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Shift inspection and critical review items",
+      "items": [
+        [
+          "Shift inspection timing",
+          "Competent person began the visual inspection before the shift and finished it during or before the shift",
+          "1926.1413(a)(1)"
+        ],
+        [
+          "Ropes covered",
+          "All running and standing ropes likely to be used this shift were observed",
+          "1926.1413(a)(1)"
+        ],
+        [
+          "Rotation resistant rope",
+          "Rotation resistant rope in use was examined closely",
+          "1926.1413(a)(3)(i)"
+        ],
+        [
+          "Boom hoist and luffing hoist rope",
+          "Rope checked along its length, especially at reverse bends",
+          "1926.1413(a)(3)(ii)"
+        ],
+        [
+          "Drum points",
+          "Rope at flange, crossover and repetitive pickup points on drums checked",
+          "1926.1413(a)(3)(iii)"
+        ],
+        [
+          "Terminal ends",
+          "Rope at or near terminal ends checked",
+          "1926.1413(a)(3)(iv)"
+        ],
+        [
+          "Saddles and sheaves",
+          "Rope touching saddles, equalizer sheaves or limited-travel sheaves checked",
+          "1926.1413(a)(3)(v)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Category I and Category III deficiencies",
+      "items": [
+        [
+          "Rope structure",
+          "No significant kinking, crushing, unstranding, birdcaging, core failure signs or steel core protruding between outer strands",
+          "1926.1413(a)(2)(i)(A)"
+        ],
+        [
+          "Corrosion",
+          "No significant corrosion on the rope",
+          "1926.1413(a)(2)(i)(B)"
+        ],
+        [
+          "Arc and heat damage",
+          "No electric arc damage from a non-power-line source and no heat damage",
+          "1926.1413(a)(2)(i)(C)"
+        ],
+        [
+          "End connections fitted",
+          "End connections correctly applied",
+          "1926.1413(a)(2)(i)(D)"
+        ],
+        [
+          "End connection condition",
+          "End connections not significantly corroded, cracked, bent or worn",
+          "1926.1413(a)(2)(i)(E)"
+        ],
+        [
+          "Rotation resistant core",
+          "No core protrusion or other distortion showing core failure",
+          "1926.1413(a)(2)(iii)(A)"
+        ],
+        [
+          "Power line contact",
+          "Rope has had no prior electrical contact with a power line",
+          "1926.1413(a)(2)(iii)(B)"
+        ],
+        [
+          "Strands",
+          "No broken strand anywhere on the rope",
+          "1926.1413(a)(2)(iii)(C)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Category II broken wires and diameter",
+      "items": [
+        [
+          "Running ropes",
+          "Fewer than six random broken wires per lay and fewer than three broken wires in any one strand per lay",
+          "1926.1413(a)(2)(ii)(A)(1)"
+        ],
+        [
+          "Rotation resistant ropes",
+          "Fewer than two random broken wires per six rope diameters and fewer than four per 30 rope diameters",
+          "1926.1413(a)(2)(ii)(A)(2)"
+        ],
+        [
+          "Pendants and standing ropes",
+          "No more than two broken wires per lay beyond end connections and no more than one per lay at an end connection",
+          "1926.1413(a)(2)(ii)(A)(3)"
+        ],
+        [
+          "Rope diameter",
+          "Reduction from nominal diameter is 5% or less",
+          "1926.1413(a)(2)(ii)(B)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Removal from service and repair",
+      "items": [
+        [
+          "Category I hazard decision",
+          "Competent person made an immediate safety-hazard determination for each Category I finding",
+          "1926.1413(a)(4)(i)"
+        ],
+        [
+          "Category II rope out of use",
+          "Rope not used until the manufacturer's removal criterion is met, the rope is replaced, or a localized section is severed out",
+          "1926.1413(a)(4)(ii)"
+        ],
+        [
+          "Category III rope out of use",
+          "Rope not used until replaced, or until a localized defect other than power line contact is severed out",
+          "1926.1413(a)(4)(iii)"
+        ],
+        [
+          "No splices",
+          "No lengths of rope joined by splicing",
+          "1926.1413(a)(4)(i)(B)"
+        ],
+        [
+          "Power line contact repair",
+          "Rope that touched an energized power line has not been repaired",
+          "1926.1413(a)(4)(iii)(B)"
+        ],
+        [
+          "Drum wraps after shortening",
+          "Two wraps remain on the drum with the load and/or boom at its lowest position",
+          "1926.1413(a)(4)(i)(B)"
+        ],
+        [
+          "Tag-out",
+          "Equipment or the affected hoist tagged out per 1926.1417(f)(1) until the rope is repaired or replaced",
+          "1926.1413(a)(4)(iv)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Monthly, annual, lubricant and records",
+      "items": [
+        [
+          "Monthly inspection",
+          "Inspection to paragraph (a) done this month",
+          "1926.1413(b)(1)"
+        ],
+        [
+          "Monitored deficiencies",
+          "Deficiencies flagged for monitoring at the annual inspection were checked",
+          "1926.1413(b)(2)"
+        ],
+        [
+          "Monthly record",
+          "Monthly inspection documented per 1926.1412(e)(3)",
+          "1926.1413(b)(4)"
+        ],
+        [
+          "Annual inspection",
+          "Qualified person inspected ropes in use to paragraph (a) within the last 12 months",
+          "1926.1413(c)(1)"
+        ],
+        [
+          "Full-length inspection",
+          "Complete and thorough check of the rope surface along its entire length done within the 12-month period",
+          "1926.1413(c)(2)(ii)"
+        ],
+        [
+          "Annual record",
+          "Annual/comprehensive inspection documented per 1926.1412(f)(7)",
+          "1926.1413(c)(4)"
+        ],
+        [
+          "Lubricant",
+          "Lubricant on the rope does not hinder inspection",
+          "1926.1413(d)"
+        ],
+        [
+          "Document access",
+          "Inspection documents available to all inspectors during the retention period",
+          "1926.1413(e)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1413: Wire rope—inspection (Part 1926 Subpart CC, Cranes and Derricks in Construction)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
