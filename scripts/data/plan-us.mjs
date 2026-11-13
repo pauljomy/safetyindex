@@ -91,7 +91,12 @@ const pages = cands.map((c) => {
   const volume = cluster.reduce((n, x) => n + (x.volume ?? 0), 0);
   const easy = cluster.filter((x) => x.kd != null && x.kd < t.kd_under && (x.volume ?? 0) > 0).sort((a, b) => rank(b) - rank(a) || b.volume - a.volume)[0];
   let status = "write", reason = "";
-  if (noKeywords) status = "write";
+  // A standard OSHA no longer cites (none in the last two fiscal years) may have been withdrawn or have expired
+  // (e.g. 1910.502, the COVID-19 healthcare ETS); the eCFR text alone doesn't always say so.
+  const st = enf.standards.find((x) => x.section === c.section);
+  const recent = enf.fiscalYears.slice(-2).reduce((n, y) => n + (st?.byFy[y] ?? 0), 0);
+  if (recent === 0) { status = "inactive"; reason = "no citations in the last two fiscal years (possibly withdrawn or expired)"; dist.inactive = (dist.inactive ?? 0) + 1; }
+  else if (noKeywords) status = "write";
   else if (volume < t.volume) { status = "below"; reason = `cluster volume ${volume} (< ${t.volume})`; dist.lowVolume++; }
   else if (!easy) { status = "waiting"; reason = `every measurable phrase has KD ${t.kd_under}+`; dist.waitingKd++; }
   if (status === "write") dist.write++;

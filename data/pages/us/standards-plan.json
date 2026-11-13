@@ -1,5 +1,5 @@
 {
- "planned": "2026-11-12",
+ "planned": "2026-11-13",
  "thresholds": {
   "citations": 30,
   "volume": 50,
@@ -9,9 +9,10 @@
   "cited": 489,
   "floor": 209,
   "onEcfr": 205,
-  "write": 55,
+  "write": 54,
   "waitingKd": 15,
-  "lowVolume": 135
+  "lowVolume": 135,
+  "inactive": 1
  },
  "pages": [
   {
@@ -8678,8 +8679,8 @@
    "kd": 0,
    "titleHint": "Healthcare checklist and OSHA requirements (29 CFR 1910.502)",
    "keywordSource": "OpenSEO",
-   "status": "write",
-   "reason": ""
+   "status": "inactive",
+   "reason": "no citations in the last two fiscal years (possibly withdrawn or expired)"
   },
   {
    "section": "1904.33",
