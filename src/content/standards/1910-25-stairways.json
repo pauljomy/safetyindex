@@ -1,0 +1,408 @@
+{
+  "section": "1910.25",
+  "part": "1910",
+  "heading": "Stairways.",
+  "subpart": "D",
+  "subpartTitle": "Walking-Working Surfaces",
+  "title": "OSHA Stair Requirements and Checklist (29 CFR 1910.25)",
+  "seoTitle": "OSHA 1910.25 Stair Requirements and Checklist",
+  "description": "OSHA 1910.25 stairway rules in plain language: riser, tread, landing and clearance limits, citation data, and a printable stair inspection checklist.",
+  "opening": "29 CFR 1910.25 requires employers to provide the rails called for by 1910.28 on stairways, keep risers and treads uniform, give stairs minimum landings, headroom and strength, and hold standard, spiral, ship and alternating tread-type stairs to their own dimension limits.",
+  "keyword": "osha 1910.25",
+  "cluster": [
+    {
+      "keyword": "osha stair requirements requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "stair requirements checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "stair requirements inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.25",
+      "volume": 140,
+      "kd": 3,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 140,
+  "kd": 3,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 484,
+    "inspections": 399,
+    "byFy": {
+      "2022": 74,
+      "2023": 109,
+      "2024": 92,
+      "2025": 114,
+      "2026": 95
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(3)",
+        "count": 151
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 86
+      },
+      {
+        "paragraph": "(c)(2)",
+        "count": 55
+      },
+      {
+        "paragraph": "(c)(3)",
+        "count": 38
+      },
+      {
+        "paragraph": "(b)(7)",
+        "count": 28
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 24
+      },
+      {
+        "paragraph": "(b)(4)",
+        "count": 21
+      },
+      {
+        "paragraph": "(b)(5)(i)",
+        "count": 17
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 14
+      },
+      {
+        "paragraph": "(c)",
+        "count": 11
+      }
+    ],
+    "penalties": {
+      "n": 289,
+      "median": 4018,
+      "p25": 1809,
+      "p75": 6715,
+      "total": 1355621
+    },
+    "typeShares": {
+      "serious": 0.727,
+      "willful": 0,
+      "repeat": 0.006,
+      "otherThanSerious": 0.264,
+      "unclassified": 0.002
+    },
+    "typeCounts": {
+      "serious": 352,
+      "willful": 0,
+      "repeat": 3,
+      "otherThanSerious": 128,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "3219",
+        "count": 26,
+        "title": "Other Wood Product Manufacturing"
+      },
+      {
+        "naics": "7225",
+        "count": 18,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "2131",
+        "count": 13,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "3116",
+        "count": 12,
+        "title": "Animal Slaughtering and Processing"
+      },
+      {
+        "naics": "2213",
+        "count": 11,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "2373",
+        "count": 11,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3119",
+        "count": 11,
+        "title": "Other Food Manufacturing"
+      },
+      {
+        "naics": "3323",
+        "count": 11,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "4931",
+        "count": 11,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "3211",
+        "count": 10,
+        "title": "Sawmills and Wood Preservation"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.25(b)(3), which requires uniform riser heights and tread depths between landings, drew the most citations (151), followed by 1910.25(b)(1) on providing handrails, stair rail systems and guardrail systems under 1910.28 (86) and 1910.25(c)(2), the 9.5-inch maximum riser height for standard stairs (55). Citations went from 74 in FY2022 to 109 in FY2023, 92 in FY2024, 114 in FY2025 and 95 in FY2026.",
+  "requirementsIntro": "Under 1910.25(a), the section covers all stairways, including standard, spiral, ship and alternating tread-type stairs, but not articulated stairs (such as those serving floating roof tanks), stairs on scaffolds, stairs designed into machines or equipment, or stairs on self-propelled motorized equipment. Paragraph (b) sets general rules for every stairway and paragraphs (c) to (f) add rules for each stair type; the groups below give the main rules, and the full text has more detail, including Figures D-7 to D-9 and Table D-1.",
+  "requirements": [
+    {
+      "heading": "What general rules apply to every stairway?",
+      "intro": "Every stairway covered by 1910.25 must meet the general rules in paragraph (b), whatever its type.",
+      "items": [
+        {
+          "text": "Provide handrails, stair rail systems and guardrail systems in accordance with 1910.28.",
+          "clause": "1910.25(b)(1)"
+        },
+        {
+          "text": "Keep at least 6 feet, 8 inches (203 cm) of vertical clearance above every tread to any overhead obstruction, measured at the tread's leading edge; spiral stairs follow the headroom rule in 1910.25(d)(3) instead.",
+          "clause": "1910.25(b)(2)"
+        },
+        {
+          "text": "Make all risers the same height and all treads the same depth between landings.",
+          "clause": "1910.25(b)(3)"
+        },
+        {
+          "text": "Each stair must support at least five times the normal anticipated live load, and never less than a 1,000-pound (454 kg) concentrated load applied at any point.",
+          "clause": "1910.25(b)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "How big must stair landings and platforms be?",
+      "intro": "Stairway landings and platforms must be at least as wide as the stair and at least 30 inches (76 cm) deep, and 1910.25(b)(5) adds a platform requirement for doors and gates that open onto the stairway.",
+      "items": [
+        {
+          "text": "Make landings and platforms at least as wide as the stair they serve.",
+          "clause": "1910.25(b)(4)"
+        },
+        {
+          "text": "Give every landing and platform a depth of at least 30 inches (76 cm), measured in the direction of travel.",
+          "clause": "1910.25(b)(4)"
+        },
+        {
+          "text": "Provide a platform when a door or gate opens directly on a stairway.",
+          "clause": "1910.25(b)(5)"
+        },
+        {
+          "text": "For platforms installed before January 17, 2017, the swing must not cut the platform's effective usable depth below 20 inches (51 cm).",
+          "clause": "1910.25(b)(5)(i)"
+        },
+        {
+          "text": "For platforms installed on or after January 17, 2017, the swing must leave at least 22 inches (56 cm) of effective usable depth.",
+          "clause": "1910.25(b)(5)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "When must standard stairs be used?",
+      "intro": "Standard stairs are required where operations need regular and routine travel between levels, and spiral, ship or alternating tread-type stairs are allowed only when the employer can demonstrate that standard stairs are not feasible.",
+      "items": [
+        {
+          "text": "Use standard stairs for access from one walking-working surface to another when operations necessitate regular and routine travel between levels, including access to operating platforms for equipment.",
+          "clause": "1910.25(b)(7)"
+        },
+        {
+          "text": "Winding stairways may be used on tanks and similar round structures whose diameter is at least 5 feet (1.5 m).",
+          "clause": "1910.25(b)(7)"
+        },
+        {
+          "text": "Use spiral, ship or alternating tread-type stairs only when the employer can demonstrate that providing standard stairs is not feasible.",
+          "clause": "1910.25(b)(8)"
+        },
+        {
+          "text": "Where those stair types are allowed, install, use and maintain them according to the manufacturer's instructions.",
+          "clause": "1910.25(b)(9)"
+        }
+      ]
+    },
+    {
+      "heading": "What angle and dimensions must standard stairs have?",
+      "intro": "On top of paragraph (b), 1910.25(c) sets an angle range, a riser maximum, a tread minimum and a width minimum for standard stairs.",
+      "items": [
+        {
+          "text": "Install standard stairs at an angle between 30 and 50 degrees from the horizontal.",
+          "clause": "1910.25(c)(1)"
+        },
+        {
+          "text": "Keep each riser no higher than 9.5 inches (24 cm).",
+          "clause": "1910.25(c)(2)"
+        },
+        {
+          "text": "Keep each tread at least 9.5 inches (24 cm) deep.",
+          "clause": "1910.25(c)(3)"
+        },
+        {
+          "text": "Provide at least 22 inches (56 cm) of width between vertical barriers.",
+          "clause": "1910.25(c)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "Do the riser and tread limits apply to older standard stairs?",
+      "intro": "No: 1910.25(c)(5) exempts standard stairs installed prior to January 17, 2017 from the riser maximum in (c)(2) and the tread minimum in (c)(3), under set conditions.",
+      "items": [
+        {
+          "text": "The 9.5-inch riser maximum and 9.5-inch tread minimum do not apply to standard stairs put in before January 17, 2017.",
+          "clause": "1910.25(c)(5)"
+        },
+        {
+          "text": "OSHA deems those older stairs in compliance if they meet the dimensions in Table D-1 of the section or use a riser and tread combination that achieves the angle range of 1910.25(c)(1).",
+          "clause": "1910.25(c)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What dimensions must spiral stairs meet?",
+      "intro": "Spiral stairs must satisfy paragraph (b) plus the width, riser, headroom and tread limits set out in 1910.25(d).",
+      "items": [
+        {
+          "text": "Provide a clear width of at least 26 inches (66 cm).",
+          "clause": "1910.25(d)(1)"
+        },
+        {
+          "text": "Limit riser height to 9.5 inches (24 cm) or less.",
+          "clause": "1910.25(d)(2)"
+        },
+        {
+          "text": "Keep headroom above spiral treads at 6 feet, 6 inches (2 m) or more, taken from the leading edge of the tread.",
+          "clause": "1910.25(d)(3)"
+        },
+        {
+          "text": "Give each tread a depth of at least 7.5 inches (19 cm), measured at a point 12 inches (30 cm) from the narrower edge.",
+          "clause": "1910.25(d)(4)"
+        },
+        {
+          "text": "Use a uniform tread size throughout.",
+          "clause": "1910.25(d)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "What slope and dimensions must ship stairs meet?",
+      "intro": "Ship stairs are steeper than standard stairs and, besides paragraph (b), have to satisfy 1910.25(e) on slope, open risers, rise and tread size.",
+      "items": [
+        {
+          "text": "Install ship stairs at a slope of 50 to 70 degrees from the horizontal.",
+          "clause": "1910.25(e)(1)"
+        },
+        {
+          "text": "Use open risers.",
+          "clause": "1910.25(e)(2)"
+        },
+        {
+          "text": "Keep the vertical rise between tread surfaces within 6.5 to 12 inches (17 to 30 cm).",
+          "clause": "1910.25(e)(2)"
+        },
+        {
+          "text": "Make treads at least 4 inches (10 cm) deep.",
+          "clause": "1910.25(e)(3)"
+        },
+        {
+          "text": "Make treads at least 18 inches (46 cm) wide.",
+          "clause": "1910.25(e)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What slope and dimensions must alternating tread-type stairs meet?",
+      "intro": "Alternating tread-type stairs follow paragraph (b) and the slope, handrail-spacing and tread dimensions given in 1910.25(f).",
+      "items": [
+        {
+          "text": "Install the series of treads at a slope between 50 and 70 degrees, measured from horizontal.",
+          "clause": "1910.25(f)(1)"
+        },
+        {
+          "text": "Space the handrails 17 to 24 inches (51 to 61 cm) apart.",
+          "clause": "1910.25(f)(2)"
+        },
+        {
+          "text": "Give each tread a minimum depth of 8.5 inches (22 cm).",
+          "clause": "1910.25(f)(3)"
+        },
+        {
+          "text": "Use open risers wherever tread depth is less than 9.5 inches (24 cm).",
+          "clause": "1910.25(f)(4)"
+        },
+        {
+          "text": "Make each tread at least 7 inches (18 cm) wide, measured at the leading edge (nosing).",
+          "clause": "1910.25(f)(5)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the general stairway rules and the dimension limits for each of the four stair types in 29 CFR 1910.25, for use during a walk-through inspection of each stairway on site.",
+  "checklist": "us/1910-25-stairways",
+  "faq": [
+    {
+      "question": "Does 1910.25 set handrail heights or stair rail dimensions?",
+      "answer": "No. 1910.25(b)(1) only requires handrails, stair rail systems and guardrail systems to be provided in accordance with 29 CFR 1910.28, so check that section for the rail rules. The only rail measurement in 1910.25 itself is the 17 to 24 inch (51 to 61 cm) spacing between handrails on alternating tread-type stairs in 1910.25(f)(2)."
+    },
+    {
+      "question": "Are stairs built before January 17, 2017 exempt from the whole section?",
+      "answer": "No. In the supplied text, the installation date matters in two places only: the door-swing platform depth in 1910.25(b)(5)(i) and (ii), and the riser and tread exception for standard stairs in 1910.25(c)(5). Older stairs still have to meet the other rules, such as uniform risers and treads under (b)(3) and the 30 to 50 degree angle under (c)(1)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.25: Stairways (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.25"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "stairway requirements",
+    "ship stairs",
+    "spiral stairs"
+  ],
+  "cover": "1910-25-stairways",
+  "coverPrompt": "A worker in a hard hat, safety glasses and work boots walks down a steel industrial stairway inside a manufacturing plant, one hand on the handrail, with uniform open-grid treads, a stair rail along the open side and a level landing at the bottom. Bright even lighting, shown from the side at mid-distance, with no signs, text, numbers or logos.",
+  "coverAlt": "Worker holding the handrail while walking down a steel stairway with uniform treads in a factory",
+  "changes": []
+}

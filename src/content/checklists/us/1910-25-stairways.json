@@ -1,0 +1,232 @@
+{
+  "slug": "1910-25-stairways",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-25-stairways",
+  "doc_ref": "SI-US-1910-25",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Stair Inspection Checklist (29 CFR 1910.25)",
+  "subtitle": "Use on a site walk-through of each stairway covered by 29 CFR 1910.25.",
+  "regulation_line": "OSHA 29 CFR 1910.25",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; mark a whole section N/A when that stair type is not present.",
+    "For each Defect, record the stair location and what failed, report it for correction, and keep the stair out of use if it is unsafe to climb.",
+    "The manufacturer's instructions, 1910.28 rail rules and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "General stairway conditions",
+      "items": [
+        [
+          "Rails and guards",
+          "Handrails, stair rails and guardrails installed as 1910.28 requires; none missing or removed",
+          "1910.25(b)(1)"
+        ],
+        [
+          "Overhead clearance",
+          "At least 6 ft 8 in (203 cm) from each tread's front edge to the nearest overhead obstruction (spiral stairs: see section D)",
+          "1910.25(b)(2)"
+        ],
+        [
+          "Uniform steps",
+          "Every riser in the flight the same height and every tread the same depth, including the first and last step before a landing",
+          "1910.25(b)(3)"
+        ],
+        [
+          "Landing width",
+          "Each landing and platform is no narrower than the stair",
+          "1910.25(b)(4)"
+        ],
+        [
+          "Landing depth",
+          "Landings and platforms measure 30 in (76 cm) or more in the direction of travel",
+          "1910.25(b)(4)"
+        ],
+        [
+          "Platform at doors and gates",
+          "A platform exists wherever a door or gate opens directly onto the stair",
+          "1910.25(b)(5)"
+        ],
+        [
+          "Door swing, platform installed before January 17, 2017",
+          "With the door or gate fully open, 20 in (51 cm) or more of usable platform depth remains",
+          "1910.25(b)(5)(i)"
+        ],
+        [
+          "Door swing, platform installed on or after January 17, 2017",
+          "With the door or gate fully open, 22 in (56 cm) or more of usable platform depth remains",
+          "1910.25(b)(5)(ii)"
+        ],
+        [
+          "Load capacity",
+          "Each stair can support at least five times the normal anticipated live load, and no less than 1,000 lb (454 kg) concentrated at any point",
+          "1910.25(b)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Choice of stair type",
+      "items": [
+        [
+          "Routine travel routes",
+          "Standard stairs serve every route between levels used regularly and routinely, including to equipment operating platforms",
+          "1910.25(b)(7)"
+        ],
+        [
+          "Winding stairs on tanks",
+          "Any winding stairway is on a tank or similar round structure with a diameter of 5 ft (1.5 m) or more",
+          "1910.25(b)(7)"
+        ],
+        [
+          "Non-standard stair type justified",
+          "Where spiral, ship or alternating tread stairs are used, the employer can show why standard stairs are not feasible at this location",
+          "1910.25(b)(8)"
+        ],
+        [
+          "Manufacturer's instructions",
+          "Installation, use and maintenance of these non-standard stairs match the manufacturer's instructions",
+          "1910.25(b)(9)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Standard stairs",
+      "items": [
+        [
+          "Stair angle",
+          "Pitch measures 30 to 50 degrees from horizontal",
+          "1910.25(c)(1)"
+        ],
+        [
+          "Riser height",
+          "No riser taller than 9.5 in (24 cm)",
+          "1910.25(c)(2)"
+        ],
+        [
+          "Tread depth",
+          "No tread shallower than 9.5 in (24 cm)",
+          "1910.25(c)(3)"
+        ],
+        [
+          "Stair width",
+          "22 in (56 cm) or more between vertical barriers",
+          "1910.25(c)(4)"
+        ],
+        [
+          "Older standard stairs (pre-January 17, 2017)",
+          "Where risers or treads fall outside C2 or C3: dimensions match Table D-1, or the combination gives the 30 to 50 degree angle",
+          "1910.25(c)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Spiral stairs",
+      "items": [
+        [
+          "Clear width",
+          "26 in (66 cm) or more of clear width",
+          "1910.25(d)(1)"
+        ],
+        [
+          "Riser height",
+          "Every riser 9.5 in (24 cm) or less",
+          "1910.25(d)(2)"
+        ],
+        [
+          "Headroom",
+          "6 ft 6 in (2 m) or more above each tread, taken at its front edge",
+          "1910.25(d)(3)"
+        ],
+        [
+          "Tread depth",
+          "7.5 in (19 cm) or more, measured 12 in (30 cm) out from the narrow edge",
+          "1910.25(d)(4)"
+        ],
+        [
+          "Tread size",
+          "All treads the same size",
+          "1910.25(d)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Ship stairs and alternating tread-type stairs",
+      "items": [
+        [
+          "Ship stair slope",
+          "Slope measures 50 to 70 degrees from horizontal",
+          "1910.25(e)(1)"
+        ],
+        [
+          "Ship stair risers",
+          "Risers are open (no riser boards)",
+          "1910.25(e)(2)"
+        ],
+        [
+          "Ship stair rise",
+          "Vertical rise between tread surfaces is 6.5 to 12 in (17 to 30 cm)",
+          "1910.25(e)(2)"
+        ],
+        [
+          "Ship stair tread depth",
+          "Each tread 4 in (10 cm) deep or more",
+          "1910.25(e)(3)"
+        ],
+        [
+          "Ship stair tread width",
+          "Each tread 18 in (46 cm) wide or more",
+          "1910.25(e)(4)"
+        ],
+        [
+          "Alternating tread slope",
+          "Tread series slopes at 50–70 degrees from horizontal",
+          "1910.25(f)(1)"
+        ],
+        [
+          "Handrail spacing",
+          "Handrails 17 to 24 in (51 to 61 cm) apart",
+          "1910.25(f)(2)"
+        ],
+        [
+          "Alternating tread depth",
+          "Each tread 8.5 in (22 cm) deep or more",
+          "1910.25(f)(3)"
+        ],
+        [
+          "Open risers on shallow treads",
+          "Risers are open wherever tread depth is under 9.5 in (24 cm)",
+          "1910.25(f)(4)"
+        ],
+        [
+          "Alternating tread width",
+          "Each tread 7 in (18 cm) wide or more at the nosing",
+          "1910.25(f)(5)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.25: Stairways (Part 1910 Subpart D, Walking-Working Surfaces)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
