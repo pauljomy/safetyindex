@@ -1,0 +1,529 @@
+{
+  "section": "1926.1101",
+  "part": "1926",
+  "heading": "Asbestos.",
+  "subpart": "Z",
+  "subpartTitle": "Toxic and Hazardous Substances",
+  "title": "Asbestos inspection checklist and OSHA requirements (29 CFR 1926.1101)",
+  "seoTitle": "Asbestos Inspection Checklist: OSHA 1926.1101",
+  "description": "OSHA 29 CFR 1926.1101 asbestos requirements for construction, with enforcement data and an asbestos inspection checklist you can print or download.",
+  "opening": "29 CFR 1926.1101 requires construction employers working with asbestos to keep exposure at or below 0.1 f/cc as an 8-hour TWA and 1.0 f/cc over 30 minutes, assess and monitor exposure, run Class I–III work in regulated areas, and use specified controls, respirators and clothing.",
+  "keyword": "asbestos inspection",
+  "cluster": [
+    {
+      "keyword": "osha asbestos requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "asbestos checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "asbestos inspection",
+      "volume": 12100,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha construction asbestos requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction asbestos checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction asbestos inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.1101",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 12110,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 3327,
+    "inspections": 981,
+    "byFy": {
+      "2022": 552,
+      "2023": 657,
+      "2024": 686,
+      "2025": 778,
+      "2026": 654
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(k)(3)(i)",
+        "count": 229
+      },
+      {
+        "paragraph": "(f)(1)(i)",
+        "count": 169
+      },
+      {
+        "paragraph": "(k)(9)(i)",
+        "count": 169
+      },
+      {
+        "paragraph": "(k)(3)(ii)",
+        "count": 167
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 140
+      },
+      {
+        "paragraph": "(h)(2)(i)",
+        "count": 118
+      },
+      {
+        "paragraph": "(i)(1)",
+        "count": 117
+      },
+      {
+        "paragraph": "(g)(1)",
+        "count": 109
+      },
+      {
+        "paragraph": "(k)(2)(i)",
+        "count": 99
+      },
+      {
+        "paragraph": "(f)(2)(i)",
+        "count": 96
+      }
+    ],
+    "penalties": {
+      "n": 1496,
+      "median": 2500,
+      "p25": 500,
+      "p75": 4729,
+      "total": 7732047
+    },
+    "typeShares": {
+      "serious": 0.75,
+      "willful": 0.014,
+      "repeat": 0.03,
+      "otherThanSerious": 0.206,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 2495,
+      "willful": 46,
+      "repeat": 101,
+      "otherThanSerious": 684,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "5629",
+        "count": 940,
+        "title": "Remediation and Other Waste Management Services"
+      },
+      {
+        "naics": "2389",
+        "count": 479,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 316,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2381",
+        "count": 235,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 220,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2383",
+        "count": 207,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2382",
+        "count": 129,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2371",
+        "count": 100,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "5313",
+        "count": 82,
+        "title": "Activities Related to Real Estate"
+      },
+      {
+        "naics": "5311",
+        "count": 78,
+        "title": "Lessors of Real Estate"
+      }
+    ]
+  },
+  "enforcementSummary": "1926.1101(k)(3)(i) was the most-cited paragraph with 229 citations, followed at 169 each by 1926.1101(f)(1)(i), which requires monitoring to determine airborne asbestos concentrations wherever the standard calls for monitoring, and 1926.1101(k)(9)(i), part of the training paragraph the standard points to for Class IV and flooring work. Regulated areas under 1926.1101(e)(1) drew 140 citations and the respirator program under 1926.1101(h)(2)(i) drew 118. Citations rose from 552 in FY2022 to 657, 686 and 778 over FY2023–FY2025, then fell to 654 in FY2026.",
+  "requirementsIntro": "29 CFR 1926.1101 covers asbestos exposure in all work defined in 29 CFR 1910.12(b), including demolition or salvage, removal or encapsulation, construction, alteration, repair, maintenance or renovation of structures containing asbestos, installation of asbestos products, spill and emergency cleanup, and on-site transport, disposal, storage, containment and housekeeping. The groups below follow the standard from the work classes in paragraph (b) through exposure limits, multi-employer duties, regulated areas, monitoring, controls by class, respirators and protective clothing.",
+  "requirements": [
+    {
+      "heading": "What counts as Class I, II, III and IV asbestos work?",
+      "intro": "1926.1101(b) sorts asbestos work into four classes by material and activity, and most controls in the standard depend on the class.",
+      "items": [
+        {
+          "text": "Class I work is removal of thermal system insulation (TSI) and surfacing ACM and PACM.",
+          "clause": "1926.1101(b)"
+        },
+        {
+          "text": "Class II work is removal of ACM that is not TSI or surfacing material, such as asbestos-containing wallboard, floor tile and sheeting, roofing and siding shingles, and construction mastics.",
+          "clause": "1926.1101(b)"
+        },
+        {
+          "text": "Class III work is repair and maintenance where ACM, including TSI and surfacing ACM and PACM, is likely to be disturbed.",
+          "clause": "1926.1101(b)"
+        },
+        {
+          "text": "Class IV work is maintenance and custodial activity where employees contact but do not disturb ACM or PACM, plus cleanup of dust, waste and debris from Class I, II and III work.",
+          "clause": "1926.1101(b)"
+        },
+        {
+          "text": "ACM is any material with more than one percent asbestos; PACM is TSI and surfacing material in buildings constructed no later than 1980, and that designation can be rebutted under paragraph (k)(5).",
+          "clause": "1926.1101(b)"
+        },
+        {
+          "text": "Coverage depends on the nature of the work operation involving asbestos exposure.",
+          "clause": "1926.1101(a)(7)"
+        },
+        {
+          "text": "The section does not apply to asbestos-containing asphalt roof coatings, cements and mastics.",
+          "clause": "1926.1101(a)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "What exposure limits and monitoring does 1926.1101 require?",
+      "intro": "1926.1101(c) sets two permissible exposure limits (PELs) for airborne asbestos, and paragraph (f) requires an initial exposure assessment plus monitoring to check exposures against them.",
+      "items": [
+        {
+          "text": "No employee may be exposed above 0.1 fiber per cubic centimeter of air as an 8-hour time-weighted average (TWA), measured by the appendix A method or an equivalent.",
+          "clause": "1926.1101(c)(1)"
+        },
+        {
+          "text": "No employee may be exposed above 1.0 f/cc averaged over a 30-minute sampling period (the excursion limit).",
+          "clause": "1926.1101(c)(2)"
+        },
+        {
+          "text": "Immediately before or at the start of each operation, a competent person has to assess expected exposure, in time to meet duties triggered by exposure data and to confirm the planned controls are appropriate and will work.",
+          "clause": "1926.1101(f)(2)(i)"
+        },
+        {
+          "text": "For Class I work, the employer must presume employees are above both limits until monitoring documents otherwise or it makes a negative exposure assessment (NEA).",
+          "clause": "1926.1101(f)(2)(ii)"
+        },
+        {
+          "text": "An NEA for one specific job done by employees trained under the standard can rest on objective data, monitoring of closely resembling prior jobs within 12 months, or initial monitoring of the current job, each meeting the conditions in the clause.",
+          "clause": "1926.1101(f)(2)(iii)"
+        },
+        {
+          "text": "Class I and II work inside a regulated area needs daily monitoring representative of each employee, unless an NEA covers the entire operation; (f)(3)(iii) sets an exception for supplied-air respirators in pressure-demand or other positive-pressure mode, with limits for non-listed Class I methods.",
+          "clause": "1926.1101(f)(3)(i)"
+        },
+        {
+          "text": "Monitoring must restart whenever a change in process, control equipment, personnel or work practices may cause new exposures above a limit, or the employer suspects it may, even if an NEA was made earlier.",
+          "clause": "1926.1101(f)(4)(ii)"
+        },
+        {
+          "text": "Each affected employee must be told the results within 5 working days of the employer receiving them, individually in writing or by posting in an accessible location.",
+          "clause": "1926.1101(f)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "When must asbestos work happen inside a regulated area?",
+      "intro": "Under 1926.1101(e)(1), all Class I, II and III work must be done within regulated areas, and other covered operations must be too wherever airborne asbestos exceeds, or may reasonably exceed, a PEL.",
+      "items": [
+        {
+          "text": "Mark the area in a way that keeps the number of people inside to a minimum and protects people outside; critical barriers or negative pressure enclosures can serve as the boundary, and signs are required under (k)(7).",
+          "clause": "1926.1101(e)(2)"
+        },
+        {
+          "text": "Only authorized persons, and persons authorized by the Act or its regulations, may enter.",
+          "clause": "1926.1101(e)(3)"
+        },
+        {
+          "text": "Anyone entering where employees must wear respirators under (h)(1) must be given a respirator selected under (h)(3).",
+          "clause": "1926.1101(e)(4)"
+        },
+        {
+          "text": "No eating, drinking, smoking, chewing tobacco or gum, or applying cosmetics inside.",
+          "clause": "1926.1101(e)(5)"
+        },
+        {
+          "text": "All asbestos work performed there must be supervised by a competent person, whose duties are set out in paragraph (o).",
+          "clause": "1926.1101(e)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What must each employer do on a multi-employer site?",
+      "intro": "1926.1101(d) gives separate asbestos duties to the employer running the regulated area, employers working next to it, and the general contractor.",
+      "items": [
+        {
+          "text": "The employer whose work requires a regulated area must tell other employers on site about its asbestos or PACM work, the regulated areas and their requirements, and how their employees are kept from exposure.",
+          "clause": "1926.1101(d)(1)"
+        },
+        {
+          "text": "The contractor who created or controls the source of contamination must abate the hazard; for example, the employer who erected a Class I enclosure must repair a significant breach immediately.",
+          "clause": "1926.1101(d)(2)"
+        },
+        {
+          "text": "Every employer whose employees are exposed must protect them, for example by removing them until a breach is repaired or by performing an initial exposure assessment.",
+          "clause": "1926.1101(d)(3)"
+        },
+        {
+          "text": "Employers of employees working next to another employer's regulated area must check daily that the enclosure is intact or the control method is working, so fibers do not migrate to their area.",
+          "clause": "1926.1101(d)(4)"
+        },
+        {
+          "text": "The general contractor has general supervisory authority over covered work, even if not qualified as the asbestos competent person, and must ascertain whether the asbestos contractor complies and require it to comply when necessary.",
+          "clause": "1926.1101(d)(5)"
+        }
+      ]
+    },
+    {
+      "heading": "Which controls apply to all asbestos work, and which methods are banned?",
+      "intro": "1926.1101(g)(1) requires three controls in every covered operation regardless of exposure level, and 1926.1101(g)(3) bans four practices whatever the measured exposure.",
+      "items": [
+        {
+          "text": "Collect all ACM and PACM dust and debris with HEPA-filtered vacuums, except for roofing material covered by (g)(8)(ii).",
+          "clause": "1926.1101(g)(1)(i)"
+        },
+        {
+          "text": "Use wet methods or wetting agents during handling, mixing, removal, cutting, application and cleanup, unless the employer shows they are infeasible (for example, electrical hazards or equipment malfunction) or roofing rules in (g)(8)(ii) apply.",
+          "clause": "1926.1101(g)(1)(ii)"
+        },
+        {
+          "text": "Clean up and dispose of contaminated waste and debris promptly in leak-tight containers, except in roofing operations covered by (g)(8)(ii).",
+          "clause": "1926.1101(g)(1)(iii)"
+        },
+        {
+          "text": "Where feasible engineering and work practice controls cannot bring exposure to the PELs, use them to reach the lowest attainable level and add respiratory protection meeting paragraph (h).",
+          "clause": "1926.1101(g)(2)(v)"
+        },
+        {
+          "text": "High-speed abrasive disc saws are banned unless fitted with a point-of-cut ventilator or an enclosure with HEPA-filtered exhaust.",
+          "clause": "1926.1101(g)(3)(i)"
+        },
+        {
+          "text": "Compressed air may not be used to remove asbestos unless paired with an enclosed ventilation system designed to capture the dust cloud.",
+          "clause": "1926.1101(g)(3)(ii)"
+        },
+        {
+          "text": "Dry sweeping, shoveling or other dry cleanup of ACM and PACM dust and debris is banned.",
+          "clause": "1926.1101(g)(3)(iii)"
+        },
+        {
+          "text": "Rotating employees to reduce their exposure is banned.",
+          "clause": "1926.1101(g)(3)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra controls does Class I asbestos work need?",
+      "intro": "Class I work must meet 1926.1101(g)(4) on top of (g)(1) and (g)(2), and must use one or more control methods from (g)(5) or an alternative certified under (g)(6).",
+      "items": [
+        {
+          "text": "A competent person must supervise all Class I work, including installing and operating the control system.",
+          "clause": "1926.1101(g)(4)(i)"
+        },
+        {
+          "text": "Jobs removing more than 25 linear or 10 square feet of TSI or surfacing material, other Class I jobs without an NEA, and jobs with employees working next to the area need critical barriers over all openings (except outdoors) or another isolation method verified by perimeter surveillance each shift and perimeter area monitoring.",
+          "clause": "1926.1101(g)(4)(ii)"
+        },
+        {
+          "text": "HVAC systems in the regulated area must be isolated by sealing with a double layer of 6 mil plastic or the equivalent.",
+          "clause": "1926.1101(g)(4)(iii)"
+        },
+        {
+          "text": "Impermeable dropcloths must cover surfaces beneath all removal activity.",
+          "clause": "1926.1101(g)(4)(iv)"
+        },
+        {
+          "text": "A negative pressure enclosure (NPE) must keep at least 4 air changes per hour.",
+          "clause": "1926.1101(g)(5)(i)(A)(2)"
+        },
+        {
+          "text": "Before work inside an NPE begins and at the start of each shift, it must be inspected for breaches and smoke-tested, with any leaks sealed.",
+          "clause": "1926.1101(g)(5)(i)(B)(1)"
+        },
+        {
+          "text": "Glovebags may be used only once and may not be moved; Class I glovebag removal needs at least two persons under (g)(5)(ii)(B)(9).",
+          "clause": "1926.1101(g)(5)(ii)(B)(3)"
+        },
+        {
+          "text": "A control method not listed in (g)(5), or a modified one, needs written certification by a certified industrial hygienist or licensed professional engineer who is also a qualified project designer; for smaller TSI or surfacing jobs meeting (g)(6)(ii)(A), a competent person may do the evaluation.",
+          "clause": "1926.1101(g)(6)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What controls apply to Class II, III and IV work?",
+      "intro": "1926.1101(g)(7) through (g)(10) set controls for Class II, III and IV work that depend on the material, the task and whether the employer has an NEA.",
+      "items": [
+        {
+          "text": "Class II work must be supervised by a competent person.",
+          "clause": "1926.1101(g)(7)(i)"
+        },
+        {
+          "text": "Indoor Class II jobs without an NEA, where changed conditions indicate possible exposure above a PEL, or where ACM is not removed substantially intact, need critical barriers over all openings or another isolation method verified by perimeter or clearance monitoring, plus impermeable dropcloths beneath removal.",
+          "clause": "1926.1101(g)(7)(ii)"
+        },
+        {
+          "text": "When removing vinyl and asphalt flooring that contains ACM, or that has not been verified ACM-free in buildings constructed no later than 1980, the flooring or its backing must not be sanded.",
+          "clause": "1926.1101(g)(8)(i)(A)"
+        },
+        {
+          "text": "Resilient flooring, including mastic and backing, must be assumed to contain asbestos unless an industrial hygienist finds it asbestos-free using recognized analytical techniques.",
+          "clause": "1926.1101(g)(8)(i)(I)"
+        },
+        {
+          "text": "ACM removed from a roof must not be dropped or thrown; unless carried or passed down by hand, it goes down by covered, dust-tight chute, crane or hoist.",
+          "clause": "1926.1101(g)(8)(ii)(E)"
+        },
+        {
+          "text": "Class III work must use wet methods, and local exhaust ventilation to the extent feasible under (g)(9)(ii).",
+          "clause": "1926.1101(g)(9)(i)"
+        },
+        {
+          "text": "Drilling, cutting, abrading, sanding, chipping, breaking or sawing TSI or surfacing material in Class III work needs impermeable dropcloths and isolation by mini-enclosure, glove bag system or a different isolation method.",
+          "clause": "1926.1101(g)(9)(iii)"
+        },
+        {
+          "text": "Class IV work must be done by employees trained in the asbestos awareness program in (k)(9) and must follow (g)(1): wet methods, HEPA vacuums and prompt cleanup of ACM or PACM debris.",
+          "clause": "1926.1101(g)(10)"
+        }
+      ]
+    },
+    {
+      "heading": "When are respirators and protective clothing required?",
+      "intro": "1926.1101(h)(1) lists the work that requires respirators, 1926.1101(h)(3) sets which types, and 1926.1101(i)(1) sets when protective clothing is required.",
+      "items": [
+        {
+          "text": "Respirators are required for all Class I work.",
+          "clause": "1926.1101(h)(1)(i)"
+        },
+        {
+          "text": "Respirators are required for Class II and III work when no NEA has been conducted; (h)(1)(ii), (iii) and (v) add Class II work where ACM is not removed substantially intact, dry Class II and III work (with a sloped-roof exception), and Class III work disturbing TSI or surfacing ACM or PACM.",
+          "clause": "1926.1101(h)(1)(iv)"
+        },
+        {
+          "text": "Respirators are required for any covered operation where employees are exposed above the TWA or excursion limit, and in emergencies under (h)(1)(viii).",
+          "clause": "1926.1101(h)(1)(vii)"
+        },
+        {
+          "text": "The employer must run a respiratory protection program meeting the parts of 29 CFR 1910.134 listed in this clause, covering every employee this section requires to use a respirator.",
+          "clause": "1926.1101(h)(2)(i)"
+        },
+        {
+          "text": "Filtering facepiece respirators must not be selected or used against asbestos fibers, and air-purifying respirators need HEPA filters under (h)(3)(i)(B).",
+          "clause": "1926.1101(h)(3)(i)(A)"
+        },
+        {
+          "text": "Class I work without an NEA, where the assessment indicates exposure at or below 1 f/cc as an 8-hour TWA, needs a tight-fitting PAPR or a full facepiece supplied-air respirator in pressure-demand mode with HEPA egress cartridges or an auxiliary positive-pressure SCBA.",
+          "clause": "1926.1101(h)(3)(iv)(A)"
+        },
+        {
+          "text": "Where that Class I assessment indicates above 1 f/cc, a full facepiece supplied-air respirator in pressure-demand mode with an auxiliary positive-pressure SCBA is required.",
+          "clause": "1926.1101(h)(3)(iv)(B)"
+        },
+        {
+          "text": "Coveralls or similar whole-body clothing, head coverings, gloves and foot coverings are required for employees exposed above the TWA or excursion limit, where a required NEA is not produced, or for Class I removal of over 25 linear or 10 square feet of TSI or surfacing ACM and PACM.",
+          "clause": "1926.1101(i)(1)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers work classification, regulated areas, controls, monitoring and protective equipment under 1926.1101 paragraphs (b) through (i); use it before asbestos work starts and again every shift.",
+  "checklist": "us/1926-1101-asbestos",
+  "faq": [
+    {
+      "question": "Is there a size limit on what counts as a disturbance in Class III work?",
+      "answer": "The definition of disturbance in 1926.1101(b) caps the amount of ACM or PACM disturbed at what one glove bag or waste bag can hold, and that bag may not exceed 60 inches in length and width. Disturbance covers disrupting the material's matrix, crumbling or pulverizing it, or generating visible debris from it."
+    },
+    {
+      "question": "Can glovebags be used on hot pipes?",
+      "answer": "1926.1101(g)(5)(ii)(B)(4) bars glovebags on surfaces whose temperature exceeds 150 °F. Negative pressure glove bag systems must follow the same rule under 1926.1101(g)(5)(iii)(B)(1)."
+    },
+    {
+      "question": "What happens to a worker who cannot wear a respirator?",
+      "answer": "Under 1926.1101(h)(2)(ii), if the examining physician finds from the most recent medical exam that the employee cannot function normally in a respirator, or that respirator use would impair their safety or health or that of others, the employee may not be assigned to asbestos work requiring one. They must be given another job or the chance to transfer, and an available transfer position must be with the same employer, in the same geographical area, with the same seniority, status, rate of pay and other benefits."
+    },
+    {
+      "question": "Do small roof repairs need wet methods or HEPA vacuuming?",
+      "answer": "1926.1101(g)(8)(ii)(H) exempts removal or repair of intact roofing sections under 25 square feet from wet methods and HEPA vacuuming, provided manual methods keep the material intact and no visible dust is created. All removal and repair on the same roof on the same day counts toward the 25 square feet."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.1101: Asbestos (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.1101"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "asbestos removal",
+    "asbestos exposure",
+    "asbestos work"
+  ],
+  "cover": "1926-1101-asbestos",
+  "coverPrompt": "A construction worker in white disposable coveralls, a hood and a full-facepiece respirator wets pipe insulation inside an enclosure lined with clear plastic sheeting, with plastic covering the floor and a HEPA vacuum beside him. No text, signs, numbers, logos or close-up faces.",
+  "coverAlt": "Worker in coveralls and respirator wetting pipe insulation inside a plastic-sheeted asbestos work enclosure",
+  "changes": []
+}

@@ -1,0 +1,236 @@
+{
+  "slug": "1926-1101-asbestos",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-1101-asbestos",
+  "doc_ref": "SI-US-1926-1101",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Asbestos Inspection Checklist and OSHA Checklist (29 CFR 1926.1101)",
+  "subtitle": "Use before asbestos work begins and at each shift on construction, renovation, maintenance or demolition jobs.",
+  "regulation_line": "OSHA 29 CFR 1926.1101",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; use N/A only where the item's work class or control method does not apply to the job.",
+    "Report any Defect to the competent person, who has authority to take prompt corrective measures, and recheck the item before work resumes.",
+    "The manufacturer's instructions for enclosures, glovebags and respirators, and your site rules, may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Before work starts",
+      "items": [
+        [
+          "Work class identified",
+          "Each task recorded as Class I, II, III or IV using the definitions; TSI and surfacing material treated as PACM unless rebutted",
+          "1926.1101(b)"
+        ],
+        [
+          "Initial exposure assessment",
+          "Assessment done by the competent person immediately before or at the start of the operation, before exposure-dependent controls are chosen",
+          "1926.1101(f)(2)(i)"
+        ],
+        [
+          "Competent person supervising",
+          "A competent person is assigned to and supervising the asbestos work inside the regulated area",
+          "1926.1101(e)(6)"
+        ],
+        [
+          "Other employers informed",
+          "Other employers on site have been told about the asbestos work, the regulated area rules and how their employees are protected",
+          "1926.1101(d)(1)"
+        ],
+        [
+          "Resilient flooring status",
+          "Flooring, mastic and backing handled as asbestos-containing unless an industrial hygienist has determined it asbestos-free",
+          "1926.1101(g)(8)(i)(I)"
+        ],
+        [
+          "Respirator program",
+          "A written respiratory protection program meeting the listed parts of 1910.134 covers every employee who must wear a respirator",
+          "1926.1101(h)(2)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Regulated area and isolation",
+      "items": [
+        [
+          "Demarcation and signs",
+          "Boundary clearly marked (barriers or enclosure may serve) and signs displayed",
+          "1926.1101(e)(2)"
+        ],
+        [
+          "Access control",
+          "Only authorized persons inside the boundary",
+          "1926.1101(e)(3)"
+        ],
+        [
+          "No eating or smoking",
+          "No food, drink, smoking, chewing tobacco or gum, or cosmetics inside the boundary",
+          "1926.1101(e)(5)"
+        ],
+        [
+          "Respirators at entry",
+          "Everyone entering where respirators are required has one selected under (h)(3)",
+          "1926.1101(e)(4)"
+        ],
+        [
+          "Class I isolation",
+          "Critical barriers in place, or an alternative isolation method verified by perimeter surveillance and monitoring, wherever (g)(4)(ii) applies",
+          "1926.1101(g)(4)(ii)"
+        ],
+        [
+          "HVAC sealed (Class I)",
+          "HVAC openings sealed with a double layer of 6 mil plastic or equivalent",
+          "1926.1101(g)(4)(iii)"
+        ],
+        [
+          "Dropcloths (Class I)",
+          "Impermeable dropcloths laid beneath all removal activity",
+          "1926.1101(g)(4)(iv)"
+        ],
+        [
+          "Objects covered (Class I)",
+          "Objects inside covered with impermeable dropcloths or plastic sheeting secured by duct tape or equivalent",
+          "1926.1101(g)(4)(v)"
+        ],
+        [
+          "NPE pressure",
+          "Manometer shows at least −0.02 column inches of water differential relative to outside, held throughout use",
+          "1926.1101(g)(5)(i)(A)(3)"
+        ],
+        [
+          "NPE leak check",
+          "Enclosure inspected for breaches and smoke-tested before work and at each shift start; any leaks sealed",
+          "1926.1101(g)(5)(i)(B)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Work practices and controls",
+      "items": [
+        [
+          "HEPA vacuums",
+          "HEPA-filtered vacuums used to collect all ACM and PACM dust and debris",
+          "1926.1101(g)(1)(i)"
+        ],
+        [
+          "Wet methods",
+          "Material kept wet during handling, removal, cutting and cleanup, unless the employer can demonstrate wetting is infeasible",
+          "1926.1101(g)(1)(ii)"
+        ],
+        [
+          "Waste containers",
+          "Waste and debris picked up promptly and placed in leak-tight containers",
+          "1926.1101(g)(1)(iii)"
+        ],
+        [
+          "Abrasive saws",
+          "No high-speed abrasive disc saw in use without a point-of-cut ventilator or HEPA-exhausted enclosure",
+          "1926.1101(g)(3)(i)"
+        ],
+        [
+          "Compressed air",
+          "No compressed air used to remove asbestos unless with an enclosed system capturing the dust cloud",
+          "1926.1101(g)(3)(ii)"
+        ],
+        [
+          "Dry cleanup",
+          "No dry sweeping, shoveling or other dry cleanup of ACM or PACM debris",
+          "1926.1101(g)(3)(iii)"
+        ],
+        [
+          "Employee rotation",
+          "Exposure is not being managed by rotating workers in and out",
+          "1926.1101(g)(3)(iv)"
+        ],
+        [
+          "Glovebag leak test",
+          "Each glovebag smoke-tested and leaks sealed before use",
+          "1926.1101(g)(5)(ii)(B)(2)"
+        ],
+        [
+          "Glovebag single use",
+          "Each glovebag used once and not moved along the pipe",
+          "1926.1101(g)(5)(ii)(B)(3)"
+        ],
+        [
+          "Roof material lowering",
+          "Roof ACM carried, passed down by hand, or lowered by covered chute, crane or hoist; never dropped or thrown",
+          "1926.1101(g)(8)(ii)(E)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Monitoring, PPE and adjacent areas",
+      "items": [
+        [
+          "Daily monitoring (Class I and II)",
+          "Daily sampling representative of each employee doing Class I or II work in the regulated area, unless an NEA covers the whole operation or the (f)(3)(iii) exception applies",
+          "1926.1101(f)(3)(i)"
+        ],
+        [
+          "Results shared",
+          "Employees notified within 5 working days of results being received, in writing or by accessible posting",
+          "1926.1101(f)(5)"
+        ],
+        [
+          "Re-monitoring after changes",
+          "Monitoring restarted after any change in process, controls, personnel or work practices that may raise exposure",
+          "1926.1101(f)(4)(ii)"
+        ],
+        [
+          "Monitoring observation",
+          "Affected employees and their representatives offered the chance to observe exposure monitoring",
+          "1926.1101(f)(6)(i)"
+        ],
+        [
+          "No filtering facepieces",
+          "No filtering facepiece respirators worn for asbestos",
+          "1926.1101(h)(3)(i)(A)"
+        ],
+        [
+          "HEPA respirator filters",
+          "Powered and non-powered air-purifying respirators fitted with HEPA filters",
+          "1926.1101(h)(3)(i)(B)"
+        ],
+        [
+          "Protective clothing",
+          "Coveralls or similar, head and foot coverings and gloves worn where exposure exceeds a PEL, a required NEA is missing, or large Class I TSI or surfacing removal is under way",
+          "1926.1101(i)(1)"
+        ],
+        [
+          "Laundering",
+          "Contaminated clothing laundered in a way that prevents airborne asbestos release above the PELs",
+          "1926.1101(i)(2)(i)"
+        ],
+        [
+          "Adjacent areas checked daily",
+          "Employers next to another contractor's regulated area check enclosure integrity or control effectiveness every day",
+          "1926.1101(d)(4)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.1101: Asbestos (Part 1926 Subpart Z, Toxic and Hazardous Substances)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
