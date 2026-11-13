@@ -1,0 +1,523 @@
+{
+  "section": "1910.303",
+  "part": "1910",
+  "heading": "General.",
+  "subpart": "S",
+  "subpartTitle": "Electrical",
+  "title": "Electrical inspection checklist and OSHA rules (29 CFR 1910.303)",
+  "seoTitle": "Electrical Inspection Checklist: OSHA 1910.303 Rules",
+  "description": "OSHA 29 CFR 1910.303 requirements in plain language, working-space clearances, enforcement data and an electrical inspection checklist.",
+  "opening": "29 CFR 1910.303 requires approved electric equipment, free of recognized hazards likely to cause death or serious physical harm, installed and used per its listing or labeling instructions, marked, guarded where live parts operate at 50 volts or more, and given clear working space.",
+  "keyword": "electrical inspection",
+  "cluster": [
+    {
+      "keyword": "osha electrical safety requirements",
+      "volume": 50,
+      "kd": 32,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical safety checklist",
+      "volume": 110,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha electrical clearance requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical clearance checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical clearance inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha electrical requirements",
+      "volume": 50,
+      "kd": 32,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical checklist",
+      "volume": 20,
+      "kd": 3,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "electrical inspection",
+      "volume": 4400,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.303",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 4640,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 13994,
+    "inspections": 10700,
+    "byFy": {
+      "2022": 2456,
+      "2023": 3110,
+      "2024": 3015,
+      "2025": 2741,
+      "2026": 2672
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(2)",
+        "count": 3882
+      },
+      {
+        "paragraph": "(g)(1)",
+        "count": 2088
+      },
+      {
+        "paragraph": "(g)(1)(ii)",
+        "count": 1454
+      },
+      {
+        "paragraph": "(f)(2)",
+        "count": 1277
+      },
+      {
+        "paragraph": "(g)(2)(i)",
+        "count": 985
+      },
+      {
+        "paragraph": "(b)(7)(iv)",
+        "count": 668
+      },
+      {
+        "paragraph": "(b)(7)(i)",
+        "count": 593
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 583
+      },
+      {
+        "paragraph": "(g)(1)(i)(A)",
+        "count": 313
+      },
+      {
+        "paragraph": "(g)(1)(i)",
+        "count": 253
+      }
+    ],
+    "penalties": {
+      "n": 6249,
+      "median": 4113,
+      "p25": 1350,
+      "p75": 6913,
+      "total": 35318051
+    },
+    "typeShares": {
+      "serious": 0.586,
+      "willful": 0.001,
+      "repeat": 0.021,
+      "otherThanSerious": 0.393,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 8200,
+      "willful": 10,
+      "repeat": 287,
+      "otherThanSerious": 5494,
+      "unclassified": 3
+    },
+    "topIndustries": [
+      {
+        "naics": "2373",
+        "count": 623,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "9221",
+        "count": 615,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "8111",
+        "count": 489,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "9211",
+        "count": 480,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "7211",
+        "count": 476,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "6111",
+        "count": 474,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "4931",
+        "count": 446,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "2213",
+        "count": 409,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "3323",
+        "count": 373,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "4451",
+        "count": 292,
+        "title": "Grocery and Convenience Retailers"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1910.303(b)(2), which requires listed or labeled equipment to be installed and used according to the instructions that come with its listing or labeling. Next come 1910.303(g)(1) on access and working space around equipment, 1910.303(g)(1)(ii), which bars storage in that space, and 1910.303(f)(2) on marking each service, feeder and branch circuit with its purpose. Citations rose from 2,456 in FY2022 to 3,110 in FY2023, then fell each year to 2,672 in FY2026.",
+  "requirementsIntro": "29 CFR 1910.303 sets general rules for the conductors and electric equipment covered by Subpart S (Electrical) of Part 1910. Paragraphs (a) to (f) cover approval, examination and installation, connections, arcing parts, marking and disconnecting means; paragraph (g) applies to equipment operating at 600 volts, nominal, or less to ground; and paragraph (h) supplements or modifies those rules for circuits over 600 volts, nominal.",
+  "requirements": [
+    {
+      "heading": "What must electric equipment meet before it can be used?",
+      "intro": "Under 1910.303(a), (b)(1), (b)(2) and (e), electric equipment must be approved, assessed for safety against the factors in (b)(1)(i) to (b)(1)(viii), installed according to listing or labeling instructions, and marked with its maker and ratings.",
+      "items": [
+        {
+          "text": "Conductors and equipment required or permitted by Subpart S are acceptable only if approved, as 1910.399 defines that term.",
+          "clause": "1910.303(a)"
+        },
+        {
+          "text": "Electric equipment must be free from recognized hazards that are likely to cause death or serious physical harm to employees; safety is judged on suitability, mechanical strength and durability, wire-bending and connection space, insulation, heating and arcing effects, classification and other safeguarding factors.",
+          "clause": "1910.303(b)(1)"
+        },
+        {
+          "text": "Listing or labeling for an identified purpose may serve as evidence that equipment is suitable for that purpose.",
+          "clause": "1910.303(b)(1)(i)"
+        },
+        {
+          "text": "Listed or labeled equipment must be installed and used in accordance with any instructions included in the listing or labeling.",
+          "clause": "1910.303(b)(2)"
+        },
+        {
+          "text": "Equipment may not be used unless it carries the manufacturer's name, trademark or other descriptive marking identifying the responsible organization, plus voltage, current, wattage or other ratings as necessary.",
+          "clause": "1910.303(e)(1)"
+        },
+        {
+          "text": "Manufacturer and rating markings must be durable enough to withstand the environment involved.",
+          "clause": "1910.303(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What installation conditions must electrical equipment meet?",
+      "intro": "Paragraph 1910.303(b) requires electric equipment to be installed neatly and in a workmanlike manner, firmly secured, with unused openings closed, ventilation unobstructed and no damaged or contaminated parts.",
+      "items": [
+        {
+          "text": "Completed wiring installations must be free from short circuits and from grounds other than those required or permitted by Subpart S.",
+          "clause": "1910.303(b)(3)"
+        },
+        {
+          "text": "Equipment meant to interrupt fault current must have an interrupting rating sufficient for the nominal circuit voltage and the current available at its line terminals; equipment interrupting other than fault current needs a rating sufficient for the current it must interrupt.",
+          "clause": "1910.303(b)(4)"
+        },
+        {
+          "text": "Unless identified for the operating environment, conductors and equipment may not be placed in damp or wet locations, where exposed to deteriorating gases, fumes, vapors, liquids or other agents, or where exposed to excessive temperatures.",
+          "clause": "1910.303(b)(6)"
+        },
+        {
+          "text": "Unused openings in boxes, raceways, auxiliary gutters, cabinets, equipment cases or housings must be effectively closed to give protection substantially equivalent to the equipment wall.",
+          "clause": "1910.303(b)(7)(i)"
+        },
+        {
+          "text": "Internal parts such as busbars, wiring terminals and insulators may not be damaged or contaminated by paint, plaster, cleaners, abrasives or corrosive residues.",
+          "clause": "1910.303(b)(7)(iii)"
+        },
+        {
+          "text": "There may be no damaged parts that could adversely affect safe operation or mechanical strength, such as parts that are broken, bent, cut, or deteriorated by corrosion, chemical action or overheating.",
+          "clause": "1910.303(b)(7)(iv)"
+        },
+        {
+          "text": "Equipment must be firmly secured to its mounting surface; wooden plugs driven into holes in masonry, concrete, plaster or similar materials are not a secure means of fastening.",
+          "clause": "1910.303(b)(8)(i)"
+        },
+        {
+          "text": "Equipment with ventilating openings must be installed so that walls or other obstructions do not prevent free circulation of air through it.",
+          "clause": "1910.303(b)(8)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What does OSHA require for electrical connections and splices?",
+      "intro": "Because dissimilar metals behave differently, 1910.303(c) requires connectors, terminals and splicing materials to be identified for the conductor material and use, and every splice, joint and free conductor end to be insulated.",
+      "items": [
+        {
+          "text": "Pressure terminal or pressure splicing connectors and soldering lugs must be identified for the conductor material and properly installed and used.",
+          "clause": "1910.303(c)(1)(i)"
+        },
+        {
+          "text": "Conductors of dissimilar metals, such as copper and aluminum, may not be intermixed in a terminal or splicing connector where they make physical contact, unless the device is identified for the purpose and conditions of use.",
+          "clause": "1910.303(c)(1)(ii)"
+        },
+        {
+          "text": "Solder, fluxes, inhibitors and compounds, where used, must suit the use and must not adversely affect the conductors, installation or equipment.",
+          "clause": "1910.303(c)(1)(iii)"
+        },
+        {
+          "text": "Conductors must be connected to terminals without damage, using pressure connectors (including set-screw type), solder lugs or splices to flexible leads; No. 10 or smaller conductors may use wire binding screws or studs and nuts with upturned lugs or equivalent.",
+          "clause": "1910.303(c)(2)(i)"
+        },
+        {
+          "text": "Terminals for more than one conductor and terminals used to connect aluminum must be identified for that use.",
+          "clause": "1910.303(c)(2)(ii)"
+        },
+        {
+          "text": "Splices must use splicing devices identified for the use, or brazing, welding or soldering with a fusible metal or alloy; soldered splices must first be mechanically and electrically secure without solder, and all splices, joints and free conductor ends must be covered with insulation equivalent to the conductors' or an insulating device identified for the purpose.",
+          "clause": "1910.303(c)(3)(i)"
+        },
+        {
+          "text": "Wire connectors or splicing means installed on conductors for direct burial must be listed for that use.",
+          "clause": "1910.303(c)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must disconnecting means and circuits be marked?",
+      "intro": "1910.303(f) requires disconnecting means and circuits to be legibly marked with their purpose unless that purpose is evident from location and arrangement, and requires every disconnecting means required by Subpart S to be lockable in the open position.",
+      "items": [
+        {
+          "text": "Each disconnecting means required for motors and appliances must be legibly marked to show its purpose, unless its location and arrangement make the purpose evident.",
+          "clause": "1910.303(f)(1)"
+        },
+        {
+          "text": "Each service, feeder and branch circuit must be legibly marked with its purpose at its disconnecting means or overcurrent device, with the same exception where the purpose is evident.",
+          "clause": "1910.303(f)(2)"
+        },
+        {
+          "text": "Disconnect and circuit markings must hold up in the conditions where they are installed.",
+          "clause": "1910.303(f)(3)"
+        },
+        {
+          "text": "Disconnecting means required by Subpart S must be capable of being locked in the open position.",
+          "clause": "1910.303(f)(4)"
+        },
+        {
+          "text": "Where circuit breakers or fuses are applied under the manufacturer's series combination ratings, the equipment enclosures must be legibly marked in the field to say so, using the readily visible caution wording set by 1910.303(f)(5)(ii).",
+          "clause": "1910.303(f)(5)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "How much working space is required around electrical equipment?",
+      "intro": "Paragraph 1910.303(g)(1) requires sufficient access and working space to be provided and maintained around all electric equipment at 600 volts, nominal, or less to ground, with minimum depth, width and height wherever equipment is likely to need examination, adjustment, servicing or maintenance while energized.",
+      "items": [
+        {
+          "text": "Depth in the direction of access to live parts must meet Table S-1, measured from exposed live parts or from the enclosure front or opening: 3.0 ft (0.9 m) at 0-150 volts to ground, and 3.0 ft, 3.5 ft or 4.0 ft at 151-600 volts for Conditions A, B and C; note 1 to the table allows 2.5 ft (0.7 m) for some distances in installations built before April 16, 1981.",
+          "clause": "1910.303(g)(1)(i)(A)"
+        },
+        {
+          "text": "Width must be the equipment width or 30 in. (762 mm), whichever is greater, and must allow equipment doors or hinged panels to open at least 90 degrees.",
+          "clause": "1910.303(g)(1)(i)(B)"
+        },
+        {
+          "text": "The space must be clear from the grade, floor or platform up to the required headroom; associated electrical equipment above or below may project no more than 6 in. (153 mm) beyond the equipment front.",
+          "clause": "1910.303(g)(1)(i)(C)"
+        },
+        {
+          "text": "Required working space may not be used for storage, and when normally enclosed live parts are exposed for inspection or servicing in a passageway or general open space, that space must be suitably guarded.",
+          "clause": "1910.303(g)(1)(ii)"
+        },
+        {
+          "text": "Headroom around service equipment, switchboards, panelboards and motor control centers must be at least 6.25 ft (1.91 m) for installations built before August 13, 2007, and 6.5 ft (1.98 m) for those built on or after that date, or the equipment height where the equipment is taller than 6.5 ft.",
+          "clause": "1910.303(g)(1)(vi)"
+        }
+      ]
+    },
+    {
+      "heading": "What entrance, lighting and dedicated-space rules apply to panels and switchboards?",
+      "intro": "For equipment at 600 volts or less, 1910.303(g)(1)(iii) to (g)(1)(vii) set entrance and lighting rules for working spaces and dedicated-space rules for switchboards, panelboards, distribution boards and motor control centers.",
+      "items": [
+        {
+          "text": "At least one entrance of sufficient area must give access to the working space about electric equipment.",
+          "clause": "1910.303(g)(1)(iii)"
+        },
+        {
+          "text": "Equipment rated 1200 amperes or more and over 6.0 ft (1.83 m) wide that contains overcurrent, switching or control devices needs an entrance at least 24 in. (610 mm) wide and 6.5 ft (1.98 m) high at each end of the working space, unless one of the exceptions in 1910.303(g)(1)(iv)(A) or (B) applies (a continuous and unobstructed way of exit travel, or doubled working space with a correctly placed entrance).",
+          "clause": "1910.303(g)(1)(iv)"
+        },
+        {
+          "text": "Working spaces about indoor service equipment, switchboards, panelboards and motor control centers must be illuminated; extra fixtures are not needed if an adjacent light source lights the space, and in electric equipment rooms lighting may not be controlled by automatic means only.",
+          "clause": "1910.303(g)(1)(v)"
+        },
+        {
+          "text": "Indoors, the space equal to the equipment's width and depth, from the floor to 6.0 ft (1.83 m) above the equipment or to the structural ceiling, whichever is lower, is dedicated to the electrical installation; foreign piping, ducts or equipment may not be located there unless isolated or protected as the paragraph allows.",
+          "clause": "1910.303(g)(1)(vii)(A)(1)"
+        },
+        {
+          "text": "From the top of the equipment up to the structural ceiling, the same width and depth must be kept clear of foreign systems unless protection against condensation, leaks or breaks is provided.",
+          "clause": "1910.303(g)(1)(vii)(A)(2)"
+        },
+        {
+          "text": "Outdoor equipment must be in suitable enclosures and protected from accidental contact by unauthorized personnel, from vehicular traffic, and from accidental spillage or leakage from piping, with no architectural appurtenance or other equipment in the required working space.",
+          "clause": "1910.303(g)(1)(vii)(B)"
+        }
+      ]
+    },
+    {
+      "heading": "When must live electrical parts be guarded?",
+      "intro": "Under 1910.303(g)(2), live parts of electric equipment operating at 50 volts or more must be guarded against accidental contact, except where the standard requires or permits otherwise, by approved cabinets or enclosures or by one of the means in (g)(2)(i)(A) to (D).",
+      "items": [
+        {
+          "text": "Guarding may be by location in a room, vault or similar enclosure accessible only to qualified persons.",
+          "clause": "1910.303(g)(2)(i)(A)"
+        },
+        {
+          "text": "Guarding may be by suitable permanent, substantial partitions or screens that let only qualified persons reach the space within reach of the live parts, with any openings sized and located so people are unlikely to contact the parts or bring conducting objects into contact with them.",
+          "clause": "1910.303(g)(2)(i)(B)"
+        },
+        {
+          "text": "Guarding may be by placement on a suitable balcony, gallery or platform elevated and located to prevent access by unqualified persons.",
+          "clause": "1910.303(g)(2)(i)(C)"
+        },
+        {
+          "text": "Guarding may be by elevation of 8.0 ft (2.44 m) or more above the floor or other working surface.",
+          "clause": "1910.303(g)(2)(i)(D)"
+        },
+        {
+          "text": "Where electric equipment is likely to be exposed to physical damage, enclosures or guards must be arranged and strong enough to prevent that damage.",
+          "clause": "1910.303(g)(2)(ii)"
+        },
+        {
+          "text": "Entrances to rooms and other guarded locations containing exposed live parts must carry conspicuous warning signs forbidding unqualified persons to enter.",
+          "clause": "1910.303(g)(2)(iii)"
+        },
+        {
+          "text": "Parts that produce arcs, sparks, flames or molten metal in ordinary operation must be enclosed or separated and isolated from all combustible material.",
+          "clause": "1910.303(d)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra rules apply to installations over 600 volts?",
+      "intro": "For circuits exceeding 600 volts, nominal, 1910.303(h) adds enclosure, fencing, work space, access, locking, signage and elevation rules on top of the earlier paragraphs.",
+      "items": [
+        {
+          "text": "Conductors and equipment on these circuits must comply with all applicable provisions of paragraphs (a) through (g) as well as paragraph (h); paragraphs (h)(2), (h)(3) and (h)(4) do not apply to equipment on the supply side of the service point.",
+          "clause": "1910.303(h)(1)"
+        },
+        {
+          "text": "Except for equipment covered by 1910.303(h)(2)(v), an outdoor installation must be enclosed by a wall, screen or fence to deter access by unqualified persons; a fence must be at least 7.0 ft (2.13 m) high, or 6.0 ft (1.80 m) or more of fence fabric plus an extension of 1 ft (305 mm) or more using three or more strands of barbed wire or equivalent.",
+          "clause": "1910.303(h)(2)(ii)"
+        },
+        {
+          "text": "Where energized parts are exposed, clear work space must be at least 1.98 m (6.5 ft) high and 3.0 ft (914 mm) wide, with depth set by 1910.303(h)(5)(i), and must let doors or hinged panels open at least 90 degrees.",
+          "clause": "1910.303(h)(3)"
+        },
+        {
+          "text": "Permanent ladders or stairways must give safe access to working space around equipment installed on platforms, balconies or mezzanine floors, or in attic or roof rooms or spaces.",
+          "clause": "1910.303(h)(4)(ii)"
+        },
+        {
+          "text": "Depth of clear working space must meet Table S-2, which increases with voltage: from 3.0, 4.0 and 5.0 ft (Conditions A, B and C) at 601-2500 V to 8.0, 10.0 and 12.0 ft above 75 kV.",
+          "clause": "1910.303(h)(5)(i)"
+        },
+        {
+          "text": "Entrances to buildings, rooms or enclosures containing exposed live parts or exposed conductors at this voltage must be kept locked unless a qualified person observes them at all times.",
+          "clause": "1910.303(h)(5)(iii)(A)"
+        },
+        {
+          "text": "Those entrances need permanent and conspicuous warning signs reading substantially “DANGER—HIGH VOLTAGE—KEEP OUT.”",
+          "clause": "1910.303(h)(5)(iii)(B)"
+        },
+        {
+          "text": "Unguarded live parts above working space must be at least at the elevations in Table S-3: 9.0 ft (2.8 m) for 601 V to 35 kV between phases, plus 0.37 in. per kV over 35 kV, with lower minimums allowed for some older installations under the table's note.",
+          "clause": "1910.303(h)(5)(v)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist turns 1910.303 into on-site checks of equipment condition, connections, circuit marking, working space and live-part guarding; use it on routine walk-throughs and after any electrical work or rearrangement of a room.",
+  "checklist": "us/1910-303",
+  "faq": [
+    {
+      "question": "Is working space required behind a switchboard or motor control center?",
+      "answer": "Note 3 to Table S-1 says working space is not required behind assemblies such as dead-front switchboards or motor control centers when no renewable or adjustable parts, such as fuses or switches, are on the back and all connections can be reached from other locations. Where rear access is needed to work on deenergized parts on the back of enclosed equipment, a minimum horizontal working space of 30 in. (762 mm) applies."
+    },
+    {
+      "question": "What do Conditions A, B and C mean in the clearance tables?",
+      "answer": "Condition A is exposed live parts on one side with no live or grounded parts on the other, or exposed live parts on both sides effectively guarded by suitable wood or other insulating material. Condition B is exposed live parts on one side and grounded parts on the other. Condition C is exposed live parts on both sides, not guarded as in Condition A, with the operator between. Insulated wire or insulated busbars operating at not over 300 volts are not considered live parts, and the notes to Table S-2 treat concrete, brick and tile walls as grounded surfaces."
+    },
+    {
+      "question": "Does a dropped ceiling count as the structural ceiling for dedicated space?",
+      "answer": "No. The note under 1910.303(g)(1)(vii)(A)(4) says a dropped, suspended or similar ceiling that does not add strength to the building structure is not considered a structural ceiling."
+    },
+    {
+      "question": "Are sprinkler pipes allowed near electrical equipment?",
+      "answer": "Under 1910.303(g)(1)(vii)(A)(3), sprinkler protection is permitted for the dedicated space where the piping complies with the section. For installations over 600 volts, the note to 1910.303(h)(5)(vi) says piping and other facilities provided for fire protection of the electrical installation are not considered foreign."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.303: General (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.303"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "electrical working space",
+    "electrical panel clearance",
+    "guarding of live parts"
+  ],
+  "cover": "1910-303",
+  "coverPrompt": "A wide, realistic photograph of an electrician in safety glasses and work gloves checking a row of closed gray switchboard and panelboard enclosures with a clipboard in a well-lit electrical room, the floor in front of the equipment clear of any storage. No readable text, labels, numbers or logos, and no close-up of the face.",
+  "coverAlt": "Electrician inspecting closed electrical panels with clear working space in front of them",
+  "changes": []
+}

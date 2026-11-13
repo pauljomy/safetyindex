@@ -30,6 +30,16 @@
       "pdf": "/downloads/us/1910-23-ladders.pdf",
       "xlsx": "/downloads/us/1910-23-ladders.xlsx"
     },
+    "us/1910-303": {
+      "hash": "64811d0594cc4dc017429b684aab81de5c81b22949425fb54d0ee9fba4e66456",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 32,
+      "page_url": "https://safetyindex.blog/us/standards/1910-303",
+      "pdf": "/downloads/us/1910-303.pdf",
+      "xlsx": "/downloads/us/1910-303.xlsx"
+    },
     "us/1926-451-scaffolds": {
       "hash": "232656048a42749c2832b294f97d162677ef39d8191c850eecfb094922b593ff",
       "lang": "en",

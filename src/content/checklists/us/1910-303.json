@@ -1,0 +1,227 @@
+{
+  "slug": "1910-303",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-303",
+  "doc_ref": "SI-US-1910-303",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Electrical Inspection Checklist and OSHA Requirements (29 CFR 1910.303)",
+  "subtitle": "For routine walk-throughs of panels, switchboards, disconnects and electrical rooms, with key checks for installations over 600 V.",
+  "regulation_line": "OSHA 29 CFR 1910.303",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A, and note the location and equipment for each defect.",
+    "When an item fails, keep people clear of any exposed live parts, record the defect and assign the correction before the equipment returns to normal use.",
+    "The manufacturer's instructions, other Subpart S sections and site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Equipment condition and markings",
+      "items": [
+        [
+          "Installed as listed",
+          "Installation and use match the instructions supplied with the listed or labeled product",
+          "1910.303(b)(2)"
+        ],
+        [
+          "Maker and rating markings",
+          "Manufacturer name or trademark and voltage, current or wattage ratings are present and readable",
+          "1910.303(e)(1)"
+        ],
+        [
+          "Unused openings closed",
+          "Every unused opening in boxes, cabinets, raceways and housings is closed with protection equal to the enclosure wall",
+          "1910.303(b)(7)(i)"
+        ],
+        [
+          "No damaged parts",
+          "No broken, bent, cut, corroded or overheated parts affecting safe operation or strength",
+          "1910.303(b)(7)(iv)"
+        ],
+        [
+          "Internal parts clean",
+          "No paint, plaster, cleaner, abrasive or corrosive residue on busbars, terminals or insulators",
+          "1910.303(b)(7)(iii)"
+        ],
+        [
+          "Firmly mounted",
+          "Equipment is firmly secured to its surface and not held by wooden plugs in masonry, concrete or plaster",
+          "1910.303(b)(8)(i)"
+        ],
+        [
+          "Vents unobstructed",
+          "Ventilating openings are not blocked by walls, stored items or adjacent equipment",
+          "1910.303(b)(8)(iii)"
+        ],
+        [
+          "Suitable for location",
+          "Equipment in damp, wet, corrosive or high-temperature locations is identified for that environment",
+          "1910.303(b)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Connections and splices",
+      "items": [
+        [
+          "Connectors match conductor",
+          "Pressure connectors, splicing connectors and soldering lugs are identified for the conductor material and correctly installed",
+          "1910.303(c)(1)(i)"
+        ],
+        [
+          "No mixed metals",
+          "Copper and aluminum conductors do not touch in one connector unless the device is identified for that use",
+          "1910.303(c)(1)(ii)"
+        ],
+        [
+          "Terminations sound",
+          "Conductors are terminated without damage using pressure connectors, solder lugs or splices to flexible leads; binding screws only on No. 10 or smaller",
+          "1910.303(c)(2)(i)"
+        ],
+        [
+          "Terminal identification",
+          "Terminals holding more than one conductor, and terminals on aluminum, are identified for that use",
+          "1910.303(c)(2)(ii)"
+        ],
+        [
+          "Splices insulated",
+          "Splices, joints and free conductor ends are covered with equivalent insulation or an identified insulating device; no bare joints",
+          "1910.303(c)(3)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Disconnects and circuit marking",
+      "items": [
+        [
+          "Circuit labels",
+          "Each service, feeder and branch circuit is legibly labeled with its purpose at its breaker, fuse or disconnect, unless the purpose is evident",
+          "1910.303(f)(2)"
+        ],
+        [
+          "Motor and appliance disconnects",
+          "Each required disconnect for motors and appliances shows what it controls, unless its purpose is evident",
+          "1910.303(f)(1)"
+        ],
+        [
+          "Label durability",
+          "Disconnect and circuit labels are intact and readable in the room's conditions",
+          "1910.303(f)(3)"
+        ],
+        [
+          "Lockable in open position",
+          "Each required disconnect can accept a lock in the open (off) position",
+          "1910.303(f)(4)"
+        ],
+        [
+          "Series combination marking",
+          "Enclosures with series combination rated breakers or fuses carry the readily visible field caution marking",
+          "1910.303(f)(5)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Working space and clearance (600 V or less)",
+      "items": [
+        [
+          "No storage",
+          "No boxes, carts, pallets or materials kept in the working space in front of panels, switchboards and other equipment",
+          "1910.303(g)(1)(ii)"
+        ],
+        [
+          "Clear depth",
+          "Depth in front of live parts or the enclosure front meets Table S-1: at least 3.0 ft up to 150 V to ground; 3.0, 3.5 or 4.0 ft at 151-600 V by condition",
+          "1910.303(g)(1)(i)(A)"
+        ],
+        [
+          "Clear width",
+          "Space is as wide as the equipment or 30 in., whichever is greater, and doors swing to 90 degrees or more",
+          "1910.303(g)(1)(i)(B)"
+        ],
+        [
+          "Clear to full height",
+          "Nothing intrudes from floor to headroom height except associated electrical equipment projecting 6 in. or less",
+          "1910.303(g)(1)(i)(C)"
+        ],
+        [
+          "Headroom",
+          "At least 6.5 ft (6.25 ft for installations before August 13, 2007), or the equipment height if taller",
+          "1910.303(g)(1)(vi)"
+        ],
+        [
+          "Lighting",
+          "Working space at indoor panels, switchboards and motor control centers is lit; equipment-room lights are not on automatic control only",
+          "1910.303(g)(1)(v)"
+        ],
+        [
+          "Entrance",
+          "The working space has at least one entrance of sufficient area",
+          "1910.303(g)(1)(iii)"
+        ],
+        [
+          "Dedicated space",
+          "No foreign pipes, ducts or equipment in the panel footprint up to 6.0 ft above it or the structural ceiling, unless isolated or protected",
+          "1910.303(g)(1)(vii)(A)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Guarding of live parts",
+      "items": [
+        [
+          "Live parts guarded",
+          "Live parts at 50 volts or above are in approved enclosures with covers in place, or guarded by a qualified-only room, partitions, an elevated platform, or 8.0 ft or more of elevation",
+          "1910.303(g)(2)(i)"
+        ],
+        [
+          "Protection from damage",
+          "Equipment exposed to physical damage has guards or enclosures strong enough to prevent it",
+          "1910.303(g)(2)(ii)"
+        ],
+        [
+          "Entry warning signs",
+          "Doors to rooms with exposed live parts carry conspicuous signs forbidding entry by unqualified persons",
+          "1910.303(g)(2)(iii)"
+        ],
+        [
+          "Arcing parts isolated",
+          "Parts that arc or spark in normal operation are enclosed or separated from combustible material",
+          "1910.303(d)"
+        ],
+        [
+          "High-voltage entrances locked",
+          "Over-600 V rooms and enclosures with exposed live parts are locked or under constant observation by a qualified person",
+          "1910.303(h)(5)(iii)(A)"
+        ],
+        [
+          "High-voltage signs",
+          "Permanent, conspicuous high-voltage danger signs at those entrances",
+          "1910.303(h)(5)(iii)(B)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.303: General (Part 1910, Subpart S: Electrical)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
