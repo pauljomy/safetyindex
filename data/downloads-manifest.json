@@ -190,6 +190,16 @@
       "pdf": "/downloads/us/1910-212-machinery-machine-guarding-all-machines.pdf",
       "xlsx": "/downloads/us/1910-212-machinery-machine-guarding-all-machines.xlsx"
     },
+    "us/1910-215-abrasive-wheel-machinery": {
+      "hash": "7f4565ab687655fe02a9d61a124e1461abf1fb6ec92fcae16429e0f103f0ad41",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 32,
+      "page_url": "https://safetyindex.blog/us/standards/1910-215-abrasive-wheel-machinery",
+      "pdf": "/downloads/us/1910-215-abrasive-wheel-machinery.pdf",
+      "xlsx": "/downloads/us/1910-215-abrasive-wheel-machinery.xlsx"
+    },
     "us/1910-22-walking-working-surfaces": {
       "hash": "295d8e872723a5dbc098ceaeaefc17b71147f3af1f117c6ac88c238c52096880",
       "lang": "en",

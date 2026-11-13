@@ -1,0 +1,606 @@
+{
+  "section": "1910.215",
+  "part": "1910",
+  "heading": "Abrasive wheel machinery.",
+  "subpart": "O",
+  "subpartTitle": "Machinery and Machine Guarding",
+  "title": "OSHA bench grinder requirements (29 CFR 1910.215)",
+  "seoTitle": "OSHA Bench Grinder Requirements: 29 CFR 1910.215",
+  "description": "OSHA bench grinder requirements under 29 CFR 1910.215: guards, work rests, flanges and ring tests, with citation data and a printable checklist.",
+  "opening": "29 CFR 1910.215 requires abrasive wheels to run only on guarded machines (with a few listed exceptions), work rests on offhand grinders set within one-eighth inch of the wheel, correct flanges, and a close inspection and ring test before each wheel is mounted.",
+  "keyword": "osha bench grinder requirements",
+  "cluster": [
+    {
+      "keyword": "osha grinder requirements",
+      "volume": 20,
+      "kd": 23,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "grinder checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "grinder inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha bench grinder requirements",
+      "volume": 40,
+      "kd": 1,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "bench grinder checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "bench grinder inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha abrasive wheel machinery requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "abrasive wheel machinery checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "abrasive wheel machinery inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.215",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 60,
+  "kd": 1,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 4331,
+    "inspections": 2814,
+    "byFy": {
+      "2022": 882,
+      "2023": 950,
+      "2024": 892,
+      "2025": 818,
+      "2026": 789
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(9)",
+        "count": 1995
+      },
+      {
+        "paragraph": "(a)(4)",
+        "count": 1844
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 209
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 149
+      },
+      {
+        "paragraph": "(d)(3)",
+        "count": 57
+      },
+      {
+        "paragraph": "(d)(1)",
+        "count": 26
+      },
+      {
+        "paragraph": "(b)(5)",
+        "count": 23
+      },
+      {
+        "paragraph": "(b)(3)",
+        "count": 9
+      },
+      {
+        "paragraph": "(a)(2)(i)",
+        "count": 6
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 4
+      }
+    ],
+    "penalties": {
+      "n": 2006,
+      "median": 2800,
+      "p25": 900,
+      "p75": 5323,
+      "total": 7179251
+    },
+    "typeShares": {
+      "serious": 0.856,
+      "willful": 0,
+      "repeat": 0.01,
+      "otherThanSerious": 0.133,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3708,
+      "willful": 0,
+      "repeat": 45,
+      "otherThanSerious": 577,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "2373",
+        "count": 413,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "8111",
+        "count": 302,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "3327",
+        "count": 280,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "3323",
+        "count": 168,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "9211",
+        "count": 149,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "2213",
+        "count": 131,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "3329",
+        "count": 126,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "9221",
+        "count": 115,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "3261",
+        "count": 111,
+        "title": "Plastics Product Manufacturing"
+      },
+      {
+        "naics": "6111",
+        "count": 104,
+        "title": "Elementary and Secondary Schools"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.215(b)(9), which requires the adjustable tongue or the top of the guard's peripheral member to stay within one-fourth inch of the wheel, and 1910.215(a)(4), the work rest rule, draw far more citations than any other paragraph; guard design under (a)(2) and the basic guarding rule in (a)(1) come next. Citations rose from 882 in FY2022 to 950 in FY2023, then fell each year to 789 in FY2026.",
+  "requirementsIntro": "1910.215 covers machinery that uses abrasive wheels; under (a)(5), natural sandstone wheels and metal, wooden, cloth or paper discs with an abrasive surface layer are excluded. The standard runs from general requirements (a) through guarding (b), flanges (c) and mounting (d); the groups below give the main rules, and the full text and its tables hold more detail.",
+  "requirements": [
+    {
+      "heading": "Which abrasive wheels must run under a safety guard?",
+      "intro": "1910.215(a)(1) allows abrasive wheels to be used only on machines fitted with the safety guards the section defines, with three exceptions.",
+      "items": [
+        {
+          "text": "Use abrasive wheels only on machines provided with safety guards as defined in 1910.215.",
+          "clause": "1910.215(a)(1)"
+        },
+        {
+          "text": "A guard is not required for wheels used for internal work while they are within the work being ground.",
+          "clause": "1910.215(a)(1)(i)"
+        },
+        {
+          "text": "Mounted wheels 2 inches and smaller in diameter, used in portable operations, are exempt from the guard rule.",
+          "clause": "1910.215(a)(1)(ii)"
+        },
+        {
+          "text": "Types 16, 17, 18, 18R and 19 cones, plugs and threaded hole pot balls are exempt where the work offers protection.",
+          "clause": "1910.215(a)(1)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must a grinder safety guard be designed and mounted?",
+      "intro": "Under 1910.215(a)(2), a safety guard must cover the spindle end, nut and flange projections, stay aligned with the wheel, and be held by fastenings stronger than the guard.",
+      "items": [
+        {
+          "text": "The guard covers the spindle end, the nut and the flange projections.",
+          "clause": "1910.215(a)(2)"
+        },
+        {
+          "text": "The guard is mounted so it keeps proper alignment with the wheel.",
+          "clause": "1910.215(a)(2)"
+        },
+        {
+          "text": "Guard fastenings are stronger than the guard itself.",
+          "clause": "1910.215(a)(2)"
+        },
+        {
+          "text": "Where the work gives the operator a suitable measure of protection, the guard may be built with the spindle end, nut and outer flange exposed.",
+          "clause": "1910.215(a)(2)(i)"
+        },
+        {
+          "text": "Side covers may be left off where the nature of the work entirely covers the side of the wheel.",
+          "clause": "1910.215(a)(2)(i)"
+        },
+        {
+          "text": "Machines designed as portable saws may leave the outer flange, nut and spindle end uncovered.",
+          "clause": "1910.215(a)(2)(ii)"
+        },
+        {
+          "text": "Guards meet the design specifications of ANSI B7.1-1970, incorporated by reference in § 1910.6; this does not apply to natural sandstone wheels or to metal, wooden, cloth or paper discs with a layer of abrasive.",
+          "clause": "1910.215(b)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "What guard opening is allowed on a bench or floor stand grinder?",
+      "intro": "On bench and floor stands, 1910.215(b)(3) sets the guard opening at 90°, or one-fourth of the wheel's periphery, starting no more than 65° above the horizontal plane of the wheel spindle.",
+      "items": [
+        {
+          "text": "The maximum exposure angles in paragraphs (b)(3) through (b)(8) must not be exceeded.",
+          "clause": "1910.215(b)(2)"
+        },
+        {
+          "text": "When measuring the guard opening, do not count a visor or other accessory as part of the guard unless it is as strong as the guard.",
+          "clause": "1910.215(b)(2)"
+        },
+        {
+          "text": "Bench and floor stand guards expose no more than 90° of the wheel periphery and sides, or one-fourth of the periphery.",
+          "clause": "1910.215(b)(3)"
+        },
+        {
+          "text": "The exposed arc begins at a point not more than 65° above spindle level.",
+          "clause": "1910.215(b)(3)"
+        },
+        {
+          "text": "Where the work needs contact with the wheel below the spindle's horizontal plane, exposure may reach 125° but no more.",
+          "clause": "1910.215(b)(3)"
+        },
+        {
+          "text": "Where the operator stands in front of the opening, bench, floor stand and cylindrical grinder guards have a peripheral member that can be adjusted to the wheel's constantly decreasing diameter.",
+          "clause": "1910.215(b)(9)"
+        },
+        {
+          "text": "The distance between the wheel periphery and the adjustable tongue, or the top end of the peripheral member, never exceeds one-fourth inch.",
+          "clause": "1910.215(b)(9)"
+        },
+        {
+          "text": "As the wheel wears, the angle set in (b)(3) and (b)(4) above the spindle plane is never exceeded.",
+          "clause": "1910.215(b)(9)"
+        }
+      ]
+    },
+    {
+      "heading": "What exposure limits apply to other grinding machines?",
+      "intro": "1910.215(b)(4) through (b)(8) give each remaining machine type its own maximum guard exposure, from 60° for top grinding to 180° for cylindrical, swing frame and automatic snagging machines.",
+      "items": [
+        {
+          "text": "Cylindrical grinder guards expose no more than 180° of the wheel.",
+          "clause": "1910.215(b)(4)"
+        },
+        {
+          "text": "On cylindrical grinders the exposure begins at most 65° above the spindle's horizontal plane.",
+          "clause": "1910.215(b)(4)"
+        },
+        {
+          "text": "Guards on cutting-off machines, and on surface grinders that use the wheel periphery, are limited to 150° of exposure.",
+          "clause": "1910.215(b)(5)"
+        },
+        {
+          "text": "On those machines the exposure starts at a point not less than 15° below spindle level.",
+          "clause": "1910.215(b)(5)"
+        },
+        {
+          "text": "Swing frame grinder guards expose at most 180°, with the top half of the wheel enclosed at all times.",
+          "clause": "1910.215(b)(6)"
+        },
+        {
+          "text": "Automatic snagging machine guards carry the same limit: 180° maximum, with the top half of the wheel always enclosed.",
+          "clause": "1910.215(b)(7)"
+        },
+        {
+          "text": "Where work is applied to the wheel above its horizontal centerline, exposure is kept as small as possible and never over 60°.",
+          "clause": "1910.215(b)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "Which guard materials are required for each wheel speed?",
+      "intro": "1910.215(b)(10) ties guard material to wheel speed and wheel type, with minimum member thicknesses in Table O-9.",
+      "items": [
+        {
+          "text": "Table O-9, with Figures O-36 and O-37, sets the minimum basic thickness of peripheral and side members for each guard type and class of service.",
+          "clause": "1910.215(b)(10)(i)"
+        },
+        {
+          "text": "Where operating speed is no more than 8,000 surface feet per minute (SFPM), guards are cast iron, malleable iron or another guard described in (b)(10)(iii).",
+          "clause": "1910.215(b)(10)(ii)"
+        },
+        {
+          "text": "Wheels running faster than 8,000 SFPM, up to a maximum of 16,000 SFPM, need cast steel or structural steel guards built to Table O-9.",
+          "clause": "1910.215(b)(10)(iii)"
+        },
+        {
+          "text": "Cutting-off wheels 16 inches in diameter or smaller, at no more than 16,000 SFPM, take cast or malleable iron guards meeting Table O-9.",
+          "clause": "1910.215(b)(10)(iv)"
+        },
+        {
+          "text": "Cutting-off wheels larger than 16 inches, at no more than 14,200 SFPM, take guards specified in Figures O-27 and O-28 and Table O-1.",
+          "clause": "1910.215(b)(10)(v)"
+        },
+        {
+          "text": "Thread grinding wheels up to 1 inch thick take iron guards (cast or malleable) that follow Table O-9.",
+          "clause": "1910.215(b)(10)(vi)"
+        }
+      ]
+    },
+    {
+      "heading": "What do cup wheel and band type guards need?",
+      "intro": "Cup wheels (Types 6 and 11) are guarded under 1910.215(b)(1), and band type guards must meet the general specifications in 1910.215(b)(11).",
+      "items": [
+        {
+          "text": "1910.215(b)(1) names three forms of cup wheel protection: safety guards meeting (b)(1) through (b)(10), band type guards meeting (b)(11), and special revolving cup guards that mount behind the wheel and turn with it.",
+          "clause": "1910.215(b)(1)"
+        },
+        {
+          "text": "Revolving cup guards are steel or another material of adequate strength and enclose the wheel sides upward from the back for one-third of the wheel thickness.",
+          "clause": "1910.215(b)(1)(iii)"
+        },
+        {
+          "text": "Clearance is kept between the wheel side and a revolving cup guard, and it never exceeds one-sixteenth inch.",
+          "clause": "1910.215(b)(1)(iii)"
+        },
+        {
+          "text": "Bands are steel plate or a material at least as strong, continuous, with ends riveted, bolted or welded so the inside has no projections.",
+          "clause": "1910.215(b)(11)(i)"
+        },
+        {
+          "text": "The band's inside diameter is no more than 1 inch larger than the wheel's outside diameter.",
+          "clause": "1910.215(b)(11)(ii)"
+        },
+        {
+          "text": "The band is mounted as nearly concentric with the wheel as practicable.",
+          "clause": "1910.215(b)(11)(ii)"
+        },
+        {
+          "text": "Band width and position keep the wheel from ever protruding past the band edge by more than Figure O-29 and Table O-2 allow, or the wall thickness (W), whichever is smaller.",
+          "clause": "1910.215(b)(11)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What flanges must an abrasive wheel be mounted between?",
+      "intro": "1910.215(c)(1) requires abrasive wheels to be mounted between flanges at least one-third of the wheel diameter, with separate minimums for two types of cutting-off wheel.",
+      "items": [
+        {
+          "text": "Flanges are not less than one-third the wheel's diameter, except for the wheel types listed in (c)(1)(i).",
+          "clause": "1910.215(c)(1)"
+        },
+        {
+          "text": "Type 1 cutting-off wheels sit between properly relieved flanges with matching bearing surfaces, at least one-fourth the wheel diameter.",
+          "clause": "1910.215(c)(1)(ii)"
+        },
+        {
+          "text": "Type 27A cutting-off wheels use flat, unrelieved flanges with matching bearing surfaces, which may be under one-third but never less than one-fourth the wheel diameter.",
+          "clause": "1910.215(c)(1)(iii)"
+        },
+        {
+          "text": "Whatever flange type is used, the wheel is always guarded.",
+          "clause": "1910.215(c)(1)(v)"
+        },
+        {
+          "text": "Flanges are dimensionally accurate and in good balance, with no rough surfaces or sharp edges.",
+          "clause": "1910.215(c)(3)"
+        },
+        {
+          "text": "Both flanges a wheel sits between are the same diameter and have equal bearing surface; the rest of (c)(4) sets out the exceptions.",
+          "clause": "1910.215(c)(4)(i)"
+        },
+        {
+          "text": "Type 27 and Type 28 wheels are used only with a safety guard located between the wheel and the operator.",
+          "clause": "1910.215(c)(4)(ii)"
+        },
+        {
+          "text": "The driving flange is securely fastened to the spindle and its bearing surface runs true.",
+          "clause": "1910.215(c)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "How must flanges and wheel mounts be sized and maintained?",
+      "intro": "Under 1910.215(c)(5), (c)(8) and (c)(9), flanges keep their recess or undercut, meet the minimum dimensions in the tables, and are maintained, refaced or replaced as needed.",
+      "items": [
+        {
+          "text": "Straight relieved flanges made to Table O-6 are recessed at least one-sixteenth inch on the side next to the wheel, for the distance given in that table.",
+          "clause": "1910.215(c)(5)(i)"
+        },
+        {
+          "text": "Adaptor or sleeve type straight flanges are undercut so nothing bears on the wheel sides within one-eighth inch of the arbor hole.",
+          "clause": "1910.215(c)(5)(ii)"
+        },
+        {
+          "text": "Straight relieved and unrelieved flanges for small-hole wheels that fit directly on the spindle never fall below the dimensions in Tables O-4 and O-6; (c)(8)(ii) and (c)(8)(iii) give the minimums for adaptor flanges and wheel-sleeve flanges.",
+          "clause": "1910.215(c)(8)(i)"
+        },
+        {
+          "text": "All flanges are maintained in good condition.",
+          "clause": "1910.215(c)(9)"
+        },
+        {
+          "text": "Bearing surfaces that become worn, warped, sprung or damaged should be trued or refaced, with care taken to keep proper relief and rigidity.",
+          "clause": "1910.215(c)(9)"
+        },
+        {
+          "text": "Flanges are replaced when they no longer conform to the relief rules and the dimension tables named in (c)(9).",
+          "clause": "1910.215(c)(9)"
+        },
+        {
+          "text": "On Type 27 and Type 28 wheels, mounts affixed by the manufacturer are not reused.",
+          "clause": "1910.215(c)(4)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be checked before an abrasive wheel is mounted?",
+      "intro": "1910.215(d)(1) requires the user to closely inspect and ring-test every wheel immediately before mounting and to check the spindle speed against the wheel's marked maximum.",
+      "items": [
+        {
+          "text": "Immediately before mounting, the user closely inspects and sounds each wheel to make sure it has not been damaged in transit, storage or otherwise.",
+          "clause": "1910.215(d)(1)"
+        },
+        {
+          "text": "Before the wheel goes on, the machine's spindle speed is checked so it does not exceed the maximum operating speed marked on the wheel.",
+          "clause": "1910.215(d)(1)"
+        },
+        {
+          "text": "Wheels should be tapped gently with a light nonmetallic implement: a screwdriver handle for light wheels, a wooden mallet for heavier ones.",
+          "clause": "1910.215(d)(1)"
+        },
+        {
+          "text": "A wheel that sounds cracked (dead) is not used.",
+          "clause": "1910.215(d)(1)"
+        },
+        {
+          "text": "The wheel is dry and free from sawdust during the ring test, or the sound will be deadened.",
+          "clause": "1910.215(d)(1)(i)"
+        },
+        {
+          "text": "Organic bonded wheels do not give the same clear metallic ring as vitrified and silicate wheels.",
+          "clause": "1910.215(d)(1)(i)"
+        },
+        {
+          "text": "Tap about 45° each side of the vertical centerline and about 1 or 2 inches from the periphery, then rotate the wheel 45° and repeat; a sound wheel gives a clear metallic tone.",
+          "clause": "1910.215(d)(1)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "How must the wheel, blotters and spindle fit together?",
+      "intro": "Wheels must fit freely on the spindle under 1910.215(d)(2), and (c)(6) and (d)(3) to (d)(6) set the rules for contact surfaces, blotters, bushings and spacers.",
+      "items": [
+        {
+          "text": "Grinding wheels fit freely on the spindle and stay free under all grinding conditions.",
+          "clause": "1910.215(d)(2)"
+        },
+        {
+          "text": "The machine spindle is made to nominal (standard) size plus zero minus .002 inch, with the wheel hole suitably oversize for safety clearance under operating heat and pressure.",
+          "clause": "1910.215(d)(2)"
+        },
+        {
+          "text": "Contact surfaces of wheels, blotters and flanges are flat and free of foreign matter.",
+          "clause": "1910.215(d)(3)"
+        },
+        {
+          "text": "A bushing in the wheel hole is no wider than the wheel and does not touch the flanges.",
+          "clause": "1910.215(d)(4)"
+        },
+        {
+          "text": "Blotters (compressible washers) are always used between flanges and wheel surfaces to spread flange pressure evenly; the exempt wheel types appear in (c)(6)(ii).",
+          "clause": "1910.215(c)(6)(i)"
+        },
+        {
+          "text": "Where blotters or compressible flange facings are required, they cover the entire contact area of the wheel flanges.",
+          "clause": "1910.215(d)(5)"
+        },
+        {
+          "text": "Spacers between multiple wheels on one set of flanges equal the mounting flanges in diameter and have equal bearing surfaces.",
+          "clause": "1910.215(d)(6)"
+        },
+        {
+          "text": "Where multiple wheels are neither cemented together nor separated by spacers, use wheels specially manufactured for that purpose.",
+          "clause": "1910.215(d)(6)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "Use this checklist when you inspect a bench or floor stand grinder or change its wheel; it covers the guard and tongue, the work rest, flanges and blotters, and the checks 1910.215 requires before a wheel goes on.",
+  "checklist": "us/1910-215-abrasive-wheel-machinery",
+  "faq": [
+    {
+      "question": "Is the 90° bench grinder opening a requirement or a recommendation?",
+      "answer": "Both words appear in the text. Paragraph (b)(3) says the bench and floor stand opening 'should not exceed' 90°, while (b)(2) states that the limits set in (b)(3) through (b)(8) 'shall not be exceeded'."
+    },
+    {
+      "question": "Which wheels are exempt from the one-third flange diameter rule?",
+      "answer": "1910.215(c)(1)(i) lists them: mounted wheels; portable wheels with threaded inserts or projecting studs; abrasive discs of the inserted nut, inserted washer and projecting stud type; plate mounted wheels; cylinders, cup or segmental wheels mounted in chucks; Types 27 and 28 wheels; certain internal wheels; modified Types 6 and 11 (terrazzo) wheels; and the Type 1 and Type 27A cutting-off designs covered by (c)(1)(ii) and (c)(1)(iii)."
+    },
+    {
+      "question": "Which wheels do not need blotters?",
+      "answer": "1910.215(c)(6)(ii) exempts mounted wheels; inserted nut, inserted washer and projecting stud abrasive discs; plate mounted wheels; cylinders, cups or segmental wheels mounted in chucks; Types 27 and 28 wheels; certain Type 1 and Type 27A cutting-off wheels; certain internal wheels; Type 4 tapered wheels; and diamond wheels except certain vitrified diamond wheels. On modified Types 6 and 11 (terrazzo) wheels, blotters go on the flat side only. 1910.215(d)(5) gives the same list without the terrazzo entry."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.215: Abrasive wheel machinery (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.215"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "abrasive wheel machinery",
+    "bench grinder",
+    "grinder work rest"
+  ],
+  "cover": "1910-215-abrasive-wheel-machinery",
+  "coverPrompt": "A worker in safety glasses and work clothes sharpens a steel tool on a bench grinder in a clean metal workshop, the wheel enclosed by its guard with the adjustable tongue set close and the work rest supporting the tool. Side view at mid-distance, no close-up faces, no text, signs or logos.",
+  "coverAlt": "Worker sharpening a tool on a guarded bench grinder with the work rest set close to the wheel",
+  "changes": []
+}

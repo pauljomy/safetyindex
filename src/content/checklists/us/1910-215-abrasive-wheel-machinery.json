@@ -1,0 +1,227 @@
+{
+  "slug": "1910-215-abrasive-wheel-machinery",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-215-abrasive-wheel-machinery",
+  "doc_ref": "SI-US-1910-215",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Bench Grinder Checklist (29 CFR 1910.215)",
+  "subtitle": "For inspecting bench and floor stand grinders and for every wheel change",
+  "regulation_line": "OSHA 29 CFR 1910.215",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is marked Defect, keep the machine out of use until it is corrected and record the fix.",
+    "The machine and wheel manufacturer's instructions and your site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Guard and wheel exposure",
+      "items": [
+        [
+          "Safety guard fitted",
+          "A safety guard is in place over the wheel, unless one of the (a)(1) exceptions applies",
+          "1910.215(a)(1)"
+        ],
+        [
+          "Spindle end, nut and flanges covered",
+          "No spindle end, nut or flange projection sticks out beyond the guard",
+          "1910.215(a)(2)"
+        ],
+        [
+          "Guard alignment",
+          "Guard sits in line with the wheel and does not shift or rub",
+          "1910.215(a)(2)"
+        ],
+        [
+          "Guard fastenings",
+          "All guard mounting bolts present, tight and undamaged, with no weaker substitute parts",
+          "1910.215(a)(2)"
+        ],
+        [
+          "Exposure angle",
+          "Opening is 90° or less (up to 125° only where the work needs wheel contact below the spindle centerline)",
+          "1910.215(b)(3)"
+        ],
+        [
+          "Start of opening",
+          "Opening starts no more than 65° above the spindle's horizontal line",
+          "1910.215(b)(3)"
+        ],
+        [
+          "Tongue gap",
+          "Gap from wheel face to adjustable tongue or top of peripheral member is one-fourth inch or less",
+          "1910.215(b)(9)"
+        ],
+        [
+          "Tongue adjustment",
+          "Tongue or peripheral member still adjusts to follow the wheel as it wears down",
+          "1910.215(b)(9)"
+        ],
+        [
+          "Visors and accessories",
+          "Opening is measured without any visor or accessory unless it is as strong as the guard",
+          "1910.215(b)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Work rest",
+      "items": [
+        [
+          "Work rest in use",
+          "Offhand grinder has a work rest fitted and used to support the work",
+          "1910.215(a)(4)"
+        ],
+        [
+          "Rigid and adjustable",
+          "Rest is rigid, not bent or loose, and can be moved in to allow for wheel wear",
+          "1910.215(a)(4)"
+        ],
+        [
+          "Gap to wheel",
+          "Opening between rest and wheel measures one-eighth inch or less",
+          "1910.215(a)(4)"
+        ],
+        [
+          "Clamped",
+          "Rest is securely clamped after the last adjustment",
+          "1910.215(a)(4)"
+        ],
+        [
+          "Adjusted with wheel stopped",
+          "Operators confirm they adjust the rest only when the wheel is not in motion",
+          "1910.215(a)(4)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Flanges, blotters and fit",
+      "items": [
+        [
+          "Flange size",
+          "Flanges are at least one-third the wheel diameter, or meet the exception for that wheel type",
+          "1910.215(c)(1)"
+        ],
+        [
+          "Matching flanges",
+          "Both flanges have the same diameter and equal bearing surface",
+          "1910.215(c)(4)(i)"
+        ],
+        [
+          "Flange finish",
+          "No rough surfaces, burrs or sharp edges on either flange",
+          "1910.215(c)(3)"
+        ],
+        [
+          "Flange wear",
+          "Bearing surfaces are not worn, warped, sprung or damaged",
+          "1910.215(c)(9)"
+        ],
+        [
+          "Driving flange",
+          "Driving flange is tight on the spindle and runs true",
+          "1910.215(c)(7)"
+        ],
+        [
+          "Blotters fitted",
+          "Blotters sit between each flange and the wheel, unless the wheel type is exempt under (c)(6)(ii)",
+          "1910.215(c)(6)(i)"
+        ],
+        [
+          "Blotter coverage",
+          "Blotters cover the whole flange contact area",
+          "1910.215(d)(5)"
+        ],
+        [
+          "Clean contact surfaces",
+          "Wheel, blotter and flange faces are flat with no dirt, chips or debris",
+          "1910.215(d)(3)"
+        ],
+        [
+          "Wheel fit on spindle",
+          "Wheel slides onto the spindle freely, without forcing",
+          "1910.215(d)(2)"
+        ],
+        [
+          "Bushing",
+          "Any bushing is no wider than the wheel and clear of the flanges",
+          "1910.215(d)(4)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Wheel check before mounting",
+      "items": [
+        [
+          "Visual inspection",
+          "Wheel examined closely for damage from transit or storage before it goes on",
+          "1910.215(d)(1)"
+        ],
+        [
+          "Speed rating",
+          "Machine spindle speed does not exceed the maximum operating speed marked on the wheel",
+          "1910.215(d)(1)"
+        ],
+        [
+          "Ring test",
+          "Wheel gives a clear ring when tapped; a dead-sounding wheel is set aside and not used",
+          "1910.215(d)(1)"
+        ],
+        [
+          "Wheel dry",
+          "Wheel is dry and free of sawdust when tapped",
+          "1910.215(d)(1)(i)"
+        ],
+        [
+          "Tap points",
+          "Tapped about 45° either side of vertical, 1 or 2 inches in from the edge, then turned 45° and tapped again",
+          "1910.215(d)(1)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Type 27 and 28 wheels",
+      "items": [
+        [
+          "Guard position",
+          "A guard sits between the wheel and the operator whenever the wheel is used",
+          "1910.215(c)(4)(ii)"
+        ],
+        [
+          "Manufacturer mounts",
+          "Mounts the manufacturer fixed to a wheel are not reused",
+          "1910.215(c)(4)(ii)"
+        ],
+        [
+          "Wheel bond",
+          "Wheel is a reinforced organic bonded wheel",
+          "1910.215(c)(4)(ii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.215: Abrasive wheel machinery (Part 1910 Subpart O, Machinery and Machine Guarding)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
