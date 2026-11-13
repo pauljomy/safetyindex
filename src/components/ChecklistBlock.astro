@@ -1,7 +1,8 @@
 ---
 // The on-page checklist, from the same JSON as the PDF and Excel downloads
 // (src/content/checklists/<market>/<slug>.json), so the two never drift apart.
-// Tick boxes work client-side only; the page prints cleanly; downloads need no sign-up.
+// The card shows the downloads and Print; the full tickable list sits in a disclosure (still in the HTML, so it's
+// readable without the app and by search engines, and opened automatically for printing). Downloads need no sign-up.
 import type { Checklist } from "@lib/content";
 import AppButton from "@components/AppButton.astro";
 import { langOf, ui } from "../i18n/ui";
@@ -25,32 +26,37 @@ let n = 0;
     <a class="ck-btn ck-primary" href={`${base}.xlsx`} download data-track="download_xlsx">
       <svg aria-hidden="true" viewBox="0 0 16 16" class="size-4 fill-current"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14ZM7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/></svg>{s.downloadExcel}</a>
     <button type="button" class="ck-btn" data-print>{s.print}</button>
-    <button type="button" class="ck-btn" data-reset>{s.resetChecklist}</button>
-    <span class="meta ml-auto" data-count aria-live="polite">{s.checked(0, total)}</span>
   </div>
-  {d.sections.map((sec) => (
-    <fieldset class="mt-7 break-inside-avoid-page">
-      <legend class="mb-3 text-[13px] font-semibold tracking-wide text-muted uppercase">{sec.code}. {sec.title}</legend>
-      <ol class="ck-list">
-        {sec.items.map(([name, check, clause]) => {
-          n += 1;
-          const id = `ck-${n}`;
-          return (
-            <li class="ck-item">
-              <input type="checkbox" id={id} class="mt-[3px] size-[18px] shrink-0 accent-[#1f2328]" />
-              <label for={id} class="block min-w-0 cursor-pointer">
-                <span class="block font-semibold text-ink">{n}. {name}</span>
-                <span class="mt-0.5 block text-[15px] text-muted"><span class="sr-only">{s.whatToLookFor}: </span>{check}</span>
-                {clause && <span class="mt-1 block font-mono text-[12.5px] text-muted" data-clause>{s.reference} <Fragment set:html={linkify ? linkify(clause) : clause} /></span>}
-              </label>
-            </li>
-          );
-        })}
-      </ol>
-    </fieldset>
-  ))}
-  {d.instructions.length > 0 && <ul class="!mt-6 list-disc pl-5 text-[15px] text-muted">{d.instructions.map((i) => <li>{i}</li>)}</ul>}
-  <AppButton checklistId={checklist.id} />
+  <details class="ck-details mt-5 border-t border-line pt-4" data-ck-details>
+    <summary class="ck-summary print:hidden">{s.showItems(total)}</summary>
+    <div class="mt-2 flex flex-wrap items-center gap-2 print:hidden">
+      <button type="button" class="ck-btn" data-reset>{s.resetChecklist}</button>
+      <span class="meta ml-auto" data-count aria-live="polite">{s.checked(0, total)}</span>
+    </div>
+    {d.sections.map((sec) => (
+      <fieldset class="mt-7 break-inside-avoid-page">
+        <legend class="mb-3 text-[13px] font-semibold tracking-wide text-muted uppercase">{sec.code}. {sec.title}</legend>
+        <ol class="ck-list">
+          {sec.items.map(([name, check, clause]) => {
+            n += 1;
+            const id = `ck-${n}`;
+            return (
+              <li class="ck-item">
+                <input type="checkbox" id={id} class="mt-[3px] size-[18px] shrink-0 accent-[#1f2328]" />
+                <label for={id} class="block min-w-0 cursor-pointer">
+                  <span class="block font-semibold text-ink">{n}. {name}</span>
+                  <span class="mt-0.5 block text-[15px] text-muted"><span class="sr-only">{s.whatToLookFor}: </span>{check}</span>
+                  {clause && <span class="mt-1 block font-mono text-[12.5px] text-muted" data-clause>{s.reference} <Fragment set:html={linkify ? linkify(clause) : clause} /></span>}
+                </label>
+              </li>
+            );
+          })}
+        </ol>
+      </fieldset>
+    ))}
+    {d.instructions.length > 0 && <ul class="!mt-6 list-disc pl-5 text-[15px] text-muted">{d.instructions.map((i) => <li>{i}</li>)}</ul>}
+  </details>
+  <div class="ck-app mt-5 border-t border-line pt-1"><AppButton checklistId={checklist.id} /></div>
 </section>
 <script>
   function setup() {
@@ -63,7 +69,9 @@ let n = 0;
       const update = () => { if (count) count.textContent = template.replace(/^\d+/, String(boxes.filter((b) => b.checked).length)); };
       boxes.forEach((b) => b.addEventListener("change", update));
       root.querySelector("[data-reset]")?.addEventListener("click", () => { boxes.forEach((b) => (b.checked = false)); update(); });
-      root.querySelector("[data-print]")?.addEventListener("click", () => window.print());
+      const details = root.querySelector<HTMLDetailsElement>("[data-ck-details]");
+      root.querySelector("[data-print]")?.addEventListener("click", () => { if (details) details.open = true; window.print(); });
+      window.addEventListener("beforeprint", () => { if (details) details.open = true; });
     });
   }
   setup();

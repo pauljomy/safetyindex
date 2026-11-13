@@ -73,6 +73,11 @@
   .checklist .ck-list > li + li { margin-top: 0.5rem; }
   .checklist .ck-item { @apply flex gap-3 rounded-md border border-line bg-white p-3.5 transition-colors has-[:checked]:border-[#1a7f37] has-[:checked]:bg-[#f0fdf4]; }
   .checklist .ck-btn { @apply inline-flex items-center gap-1.5 rounded-md border border-line bg-white px-3.5 py-2 text-[14px] font-semibold text-ink no-underline hover:border-ink; }
+  .checklist .ck-summary { @apply inline-flex cursor-pointer list-none items-center gap-2 text-[15px] font-semibold text-ink select-none hover:underline; }
+  .checklist .ck-summary::-webkit-details-marker { display: none; }
+  .checklist .ck-summary::before { content: ""; @apply size-2 rotate-[-45deg] border-r-2 border-b-2 border-current transition-transform; }
+  .checklist details[open] > .ck-summary::before { @apply rotate-45; }
+  .checklist .ck-app > * { @apply my-3; }
   .checklist .ck-primary { @apply border-[#1f2328] bg-[#1f2328] text-white hover:bg-black hover:text-white; }
   .lead { @apply text-[19px] leading-[1.55] font-normal text-ink md:text-[21px]; }
 }

@@ -55,7 +55,7 @@ export interface Strings {
   howMade: string; howMadeData: string; disclaimer: string; madeBy: string;
   hubGuides: string; hubStandards: string; hubIndustries: string; hubReports: string; hubPenalties: string;
   dataAsOf: (d: string) => string; checklist: string; print: string; downloadPdf: string; downloadExcel: string; resetChecklist: string;
-  checked: (n: number, total: number) => string; whatToLookFor: string; reference: string; appComingSoon: string; appGet: string; appScan: string;
+  checked: (n: number, total: number) => string; showItems: (n: number) => string; whatToLookFor: string; reference: string; appComingSoon: string; appGet: string; appScan: string;
   related: string; guidesUsingStandard: string; breadcrumb: string; inMarket: (m: string) => string; marketHomeTitle: (m: string) => string;
   marketHomeDescription: (m: string) => string; guidesHubTitle: (m: string) => string; guidesHubDescription: (m: string) => string; checklistNote: string; aboutTitle: string; aboutDescription: string; aboutBody: string[];
 }
@@ -78,7 +78,7 @@ export const ui: Record<Lang, Strings> = {
     howMadeData: "How this page was made: it is built by a script directly from the official data listed above (no AI writing); the figures are copied from that data, and the page is rebuilt when new data is published. The featured image is AI-generated and illustrative.",
     hubGuides: "Guides", hubStandards: "OSHA standards", hubIndustries: "Industries", hubReports: "Reports", hubPenalties: "OSHA penalties",
     dataAsOf: (d) => `Data as of ${d}`, checklist: "Checklist", print: "Print", downloadPdf: "Download PDF", downloadExcel: "Download Excel", resetChecklist: "Clear ticks",
-    checked: (n, t) => `${n} of ${t} checked`, whatToLookFor: "What to look for", reference: "Ref.", appComingSoon: "Coming soon on Android and iOS.", appGet: "Use this checklist in the app", appScan: "Scan to get the app on your phone",
+    checked: (n, t) => `${n} of ${t} checked`, showItems: (n) => `Show all ${n} items`, whatToLookFor: "What to look for", reference: "Ref.", appComingSoon: "Coming soon on Android and iOS.", appGet: "Use this checklist in the app", appScan: "Scan to get the app on your phone",
     related: "Related", guidesUsingStandard: "Guides using this standard", breadcrumb: "Breadcrumb", inMarket: (m) => `In ${m}`,
     marketHomeTitle: (m) => `Safety guides and checklists for ${m}`, marketHomeDescription: (m) => `Workplace safety guides, standards and checklists for ${m}, written from the official regulations and linked to them.`,
     guidesHubTitle: (m) => `Safety guides for ${m}, by topic`, guidesHubDescription: (m) => `Every Safety Index guide for ${m}, grouped by topic, with links to the regulations each one is written from.`,
@@ -114,7 +114,7 @@ export const ui: Record<Lang, Strings> = {
     howMadeData: "Comment cette page a été réalisée : elle est produite par un script directement à partir des données officielles citées ci-dessus (sans rédaction par IA) et reconstruite à chaque nouvelle publication des données. L'image d'illustration est générée par IA.",
     hubGuides: "Guides", hubStandards: "Normes OSHA", hubIndustries: "Secteurs", hubReports: "Rapports", hubPenalties: "Sanctions OSHA",
     dataAsOf: (d) => `Données à jour au ${d}`, checklist: "Liste de contrôle", print: "Imprimer", downloadPdf: "Télécharger le PDF", downloadExcel: "Télécharger le fichier Excel", resetChecklist: "Tout décocher",
-    checked: (n, t) => `${n} sur ${t} cochés`, whatToLookFor: "Points à vérifier", reference: "Réf.", appComingSoon: "Bientôt disponible sur Android et iOS.", appGet: "Utiliser cette liste dans l'application", appScan: "Scannez pour installer l'application",
+    checked: (n, t) => `${n} sur ${t} cochés`, showItems: (n) => `Afficher les ${n} points`, whatToLookFor: "Points à vérifier", reference: "Réf.", appComingSoon: "Bientôt disponible sur Android et iOS.", appGet: "Utiliser cette liste dans l'application", appScan: "Scannez pour installer l'application",
     related: "À lire aussi", guidesUsingStandard: "Guides qui citent ce texte", breadcrumb: "Fil d'Ariane", inMarket: (m) => `En ${m}`,
     marketHomeTitle: (m) => `Sécurité au travail en ${m} : guides et listes de contrôle`, marketHomeDescription: (m) => `Guides et listes de contrôle de sécurité au travail pour la ${m}, rédigés à partir des textes officiels et reliés à eux.`,
     guidesHubTitle: () => "Guides de sécurité au travail par thème", guidesHubDescription: () => "Tous les guides Safety Index pour la France, classés par thème, avec les textes dont chacun est tiré.",
@@ -150,7 +150,7 @@ export const ui: Record<Lang, Strings> = {
     howMadeData: "So ist diese Seite entstanden: Ein Skript erstellt sie direkt aus den oben genannten amtlichen Daten (ohne KI-Text) und baut sie neu, sobald neue Daten erscheinen. Das Titelbild ist KI-generiert und dient der Illustration.",
     hubGuides: "Ratgeber", hubStandards: "OSHA-Vorschriften", hubIndustries: "Branchen", hubReports: "Berichte", hubPenalties: "OSHA-Bußgelder",
     dataAsOf: (d) => `Datenstand: ${d}`, checklist: "Checkliste", print: "Drucken", downloadPdf: "PDF herunterladen", downloadExcel: "Excel herunterladen", resetChecklist: "Häkchen entfernen",
-    checked: (n, t) => `${n} von ${t} abgehakt`, whatToLookFor: "Worauf achten", reference: "Fundstelle", appComingSoon: "Bald für Android und iOS verfügbar.", appGet: "Diese Checkliste in der App nutzen", appScan: "Scannen, um die App zu laden",
+    checked: (n, t) => `${n} von ${t} abgehakt`, showItems: (n) => `Alle ${n} Punkte anzeigen`, whatToLookFor: "Worauf achten", reference: "Fundstelle", appComingSoon: "Bald für Android und iOS verfügbar.", appGet: "Diese Checkliste in der App nutzen", appScan: "Scannen, um die App zu laden",
     related: "Weiterlesen", guidesUsingStandard: "Ratgeber zu dieser Vorschrift", breadcrumb: "Brotkrümelnavigation", inMarket: (m) => `In ${m}`,
     marketHomeTitle: () => "Arbeitsschutz in Deutschland: Ratgeber und Checklisten", marketHomeDescription: () => "Ratgeber und Checklisten zum Arbeitsschutz in Deutschland, geschrieben anhand der amtlichen Vorschriften und mit ihnen verlinkt.",
     guidesHubTitle: () => "Arbeitsschutz-Ratgeber nach Themen", guidesHubDescription: () => "Alle Safety-Index-Ratgeber für Deutschland, nach Themen geordnet, mit den Vorschriften, auf denen sie beruhen.",
