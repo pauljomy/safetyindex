@@ -1,0 +1,247 @@
+{
+  "naics": "4882",
+  "naicsTitle": "Support Activities for Rail Transportation",
+  "title": "Most-cited OSHA standards for support activities for rail transportation (NAICS 4882)",
+  "seoTitle": "Railroad safety: OSHA citations in rail support (NAICS 4882)",
+  "description": "OSHA citations in support activities for rail transportation (NAICS 4882), FY2022–FY2026: 427 citations from 201 inspections, top standards, penalties.",
+  "opening": "From FY2022 to FY2026, the OSHA standard cited most in support activities for rail transportation (NAICS 4882) was 1910.146, permit-required confined spaces, with 79 of 427 citations, followed by 1910.134, respiratory protection, with 64.",
+  "keyword": "railroad safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 730,
+  "kd": 12,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 201,
+    "citations": 427,
+    "topStandards": [
+      {
+        "section": "1910.146",
+        "count": 79
+      },
+      {
+        "section": "1910.134",
+        "count": 64
+      },
+      {
+        "section": "1910.178",
+        "count": 36
+      },
+      {
+        "section": "1910.1200",
+        "count": 30
+      },
+      {
+        "section": "1910.132",
+        "count": 15
+      },
+      {
+        "section": "1910.147",
+        "count": 15
+      },
+      {
+        "section": "1910.95",
+        "count": 14
+      },
+      {
+        "section": "1910.303",
+        "count": 12
+      },
+      {
+        "section": "1910.305",
+        "count": 12
+      },
+      {
+        "section": "1910.212",
+        "count": 10
+      },
+      {
+        "section": "1910.28",
+        "count": 10
+      },
+      {
+        "section": "1910.151",
+        "count": 9
+      },
+      {
+        "section": "1910.157",
+        "count": 9
+      },
+      {
+        "section": "1910.1000",
+        "count": 7
+      },
+      {
+        "section": "1910.22",
+        "count": 7
+      },
+      {
+        "section": "1904.39",
+        "count": 6
+      },
+      {
+        "section": "1910.179",
+        "count": 6
+      },
+      {
+        "section": "1910.1053",
+        "count": 5
+      },
+      {
+        "section": "1910.23",
+        "count": 5
+      },
+      {
+        "section": "1917.45",
+        "count": 5
+      },
+      {
+        "section": "1910.101",
+        "count": 4
+      },
+      {
+        "section": "1910.334",
+        "count": 4
+      },
+      {
+        "section": "1904.41",
+        "count": 3
+      },
+      {
+        "section": "1910.1001",
+        "count": 3
+      },
+      {
+        "section": "1910.1026",
+        "count": 3
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 11
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 10
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 8
+      },
+      {
+        "clause": "1910.134(f)(2)",
+        "count": 8
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 7
+      },
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 7
+      },
+      {
+        "clause": "1910.28(b)(1)(i)",
+        "count": 7
+      },
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 6
+      },
+      {
+        "clause": "1910.146(e)(1)",
+        "count": 6
+      },
+      {
+        "clause": "1910.132(d)(1)",
+        "count": 5
+      }
+    ],
+    "penalties": {
+      "n": 235,
+      "median": 7255,
+      "p25": 4219,
+      "p75": 12757,
+      "total": 2096920
+    },
+    "typeShares": {
+      "serious": 0.6,
+      "willful": 0.028,
+      "repeat": 0.014,
+      "otherThanSerious": 0.358,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 20
+  },
+  "patternsSummary": "Confined spaces and respiratory protection lead the list in NAICS 4882: 1910.146 had 79 citations and 1910.134 had 64, ahead of 1910.178 on powered industrial trucks (36) and 1910.1200 on hazard communication (30). Next come general personal protective equipment requirements (1910.132), lockout/tagout (1910.147) and occupational noise exposure (1910.95), at 15, 15 and 14 citations, with the Subpart S electrical standards 1910.303 and 1910.305 at 12 each. In all, 20 standards were cited 5 or more times across 427 citations from 201 inspections in FY2022–FY2026.",
+  "penaltiesSummary": "Across the 235 citations that carried a penalty, the median was $7,255, and the middle half fell between $4,219 and $12,757. Of all citations, 60% were classed serious, 3% willful, 1% repeat and 36% other-than-serious.",
+  "standardNotes": [
+    {
+      "section": "1910.146",
+      "note": "Permit-required confined spaces, in Subpart J (General Environmental Controls). Most-cited standard in this industry, with 79 citations."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, in Subpart I (Personal Protective Equipment). Second on the list, with 64 citations."
+    },
+    {
+      "section": "1910.178",
+      "note": "Powered industrial trucks, in Subpart N (Materials Handling and Storage). Cited 36 times."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z (Toxic and Hazardous Substances). Cited 30 times."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment, in Subpart I. Cited 15 times."
+    },
+    {
+      "section": "1910.147",
+      "note": "The control of hazardous energy (lockout/tagout), in Subpart J. Also cited 15 times."
+    },
+    {
+      "section": "1910.95",
+      "note": "Occupational noise exposure, in Subpart G (Occupational Health and Environmental Control). Cited 14 times."
+    },
+    {
+      "section": "1910.303",
+      "note": "General electrical requirements in Subpart S (Electrical). Cited 12 times, level with 1910.305 on wiring methods."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "support activities for rail transportation",
+    "rail transportation support"
+  ],
+  "cover": "4882-support-activities-for-rail-transportation",
+  "coverPrompt": "Realistic documentary photograph of a rail yard on an overcast day: a maintenance worker wearing a hard hat, high-visibility vest, safety glasses and work gloves inspects the wheel and coupler area of a parked, stationary freight car on a siding, seen from a few metres away at an angle so the face is not visible; parallel tracks, ballast and other freight cars in the background, natural light.",
+  "coverAlt": "Rail yard worker in a hard hat and high-visibility vest inspecting a parked freight car on a siding",
+  "changes": []
+}
