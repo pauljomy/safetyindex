@@ -4,10 +4,10 @@
   "heading": "Duty to have fall protection.",
   "subpart": "M",
   "subpartTitle": "Fall Protection",
-  "title": "Fall protection inspection (29 CFR 1926.501)",
-  "seoTitle": "Fall Protection Inspection: OSHA 29 CFR 1926.501",
-  "description": "Fall protection inspection under OSHA 29 CFR 1926.501: requirements by paragraph, FY2022–FY2026 citation data and a printable site checklist.",
-  "opening": "29 CFR 1926.501 requires employers to confirm that walking/working surfaces can support workers safely and to protect each employee 6 feet (1.8 m) or more above a lower level with guardrail, safety net or personal fall arrest systems, or another measure the section allows.",
+  "title": "Fall protection inspection: OSHA requirements (29 CFR 1926.501)",
+  "seoTitle": "Fall protection inspection: OSHA 1926.501 checklist",
+  "description": "OSHA 29 CFR 1926.501 fall protection requirements by paragraph, citation data for FY2022–FY2026, and a printable fall protection inspection checklist.",
+  "opening": "29 CFR 1926.501 requires employers to protect employees from falls of 6 feet (1.8 m) or more to a lower level, mostly with guardrail, safety net or personal fall arrest systems (PFAS), and sets rules for holes, roofs, leading edges and falling objects.",
   "keyword": "fall protection inspection",
   "cluster": [
     {
@@ -218,59 +218,55 @@
       }
     ]
   },
-  "enforcementSummary": "Paragraph 1926.501(b)(13), which covers employees in residential construction activities at 6 feet or higher, is the most-cited paragraph for FY2022–FY2026. It is followed by (b)(1) on unprotected sides and edges, (b)(10) on roofing work on low-slope roofs and (b)(11) on steep roofs. Annual citations were 8,286 in FY2022, 9,189 in FY2023, 8,868 in FY2024, 9,080 in FY2025 and 6,503 in FY2026.",
-  "requirementsIntro": "Section 1926.501 sets out when employers must provide fall protection systems, and every system it requires must meet the criteria in § 1926.502. Paragraph (a) covers general duties. Paragraphs (b)(1) to (b)(15) name work situations and the systems allowed in each, which are mostly guardrail, safety net or personal fall arrest systems (called conventional systems below). Paragraph (c) covers falling objects.",
+  "enforcementSummary": "1926.501(b)(13), the residential construction paragraph, is the most cited part of the standard in FY2022–FY2026, followed by 1926.501(b)(1), which covers work at an unprotected side or edge, 1926.501(b)(10) on roofing work on low-slope roofs and 1926.501(b)(11) on steep roofs. Yearly citations stayed between 8,286 and 9,189 from FY2022 to FY2025, then fell to 6,503 in FY2026.",
+  "requirementsIntro": "1926.501(a)(1) places the duty to provide fall protection systems on employers and requires every system the section calls for to meet the criteria in 1926.502. Paragraph (a) covers these general duties, paragraphs (b)(1) through (b)(15) set the protection for each type of work area, and paragraph (c) covers falling objects.",
   "requirements": [
     {
-      "heading": "What general duties does 1926.501(a) place on employers?",
-      "intro": "Under 1926.501(a), employers must use fall protection that meets § 1926.502 and must confirm that a surface is strong enough before anyone works on it.",
+      "heading": "What must an employer confirm before anyone works at height?",
+      "intro": "Before employees work on a surface, 1926.501(a) requires the employer to determine that the walking/working surface can support them safely and to use only fall protection that meets 1926.502.",
       "items": [
         {
-          "text": "Any fall protection that this section requires must conform to the criteria in § 1926.502.",
+          "text": "Every fall protection system required by 1926.501 must conform to the criteria in 1926.502.",
           "clause": "1926.501(a)(1)"
         },
         {
-          "text": "The employer must determine whether each walking/working surface has the strength and structural integrity to support employees safely. Employees may work on that surface only once it does.",
+          "text": "The employer must determine whether each walking/working surface has the strength and structural integrity to support employees safely, and allow employees to work only on surfaces that have it.",
           "clause": "1926.501(a)(2)"
         }
       ]
     },
     {
-      "heading": "When must employers provide fall protection at edges, openings and hoist areas?",
-      "intro": "Under 1926.501(b), edges, wall openings, walkways and hoist areas need protection once the drop to a lower level reaches 6 feet (1.8 m).",
+      "heading": "When must edges, ramps, wall openings and hoist areas be protected?",
+      "intro": "Edges, hoist areas, ramps, walkways, wall openings and other elevated surfaces must be protected once the potential fall reaches the 6-foot height set in 1926.501(b)(1), (b)(3), (b)(6), (b)(14) and (b)(15), with an extra condition for wall openings.",
       "items": [
         {
-          "text": "Each employee on a horizontal or vertical walking/working surface with an unprotected side or edge 6 feet (1.8 m) or more above a lower level must be protected by a conventional system.",
+          "text": "An employee on a horizontal or vertical walking/working surface with an unprotected side or edge 6 feet or more above a lower level needs a guardrail system, safety net system or PFAS.",
           "clause": "1926.501(b)(1)"
         },
         {
-          "text": "On ramps, runways and other walkways, employees must be protected by guardrail systems from falls of 6 feet or more to lower levels.",
+          "text": "In a hoist area, employees exposed to a fall of at least 6 feet need guardrails or a PFAS; if a guardrail, chain or gate is removed for hoisting and an employee must lean through or out over the access opening, that employee needs a PFAS.",
+          "clause": "1926.501(b)(3)"
+        },
+        {
+          "text": "Ramps, runways and other walkways need guardrail systems where an employee could fall 6 feet or further.",
           "clause": "1926.501(b)(6)"
         },
         {
-          "text": "Employees working on, at, above or near a wall opening, including one with a chute attached, need a conventional system when the opening's outside bottom edge is at least 6 feet above a lower level and its inside bottom edge is less than 39 inches (1.0 m) above the walking/working surface.",
+          "text": "Employees working on, at, above or near a wall opening, including one with a chute attached, need guardrails, safety nets or a PFAS where the outside bottom edge is 6 feet or more above lower levels and the inside bottom edge is less than 39 inches (1.0 m) above the walking/working surface.",
           "clause": "1926.501(b)(14)"
         },
         {
-          "text": "In hoist areas, employees must be protected from falls of 6 feet or more by guardrail or personal fall arrest systems.",
-          "clause": "1926.501(b)(3)"
-        },
-        {
-          "text": "If a guardrail, chain or gate is removed for hoisting and an employee must lean through the access opening or out over its edge, that employee must be protected by a personal fall arrest system.",
-          "clause": "1926.501(b)(3)"
-        },
-        {
-          "text": "Each employee on any other walking/working surface at a height of 6 feet or more needs a conventional system. The exceptions are surfaces covered by § 1926.500(a)(2) or by 1926.501(b)(1) through (b)(14).",
+          "text": "Any other walking/working surface at least 6 feet above a lower level needs a guardrail, a net or a PFAS, except where 1926.500(a)(2) or paragraphs (b)(1) through (b)(14) apply.",
           "clause": "1926.501(b)(15)"
         }
       ]
     },
     {
-      "heading": "What protection is required at holes, excavations and dangerous equipment?",
-      "intro": "Holes, excavations and dangerous equipment each have their own rule in 1926.501(b)(4), (b)(7) and (b)(8), and covers are named more often here than at open edges.",
+      "heading": "How must holes, excavations and dangerous equipment be guarded?",
+      "intro": "Holes, excavation edges and dangerous equipment are covered by 1926.501(b)(4), (b)(7) and (b)(8), which name covers, guardrails, fences, barricades, equipment guards or fall arrest depending on the hazard and its depth or height.",
       "items": [
         {
-          "text": "Employees must be protected from falling through holes, including skylights, that are more than 6 feet above lower levels. The allowed measures are personal fall arrest systems, covers, or guardrail systems erected around the hole.",
+          "text": "Where a hole, including a skylight, is more than 6 feet above lower levels, employees must be protected from falling through it by a PFAS, a cover or guardrails erected around the hole.",
           "clause": "1926.501(b)(4)(i)"
         },
         {
@@ -282,114 +278,114 @@
           "clause": "1926.501(b)(4)(iii)"
         },
         {
-          "text": "At the edge of an excavation at least 6 feet deep that cannot readily be seen because of plant growth or another visual barrier, employees need guardrail systems, fences or barricades.",
+          "text": "At the edge of an excavation 6 feet or deeper that is not readily seen because of plant growth or another visual barrier, employees need guardrail systems, fences or barricades.",
           "clause": "1926.501(b)(7)(i)"
         },
         {
-          "text": "At the edge of a well, pit, shaft or similar excavation with a depth of 6 feet or more, employees need guardrail systems, fences, barricades or covers.",
+          "text": "At the edge of a well, pit, shaft or similar excavation 6 feet or deeper, employees need guardrail systems, fences, barricades or covers.",
           "clause": "1926.501(b)(7)(ii)"
         },
         {
-          "text": "Employees less than 6 feet above dangerous equipment must be protected from falling into or onto it by guardrail systems or equipment guards.",
+          "text": "An employee less than 6 feet above dangerous equipment must be protected from falling into or onto it by guardrail systems or equipment guards.",
           "clause": "1926.501(b)(8)(i)"
         },
         {
-          "text": "Employees 6 feet or higher above dangerous equipment need guardrail, personal fall arrest or safety net systems.",
+          "text": "An employee 6 feet or higher above dangerous equipment needs guardrail systems, a PFAS or safety net systems.",
           "clause": "1926.501(b)(8)(ii)"
         }
       ]
     },
     {
-      "heading": "What fall protection does 1926.501 require for roofing work?",
-      "intro": "Roofing work with unprotected sides and edges at 6 feet (1.8 m) or higher is covered by 1926.501(b)(10) for low-slope roofs and by (b)(11) for steep roofs.",
+      "heading": "What fall protection does roofing work need?",
+      "intro": "Roofing work is covered by 1926.501(b)(10) for low-slope roofs, which allows warning line combinations and, on roofs 50 feet or less in width, a safety monitoring system alone, and by 1926.501(b)(11) for steep roofs, which requires guardrails with toeboards, safety nets or a PFAS.",
       "items": [
         {
-          "text": "Unless another part of paragraph (b) provides otherwise, employees doing roofing work on low-slope roofs need either a conventional system or a warning line system combined with a guardrail system, safety net system, personal fall arrest system or safety monitoring system.",
+          "text": "Except as otherwise provided in paragraph (b), employees doing roofing work on low-slope roofs with unprotected sides and edges 6 feet or higher above lower levels need guardrails, safety nets, a PFAS, or a warning line system combined with a guardrail, safety net, PFAS or safety monitoring system.",
           "clause": "1926.501(b)(10)"
         },
         {
-          "text": "A safety monitoring system alone, without a warning line system, is permitted on low-slope roofs 50 feet (15.25 m) or less in width (see appendix A to subpart M).",
+          "text": "On low-slope roofs 50 feet (15.25 m) or less in width, a safety monitoring system may be used alone, without a warning line system (see appendix A to subpart M).",
           "clause": "1926.501(b)(10)"
         },
         {
-          "text": "On steep roofs, employees need guardrail systems with toeboards, safety net systems or personal fall arrest systems.",
+          "text": "Employees on a steep roof whose unprotected sides and edges are 6 or more feet above lower levels need guardrail systems with toeboards, safety net systems or a PFAS.",
           "clause": "1926.501(b)(11)"
         }
       ]
     },
     {
-      "heading": "When can a fall protection plan replace conventional systems?",
-      "intro": "Section 1926.501 allows a fall protection plan that meets § 1926.502(k) for three kinds of work: leading edge work, precast concrete erection and residential construction. Each one applies only when the employer can demonstrate that conventional systems are infeasible or create a greater hazard.",
+      "heading": "When can a fall protection plan replace guardrails, nets or arrest systems?",
+      "intro": "For leading edge work, precast concrete erection and residential construction, 1926.501(b)(2)(i), (b)(12) and (b)(13) allow a fall protection plan meeting 1926.502(k) only when the employer can demonstrate that guardrail, safety net and personal fall arrest systems are infeasible or that they create a greater hazard.",
       "items": [
         {
-          "text": "Employees constructing a leading edge 6 feet or more above lower levels need a conventional system, subject to the fall protection plan exception.",
+          "text": "Each employee constructing a leading edge 6 feet (1.8 m) or more above lower levels needs a guardrail, safety net or personal fall arrest system; if the employer can demonstrate these cannot feasibly be used or would create a greater hazard, it must develop and implement a fall protection plan meeting 1926.502(k).",
           "clause": "1926.501(b)(2)(i)"
         },
         {
-          "text": "Employees on the same elevated surface who are not doing the leading edge work also need a conventional system. If guardrails are chosen and a controlled access zone is already set up for the leading edge work, its control line may be used instead of a guardrail along the edge that runs parallel to the leading edge.",
+          "text": "The standard presumes at least one of those systems is feasible and will not create a greater hazard, so the employer carries the burden of showing that a 1926.502(k) plan is appropriate for the particular workplace situation.",
+          "clause": "1926.501(b)(2)(i)"
+        },
+        {
+          "text": "Employees on a surface where leading edges are under construction, but who are not doing that work, need guardrails, nets or a PFAS for falls of 6 feet and above; if guardrails are chosen and a controlled access zone already exists for the leading edge work, a control line may be used instead of a guardrail along the edge parallel to the leading edge.",
           "clause": "1926.501(b)(2)(ii)"
         },
         {
-          "text": "Employees erecting precast concrete members, such as wall panels, columns, beams, and floor and roof tees, or doing related work such as grouting at 6 feet or higher, need a conventional system. This applies unless another provision of paragraph (b) allows an alternative measure, and it is subject to the plan exception.",
+          "text": "Employees erecting precast concrete members, such as wall panels, columns, beams and floor and roof tees, or doing related operations such as grouting, at 6 feet and above lower levels need guardrails, safety nets or PFAS unless another provision of paragraph (b) provides an alternative; the same infeasibility exception and plan requirement apply.",
           "clause": "1926.501(b)(12)"
         },
         {
-          "text": "Employees doing residential construction activities 6 feet or more above lower levels need a conventional system. This applies unless another provision of paragraph (b) allows an alternative measure, and it is subject to the plan exception.",
+          "text": "Employees in residential construction activities 6 or more feet above lower levels need a guardrail system, safety net system or PFAS unless another paragraph (b) provision allows an alternative measure; where the employer shows those systems would be infeasible or more hazardous, a 1926.502(k) plan applies instead.",
           "clause": "1926.501(b)(13)"
         }
       ]
     },
     {
-      "heading": "What applies to formwork, reinforcing steel and overhand bricklaying?",
-      "intro": "Formwork, reinforcing steel and overhand bricklaying each have their own lists of allowed systems in 1926.501(b)(5) and (b)(9).",
+      "heading": "What protection applies to formwork, rebar and overhand bricklaying?",
+      "intro": "Formwork, reinforcing steel and overhand bricklaying have their own lists of permitted measures in 1926.501(b)(5) and (b)(9), including positioning device systems for formwork and controlled access zones for bricklaying.",
       "items": [
         {
-          "text": "Employees on the face of formwork or reinforcing steel must be protected from falls of 6 feet or more by personal fall arrest, safety net or positioning device systems.",
+          "text": "An employee on the face of formwork or reinforcing steel needs a PFAS, safety net system or positioning device system against falls to lower levels of 6 feet or greater.",
           "clause": "1926.501(b)(5)"
         },
         {
-          "text": "Except where paragraph (b) provides otherwise, employees doing overhand bricklaying and related work at 6 feet or higher need a guardrail, safety net or personal fall arrest system, or must work in a controlled access zone.",
+          "text": "Except as otherwise provided in paragraph (b), employees doing overhand bricklaying and related work 6 feet or greater above lower levels need a guardrail system, net or PFAS, or must work in a controlled access zone.",
           "clause": "1926.501(b)(9)(i)"
         },
         {
-          "text": "An employee who reaches more than 10 inches (25 cm) below the level of the walking/working surface they are on needs a guardrail, safety net or personal fall arrest system.",
+          "text": "An employee reaching more than 10 inches (25 cm) below the level of the surface they are working on needs a PFAS, safety net or guardrail system.",
           "clause": "1926.501(b)(9)(ii)"
         }
       ]
     },
     {
-      "heading": "How must employers protect employees from falling objects?",
-      "intro": "When an employee is exposed to falling objects, 1926.501(c) requires each employee to wear a hard hat and the employer to put one of three measures in place.",
+      "heading": "How must employees be protected from falling objects?",
+      "intro": "When an employee is exposed to falling objects, 1926.501(c) requires the employer to have each employee wear a hard hat and to implement one of the measures in 1926.501(c)(1) to (c)(3).",
       "items": [
         {
-          "text": "Each employee exposed to falling objects must wear a hard hat, and the employer must also use one of the measures in (c)(1) to (c)(3).",
+          "text": "Each employee exposed to falling objects must wear a hard hat.",
           "clause": "1926.501(c)"
         },
         {
-          "text": "Option 1: erect toeboards, screens or guardrail systems that stop objects from falling from higher levels.",
+          "text": "Erect toeboards, screens or guardrail systems so objects cannot fall from higher levels.",
           "clause": "1926.501(c)(1)"
         },
         {
-          "text": "Option 2: erect a canopy structure and keep potential falling objects far enough back from the edge of the higher level that they would not go over if accidentally displaced.",
+          "text": "Erect a canopy structure and keep potential falling objects far enough from the edge of the higher level that they would not go over if accidentally displaced.",
           "clause": "1926.501(c)(2)"
         },
         {
-          "text": "Option 3: barricade the area where objects could fall, prohibit employees from entering it, and keep objects far enough back from the edge above that they would not go over if accidentally displaced.",
+          "text": "Barricade the area where objects could fall, prohibit employees from entering it, and keep objects far enough from the edge that they would not go over if accidentally displaced.",
           "clause": "1926.501(c)(3)"
         }
       ]
     }
   ],
-  "checklistIntro": "Supervisors can use this checklist to walk the site against each paragraph of 1926.501, which sets no inspection schedule of its own; we suggest using it before work at height starts and whenever edges, holes, roofs or hoist areas change.",
+  "checklistIntro": "This checklist covers each protection duty in 1926.501(a), (b) and (c) for supervisors checking work at height and the areas below it where objects could fall.",
   "checklist": "us/1926-501-duty-have-fall-protection",
   "faq": [
     {
-      "question": "Who has to prove that guardrails, nets and fall arrest systems are infeasible?",
-      "answer": "The employer does. Notes to 1926.501(b)(2)(i), (b)(12) and (b)(13) say it is presumed that at least one of the listed systems is feasible and will not create a greater hazard. The employer therefore carries the burden of showing that a § 1926.502(k) plan is appropriate for the particular workplace situation."
-    },
-    {
       "question": "Does 1926.501 cover bricklaying done from scaffolds?",
-      "answer": "No. A note to 1926.501(b)(9)(ii) says that bricklaying operations performed on scaffolds are regulated by subpart L (Scaffolds) of Part 1926."
+      "answer": "The note to 1926.501(b)(9)(ii) says bricklaying operations performed on scaffolds are regulated by subpart L (Scaffolds) of Part 1926, so check that subpart for scaffold work."
     }
   ],
   "sources": [
@@ -407,18 +403,18 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-12",
-  "generatedOn": "2026-11-12",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
   "checkPass": "passed",
   "linkPhrases": [
     "fall protection",
     "duty to have fall protection",
-    "unprotected sides and edges"
+    "construction fall protection"
   ],
   "cover": "1926-501-duty-have-fall-protection",
-  "coverPrompt": "A wide shot of a house under construction where a roofer in a full-body harness works on the roof, connected by a lanyard to a roof anchor, while guardrails run along the open edge of the upper floor below. The photo is taken from a distance in overcast daylight, with no visible text, logos or close-up faces.",
-  "coverAlt": "Roofer in a full-body harness tied to a roof anchor on a house under construction, with guardrails at the floor edge",
+  "coverPrompt": "Two construction workers framing the roof of a house, each wearing a full-body harness connected by a lanyard to a roof anchor, photographed from a distance on a clear day with no close-up faces.",
+  "coverAlt": "Two workers framing a house roof wearing harnesses connected to roof anchors",
   "changes": []
 }
