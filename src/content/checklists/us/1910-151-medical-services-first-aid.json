@@ -1,0 +1,135 @@
+{
+  "slug": "1910-151-medical-services-first-aid",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-151-medical-services-first-aid",
+  "doc_ref": "SI-US-1910-151",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Eyewash Station Checklist (29 CFR 1910.151)",
+  "subtitle": "Use during routine site inspections and after any change in chemicals, processes or work areas.",
+  "regulation_line": "OSHA 29 CFR 1910.151",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A, and note the location you checked.",
+    "For each Defect, record the corrective action, who owns it and the due date, and recheck it once fixed.",
+    "The equipment manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Eyewash and drench facilities",
+      "items": [
+        [
+          "Corrosive exposure areas identified",
+          "Each area where eyes or body could contact injurious corrosive materials is listed, and each listed area has a flushing or drenching facility.",
+          "1910.151(c)"
+        ],
+        [
+          "Eye flushing provided",
+          "A unit that can quickly flush the eyes is installed at each listed area.",
+          "1910.151(c)"
+        ],
+        [
+          "Body drenching provided",
+          "Where the body (not only the eyes) could be exposed, a unit that can quickly drench the body is installed.",
+          "1910.151(c)"
+        ],
+        [
+          "Located within the work area",
+          "The unit sits in the same work area as the corrosive hazard, not in another room or building.",
+          "1910.151(c)"
+        ],
+        [
+          "Access clear",
+          "Nothing blocks the route to the unit or its controls; a person can reach and operate it straight away.",
+          "1910.151(c)"
+        ],
+        [
+          "Operates on demand",
+          "When activated as the manufacturer describes, the unit delivers flushing fluid at once and without fault.",
+          "1910.151(c)"
+        ],
+        [
+          "In service",
+          "The unit is connected or filled, its supply is not shut off, and it is not tagged out of service.",
+          "1910.151(c)"
+        ],
+        [
+          "Reachable by everyone exposed",
+          "Contractors, visitors and other people working near the corrosives can reach and use the unit.",
+          "1910.151(c)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Medical personnel and first aid responders",
+      "items": [
+        [
+          "Medical personnel available",
+          "Names and contact details of medical personnel who can advise and consult on plant health are posted or on record.",
+          "1910.151(a)"
+        ],
+        [
+          "Nearby treatment facility confirmed",
+          "Records show whether an infirmary, clinic or hospital close to the workplace is used to treat all injured employees.",
+          "1910.151(b)"
+        ],
+        [
+          "Trained first aiders",
+          "Where no such nearby facility treats every injured employee, one or more named people adequately trained to render first aid are on site, with training records.",
+          "1910.151(b)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "First aid supplies and kits",
+      "items": [
+        [
+          "Supplies readily available",
+          "First aid kits are in known, unlocked, easy-to-reach locations.",
+          "1910.151(b)"
+        ],
+        [
+          "Supplies adequate",
+          "Kits are stocked, items are usable, and contents meet the site's assessed needs.",
+          "1910.151(b)"
+        ],
+        [
+          "Enough kits for the operation",
+          "For larger or multiple operations at one location, the number of kits, types of equipment and quantities have been assessed and provided (Appendix A guidance).",
+          "1910.151(b)"
+        ],
+        [
+          "Periodic needs review",
+          "A dated review of first aid needs exists, drawing on the OSHA 300 log, OSHA 301 log or other injury reports (Appendix A guidance).",
+          "1910.151(b)"
+        ],
+        [
+          "PPE with first aid supplies",
+          "Where blood exposure during first aid is reasonably anticipated, gloves and other appropriate PPE such as face shields, masks or eye protection are kept with the kits (Appendix A; 1910.1030(d)(3)).",
+          "1910.151(b)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.151: Medical services and first aid, including non-mandatory Appendix A (First aid kits)",
+    "Source: eCFR, Title 29, Part 1910 Subpart K"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

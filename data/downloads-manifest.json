@@ -10,16 +10,6 @@
       "pdf": "/downloads/fr/casque-de-chantier.pdf",
       "xlsx": "/downloads/fr/casque-de-chantier.xlsx"
     },
-    "us/1910-1025-lead": {
-      "hash": "87680fbf8663fca2edcbe570e7bcc7e3714f79cff79836ba0d8f8372325d39d8",
-      "lang": "en",
-      "paper": "letter",
-      "pages": 5,
-      "items": 47,
-      "page_url": "https://safetyindex.blog/us/standards/1910-1025-lead",
-      "pdf": "/downloads/us/1910-1025-lead.pdf",
-      "xlsx": "/downloads/us/1910-1025-lead.xlsx"
-    },
     "us/1910-132-personal-protective-equipment": {
       "hash": "1145e0780eab8cb9f128b25e1d61157a987a0103f8200123b896323d492c98ed",
       "lang": "en",
@@ -39,6 +29,16 @@
       "page_url": "https://safetyindex.blog/us/standards/1910-147-control-hazardous-energy-lockout-tagout",
       "pdf": "/downloads/us/1910-147-control-hazardous-energy-lockout-tagout.pdf",
       "xlsx": "/downloads/us/1910-147-control-hazardous-energy-lockout-tagout.xlsx"
+    },
+    "us/1910-151-medical-services-first-aid": {
+      "hash": "d693806f7040e486ac8bc3c2ebe6626504b78be095a832e014fe116bc27d0a4d",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 2,
+      "items": 16,
+      "page_url": "https://safetyindex.blog/us/standards/1910-151-medical-services-first-aid",
+      "pdf": "/downloads/us/1910-151-medical-services-first-aid.pdf",
+      "xlsx": "/downloads/us/1910-151-medical-services-first-aid.xlsx"
     },
     "us/1910-157-portable-fire-extinguishers": {
       "hash": "4bef7ce14e4a116860da71086070d7a25f6e3b52d7e5e5bf7ed00036a2be06c4",

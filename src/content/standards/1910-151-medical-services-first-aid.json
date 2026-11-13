@@ -1,0 +1,304 @@
+{
+  "section": "1910.151",
+  "part": "1910",
+  "heading": "Medical services and first aid.",
+  "subpart": "K",
+  "subpartTitle": "Medical and First Aid",
+  "title": "OSHA eyewash station requirements (29 CFR 1910.151)",
+  "seoTitle": "OSHA Eyewash Station Requirements: 29 CFR 1910.151",
+  "description": "OSHA eyewash station and first aid requirements under 29 CFR 1910.151, with citation data, penalties and a printable inspection checklist.",
+  "opening": "29 CFR 1910.151 requires drenching and eye-flushing facilities in the work area wherever eyes or body may be exposed to injurious corrosive materials, adequate first aid supplies, trained first aiders unless a nearby infirmary, clinic or hospital treats all injured employees, and medical advice.",
+  "keyword": "osha eyewash station requirements",
+  "cluster": [
+    {
+      "keyword": "first aid kit inspection",
+      "volume": 140,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha eyewash station requirements",
+      "volume": 480,
+      "kd": 7,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "eyewash station checklist",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "eyewash station inspection",
+      "volume": 110,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha medical services and first aid requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "medical services and first aid checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "medical services and first aid inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.151",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 770,
+  "kd": 7,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 4434,
+    "inspections": 4353,
+    "byFy": {
+      "2022": 675,
+      "2023": 912,
+      "2024": 1001,
+      "2025": 925,
+      "2026": 921
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)",
+        "count": 3823
+      },
+      {
+        "paragraph": "(b)",
+        "count": 594
+      },
+      {
+        "paragraph": "(a)",
+        "count": 17
+      }
+    ],
+    "penalties": {
+      "n": 3245,
+      "median": 3795,
+      "p25": 1400,
+      "p75": 7022,
+      "total": 17194660
+    },
+    "typeShares": {
+      "serious": 0.777,
+      "willful": 0,
+      "repeat": 0.015,
+      "otherThanSerious": 0.207,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 3446,
+      "willful": 1,
+      "repeat": 67,
+      "otherThanSerious": 918,
+      "unclassified": 2
+    },
+    "topIndustries": [
+      {
+        "naics": "7211",
+        "count": 249,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "8111",
+        "count": 236,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "2213",
+        "count": 189,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "2373",
+        "count": 140,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "7225",
+        "count": 123,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "4931",
+        "count": 116,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "5617",
+        "count": 112,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "6111",
+        "count": 105,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "9211",
+        "count": 86,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "9221",
+        "count": 84,
+        "title": "Justice, Public Order, and Safety Activities"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.151(c), the duty to provide quick drenching or eye-flushing facilities where corrosive materials may reach the eyes or body, draws the most citations by a wide margin; paragraph (b), on trained first aiders and supplies, follows with 594, and paragraph (a), on the availability of medical personnel, has 17. Citations rose from 675 in FY2022 to 1,001 in FY2024, then held near that level with 925 in FY2025 and 921 in FY2026.",
+  "requirementsIntro": "29 CFR 1910.151 sits in Part 1910 Subpart K and places three duties on the employer: paragraph (a) covers medical personnel for advice, (b) covers trained first aiders and supplies, and (c) covers drenching and eye-flushing facilities where corrosive materials may reach a person's eyes or body. A non-mandatory Appendix A gives guidance on first aid kits.",
+  "requirements": [
+    {
+      "heading": "When does OSHA require an eyewash station or drench facility?",
+      "intro": "Under 1910.151(c), wherever corrosive materials that can injure may reach any person's eyes or body, the employer must provide suitable facilities for quick drenching or flushing of the eyes and body inside the work area.",
+      "items": [
+        {
+          "text": "Actual contact is not needed to trigger the duty; it applies where exposure of the eyes or body to injurious corrosives is possible.",
+          "clause": "1910.151(c)"
+        },
+        {
+          "text": "The equipment must be suitable for flushing the eyes and drenching the body quickly.",
+          "clause": "1910.151(c)"
+        },
+        {
+          "text": "The facilities must be located within the work area where the exposure can occur.",
+          "clause": "1910.151(c)"
+        },
+        {
+          "text": "They must be ready for immediate emergency use.",
+          "clause": "1910.151(c)"
+        }
+      ]
+    },
+    {
+      "heading": "When must an employer have trained first aiders and medical advice?",
+      "intro": "Paragraph 1910.151(b) requires one or more adequately trained first aiders unless an infirmary, clinic or hospital in near proximity to the workplace is used for the treatment of all injured employees, and 1910.151(a) requires ready access to medical personnel for plant health advice.",
+      "items": [
+        {
+          "text": "Where no nearby infirmary, clinic or hospital is the place every injured employee is treated, a person or persons must be adequately trained to render first aid.",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "Both conditions of that exception must hold: the facility is close to the workplace, and it is the facility used for all injured employees.",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "The employer must ensure medical personnel are readily available for advice and consultation on matters of plant health.",
+          "clause": "1910.151(a)"
+        }
+      ]
+    },
+    {
+      "heading": "What first aid supplies does OSHA require?",
+      "intro": "Paragraph 1910.151(b) requires adequate first aid supplies to be readily available, and the non-mandatory Appendix A to 1910.151 gives guidance on judging what is adequate at a given site.",
+      "items": [
+        {
+          "text": "Supplies for first aid must be adequate and kept readily available.",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "Non-mandatory Appendix A points to ANSI Z308.1-1998 as an example of the minimal contents of a generic kit and says those contents should be adequate for small worksites.",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "Under Appendix A, where larger or multiple operations run at one location, employers should decide whether they need more kits, other types of first aid equipment, and more or different supplies in each kit.",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "Appendix A says employers with unique or changing first aid needs may need to enhance their kits, and can use the OSHA 300 log, OSHA 301 log or other reports to identify those needs.",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "Appendix A also advises assessing the worksite's needs periodically and adding to the kits; the local fire/rescue department, an appropriate medical professional or the local emergency room may help.",
+          "clause": "1910.151(b)"
+        }
+      ]
+    },
+    {
+      "heading": "What protective equipment must be supplied with first aid kits?",
+      "intro": "Appendix A to 1910.151 notes that where employees are reasonably anticipated to be exposed to blood or other potentially infectious materials while using first aid supplies, employers must provide appropriate PPE under the bloodborne pathogens standard, 1910.1030(d)(3).",
+      "items": [
+        {
+          "text": "The PPE duty for blood exposure during first aid comes from 1910.1030(d)(3); Appendix A ties it to the supplies required by paragraph (b).",
+          "clause": "1910.151(b)"
+        },
+        {
+          "text": "Appendix A gives gloves, gowns, face shields, masks and eye protection as examples of appropriate PPE for this exposure.",
+          "clause": "1910.151(b)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the eyewash and drench facilities, first aid responders, medical advice and first aid supplies required by 29 CFR 1910.151; use it on routine walk-throughs and whenever corrosive materials, processes or work areas change.",
+  "checklist": "us/1910-151-medical-services-first-aid",
+  "faq": [
+    {
+      "question": "Does 1910.151(c) set a flow rate, water temperature or distance for eyewash stations?",
+      "answer": "No. Paragraph (c) contains no figures; it describes the facilities in words only (suitable, quick, located in the work area, ready for emergencies). Follow the equipment manufacturer's instructions and ask your OSHA area office or a competent person how those terms apply at your site."
+    },
+    {
+      "question": "Does 1910.151(c) protect visitors and contractors, or only employees?",
+      "answer": "Paragraph (c) refers to the eyes or body of \"any person\", while paragraph (b) speaks of injured employees. The wording of (c) does not limit the facilities to employees; on a multi-employer site, check with OSHA or a competent person on who provides them."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.151: Medical services and first aid (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.151"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "eyewash stations",
+    "medical services and first aid",
+    "first aid supplies"
+  ],
+  "cover": "1910-151-medical-services-first-aid",
+  "coverPrompt": "A worker in a chemical-resistant apron, gloves and safety goggles stands beside a plumbed emergency eyewash and drench shower station next to sealed chemical drums in a clean industrial work area, with a clear path to the station. Realistic photograph with no visible text, labels, numbers, logos or close-up faces.",
+  "coverAlt": "Worker in protective gear beside an emergency eyewash and drench shower in an industrial chemical area",
+  "changes": []
+}
