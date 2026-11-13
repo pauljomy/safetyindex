@@ -7,7 +7,8 @@ Plain-English log of the build-out on the `build-out` branch (brief: `safetyinde
 - **Step 1 (audit, schedule off, CLAUDE.md, topic sheet): done.**
 - **Step 2 (fixes to the existing site): done.** See "Step 2" below.
 - **Step 3 (US data and keywords): done.** DOL enforcement data FY2022–FY2026 pulled and aggregated; 55 standard pages and 19 industry pages pass the thresholds; keyword research done (OpenSEO balance 2,020 credits).
-- **Step 4 (engine): built; testing on 10 pages.**
+- **Step 4 (engine): done.** Tested on 11 pages across every page type; the full run is ready to start (Paul starts it).
+- **Steps 6–8: built.** Steps 5 and 7's first wave follow from the full run and the merge.
 
 ## Things for Paul to do
 
@@ -151,7 +152,15 @@ Cloudflare **Workers static assets** with git integration (`wrangler.jsonc`, ass
 | US guide #7 safety glasses | Written (2,446 words, checklist + PDF/Excel), passed the checking pass first time. Go/no-go: 9 guides and 1 shop page in the top 10. |
 | US guide #6 lockout/tagout | First try dropped: the checker rightly found a definition summarised without one of its conditions, and a training row that implied affected employees need no initial training. After the precision rule and severity grading: written and passed. |
 | UK guide #7 safety glasses | Correctly skipped by go/no-go: 6 of the UK top 10 are retailer pages. |
-| German rewrite of /de/blog/sicherheitszeichen-arbeitsschutz | First tries showed two engine bugs (the rewrite guard reverted whole fields; the number check misread German dates), both fixed. Retesting. |
+| German rewrite of /de/blog/sicherheitszeichen-arbeitsschutz | Dropped. The checker found that a transition rule (2007 signs may stay) applies only to existing workplaces, and the rewrite didn't fix it fully. The page stays noindexed. Earlier tries exposed two engine bugs (the rewrite guard reverted whole fields; the number check misread German dates), both fixed. |
+| French rewrite of /fr/blog/casque-de-chantier | Rewritten from INRS and Code du travail sources only, with a "localRule" line (R4321-4, R4323-95), a French checklist (A4, Conforme / Non conforme / Sans objet) and a rewrite entry in its change log. Indexable again. |
+| Standard 1910.147 lockout/tagout | Written (its first version used part of the data and was regenerated on the full data). |
+| Standard 1926.451 scaffolds, 1910.23 ladders | Written, with checklists and PDF/Excel downloads. |
+| Standard 1926.501 fall protection | Written; regenerated once with a better title ("Fall protection inspection: OSHA requirements (29 CFR 1926.501)"). |
+| Industry NAICS 2381 | First version dropped: the checker rightly objected to "roofing" in the title when the data covers the whole NAICS code. Fixed by giving the writer the code's 6-digit industries (238160 Roofing Contractors) and the subpart titles of the cited sections; rewritten and passed. |
+| Reports: most-cited OSHA standards 2026, workplace injury statistics 2024, OSHA penalties 2026 | Built by script from the data. |
+
+**My checks of the test pages** (mobile screenshots, the rendered PDFs, the full build checks) found and fixed: wide tables running off phone screens; chart labels clipped and too small; the "written by Claude" note wrongly shown on script-built data pages; "Workplace safety in United States"; a checklist header cut mid-word; the download builder missing for guide checklists; and the Lighthouse script deadlocking. After the fixes, every build check and download check passes, and Lighthouse scores 97–99 for performance and 100 for accessibility on the sampled pages.
 
 ## Step 6: Data pages and hubs
 
