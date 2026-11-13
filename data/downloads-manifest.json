@@ -120,6 +120,16 @@
       "pdf": "/downloads/us/1910-179-overhead-gantry-cranes.pdf",
       "xlsx": "/downloads/us/1910-179-overhead-gantry-cranes.xlsx"
     },
+    "us/1910-184-slings": {
+      "hash": "1d585c4d6692745c5588110d7211c61d59cfc694cf913fc777a24d679dc5b846",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 46,
+      "page_url": "https://safetyindex.blog/us/standards/1910-184-slings",
+      "pdf": "/downloads/us/1910-184-slings.pdf",
+      "xlsx": "/downloads/us/1910-184-slings.xlsx"
+    },
     "us/1910-212-machinery-machine-guarding-all-machines": {
       "hash": "9308c218600f5d5651c6bb2020df2a0c8635c34c0ab053abbbd3eedc76046d2b",
       "lang": "en",

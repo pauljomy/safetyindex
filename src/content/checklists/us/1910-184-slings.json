@@ -1,0 +1,297 @@
+{
+  "slug": "1910-184-slings",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-184-slings",
+  "doc_ref": "SI-US-1910-184",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Sling Inspection Checklist (29 CFR 1910.184)",
+  "subtitle": "Use before slings are used each day and whenever service conditions call for a further check during use.",
+  "regulation_line": "OSHA 29 CFR 1910.184",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; mark a whole section N/A when it does not match the sling type.",
+    "If any item is marked Defect, remove the sling from service at once (1910.184(d)). Some findings mean permanent removal: chain heated above 1000 °F (1910.184(e)(6)), fiber core wire rope exposed to more than 200 °F (1910.184(f)(3)), and any defective fiber rope sling, since repaired fiber rope slings may not be used (1910.184(h)(6)).",
+    "The sling manufacturer's instructions and your site rules may add checks; 1910.184(c) lists further rigging practices, and metal mesh slings have their own removal conditions in 1910.184(g)(9)."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "All slings: inspection, markings and rigging",
+      "items": [
+        [
+          "Pre-use inspection",
+          "A competent person designated by the employer checked the sling and all fastenings and attachments for damage or defects today, before first use",
+          "1910.184(d)"
+        ],
+        [
+          "Identification marking",
+          "Marking is affixed to the sling and can be read",
+          "1910.184(c)(14)"
+        ],
+        [
+          "Load against marked capacity",
+          "Load to be lifted is no more than the manufacturer's recommended safe working load shown on the sling's markings",
+          "1910.184(c)(13)"
+        ],
+        [
+          "Overall condition",
+          "No damage or defect of any kind is visible on the sling in use",
+          "1910.184(c)(1)"
+        ],
+        [
+          "Shortening",
+          "Sling length not shortened with knots, bolts or other makeshift devices",
+          "1910.184(c)(2)"
+        ],
+        [
+          "Sling legs",
+          "No kinks in any leg",
+          "1910.184(c)(3)"
+        ],
+        [
+          "Attachment to load",
+          "Sling securely attached to the load before lifting",
+          "1910.184(c)(6)"
+        ],
+        [
+          "Sharp edges",
+          "Padding or protection between the sling and every sharp edge of the load",
+          "1910.184(c)(7)"
+        ],
+        [
+          "People near the load",
+          "Every employee is clear of the load before lift-off and while it is suspended",
+          "1910.184(c)(9)"
+        ],
+        [
+          "Shock loading",
+          "No shock loading during the lift",
+          "1910.184(c)(11)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Alloy steel chain slings",
+      "items": [
+        [
+          "Identification tag",
+          "Durable, permanently affixed tag states reach, size, grade and rated capacity",
+          "1910.184(e)(1)"
+        ],
+        [
+          "Thorough inspection interval",
+          "Thorough inspection done at the employer's set interval and no more than 12 months ago",
+          "1910.184(e)(3)(i)"
+        ],
+        [
+          "Inspection record",
+          "Record of the most recent month of thorough inspection exists for this sling and can be shown on request",
+          "1910.184(e)(3)(ii)"
+        ],
+        [
+          "Link wear",
+          "No point on any link is below the minimum chain size in Table N-184-1",
+          "1910.184(e)(8)"
+        ],
+        [
+          "Master and coupling links",
+          "No cracked or deformed master links, coupling links or other components",
+          "1910.184(e)(9)(i)"
+        ],
+        [
+          "Hooks",
+          "Hook has no cracks, its throat at the narrowest spot has not opened over 15% beyond normal, and it is twisted no more than 10 degrees out of the unbent hook's plane",
+          "1910.184(e)(9)(ii)"
+        ],
+        [
+          "Links and fasteners",
+          "No makeshift links or fasteners formed from bolts or rods",
+          "1910.184(e)(2)(ii)"
+        ],
+        [
+          "Heat exposure",
+          "Chain has not been heated above 1000 °F",
+          "1910.184(e)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Wire rope slings",
+      "items": [
+        [
+          "Marking",
+          "Legible, permanently affixed manufacturer marking shows safe working load per hitch, the angle it is based on, and leg count on multi-leg slings",
+          "1910.184(f)(1)"
+        ],
+        [
+          "Broken wires",
+          "Fewer than ten randomly distributed broken wires in any rope lay, and fewer than five in any one strand of a lay",
+          "1910.184(f)(5)(i)"
+        ],
+        [
+          "Outside wire wear",
+          "Outside wires have not lost one-third of their original diameter to wear or scraping",
+          "1910.184(f)(5)(ii)"
+        ],
+        [
+          "Rope structure",
+          "No kinking, crushing, bird caging or other distortion",
+          "1910.184(f)(5)(iii)"
+        ],
+        [
+          "Heat damage",
+          "No evidence of heat damage on the rope",
+          "1910.184(f)(5)(iv)"
+        ],
+        [
+          "Fiber core heat exposure",
+          "A fiber core rope has never been exposed to temperatures above 200 °F",
+          "1910.184(f)(3)"
+        ],
+        [
+          "End attachments",
+          "End attachments free of cracks, deformation and wear",
+          "1910.184(f)(5)(v)"
+        ],
+        [
+          "Hooks",
+          "Throat not opened past 15% of normal at its narrowest; twist within 10 degrees of the unbent position",
+          "1910.184(f)(5)(vi)"
+        ],
+        [
+          "Corrosion",
+          "No corrosion on the rope or end attachments",
+          "1910.184(f)(5)(vii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Synthetic web slings",
+      "items": [
+        [
+          "Web sling marking",
+          "Marking or code shows hitch-by-hitch rated capacities and the web material",
+          "1910.184(i)(1)"
+        ],
+        [
+          "Webbing damage",
+          "No snags, punctures, tears or cuts in the webbing",
+          "1910.184(i)(9)(iii)"
+        ],
+        [
+          "Chemical burns",
+          "No acid or caustic burns",
+          "1910.184(i)(9)(i)"
+        ],
+        [
+          "Melting or charring",
+          "No melting or charring anywhere on the sling surface",
+          "1910.184(i)(9)(ii)"
+        ],
+        [
+          "Stitching",
+          "No broken or worn stitches",
+          "1910.184(i)(9)(iv)"
+        ],
+        [
+          "Web sling fittings",
+          "Fittings show no distortion",
+          "1910.184(i)(9)(v)"
+        ],
+        [
+          "Nylon and acids",
+          "A nylon sling is not used where acids or phenolics are present as fume, vapor, spray, mist or liquid",
+          "1910.184(i)(6)(i)"
+        ],
+        [
+          "Polyester or polypropylene and caustics",
+          "A polyester or polypropylene sling is not used where caustics are present as fume, vapor, spray, mist or liquid",
+          "1910.184(i)(6)(ii)"
+        ],
+        [
+          "Aluminum fittings and caustics",
+          "A web sling with aluminum fittings is kept away from caustics, whatever the form (fumes, mists, vapors, sprays or liquids)",
+          "1910.184(i)(6)(iii)"
+        ],
+        [
+          "Temperature",
+          "A polyester or nylon sling is not used above 180 °F; a polypropylene sling is not used above 200 °F",
+          "1910.184(i)(7)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Natural and synthetic fiber rope slings",
+      "items": [
+        [
+          "Fiber rope marking",
+          "Legible, permanently affixed marking shows rated capacity per hitch and its angle, the fiber type, and leg count on multi-leg slings",
+          "1910.184(h)(1)"
+        ],
+        [
+          "Abnormal wear",
+          "No abnormal wear on the rope",
+          "1910.184(h)(5)(i)"
+        ],
+        [
+          "Powdered fiber",
+          "No powdered fiber between strands",
+          "1910.184(h)(5)(ii)"
+        ],
+        [
+          "Broken or cut fibers",
+          "No broken or cut fibers",
+          "1910.184(h)(5)(iii)"
+        ],
+        [
+          "Strand size and roundness",
+          "No variations in the size or roundness of strands",
+          "1910.184(h)(5)(iv)"
+        ],
+        [
+          "Discoloration and rot",
+          "No discoloration or rotting",
+          "1910.184(h)(5)(v)"
+        ],
+        [
+          "Sling hardware",
+          "No distortion of hardware in the sling",
+          "1910.184(h)(5)(vi)"
+        ],
+        [
+          "New rope only",
+          "Sling is made from new rope and has never been repaired or reconditioned",
+          "1910.184(h)(6)"
+        ],
+        [
+          "Temperature",
+          "Used between minus 20 °F and plus 180 °F, or as its manufacturer recommends when outside that range or wet frozen",
+          "1910.184(h)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.184: Slings (Part 1910 Subpart N, Materials Handling and Storage)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

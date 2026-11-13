@@ -1,0 +1,622 @@
+{
+  "section": "1910.184",
+  "part": "1910",
+  "heading": "Slings.",
+  "subpart": "N",
+  "subpartTitle": "Materials Handling and Storage",
+  "title": "Sling inspection checklist and OSHA requirements (29 CFR 1910.184)",
+  "seoTitle": "Sling Inspection: OSHA 1910.184 Requirements & Checklist",
+  "description": "OSHA 1910.184 sling rules: daily inspection, removal criteria by sling type, enforcement data and a printable sling inspection checklist.",
+  "opening": "29 CFR 1910.184 requires employers to have a designated competent person inspect every sling and its fastenings and attachments each day before use, keep damaged or defective slings out of service, and follow use, marking, temperature, repair and removal rules for each sling type.",
+  "keyword": "sling inspection",
+  "cluster": [
+    {
+      "keyword": "osha sling requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "sling checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "sling inspection",
+      "volume": 90,
+      "kd": 4,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha rigging sling requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rigging sling checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rigging sling inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha slings requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "slings checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "slings inspection",
+      "volume": 90,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.184",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 200,
+  "kd": 4,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1436,
+    "inspections": 877,
+    "byFy": {
+      "2022": 269,
+      "2023": 278,
+      "2024": 344,
+      "2025": 291,
+      "2026": 254
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(e)(1)",
+        "count": 204
+      },
+      {
+        "paragraph": "(d)",
+        "count": 199
+      },
+      {
+        "paragraph": "(c)(9)",
+        "count": 141
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 109
+      },
+      {
+        "paragraph": "(e)(3)(i)",
+        "count": 107
+      },
+      {
+        "paragraph": "(e)(3)(ii)",
+        "count": 83
+      },
+      {
+        "paragraph": "(i)(9)(iii)",
+        "count": 80
+      },
+      {
+        "paragraph": "(c)(14)",
+        "count": 78
+      },
+      {
+        "paragraph": "(i)(1)",
+        "count": 66
+      },
+      {
+        "paragraph": "(c)(6)",
+        "count": 35
+      }
+    ],
+    "penalties": {
+      "n": 832,
+      "median": 5444,
+      "p25": 2172,
+      "p75": 10151,
+      "total": 5583759
+    },
+    "typeShares": {
+      "serious": 0.776,
+      "willful": 0.001,
+      "repeat": 0.006,
+      "otherThanSerious": 0.217,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 1114,
+      "willful": 1,
+      "repeat": 9,
+      "otherThanSerious": 311,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "2373",
+        "count": 182,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "3323",
+        "count": 124,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3273",
+        "count": 80,
+        "title": "Cement and Concrete Product Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 73,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3327",
+        "count": 47,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "2213",
+        "count": 44,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "2131",
+        "count": 35,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "3362",
+        "count": 34,
+        "title": "Motor Vehicle Body and Trailer Manufacturing"
+      },
+      {
+        "naics": "5612",
+        "count": 34,
+        "title": "Facilities Support Services"
+      },
+      {
+        "naics": "3279",
+        "count": 33,
+        "title": "Other Nonmetallic Mineral Product Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "The two most-cited paragraphs in FY2022–FY2026 were 1910.184(e)(1), the durable identification that must give an alloy steel chain sling's size, grade, rated capacity and reach (204 citations), and 1910.184(d), the pre-use inspection by a designated competent person (199). Third was 1910.184(c)(9), which keeps employees away from loads being readied for a lift and from suspended loads (141). Yearly citations went from 269 in FY2022 and 278 in FY2023 to a high of 344 in FY2024, then fell to 291 in FY2025 and 254 in FY2026.",
+  "requirementsIntro": "1910.184 covers slings used with other material handling equipment to move material by hoisting, in employments covered by Part 1910, when the sling is made of alloy steel chain, wire rope, metal mesh, natural or synthetic fiber rope (conventional three strand construction) or synthetic web (nylon, polyester and polypropylene). Paragraphs (c) and (d) apply to every sling and paragraphs (e) to (i) add rules by sling type; the groups below give the main rules, and the full text has more, including definitions, repairs and splicing.",
+  "requirements": [
+    {
+      "heading": "What rigging and loading rules apply to every sling?",
+      "intro": "1910.184(c) sets practices that apply whenever any sling is used, starting with a ban on using a damaged or defective sling.",
+      "items": [
+        {
+          "text": "Do not use a sling that is damaged or defective.",
+          "clause": "1910.184(c)(1)"
+        },
+        {
+          "text": "Never shorten a sling with knots, bolts or other makeshift devices.",
+          "clause": "1910.184(c)(2)"
+        },
+        {
+          "text": "Keep sling legs free of kinks.",
+          "clause": "1910.184(c)(3)"
+        },
+        {
+          "text": "Keep the load within the sling's rated capacity.",
+          "clause": "1910.184(c)(4)"
+        },
+        {
+          "text": "In a basket hitch, balance the load so it cannot slip.",
+          "clause": "1910.184(c)(5)"
+        },
+        {
+          "text": "Attach the sling securely to the load.",
+          "clause": "1910.184(c)(6)"
+        },
+        {
+          "text": "Pad or protect the sling where the load has sharp edges.",
+          "clause": "1910.184(c)(7)"
+        },
+        {
+          "text": "Shock loading is prohibited.",
+          "clause": "1910.184(c)(11)"
+        }
+      ]
+    },
+    {
+      "heading": "What must workers do around a suspended load?",
+      "intro": "1910.184(c) also sets rules for people near a sling lift, from keeping hands out of a tightening sling to keeping employees away from the load.",
+      "items": [
+        {
+          "text": "Keep all employees clear of loads about to be lifted and of suspended loads.",
+          "clause": "1910.184(c)(9)"
+        },
+        {
+          "text": "Keep suspended loads clear of all obstructions.",
+          "clause": "1910.184(c)(8)"
+        },
+        {
+          "text": "Keep hands and fingers out from between the sling and the load while the sling is tightened around it.",
+          "clause": "1910.184(c)(10)"
+        },
+        {
+          "text": "Do not pull a sling from under a load that is resting on it.",
+          "clause": "1910.184(c)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "What identification markings must slings carry?",
+      "intro": "Every sling needs affixed, legible identification markings under 1910.184(c)(14), and each sling type has its own paragraph listing what the marking states.",
+      "items": [
+        {
+          "text": "Do not use any sling without affixed and legible identification markings.",
+          "clause": "1910.184(c)(14)"
+        },
+        {
+          "text": "Do not load a sling beyond the recommended safe working load the manufacturer gives on the sling's permanently affixed identification markings.",
+          "clause": "1910.184(c)(13)"
+        },
+        {
+          "text": "Alloy steel chain slings need durable, permanently affixed identification stating size, grade, rated capacity and reach.",
+          "clause": "1910.184(e)(1)"
+        },
+        {
+          "text": "Wire rope slings may be used only with legible, permanently affixed manufacturer markings showing the recommended safe working load for each hitch type used, the angle that load is based on, and the leg count when there is more than one leg.",
+          "clause": "1910.184(f)(1)"
+        },
+        {
+          "text": "Each metal mesh sling needs a durable marking fixed to it permanently, stating its rated capacity for vertical basket hitch and choker hitch loadings.",
+          "clause": "1910.184(g)(1)"
+        },
+        {
+          "text": "Natural and synthetic fiber rope slings need legible markings, permanently affixed, giving rated capacity for the hitch types used and the angle on which that rating is based, the fiber material, and how many legs the sling has if more than one.",
+          "clause": "1910.184(h)(1)"
+        },
+        {
+          "text": "Synthetic web slings must be marked or coded with the rated capacities for each hitch type and the type of synthetic web material.",
+          "clause": "1910.184(i)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "Who must inspect slings, and how often?",
+      "intro": "1910.184(d) sets a daily pre-use inspection for every sling by a competent person the employer designates, and 1910.184(e)(3) adds a thorough periodic inspection for alloy steel chain slings.",
+      "items": [
+        {
+          "text": "A competent person the employer designates inspects the sling and all its fastenings and attachments for damage or defects each day before use.",
+          "clause": "1910.184(d)"
+        },
+        {
+          "text": "Carry out additional inspections during sling use where service conditions warrant.",
+          "clause": "1910.184(d)"
+        },
+        {
+          "text": "Remove damaged or defective slings from service immediately.",
+          "clause": "1910.184(d)"
+        },
+        {
+          "text": "Give alloy steel chain slings in use a thorough periodic inspection, on top of the daily one, at a regular interval based on frequency of use, severity of service conditions, nature of the lifts and experience with slings in similar circumstances, and never more than 12 months apart.",
+          "clause": "1910.184(e)(3)(i)"
+        },
+        {
+          "text": "A competent person designated by the employer performs the thorough chain inspection, covering wear, defective welds, deformation and increase in length.",
+          "clause": "1910.184(e)(3)(iii)"
+        },
+        {
+          "text": "Take a chain sling out of service at once where the thorough inspection finds those defects or deterioration.",
+          "clause": "1910.184(e)(3)(iii)"
+        },
+        {
+          "text": "Keep a record of the most recent month each alloy steel chain sling was thoroughly inspected, and make it available for examination.",
+          "clause": "1910.184(e)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra rules apply to alloy steel chain slings?",
+      "intro": "Alloy steel chain slings have their own rules in 1910.184(e) on attachments, proof testing, repair, wear and deformed parts.",
+      "items": [
+        {
+          "text": "Hooks, rings, links and other attachments must have a rated capacity at least equal to the chain they are used with, or the sling must not be used above the rated capacity of its weakest component.",
+          "clause": "1910.184(e)(2)(i)"
+        },
+        {
+          "text": "Do not use makeshift links or fasteners formed from bolts, rods or similar attachments.",
+          "clause": "1910.184(e)(2)(ii)"
+        },
+        {
+          "text": "Before use, each new, repaired or reconditioned chain sling, including all welded components, must be proof tested by the sling manufacturer or an equivalent entity to the ASTM A391-65 method the paragraph incorporates, and the employer keeps the proof test certificate available for examination.",
+          "clause": "1910.184(e)(4)"
+        },
+        {
+          "text": "Worn or damaged chain slings or attachments stay out of use until repaired; where welding or heat testing is done, the sling may be used only once repaired, reconditioned and proof tested by its manufacturer or an equivalent entity.",
+          "clause": "1910.184(e)(7)(i)"
+        },
+        {
+          "text": "Do not repair broken lengths of chain with mechanical coupling links or low carbon steel repair links.",
+          "clause": "1910.184(e)(7)(ii)"
+        },
+        {
+          "text": "Take the chain out of service if its size at any point of a link is below the minimum in Table N-184-1; for 1⁄2-inch chain that minimum is 25⁄64 inch.",
+          "clause": "1910.184(e)(8)"
+        },
+        {
+          "text": "Remove slings with cracked or deformed master links, coupling links or other components.",
+          "clause": "1910.184(e)(9)(i)"
+        },
+        {
+          "text": "Remove the sling if a hook is cracked, opened more than 15 percent of the normal throat opening measured at the narrowest point, or twisted more than 10 degrees from the plane of the unbent hook.",
+          "clause": "1910.184(e)(9)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What removes a wire rope sling from service?",
+      "intro": "1910.184(f)(5) lists seven conditions, any one of which means a wire rope sling must be removed immediately.",
+      "items": [
+        {
+          "text": "The rope has ten randomly distributed broken wires in one rope lay, or five broken wires in a single strand within that lay.",
+          "clause": "1910.184(f)(5)(i)"
+        },
+        {
+          "text": "Outside individual wires are worn or scraped by one-third of their original diameter.",
+          "clause": "1910.184(f)(5)(ii)"
+        },
+        {
+          "text": "Kinking, crushing, bird caging or other damage has distorted the rope structure.",
+          "clause": "1910.184(f)(5)(iii)"
+        },
+        {
+          "text": "There is evidence of heat damage.",
+          "clause": "1910.184(f)(5)(iv)"
+        },
+        {
+          "text": "An end attachment is cracked, deformed or worn.",
+          "clause": "1910.184(f)(5)(v)"
+        },
+        {
+          "text": "A hook has opened beyond 15 percent of its normal throat opening, taken where the throat is narrowest, or twisted beyond 10 degrees out of its unbent plane.",
+          "clause": "1910.184(f)(5)(vi)"
+        },
+        {
+          "text": "The rope or its end attachments are corroded.",
+          "clause": "1910.184(f)(5)(vii)"
+        }
+      ]
+    },
+    {
+      "heading": "What removes a metal mesh sling from service?",
+      "intro": "1910.184(g)(9) gives seven conditions that require a metal mesh sling to be pulled from service at once.",
+      "items": [
+        {
+          "text": "A weld or brazed joint along the sling edge is broken.",
+          "clause": "1910.184(g)(9)(i)"
+        },
+        {
+          "text": "Abrasion has reduced wire diameter by 25 per cent, or corrosion has reduced it by 15 per cent.",
+          "clause": "1910.184(g)(9)(ii)"
+        },
+        {
+          "text": "Distortion of the fabric has made it lose flexibility.",
+          "clause": "1910.184(g)(9)(iii)"
+        },
+        {
+          "text": "The female handle is distorted so its slot depth has grown more than 10 per cent.",
+          "clause": "1910.184(g)(9)(iv)"
+        },
+        {
+          "text": "Either handle is distorted so the width of its eye has shrunk more than 10 per cent.",
+          "clause": "1910.184(g)(9)(v)"
+        },
+        {
+          "text": "Metal at any point around the handle eye has lost 15 percent of its original cross-sectional area.",
+          "clause": "1910.184(g)(9)(vi)"
+        },
+        {
+          "text": "Either handle is distorted out of its plane.",
+          "clause": "1910.184(g)(9)(vii)"
+        }
+      ]
+    },
+    {
+      "heading": "What takes a fiber rope sling out of service?",
+      "intro": "1910.184(h)(5) gives six conditions that require immediate removal of a natural or synthetic fiber rope sling, and 1910.184(h)(6) bars repaired or reconditioned fiber rope slings altogether.",
+      "items": [
+        {
+          "text": "The rope shows abnormal wear.",
+          "clause": "1910.184(h)(5)(i)"
+        },
+        {
+          "text": "Powdered fiber is found between strands.",
+          "clause": "1910.184(h)(5)(ii)"
+        },
+        {
+          "text": "Fibers are broken or cut.",
+          "clause": "1910.184(h)(5)(iii)"
+        },
+        {
+          "text": "Strands vary in size or roundness.",
+          "clause": "1910.184(h)(5)(iv)"
+        },
+        {
+          "text": "The rope is discolored or rotting.",
+          "clause": "1910.184(h)(5)(v)"
+        },
+        {
+          "text": "Hardware in the sling is distorted.",
+          "clause": "1910.184(h)(5)(vi)"
+        },
+        {
+          "text": "Use only fiber rope slings made from new rope; use of repaired or reconditioned fiber rope slings is prohibited.",
+          "clause": "1910.184(h)(6)"
+        },
+        {
+          "text": "Do not use knots in place of splices; the splice minimums are set out across 1910.184(h)(3).",
+          "clause": "1910.184(h)(3)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "When must a synthetic web sling stop being used?",
+      "intro": "1910.184(i)(9) lists five conditions that take a synthetic web sling out of service immediately, and 1910.184(i)(6) restricts the chemical environments each web sling can be used in.",
+      "items": [
+        {
+          "text": "The sling has acid or caustic burns.",
+          "clause": "1910.184(i)(9)(i)"
+        },
+        {
+          "text": "Any part of the sling surface has melted or charred.",
+          "clause": "1910.184(i)(9)(ii)"
+        },
+        {
+          "text": "The webbing has snags, punctures, tears or cuts.",
+          "clause": "1910.184(i)(9)(iii)"
+        },
+        {
+          "text": "Stitches are broken or worn.",
+          "clause": "1910.184(i)(9)(iv)"
+        },
+        {
+          "text": "Fittings are distorted.",
+          "clause": "1910.184(i)(9)(v)"
+        },
+        {
+          "text": "Do not use nylon web slings where fumes, vapors, sprays, mists or liquids of acids or phenolics are present.",
+          "clause": "1910.184(i)(6)(i)"
+        },
+        {
+          "text": "Keep polyester and polypropylene web slings away from caustic fumes, vapors, sprays, mists or liquids.",
+          "clause": "1910.184(i)(6)(ii)"
+        },
+        {
+          "text": "Web slings with aluminum fittings are barred from the same caustic environments.",
+          "clause": "1910.184(i)(6)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What temperature limits apply to each sling type?",
+      "intro": "Each sling material has its own temperature rule in 1910.184, from permanent removal of chain that has been heated past 1000 °F to a 180 °F ceiling for nylon and polyester webbing.",
+      "items": [
+        {
+          "text": "Permanently remove an alloy steel chain sling heated above 1000 °F.",
+          "clause": "1910.184(e)(6)"
+        },
+        {
+          "text": "At service temperatures above 600 °F, reduce the chain's maximum working load limit as the chain or sling manufacturer recommends.",
+          "clause": "1910.184(e)(6)"
+        },
+        {
+          "text": "Permanently remove fiber core wire rope slings of any grade exposed to temperatures over 200 °F.",
+          "clause": "1910.184(f)(3)"
+        },
+        {
+          "text": "Follow the sling manufacturer's recommendations when nonfiber core wire rope slings are used above 400 °F or below minus 60 °F.",
+          "clause": "1910.184(f)(3)"
+        },
+        {
+          "text": "Metal mesh slings not impregnated with elastomers may be used from minus 20 °F to plus 550 °F without lowering the working load limit.",
+          "clause": "1910.184(g)(7)"
+        },
+        {
+          "text": "Metal mesh slings impregnated with polyvinyl chloride or neoprene may be used only from zero degrees to plus 200 °F; outside these mesh ranges, or for mesh impregnated with other materials, do what the sling manufacturer recommends.",
+          "clause": "1910.184(g)(7)"
+        },
+        {
+          "text": "Natural and synthetic fiber rope slings, except wet frozen slings, may be used from minus 20 °F to plus 180 °F without decreasing the working load limit; outside that range, and for wet frozen slings, the maker's recommendations for the sling govern.",
+          "clause": "1910.184(h)(2)"
+        },
+        {
+          "text": "Polyester and nylon web slings must not be used above 180 °F, and polypropylene web slings not above 200 °F.",
+          "clause": "1910.184(i)(7)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the daily pre-use inspection under 1910.184(d), the main rigging practices from 1910.184(c), alloy steel chain checks, and the removal, heat and chemical conditions for wire rope, synthetic web and fiber rope slings; use it each day before slings are used and when service conditions call for a further check.",
+  "checklist": "us/1910-184-slings",
+  "faq": [
+    {
+      "question": "Can a repaired synthetic web sling go back into service?",
+      "answer": "Under 1910.184(i)(8)(i) and 1910.184(i)(8)(ii), it can if a sling manufacturer or equivalent entity made the repair and then proof tested the sling to twice its rated capacity before its return to service. The employer must retain the proof test certificate and make it available for examination. Slings, webbing or fittings repaired in a temporary manner may not be used (1910.184(i)(8)(iii))."
+    },
+    {
+      "question": "Who may repair a metal mesh sling?",
+      "answer": "A repaired metal mesh sling may be used only if a metal mesh sling manufacturer, or an entity equivalent to one, did the repair (1910.184(g)(8)(i)). After repair, the sling must be permanently marked or tagged, or a written record kept, showing the date and nature of the repairs and who performed them, and repair records must be open to examination (1910.184(g)(8)(ii)). New and repaired mesh slings, handles included, also need a proof test by the manufacturer or equivalent entity at a minimum of 1 1/2 times their rated capacity before use (1910.184(g)(5))."
+    },
+    {
+      "question": "What counts as an equivalent entity for sling repairs and proof tests?",
+      "answer": "1910.184(b) defines an equivalent entity as a person or organization, which can include the employer, that has the equipment, technical knowledge and skills to perform the same repairs and tests with equal competence as the person or organization it is equated with. In the sling paragraphs it is named alongside the sling manufacturer."
+    },
+    {
+      "question": "Is there a minimum length for wire rope slings?",
+      "answer": "1910.184(f)(2) sets minimums. Cable laid, 6 × 19 and 6 × 37 slings need a clear length of wire rope at least 10 times the component rope diameter between splices, sleeves or end fittings; braided slings need at least 40 times the component rope diameter between loops or end fittings. Cable laid grommets, strand laid grommets and endless slings need a circumferential length of at least 96 times their body diameter."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.184: Slings (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.184"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "sling inspection",
+    "rigging slings",
+    "lifting slings"
+  ],
+  "cover": "1910-184-slings",
+  "coverPrompt": "A rigger wearing a hard hat, safety glasses, gloves and a high-visibility vest, seen from the side at mid distance, examines the webbing and stitching of a plain synthetic web sling on a fabrication shop floor before a lift, with an overhead crane hook and a steel beam on padded supports in the background.",
+  "coverAlt": "Rigger checking a synthetic web sling for cuts and worn stitching before an overhead crane lift",
+  "changes": []
+}
