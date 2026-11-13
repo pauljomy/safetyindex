@@ -1,0 +1,241 @@
+{
+  "slug": "1910-94-ventilation",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-94-ventilation",
+  "doc_ref": "SI-US-1910-94",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Local Exhaust Ventilation Checklist (29 CFR 1910.94)",
+  "subtitle": "For site inspections of abrasive blasting, grinding, polishing, buffing and spray finishing areas.",
+  "regulation_line": "OSHA 29 CFR 1910.94",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; use N/A only for operations the area does not run.",
+    "For each Defect, record what was found, arrange the repair and recheck the item before the operation resumes.",
+    "The manufacturer's instructions and site rules may add checks; this list does not replace the full text of 29 CFR 1910.94."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Abrasive blasting enclosures and exhaust",
+      "items": [
+        [
+          "Inward airflow at openings",
+          "During blasting, air is drawn inward at every enclosure opening",
+          "1910.94(a)(3)(i)"
+        ],
+        [
+          "Inlets and access openings",
+          "Openings are baffled or arranged; no visible spurts of dust escape to adjacent areas",
+          "1910.94(a)(3)(i)(a)"
+        ],
+        [
+          "Slit baffles",
+          "Multiple sets of slit abrasive-resistant baffles at small access openings, intact and not worn through",
+          "1910.94(a)(3)(i)(e)"
+        ],
+        [
+          "Enclosure doors",
+          "Doors are flanged and close tightly",
+          "1910.94(a)(3)(i)(e)(1)"
+        ],
+        [
+          "Blast room door operation",
+          "Doors open from both inside and outside, or a small operator door is present where the large work door opens from outside only",
+          "1910.94(a)(3)(i)(e)(2)"
+        ],
+        [
+          "Observation windows",
+          "Where hard deep-cutting abrasives are used, windows are safety glass protected by screening",
+          "1910.94(a)(3)(i)(d)"
+        ],
+        [
+          "Dust leaks",
+          "No dust leaks on enclosure or ducts; any leak found earlier has been repaired",
+          "1910.94(a)(4)(i)(a)"
+        ],
+        [
+          "Static pressure drop",
+          "Pressure drop at exhaust ducts has been checked and shows no appreciable change pointing to a partial blockage",
+          "1910.94(a)(4)(i)(b)"
+        ],
+        [
+          "Abrasive separator",
+          "Where abrasive is recirculated, a separator removes fines from spent abrasive",
+          "1910.94(a)(4)(ii)"
+        ],
+        [
+          "Dust collector",
+          "Exhaust air passes through dust collecting equipment that can be emptied without contaminating other work areas",
+          "1910.94(a)(4)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Abrasive blasting PPE and housekeeping",
+      "items": [
+        [
+          "Respirator approval",
+          "Respirators in use carry NIOSH approval under 42 CFR part 84",
+          "1910.94(a)(5)(i)"
+        ],
+        [
+          "Blast room respirators",
+          "Operators inside blast-cleaning rooms wear abrasive-blasting respirators covering head, neck and shoulders",
+          "1910.94(a)(5)(ii)(a)"
+        ],
+        [
+          "Respiratory protection program",
+          "A program under 29 CFR 1910.134 covers every employee using a respirator this section requires",
+          "1910.94(a)(5)(iv)"
+        ],
+        [
+          "Respirator air supply",
+          "Breathing air for blasting respirators meets 29 CFR 1910.134(i) and is free of harmful dusts, mists or gases",
+          "1910.94(a)(6)"
+        ],
+        [
+          "Gloves and aprons",
+          "Operators wear heavy canvas or leather gloves and aprons, or equivalent",
+          "1910.94(a)(5)(v)"
+        ],
+        [
+          "Eye and face protection",
+          "Provided to operators whose respirator lacks it and to others working nearby",
+          "1910.94(a)(5)(v)(b)"
+        ],
+        [
+          "Nozzle bonding",
+          "Blast nozzle is bonded and grounded",
+          "1910.94(a)(2)(iii)"
+        ],
+        [
+          "Floors and ledges",
+          "No dust accumulation outside the enclosure; spills cleaned up",
+          "1910.94(a)(7)"
+        ],
+        [
+          "Aisles and walkways",
+          "No steel shot or similar abrasive on walking surfaces",
+          "1910.94(a)(7)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Grinding, polishing and buffing hoods",
+      "items": [
+        [
+          "Hood position",
+          "Dust and dirt fall or are thrown into the hood in the direction of airflow",
+          "1910.94(b)(3)(i)"
+        ],
+        [
+          "Wheel and belt direction",
+          "Wheels, discs, straps and belts do not throw dust toward the operator's breathing zone",
+          "1910.94(b)(3)(i)"
+        ],
+        [
+          "Grinding wheel exhaust volume",
+          "Measured exhaust meets the Table G-4 minimum for the wheel diameter and width",
+          "1910.94(b)(3)(ii)"
+        ],
+        [
+          "Adjustable tongue",
+          "Tongue works and sits within one-fourth inch of the wheel periphery",
+          "1910.94(b)(5)(ii)"
+        ],
+        [
+          "Portable grinding enclosure",
+          "Where work permits, partial enclosure with minimal opening and average face velocity of at least 200 feet per minute",
+          "1910.94(b)(5)(iv)"
+        ],
+        [
+          "Cradle enclosure",
+          "Operator stands outside the working face; average inward velocity at least 150 feet per minute",
+          "1910.94(b)(5)(vi)"
+        ],
+        [
+          "Dust collector",
+          "Exhaust system has a suitable dust collector in service",
+          "1910.94(b)(4)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Spray booths and spray rooms",
+      "items": [
+        [
+          "Spraying enclosed",
+          "Every spray-finishing job runs in a booth or dedicated spray room",
+          "1910.94(c)(2)"
+        ],
+        [
+          "Walkways",
+          "Clear path at least 6 1/2 feet high from every work location to an exit or open front",
+          "1910.94(c)(3)(ii)"
+        ],
+        [
+          "Exit doors",
+          "Booth exit doors open outward",
+          "1910.94(c)(3)(ii)"
+        ],
+        [
+          "Overspray filters",
+          "Filters are in place and easy to reach for inspection, cleaning or replacement",
+          "1910.94(c)(3)(iii)(a)"
+        ],
+        [
+          "Booth air velocity",
+          "Velocity into openings meets Table G-10 for the operating condition and booth size, unless an adequate air replacement system is fitted",
+          "1910.94(c)(6)(i)"
+        ],
+        [
+          "Downdraft booth doors",
+          "Doors are closed while spray painting",
+          "1910.94(c)(6)(iii)(b)"
+        ],
+        [
+          "Make-up air openings",
+          "Self-closing doors, dampers or louvers are fully open whenever spraying",
+          "1910.94(c)(7)(ii)"
+        ],
+        [
+          "Filter pressure gage",
+          "Gage across filters is installed and marked with the cleaning or replacement pressure drop",
+          "1910.94(c)(7)(iii)(b)"
+        ],
+        [
+          "Filter condition",
+          "Gage reading is below the marked change point and face airflow is not below Table G-10",
+          "1910.94(c)(7)(iii)(b)"
+        ],
+        [
+          "Make-up air heater",
+          "No make-up air heating equipment inside the booth",
+          "1910.94(c)(7)(iv)(c)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.94: Ventilation (Part 1910 Subpart G, Occupational Health and Environmental Control)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

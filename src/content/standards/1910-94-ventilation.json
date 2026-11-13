@@ -1,0 +1,614 @@
+{
+  "section": "1910.94",
+  "part": "1910",
+  "heading": "Ventilation.",
+  "subpart": "G",
+  "subpartTitle": "Occupational Health and Environmental Control",
+  "title": "OSHA local exhaust ventilation requirements (29 CFR 1910.94)",
+  "seoTitle": "OSHA 1910.94 ventilation requirements and checklist",
+  "description": "OSHA 1910.94 ventilation rules for abrasive blasting, grinding and spray booths: requirements, citation data and an inspection checklist.",
+  "opening": "29 CFR 1910.94 requires employers to control dust, fumes and solvent vapor from abrasive blasting, dry grinding, polishing and buffing, and spray finishing with exhaust-ventilated enclosures, hoods and spray booths that meet set airflow figures, plus respirators and protective equipment for blasting operators.",
+  "keyword": "osha 1910.94",
+  "cluster": [
+    {
+      "keyword": "osha local exhaust ventilation requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "local exhaust ventilation checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "local exhaust ventilation inspection",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha abrasive blasting ventilation requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "abrasive blasting ventilation checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "abrasive blasting ventilation inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha ventilation requirements",
+      "volume": 50,
+      "kd": 55,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ventilation checklist",
+      "volume": 10,
+      "kd": 43,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "ventilation inspection",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.94",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 170,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 155,
+    "inspections": 114,
+    "byFy": {
+      "2022": 21,
+      "2023": 36,
+      "2024": 41,
+      "2025": 27,
+      "2026": 30
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(c)(2)",
+        "count": 16
+      },
+      {
+        "paragraph": "(a)(7)",
+        "count": 12
+      },
+      {
+        "paragraph": "(a)(4)(i)",
+        "count": 9
+      },
+      {
+        "paragraph": "(a)(5)(iv)",
+        "count": 9
+      },
+      {
+        "paragraph": "(a)(5)(v)",
+        "count": 9
+      },
+      {
+        "paragraph": "(a)(3)(i)(A)",
+        "count": 8
+      },
+      {
+        "paragraph": "(c)(7)(iii)(B)",
+        "count": 8
+      },
+      {
+        "paragraph": "(a)(3)(i)(B)",
+        "count": 7
+      },
+      {
+        "paragraph": "(a)(2)(ii)",
+        "count": 6
+      },
+      {
+        "paragraph": "(c)(3)(i)",
+        "count": 6
+      }
+    ],
+    "penalties": {
+      "n": 102,
+      "median": 4931,
+      "p25": 2052,
+      "p75": 8264,
+      "total": 665902
+    },
+    "typeShares": {
+      "serious": 0.748,
+      "willful": 0,
+      "repeat": 0.013,
+      "otherThanSerious": 0.239,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 116,
+      "willful": 0,
+      "repeat": 2,
+      "otherThanSerious": 37,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "3328",
+        "count": 16,
+        "title": "Coating, Engraving, Heat Treating, and Allied Activities"
+      },
+      {
+        "naics": "3329",
+        "count": 12,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3323",
+        "count": 11,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3353",
+        "count": 11,
+        "title": "Electrical Equipment Manufacturing"
+      },
+      {
+        "naics": "3279",
+        "count": 10,
+        "title": "Other Nonmetallic Mineral Product Manufacturing"
+      },
+      {
+        "naics": "3371",
+        "count": 7,
+        "title": "Household and Institutional Furniture and Kitchen Cabinet Manufacturing"
+      },
+      {
+        "naics": "3399",
+        "count": 6,
+        "title": "Other Miscellaneous Manufacturing"
+      },
+      {
+        "naics": "8111",
+        "count": 6,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "3339",
+        "count": 5,
+        "title": "Other General Purpose Machinery Manufacturing"
+      },
+      {
+        "naics": "3362",
+        "count": 5,
+        "title": "Motor Vehicle Body and Trailer Manufacturing"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1910.94(c)(2), with 16 citations, which requires all spray-finishing work to be confined inside a booth or a dedicated spray room; next come 1910.94(a)(7) with 12, on dust build-up outside blasting enclosures and loose abrasive on walkways, and 1910.94(a)(4)(i), 1910.94(a)(5)(iv) and 1910.94(a)(5)(v) with 9 each, covering blasting exhaust system construction and maintenance, the respiratory protection program, and operators' gloves, aprons and safety shoes. Citations rose from 21 in FY2022 to 36 in FY2023 and 41 in FY2024, then dropped to 27 in FY2025 before reaching 30 in FY2026.",
+  "requirementsIntro": "1910.94 has three parts, each with its own scope paragraph: abrasive blasting by pneumatic or hydraulic pressure or centrifugal force (1910.94(a)(8)), grinding, polishing and buffing of ferrous and nonferrous metals (1910.94(b)(6)), and spray finishing (1910.94(c)(8)). The groups below give the main rules from each part; the full text has more, including every airflow table and hood figure.",
+  "requirements": [
+    {
+      "heading": "How must abrasive blast-cleaning enclosures be ventilated?",
+      "intro": "Blast-cleaning enclosures must be exhaust ventilated so air flows inward at every opening during blasting, and under 1910.94(a)(3) the dusty air must be cleared before the enclosure is opened.",
+      "items": [
+        {
+          "text": "Exhaust ventilate blast-cleaning enclosures so a continuous inward flow of air is kept at all openings while blasting is under way.",
+          "clause": "1910.94(a)(3)(i)"
+        },
+        {
+          "text": "Baffle or arrange all air inlets and access openings so the escape of abrasive or dust into adjacent work areas is minimized and no visible spurts of dust are seen.",
+          "clause": "1910.94(a)(3)(i)(a)"
+        },
+        {
+          "text": "Set the exhaust rate high enough to clear dust-laden air from the enclosure promptly after blasting stops.",
+          "clause": "1910.94(a)(3)(i)(b)"
+        },
+        {
+          "text": "Before opening the enclosure, turn off the blast and run the exhaust long enough to remove the dusty air inside.",
+          "clause": "1910.94(a)(3)(i)(c)"
+        },
+        {
+          "text": "Where hard deep-cutting abrasives are used, fit observation windows with safety glass protected by screening.",
+          "clause": "1910.94(a)(3)(i)(d)"
+        },
+        {
+          "text": "Install slit abrasive-resistant baffles in multiple sets at all small access openings where dust might escape, inspect them regularly and replace them when needed.",
+          "clause": "1910.94(a)(3)(i)(e)"
+        },
+        {
+          "text": "Doors must be flanged and tight when closed.",
+          "clause": "1910.94(a)(3)(i)(e)(1)"
+        },
+        {
+          "text": "Doors on blast-cleaning rooms must open from both inside and outside, except that where a small operator access door exists, the large work access door may be operated from the outside only.",
+          "clause": "1910.94(a)(3)(i)(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What upkeep do abrasive blasting exhaust systems and dust collectors need?",
+      "intro": "Blasting exhaust systems must be built, installed, inspected and maintained to ANSI Z9.2-1960 and ANSI Z33.1-1961 under 1910.94(a)(4)(i), with leaks repaired and static pressure drop checked.",
+      "items": [
+        {
+          "text": "Construction, installation, inspection and maintenance of exhaust systems must conform to the principles and requirements of ANSI Z9.2-1960 and ANSI Z33.1-1961, which are incorporated by reference.",
+          "clause": "1910.94(a)(4)(i)"
+        },
+        {
+          "text": "Repair dust leaks as soon as possible once they are noted.",
+          "clause": "1910.94(a)(4)(i)(a)"
+        },
+        {
+          "text": "Check the static pressure drop at the exhaust ducts leading from the equipment when the installation is completed and periodically after that.",
+          "clause": "1910.94(a)(4)(i)(b)"
+        },
+        {
+          "text": "When an appreciable change in pressure drop indicates a partial blockage, clean the system and return it to normal operating condition.",
+          "clause": "1910.94(a)(4)(i)(b)"
+        },
+        {
+          "text": "Where abrasive is recirculated, provide an abrasive separator; the blasting enclosure's exhaust system must not be relied on to remove fines from spent abrasive.",
+          "clause": "1910.94(a)(4)(ii)"
+        },
+        {
+          "text": "Discharge the air exhausted from blast-cleaning equipment through dust collecting equipment.",
+          "clause": "1910.94(a)(4)(iii)"
+        },
+        {
+          "text": "Set up dust collectors so accumulated dust can be emptied and removed without contaminating other working areas.",
+          "clause": "1910.94(a)(4)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What dust, fire and housekeeping hazards must blasting operations control?",
+      "intro": "Under 1910.94(a)(2), employers must evaluate the dust from abrasives and blasted coatings and keep respirable dust or fume below the § 1910.1000 limits, and 1910.94(a)(7) adds housekeeping duties.",
+      "items": [
+        {
+          "text": "Consider the composition and toxicity of dust from both the abrasive and the surface coatings when evaluating potential health hazards.",
+          "clause": "1910.94(a)(2)(i)"
+        },
+        {
+          "text": "Keep respirable dust or fume in the breathing zone of the blasting operator or any other worker below the levels in § 1910.1000.",
+          "clause": "1910.94(a)(2)(ii)"
+        },
+        {
+          "text": "Use combustible organic abrasives only in automatic systems.",
+          "clause": "1910.94(a)(2)(iii)"
+        },
+        {
+          "text": "Bond and ground the blast nozzle to prevent static charge build-up.",
+          "clause": "1910.94(a)(2)(iii)"
+        },
+        {
+          "text": "Where flammable or explosive dust mixtures may be present, build the enclosure, ducts and dust collector with loose panels or explosion venting areas on sides away from any occupied area.",
+          "clause": "1910.94(a)(2)(iii)"
+        },
+        {
+          "text": "Do not let dust accumulate on the floor or on ledges outside a blasting enclosure, and clean up dust spills promptly.",
+          "clause": "1910.94(a)(7)"
+        },
+        {
+          "text": "Keep aisles and walkways clear of steel shot or similar abrasive that may create a slipping hazard.",
+          "clause": "1910.94(a)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "Which respirators are required for abrasive blasting?",
+      "intro": "Abrasive blasting requires respirators approved by NIOSH under 42 CFR part 84, used within a 29 CFR 1910.134 program, with 1910.94(a)(5)(ii) setting when blasting operators need the hooded abrasive-blasting type.",
+      "items": [
+        {
+          "text": "Use only NIOSH-approved respirators (42 CFR part 84) to protect employees from dusts produced during abrasive blasting.",
+          "clause": "1910.94(a)(5)(i)"
+        },
+        {
+          "text": "Abrasive-blasting operators must wear abrasive-blasting respirators when working inside blast-cleaning rooms; when using silica sand in manual blasting where nozzle and blast are not physically separated from them in an exhaust-ventilated enclosure; and where toxic dust may exceed § 1910.1000 limits without that separation.",
+          "clause": "1910.94(a)(5)(ii)"
+        },
+        {
+          "text": "Properly fitted dust-filter respirators may be used for short, intermittent or occasional exposures such as cleanup, dumping dust collectors or unloading sand at a receiving point, when enclosure, exhaust ventilation or other means can't feasibly control the dust, and they must be approved for the specific dust.",
+          "clause": "1910.94(a)(5)(iii)"
+        },
+        {
+          "text": "Dust-filter respirators may protect the operator of outside blasting where nonsilica abrasives are used on materials having low toxicities.",
+          "clause": "1910.94(a)(5)(iii)(a)"
+        },
+        {
+          "text": "Dust-filter respirators must not be used for continuous protection where silica sand is the blasting abrasive or toxic materials are blasted.",
+          "clause": "1910.94(a)(5)(iii)(b)"
+        },
+        {
+          "text": "For employees using respirators this section requires, implement a respiratory protection program under 29 CFR 1910.134.",
+          "clause": "1910.94(a)(5)(iv)"
+        },
+        {
+          "text": "Air supplied to abrasive-blasting respirators must be free of harmful quantities of dusts, mists or noxious gases and meet 29 CFR 1910.134(i).",
+          "clause": "1910.94(a)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What protective clothing must abrasive blasting operators have?",
+      "intro": "Blasting operators must be given gloves, aprons and, where heavy work is handled, safety shoes under 1910.94(a)(5)(v), with eye and face protection covered in 1910.94(a)(5)(v)(b).",
+      "items": [
+        {
+          "text": "Equip operators with heavy canvas or leather gloves and aprons, or equivalent protection, against the impact of abrasives.",
+          "clause": "1910.94(a)(5)(v)"
+        },
+        {
+          "text": "Safety shoes must be worn where heavy pieces of work are handled.",
+          "clause": "1910.94(a)(5)(v)"
+        },
+        {
+          "text": "Protective footwear must comply with 29 CFR 1910.136(b)(1).",
+          "clause": "1910.94(a)(5)(v)(a)"
+        },
+        {
+          "text": "Supply eye and face protection meeting § 1910.133 to the operator when the respirator design does not give it, and to any other personnel working near abrasive blasting.",
+          "clause": "1910.94(a)(5)(v)(b)"
+        }
+      ]
+    },
+    {
+      "heading": "When is local exhaust ventilation required for grinding, polishing and buffing?",
+      "intro": "Under 1910.94(b)(2), a local exhaust ventilation system must be provided and used wherever dry grinding, dry polishing or buffing is performed and employee exposure, without regard to respirator use, exceeds the limits in § 1910.1000 or other sections of Part 1910.",
+      "items": [
+        {
+          "text": "Provide and use local exhaust ventilation to keep exposures within the prescribed limits where dry grinding, dry polishing or buffing exposure exceeds them.",
+          "clause": "1910.94(b)(2)"
+        },
+        {
+          "text": "Use hoods connected to exhaust systems, placed so dust or dirt falls or is projected into the hood in the direction of the airflow.",
+          "clause": "1910.94(b)(3)(i)"
+        },
+        {
+          "text": "Do not run wheels, discs, straps or belts in a way or direction that throws dust and dirt into the operator's breathing zone.",
+          "clause": "1910.94(b)(3)(i)"
+        },
+        {
+          "text": "Test grinding, polishing and buffing exhaust systems in the manner described in ANSI Z9.2-1960.",
+          "clause": "1910.94(b)(4)(ii)"
+        },
+        {
+          "text": "Provide all exhaust systems with suitable dust collectors.",
+          "clause": "1910.94(b)(4)(iii)"
+        },
+        {
+          "text": "Grinding and abrasive cutting-off wheel hoods must be at least as strong as specified in Tables O-1 and O-9 of § 1910.215, because they also protect the operator from bursting wheels.",
+          "clause": "1910.94(b)(5)(i)(a)"
+        }
+      ]
+    },
+    {
+      "heading": "What exhaust volumes and hood settings apply to grinders, wheels and belts?",
+      "intro": "Minimum exhaust volumes for each machine type are set by Tables G-4 to G-9 in 1910.94(b)(3), and hood design rules sit in 1910.94(b)(5).",
+      "items": [
+        {
+          "text": "Grinding wheels on floor stands, pedestals, benches and special-purpose machines, and abrasive cutting-off wheels, need at least the Table G-4 exhaust volume (610 cubic feet per minute for a wheel over 19 to 24 inches in diameter and 4 inches wide), raised in proportion for wider wheels.",
+          "clause": "1910.94(b)(3)(ii)"
+        },
+        {
+          "text": "Scratch-brush wheels and buffing and polishing wheels on floor stands, pedestals, benches or special-purpose machines need at least the exhaust volume in Table G-5.",
+          "clause": "1910.94(b)(3)(iii)"
+        },
+        {
+          "text": "Hood horizontal single-spindle disc grinders and connect the hoods to branch pipes with the exhaust volumes in Table G-6.",
+          "clause": "1910.94(b)(3)(iv)"
+        },
+        {
+          "text": "Fit grinding and polishing belts with hoods connected to branch pipes carrying the Table G-9 exhaust volumes.",
+          "clause": "1910.94(b)(3)(vii)"
+        },
+        {
+          "text": "Where cradles needing large partial enclosures are used, keep a minimum average air velocity of 150 feet per minute over the entire enclosure opening, and exhaust swing-frame grinders the same way.",
+          "clause": "1910.94(b)(3)(viii)"
+        },
+        {
+          "text": "Keep the adjustable tongue on floor stand, pedestal and bench grinder hoods in working order and set within one-fourth inch of the wheel periphery at all times.",
+          "clause": "1910.94(b)(5)(ii)"
+        },
+        {
+          "text": "Whenever the nature of the work permits, do portable grinding inside a partial enclosure with an opening no larger than needed and an average face velocity of at least 200 feet per minute.",
+          "clause": "1910.94(b)(5)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "Where must spray finishing be done and how must booths and rooms be built?",
+      "intro": "1910.94(c)(2) requires spray booths or spray rooms to enclose or confine all spray-finishing operations, and 1910.94(c)(3) and (c)(4) set how they are built.",
+      "items": [
+        {
+          "text": "Run every spray-finishing operation inside a booth or room that encloses or confines it.",
+          "clause": "1910.94(c)(2)"
+        },
+        {
+          "text": "Locate spray-finishing operations as set out in sections 201 through 206 of NFPA No. 33-1969.",
+          "clause": "1910.94(c)(2)"
+        },
+        {
+          "text": "Design and build spray booths to the paragraphs of § 1910.107 that 1910.94(c)(3)(i) lists.",
+          "clause": "1910.94(c)(3)(i)"
+        },
+        {
+          "text": "Never use combustible material in a spray booth or in the supply or exhaust ducts connected to it.",
+          "clause": "1910.94(c)(3)(i)(b)"
+        },
+        {
+          "text": "Keep unobstructed walkways at least 6 1/2 feet high clear from any work location in the booth to a booth exit or open front; the same paragraph also sets exit widths.",
+          "clause": "1910.94(c)(3)(ii)"
+        },
+        {
+          "text": "Where booth exits have doors, the doors must open outward from the booth.",
+          "clause": "1910.94(c)(3)(ii)"
+        },
+        {
+          "text": "Install and maintain overspray filters to § 1910.107, only in a location easily reached for inspection, cleaning or replacement.",
+          "clause": "1910.94(c)(3)(iii)(a)"
+        },
+        {
+          "text": "Build spray rooms, including floors, of masonry, concrete or other noncombustible material.",
+          "clause": "1910.94(c)(4)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What airflow and ductwork must spray booths have?",
+      "intro": "Air velocity into spray booth openings must meet Table G-10 under 1910.94(c)(6)(i) unless the booth has an adequate air replacement system, and ductwork rules are in 1910.94(c)(5).",
+      "items": [
+        {
+          "text": "Unless the booth has an adequate air replacement system, air velocity into all openings must be at least the Table G-10 figure for the operating condition and booth size.",
+          "clause": "1910.94(c)(6)(i)"
+        },
+        {
+          "text": "Exhaust enough total air to dilute solvent vapor to at least 25 percent of the lower explosive limit of the solvent being sprayed; the paragraph's toluene example works out to 8,564 cubic feet of air per gallon.",
+          "clause": "1910.94(c)(6)(ii)"
+        },
+        {
+          "text": "When an operator is in a booth downstream from the object being sprayed, employees must use an air-supplied or other respirator that NIOSH has approved for the material being sprayed.",
+          "clause": "1910.94(c)(6)(iii)(a)"
+        },
+        {
+          "text": "Close the doors of downdraft booths during spray painting.",
+          "clause": "1910.94(c)(6)(iii)(b)"
+        },
+        {
+          "text": "Build inlet ductwork carrying make-up air to spray booths or surrounding areas from noncombustible materials.",
+          "clause": "1910.94(c)(5)(ii)"
+        },
+        {
+          "text": "Provide inspection or clean-out doors every 9 to 12 feet of running length on ducts up to 12 inches in diameter; larger pipes may have wider spacing.",
+          "clause": "1910.94(c)(5)(iii)(e)"
+        },
+        {
+          "text": "Where ducts pass through firewalls, fit automatic fire dampers on both sides, except that three-eighth-inch steel plates may replace them on ducts not exceeding 18 inches in diameter.",
+          "clause": "1910.94(c)(5)(iii)(f)"
+        },
+        {
+          "text": "Do not connect ductwork ventilating a process covered here to ducts for any other process or to any chimney or flue carrying combustion products.",
+          "clause": "1910.94(c)(5)(iii)(g)"
+        }
+      ]
+    },
+    {
+      "heading": "What make-up air and filter monitoring do spray booths need?",
+      "intro": "Spray booths and rooms must receive clean fresh make-up air equal to the volume they exhaust under 1910.94(c)(7)(i), and 1910.94(c)(7)(iv) adds the rules on heating that air.",
+      "items": [
+        {
+          "text": "Supply clean fresh air, free of contamination from adjacent industrial exhaust systems, chimneys, stacks or vents, in quantities equal to the air exhausted through the booth.",
+          "clause": "1910.94(c)(7)(i)"
+        },
+        {
+          "text": "Self-closing doors, dampers or louvers that admit make-up air must be fully open at all times when the booth or room is used for spraying.",
+          "clause": "1910.94(c)(7)(ii)"
+        },
+        {
+          "text": "Air velocity through those doors, dampers or louvers must not exceed 200 feet per minute, unless the fan characteristics still provide the required airflow through the booth.",
+          "clause": "1910.94(c)(7)(ii)"
+        },
+        {
+          "text": "Where the air supply is filtered, calculate fan static pressure assuming the filters are dirty enough to need cleaning or replacement.",
+          "clause": "1910.94(c)(7)(iii)(a)"
+        },
+        {
+          "text": "Install a pressure gage showing the pressure drop across the filters.",
+          "clause": "1910.94(c)(7)(iii)(b)"
+        },
+        {
+          "text": "Mark the gage with the pressure drop at which the filters need cleaning or replacement.",
+          "clause": "1910.94(c)(7)(iii)(b)"
+        },
+        {
+          "text": "Clean or replace filters whenever the pressure drop becomes excessive or airflow through the booth face falls below Table G-10.",
+          "clause": "1910.94(c)(7)(iii)(b)"
+        },
+        {
+          "text": "Do not locate any means of heating make-up air inside a spray booth.",
+          "clause": "1910.94(c)(7)(iv)(c)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers abrasive blasting enclosures and PPE, grinding and buffing hoods, and spray booths under 1910.94; use it when walking any area where those operations run.",
+  "checklist": "us/1910-94-ventilation",
+  "faq": [
+    {
+      "question": "Does 1910.94 cover steam cleaning or hydraulic cleaning without abrasive?",
+      "answer": "No. The abrasive blasting part excludes steam blasting, steam cleaning and hydraulic cleaning methods where work is done without the aid of abrasives, per 1910.94(a)(8)."
+    },
+    {
+      "question": "Do the spray finishing rules apply to painting building exteriors or fixed tanks?",
+      "answer": "No. 1910.94(c)(8) leaves out spraying the exteriors of buildings, fixed tanks or similar structures, and small portable spraying apparatus not used repeatedly in the same location."
+    },
+    {
+      "question": "Which coating methods fall outside the definition of spray finishing?",
+      "answer": "1910.94(c)(1)(i) excludes metal spraying or metallizing, dipping, flow coating, roller coating, tumbling, centrifuging, and spray washing and degreasing done in self-contained washing and degreasing machines or systems."
+    },
+    {
+      "question": "Can a spray booth operate without overspray filters?",
+      "answer": "Yes, but only where effective means independent of the filters are installed that give design air distribution across the booth cross section, under 1910.94(c)(3)(iii)(b)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.94: Ventilation (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.94"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "local exhaust ventilation",
+    "abrasive blasting ventilation",
+    "spray booth ventilation"
+  ],
+  "cover": "1910-94-ventilation",
+  "coverPrompt": "A worker wearing a full abrasive-blasting hood, heavy leather gloves and a leather apron directs a blast nozzle at a steel part inside an enclosed, well-lit blast-cleaning room, with exhaust ductwork running along the wall.",
+  "coverAlt": "Abrasive blasting operator in a hooded respirator and leather apron working inside a ventilated blast room",
+  "changes": []
+}
