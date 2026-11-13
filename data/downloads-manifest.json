@@ -20,6 +20,16 @@
       "pdf": "/downloads/us/1904-29-forms.pdf",
       "xlsx": "/downloads/us/1904-29-forms.xlsx"
     },
+    "us/1910-101-compressed-gases": {
+      "hash": "3aeff5d21d049520236f5f2a9138829ed2157ba7dbab388d8a4cbc8f0a7de53c",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 2,
+      "items": 10,
+      "page_url": "https://safetyindex.blog/us/standards/1910-101-compressed-gases",
+      "pdf": "/downloads/us/1910-101-compressed-gases.pdf",
+      "xlsx": "/downloads/us/1910-101-compressed-gases.xlsx"
+    },
     "us/1910-1025-lead": {
       "hash": "87680fbf8663fca2edcbe570e7bcc7e3714f79cff79836ba0d8f8372325d39d8",
       "lang": "en",

@@ -1,0 +1,106 @@
+{
+  "slug": "1910-101-compressed-gases",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-101-compressed-gases",
+  "doc_ref": "SI-US-1910-101",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Hazardous Materials Inspection Checklist: Compressed Gases (29 CFR 1910.101)",
+  "subtitle": "For site walk-throughs of areas where compressed gas cylinders and tanks are stored, handled or used.",
+  "regulation_line": "OSHA 29 CFR 1910.101",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A. Use N/A only where that container type or activity is not on site.",
+    "For any Defect, report it to the person responsible, keep the cylinder or tank out of use until it is corrected, and record what was found, the fix and the date.",
+    "The gas supplier's and manufacturer's instructions, site rules and the CGA pamphlets named in the standard may add checks not listed here."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Cylinder inspection",
+      "items": [
+        [
+          "Safe-condition check of controlled cylinders",
+          "Each cylinder under site control has been visually examined and found to be in a safe condition.",
+          "1910.101(a)"
+        ],
+        [
+          "DOT inspection method",
+          "Where the DOT Hazardous Materials Regulations apply, cylinder inspections are done as 49 CFR parts 171-179 or 14 CFR part 103 prescribe.",
+          "1910.101(a)"
+        ],
+        [
+          "CGA method where DOT does not apply",
+          "Cylinders outside the DOT rules are inspected to CGA Pamphlets C-6-1968 and C-8-1962.",
+          "1910.101(a)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Handling, storage and use",
+      "items": [
+        [
+          "Cylinder handling in the plant",
+          "Gas cylinders are moved and handled inside the plant in line with CGA Pamphlet P-1-1965.",
+          "1910.101(b)"
+        ],
+        [
+          "Cylinder storage",
+          "Stored compressed gas cylinders are kept the way P-1-1965 describes.",
+          "1910.101(b)"
+        ],
+        [
+          "Use at the point of work",
+          "Gas drawn from cylinders is used as P-1-1965 sets out.",
+          "1910.101(b)"
+        ],
+        [
+          "Portable tanks, rail tankcars and cargo tanks",
+          "Compressed gases in any portable tank, rail tankcar or motor vehicle cargo tank on site are handled, stored and used per P-1-1965.",
+          "1910.101(b)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Pressure relief devices",
+      "items": [
+        [
+          "Relief devices on cylinders",
+          "Cylinders have pressure relief devices installed as CGA S-1.1-1963 (with 1965 addenda) and S-1.2-1963 specify.",
+          "1910.101(c)"
+        ],
+        [
+          "Relief devices on portable and cargo tanks",
+          "Portable tanks and cargo tanks have relief devices installed to S-1.1-1963 and S-1.2-1963.",
+          "1910.101(c)"
+        ],
+        [
+          "Relief device maintenance",
+          "Relief devices on cylinders and tanks are kept maintained as the same CGA pamphlets specify.",
+          "1910.101(c)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.101: Compressed gases (general requirements), Part 1910 Subpart H: Hazardous Materials",
+    "Source: eCFR, Title 29 (text as of 2026-11-09)",
+    "CGA Pamphlets C-6-1968, C-8-1962, P-1-1965, S-1.1-1963 and S-1.2-1963 are incorporated by reference through 29 CFR 1910.6 and are not reproduced here."
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

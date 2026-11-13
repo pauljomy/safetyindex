@@ -1,0 +1,279 @@
+{
+  "section": "1910.101",
+  "part": "1910",
+  "heading": "Compressed gases (general requirements).",
+  "subpart": "H",
+  "subpartTitle": "Hazardous Materials",
+  "title": "Hazardous materials inspection for compressed gases (29 CFR 1910.101)",
+  "seoTitle": "Hazardous Materials Inspection: OSHA 1910.101 Gas Cylinders",
+  "description": "Hazardous materials inspection under OSHA 29 CFR 1910.101: compressed gas cylinder requirements, citation data and a printable checklist.",
+  "opening": "Under 1910.101, employers must confirm, as far as a visual check can show, that compressed gas cylinders they control are safe, handle, store and use compressed gases per CGA Pamphlet P-1-1965, and install and maintain pressure relief devices on cylinders, portable tanks and cargo tanks.",
+  "keyword": "hazardous materials inspection",
+  "cluster": [
+    {
+      "keyword": "osha compressed gas cylinder requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "compressed gas cylinder checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "compressed gas cylinder inspection",
+      "volume": 10,
+      "kd": null,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha hazardous materials requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hazardous materials checklist",
+      "volume": 20,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "hazardous materials inspection",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.101",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 70,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 942,
+    "inspections": 932,
+    "byFy": {
+      "2022": 149,
+      "2023": 192,
+      "2024": 240,
+      "2025": 194,
+      "2026": 167
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)",
+        "count": 901
+      },
+      {
+        "paragraph": "(a)",
+        "count": 37
+      },
+      {
+        "paragraph": "(c)",
+        "count": 4
+      }
+    ],
+    "penalties": {
+      "n": 603,
+      "median": 4200,
+      "p25": 1370,
+      "p75": 6706,
+      "total": 3767581
+    },
+    "typeShares": {
+      "serious": 0.678,
+      "willful": 0,
+      "repeat": 0.019,
+      "otherThanSerious": 0.303,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 639,
+      "willful": 0,
+      "repeat": 18,
+      "otherThanSerious": 285,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2373",
+        "count": 59,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "9221",
+        "count": 45,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "3323",
+        "count": 41,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "8111",
+        "count": 36,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "7211",
+        "count": 23,
+        "title": "Traveler Accommodation"
+      },
+      {
+        "naics": "7225",
+        "count": 21,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "9211",
+        "count": 19,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "2213",
+        "count": 18,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "3329",
+        "count": 18,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "4523",
+        "count": 17,
+        "title": null
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1910.101(b) ties in-plant handling, storage and use of compressed gases to CGA Pamphlet P-1-1965, and it accounts for 901 of the 942 citations in FY2022–FY2026. The cylinder inspection duty in 1910.101(a) drew 37 citations and the relief-device rule in 1910.101(c) drew 4. Yearly citations rose from 149 in FY2022 to 192 in FY2023 and a peak of 240 in FY2024, then fell to 194 in FY2025 and 167 in FY2026.",
+  "requirementsIntro": "1910.101 applies to employers with compressed gas cylinders under their control, and to compressed gases in cylinders, portable tanks, rail tankcars or motor vehicle cargo tanks that are handled, stored or used in the plant. It has three paragraphs: cylinder inspection (a), compressed gases (b) and safety relief devices (c). The groups below give the main rules. The full text, and the documents it incorporates by reference through § 1910.6, contain more detail.",
+  "requirements": [
+    {
+      "heading": "How must employers inspect compressed gas cylinders?",
+      "intro": "Under 1910.101(a), each employer must determine, as far as visual inspection allows, that the compressed gas cylinders it controls are in a safe condition. The inspections follow DOT rules or, where those don't apply, two CGA pamphlets.",
+      "items": [
+        {
+          "text": "Determine that each compressed gas cylinder under your control is in a safe condition, to the extent a visual inspection can determine this.",
+          "clause": "1910.101(a)"
+        },
+        {
+          "text": "Carry out visual and other inspections as the DOT Hazardous Materials Regulations prescribe (49 CFR parts 171-179 and 14 CFR part 103).",
+          "clause": "1910.101(a)"
+        },
+        {
+          "text": "Where the DOT regulations are not applicable, inspect cylinders according to CGA Pamphlets C-6-1968 and C-8-1962.",
+          "clause": "1910.101(a)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules govern handling, storage and use of compressed gases?",
+      "intro": "1910.101(b) requires compressed gases to be handled, stored and used inside the plant as CGA Pamphlet P-1-1965 sets out, for each of the four container types it names.",
+      "items": [
+        {
+          "text": "The paragraph covers all compressed gases held in cylinders, portable tanks, rail tankcars or motor vehicle cargo tanks.",
+          "clause": "1910.101(b)"
+        },
+        {
+          "text": "In-plant handling of these gases must follow CGA Pamphlet P-1-1965.",
+          "clause": "1910.101(b)"
+        },
+        {
+          "text": "Storage of these gases in the plant must follow that same pamphlet.",
+          "clause": "1910.101(b)"
+        },
+        {
+          "text": "Utilization (use) of these gases in the plant must also follow P-1-1965.",
+          "clause": "1910.101(b)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1910.101 require for pressure relief devices?",
+      "intro": "1910.101(c) requires compressed gas cylinders, portable tanks and cargo tanks to carry pressure relief devices, installed and kept up to CGA Pamphlets S-1.1-1963 (with 1965 addenda) and S-1.2-1963.",
+      "items": [
+        {
+          "text": "Compressed gas cylinders must have pressure relief devices installed as the CGA S-1.1-1963 (with 1965 addenda) and S-1.2-1963 pamphlets specify.",
+          "clause": "1910.101(c)"
+        },
+        {
+          "text": "Portable tanks and cargo tanks need relief devices fitted according to those same pamphlets.",
+          "clause": "1910.101(c)"
+        },
+        {
+          "text": "Relief devices on cylinders and on both tank types must be maintained according to those pamphlets.",
+          "clause": "1910.101(c)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers cylinder inspection, in-plant handling, storage and use of compressed gases, and relief devices under 1910.101. Use it on walk-throughs of any area where gas cylinders or tanks are kept or used.",
+  "checklist": "us/1910-101-compressed-gases",
+  "faq": [
+    {
+      "question": "Does the inspection duty cover cylinders the employer does not own?",
+      "answer": "The text links the duty in 1910.101(a) to cylinders under the employer's control and does not mention ownership. It does not define control. For cylinders a supplier owns or rents to you, ask OSHA or a competent person how the duty applies."
+    },
+    {
+      "question": "Do rail tankcars fall under the relief-device paragraph?",
+      "answer": "Rail tankcars are named in 1910.101(b), but 1910.101(c) lists only compressed gas cylinders, portable tanks and cargo tanks. This page covers 1910.101 only. Ask the regulator which rules apply to relief devices on tankcars."
+    },
+    {
+      "question": "Where are the detailed CGA requirements written?",
+      "answer": "The pamphlet contents are not printed in 1910.101. Each pamphlet is incorporated by reference as specified in § 1910.6. The documents themselves come from the Compressed Gas Association."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.101: Compressed gases (general requirements) (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.101"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "compressed gas cylinders",
+    "compressed gases",
+    "compressed gas cylinder inspection"
+  ],
+  "cover": "1910-101-compressed-gases",
+  "coverPrompt": "A realistic photograph of an industrial gas cylinder storage area where a worker in safety glasses and gloves visually inspects upright compressed gas cylinders chained to a wall rack, with valve protection caps in place. No text, labels, numbers, logos or close-up faces.",
+  "coverAlt": "Worker in gloves visually inspecting upright compressed gas cylinders chained to a storage rack",
+  "changes": []
+}
