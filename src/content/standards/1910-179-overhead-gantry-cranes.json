@@ -1,0 +1,500 @@
+{
+  "section": "1910.179",
+  "part": "1910",
+  "heading": "Overhead and gantry cranes.",
+  "subpart": "N",
+  "subpartTitle": "Materials Handling and Storage",
+  "title": "Overhead crane inspection checklist and OSHA rules (29 CFR 1910.179)",
+  "seoTitle": "Overhead crane inspection: OSHA 1910.179 checklist",
+  "description": "Overhead crane inspection rules under OSHA 29 CFR 1910.179: frequent and periodic intervals, enforcement data and a printable checklist.",
+  "opening": "29 CFR 1910.179 sets design, inspection, testing, maintenance and operating rules for overhead and gantry cranes, including frequent (daily to monthly) and periodic (1 to 12-month) inspections and signed monthly records for hooks, hoist chains and running ropes.",
+  "keyword": "overhead crane inspection",
+  "cluster": [
+    {
+      "keyword": "osha overhead crane requirements",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "overhead crane checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "overhead crane inspection",
+      "volume": 260,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha gantry crane requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "gantry crane checklist",
+      "volume": 10,
+      "kd": 42,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "gantry crane inspection",
+      "volume": 10,
+      "kd": 28,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha overhead and gantry cranes requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "overhead and gantry cranes checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "overhead and gantry cranes inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.179",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 300,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1474,
+    "inspections": 932,
+    "byFy": {
+      "2022": 296,
+      "2023": 312,
+      "2024": 319,
+      "2025": 327,
+      "2026": 220
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(j)(3)",
+        "count": 273
+      },
+      {
+        "paragraph": "(j)(2)",
+        "count": 160
+      },
+      {
+        "paragraph": "(j)(2)(iii)",
+        "count": 98
+      },
+      {
+        "paragraph": "(j)(2)(iv)",
+        "count": 97
+      },
+      {
+        "paragraph": "(g)(1)(v)",
+        "count": 84
+      },
+      {
+        "paragraph": "(b)(5)",
+        "count": 75
+      },
+      {
+        "paragraph": "(l)(3)(i)",
+        "count": 62
+      },
+      {
+        "paragraph": "(l)(3)(iii)(D)",
+        "count": 58
+      },
+      {
+        "paragraph": "(m)(1)",
+        "count": 54
+      },
+      {
+        "paragraph": "(n)(3)(i)",
+        "count": 48
+      }
+    ],
+    "penalties": {
+      "n": 888,
+      "median": 6026,
+      "p25": 3000,
+      "p75": 10151,
+      "total": 6965274
+    },
+    "typeShares": {
+      "serious": 0.636,
+      "willful": 0.001,
+      "repeat": 0.013,
+      "otherThanSerious": 0.349,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 938,
+      "willful": 2,
+      "repeat": 19,
+      "otherThanSerious": 514,
+      "unclassified": 1
+    },
+    "topIndustries": [
+      {
+        "naics": "3323",
+        "count": 222,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "3273",
+        "count": 76,
+        "title": "Cement and Concrete Product Manufacturing"
+      },
+      {
+        "naics": "3329",
+        "count": 75,
+        "title": "Other Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "3327",
+        "count": 66,
+        "title": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+      },
+      {
+        "naics": "2213",
+        "count": 43,
+        "title": "Water, Sewage and Other Systems"
+      },
+      {
+        "naics": "3279",
+        "count": 42,
+        "title": "Other Nonmetallic Mineral Product Manufacturing"
+      },
+      {
+        "naics": "3315",
+        "count": 42,
+        "title": "Foundries"
+      },
+      {
+        "naics": "3339",
+        "count": 42,
+        "title": "Other General Purpose Machinery Manufacturing"
+      },
+      {
+        "naics": "3312",
+        "count": 37,
+        "title": "Steel Product Manufacturing from Purchased Steel"
+      },
+      {
+        "naics": "2373",
+        "count": 33,
+        "title": "Highway, Street, and Bridge Construction"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph, 1910.179(j)(3), is the periodic complete inspection (273 citations), followed by (j)(2), the frequent inspection (160), and the daily visual and monthly certified checks of hooks in (j)(2)(iii) (98) and hoist chains in (j)(2)(iv) (97). Pendant control boxes that must prevent electrical shock and show their functions, (g)(1)(v), and rated load marking, (b)(5), come next with 84 and 75. Citations rose each fiscal year from 296 in FY2022 to 327 in FY2025, with 220 recorded for FY2026.",
+  "requirementsIntro": "Section 1910.179 applies to overhead and gantry cranes, including semigantry, cantilever gantry, wall cranes, storage bridge cranes and others with the same fundamental characteristics (1910.179(b)(1)). It moves from definitions and general requirements through cabs, footwalks, stops, brakes, electrical and hoisting equipment to inspection, testing, maintenance, rope inspection and load handling.",
+  "requirements": [
+    {
+      "heading": "Who may operate, repair and direct crane work?",
+      "intro": "1910.179 limits crane operation, and crane adjustments and repairs, to designated personnel, and puts a responsible person in charge of multi-crane lifts and side pulls.",
+      "items": [
+        {
+          "text": "Designated means selected or assigned by the employer or the employer's representative as qualified to perform specific duties.",
+          "clause": "1910.179(a)(35)"
+        },
+        {
+          "text": "Only designated personnel may operate a crane covered by this section.",
+          "clause": "1910.179(b)(8)"
+        },
+        {
+          "text": "Adjustments and repairs may be done only by designated personnel.",
+          "clause": "1910.179(l)(3)(i)"
+        },
+        {
+          "text": "When two or more cranes lift one load, one qualified responsible person must be in charge, analyze the operation and instruct everyone involved on positioning, rigging and movements.",
+          "clause": "1910.179(n)(3)(ix)"
+        },
+        {
+          "text": "Side pulls are allowed only when specifically authorized by a responsible person who has determined that crane stability is not endangered and its parts will not be overstressed.",
+          "clause": "1910.179(n)(3)(iv)"
+        }
+      ]
+    },
+    {
+      "heading": "How often must overhead and gantry cranes be inspected?",
+      "intro": "1910.179 requires an inspection of all new and altered cranes before initial use, then two classes of inspection for cranes in regular service: frequent (daily to monthly) and periodic (1 to 12 months).",
+      "items": [
+        {
+          "text": "Inspect all new and altered cranes before initial use to confirm they comply with the section.",
+          "clause": "1910.179(j)(1)(i)"
+        },
+        {
+          "text": "Frequent inspections are carried out at daily to monthly intervals.",
+          "clause": "1910.179(j)(1)(ii)(a)"
+        },
+        {
+          "text": "Periodic inspections are carried out at 1 to 12-month intervals.",
+          "clause": "1910.179(j)(1)(ii)(b)"
+        },
+        {
+          "text": "Frequent inspections include watching for defects during operation between regular inspections, and each deficiency found must be examined to decide whether it is a safety hazard.",
+          "clause": "1910.179(j)(2)"
+        },
+        {
+          "text": "A periodic inspection is a complete inspection of the crane, timed by its activity, severity of service and environment, and it covers the frequent-inspection items as well.",
+          "clause": "1910.179(j)(3)"
+        },
+        {
+          "text": "A crane idle for 1 month or more but less than 6 months needs an inspection meeting (j)(2) and (m)(2) before it goes back into service.",
+          "clause": "1910.179(j)(4)(i)"
+        },
+        {
+          "text": "A crane idle for over 6 months needs a complete inspection meeting (j)(2), (j)(3) and (m)(2) before being placed in service.",
+          "clause": "1910.179(j)(4)(ii)"
+        },
+        {
+          "text": "Standby cranes must be inspected at least semi-annually to the requirements of (j)(2) and (m)(2).",
+          "clause": "1910.179(j)(4)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What inspection records does 1910.179 require?",
+      "intro": "1910.179 requires a certification record showing the inspection date, the inspector's signature and an identifier for the monthly hook, hoist chain and running rope inspections, and for rope that has stood idle.",
+      "items": [
+        {
+          "text": "Inspect hooks visually every day for deformation or cracks, and monthly with a certification record giving the date, the inspector's signature and the hook's serial number or other identifier.",
+          "clause": "1910.179(j)(2)(iii)"
+        },
+        {
+          "text": "Inspect hoist chains and their end connections visually every day for excessive wear, twist, distorted links or stretch past what the manufacturer recommends, and monthly with a certification record giving the date, signature and a chain identifier.",
+          "clause": "1910.179(j)(2)(iv)"
+        },
+        {
+          "text": "Thoroughly inspect all running ropes at least once a month and keep a certification record (date, signature, rope identifier) on file where appointed personnel can readily get it.",
+          "clause": "1910.179(m)(1)"
+        },
+        {
+          "text": "Rope idle for a month or more because its crane was shut down or stored needs a thorough inspection by an appointed person, whose approval is required before further use, with a certification record available.",
+          "clause": "1910.179(m)(2)"
+        },
+        {
+          "text": "Keep rated load test reports on file where they are readily available to appointed personnel.",
+          "clause": "1910.179(k)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What happens when an inspection finds a defect?",
+      "intro": "Under 1910.179(l)(3)(i), any unsafe condition found by a paragraph (j) inspection must be corrected before the crane operates again.",
+      "items": [
+        {
+          "text": "Correct unsafe conditions disclosed by the paragraph (j) inspections before crane operation resumes.",
+          "clause": "1910.179(l)(3)(i)"
+        },
+        {
+          "text": "Hooks with cracks, more than 15 percent in excess of normal throat opening or more than 10° twist from the plane of the unbent hook fall under the hook repair rule in (l)(3)(iii)(a).",
+          "clause": "1910.179(j)(2)(iii)"
+        },
+        {
+          "text": "Discard hooks showing those defects; any repair by welding or reshaping must be done under competent supervision and the hook tested to (k)(2) before further use.",
+          "clause": "1910.179(l)(3)(iii)(a)"
+        },
+        {
+          "text": "Promptly repair or replace all critical parts that are cracked, broken, bent or excessively worn.",
+          "clause": "1910.179(l)(3)(iii)(c)"
+        },
+        {
+          "text": "Keep pendant control stations clean and their function labels legible.",
+          "clause": "1910.179(l)(3)(iii)(d)"
+        },
+        {
+          "text": "Establish a preventive maintenance program based on the crane manufacturer's recommendations.",
+          "clause": "1910.179(l)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "What precautions apply before adjusting or repairing a crane?",
+      "intro": "1910.179(l)(2) lists the steps to take before crane adjustments and repairs start and the conditions to meet before the crane runs again.",
+      "items": [
+        {
+          "text": "Run the crane to a location where it causes the least interference with other cranes and operations.",
+          "clause": "1910.179(l)(2)(i)(a)"
+        },
+        {
+          "text": "Put all controllers in the off position.",
+          "clause": "1910.179(l)(2)(i)(b)"
+        },
+        {
+          "text": "Open the main or emergency switch and lock it in the open position.",
+          "clause": "1910.179(l)(2)(i)(c)"
+        },
+        {
+          "text": "Place warning or out of order signs on the crane and on the floor beneath or on the hook where visible from the floor.",
+          "clause": "1910.179(l)(2)(i)(d)"
+        },
+        {
+          "text": "Where other cranes run on the same runway, provide rail stops or other suitable means to keep them from interfering with the idle crane.",
+          "clause": "1910.179(l)(2)(i)(e)"
+        },
+        {
+          "text": "After the work, do not operate the crane until all guards are reinstalled, safety devices reactivated and maintenance equipment removed.",
+          "clause": "1910.179(l)(2)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What markings, controls and safety devices must a crane have?",
+      "intro": "1910.179 requires the rated load to be plainly marked on each side of the crane and sets requirements for brakes, switches, warning signals, stops and clearances.",
+      "items": [
+        {
+          "text": "Mark the rated load plainly on each side of the crane; on cranes with more than one hoisting unit, mark each hoist's rated load on the hoist or its load block, clearly legible from the ground or floor.",
+          "clause": "1910.179(b)(5)"
+        },
+        {
+          "text": "Pendant control boxes must be built to prevent electrical shock and clearly marked to identify their functions.",
+          "clause": "1910.179(g)(1)(v)"
+        },
+        {
+          "text": "Each independent hoisting unit needs at least one self-setting holding brake applied directly to the motor shaft or part of the gear train.",
+          "clause": "1910.179(f)(1)(i)"
+        },
+        {
+          "text": "The hoisting motion of all electric traveling cranes needs an overtravel limit switch in the hoisting direction.",
+          "clause": "1910.179(g)(5)(iv)"
+        },
+        {
+          "text": "Except for floor-operated cranes, each crane with a power traveling mechanism needs a gong or other effective warning signal.",
+          "clause": "1910.179(i)"
+        },
+        {
+          "text": "Control power to the runway conductors with a switch or circuit breaker on a fixed structure, accessible from the floor and lockable in the open position.",
+          "clause": "1910.179(g)(5)(i)"
+        },
+        {
+          "text": "Provide and maintain a minimum clearance of 3 inches overhead and 2 inches laterally between the crane and obstructions.",
+          "clause": "1910.179(b)(6)(i)"
+        },
+        {
+          "text": "Provide stops at the limits of travel of the trolley.",
+          "clause": "1910.179(e)(1)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply when lifting and moving a load?",
+      "intro": "Under 1910.179(n), a crane may not be loaded beyond its rated load except for tests under paragraph (k), and the load must be secured, watched and kept off people.",
+      "items": [
+        {
+          "text": "Do not load the crane beyond its rated load except for test purposes under paragraph (k).",
+          "clause": "1910.179(n)(1)"
+        },
+        {
+          "text": "Secure and balance the load in the sling or lifting device before lifting it more than a few inches.",
+          "clause": "1910.179(n)(3)(i)"
+        },
+        {
+          "text": "No hoisting, lowering or traveling while any employee is on the load or hook.",
+          "clause": "1910.179(n)(3)(v)"
+        },
+        {
+          "text": "The employer must require the operator to avoid carrying loads over people.",
+          "clause": "1910.179(n)(3)(vi)"
+        },
+        {
+          "text": "The operator must test the brakes each time a load approaching the rated load is handled, by raising it a few inches and applying the brakes.",
+          "clause": "1910.179(n)(3)(vii)"
+        },
+        {
+          "text": "Do not lower the load below the point where less than two full wraps of rope remain on the hoisting drum.",
+          "clause": "1910.179(n)(3)(viii)"
+        },
+        {
+          "text": "The employer must ensure the operator does not leave the controls while the load is suspended.",
+          "clause": "1910.179(n)(3)(x)"
+        },
+        {
+          "text": "At the beginning of each operator's shift, try out the upper limit switch of each hoist under no load, and notify the appointed person immediately if it does not operate properly.",
+          "clause": "1910.179(n)(4)(i)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the frequent, periodic and running rope inspection items in 1910.179(j) and (m) plus on-site markings and safety devices; use section A for frequent inspections, sections A and B together for periodic inspections, and section C for the monthly rope inspection.",
+  "checklist": "us/1910-179-overhead-gantry-cranes",
+  "faq": [
+    {
+      "question": "Can an overhead crane be modified and given a new rated load?",
+      "answer": "Yes. Under 1910.179(b)(3), a qualified engineer or the equipment manufacturer must thoroughly check the modifications and the supporting structure for the new rated load, the crane must be tested under paragraph (k)(2), and the new rated load must be displayed as (b)(5) requires."
+    },
+    {
+      "question": "How heavy can a rated load test be?",
+      "answer": "Test loads may not exceed 125 percent of the rated load unless the manufacturer recommends otherwise, per 1910.179(k)(2)."
+    },
+    {
+      "question": "Which design standard applies to newer overhead and gantry cranes?",
+      "answer": "Overhead and gantry cranes constructed and installed on or after August 31, 1971, must meet the design specifications of ANSI B30.2.0-1967, which is incorporated by reference (1910.179(b)(2))."
+    },
+    {
+      "question": "Do outdoor storage bridges need extra equipment?",
+      "answer": "Yes. 1910.179(b)(4) requires automatic rail clamps and a wind-indicating device that gives the bridge operator a visible or audible alarm at a predetermined wind velocity. If the clamps act on the rail heads, beads or weld flash on the rail heads must be ground off."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.179: Overhead and gantry cranes (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.179"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "overhead cranes",
+    "gantry cranes",
+    "overhead crane inspection"
+  ],
+  "cover": "1910-179-overhead-gantry-cranes",
+  "coverPrompt": "A realistic photograph inside a steel fabrication shop: a floor-operated overhead bridge crane lifts a level, balanced steel beam on two slings while the operator, seen from a distance in a hard hat and safety glasses, stands well clear holding the pendant control, with nobody under the load.",
+  "coverAlt": "Overhead bridge crane lifting a steel beam in a fabrication shop while the operator stands clear at the pendant control",
+  "changes": []
+}

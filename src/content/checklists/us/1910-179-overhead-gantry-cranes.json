@@ -1,0 +1,236 @@
+{
+  "slug": "1910-179-overhead-gantry-cranes",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-179-overhead-gantry-cranes",
+  "doc_ref": "SI-US-1910-179",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Overhead Crane Inspection Checklist (29 CFR 1910.179)",
+  "subtitle": "For frequent and periodic crane inspections, monthly hook, chain and rope checks, and cranes returning from idle.",
+  "regulation_line": "OSHA 29 CFR 1910.179",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is marked Defect, decide whether it is a safety hazard and keep the crane out of operation until designated personnel correct any unsafe condition (1910.179(l)(3)(i)).",
+    "The crane manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Frequent inspection items",
+      "items": [
+        [
+          "Operating mechanisms (daily)",
+          "All functional operating mechanisms work with no maladjustment interfering with proper operation",
+          "1910.179(j)(2)(i)"
+        ],
+        [
+          "Air and hydraulic systems (daily)",
+          "No deterioration or leakage in lines, tanks, valves, drain pumps or other air or hydraulic parts",
+          "1910.179(j)(2)(ii)"
+        ],
+        [
+          "Hooks",
+          "No cracks or deformation; throat opening no more than 15 percent over normal; twist no more than 10° from the plane of the unbent hook",
+          "1910.179(j)(2)(iii)"
+        ],
+        [
+          "Hook monthly record",
+          "Certification record for the latest monthly inspection with date, inspector's signature and hook serial number or other identifier",
+          "1910.179(j)(2)(iii)"
+        ],
+        [
+          "Hoist chains and end connections",
+          "No excessive wear, twist or distorted links interfering with function; stretch within manufacturer limits",
+          "1910.179(j)(2)(iv)"
+        ],
+        [
+          "Hoist chain monthly record",
+          "Monthly record with date, signature and chain identifier",
+          "1910.179(j)(2)(iv)"
+        ],
+        [
+          "Mechanism wear",
+          "No excessive wear of components in functional operating mechanisms",
+          "1910.179(j)(2)(vi)"
+        ],
+        [
+          "Rope reeving",
+          "Reeving matches the crane manufacturer's recommendations",
+          "1910.179(j)(2)(vii)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Periodic inspection items (check section A too)",
+      "items": [
+        [
+          "Structural members",
+          "No deformed, cracked or corroded members",
+          "1910.179(j)(3)(i)"
+        ],
+        [
+          "Bolts and rivets",
+          "No loose bolts or rivets",
+          "1910.179(j)(3)(ii)"
+        ],
+        [
+          "Sheaves and drums",
+          "No cracked or worn sheaves or drums",
+          "1910.179(j)(3)(iii)"
+        ],
+        [
+          "Pins, bearings, shafts and gears",
+          "No worn, cracked or distorted pins, bearings, shafts, gears, rollers, locking or clamping devices",
+          "1910.179(j)(3)(iv)"
+        ],
+        [
+          "Brake system",
+          "No excessive wear on brake parts, linings, pawls or ratchets",
+          "1910.179(j)(3)(v)"
+        ],
+        [
+          "Load, wind and other indicators",
+          "No significant inaccuracy over the full range",
+          "1910.179(j)(3)(vi)"
+        ],
+        [
+          "Powerplants",
+          "Gasoline, diesel, electric or other powerplant performs properly and meets applicable safety requirements",
+          "1910.179(j)(3)(vii)"
+        ],
+        [
+          "Chain drive sprockets",
+          "No excessive sprocket wear or chain stretch",
+          "1910.179(j)(3)(viii)"
+        ],
+        [
+          "Electrical apparatus",
+          "No pitting or deterioration of controller contactors, limit switches or pushbutton stations",
+          "1910.179(j)(3)(x)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Running ropes and drum",
+      "items": [
+        [
+          "Rope diameter",
+          "Not reduced below nominal by loss of core support, corrosion or wear of outside wires",
+          "1910.179(m)(1)(i)"
+        ],
+        [
+          "Broken outside wires",
+          "Number and concentration of broken outside wires checked and judged not to be a hazard",
+          "1910.179(m)(1)(ii)"
+        ],
+        [
+          "Worn outside wires",
+          "No worn outside wires causing appreciable loss of strength",
+          "1910.179(m)(1)(iii)"
+        ],
+        [
+          "Wires at end connections",
+          "No corroded or broken wires at end connections",
+          "1910.179(m)(1)(iv)"
+        ],
+        [
+          "End connections",
+          "No corroded, cracked, bent, worn or improperly applied end connections",
+          "1910.179(m)(1)(v)"
+        ],
+        [
+          "Kinks and damage",
+          "No severe kinking, crushing, cutting or unstranding",
+          "1910.179(m)(1)(vi)"
+        ],
+        [
+          "Wraps on drum",
+          "At least two wraps remain on the drum with the hook at its extreme low position",
+          "1910.179(h)(2)(iii)(a)"
+        ],
+        [
+          "Monthly rope record",
+          "Record on file showing date, signature and the ropes inspected",
+          "1910.179(m)(1)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Markings, controls and safety devices",
+      "items": [
+        [
+          "Rated load marking",
+          "Rated load plainly marked on each side of the crane; each hoist's rated load on the hoist or load block, legible from the floor",
+          "1910.179(b)(5)"
+        ],
+        [
+          "Pendant control box",
+          "Box protects against electrical shock; every function clearly marked",
+          "1910.179(g)(1)(v)"
+        ],
+        [
+          "Pendant station condition",
+          "Station clean; function labels legible",
+          "1910.179(l)(3)(iii)(d)"
+        ],
+        [
+          "Pendant pushbuttons",
+          "Each button returns to off when pressure is released",
+          "1910.179(g)(3)(vii)"
+        ],
+        [
+          "Upper limit switch (start of shift)",
+          "Tried under no load with the block inched in or run at slow speed; switch operates",
+          "1910.179(n)(4)(i)"
+        ],
+        [
+          "Warning signal",
+          "Gong or other effective warning signal works (not required on floor-operated cranes)",
+          "1910.179(i)"
+        ],
+        [
+          "Runway power disconnect",
+          "Switch or circuit breaker on a fixed structure, reachable from the floor, can be locked open",
+          "1910.179(g)(5)(i)"
+        ],
+        [
+          "Moving-part guards",
+          "Exposed gears, set screws, projecting keys, chains and sprockets are guarded",
+          "1910.179(e)(6)(i)"
+        ],
+        [
+          "Trolley stops",
+          "Stops in place at the limits of trolley travel",
+          "1910.179(e)(1)(i)"
+        ],
+        [
+          "Rail sweeps",
+          "Bridge trucks have sweeps extending below the top of the rail and projecting in front of the wheels",
+          "1910.179(e)(4)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.179: Overhead and gantry cranes (Part 1910 Subpart N, Materials Handling and Storage)",
+    "Source: eCFR, Title 29"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
