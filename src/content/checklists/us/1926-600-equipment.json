@@ -1,0 +1,161 @@
+{
+  "slug": "1926-600-equipment",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-600-equipment",
+  "doc_ref": "SI-US-1926-600",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Heavy Equipment Inspection Checklist (29 CFR 1926.600)",
+  "subtitle": "For site walks before and during work with construction machinery, mechanized equipment and vehicles.",
+  "regulation_line": "OSHA 29 CFR 1926.600",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "Record each defect and correct it before the affected work continues.",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Parked and unattended equipment",
+      "items": [
+        [
+          "Unattended equipment marking",
+          "At night, beside a highway in use or near active work, unattended machines show working lights or reflectors, or stand behind barricades carrying them.",
+          "1926.600(a)(1)"
+        ],
+        [
+          "Parking brake",
+          "Brake applied on every parked machine.",
+          "1926.600(a)(3)(ii)"
+        ],
+        [
+          "Wheel chocks on slopes",
+          "Machines parked on an incline have chocks at the wheels and the brake applied.",
+          "1926.600(a)(3)(ii)"
+        ],
+        [
+          "Blades, buckets and dump bodies",
+          "Fully down on the ground or blocked whenever the machine is idle or under repair.",
+          "1926.600(a)(3)(i)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Maintenance, tires, batteries and cab",
+      "items": [
+        [
+          "Raised machinery blocked",
+          "Anything held up by slings, hoists or jacks is blocked or cribbed before anyone goes under or between it.",
+          "1926.600(a)(3)(i)"
+        ],
+        [
+          "Controls during repair",
+          "Controls in neutral, motor off and brakes on, unless the task needs otherwise.",
+          "1926.600(a)(3)(i)"
+        ],
+        [
+          "Tire cage",
+          "Tire rack, cage or equivalent in use for inflating, mounting or dismounting split-rim or locking-ring tires.",
+          "1926.600(a)(2)"
+        ],
+        [
+          "Batteries",
+          "Battery use, care and charging follow 29 CFR 1926 Subpart K.",
+          "1926.600(a)(4)"
+        ],
+        [
+          "Cab glass",
+          "Safety glass or equivalent fitted, with no visible distortion that affects safe operation.",
+          "1926.600(a)(5)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Power lines",
+      "items": [
+        [
+          "Overhead wires treated as live",
+          "Every overhead wire treated as energized unless the owner or utility has confirmed it is not and it is visibly grounded.",
+          "1926.600(a)(6)(vi)"
+        ],
+        [
+          "Clearance at 50 kV or below",
+          "Every part of the crane and load stays at least 10 feet from the lines.",
+          "1926.600(a)(6)(i)"
+        ],
+        [
+          "Clearance over 50 kV",
+          "Distance set at 10 feet plus 0.4 inch per kV above 50 kV, or twice the insulator length, and never under 10 feet.",
+          "1926.600(a)(6)(ii)"
+        ],
+        [
+          "Clearance in transit",
+          "With no load and boom lowered: at least 4 feet under 50 kV, 10 feet above 50 kV to 345 kV inclusive, 16 feet to 750 kV inclusive.",
+          "1926.600(a)(6)(iii)"
+        ],
+        [
+          "Clearance observer",
+          "A designated person watches clearance and warns the operator wherever it is hard to judge by sight.",
+          "1926.600(a)(6)(iv)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Transmitter towers and rail spurs",
+      "items": [
+        [
+          "Transmitter de-energized or tested",
+          "Before work near a transmitter tower, the transmitter is off or a test for induced charge on the crane has been done.",
+          "1926.600(a)(6)(vii)"
+        ],
+        [
+          "Boom structure grounded",
+          "Where induced voltage must be dissipated, a ground runs directly to the upper rotating structure supporting the boom.",
+          "1926.600(a)(6)(vii)(A)"
+        ],
+        [
+          "Ground jumper cables",
+          "Jumper cables attached to materials handled by the boom when a charge is induced.",
+          "1926.600(a)(6)(vii)(B)"
+        ],
+        [
+          "Nonconductive poles",
+          "Crew has nonconductive poles with large alligator clips or similar for attaching the ground cable to the load.",
+          "1926.600(a)(6)(vii)(B)"
+        ],
+        [
+          "Combustibles cleared",
+          "No combustible or flammable materials in the immediate area when operations start.",
+          "1926.600(a)(6)(vii)(C)"
+        ],
+        [
+          "Rail spur derails",
+          "Derail and/or bumper blocks in place where a rolling car could reach cars being worked, a building, or a work or traffic area.",
+          "1926.600(a)(7)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.600: Equipment (Part 1926 Subpart O: Motor Vehicles, Mechanized Equipment, and Marine Operations)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

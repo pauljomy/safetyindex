@@ -1,0 +1,372 @@
+{
+  "section": "1926.600",
+  "part": "1926",
+  "heading": "Equipment.",
+  "subpart": "O",
+  "subpartTitle": "Motor Vehicles, Mechanized Equipment, and Marine Operations",
+  "title": "Heavy equipment inspection: OSHA 1926.600 requirements and checklist",
+  "seoTitle": "Heavy equipment inspection: OSHA 1926.600 checklist",
+  "description": "OSHA 29 CFR 1926.600 heavy equipment requirements in plain language, with citation and penalty data and a free printable inspection checklist.",
+  "opening": "29 CFR 1926.600 sets general rules for Subpart O equipment: lights or barricades on unattended machines, tire cages for split rims, blocking of raised machinery, parking brakes and chocks, safety glass in cabs, power line clearances, and derails on rail spurs.",
+  "keyword": "heavy equipment inspection",
+  "cluster": [
+    {
+      "keyword": "osha construction equipment safety requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction equipment safety checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "construction equipment safety inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha heavy equipment requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "heavy equipment checklist",
+      "volume": 50,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "heavy equipment inspection",
+      "volume": 110,
+      "kd": 0,
+      "intent": "commercial",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.600",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 170,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 156,
+    "inspections": 134,
+    "byFy": {
+      "2022": 14,
+      "2023": 24,
+      "2024": 26,
+      "2025": 35,
+      "2026": 57
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(6)(i)",
+        "count": 50
+      },
+      {
+        "paragraph": "(a)(5)",
+        "count": 29
+      },
+      {
+        "paragraph": "(a)(3)(i)",
+        "count": 23
+      },
+      {
+        "paragraph": "(a)(6)(iv)",
+        "count": 22
+      },
+      {
+        "paragraph": "(a)(3)(ii)",
+        "count": 15
+      },
+      {
+        "paragraph": "(a)(6)",
+        "count": 9
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 3
+      },
+      {
+        "paragraph": "(a)(6)(ii)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(6)(vi)",
+        "count": 2
+      },
+      {
+        "paragraph": "(a)(6)(vii)(A)",
+        "count": 1
+      }
+    ],
+    "penalties": {
+      "n": 119,
+      "median": 4965,
+      "p25": 3751,
+      "p75": 11585,
+      "total": 1019748
+    },
+    "typeShares": {
+      "serious": 0.731,
+      "willful": 0.013,
+      "repeat": 0,
+      "otherThanSerious": 0.244,
+      "unclassified": 0.013
+    },
+    "typeCounts": {
+      "serious": 114,
+      "willful": 2,
+      "repeat": 0,
+      "otherThanSerious": 38,
+      "unclassified": 2
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 52,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2371",
+        "count": 20,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 20,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2373",
+        "count": 19,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 11,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2362",
+        "count": 9,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 5,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2379",
+        "count": 4,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "5629",
+        "count": 3,
+        "title": "Remediation and Other Waste Management Services"
+      },
+      {
+        "naics": "2131",
+        "count": 2,
+        "title": "Support Activities for Mining"
+      }
+    ]
+  },
+  "enforcementSummary": "Paragraph 1926.600(a)(6)(i), the 10-foot minimum clearance from power lines rated 50 kV or below, drew the most citations (50), followed by (a)(5) on cab safety glass (29), (a)(3)(i) on blocking raised machinery and lowering blades (23) and (a)(6)(iv) on designating a person to watch clearance (22). Citations rose every fiscal year, from 14 in FY2022 to 57 in FY2026.",
+  "requirementsIntro": "Section 1926.600 applies to equipment covered by Part 1926 Subpart O (Motor Vehicles, Mechanized Equipment, and Marine Operations). All of its rules are in paragraph (a), general requirements, because paragraph (b), specific requirements, is reserved. The groups below give the main rules, and the full eCFR text has the exact wording.",
+  "requirements": [
+    {
+      "heading": "How must parked and unattended equipment be secured?",
+      "intro": "Under 1926.600, unattended equipment beside a highway or active work area must be marked so its location can be seen, and parked equipment must have its parking brake on.",
+      "items": [
+        {
+          "text": "Equipment left unattended at night, next to a highway in normal use, or next to construction areas where work is in progress needs appropriate lights or reflectors, or barricades fitted with them, to show where it is.",
+          "clause": "1926.600(a)(1)"
+        },
+        {
+          "text": "Set the parking brake whenever equipment is parked.",
+          "clause": "1926.600(a)(3)(ii)"
+        },
+        {
+          "text": "On an incline, chock the wheels as well as setting the parking brake.",
+          "clause": "1926.600(a)(3)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "When must raised machinery, blades and buckets be blocked?",
+      "intro": "1926.600(a)(3)(i) requires blocking or cribbing before anyone works under suspended machinery, and requires blades, buckets and dump bodies to be lowered or blocked during repair or when idle.",
+      "items": [
+        {
+          "text": "Heavy machinery, equipment or parts held up by slings, hoists or jacks must be substantially blocked or cribbed to stop them falling or shifting before employees work under or between them.",
+          "clause": "1926.600(a)(3)(i)"
+        },
+        {
+          "text": "Bulldozer and scraper blades, end-loader buckets, dump bodies and similar equipment must be fully lowered or blocked while being repaired or when not in use.",
+          "clause": "1926.600(a)(3)(i)"
+        },
+        {
+          "text": "Controls must be in neutral, with motors stopped and brakes set, unless the work being performed requires otherwise.",
+          "clause": "1926.600(a)(3)(i)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules cover tires, batteries, cab glass and rail cars?",
+      "intro": "Section 1926.600 also requires tire cages for split or locking-ring rims, battery handling under subpart K, safety glass in cabs, and derails or bumper blocks on certain rail spurs.",
+      "items": [
+        {
+          "text": "Provide and use a safety tire rack, cage or equivalent protection when inflating, mounting or dismounting tires on split rims or on rims with locking rings or similar devices.",
+          "clause": "1926.600(a)(2)"
+        },
+        {
+          "text": "The use, care and charging of all batteries must meet subpart K of Part 1926.",
+          "clause": "1926.600(a)(4)"
+        },
+        {
+          "text": "All cab glass must be safety glass, or equivalent, with no visible distortion that affects safe operation of the machine.",
+          "clause": "1926.600(a)(5)"
+        },
+        {
+          "text": "Provide derail and/or bumper blocks on spur railroad tracks where a rolling car could contact other cars being worked, or enter a building, work or traffic area.",
+          "clause": "1926.600(a)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "When do the power line rules in 1926.600(a)(6) apply?",
+      "intro": "The power line rules cover Subpart O equipment working or being moved near power lines or energized transmitters, except where the lines are deenergized and visibly grounded or separated by independent insulating barriers.",
+      "items": [
+        {
+          "text": "The rules in 1926.600(a)(6)(i) to (vii) apply when equipment covered by Subpart O is working or being moved in the vicinity of power lines or energized transmitters.",
+          "clause": "1926.600(a)(6)"
+        },
+        {
+          "text": "They do not apply where the electrical distribution and transmission lines have been deenergized and visibly grounded at the point of work.",
+          "clause": "1926.600(a)(6)"
+        },
+        {
+          "text": "They also do not apply where insulating barriers, not part of or attached to the equipment, have been erected to prevent physical contact with the lines.",
+          "clause": "1926.600(a)(6)"
+        },
+        {
+          "text": "Treat any overhead wire as energized until the line's owner or the electrical utility says it is not energized and it has been visibly grounded.",
+          "clause": "1926.600(a)(6)(vi)"
+        }
+      ]
+    },
+    {
+      "heading": "How much clearance must equipment keep from power lines?",
+      "intro": "Near lines of 50 kV or less, equipment must keep a 10-foot minimum clearance, and 1926.600(a)(6)(ii) and (a)(6)(iii) give the distances for higher voltages and for travel.",
+      "items": [
+        {
+          "text": "For lines rated 50 kV or below, keep at least 10 feet between the lines and any part of the crane or load.",
+          "clause": "1926.600(a)(6)(i)"
+        },
+        {
+          "text": "For lines rated over 50 kV, the minimum is 10 feet plus 0.4 inch for each 1 kV over 50 kV, or twice the length of the line insulator, and never less than 10 feet.",
+          "clause": "1926.600(a)(6)(ii)"
+        },
+        {
+          "text": "In transit with no load and the boom lowered, keep at least 4 feet for voltages under 50 kV, 10 feet for voltages over 50 kV up to and including 345 kV, and 16 feet for voltages up to and including 750 kV.",
+          "clause": "1926.600(a)(6)(iii)"
+        },
+        {
+          "text": "Designate a person to watch the clearance and give timely warning for every operation where the operator finds it difficult to maintain the desired clearance by sight.",
+          "clause": "1926.600(a)(6)(iv)"
+        },
+        {
+          "text": "Cage-type boom guards, insulating links or proximity warning devices may be used on cranes, but using them does not change any other requirement of Part 1926.",
+          "clause": "1926.600(a)(6)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What must be done before working near transmitter towers?",
+      "intro": "Before work near transmitter towers where a charge can be induced in equipment or materials, 1926.600(a)(6)(vii) requires the transmitter to be de-energized or a test for induced charge on the crane; the grounding and housekeeping steps in (A) to (C) apply when needed to dissipate induced voltages.",
+      "items": [
+        {
+          "text": "De-energize the transmitter, or test whether an electrical charge is induced on the crane, before work starts near the tower.",
+          "clause": "1926.600(a)(6)(vii)"
+        },
+        {
+          "text": "Where precautions are needed to dissipate induced voltages, ground the equipment directly to the upper rotating structure that supports the boom.",
+          "clause": "1926.600(a)(6)(vii)(A)"
+        },
+        {
+          "text": "Attach ground jumper cables to materials handled by boom equipment when a charge is induced while working near energized transmitters.",
+          "clause": "1926.600(a)(6)(vii)(B)"
+        },
+        {
+          "text": "Give crews nonconductive poles with large alligator clips, or similar protection, to attach the ground cable to the load.",
+          "clause": "1926.600(a)(6)(vii)(B)"
+        },
+        {
+          "text": "Remove combustible and flammable materials from the immediate area before operations begin.",
+          "clause": "1926.600(a)(6)(vii)(C)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers parked equipment, blocking, tires, batteries, cab glass, power line clearance, transmitter towers and rail spurs under 1926.600; use it when walking a site before or during equipment work.",
+  "checklist": "us/1926-600-equipment",
+  "faq": [
+    {
+      "question": "Does 1926.600 say how often heavy equipment must be inspected?",
+      "answer": "No. The text of 1926.600 describes the condition equipment must be in and the precautions around it, but it sets no inspection interval. Run this page's checklist at the frequency your manufacturer's instructions and site rules set, and ask OSHA or a competent person which other standards apply to your machines."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.600: Equipment (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.600"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "heavy equipment inspection",
+    "construction equipment safety"
+  ],
+  "cover": "1926-600-equipment",
+  "coverPrompt": "A realistic photograph of a wheel loader parked on level ground at a road construction site at dusk, its bucket fully lowered to the ground, with reflective barricades carrying lit amber warning lamps placed around it. No people close up, no text, signs with writing, numbers or logos.",
+  "coverAlt": "Wheel loader parked at dusk with its bucket lowered and lit barricades around it on a road site",
+  "changes": []
+}

@@ -330,6 +330,16 @@
       "pdf": "/downloads/us/1926-502-fall-protection-systems-criteria-practices.pdf",
       "xlsx": "/downloads/us/1926-502-fall-protection-systems-criteria-practices.xlsx"
     },
+    "us/1926-600-equipment": {
+      "hash": "6b68632f16812e63dd010a6824d8afe437fc7f314f7412b013eb35b1edb4558b",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 20,
+      "page_url": "https://safetyindex.blog/us/standards/1926-600-equipment",
+      "pdf": "/downloads/us/1926-600-equipment.pdf",
+      "xlsx": "/downloads/us/1926-600-equipment.xlsx"
+    },
     "us/1926-651-excavation": {
       "hash": "8f3686e4dc1fe7a35faef2157b2a7e4cb6867d57ed090c3d396114aeadbcdfc9",
       "lang": "en",
