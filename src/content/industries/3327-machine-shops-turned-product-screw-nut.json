@@ -1,0 +1,247 @@
+{
+  "naics": "3327",
+  "naicsTitle": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing",
+  "title": "Most-cited OSHA standards: machine shops, turned product and fastener makers (NAICS 3327)",
+  "seoTitle": "Machine shop safety: top OSHA citations (NAICS 3327)",
+  "description": "Top OSHA citations in NAICS 3327 (machine shops, turned product, fasteners), FY2022–FY2026: lockout/tagout, machine guarding, hazard communication.",
+  "opening": "In machine shops, turned product and screw, nut and bolt manufacturing (NAICS 3327), OSHA cited 1910.147, the control of hazardous energy (lockout/tagout), most often from FY2022–FY2026: 815 of 5,253 citations, ahead of 1910.212 (general requirements for all machines) and 1910.1200 (hazard communication).",
+  "keyword": "machine shop safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 60,
+  "kd": 0,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 3048,
+    "citations": 5253,
+    "topStandards": [
+      {
+        "section": "1910.147",
+        "count": 815
+      },
+      {
+        "section": "1910.212",
+        "count": 653
+      },
+      {
+        "section": "1910.1200",
+        "count": 639
+      },
+      {
+        "section": "1910.134",
+        "count": 375
+      },
+      {
+        "section": "1910.178",
+        "count": 354
+      },
+      {
+        "section": "1910.215",
+        "count": 280
+      },
+      {
+        "section": "1910.303",
+        "count": 226
+      },
+      {
+        "section": "1910.305",
+        "count": 203
+      },
+      {
+        "section": "1910.132",
+        "count": 153
+      },
+      {
+        "section": "1910.219",
+        "count": 135
+      },
+      {
+        "section": "1910.242",
+        "count": 112
+      },
+      {
+        "section": "1910.157",
+        "count": 79
+      },
+      {
+        "section": "1910.95",
+        "count": 78
+      },
+      {
+        "section": "1904.41",
+        "count": 66
+      },
+      {
+        "section": "1910.179",
+        "count": 66
+      },
+      {
+        "section": "1910.107",
+        "count": 61
+      },
+      {
+        "section": "1910.37",
+        "count": 58
+      },
+      {
+        "section": "1910.1026",
+        "count": 52
+      },
+      {
+        "section": "1910.253",
+        "count": 49
+      },
+      {
+        "section": "1910.151",
+        "count": 47
+      },
+      {
+        "section": "1910.184",
+        "count": 47
+      },
+      {
+        "section": "1910.217",
+        "count": 46
+      },
+      {
+        "section": "1910.22",
+        "count": 44
+      },
+      {
+        "section": "1910.133",
+        "count": 38
+      },
+      {
+        "section": "1904.39",
+        "count": 36
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 469
+      },
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 214
+      },
+      {
+        "clause": "1910.147(c)(4)(i)",
+        "count": 194
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 153
+      },
+      {
+        "clause": "1910.147(c)(6)(i)",
+        "count": 152
+      },
+      {
+        "clause": "1910.212(a)(3)(ii)",
+        "count": 125
+      },
+      {
+        "clause": "1910.215(a)(4)",
+        "count": 113
+      },
+      {
+        "clause": "1910.147(c)(1)",
+        "count": 111
+      },
+      {
+        "clause": "1910.242(b)",
+        "count": 109
+      },
+      {
+        "clause": "1910.215(b)(9)",
+        "count": 107
+      }
+    ],
+    "penalties": {
+      "n": 3143,
+      "median": 3405,
+      "p25": 1200,
+      "p75": 6222,
+      "total": 14002106
+    },
+    "typeShares": {
+      "serious": 0.677,
+      "willful": 0,
+      "repeat": 0.013,
+      "otherThanSerious": 0.31,
+      "unclassified": 0.001
+    },
+    "standardsCited5Plus": 54
+  },
+  "patternsSummary": "Machinery hazards lead the NAICS 3327 list: besides 1910.147 lockout/tagout (815 citations), three Subpart O machine guarding standards rank high, namely 1910.212 general requirements for all machines (653), 1910.215 abrasive wheel machinery (280) and 1910.219 mechanical power-transmission apparatus (135). Chemical and airborne hazards come next, with 1910.1200 hazard communication cited 639 times and 1910.134 respiratory protection 375 times. 1910.178 powered industrial trucks (354) and the Subpart S electrical standards 1910.303 (226) and 1910.305 (203) follow close behind.",
+  "penaltiesSummary": "The median penalty per penalised citation in NAICS 3327 was $3,405 over FY2022–FY2026, and the middle half of penalties fell between $1,200 and $6,222. Of all citations, 68% were classed as serious, 31% other-than-serious, 1% repeat and 0% willful.",
+  "standardNotes": [
+    {
+      "section": "1910.147",
+      "note": "Covers the control of hazardous energy, known as lockout/tagout, under Subpart J, General Environmental Controls."
+    },
+    {
+      "section": "1910.212",
+      "note": "Sets the general requirements that apply to all machines, within Subpart O, Machinery and Machine Guarding."
+    },
+    {
+      "section": "1910.1200",
+      "note": "The hazard communication standard, part of Subpart Z on toxic and hazardous substances."
+    },
+    {
+      "section": "1910.134",
+      "note": "Covers respiratory protection, within Subpart I on personal protective equipment."
+    },
+    {
+      "section": "1910.178",
+      "note": "Covers powered industrial trucks, part of Subpart N on materials handling and storage."
+    },
+    {
+      "section": "1910.215",
+      "note": "Covers abrasive wheel machinery, another machine guarding standard in Subpart O."
+    },
+    {
+      "section": "1910.303",
+      "note": "The general section of Subpart S, Electrical."
+    },
+    {
+      "section": "1910.305",
+      "note": "Covers wiring methods, components and equipment for general use, also in Subpart S."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "machine shops; turned product; and screw, nut, and bolt manufacturing",
+    "machine shops and fastener manufacturing"
+  ],
+  "cover": "3327-machine-shops-turned-product-screw-nut",
+  "coverPrompt": "Realistic photograph inside a busy machine shop: a machinist seen from the side and slightly behind, wearing safety glasses and close-fitting work clothes with no gloves near rotating parts, stands at a CNC lathe with its enclosure doors fully closed and the guard in place, watching the machine through the window. In the background, a bench grinder with its wheel guard and tool rest fitted, racks of metal bar stock, and bins of finished turned parts and bolts. Clean, well-lit concrete floor with marked aisles. No text, labels, numbers, logos or close-up faces.",
+  "coverAlt": "Machinist in safety glasses watching an enclosed CNC lathe in a machine shop with bar stock racks behind",
+  "changes": []
+}
