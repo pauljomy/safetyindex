@@ -1,0 +1,247 @@
+{
+  "naics": "9281",
+  "naicsTitle": "National Security and International Affairs",
+  "title": "Most-cited OSHA standards for national security and international affairs (NAICS 9281)",
+  "seoTitle": "National security safety: OSHA citations, NAICS 9281",
+  "description": "OSHA citations in national security and international affairs (NAICS 9281), FY2022–FY2026: 924 citations from 656 inspections, led by electrical rules.",
+  "opening": "Across FY2022–FY2026 in national security and international affairs (NAICS 9281), OSHA cited 1910.303, the general section of the Subpart S electrical standard, more than any other, with 117 of the 924 citations.",
+  "keyword": "military safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 130,
+  "kd": 3,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 656,
+    "citations": 924,
+    "topStandards": [
+      {
+        "section": "1910.303",
+        "count": 117
+      },
+      {
+        "section": "1910.305",
+        "count": 82
+      },
+      {
+        "section": "1910.1200",
+        "count": 61
+      },
+      {
+        "section": "1910.134",
+        "count": 50
+      },
+      {
+        "section": "1910.37",
+        "count": 46
+      },
+      {
+        "section": "1910.22",
+        "count": 43
+      },
+      {
+        "section": "1910.157",
+        "count": 42
+      },
+      {
+        "section": "1910.147",
+        "count": 38
+      },
+      {
+        "section": "1910.212",
+        "count": 24
+      },
+      {
+        "section": "1910.151",
+        "count": 23
+      },
+      {
+        "section": "1910.215",
+        "count": 21
+      },
+      {
+        "section": "1904.39",
+        "count": 20
+      },
+      {
+        "section": "1960.8",
+        "count": 19
+      },
+      {
+        "section": "1910.132",
+        "count": 18
+      },
+      {
+        "section": "1910.141",
+        "count": 17
+      },
+      {
+        "section": "1904.32",
+        "count": 15
+      },
+      {
+        "section": "1910.178",
+        "count": 14
+      },
+      {
+        "section": "1904.40",
+        "count": 13
+      },
+      {
+        "section": "1910.1025",
+        "count": 13
+      },
+      {
+        "section": "1910.304",
+        "count": 12
+      },
+      {
+        "section": "1960.59",
+        "count": 12
+      },
+      {
+        "section": "1910.333",
+        "count": 11
+      },
+      {
+        "section": "1960.30",
+        "count": 11
+      },
+      {
+        "section": "1910.334",
+        "count": 10
+      },
+      {
+        "section": "1910.213",
+        "count": 9
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.303(b)(2)",
+        "count": 61
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 23
+      },
+      {
+        "clause": "1910.22(a)(1)",
+        "count": 21
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 20
+      },
+      {
+        "clause": "1910.303(g)(1)",
+        "count": 18
+      },
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 17
+      },
+      {
+        "clause": "1910.157(e)(2)",
+        "count": 17
+      },
+      {
+        "clause": "1910.305(b)(1)(ii)",
+        "count": 16
+      },
+      {
+        "clause": "1960.8(a)",
+        "count": 16
+      },
+      {
+        "clause": "1910.37(a)(3)",
+        "count": 15
+      }
+    ],
+    "penalties": {
+      "n": 4,
+      "median": 5265,
+      "p25": 4154,
+      "p75": 6167,
+      "total": 20220
+    },
+    "typeShares": {
+      "serious": 0.711,
+      "willful": 0.001,
+      "repeat": 0.05,
+      "otherThanSerious": 0.238,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 43
+  },
+  "patternsSummary": "Electrical safety leads this industry: 1910.303 (117 citations) and 1910.305 on wiring methods, components and equipment (82) are both in Subpart S. Next come hazard communication under 1910.1200 (61) and respiratory protection under 1910.134 (50). Building and emergency basics follow closely, with exit routes under 1910.37 (46), walking-working surfaces under 1910.22 (43), portable fire extinguishers under 1910.157 (42) and lockout/tagout under 1910.147 (38). Reporting also appears, with 20 citations under 1904.39, the rule on reporting fatalities, hospitalizations, amputations and losses of an eye to OSHA.",
+  "penaltiesSummary": "Penalty figures for NAICS 9281 rest on only 4 penalties, with a median of $5,265 and a middle half between $4,154 and $6,167. Of all citations, 71% were classed serious, 24% other-than-serious, 5% repeat and 0% willful (1 citation).",
+  "standardNotes": [
+    {
+      "section": "1910.303",
+      "note": "The general section of Subpart S (Electrical), cited 117 times in this industry across FY2022–FY2026."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and equipment for general use, also in the Subpart S electrical rules."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, part of Subpart Z on toxic and hazardous substances."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, one of the personal protective equipment standards in Subpart I."
+    },
+    {
+      "section": "1910.37",
+      "note": "Maintenance, safeguards and operational features for exit routes, in Subpart E (Exit Routes and Emergency Planning)."
+    },
+    {
+      "section": "1910.22",
+      "note": "General requirements for walking-working surfaces, in Subpart D."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, under the Subpart L fire protection rules."
+    },
+    {
+      "section": "1910.147",
+      "note": "Control of hazardous energy (lockout/tagout), in Subpart J (General Environmental Controls)."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "national security and international affairs",
+    "national security"
+  ],
+  "cover": "9281-national-security-international-affairs",
+  "coverPrompt": "Realistic wide-angle photograph of a corridor in a government office building. A facilities worker seen from behind checks a portable fire extinguisher mounted on the wall at the correct height. The floor is clean and dry, the corridor is unobstructed and a clear exit route with a closed exit door is visible in the background. Neutral indoor lighting. No readable text, signs, labels, numbers, insignia or logos, and no visible faces.",
+  "coverAlt": "Worker checking a wall-mounted portable fire extinguisher in a government building corridor with a clear exit route",
+  "changes": []
+}
