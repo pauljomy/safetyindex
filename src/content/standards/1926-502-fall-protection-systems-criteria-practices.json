@@ -1,0 +1,579 @@
+{
+  "section": "1926.502",
+  "part": "1926",
+  "heading": "Fall protection systems criteria and practices.",
+  "subpart": "M",
+  "subpartTitle": "Fall Protection",
+  "title": "Personal fall arrest system inspection: OSHA 1926.502 requirements",
+  "seoTitle": "Personal Fall Arrest System Inspection: OSHA 1926.502",
+  "description": "OSHA 29 CFR 1926.502 requirements for personal fall arrest systems, guardrails, nets and covers, with citation data and an on-site inspection checklist.",
+  "opening": "29 CFR 1926.502 sets the criteria that fall protection systems required by Part 1926 must meet, from guardrail heights and anchorage strength to the rule that personal fall arrest systems are inspected for wear, damage and deterioration before each use.",
+  "keyword": "personal fall arrest system inspection",
+  "cluster": [
+    {
+      "keyword": "guardrail checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "guardrail inspection",
+      "volume": null,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha personal fall arrest system requirements",
+      "volume": 20,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal fall arrest system checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "personal fall arrest system inspection",
+      "volume": 170,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha fall protection systems criteria and practices requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fall protection systems criteria and practices checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "fall protection systems criteria and practices inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.502",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 200,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 5357,
+    "inspections": 3795,
+    "byFy": {
+      "2022": 904,
+      "2023": 1195,
+      "2024": 1110,
+      "2025": 1229,
+      "2026": 919
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(d)(17)",
+        "count": 861
+      },
+      {
+        "paragraph": "(d)(15)",
+        "count": 687
+      },
+      {
+        "paragraph": "(d)(16)(iii)",
+        "count": 483
+      },
+      {
+        "paragraph": "(d)",
+        "count": 331
+      },
+      {
+        "paragraph": "(i)(4)",
+        "count": 302
+      },
+      {
+        "paragraph": "(i)(3)",
+        "count": 267
+      },
+      {
+        "paragraph": "(d)(21)",
+        "count": 262
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 180
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 176
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 162
+      }
+    ],
+    "penalties": {
+      "n": 3205,
+      "median": 4135,
+      "p25": 2500,
+      "p75": 5801,
+      "total": 16691035
+    },
+    "typeShares": {
+      "serious": 0.833,
+      "willful": 0.003,
+      "repeat": 0.036,
+      "otherThanSerious": 0.127,
+      "unclassified": 0.001
+    },
+    "typeCounts": {
+      "serious": 4462,
+      "willful": 17,
+      "repeat": 195,
+      "otherThanSerious": 679,
+      "unclassified": 4
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 3849,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 441,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2361",
+        "count": 332,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 205,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2383",
+        "count": 191,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 117,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2373",
+        "count": 29,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2211",
+        "count": 21,
+        "title": "Electric Power Generation, Transmission and Distribution"
+      },
+      {
+        "naics": "2371",
+        "count": 19,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "5629",
+        "count": 15,
+        "title": "Remediation and Other Waste Management Services"
+      }
+    ]
+  },
+  "enforcementSummary": "The three most-cited paragraphs all deal with personal fall arrest systems: 1926.502(d)(17), on where the harness or body belt attachment point sits (861 citations), 1926.502(d)(15), on anchorage strength and independence (687), and 1926.502(d)(16)(iii), on rigging so a worker cannot free fall more than 6 feet or hit a lower level (483). Below them sit 1926.502(d), the general personal fall arrest paragraph that also rules out body belts in arrest systems (331), then hole covers under 1926.502(i)(4) on color coding or marking (302) and 1926.502(i)(3) on securing covers (267), and 1926.502(d)(21), the pre-use inspection rule (262). By fiscal year, citations went from 904 in FY2022 to 1,195 in FY2023, 1,110 in FY2024, 1,229 in FY2025 and 919 in FY2026.",
+  "requirementsIntro": "1926.502 applies to every fall protection system required by Part 1926, and it is organised by system: guardrails (b), safety nets (c), personal fall arrest (d), positioning devices (e), warning lines (f), controlled access zones (g), safety monitoring (h), covers (i), falling object protection (j) and fall protection plans (k). The groups below give the main rules for each system; the full eCFR text has more detail.",
+  "requirements": [
+    {
+      "heading": "When must fall protection systems be in place?",
+      "intro": "Fall protection has to be installed before exposure starts: 1926.502(a)(2) puts that duty on the employer for every system Subpart M requires.",
+      "items": [
+        {
+          "text": "Each fall protection system required by Part 1926 must comply with the applicable provisions of 1926.502.",
+          "clause": "1926.502(a)(1)"
+        },
+        {
+          "text": "The employer provides and installs the required fall protection, and meets the other pertinent Subpart M requirements, before the employee begins the work that calls for it.",
+          "clause": "1926.502(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What do connectors and snaphooks in a personal fall arrest system need?",
+      "intro": "Connectors in a personal fall arrest system must be steel or an equivalent material, smooth and corrosion-resistant, and rated to set loads, and every snaphook must be a locking type.",
+      "items": [
+        {
+          "text": "Connectors are drop forged, pressed or formed steel, or made of equivalent materials.",
+          "clause": "1926.502(d)(1)"
+        },
+        {
+          "text": "Connectors have a corrosion-resistant finish, with smooth surfaces and edges so they don't damage the parts they interface with.",
+          "clause": "1926.502(d)(2)"
+        },
+        {
+          "text": "D-rings and snaphooks have a minimum tensile strength of 5,000 pounds (22.2 kN).",
+          "clause": "1926.502(d)(3)"
+        },
+        {
+          "text": "D-rings and snaphooks are proof-tested to a minimum tensile load of 3,600 pounds (16 kN) without cracking, breaking or taking permanent deformation.",
+          "clause": "1926.502(d)(4)"
+        },
+        {
+          "text": "Only locking-type snaphooks may be used, effective January 1, 1998.",
+          "clause": "1926.502(d)(5)"
+        },
+        {
+          "text": "Unless a locking snaphook is designed for the connection, it must not be engaged directly to webbing, rope or wire rope; to another snaphook; to a D-ring that already holds another snaphook or connector; to a horizontal lifeline; or to any object shaped or sized so it could press the keeper open and release itself.",
+          "clause": "1926.502(d)(6)"
+        },
+        {
+          "text": "On suspended scaffolds or similar work platforms where a horizontal lifeline may become vertical, the device connecting to the lifeline must lock in both directions.",
+          "clause": "1926.502(d)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "How strong must lanyards, lifelines and anchorages be?",
+      "intro": "The baseline figure for lanyards, vertical lifelines and anchorages is 5,000 pounds (22.2 kN); self-retracting devices that limit free fall to 2 feet or less are tested to 3,000 pounds instead, and anchorages and horizontal lifelines can be engineered under a qualified person.",
+      "items": [
+        {
+          "text": "Lanyards and vertical lifelines have a minimum breaking strength of 5,000 pounds (22.2 kN).",
+          "clause": "1926.502(d)(9)"
+        },
+        {
+          "text": "Self-retracting lifelines and lanyards that automatically limit free fall to 2 feet (0.61 m) or less sustain a minimum tensile load of 3,000 pounds (13.3 kN) applied with the line fully extended.",
+          "clause": "1926.502(d)(12)"
+        },
+        {
+          "text": "Self-retracting lifelines and lanyards that don't limit free fall to 2 feet or less, ripstitch lanyards, and tearing and deforming lanyards sustain at least 5,000 pounds with the line fully extended.",
+          "clause": "1926.502(d)(13)"
+        },
+        {
+          "text": "Ropes and webbing in lanyards, lifelines and the strength components of harnesses and body belts are made from synthetic fibers.",
+          "clause": "1926.502(d)(14)"
+        },
+        {
+          "text": "Each employee using a vertical lifeline is attached to a separate lifeline; the one exception, for elevator shaft construction with two workers on a false car fitted with guardrails, carries its own conditions in 1926.502(d)(10)(ii).",
+          "clause": "1926.502(d)(10)(i)"
+        },
+        {
+          "text": "Lifelines are protected against being cut or abraded.",
+          "clause": "1926.502(d)(11)"
+        },
+        {
+          "text": "Horizontal lifelines are designed, installed and used under a qualified person's supervision, as part of a complete personal fall arrest system that keeps a safety factor of at least two.",
+          "clause": "1926.502(d)(8)"
+        },
+        {
+          "text": "Anchorages for personal fall arrest equipment are independent of any anchorage used to support or suspend platforms and able to support 5,000 pounds per employee attached, or else are engineered as part of a complete system with a safety factor of two or more, under a qualified person's supervision.",
+          "clause": "1926.502(d)(15)"
+        }
+      ]
+    },
+    {
+      "heading": "What must a personal fall arrest system do when it stops a fall?",
+      "intro": "When it arrests a fall, a personal fall arrest system must meet all five criteria in 1926.502(d)(16), covering arresting force, free fall and clearance, deceleration distance and strength.",
+      "items": [
+        {
+          "text": "Limit the maximum arresting force on the employee to 900 pounds (4 kN) when used with a body belt.",
+          "clause": "1926.502(d)(16)(i)"
+        },
+        {
+          "text": "Limit the maximum arresting force on the employee to 1,800 pounds (8 kN) when used with a body harness.",
+          "clause": "1926.502(d)(16)(ii)"
+        },
+        {
+          "text": "Be rigged so the employee can neither free fall more than 6 feet (1.8 m) nor contact any lower level.",
+          "clause": "1926.502(d)(16)(iii)"
+        },
+        {
+          "text": "Bring the employee to a complete stop and limit the deceleration distance travelled to 3.5 feet (1.07 m).",
+          "clause": "1926.502(d)(16)(iv)"
+        },
+        {
+          "text": "Have enough strength to withstand twice the potential impact energy of an employee free falling 6 feet (1.8 m), or the free fall distance the system permits, whichever is less.",
+          "clause": "1926.502(d)(16)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What inspection and use rules apply to personal fall arrest systems?",
+      "intro": "Personal fall arrest systems must be inspected before every use under 1926.502(d)(21), and the paragraphs around it cover attachment points, gear that has taken a fall, banned attachments and rescue.",
+      "items": [
+        {
+          "text": "Check every personal fall arrest system for wear, damage and other deterioration prior to each use.",
+          "clause": "1926.502(d)(21)"
+        },
+        {
+          "text": "Take any defective component found during that check out of service.",
+          "clause": "1926.502(d)(21)"
+        },
+        {
+          "text": "Body belts have not been acceptable as part of a personal fall arrest system since January 1, 1998.",
+          "clause": "1926.502(d)"
+        },
+        {
+          "text": "The body harness attachment point sits in the center of the wearer's back near shoulder level, or above the wearer's head.",
+          "clause": "1926.502(d)(17)"
+        },
+        {
+          "text": "A system or component subjected to impact loading is taken out of use immediately and stays out until a competent person inspects it and finds it undamaged and suitable for reuse.",
+          "clause": "1926.502(d)(19)"
+        },
+        {
+          "text": "Body belts, harnesses and components are used only for employee protection and never to hoist materials.",
+          "clause": "1926.502(d)(18)"
+        },
+        {
+          "text": "Personal fall arrest systems are not attached to guardrail systems, and are attached to hoists only where other subparts of Part 1926 specify it.",
+          "clause": "1926.502(d)(23)"
+        },
+        {
+          "text": "The employer provides for prompt rescue of employees after a fall, or makes sure employees are able to rescue themselves.",
+          "clause": "1926.502(d)(20)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the guardrail height and strength requirements?",
+      "intro": "Guardrail top edges sit at 42 inches (1.1 m), plus or minus 3 inches, and must hold 200 pounds (890 N) without failure; 1926.502(b) also covers openings, rail materials and guardrails at holes, hoisting areas and ramps.",
+      "items": [
+        {
+          "text": "The top edge is 42 inches plus or minus 3 inches above the walking/working level; it may exceed 45 inches when conditions warrant, provided the system meets all other guardrail criteria.",
+          "clause": "1926.502(b)(1)"
+        },
+        {
+          "text": "Midrails, screens, mesh, intermediate vertical members or equivalent members are installed whenever there is no wall or parapet at least 21 inches (53 cm) high.",
+          "clause": "1926.502(b)(2)"
+        },
+        {
+          "text": "Midrails, when used, are installed midway between the top edge and the walking/working level.",
+          "clause": "1926.502(b)(2)(i)"
+        },
+        {
+          "text": "Balusters or other intermediate members between posts are no more than 19 inches (48 cm) apart.",
+          "clause": "1926.502(b)(2)(iii)"
+        },
+        {
+          "text": "The top edge withstands at least 200 pounds (890 N) applied within 2 inches of the top edge, in any outward or downward direction, at any point along it.",
+          "clause": "1926.502(b)(3)"
+        },
+        {
+          "text": "Under that 200-pound downward load, the top edge does not deflect below 39 inches (1.0 m).",
+          "clause": "1926.502(b)(4)"
+        },
+        {
+          "text": "Midrails, screens, mesh, intermediate members and solid panels withstand at least 150 pounds (666 N) downward or outward at any point.",
+          "clause": "1926.502(b)(5)"
+        },
+        {
+          "text": "Steel and plastic banding are not used as top rails or midrails.",
+          "clause": "1926.502(b)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "What do safety net systems require?",
+      "intro": "Safety nets under 1926.502(c) must hang no more than 30 feet (9.1 m) below the work surface, be drop-tested or certified before use, and be inspected at least once a week.",
+      "items": [
+        {
+          "text": "Nets are installed as close as practicable under the working surface and never more than 30 feet below it.",
+          "clause": "1926.502(c)(1)"
+        },
+        {
+          "text": "Nets extend outward from the outermost projection of the work surface by 8 feet where the vertical drop to the net is up to 5 feet, 10 feet where it is more than 5 and up to 10 feet, and 13 feet where it is more than 10 feet.",
+          "clause": "1926.502(c)(2)"
+        },
+        {
+          "text": "Except where the certification route in 1926.502(c)(4)(ii) is used, nets are drop-tested at the jobsite with a 400-pound (180 kg) bag of sand after initial installation and before use, whenever relocated, after major repair, and at 6-month intervals if left in one place.",
+          "clause": "1926.502(c)(4)(i)"
+        },
+        {
+          "text": "Nets are inspected at least once a week for wear, damage and deterioration, and again after any occurrence that could affect the system's integrity.",
+          "clause": "1926.502(c)(5)"
+        },
+        {
+          "text": "Defective nets are not used, and defective components are taken out of service.",
+          "clause": "1926.502(c)(5)"
+        },
+        {
+          "text": "Materials, scrap, equipment and tools that fall into the net are removed as soon as possible and at least before the next work shift.",
+          "clause": "1926.502(c)(6)"
+        },
+        {
+          "text": "Mesh openings are no larger than 36 square inches and no longer than 6 inches on any side, with all mesh crossings secured.",
+          "clause": "1926.502(c)(7)"
+        },
+        {
+          "text": "Each net or net section has a border rope or webbing with a minimum breaking strength of 5,000 pounds (22.2 kN).",
+          "clause": "1926.502(c)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "How must covers over holes be built, secured and marked?",
+      "intro": "Hole covers under 1926.502(i) must carry at least twice their expected load, be secured against displacement, and be color coded or marked HOLE or COVER.",
+      "items": [
+        {
+          "text": "Covers in roadways and vehicular aisles support, without failure, at least twice the maximum axle load of the largest vehicle expected to cross them.",
+          "clause": "1926.502(i)(1)"
+        },
+        {
+          "text": "All other covers support at least twice the weight of employees, equipment and materials that may be on them at any one time.",
+          "clause": "1926.502(i)(2)"
+        },
+        {
+          "text": "Covers are secured when installed so wind, equipment or employees cannot accidentally displace them.",
+          "clause": "1926.502(i)(3)"
+        },
+        {
+          "text": "Covers are color coded or marked with the word \"HOLE\" or \"COVER\"; this does not apply to cast iron manhole covers or steel grates used on streets or roadways.",
+          "clause": "1926.502(i)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What do positioning device systems require?",
+      "intro": "Positioning devices under 1926.502(e) must be rigged so the employee cannot free fall more than 2 feet (.6 m), and the system must be checked before each use.",
+      "items": [
+        {
+          "text": "Positioning devices are rigged so an employee cannot free fall more than 2 feet.",
+          "clause": "1926.502(e)(1)"
+        },
+        {
+          "text": "Positioning devices are secured to an anchorage able to support twice the potential impact load of an employee's fall or 3,000 pounds (13.3 kN), whichever is greater.",
+          "clause": "1926.502(e)(2)"
+        },
+        {
+          "text": "Connecting assemblies have a minimum tensile strength of 5,000 pounds.",
+          "clause": "1926.502(e)(5)"
+        },
+        {
+          "text": "As of January 1, 1998, only locking-type snaphooks are used in positioning systems.",
+          "clause": "1926.502(e)(7)"
+        },
+        {
+          "text": "Positioning device systems are inspected prior to each use for the same wear, damage and deterioration, and defective parts are pulled from use.",
+          "clause": "1926.502(e)(9)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules govern warning lines, control lines, safety monitors and fall protection plans?",
+      "intro": "Warning lines, controlled access zones, safety monitors and fall protection plans each have set distances, line heights or duties in 1926.502(f), (g), (h) and (k).",
+      "items": [
+        {
+          "text": "The warning line is erected around all sides of the roof work area.",
+          "clause": "1926.502(f)(1)"
+        },
+        {
+          "text": "With no mechanical equipment in use, the warning line stands at least 6 feet (1.8 m) from the roof edge; 1926.502(f)(1)(ii) sets the distances when mechanical equipment is operating.",
+          "clause": "1926.502(f)(1)(i)"
+        },
+        {
+          "text": "The warning line's lowest point, including sag, is no less than 34 inches (.9 m) above the walking/working surface and its highest point no more than 39 inches (1.0 m).",
+          "clause": "1926.502(f)(2)(ii)"
+        },
+        {
+          "text": "No employee is allowed between the roof edge and the warning line unless performing roofing work in that area.",
+          "clause": "1926.502(f)(3)"
+        },
+        {
+          "text": "For leading edge work, control lines are erected not less than 6 feet (1.8 m) nor more than 25 feet (7.7 m) from the unprotected or leading edge; precast concrete erection follows the distances in 1926.502(g)(1)(ii).",
+          "clause": "1926.502(g)(1)(i)"
+        },
+        {
+          "text": "The employer designates a competent person as safety monitor and ensures the monitor meets every condition in 1926.502(h)(1)(i) through (v), including staying on the same surface within sight and speaking distance of the monitored employee.",
+          "clause": "1926.502(h)(1)"
+        },
+        {
+          "text": "A fall protection plan is an option only for employees engaged in leading edge work, precast concrete erection work or residential construction work who can demonstrate that conventional fall protection is infeasible or creates a greater hazard.",
+          "clause": "1926.502(k)"
+        },
+        {
+          "text": "The fall protection plan is prepared by a qualified person, written specifically for the site, and kept up to date.",
+          "clause": "1926.502(k)(1)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers personal fall arrest equipment, connectors, anchorage and rigging, guardrails, hole covers and safety nets; use it on site before workers are exposed to a fall hazard.",
+  "checklist": "us/1926-502-fall-protection-systems-criteria-practices",
+  "faq": [
+    {
+      "question": "Can body belts still be used under 1926.502?",
+      "answer": "Yes, in a positioning device system. The note to 1926.502(d) allows a body belt there, with that use regulated under 1926.502(e). Any body belt must be at least 1 5/8 inches (4.1 cm) wide under 1926.502(d)(22)."
+    },
+    {
+      "question": "Does a system that meets appendix C to Subpart M comply with 1926.502(d)(16)?",
+      "answer": "It is considered compliant if it meets the appendix C criteria and protocols and the user's combined person and tool weight is under 310 pounds (140 kg). At 310 pounds or more, the employer must modify the appendix criteria and protocols for the heavier weight, or the system is not deemed compliant."
+    },
+    {
+      "question": "What if drop-testing a safety net is unreasonable?",
+      "answer": "Under 1926.502(c)(4)(ii), the employer or a designated competent person prepares a certification record before the net is used. It identifies the net and installation, gives the date compliance with 1926.502(c)(3) was determined, and carries the signature of the person certifying. The most recent record must be available at the jobsite."
+    },
+    {
+      "question": "Do stilts change the required guardrail height?",
+      "answer": "Yes. The note to 1926.502(b)(1) says that when employees use stilts, the top edge height of the top rail must be increased by an amount equal to the height of the stilts."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.502: Fall protection systems criteria and practices (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.502"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "personal fall arrest systems",
+    "guardrail systems",
+    "fall protection systems criteria"
+  ],
+  "cover": "1926-502-fall-protection-systems-criteria-practices",
+  "coverPrompt": "A construction worker seen from behind at a distance on a steel-framed building deck, wearing a full body harness connected at the back D-ring by a shock-absorbing lanyard to a beam anchor above shoulder height, with a guardrail along the open edge in overcast daylight.",
+  "coverAlt": "Construction worker in a full body harness tied off to an overhead beam anchor near a guarded deck edge",
+  "changes": []
+}

@@ -1,0 +1,287 @@
+{
+  "slug": "1926-502-fall-protection-systems-criteria-practices",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-502-fall-protection-systems-criteria-practices",
+  "doc_ref": "SI-US-1926-502",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Personal Fall Arrest System Inspection Checklist (29 CFR 1926.502)",
+  "subtitle": "For supervisors checking fall protection on a construction site before and during work at height.",
+  "regulation_line": "OSHA 29 CFR 1926.502",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "When an item fails, remove the defective component from service, and don't let work that needs that protection start until it is corrected.",
+    "The manufacturer's instructions and your site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Harness, lanyards and lifelines",
+      "items": [
+        [
+          "Pre-use check",
+          "Harness, lanyard, lifeline and connectors checked before this use; no wear, damage or other deterioration found",
+          "1926.502(d)(21)"
+        ],
+        [
+          "Defective parts",
+          "Any worn, damaged or deteriorated component removed from service",
+          "1926.502(d)(21)"
+        ],
+        [
+          "Harness, not body belt, for fall arrest",
+          "Every worker on a personal fall arrest system wears a body harness; no body belt is part of the arrest system",
+          "1926.502(d)"
+        ],
+        [
+          "Harness attachment point",
+          "Lanyard or lifeline connected at the center of the back near shoulder level, or above the head",
+          "1926.502(d)(17)"
+        ],
+        [
+          "Equipment that has arrested a fall",
+          "No impact-loaded harness, lanyard or connector in use unless a competent person inspected it and found it undamaged and suitable for reuse",
+          "1926.502(d)(19)"
+        ],
+        [
+          "Lifeline protection",
+          "Lifelines run clear of sharp edges or are protected; no cuts or abrasion on the line",
+          "1926.502(d)(11)"
+        ],
+        [
+          "One worker per vertical lifeline",
+          "Each worker on a separate vertical lifeline, unless every elevator shaft condition in 1926.502(d)(10)(ii) is met",
+          "1926.502(d)(10)(i)"
+        ],
+        [
+          "Rope and webbing material",
+          "Rope and webbing in lanyards, lifelines and harness strength straps are synthetic fiber",
+          "1926.502(d)(14)"
+        ],
+        [
+          "No hoisting with fall gear",
+          "Harnesses, lanyards and components not used to lift or lower materials",
+          "1926.502(d)(18)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Connectors and snaphooks",
+      "items": [
+        [
+          "Locking snaphooks",
+          "Every snaphook in use is a locking type",
+          "1926.502(d)(5)"
+        ],
+        [
+          "Snaphook connections",
+          "No snaphook clipped directly to webbing, rope or wire rope, to another snaphook, to a D-ring already holding another connector, to a horizontal lifeline, or to an object that could open the keeper, unless the locking hook is designed for that connection",
+          "1926.502(d)(6)"
+        ],
+        [
+          "Connector material",
+          "Connectors are drop forged, pressed or formed steel, or an equivalent material",
+          "1926.502(d)(1)"
+        ],
+        [
+          "Connector finish",
+          "Corrosion-resistant finish; no rough surfaces or sharp edges that could damage webbing or other parts",
+          "1926.502(d)(2)"
+        ],
+        [
+          "D-ring and snaphook rating",
+          "Manufacturer data shows a rated tensile strength of 5,000 pounds or more",
+          "1926.502(d)(3)"
+        ],
+        [
+          "Lanyard and vertical lifeline rating",
+          "Label or manufacturer data shows breaking strength of 5,000 pounds or more",
+          "1926.502(d)(9)"
+        ],
+        [
+          "Self-retracting devices limiting free fall to 2 feet",
+          "Devices that limit free fall to 2 feet or less are rated to sustain 3,000 pounds or more with the line fully extended",
+          "1926.502(d)(12)"
+        ],
+        [
+          "Other self-retracting devices and energy-absorbing lanyards",
+          "Self-retracting devices that don't limit free fall to 2 feet or less, ripstitch lanyards, and tearing and deforming lanyards are rated to sustain 5,000 pounds or more with the line fully extended",
+          "1926.502(d)(13)"
+        ],
+        [
+          "Suspended scaffold lifeline devices",
+          "Where a horizontal lifeline can become vertical, the connecting device locks in both directions",
+          "1926.502(d)(7)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Anchorage, rigging and rescue",
+      "items": [
+        [
+          "Protection in place before work",
+          "Required fall protection installed before the worker starts the task that exposes them to the fall",
+          "1926.502(a)(2)"
+        ],
+        [
+          "Anchorage",
+          "Anchor independent of any platform support or suspension anchor and rated for 5,000 pounds per worker attached, or engineered under qualified-person supervision as 1926.502(d)(15)(i) and (ii) set out",
+          "1926.502(d)(15)"
+        ],
+        [
+          "Free fall and clearance",
+          "Anchor height and lanyard length keep free fall to 6 feet or less, and the worker cannot contact any lower level during an arrest",
+          "1926.502(d)(16)(iii)"
+        ],
+        [
+          "Horizontal lifelines",
+          "Lifeline designed, installed and used under a qualified person's supervision, as part of a complete personal fall arrest system that keeps a safety factor of at least two",
+          "1926.502(d)(8)"
+        ],
+        [
+          "No tie-off to guardrails or hoists",
+          "No lanyard or lifeline attached to a guardrail; none attached to a hoist unless another subpart allows it",
+          "1926.502(d)(23)"
+        ],
+        [
+          "Hoist area rigging",
+          "At hoist areas the system lets the worker reach the edge of the walking/working surface and no farther",
+          "1926.502(d)(24)"
+        ],
+        [
+          "Rescue",
+          "Prompt rescue arrangements in place for a fallen worker, or workers able to rescue themselves",
+          "1926.502(d)(20)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Guardrails",
+      "items": [
+        [
+          "Top rail height",
+          "Top edge measures 42 inches, plus or minus 3 inches, from the deck (raised by stilt height where stilts are used)",
+          "1926.502(b)(1)"
+        ],
+        [
+          "Midrails or equivalent",
+          "Midrail, screen, mesh or intermediate members present wherever there is no wall or parapet at least 21 inches high",
+          "1926.502(b)(2)"
+        ],
+        [
+          "Midrail position",
+          "Midrail halfway between the top edge and the walking/working level",
+          "1926.502(b)(2)(i)"
+        ],
+        [
+          "Openings",
+          "No opening in the guardrail system more than 19 inches wide",
+          "1926.502(b)(2)(iv)"
+        ],
+        [
+          "No banding",
+          "No steel or plastic banding used as a top rail or midrail",
+          "1926.502(b)(8)"
+        ],
+        [
+          "Rail size",
+          "Top rails and midrails at least one-quarter inch nominal diameter or thickness",
+          "1926.502(b)(9)"
+        ],
+        [
+          "Wire rope flagging",
+          "Wire rope top rails flagged with high-visibility material at no more than 6-foot intervals",
+          "1926.502(b)(9)"
+        ],
+        [
+          "Rail surfaces",
+          "No splinters, burrs or points that could puncture or cut a worker or snag clothing",
+          "1926.502(b)(6)"
+        ],
+        [
+          "Guardrails at holes",
+          "Guardrail on every unprotected side or edge of the hole",
+          "1926.502(b)(11)"
+        ],
+        [
+          "Hoisting access opening",
+          "Chain, gate or removable section across the access opening whenever hoisting is not taking place",
+          "1926.502(b)(10)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Hole covers and safety nets",
+      "items": [
+        [
+          "Cover secured",
+          "Cover fixed in place so wind, equipment or workers cannot shift it",
+          "1926.502(i)(3)"
+        ],
+        [
+          "Cover marked",
+          "Cover color coded or marked HOLE or COVER (cast iron manhole covers and steel street grates excepted)",
+          "1926.502(i)(4)"
+        ],
+        [
+          "Cover strength",
+          "Cover supports at least twice the weight of workers, equipment and materials that may be on it at one time",
+          "1926.502(i)(2)"
+        ],
+        [
+          "Roadway and aisle covers",
+          "Cover supports at least twice the maximum axle load of the largest vehicle expected to cross",
+          "1926.502(i)(1)"
+        ],
+        [
+          "Net position",
+          "Net as close as practicable below the work surface and no more than 30 feet below it",
+          "1926.502(c)(1)"
+        ],
+        [
+          "Net inspection",
+          "Net inspected within the last week and after any event that could affect it; no wear, damage or deterioration",
+          "1926.502(c)(5)"
+        ],
+        [
+          "Net drop test",
+          "Drop test done after installation and before use, after relocation or major repair, and within 6 months if left in one place",
+          "1926.502(c)(4)(i)"
+        ],
+        [
+          "Net certification record",
+          "Where drop-testing is unreasonable, the latest signed certification record for this net and installation is at the jobsite",
+          "1926.502(c)(4)(ii)"
+        ],
+        [
+          "Debris in net",
+          "No materials, scrap, equipment or tools left in the net; anything that fell in cleared before the next shift",
+          "1926.502(c)(6)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.502: Fall protection systems criteria and practices (Part 1926 Subpart M: Fall Protection)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
