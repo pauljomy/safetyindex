@@ -1,0 +1,247 @@
+{
+  "naics": "6212",
+  "naicsTitle": "Offices of Dentists",
+  "title": "Most-cited OSHA standards for offices of dentists (NAICS 6212)",
+  "seoTitle": "OSHA Dental Office Requirements: NAICS 6212 Citations",
+  "description": "OSHA standards cited most in offices of dentists (NAICS 6212): bloodborne pathogens and hazard communication top 1,184 citations, FY2022–FY2026.",
+  "opening": "In offices of dentists (NAICS 6212), OSHA cited 1910.1030, the bloodborne pathogens standard, most often: 644 of 1,184 citations from FY2022–FY2026, ahead of 1910.1200 hazard communication with 304.",
+  "keyword": "osha dental office requirements",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 100,
+  "kd": 3,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 520,
+    "citations": 1184,
+    "topStandards": [
+      {
+        "section": "1910.1030",
+        "count": 644
+      },
+      {
+        "section": "1910.1200",
+        "count": 304
+      },
+      {
+        "section": "1910.132",
+        "count": 44
+      },
+      {
+        "section": "1910.151",
+        "count": 34
+      },
+      {
+        "section": "1910.157",
+        "count": 33
+      },
+      {
+        "section": "1910.134",
+        "count": 30
+      },
+      {
+        "section": "1910.133",
+        "count": 14
+      },
+      {
+        "section": "1910.303",
+        "count": 13
+      },
+      {
+        "section": "1910.37",
+        "count": 12
+      },
+      {
+        "section": "1910.141",
+        "count": 8
+      },
+      {
+        "section": "1910.1096",
+        "count": 7
+      },
+      {
+        "section": "1910.305",
+        "count": 6
+      },
+      {
+        "section": "1910.106",
+        "count": 5
+      },
+      {
+        "section": "1910.36",
+        "count": 5
+      },
+      {
+        "section": "1910.22",
+        "count": 4
+      },
+      {
+        "section": "1903.19",
+        "count": 3
+      },
+      {
+        "section": "1904.29",
+        "count": 3
+      },
+      {
+        "section": "1910.101",
+        "count": 3
+      },
+      {
+        "section": "1910.1048",
+        "count": 3
+      },
+      {
+        "section": "1910.242",
+        "count": 2
+      },
+      {
+        "section": "1910.28",
+        "count": 2
+      },
+      {
+        "section": "1904.8",
+        "count": 1
+      },
+      {
+        "section": "1910.1020",
+        "count": 1
+      },
+      {
+        "section": "1910.138",
+        "count": 1
+      },
+      {
+        "section": "1910.145",
+        "count": 1
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 77
+      },
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 74
+      },
+      {
+        "clause": "1910.1030(c)(1)(i)",
+        "count": 48
+      },
+      {
+        "clause": "1910.1030(c)(1)(iv)",
+        "count": 45
+      },
+      {
+        "clause": "1910.1030(g)(2)(i)",
+        "count": 42
+      },
+      {
+        "clause": "1910.1200(f)(6)(ii)",
+        "count": 42
+      },
+      {
+        "clause": "1910.1030(d)(2)(vii)(A)",
+        "count": 34
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 34
+      },
+      {
+        "clause": "1910.1030(c)(1)(v)",
+        "count": 32
+      },
+      {
+        "clause": "1910.1200(g)(1)",
+        "count": 32
+      }
+    ],
+    "penalties": {
+      "n": 439,
+      "median": 1275,
+      "p25": 400,
+      "p75": 3226,
+      "total": 975272
+    },
+    "typeShares": {
+      "serious": 0.712,
+      "willful": 0,
+      "repeat": 0.003,
+      "otherThanSerious": 0.285,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 14
+  },
+  "patternsSummary": "The two leading standards are both in Subpart Z (Toxic and Hazardous Substances): 1910.1030 bloodborne pathogens with 644 citations and 1910.1200 hazard communication with 304. Next come three personal protective equipment standards from Subpart I, 1910.132 (44), 1910.134 (30) and 1910.133 (14), along with 1910.151 medical services and first aid (34) and 1910.157 portable fire extinguishers (33). Only 14 standards were cited 5 or more times across the 520 inspections.",
+  "penaltiesSummary": "The median penalty was $1,275 across 439 citations with a penalty, and the middle half fell between $400 and $3,226. Of all citations, 71% were classed serious and 28% other-than-serious, while willful and repeat citations each round to 0%.",
+  "standardNotes": [
+    {
+      "section": "1910.1030",
+      "note": "Bloodborne pathogens, a Subpart Z standard; cited 644 times, more than any other standard in this NAICS code."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, also in Subpart Z; 304 citations, second only to bloodborne pathogens."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment (Subpart I); 44 citations, the most after the two leading standards."
+    },
+    {
+      "section": "1910.151",
+      "note": "Medical services and first aid, the Subpart K standard; 34 citations."
+    },
+    {
+      "section": "1910.157",
+      "note": "Portable fire extinguishers, part of Subpart L on fire protection; 33 citations."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, a second PPE standard from Subpart I; 30 citations."
+    },
+    {
+      "section": "1910.133",
+      "note": "Eye and face protection, a third Subpart I standard; 14 citations."
+    },
+    {
+      "section": "1910.303",
+      "note": "General electrical requirements, the first of two Subpart S sections on this list; 13 citations."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "offices of dentists",
+    "NAICS 6212"
+  ],
+  "cover": "6212-offices-dentists",
+  "coverPrompt": "Realistic photograph of a clean, well-lit dental practice sterilization area: a dental assistant seen from the side and slightly behind, wearing nitrile gloves, a surgical mask, safety glasses and a long-sleeved protective gown, placing used instruments into a closed sharps-safe instrument cassette next to an autoclave. A wall-mounted eyewash station and a portable fire extinguisher on its bracket are visible in the background, with a treatment room and dental chair through an open doorway. No readable text, labels, numbers or logos, and no close-up faces.",
+  "coverAlt": "Dental assistant in gloves, mask and safety glasses processing instruments in a dental practice sterilization area",
+  "changes": []
+}
