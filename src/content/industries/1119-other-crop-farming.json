@@ -1,0 +1,247 @@
+{
+  "naics": "1119",
+  "naicsTitle": "Other Crop Farming",
+  "title": "Most-cited OSHA standards for other crop farming (NAICS 1119)",
+  "seoTitle": "Other crop farming safety: top OSHA citations (NAICS 1119)",
+  "description": "OSHA citations in other crop farming (NAICS 1119), FY2022–FY2026: hazard communication leads, then respiratory protection and field sanitation.",
+  "opening": "Over FY2022–FY2026, the OSHA standard cited most in other crop farming (NAICS 1119) was 1910.1200, hazard communication, with 53 citations, ahead of 1910.134 respiratory protection (42) and 1928.110 field sanitation (24).",
+  "keyword": "farming safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 320,
+  "kd": 6,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 848,
+    "citations": 311,
+    "topStandards": [
+      {
+        "section": "1910.1200",
+        "count": 53
+      },
+      {
+        "section": "1910.134",
+        "count": 42
+      },
+      {
+        "section": "1928.110",
+        "count": 24
+      },
+      {
+        "section": "1910.142",
+        "count": 23
+      },
+      {
+        "section": "1910.147",
+        "count": 19
+      },
+      {
+        "section": "1910.305",
+        "count": 17
+      },
+      {
+        "section": "1910.132",
+        "count": 11
+      },
+      {
+        "section": "1910.178",
+        "count": 10
+      },
+      {
+        "section": "1910.303",
+        "count": 10
+      },
+      {
+        "section": "1910.272",
+        "count": 9
+      },
+      {
+        "section": "1928.57",
+        "count": 9
+      },
+      {
+        "section": "1904.39",
+        "count": 7
+      },
+      {
+        "section": "1910.106",
+        "count": 7
+      },
+      {
+        "section": "1910.151",
+        "count": 7
+      },
+      {
+        "section": "1910.212",
+        "count": 7
+      },
+      {
+        "section": "1910.157",
+        "count": 5
+      },
+      {
+        "section": "1910.219",
+        "count": 4
+      },
+      {
+        "section": "1910.101",
+        "count": 3
+      },
+      {
+        "section": "1910.28",
+        "count": 3
+      },
+      {
+        "section": "1910.30",
+        "count": 3
+      },
+      {
+        "section": "1926.451",
+        "count": 3
+      },
+      {
+        "section": "1904.29",
+        "count": 2
+      },
+      {
+        "section": "1910.146",
+        "count": 2
+      },
+      {
+        "section": "1910.22",
+        "count": 2
+      },
+      {
+        "section": "1910.25",
+        "count": 2
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 16
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 12
+      },
+      {
+        "clause": "1928.110(c)(2)(i)",
+        "count": 12
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 9
+      },
+      {
+        "clause": "1928.110(c)(1)(iii)",
+        "count": 9
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 7
+      },
+      {
+        "clause": "1910.142(b)(8)",
+        "count": 7
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 7
+      },
+      {
+        "clause": "1910.1200(d)(1)",
+        "count": 5
+      },
+      {
+        "clause": "1910.134(f)(1)",
+        "count": 5
+      }
+    ],
+    "penalties": {
+      "n": 184,
+      "median": 3337,
+      "p25": 1700,
+      "p75": 6620,
+      "total": 798274
+    },
+    "typeShares": {
+      "serious": 0.666,
+      "willful": 0,
+      "repeat": 0.003,
+      "otherThanSerious": 0.325,
+      "unclassified": 0.006
+    },
+    "standardsCited5Plus": 16
+  },
+  "patternsSummary": "The two most-cited standards in NAICS 1119 both deal with protecting workers from hazardous substances: 1910.1200 hazard communication (53 citations) and 1910.134 respiratory protection (42). Worker welfare comes next, with 1928.110 field sanitation (24) and 1910.142 temporary labor camps (23). Machinery and power hazards follow under 1910.147 lockout/tagout (19), 1910.305 electrical wiring methods (17) and 1928.57 guarding of farm field equipment, farmstead equipment and cotton gins (9).",
+  "penaltiesSummary": "Of the 311 citations in FY2022–FY2026, 67% were classed serious and 33% other-than-serious, with willful and repeat both at 0%. Across 184 penalties, the median was $3,337 and the middle half ran from $1,700 to $6,620.",
+  "standardNotes": [
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, in Subpart Z (Toxic and Hazardous Substances); the most-cited standard in this code, with 53 citations."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, in Subpart I (Personal Protective Equipment) of Part 1910; 42 citations over FY2022–FY2026."
+    },
+    {
+      "section": "1928.110",
+      "note": "Field sanitation, in Subpart I (General Environmental Controls) of Part 1928; 24 citations."
+    },
+    {
+      "section": "1910.142",
+      "note": "Temporary labor camps, in Subpart J (General Environmental Controls) of Part 1910; cited 23 times."
+    },
+    {
+      "section": "1910.147",
+      "note": "The control of hazardous energy (lockout/tagout), also listed under Subpart J; 19 citations."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components and equipment for general use, in Subpart S (Electrical); 17 citations."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment, in Subpart I alongside respiratory protection; 11 citations."
+    },
+    {
+      "section": "1910.178",
+      "note": "Powered industrial trucks, in Subpart N (Materials Handling and Storage); 10 citations."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "other crop farming",
+    "crop farming (NAICS 1119)"
+  ],
+  "cover": "1119-other-crop-farming",
+  "coverPrompt": "Realistic photograph of a hay farm in late summer: a tractor pulling a baler across a freshly cut hayfield, rows of round bales behind it, a farm worker in a wide-brimmed hat, long sleeves and work gloves standing well clear of the moving machine at the field edge, seen from a distance with no visible face, clear sky, natural light. No text, labels, numbers or logos.",
+  "coverAlt": "Tractor baling hay in a field of round bales, with a farm worker standing well clear of the machine",
+  "changes": []
+}
