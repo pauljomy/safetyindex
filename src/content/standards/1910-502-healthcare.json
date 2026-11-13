@@ -1,0 +1,629 @@
+{
+  "section": "1910.502",
+  "part": "1910",
+  "heading": "Healthcare.",
+  "subpart": "U",
+  "subpartTitle": "COVID-19",
+  "title": "Healthcare checklist and OSHA requirements (29 CFR 1910.502)",
+  "seoTitle": "Healthcare checklist: OSHA 1910.502 requirements",
+  "description": "OSHA 29 CFR 1910.502 COVID-19 healthcare requirements in plain language, citation and penalty data, and a printable healthcare checklist.",
+  "opening": "29 CFR 1910.502 requires employers where employees provide healthcare or healthcare support services to implement a COVID-19 plan, screen patients and staff, supply facemasks and respirators, keep people apart, clean, ventilate, train, remove affected employees and report work-related COVID-19 deaths and hospitalizations.",
+  "keyword": "healthcare checklist",
+  "cluster": [
+    {
+      "keyword": "osha covid healthcare standard requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "covid healthcare standard checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "covid healthcare standard inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha healthcare requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "healthcare checklist",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "healthcare inspection",
+      "volume": 40,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.502",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 80,
+  "kd": 0,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 425,
+    "inspections": 236,
+    "byFy": {
+      "2022": 413,
+      "2023": 9,
+      "2024": 3,
+      "2025": 0,
+      "2026": 0
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(f)(2)(i)",
+        "count": 84
+      },
+      {
+        "paragraph": "(q)(2)(ii)(A)",
+        "count": 53
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 27
+      },
+      {
+        "paragraph": "(c)(4)",
+        "count": 18
+      },
+      {
+        "paragraph": "(q)(2)(ii)",
+        "count": 16
+      },
+      {
+        "paragraph": "(i)",
+        "count": 15
+      },
+      {
+        "paragraph": "(c)(3)",
+        "count": 14
+      },
+      {
+        "paragraph": "(h)(1)",
+        "count": 13
+      },
+      {
+        "paragraph": "(c)(2)",
+        "count": 12
+      },
+      {
+        "paragraph": "(r)(1)(ii)",
+        "count": 11
+      }
+    ],
+    "penalties": {
+      "n": 204,
+      "median": 7802,
+      "p25": 3500,
+      "p75": 12288,
+      "total": 1569715
+    },
+    "typeShares": {
+      "serious": 0.548,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 0.452,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 233,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 192,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "6221",
+        "count": 104,
+        "title": "General Medical and Surgical Hospitals"
+      },
+      {
+        "naics": "6231",
+        "count": 102,
+        "title": "Nursing Care Facilities (Skilled Nursing Facilities)"
+      },
+      {
+        "naics": "6233",
+        "count": 57,
+        "title": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly"
+      },
+      {
+        "naics": "6214",
+        "count": 35,
+        "title": "Outpatient Care Centers"
+      },
+      {
+        "naics": "6216",
+        "count": 33,
+        "title": "Home Health Care Services"
+      },
+      {
+        "naics": "6232",
+        "count": 21,
+        "title": "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities"
+      },
+      {
+        "naics": "6211",
+        "count": 13,
+        "title": "Offices of Physicians"
+      },
+      {
+        "naics": "6239",
+        "count": 10,
+        "title": "Other Residential Care Facilities"
+      },
+      {
+        "naics": "6219",
+        "count": 9,
+        "title": "Other Ambulatory Health Care Services"
+      },
+      {
+        "naics": "9221",
+        "count": 9,
+        "title": "Justice, Public Order, and Safety Activities"
+      }
+    ]
+  },
+  "enforcementSummary": "The most-cited paragraph is 1910.502(f)(2)(i), with 84 citations. It requires a respirator used under 1910.134 for each employee exposed to a person with suspected or confirmed COVID-19. Next come 1910.502(q)(2)(ii)(A), which sets the details each COVID-19 log entry must hold (53), and 1910.502(c)(1), the duty to develop and implement a COVID-19 plan (27). Almost all citations came in FY2022, with 413, then fell to 9 in FY2023, 3 in FY2024 and 0 in both FY2025 and FY2026.",
+  "requirementsIntro": "Under 1910.502(a)(1), the standard applies to all settings where any employee provides healthcare services or healthcare support services, with exclusions listed in 1910.502(a)(2). It runs from the COVID-19 plan through patient screening, PPE, distancing, cleaning, ventilation, employee removal, training and records. The groups below give the main rules; the full regulation text has more detail and more conditions.",
+  "requirements": [
+    {
+      "heading": "Which healthcare settings does 1910.502 cover?",
+      "intro": "1910.502 covers healthcare and support work by default, and 1910.502(a)(2) and (a)(3) set out the exceptions, including ambulatory and home healthcare settings that meet screening and vaccination conditions.",
+      "items": [
+        {
+          "text": "First aid given by an employee who is not a licensed healthcare provider is outside the standard.",
+          "clause": "1910.502(a)(2)(i)"
+        },
+        {
+          "text": "Pharmacists dispensing prescriptions in retail settings are excluded.",
+          "clause": "1910.502(a)(2)(ii)"
+        },
+        {
+          "text": "Healthcare support services carried out away from a healthcare setting, such as off-site laundry or off-site medical billing, are excluded.",
+          "clause": "1910.502(a)(2)(vi)"
+        },
+        {
+          "text": "Telehealth delivered outside a setting where direct patient care occurs is excluded.",
+          "clause": "1910.502(a)(2)(vii)"
+        },
+        {
+          "text": "Where a healthcare setting sits inside a non-healthcare site, such as a medical clinic in a manufacturing facility, only the embedded healthcare setting is covered.",
+          "clause": "1910.502(a)(3)(i)"
+        },
+        {
+          "text": "When emergency responders or other licensed healthcare providers enter a non-healthcare setting, the standard covers only their provision of healthcare services.",
+          "clause": "1910.502(a)(3)(ii)"
+        },
+        {
+          "text": "Paragraphs (f), (h) and (i) do not apply to fully vaccinated employees in well-defined areas where nobody with suspected or confirmed COVID-19 is reasonably expected to be present.",
+          "clause": "1910.502(a)(4)"
+        },
+        {
+          "text": "To use that well-defined area exemption, the COVID-19 plan must include policies and procedures for determining employees' vaccination status.",
+          "clause": "1910.502(c)(4)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What must a COVID-19 plan under 1910.502 contain?",
+      "intro": "Each workplace needs a COVID-19 plan that is based on a workplace-specific hazard assessment and run by at least one designated safety coordinator, and 1910.502(c)(7) sets out the policies the plan must include.",
+      "items": [
+        {
+          "text": "Develop and put in place a COVID-19 plan for each workplace; substantially similar workplaces may share a plan by workplace type if it includes all required site-specific information.",
+          "clause": "1910.502(c)(1)"
+        },
+        {
+          "text": "The plan must be written if the employer has more than 10 employees.",
+          "clause": "1910.502(c)(2)"
+        },
+        {
+          "text": "Designate one or more COVID-19 safety coordinators who know infection control as it applies to the workplace and have authority to ensure compliance with every part of the plan.",
+          "clause": "1910.502(c)(3)"
+        },
+        {
+          "text": "Record the coordinators' identity in any written plan.",
+          "clause": "1910.502(c)(3)"
+        },
+        {
+          "text": "Carry out a workplace-specific hazard assessment to identify COVID-19 hazards.",
+          "clause": "1910.502(c)(4)(i)"
+        },
+        {
+          "text": "Seek input from non-managerial employees and their representatives, if any, on the hazard assessment and on developing and implementing the plan.",
+          "clause": "1910.502(c)(5)"
+        },
+        {
+          "text": "Monitor each workplace to confirm the plan stays effective, and update it as needed.",
+          "clause": "1910.502(c)(6)"
+        },
+        {
+          "text": "Include procedures to protect employees who enter private residences or other places controlled by someone not covered by the OSH Act, including withdrawal when protections there are inadequate.",
+          "clause": "1910.502(c)(7)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What patient screening, precautions and cleaning rules apply?",
+      "intro": "1910.502(d) applies where direct patient care is provided and controls entry and screening, while 1910.502(e) and (j) set the infection precautions, cleaning and hand hygiene rules.",
+      "items": [
+        {
+          "text": "Limit and monitor points of entry; this does not apply when emergency responders or other licensed providers enter a non-healthcare setting to give care.",
+          "clause": "1910.502(d)(1)"
+        },
+        {
+          "text": "Screen and triage every client, patient, resident, delivery person, visitor and other non-employee entering the setting.",
+          "clause": "1910.502(d)(2)"
+        },
+        {
+          "text": "Apply other patient management strategies following CDC's “COVID-19 Infection Prevention and Control Recommendations”.",
+          "clause": "1910.502(d)(3)"
+        },
+        {
+          "text": "Develop and implement policies to follow Standard and Transmission-Based Precautions under CDC's “Guidelines for Isolation Precautions”.",
+          "clause": "1910.502(e)"
+        },
+        {
+          "text": "In patient care areas, resident rooms and for medical devices and equipment, follow standard cleaning and disinfection practices from the CDC documents named in 1910.502(j)(1).",
+          "clause": "1910.502(j)(1)"
+        },
+        {
+          "text": "In all other areas, clean high-touch surfaces and equipment at least once a day, following the manufacturers' instructions for applying cleaners.",
+          "clause": "1910.502(j)(2)(i)"
+        },
+        {
+          "text": "In those other areas, when the employer knows a COVID-19 positive person was in the workplace within the last 24 hours, clean and disinfect the areas, materials and equipment under its control that the person likely contaminated.",
+          "clause": "1910.502(j)(2)(ii)"
+        },
+        {
+          "text": "Provide alcohol-based hand rub of at least 60% alcohol or readily accessible hand washing facilities.",
+          "clause": "1910.502(j)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "When must employees wear facemasks and respirators?",
+      "intro": "1910.502(f) requires facemasks for employees indoors and in shared work vehicles, plus respirators and other PPE when employees are exposed to a person known or suspected to have COVID-19.",
+      "items": [
+        {
+          "text": "Provide facemasks that meet the 1910.502(b) definition and ensure employees wear them.",
+          "clause": "1910.502(f)(1)(i)"
+        },
+        {
+          "text": "Each employee must wear a facemask over the nose and mouth indoors and when sharing a vehicle with other people for work purposes.",
+          "clause": "1910.502(f)(1)(ii)"
+        },
+        {
+          "text": "Supply enough facemasks for each employee to change them at least once per day, whenever soiled or damaged, and more often when needed, for example for patient care.",
+          "clause": "1910.502(f)(1)(ii)"
+        },
+        {
+          "text": "No facemask is needed when an employee is alone in a room; 1910.502(f)(1)(iii) sets out the other exceptions, such as eating or drinking at least 6 feet from others or behind a physical barrier.",
+          "clause": "1910.502(f)(1)(iii)(A)"
+        },
+        {
+          "text": "Where face shields are required, clean them at least daily and keep them undamaged.",
+          "clause": "1910.502(f)(1)(iv)"
+        },
+        {
+          "text": "When employees are exposed to a confirmed or suspected COVID-19 case, give each a respirator and ensure it is provided and used as 1910.134 requires.",
+          "clause": "1910.502(f)(2)(i)"
+        },
+        {
+          "text": "For the same exposure, provide gloves, an isolation gown or protective clothing, and eye protection, used under subpart I of Part 1910.",
+          "clause": "1910.502(f)(2)(ii)"
+        },
+        {
+          "text": "Where the employer provides a facemask, employees must be allowed to wear their own respirator instead, and the employer must then comply with 1910.504.",
+          "clause": "1910.502(f)(4)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra rules apply to aerosol-generating procedures?",
+      "intro": "For aerosol-generating procedures on a person who has or may have COVID-19, 1910.502(f)(3) and (g) require respirators, limited staff, use of an existing AIIR if available, and cleaning afterwards.",
+      "items": [
+        {
+          "text": "Only the procedures listed in the 1910.502(b) definition count, among them open suctioning of airways, sputum induction, cardiopulmonary resuscitation, intubation and extubation, bronchoscopy and certain dental procedures.",
+          "clause": "1910.502(b)"
+        },
+        {
+          "text": "Give each employee a respirator, provided and used as 1910.134 requires.",
+          "clause": "1910.502(f)(3)(i)"
+        },
+        {
+          "text": "Provide gloves, a gown or other protective clothing, and eye protection, used under subpart I.",
+          "clause": "1910.502(f)(3)(ii)"
+        },
+        {
+          "text": "Limit those present to employees essential for patient care and procedure support.",
+          "clause": "1910.502(g)(1)"
+        },
+        {
+          "text": "Perform the procedure in an existing AIIR, if one is available.",
+          "clause": "1910.502(g)(2)"
+        },
+        {
+          "text": "Clean and disinfect surfaces and equipment in the room or area once the procedure is completed.",
+          "clause": "1910.502(g)(3)"
+        },
+        {
+          "text": "Maintain and operate any existing AIIR to its design and construction criteria.",
+          "clause": "1910.502(k)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What distancing, barrier and ventilation controls are required?",
+      "intro": "1910.502(h) requires indoor distancing of 6 feet where feasible, 1910.502(i) requires solid barriers at certain fixed work locations, and 1910.502(k)(1) sets HVAC duties for employers that own or control buildings with an existing system.",
+      "items": [
+        {
+          "text": "Keep each employee at least 6 feet from all other people indoors unless the employer can show this is not feasible for a specific activity, such as hands-on medical care; momentary exposure while passing in hallways or aisles is excluded.",
+          "clause": "1910.502(h)(1)"
+        },
+        {
+          "text": "Where 6 feet has been shown not to be feasible, keep the employee as far from others as feasible.",
+          "clause": "1910.502(h)(2)"
+        },
+        {
+          "text": "At fixed work locations outside direct patient care areas, such as check-in desks and hospital pharmacy windows, install cleanable or disposable solid barriers where people are not 6 feet apart, unless shown to be infeasible.",
+          "clause": "1910.502(i)"
+        },
+        {
+          "text": "Run the HVAC system according to the manufacturer's instructions and its design specifications.",
+          "clause": "1910.502(k)(1)(i)"
+        },
+        {
+          "text": "Maximize outside air and air changes per hour to the extent appropriate.",
+          "clause": "1910.502(k)(1)(ii)"
+        },
+        {
+          "text": "Use filters rated MERV 13 or higher if compatible with the system, and otherwise the highest compatible filtering efficiency.",
+          "clause": "1910.502(k)(1)(iii)"
+        },
+        {
+          "text": "Maintain and replace air filters as needed to keep the system functioning and performing properly.",
+          "clause": "1910.502(k)(1)(iv)"
+        },
+        {
+          "text": "Clean, maintain and clear debris from all intake ports that supply outside air to the system.",
+          "clause": "1910.502(k)(1)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "How must employees be screened and told about exposures?",
+      "intro": "1910.502(l)(1) to (l)(3) require screening of every employee before each work day and shift, prompt self-reporting of COVID-19 and listed symptoms, and exposure notices to employees and other employers within 24 hours.",
+      "items": [
+        {
+          "text": "Screen each employee before each work day and each shift, either by having employees self-monitor before reporting to work or in person.",
+          "clause": "1910.502(l)(1)(i)"
+        },
+        {
+          "text": "If the employer requires a COVID-19 test for screening, provide it at no cost to the employee.",
+          "clause": "1910.502(l)(1)(ii)"
+        },
+        {
+          "text": "Require employees to promptly report a positive test or diagnosis, a provider telling them COVID-19 is suspected, recent unexplained loss of taste or smell, or fever (≥100.4 °F) with a new unexplained cough and shortness of breath.",
+          "clause": "1910.502(l)(2)"
+        },
+        {
+          "text": "Close contact means being within 6 feet of a person for a cumulative total of 15 minutes or more over a 24-hour period during that person's potential transmission period.",
+          "clause": "1910.502(b)"
+        },
+        {
+          "text": "Within 24 hours after being notified that a COVID-19 positive person was in the workplace, notify each employee who was in close contact with them without a respirator and other required PPE, stating the date(s) of contact.",
+          "clause": "1910.502(l)(3)(i)(A)"
+        },
+        {
+          "text": "In the same timeframe, notify other employees not wearing a respirator and required PPE who worked in a well-defined part of the workplace, such as a floor, where the person was present during the potential transmission period, giving those dates.",
+          "clause": "1910.502(l)(3)(i)(B)"
+        },
+        {
+          "text": "Notices must not include any employee's name, contact information or occupation.",
+          "clause": "1910.502(l)(3)(ii)"
+        },
+        {
+          "text": "Notice is not triggered by a confirmed COVID-19 patient in a place that normally serves such patients, such as an emergency room, urgent care facility, testing site or COVID-19 ward.",
+          "clause": "1910.502(l)(3)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "When must an employee be removed from work, and what pay continues?",
+      "intro": "1910.502(l)(4) requires removal of employees who are COVID-19 positive, suspected or symptomatic, or exposed through close contact, and 1910.502(l)(5) requires pay and benefits to continue during removal, with weekly caps and an exemption for small employers.",
+      "items": [
+        {
+          "text": "Immediately remove an employee known to be COVID-19 positive and keep them out until they meet the return criteria in 1910.502(l)(6).",
+          "clause": "1910.502(l)(4)(i)"
+        },
+        {
+          "text": "Remove at once any employee whom a licensed provider suspects has COVID-19, or who has the symptoms in 1910.502(l)(2)(iii) or (iv), then either keep them out until return criteria are met or keep them out and provide a PCR test free of charge; 1910.502(l)(4)(ii)(B) sets what follows each result or a refusal.",
+          "clause": "1910.502(l)(4)(ii)"
+        },
+        {
+          "text": "An employee who must be told of close contact under 1910.502(l)(3)(i)(A) must also be removed immediately, then either kept out for 14 days or kept out and given a free test at least five days after exposure; a negative result allows return after seven days following exposure, and 1910.502(l)(4)(iii)(A)(2) covers positive results and refusals.",
+          "clause": "1910.502(l)(4)(iii)(A)"
+        },
+        {
+          "text": "Removal of a close contact is not required if the employee has none of the symptoms in 1910.502(l)(2)(iii) or (iv) and is fully vaccinated or had COVID-19 and recovered within the past 3 months.",
+          "clause": "1910.502(l)(4)(iii)(B)"
+        },
+        {
+          "text": "Employers with 10 or fewer employees on the effective date need not comply with the pay provisions in 1910.502(l)(5)(iii) and (iv).",
+          "clause": "1910.502(l)(5)(i)"
+        },
+        {
+          "text": "When an employee is removed, continue their normal benefits and pay their regular pay, up to $1,400 per week, until they qualify to return under 1910.502(l)(4)(iii) or (l)(6).",
+          "clause": "1910.502(l)(5)(iii)(A)"
+        },
+        {
+          "text": "Employers with fewer than 500 employees pay up to the $1,400 weekly cap, but from the third week of removal only two-thirds of regular pay, up to $200 per day ($1,000 per week in most cases).",
+          "clause": "1910.502(l)(5)(iii)(B)"
+        },
+        {
+          "text": "Base return-to-work decisions on guidance from a licensed healthcare provider or CDC's “Isolation Guidance”, and on CDC's “Return to Work Healthcare Guidance”.",
+          "clause": "1910.502(l)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What training, vaccination support and worker protections are required?",
+      "intro": "1910.502(m) to (p) require paid time for vaccination, training employees understand, protection from retaliation, and implementation of every requirement free of charge to employees apart from self-monitoring.",
+      "items": [
+        {
+          "text": "Give each employee reasonable time and paid leave to get vaccinated and to recover from any side effects.",
+          "clause": "1910.502(m)"
+        },
+        {
+          "text": "Train each employee in a language and at a literacy level they understand; 1910.502(n)(1) lists the topics, from how COVID-19 spreads to how to obtain copies of the standard and the written plan.",
+          "clause": "1910.502(n)(1)"
+        },
+        {
+          "text": "Give additional training whenever changes affect the employee's risk of catching COVID-19 at work, policies or procedures change, or there are signs the employee has not retained the needed understanding or skill.",
+          "clause": "1910.502(n)(2)"
+        },
+        {
+          "text": "Training must be overseen or conducted by a person knowledgeable in the subject as it relates to the employee's job duties.",
+          "clause": "1910.502(n)(3)"
+        },
+        {
+          "text": "Tell each employee they have a right to the protections of 1910.502 and that retaliation for exercising them is prohibited.",
+          "clause": "1910.502(o)(1)"
+        },
+        {
+          "text": "Do not discharge or discriminate against an employee for exercising these rights or for doing what the standard requires.",
+          "clause": "1910.502(o)(2)"
+        },
+        {
+          "text": "An employee returning after a COVID-19-related removal must suffer no adverse action and keeps all rights and benefits, including their former job status.",
+          "clause": "1910.502(l)(5)(v)"
+        },
+        {
+          "text": "Implement all requirements at no cost to employees, except employee self-monitoring under 1910.502(l)(1)(i).",
+          "clause": "1910.502(p)"
+        }
+      ]
+    },
+    {
+      "heading": "What records and OSHA reports does 1910.502 require?",
+      "intro": "Employers with more than 10 employees on the effective date must keep plan versions and a COVID-19 log under 1910.502(q), and 1910.502(r) requires work-related COVID-19 deaths and in-patient hospitalizations to be reported to OSHA.",
+      "items": [
+        {
+          "text": "Small employers (10 or fewer employees when the section took effect) are excluded from 1910.502(q)(2) and (q)(3).",
+          "clause": "1910.502(q)(1)"
+        },
+        {
+          "text": "Keep every version of the COVID-19 plan while the section remains in effect.",
+          "clause": "1910.502(q)(2)(i)"
+        },
+        {
+          "text": "Keep a COVID-19 log of every instance the employer identifies of an employee being COVID-19 positive, whether or not it is linked to work.",
+          "clause": "1910.502(q)(2)(ii)"
+        },
+        {
+          "text": "Each log entry records the employee's name, one form of contact information, occupation, work location, last day at the workplace, date of the positive test or diagnosis, and the date symptoms first appeared, if any.",
+          "clause": "1910.502(q)(2)(ii)(A)"
+        },
+        {
+          "text": "Record log information within 24 hours of learning the employee is COVID-19 positive.",
+          "clause": "1910.502(q)(2)(ii)(B)"
+        },
+        {
+          "text": "By the end of the next business day after a request, provide records for examination and copying; 1910.502(q)(3) sets which records go to employees, their representatives and the Assistant Secretary.",
+          "clause": "1910.502(q)(3)"
+        },
+        {
+          "text": "Report each work-related COVID-19 fatality to OSHA within 8 hours of learning of it.",
+          "clause": "1910.502(r)(1)(i)"
+        },
+        {
+          "text": "Report each work-related COVID-19 in-patient hospitalization to OSHA within 24 hours after learning about it.",
+          "clause": "1910.502(r)(1)(ii)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "The checklist below covers the COVID-19 plan, patient screening, PPE, distancing, cleaning, ventilation, employee removal, training and records under 1910.502, for use when walking through a covered setting or auditing its paperwork.",
+  "checklist": "us/1910-502-healthcare",
+  "faq": [
+    {
+      "question": "Is home healthcare covered by 1910.502?",
+      "answer": "Home healthcare is covered unless all employees are fully vaccinated, all non-employees are screened before entry, and no one with known or suspected COVID-19 is present; when all three conditions are met, 1910.502(a)(2)(v) excludes it. Under 1910.502(b), fully vaccinated means 2 weeks or more after the final dose of a COVID-19 vaccine."
+    },
+    {
+      "question": "Can an employer keep the vaccination-based exemption if an employee cannot be vaccinated?",
+      "answer": "The note following 1910.502(a)(2)(vii) says it can, where the employer reasonably accommodates that employee in a way that does not expose them to COVID-19 hazards, such as telework or working in isolation. That employer may then still fall within the exemptions in 1910.502(a)(2)(iv) and (v)."
+    },
+    {
+      "question": "When did 1910.502 take effect?",
+      "answer": "Under 1910.502(s), the section took effect on June 21, 2021. Employers had to comply with most requirements by July 6, 2021, and with the barrier, ventilation and training rules in paragraphs (i), (k) and (n) by July 21, 2021."
+    },
+    {
+      "question": "Do COVID-19 cases still go on OSHA injury and illness forms?",
+      "answer": "Yes. The note after 1910.502(q)(3)(iv) says employers must keep recording work-related confirmed COVID-19 cases on OSHA Forms 300, 300A and 301, or equivalent forms, if 29 CFR part 1904 requires them to keep those records."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.502: Healthcare (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.502"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "covid-19 healthcare standard",
+    "covid-19 log",
+    "healthcare covid-19 plan"
+  ],
+  "cover": "1910-502-healthcare",
+  "coverPrompt": "A nurse in a hospital corridor wearing a fitted disposable respirator, safety goggles, an isolation gown and gloves uses a wall-mounted hand sanitizer dispenser before entering a patient room, photographed from a few meters away so no face appears in close-up. No signage, text, numbers or logos anywhere in the scene.",
+  "coverAlt": "Nurse in respirator, goggles, gown and gloves using hand sanitizer outside a hospital patient room",
+  "changes": []
+}

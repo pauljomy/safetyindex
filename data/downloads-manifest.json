@@ -290,6 +290,16 @@
       "pdf": "/downloads/us/1910-37-maintenance-safeguards-operational-features-exit.pdf",
       "xlsx": "/downloads/us/1910-37-maintenance-safeguards-operational-features-exit.xlsx"
     },
+    "us/1910-502-healthcare": {
+      "hash": "cc79dd53563ae6cd8352532e820d71dd0dcdae552ce16b44df9286385ef090eb",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 4,
+      "items": 45,
+      "page_url": "https://safetyindex.blog/us/standards/1910-502-healthcare",
+      "pdf": "/downloads/us/1910-502-healthcare.pdf",
+      "xlsx": "/downloads/us/1910-502-healthcare.xlsx"
+    },
     "us/1910-67-vehicle-mounted-elevating-rotating-work": {
       "hash": "c944335cb9b167b483256dada4e442542a13504f1cd5a7da6749458a55fdac06",
       "lang": "en",

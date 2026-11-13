@@ -1,0 +1,292 @@
+{
+  "slug": "1910-502-healthcare",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-502-healthcare",
+  "doc_ref": "SI-US-1910-502",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "Healthcare Checklist (29 CFR 1910.502)",
+  "subtitle": "Use when inspecting a covered healthcare setting or reviewing its COVID-19 program.",
+  "regulation_line": "OSHA 29 CFR 1910.502",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For each Defect, record the location and the fix needed, tell the COVID-19 safety coordinator, and recheck once it is corrected.",
+    "Your COVID-19 plan, manufacturers' instructions and site rules may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "COVID-19 plan, coordinator and hazard assessment",
+      "items": [
+        [
+          "COVID-19 plan for this workplace",
+          "A current plan exists for this workplace, or a workplace-type plan that includes this site's specific information.",
+          "1910.502(c)(1)"
+        ],
+        [
+          "Written plan",
+          "The plan is in writing where the employer has over 10 employees.",
+          "1910.502(c)(2)"
+        ],
+        [
+          "Safety coordinator designated",
+          "At least one COVID-19 safety coordinator is designated, knows infection control for this workplace and has authority to enforce the plan.",
+          "1910.502(c)(3)"
+        ],
+        [
+          "Coordinator named in plan",
+          "The written plan states who the safety coordinator(s) are.",
+          "1910.502(c)(3)"
+        ],
+        [
+          "Hazard assessment",
+          "A workplace-specific assessment identifying COVID-19 hazards is on file.",
+          "1910.502(c)(4)(i)"
+        ],
+        [
+          "Vaccination status procedures",
+          "Where fully vaccinated employees are exempted from controls in a well-defined area, the plan includes procedures to determine vaccination status.",
+          "1910.502(c)(4)(ii)"
+        ],
+        [
+          "Employee involvement",
+          "Records show non-managerial employees and their representatives, if any, were asked for input on the assessment and the plan.",
+          "1910.502(c)(5)"
+        ],
+        [
+          "Plan monitoring",
+          "There is evidence the plan's effectiveness is monitored and the plan is updated when needed.",
+          "1910.502(c)(6)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Patient screening, PPE and aerosol-generating procedures",
+      "items": [
+        [
+          "Entry points",
+          "Entry points to the patient care setting are limited and monitored.",
+          "1910.502(d)(1)"
+        ],
+        [
+          "Non-employee screening",
+          "Every patient, resident, client, delivery person and other visitor is screened and triaged on entry.",
+          "1910.502(d)(2)"
+        ],
+        [
+          "Facemasks worn",
+          "Employees wear facemasks over nose and mouth indoors and in shared work vehicles, apart from the exceptions in 1910.502(f)(1)(iii).",
+          "1910.502(f)(1)(ii)"
+        ],
+        [
+          "Facemask supply",
+          "Enough facemasks are on hand for changes at least once per day and whenever soiled or damaged.",
+          "1910.502(f)(1)(ii)"
+        ],
+        [
+          "Face shields",
+          "Required face shields are cleaned daily and show no damage.",
+          "1910.502(f)(1)(iv)"
+        ],
+        [
+          "Respirators for exposure",
+          "Staff exposed to confirmed or suspected COVID-19 patients have respirators issued and worn as 1910.134 requires.",
+          "1910.502(f)(2)(i)"
+        ],
+        [
+          "Gloves, gowns and eye protection",
+          "The same staff wear gloves, eye protection and an isolation gown or other protective clothing.",
+          "1910.502(f)(2)(ii)"
+        ],
+        [
+          "Staff present during aerosol-generating procedures",
+          "Only employees essential to patient care and procedure support are in the room during aerosol-generating procedures on patients with known or suspected COVID-19.",
+          "1910.502(g)(1)"
+        ],
+        [
+          "Procedure room",
+          "Those procedures take place in an existing AIIR when one is available.",
+          "1910.502(g)(2)"
+        ],
+        [
+          "Clean-up after procedures",
+          "Surfaces and equipment in the room or area are cleaned and disinfected after each such procedure.",
+          "1910.502(g)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Distancing, barriers, cleaning and ventilation",
+      "items": [
+        [
+          "Indoor distancing",
+          "Employees are kept 6 feet or more from others indoors, except in activities shown to be infeasible, such as hands-on care, or momentary passing.",
+          "1910.502(h)(1)"
+        ],
+        [
+          "Barriers installed",
+          "Cleanable or disposable solid barriers are in place at fixed lobby, check-in, triage, pharmacy window and bill payment stations where people are closer than 6 feet, unless shown infeasible.",
+          "1910.502(i)"
+        ],
+        [
+          "Barrier size and position",
+          "Barriers block the face-to-face pathway between people where they normally stand or sit.",
+          "1910.502(i)"
+        ],
+        [
+          "High-touch surfaces",
+          "Outside patient care areas and resident rooms, high-touch surfaces and equipment are cleaned at least once a day, with cleaners applied as the manufacturer directs.",
+          "1910.502(j)(2)(i)"
+        ],
+        [
+          "Hand hygiene",
+          "Alcohol-based hand rub with at least 60% alcohol, or readily accessible hand washing facilities, is available.",
+          "1910.502(j)(3)"
+        ],
+        [
+          "HVAC filter rating",
+          "Filters are MERV 13 or higher, or the highest efficiency compatible with the HVAC system.",
+          "1910.502(k)(1)(iii)"
+        ],
+        [
+          "Filter maintenance",
+          "Filters are maintained and replaced when needed for proper HVAC performance.",
+          "1910.502(k)(1)(iv)"
+        ],
+        [
+          "Outside air intakes",
+          "Intake ports are clean, maintained and clear of debris.",
+          "1910.502(k)(1)(v)"
+        ],
+        [
+          "AIIR operation",
+          "Any existing AIIR is maintained and operated to its design and construction criteria.",
+          "1910.502(k)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Employee screening, notification and removal",
+      "items": [
+        [
+          "Daily screening",
+          "Each employee is screened before every work day and shift, by self-monitoring or in person.",
+          "1910.502(l)(1)(i)"
+        ],
+        [
+          "Screening tests",
+          "Any test the employer requires for screening is provided free to employees.",
+          "1910.502(l)(1)(ii)"
+        ],
+        [
+          "Reporting rule",
+          "Employees have been told to report promptly a positive test or diagnosis, a provider's suspicion of COVID-19, unexplained loss of taste or smell, or fever (≥100.4 °F) with new unexplained cough and shortness of breath.",
+          "1910.502(l)(2)"
+        ],
+        [
+          "Close-contact notices",
+          "Records show close contacts without a respirator and required PPE were told, with contact dates, no more than 24 hours after the employer was notified of a positive case.",
+          "1910.502(l)(3)(i)(A)"
+        ],
+        [
+          "Notice content",
+          "Exposure notices contain no employee names, contact details or occupations.",
+          "1910.502(l)(3)(ii)"
+        ],
+        [
+          "Removal of positive employees",
+          "Employees known to be COVID-19 positive are removed at once and kept away until cleared under 1910.502(l)(6).",
+          "1910.502(l)(4)(i)"
+        ],
+        [
+          "Pay during removal",
+          "Where the employer is not exempt under 1910.502(l)(5)(i), removed employees keep their benefits and regular pay up to $1,400 per week, subject to the reduction in 1910.502(l)(5)(iii)(B).",
+          "1910.502(l)(5)(iii)(A)"
+        ],
+        [
+          "Vaccination leave",
+          "Employees get reasonable time and paid leave for vaccination and any side effects.",
+          "1910.502(m)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Training, worker rights and records",
+      "items": [
+        [
+          "Training delivered",
+          "Each employee has been trained in a language and at a literacy level they understand, on the topics in 1910.502(n)(1).",
+          "1910.502(n)(1)"
+        ],
+        [
+          "Trainer",
+          "Training is run or overseen by someone knowledgeable in the subject as it relates to the job.",
+          "1910.502(n)(3)"
+        ],
+        [
+          "Interactive questions",
+          "Trainees can ask questions and get answers from a knowledgeable person during training.",
+          "1910.502(n)(4)"
+        ],
+        [
+          "Rights notice",
+          "Employees have been told of their right to the standard's protections and the ban on retaliation.",
+          "1910.502(o)(1)"
+        ],
+        [
+          "Plan versions kept",
+          "All past and current versions of the plan are retained.",
+          "1910.502(q)(2)(i)"
+        ],
+        [
+          "COVID-19 log entries",
+          "Each entry has the name, one contact method, occupation, work location, last day on site, test or diagnosis date, and first symptom date if any.",
+          "1910.502(q)(2)(ii)(A)"
+        ],
+        [
+          "Log timing",
+          "Entries are made no later than 24 hours after the employer learns of a positive case.",
+          "1910.502(q)(2)(ii)(B)"
+        ],
+        [
+          "Log confidentiality",
+          "The log is kept as a confidential medical record and disclosed only as the ETS or other federal law requires.",
+          "1910.502(q)(2)(ii)(B)"
+        ],
+        [
+          "Fatality reporting",
+          "A procedure exists for telling OSHA of each work-related COVID-19 fatality within 8 hours of learning of it.",
+          "1910.502(r)(1)(i)"
+        ],
+        [
+          "Hospitalization reporting",
+          "A procedure exists for telling OSHA of each work-related COVID-19 in-patient hospitalization inside 24 hours.",
+          "1910.502(r)(1)(ii)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.502: Healthcare (Part 1910 Subpart U, COVID-19)",
+    "Source: eCFR, Title 29, text dated 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
