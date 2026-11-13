@@ -1,0 +1,474 @@
+{
+  "section": "1926.453",
+  "part": "1926",
+  "heading": "Aerial lifts.",
+  "subpart": "L",
+  "subpartTitle": "Scaffolds",
+  "title": "OSHA aerial lift requirements (29 CFR 1926.453)",
+  "seoTitle": "OSHA Aerial Lift Requirements: 29 CFR 1926.453",
+  "description": "OSHA aerial lift requirements in 29 CFR 1926.453: the rules by paragraph, FY2022–FY2026 citation data and a printable inspection checklist.",
+  "opening": "29 CFR 1926.453 covers vehicle-mounted aerial lifts and, for extensible and articulating boom platforms, requires daily control tests, authorized operators only, a body belt and lanyard attached to the boom or basket, standing on the basket floor, and staying within manufacturer load limits.",
+  "keyword": "osha aerial lift requirements",
+  "cluster": [
+    {
+      "keyword": "osha aerial lift requirements",
+      "volume": 40,
+      "kd": 8,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "aerial lift checklist",
+      "volume": 10,
+      "kd": 48,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "aerial lift inspection",
+      "volume": 90,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha boom lift requirements",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "boom lift checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "boom lift inspection",
+      "volume": 30,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha aerial lifts requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "aerial lifts checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "aerial lifts inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.453",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 210,
+  "kd": 8,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 3822,
+    "inspections": 3456,
+    "byFy": {
+      "2022": 849,
+      "2023": 995,
+      "2024": 730,
+      "2025": 756,
+      "2026": 492
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(b)(2)(v)",
+        "count": 3239
+      },
+      {
+        "paragraph": "(b)(2)(iv)",
+        "count": 427
+      },
+      {
+        "paragraph": "(b)(2)(ii)",
+        "count": 50
+      },
+      {
+        "paragraph": "(a)(2)",
+        "count": 28
+      },
+      {
+        "paragraph": "(b)(2)(viii)",
+        "count": 22
+      },
+      {
+        "paragraph": "(b)(2)(vi)",
+        "count": 21
+      },
+      {
+        "paragraph": "(b)(2)(ix)",
+        "count": 9
+      },
+      {
+        "paragraph": "(b)(2)",
+        "count": 7
+      },
+      {
+        "paragraph": "(b)(2)(i)",
+        "count": 7
+      },
+      {
+        "paragraph": "(a)(1)",
+        "count": 5
+      }
+    ],
+    "penalties": {
+      "n": 3575,
+      "median": 3729,
+      "p25": 2679,
+      "p75": 4965,
+      "total": 16833335
+    },
+    "typeShares": {
+      "serious": 0.89,
+      "willful": 0.004,
+      "repeat": 0.032,
+      "otherThanSerious": 0.072,
+      "unclassified": 0.002
+    },
+    "typeCounts": {
+      "serious": 3403,
+      "willful": 15,
+      "repeat": 121,
+      "otherThanSerious": 277,
+      "unclassified": 6
+    },
+    "topIndustries": [
+      {
+        "naics": "2381",
+        "count": 2052,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2383",
+        "count": 520,
+        "title": "Building Finishing Contractors"
+      },
+      {
+        "naics": "2362",
+        "count": 369,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 170,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 144,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2389",
+        "count": 144,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "3399",
+        "count": 82,
+        "title": "Other Miscellaneous Manufacturing"
+      },
+      {
+        "naics": "5617",
+        "count": 43,
+        "title": "Services to Buildings and Dwellings"
+      },
+      {
+        "naics": "3323",
+        "count": 39,
+        "title": "Architectural and Structural Metals Manufacturing"
+      },
+      {
+        "naics": "2371",
+        "count": 28,
+        "title": "Utility System Construction"
+      }
+    ]
+  },
+  "enforcementSummary": "Of the 3,822 citations under 1926.453 in FY2022–FY2026, 3,239 were for 1926.453(b)(2)(v), which requires a body belt with a lanyard fastened to the boom or basket while working from the lift. Another 427 were for 1926.453(b)(2)(iv), which requires workers to stand firmly on the basket floor and not sit or climb on its edge or work from planks or ladders. Citations went from 849 in FY2022 to 995 in FY2023, then 730 in FY2024, 756 in FY2025 and 492 in FY2026.",
+  "requirementsIntro": "29 CFR 1926.453 applies to vehicle-mounted aerial devices used to elevate personnel to job-sites above ground (1926.453(a)(1)). Paragraph (a) sets general design and modification rules, and paragraph (b) adds specific rules for ladder and tower trucks, boom platforms, electrical tests, bursting safety factor and welding. The groups below give the main rules, and the full text on eCFR has more.",
+  "requirements": [
+    {
+      "heading": "Which equipment counts as an aerial lift under 1926.453?",
+      "intro": "Under 1926.453(a)(1), an aerial lift is a vehicle-mounted aerial device that elevates personnel to job-sites above ground, and the paragraph lists five types.",
+      "items": [
+        {
+          "text": "Extensible boom platforms are aerial lifts.",
+          "clause": "1926.453(a)(1)(i)"
+        },
+        {
+          "text": "Aerial ladders are aerial lifts.",
+          "clause": "1926.453(a)(1)(ii)"
+        },
+        {
+          "text": "Articulating boom platforms are aerial lifts.",
+          "clause": "1926.453(a)(1)(iii)"
+        },
+        {
+          "text": "Vertical towers are aerial lifts.",
+          "clause": "1926.453(a)(1)(iv)"
+        },
+        {
+          "text": "A combination of any of these devices is also an aerial lift.",
+          "clause": "1926.453(a)(1)(v)"
+        },
+        {
+          "text": "The equipment counts as an aerial lift whether it is made of metal, wood, fiberglass reinforced plastic (FRP) or other material, whether it is powered or manually operated, and whether or not it can rotate about a substantially vertical axis.",
+          "clause": "1926.453(a)(1)(v)"
+        }
+      ]
+    },
+    {
+      "heading": "What design standard must an aerial lift meet?",
+      "intro": "1926.453(a)(1) ties aerial lift design and construction to ANSI A92.2-1969, with dates that depend on when the lift was acquired.",
+      "items": [
+        {
+          "text": "Unless the section provides otherwise, lifts acquired for use on or after January 22, 1973 must be designed and constructed to the applicable requirements of ANSI A92.2-1969, including its appendix.",
+          "clause": "1926.453(a)(1)"
+        },
+        {
+          "text": "A lift acquired before January 22, 1973 that does not meet that standard may not be used after January 1, 1976 unless it has been modified to conform to its applicable design and construction requirements.",
+          "clause": "1926.453(a)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "When may an aerial lift be field modified?",
+      "intro": "1926.453(a)(2) allows a lift to be field modified for uses the manufacturer did not intend only when the modification is certified in writing.",
+      "items": [
+        {
+          "text": "The written certification must come from the manufacturer or an equivalent entity, such as a nationally recognized testing laboratory.",
+          "clause": "1926.453(a)(2)"
+        },
+        {
+          "text": "The certification must confirm the modified lift conforms with all applicable provisions of ANSI A92.2-1969 and of 1926.453.",
+          "clause": "1926.453(a)(2)"
+        },
+        {
+          "text": "The certification must also confirm the lift is at least as safe as it was before the modification.",
+          "clause": "1926.453(a)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "Who may operate a boom lift, and what controls must it have?",
+      "intro": "On extensible and articulating boom platforms, only authorized persons may operate the lift, the controls must be tested each day before use, and personnel carriers need both upper and lower controls.",
+      "items": [
+        {
+          "text": "Only authorized persons may operate an aerial lift.",
+          "clause": "1926.453(b)(2)(ii)"
+        },
+        {
+          "text": "Lift controls must be tested each day prior to use to determine that they are in safe working condition.",
+          "clause": "1926.453(b)(2)(i)"
+        },
+        {
+          "text": "Articulating and extensible boom platforms primarily designed as personnel carriers must have both platform (upper) and lower controls.",
+          "clause": "1926.453(b)(2)(ix)"
+        },
+        {
+          "text": "Upper controls must be in or beside the platform, within easy reach of the operator.",
+          "clause": "1926.453(b)(2)(ix)"
+        },
+        {
+          "text": "Lower controls must be able to override the upper controls.",
+          "clause": "1926.453(b)(2)(ix)"
+        },
+        {
+          "text": "Every control must be plainly marked as to its function.",
+          "clause": "1926.453(b)(2)(ix)"
+        },
+        {
+          "text": "Lower level controls may not be operated without permission from the employee in the lift, except in an emergency.",
+          "clause": "1926.453(b)(2)(ix)"
+        }
+      ]
+    },
+    {
+      "heading": "What must workers in a boom platform basket do?",
+      "intro": "Paragraph 1926.453(b)(2) requires workers in a boom platform basket to wear a body belt and lanyard, keep their footing on the basket floor and avoid tying off to anything outside the lift.",
+      "items": [
+        {
+          "text": "A body belt must be worn, with a lanyard fastened to either the boom or the basket, when working from an aerial lift.",
+          "clause": "1926.453(b)(2)(v)"
+        },
+        {
+          "text": "The note to this paragraph states that, as of January 1, 1998, 1926.502(d) does not accept body belts as part of a personal fall arrest system; a body belt in a tethering or restraint system is acceptable and is regulated under 1926.502(e).",
+          "clause": "1926.453(b)(2)(v)"
+        },
+        {
+          "text": "Belting off to an adjacent pole, structure or equipment while working from the lift is not permitted.",
+          "clause": "1926.453(b)(2)(iii)"
+        },
+        {
+          "text": "Employees must always stand firmly on the floor of the basket and must not sit or climb on its edge.",
+          "clause": "1926.453(b)(2)(iv)"
+        },
+        {
+          "text": "Planks, ladders or other devices may not be used as a work position in the basket.",
+          "clause": "1926.453(b)(2)(iv)"
+        },
+        {
+          "text": "Climbers may not be worn while performing work from an aerial lift.",
+          "clause": "1926.453(b)(2)(x)"
+        }
+      ]
+    },
+    {
+      "heading": "How must a boom lift be set up, loaded and maintained?",
+      "intro": "For boom platforms, 1926.453(b)(2) requires set brakes, outriggers on pads or a solid surface, chocks on inclines where they can be safely installed, loads within the manufacturer's limits and an unaltered insulated portion.",
+      "items": [
+        {
+          "text": "The brakes must be set.",
+          "clause": "1926.453(b)(2)(vii)"
+        },
+        {
+          "text": "When outriggers are used, they must be positioned on pads or a solid surface.",
+          "clause": "1926.453(b)(2)(vii)"
+        },
+        {
+          "text": "Wheel chocks must be installed before using an aerial lift on an incline, provided they can be safely installed.",
+          "clause": "1926.453(b)(2)(vii)"
+        },
+        {
+          "text": "Boom and basket load limits specified by the manufacturer must not be exceeded.",
+          "clause": "1926.453(b)(2)(vi)"
+        },
+        {
+          "text": "The insulated portion of an aerial lift must not be altered in any manner that might reduce its insulating value.",
+          "clause": "1926.453(b)(2)(xi)"
+        }
+      ]
+    },
+    {
+      "heading": "What rules apply when moving an aerial lift?",
+      "intro": "1926.453(b) bans moving a lift truck with the boom raised and workers aboard unless the equipment is designed for it, and sets travel checks for booms, outriggers and aerial ladders.",
+      "items": [
+        {
+          "text": "An aerial lift truck must not be moved while the boom is elevated in a working position with workers in the basket, except equipment specifically designed for this type of operation under 1926.453(a)(1) and (a)(2).",
+          "clause": "1926.453(b)(2)(viii)"
+        },
+        {
+          "text": "Before an aerial lift is moved for travel, the boom(s) must be inspected to confirm they are properly cradled.",
+          "clause": "1926.453(b)(2)(xii)"
+        },
+        {
+          "text": "Before travel, outriggers must be in the stowed position, except as provided in 1926.453(b)(2)(viii).",
+          "clause": "1926.453(b)(2)(xii)"
+        },
+        {
+          "text": "Before a ladder truck is moved for highway travel, the aerial ladder must be secured in the lower traveling position by the locking device on top of the truck cab.",
+          "clause": "1926.453(b)(1)"
+        },
+        {
+          "text": "The aerial ladder must also be secured by the manually operated device at the base of the ladder before highway travel.",
+          "clause": "1926.453(b)(1)"
+        }
+      ]
+    },
+    {
+      "heading": "Which electrical, hydraulic and welding standards apply?",
+      "intro": "Paragraphs 1926.453(b)(3) to (b)(5) set the standards for electrical tests, the bursting safety factor of hydraulic and pneumatic components, and welding.",
+      "items": [
+        {
+          "text": "All electrical tests must conform to section 5 of ANSI A92.2-1969.",
+          "clause": "1926.453(b)(3)"
+        },
+        {
+          "text": "Equivalent d.c. voltage tests may be used instead of the a.c. voltage tests, and d.c. tests approved by the equipment manufacturer or an equivalent entity count as equivalent.",
+          "clause": "1926.453(b)(3)"
+        },
+        {
+          "text": "Section 4.9 (Bursting Safety Factor) of ANSI A92.2-1969 applies to all critical hydraulic and pneumatic components, meaning those whose failure would result in a free fall or free rotation of the boom.",
+          "clause": "1926.453(b)(4)"
+        },
+        {
+          "text": "All noncritical hydraulic and pneumatic components must have a bursting safety factor of at least 2 to 1.",
+          "clause": "1926.453(b)(4)"
+        },
+        {
+          "text": "Welding must conform, as applicable, to AWS B3.0-41, AWS D8.4-61, AWS D10.9-69 and AWS D2.0-69.",
+          "clause": "1926.453(b)(5)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers boom lift setup, controls, basket work and travel under 29 CFR 1926.453; use it on site before each day's work and whenever the lift is repositioned or moved for travel.",
+  "checklist": "us/1926-453-aerial-lifts",
+  "faq": [
+    {
+      "question": "Are standards other than ANSI A92.2-1969 accepted for aerial lift design?",
+      "answer": "A note to 1926.453 says the non-mandatory Appendix C to Subpart L lists examples of national consensus standards considered to give employee protection equivalent to ANSI A92.2-1969, where appropriate."
+    },
+    {
+      "question": "Where can I see the ANSI A92.2-1969 text that 1926.453 refers to?",
+      "answer": "ANSI A92.2-1969 is incorporated by reference. Copies can be obtained from the American National Standards Institute, or inspected at the OSHA Docket Office in Washington, DC, or at the National Archives and Records Administration (NARA)."
+    },
+    {
+      "question": "Which part of OSHA's construction rules contains 1926.453?",
+      "answer": "Section 1926.453 sits in Subpart L of 29 CFR Part 1926, the subpart on scaffolds."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.453: Aerial lifts (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.453"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "aerial lifts",
+    "boom lifts",
+    "aerial lift inspection"
+  ],
+  "cover": "1926-453-aerial-lifts",
+  "coverPrompt": "A realistic photograph, taken from a distance, of a construction worker in a hard hat standing on the floor of an articulating boom lift basket while working on a building facade, with a lanyard clipped to the basket. The lift stands on firm, level ground at a construction site.",
+  "coverAlt": "Worker in an articulating boom lift basket, lanyard clipped to the basket, working on a building exterior",
+  "changes": []
+}

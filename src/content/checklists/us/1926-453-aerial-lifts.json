@@ -1,0 +1,161 @@
+{
+  "slug": "1926-453-aerial-lifts",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-453-aerial-lifts",
+  "doc_ref": "SI-US-1926-453",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Aerial Lift Checklist (29 CFR 1926.453)",
+  "subtitle": "Use before each day's work and whenever the lift is set up, used or moved for travel.",
+  "regulation_line": "OSHA 29 CFR 1926.453",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "If an item is marked Defect, stop the work or keep the lift out of service until it is corrected, and record what was done.",
+    "The manufacturer's instructions and site rules may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Setup, controls and loads",
+      "items": [
+        [
+          "Daily control test",
+          "Lift controls tested today before use and found in safe working condition",
+          "1926.453(b)(2)(i)"
+        ],
+        [
+          "Authorized operator",
+          "The person operating the lift is an authorized person",
+          "1926.453(b)(2)(ii)"
+        ],
+        [
+          "Upper and lower controls",
+          "Personnel-carrier boom platform has platform (upper) controls in or beside the platform within the operator's easy reach, plus lower controls",
+          "1926.453(b)(2)(ix)"
+        ],
+        [
+          "Lower control override",
+          "Lower controls can override the upper controls",
+          "1926.453(b)(2)(ix)"
+        ],
+        [
+          "Control markings",
+          "Every control is plainly marked with its function",
+          "1926.453(b)(2)(ix)"
+        ],
+        [
+          "Brakes",
+          "Brakes set before the lift is used",
+          "1926.453(b)(2)(vii)"
+        ],
+        [
+          "Outriggers",
+          "Where outriggers are used, each one rests on a pad or a solid surface",
+          "1926.453(b)(2)(vii)"
+        ],
+        [
+          "Wheel chocks on inclines",
+          "On an incline, wheel chocks are in place before use where they can be safely installed",
+          "1926.453(b)(2)(vii)"
+        ],
+        [
+          "Load limits",
+          "Workers, tools and materials in the basket and on the boom are within the manufacturer's stated load limits",
+          "1926.453(b)(2)(vi)"
+        ],
+        [
+          "Insulated portion and modifications",
+          "Insulated portion shows no alteration that might reduce its insulating value; any field modification has written certification from the manufacturer or an equivalent entity",
+          "1926.453(b)(2)(xi)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Workers in the basket",
+      "items": [
+        [
+          "Body belt and lanyard",
+          "Each worker wears a body belt with a lanyard connected to boom or basket; a body belt is used only for tethering or restraint, not as part of a personal fall arrest system",
+          "1926.453(b)(2)(v)"
+        ],
+        [
+          "No tying off outside the lift",
+          "No lanyard is attached to an adjacent pole, structure or piece of equipment",
+          "1926.453(b)(2)(iii)"
+        ],
+        [
+          "Footing in the basket",
+          "Workers keep both feet on the basket floor and nobody sits or climbs on the basket edge",
+          "1926.453(b)(2)(iv)"
+        ],
+        [
+          "No raised work positions",
+          "No planks, ladders or other devices used to stand on inside the basket",
+          "1926.453(b)(2)(iv)"
+        ],
+        [
+          "No climbers",
+          "Nobody working from the lift is wearing climbers",
+          "1926.453(b)(2)(x)"
+        ],
+        [
+          "Use of lower controls",
+          "Ground-level controls are operated only with permission from the employee in the lift, or in an emergency",
+          "1926.453(b)(2)(ix)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Moving and travel",
+      "items": [
+        [
+          "No travel with raised boom and occupied basket",
+          "Truck is not driven while the boom is elevated in a working position with workers aboard, unless the equipment is specifically designed for that operation",
+          "1926.453(b)(2)(viii)"
+        ],
+        [
+          "Boom cradled",
+          "Boom(s) inspected and properly cradled before the lift is moved for travel",
+          "1926.453(b)(2)(xii)"
+        ],
+        [
+          "Outriggers stowed",
+          "Outriggers are in the stowed position before travel",
+          "1926.453(b)(2)(xii)"
+        ],
+        [
+          "Aerial ladder cab lock",
+          "Aerial ladder secured in the lower traveling position by the locking device on top of the truck cab before highway travel",
+          "1926.453(b)(1)"
+        ],
+        [
+          "Aerial ladder base device",
+          "Manually operated device at the base of the aerial ladder engaged before highway travel",
+          "1926.453(b)(1)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.453: Aerial lifts (Part 1926 Subpart L, Scaffolds)",
+    "29 CFR 1926.502(d) and (e): body belt use, referenced in the note to 1926.453(b)(2)(v)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
