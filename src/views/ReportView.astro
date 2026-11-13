@@ -17,7 +17,7 @@ import { coverFor, socialCard } from "@lib/covers";
 import { breadcrumbList, webPage } from "@lib/schema";
 import { ui } from "../i18n/ui";
 
-interface Cell { text: string; href?: string; section?: string; naics?: string }
+interface Cell { text?: string; html?: string; href?: string; section?: string; naics?: string }
 interface Section { heading: string; opening: string; chart?: { title: string; data: { label: string; value: number }[]; unit?: "usd" | "n" }; table?: { columns: string[]; rows: (string | number | Cell)[][]; download?: string }; note?: string }
 const { entry } = Astro.props as { entry: Report };
 const d = entry.data;
@@ -35,6 +35,8 @@ for (const sec of sections) for (const row of sec.table?.rows ?? []) for (const 
   if (c.section) c.href = (await standardFor(c.section))?.path;
   else if (c.naics) { const i = industries.find((x) => x.data.naics === c.naics && !x.data.noindex); if (i) c.href = url.industry(i.id); }
 }
+// Plain-text cells get the same generated links as the prose (first mention of a live standard page links to it).
+for (const sec of sections) if (sec.table) sec.table.rows = await Promise.all(sec.table.rows.map((row) => Promise.all(row.map(async (c) => (typeof c === "string" ? { html: await withLinks(escapeHtml(c), path, used) } : c)))));
 const og = await socialCard(coverFor(d.cover));
 const crumbs = [{ label: s.home, href: "/" }, { label: "United States", href: url.market("us") }, { label: s.hubReports, href: url.reportsHub() }, { label: d.title, href: path }];
 const updated = latest(d.date, d.updated);
@@ -63,7 +65,7 @@ const cell = (c: string | number | Cell) => (typeof c === "object" ? c : { text:
           {sec.table && (
             <table>
               <thead><tr>{sec.table.columns.map((c) => <th>{c}</th>)}</tr></thead>
-              <tbody>{sec.table.rows.map((r) => <tr>{r.map((c) => { const x = cell(c); return <td>{x.href ? <a href={x.href}>{x.text}</a> : x.text}</td>; })}</tr>)}</tbody>
+              <tbody>{sec.table.rows.map((r) => <tr>{r.map((c) => { const x = cell(c); return <td>{x.html ? <Fragment set:html={x.html} /> : x.href ? <a href={x.href}>{x.text}</a> : x.text}</td>; })}</tr>)}</tbody>
             </table>
           )}
           {sec.note && <p class="text-sm">{sec.note}</p>}

@@ -188,6 +188,9 @@ export function runSiteChecks({ pages, dist, site }) {
       const opening = c.data.opening;
       for (const e of checkWriting({ body: prose, faq: c.data.faq ?? [], lang: "en", opening })) report(c.path, e);
       if (c.data.checkPass !== "passed") errors.push(`${c.path}: hasn't passed the independent checking pass`);
+      // Keyword rule for standard and industry pages (brief section 6): measurable cluster volume and a main keyword under the KD limit.
+      const kt = c.kind === "standard" ? config.standard_page_keywords : config.industry_page_keywords;
+      if (c.data.keywordSource !== "enforcement data" && !(c.data.clusterVolume >= kt.volume && c.data.kd != null && c.data.kd < kt.kd_under)) errors.push(`${c.path}: keyword "${c.data.keyword}" (cluster volume ${c.data.clusterVolume}, KD ${c.data.kd}) doesn't meet the rule (${kt.volume}+ / KD under ${kt.kd_under})`);
       const allowed = numbersIn(c.data.stats);
       for (const n of numbersIn({ cluster: c.data.cluster ?? [], penalties: config.osha_penalties })) allowed.add(n);
       if (c.data.section) for (const n of sectionNumbers(c.data.section)) allowed.add(n);
