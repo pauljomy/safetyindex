@@ -1,0 +1,196 @@
+{
+  "slug": "1910-106-flammable-liquids",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-106-flammable-liquids",
+  "doc_ref": "SI-US-1910-106",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Flammable Liquid Storage Checklist (29 CFR 1910.106)",
+  "subtitle": "For on-site checks of flammable liquid containers, storage tanks and piping.",
+  "regulation_line": "OSHA 29 CFR 1910.106",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A.",
+    "For any Defect, write down what you found, tell the person responsible for the area, and check the item again once it is fixed.",
+    "The manufacturer's instructions and site rules may add checks. This list covers paragraphs (a) to (d)(1) only, not the later rules in the full text."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Containers and ignition sources",
+      "items": [
+        [
+          "Storage vessels",
+          "Flammable liquids are held only in a tank or in a container that meets the (d)(2) container rules.",
+          "1910.106(a)(32)"
+        ],
+        [
+          "Safety cans",
+          "Cans used as safety cans are approved, hold 5 gallons or less, and have a working spring-closing lid and spout cover.",
+          "1910.106(a)(29)"
+        ],
+        [
+          "Ignition sources",
+          "Where vapors may be present, open flames, smoking, cutting and welding, hot surfaces and spark sources are removed or controlled.",
+          "1910.106(b)(6)"
+        ],
+        [
+          "Ventilation",
+          "Where ventilation is relied on, it keeps vapor-air mixtures from building up above one-fourth of the lower flammable limit.",
+          "1910.106(a)(31)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Outside aboveground tanks",
+      "items": [
+        [
+          "Shell spacing",
+          "No two flammable liquid tanks are closer than 3 feet shell to shell.",
+          "1910.106(b)(2)(ii)(a)"
+        ],
+        [
+          "LPG separation",
+          "LPG containers are 20 feet or more from flammable liquid tanks, unless an exception in the paragraph applies.",
+          "1910.106(b)(2)(ii)(f)"
+        ],
+        [
+          "Dike walls",
+          "Walls are earth, steel, concrete or solid masonry, intact and liquidtight, with no breaches or open drains.",
+          "1910.106(b)(2)(vii)(c)(3)"
+        ],
+        [
+          "Inside the dike",
+          "No loose combustible material and no drums or barrels, empty or full, inside the diked area.",
+          "1910.106(b)(2)(vii)(c)(6)"
+        ],
+        [
+          "Emergency relief",
+          "Each tank has a construction or device that relieves internal pressure from an exposure fire.",
+          "1910.106(b)(2)(v)(a)"
+        ],
+        [
+          "Vent device marking",
+          "Each commercial venting device is stamped with its opening pressure, full-open pressure and flow capacity.",
+          "1910.106(b)(2)(v)(h)"
+        ],
+        [
+          "Vent outlet location",
+          "For Category 1, 2 or lower-flashpoint Category 3 tanks next to buildings or public ways, outlets are 12 feet or higher above ground, 5 feet or more from building openings, and not under eaves.",
+          "1910.106(b)(2)(vi)(b)"
+        ],
+        [
+          "Gaging openings",
+          "Every gaging opening has a vaportight cap or cover in place.",
+          "1910.106(b)(2)(viii)(d)"
+        ],
+        [
+          "Fill and emptying connections",
+          "Connections are outside buildings, clear of ignition sources, 5 feet or more from building openings, closed and liquidtight when idle, and identified.",
+          "1910.106(b)(2)(viii)(f)"
+        ],
+        [
+          "Steel supports",
+          "Steel supports have fire-resistive protection rated at 2 hours or more, or water spray, unless they are saddles under 12 inches high.",
+          "1910.106(b)(5)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Underground and indoor tanks",
+      "items": [
+        [
+          "Underground vents (lower flashpoints)",
+          "Vent outlets are outside buildings, higher than the fill pipe opening, 12 feet or more above ground, and discharge upward only.",
+          "1910.106(b)(3)(iv)(a)"
+        ],
+        [
+          "Underground vents (higher flashpoints)",
+          "Vents for higher-flashpoint Category 3 or Category 4 tanks end outside the building, above the fill pipe opening and above normal snow level.",
+          "1910.106(b)(3)(iv)(c)"
+        ],
+        [
+          "Underground gaging openings",
+          "Openings separate from the fill pipe have a liquid-tight cap. If inside a building, they also have a spring loaded check valve or other approved device.",
+          "1910.106(b)(3)(v)(b)"
+        ],
+        [
+          "Indoor tank vents",
+          "Vents from indoor tanks discharge vapors outside the building.",
+          "1910.106(b)(4)(ii)"
+        ],
+        [
+          "Heat-actuated valves",
+          "Each withdrawal connection below the liquid level has an automatic-closing heat-actuated valve, unless it is an emergency disposal connection or the building is one-story and designed and protected for flammable liquid storage.",
+          "1910.106(b)(4)(iv)(c)"
+        ],
+        [
+          "Indoor fill inlet",
+          "The fill inlet is outdoors, clear of ignition sources, 5 feet or more from building openings, capped liquidtight and identified.",
+          "1910.106(b)(4)(iv)(g)"
+        ],
+        [
+          "Overflow prevention",
+          "Indoor tanks have a device or other means that stops overflow into the building.",
+          "1910.106(b)(4)(iv)(h)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Piping and valves",
+      "items": [
+        [
+          "Pipe joints",
+          "Joints are welded, screwed or approved connectors, with no drips or wet spots.",
+          "1910.106(c)(3)"
+        ],
+        [
+          "Friction joints indoors",
+          "No joints inside buildings that rely on the friction of combustible materials to hold together.",
+          "1910.106(c)(3)"
+        ],
+        [
+          "Supports and protection",
+          "Piping is firmly supported and protected from physical damage, settlement, vibration, expansion and contraction.",
+          "1910.106(c)(4)"
+        ],
+        [
+          "Corrosion protection",
+          "Piping exposed to external corrosion is painted or otherwise protected, with no bare rusting sections.",
+          "1910.106(c)(5)"
+        ],
+        [
+          "Backflow check valve",
+          "Where tank cars or vehicles pump into storage and backflow is possible, the connection has a check valve.",
+          "1910.106(c)(6)"
+        ],
+        [
+          "Pressure test",
+          "New or altered piping was tested before use: hydrostatic to 150 percent or pneumatic to 110 percent of maximum anticipated pressure, at least 5 psig at the high point, held 10 minutes or longer.",
+          "1910.106(c)(7)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.106: Flammable liquids (Part 1910 Subpart H, Hazardous Materials)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

@@ -30,6 +30,16 @@
       "pdf": "/downloads/us/1910-1025-lead.pdf",
       "xlsx": "/downloads/us/1910-1025-lead.xlsx"
     },
+    "us/1910-106-flammable-liquids": {
+      "hash": "efe38ef01670b0c33f59f74db173f9952c61a06572653158f75ab2852fda097d",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 27,
+      "page_url": "https://safetyindex.blog/us/standards/1910-106-flammable-liquids",
+      "pdf": "/downloads/us/1910-106-flammable-liquids.pdf",
+      "xlsx": "/downloads/us/1910-106-flammable-liquids.xlsx"
+    },
     "us/1910-132-personal-protective-equipment": {
       "hash": "1145e0780eab8cb9f128b25e1d61157a987a0103f8200123b896323d492c98ed",
       "lang": "en",
