@@ -1,0 +1,541 @@
+{
+  "section": "1926.251",
+  "part": "1926",
+  "heading": "Rigging equipment for material handling.",
+  "subpart": "H",
+  "subpartTitle": "Materials Handling, Storage, Use, and Disposal",
+  "title": "OSHA rigging requirements (29 CFR 1926.251)",
+  "seoTitle": "OSHA Rigging Requirements: 29 CFR 1926.251 Checklist",
+  "description": "OSHA rigging requirements under 29 CFR 1926.251: inspections, sling markings, removal criteria, citation data and a rigging inspection checklist.",
+  "opening": "29 CFR 1926.251 requires rigging equipment for material handling to be inspected before use on each shift and as needed during use, carry permanent, legible manufacturer markings showing its safe working load, stay within that load, and come out of service when defective.",
+  "keyword": "osha rigging requirements",
+  "cluster": [
+    {
+      "keyword": "osha rigging requirements",
+      "volume": 40,
+      "kd": 7,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rigging checklist",
+      "volume": 10,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rigging inspection",
+      "volume": 140,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha rigging equipment for material handling requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rigging equipment for material handling checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "rigging equipment for material handling inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1926.251",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 190,
+  "kd": 7,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 494,
+    "inspections": 328,
+    "byFy": {
+      "2022": 79,
+      "2023": 106,
+      "2024": 103,
+      "2025": 116,
+      "2026": 90
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(a)(1)",
+        "count": 100
+      },
+      {
+        "paragraph": "(a)(6)",
+        "count": 67
+      },
+      {
+        "paragraph": "(a)(2)(i)",
+        "count": 50
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 44
+      },
+      {
+        "paragraph": "(a)(2)(iii)",
+        "count": 29
+      },
+      {
+        "paragraph": "(b)(6)(ii)",
+        "count": 28
+      },
+      {
+        "paragraph": "(e)(8)(iii)",
+        "count": 23
+      },
+      {
+        "paragraph": "(e)(8)",
+        "count": 15
+      },
+      {
+        "paragraph": "(b)(6)(i)",
+        "count": 14
+      },
+      {
+        "paragraph": "(c)(16)",
+        "count": 13
+      }
+    ],
+    "penalties": {
+      "n": 309,
+      "median": 4900,
+      "p25": 2765,
+      "p75": 7685,
+      "total": 1794247
+    },
+    "typeShares": {
+      "serious": 0.646,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 0.354,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 319,
+      "willful": 0,
+      "repeat": 0,
+      "otherThanSerious": 175,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "2371",
+        "count": 106,
+        "title": "Utility System Construction"
+      },
+      {
+        "naics": "2381",
+        "count": 104,
+        "title": "Foundation, Structure, and Building Exterior Contractors"
+      },
+      {
+        "naics": "2389",
+        "count": 68,
+        "title": "Other Specialty Trade Contractors"
+      },
+      {
+        "naics": "2373",
+        "count": 55,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "2362",
+        "count": 31,
+        "title": "Nonresidential Building Construction"
+      },
+      {
+        "naics": "2382",
+        "count": 25,
+        "title": "Building Equipment Contractors"
+      },
+      {
+        "naics": "2361",
+        "count": 17,
+        "title": "Residential Building Construction"
+      },
+      {
+        "naics": "2379",
+        "count": 12,
+        "title": "Other Heavy and Civil Engineering Construction"
+      },
+      {
+        "naics": "2131",
+        "count": 11,
+        "title": "Support Activities for Mining"
+      },
+      {
+        "naics": "2213",
+        "count": 7,
+        "title": "Water, Sewage and Other Systems"
+      }
+    ]
+  },
+  "enforcementSummary": "Across FY2022–FY2026, the most-cited paragraph was 1926.251(a)(1), the pre-shift inspection of rigging and removal of defective gear (100 citations), followed by 1926.251(a)(6), the daily competent-person inspection of slings, fastenings and attachments (67), and 1926.251(a)(2)(i), legible, permanently attached markings that give the safe working load (50). Citations went from 79 in FY2022 to 106 in FY2023 and 103 in FY2024, reached 116 in FY2025 and dropped to 90 in FY2026.",
+  "requirementsIntro": "The scope paragraph, 1926.251(a)(5), applies the section to slings used with other material handling equipment to move material by hoisting in employments covered by Part 1926, made from alloy steel chain, wire rope, metal mesh, natural or synthetic fiber rope (conventional three strand construction) or synthetic web (nylon, polyester and polypropylene). Paragraph (a) holds the general rules, (b) to (e) cover chain, wire rope, fiber rope and web slings, and (f) covers shackles and hooks; the groups below give the main rules and the full text has more.",
+  "requirements": [
+    {
+      "heading": "When must rigging equipment and slings be inspected?",
+      "intro": "Rigging equipment must be inspected before use on each shift and as needed during use, and slings get a daily pre-use inspection by a competent person designated by the employer.",
+      "items": [
+        {
+          "text": "Inspect rigging equipment ahead of use on every shift, and again as necessary while it is in use, to make sure it is safe.",
+          "clause": "1926.251(a)(1)"
+        },
+        {
+          "text": "Take defective rigging equipment out of service.",
+          "clause": "1926.251(a)(1)"
+        },
+        {
+          "text": "Each day before use, have a competent person designated by the employer inspect the sling and all its fastenings and attachments for damage or defects.",
+          "clause": "1926.251(a)(6)"
+        },
+        {
+          "text": "Carry out additional inspections during sling use where service conditions warrant them.",
+          "clause": "1926.251(a)(6)"
+        },
+        {
+          "text": "Remove damaged or defective slings from service immediately.",
+          "clause": "1926.251(a)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What identification markings and load limits apply to rigging equipment?",
+      "intro": "Under 1926.251(a)(2), rigging equipment must carry manufacturer identification markings showing the load the maker recommends as safe, and it may not be loaded past that load or used without the markings.",
+      "items": [
+        {
+          "text": "Rigging equipment has identification markings, permanently affixed and legible, as prescribed by the manufacturer, that indicate the recommended safe working load.",
+          "clause": "1926.251(a)(2)(i)"
+        },
+        {
+          "text": "Do not load rigging equipment beyond the safe working load the manufacturer prescribes on those markings.",
+          "clause": "1926.251(a)(2)(ii)"
+        },
+        {
+          "text": "Do not use rigging equipment that lacks affixed, legible identification markings.",
+          "clause": "1926.251(a)(2)(iii)"
+        }
+      ]
+    },
+    {
+      "heading": "What applies to custom lifting accessories and idle rigging?",
+      "intro": "1926.251(a)(3) and (a)(4) cover rigging that is not in use and special custom-designed grabs, hooks, clamps and other lifting accessories for units such as modular panels and prefabricated structures.",
+      "items": [
+        {
+          "text": "When rigging equipment is not in use, remove it from the immediate work area so it does not present a hazard to employees.",
+          "clause": "1926.251(a)(3)"
+        },
+        {
+          "text": "Mark special custom design grabs, hooks, clamps or other lifting accessories to show their safe working loads.",
+          "clause": "1926.251(a)(4)"
+        },
+        {
+          "text": "Proof-test those custom lifting accessories to 125 percent of their rated load before use.",
+          "clause": "1926.251(a)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.251 require for alloy steel chain slings?",
+      "intro": "Alloy steel chain slings under 1926.251(b) need durable identification, attachments rated to match the chain, wear limits from Table H-1, and a thorough periodic inspection at least once every 12 months with a record of the latest one.",
+      "items": [
+        {
+          "text": "Welded alloy steel chain slings carry permanently affixed, durable identification stating size, grade, rated capacity and sling manufacturer.",
+          "clause": "1926.251(b)(1)"
+        },
+        {
+          "text": "Hooks, rings, oblong and pear-shaped links, welded or mechanical coupling links and other attachments used with alloy steel chains have a rated capacity at least equal to the chain's.",
+          "clause": "1926.251(b)(2)"
+        },
+        {
+          "text": "Do not use job or shop hooks and links, or makeshift fasteners formed from bolts, rods or similar attachments.",
+          "clause": "1926.251(b)(3)"
+        },
+        {
+          "text": "Do not load alloy steel chain slings past the rated capacities (working load limits) on their manufacturer markings.",
+          "clause": "1926.251(b)(4)"
+        },
+        {
+          "text": "Remove the chain assembly from service when wear at any point of any link exceeds Table H-1; for example, the table allows 7⁄64 inch of wear on 1⁄2-inch chain.",
+          "clause": "1926.251(b)(5)"
+        },
+        {
+          "text": "On top of the other inspections, make a thorough periodic inspection of alloy steel chain slings in use on a regular basis set by frequency of sling use, severity of service conditions, nature of lifts and experience with the service life of slings used in similar circumstances, never more than 12 months apart.",
+          "clause": "1926.251(b)(6)(i)"
+        },
+        {
+          "text": "Keep a record of the most recent month in which each alloy steel chain sling was thoroughly inspected, and make it available for examination.",
+          "clause": "1926.251(b)(6)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.251 require for wire rope slings?",
+      "intro": "Wire rope slings under 1926.251(c) must carry markings and stay within their rated capacity, and the paragraph limits how eyes and splices are made and when rope must be withdrawn for broken wires, wear or heat exposure.",
+      "items": [
+        {
+          "text": "Do not load improved plow-steel wire rope or wire rope slings above the rated capacities (working load limits) marked on the sling.",
+          "clause": "1926.251(c)(1)"
+        },
+        {
+          "text": "Wire rope slings carry permanently affixed, legible markings stating size, rated capacity for the hitch types used and the angle it is based on, and the number of legs if more than one.",
+          "clause": "1926.251(c)(16)"
+        },
+        {
+          "text": "Do not use wire rope if visible broken wires in any length of eight diameters exceed 10 percent of the total number of wires, or if it shows other signs of excessive wear, corrosion or defect.",
+          "clause": "1926.251(c)(4)(iv)"
+        },
+        {
+          "text": "Do not form eyes in wire rope bridles, slings or bull wires with wire rope clips or knots.",
+          "clause": "1926.251(c)(4)(iii)"
+        },
+        {
+          "text": "Make eye splices in wire rope with no fewer than three full tucks, unless another splice or connection is shown to be as efficient and is not otherwise prohibited.",
+          "clause": "1926.251(c)(4)(i)"
+        },
+        {
+          "text": "Permanently remove fiber core wire rope slings of all grades from service if they are exposed to temperatures above 200 °F (93.33 °C).",
+          "clause": "1926.251(c)(14)"
+        },
+        {
+          "text": "Use welded end attachments only after the manufacturer or an equivalent entity has proof tested them at twice their rated capacity before initial use.",
+          "clause": "1926.251(c)(15)(ii)"
+        },
+        {
+          "text": "Retain the proof-test certificate for welded end attachments and make it available for examination.",
+          "clause": "1926.251(c)(15)(ii)"
+        }
+      ]
+    },
+    {
+      "heading": "What handling rules does 1926.251(c) set for slings during lifts?",
+      "intro": "Paragraphs 1926.251(c)(6) through (c)(12), within the wire rope rules, prohibit makeshift shortening, kinks, unbalanced basket hitches, unprotected sharp edges, hands between sling and load, shock loading and pulling slings from under resting loads.",
+      "items": [
+        {
+          "text": "Do not shorten slings with knots, bolts or other makeshift devices.",
+          "clause": "1926.251(c)(6)"
+        },
+        {
+          "text": "Do not kink sling legs.",
+          "clause": "1926.251(c)(7)"
+        },
+        {
+          "text": "Balance loads in a basket hitch so the sling does not slip.",
+          "clause": "1926.251(c)(8)"
+        },
+        {
+          "text": "Pad or protect slings against the sharp edges of their loads.",
+          "clause": "1926.251(c)(9)"
+        },
+        {
+          "text": "Keep hands and fingers out from between the sling and the load while the sling is being tightened around it.",
+          "clause": "1926.251(c)(10)"
+        },
+        {
+          "text": "Do not apply shock loading.",
+          "clause": "1926.251(c)(11)"
+        },
+        {
+          "text": "Do not pull a sling from under a load that is resting on it.",
+          "clause": "1926.251(c)(12)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.251 require for natural and synthetic fiber rope slings?",
+      "intro": "Natural and synthetic fiber rope slings under 1926.251(d) must be marked and loaded no higher than their marked capacity, spliced to minimum tuck counts, used within set temperatures and withdrawn on any of six listed conditions; 1926.251(d)(4) also sets rules for splice tails, minimum clear length, clamps and eye angle.",
+      "items": [
+        {
+          "text": "Do not load natural or synthetic fiber rope slings beyond the rated capacities shown on their markings.",
+          "clause": "1926.251(d)(1)"
+        },
+        {
+          "text": "Fiber rope slings carry permanently affixed, legible markings stating rated capacity for the hitch types used and the angle it is based on, the type of fiber material, and the number of legs if more than one.",
+          "clause": "1926.251(d)(7)"
+        },
+        {
+          "text": "In manila rope, eye splices need at least three full tucks and short splices at least six full tucks, three on each side of the splice center line.",
+          "clause": "1926.251(d)(4)(i)"
+        },
+        {
+          "text": "In synthetic fiber rope, eye splices need at least four full tucks and short splices at least eight, four on each side of the center line.",
+          "clause": "1926.251(d)(4)(ii)"
+        },
+        {
+          "text": "Do not use knots in place of splices.",
+          "clause": "1926.251(d)(4)(v)"
+        },
+        {
+          "text": "Fiber rope slings, other than wet frozen slings, may be used from minus 20 °F (−28.88 °C) to plus 180 °F (82.2 °C) without reducing the working load limit; outside that range, and for wet frozen slings, follow the sling manufacturer's recommendations.",
+          "clause": "1926.251(d)(3)"
+        },
+        {
+          "text": "Do not use a fiber rope sling if end attachments in contact with the rope have sharp edges or projections.",
+          "clause": "1926.251(d)(5)"
+        },
+        {
+          "text": "Remove a fiber rope sling from service immediately if it shows abnormal wear, powdered fiber between strands, broken or cut fibers, variations in strand size or roundness, discoloration or rotting, or distortion of hardware in the sling.",
+          "clause": "1926.251(d)(6)"
+        }
+      ]
+    },
+    {
+      "heading": "What does 1926.251 require for synthetic web slings?",
+      "intro": "Synthetic web slings of nylon, polyester and polypropylene under 1926.251(e) must be marked or coded, kept within their rated capacity, made with stitched eyes and fittings, and withdrawn on any of the damage conditions listed in 1926.251(e)(8).",
+      "items": [
+        {
+          "text": "Mark or code each synthetic web sling with the manufacturer's name or trademark, the rated capacities for the type of hitch, and the type of material.",
+          "clause": "1926.251(e)"
+        },
+        {
+          "text": "Do not exceed the web sling's rated capacity.",
+          "clause": "1926.251(e)(2)"
+        },
+        {
+          "text": "Webbing is of uniform thickness and width, with no selvage edges split from the webbing's width.",
+          "clause": "1926.251(e)(3)"
+        },
+        {
+          "text": "Fittings have a minimum breaking strength equal to that of the sling.",
+          "clause": "1926.251(e)(4)(i)"
+        },
+        {
+          "text": "Fittings are free of all sharp edges that could damage the webbing.",
+          "clause": "1926.251(e)(4)(ii)"
+        },
+        {
+          "text": "Attach end fittings and form eyes by stitching only, with thread in an even pattern and enough stitches to develop the sling's full breaking strength.",
+          "clause": "1926.251(e)(5)"
+        },
+        {
+          "text": "Take a web sling out of service immediately for acid or caustic burns, melting or charring of any part of its surface, snags, punctures, tears or cuts, broken or worn stitches, or distortion of fittings.",
+          "clause": "1926.251(e)(8)"
+        }
+      ]
+    },
+    {
+      "heading": "Where must synthetic web slings not be used?",
+      "intro": "1926.251(e)(6) keeps synthetic web slings out of certain chemical environments according to the sling material or its fittings, and 1926.251(e)(7) sets maximum temperatures by material.",
+      "items": [
+        {
+          "text": "Do not use nylon web slings where fumes, vapors, sprays, mists or liquids of acids or phenolics are present.",
+          "clause": "1926.251(e)(6)(i)"
+        },
+        {
+          "text": "Keep polyester and polypropylene web slings away from caustics in any of those forms.",
+          "clause": "1926.251(e)(6)(ii)"
+        },
+        {
+          "text": "Do not use web slings with aluminum fittings where caustics are present as fumes, vapors, sprays, mists or liquids.",
+          "clause": "1926.251(e)(6)(iii)"
+        },
+        {
+          "text": "Do not use polyester or nylon web slings above 180 °F (82.2 °C).",
+          "clause": "1926.251(e)(7)"
+        },
+        {
+          "text": "Do not use polypropylene web slings above 200 °F (93.33 °C).",
+          "clause": "1926.251(e)(7)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the rules for shackles and hooks?",
+      "intro": "Under 1926.251(f), shackles must stay within their marked rated capacities, and hook safe working loads come from the manufacturer or, where no recommendations exist, from a test at double the intended load.",
+      "items": [
+        {
+          "text": "Keep shackle loads within the rated capacities marked on the shackle by the manufacturer.",
+          "clause": "1926.251(f)(1)"
+        },
+        {
+          "text": "Determine the safe working loads of specific, identifiable hooks from the manufacturer's recommendations for each size and type.",
+          "clause": "1926.251(f)(2)"
+        },
+        {
+          "text": "Test any hook with no applicable manufacturer's recommendations to twice the intended safe working load before it is first put into use.",
+          "clause": "1926.251(f)(2)"
+        },
+        {
+          "text": "Keep a record of the dates and results of those hook tests.",
+          "clause": "1926.251(f)(2)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers the main site checks in 29 CFR 1926.251 for general rigging, chain, wire rope, fiber rope and web slings, shackles and hooks; use it at the pre-shift rigging inspection and the competent person's daily sling inspection, and check the full section text for the load limits, temperature ranges and lift handling rules it does not list.",
+  "checklist": "us/1926-251-rigging-equipment-material-handling",
+  "faq": [
+    {
+      "question": "Does 1926.251 cover metal mesh slings?",
+      "answer": "Yes. The scope paragraph, 1926.251(a)(5), names metal mesh among the sling types it covers, so the general rules in paragraph (a), including the daily check in (a)(6), apply to them. The section text on eCFR has no separate paragraph for metal mesh slings."
+    },
+    {
+      "question": "What temperature limits apply to nonfiber core wire rope slings?",
+      "answer": "1926.251(c)(14) sets no fixed cutoff for them: when nonfiber core wire rope slings of any grade are used above 400 °F or below minus 60 °F, the employer must follow the sling manufacturer's recommendations for use at that temperature."
+    },
+    {
+      "question": "What minimum lengths does 1926.251 set for wire rope slings?",
+      "answer": "Under 1926.251(c)(13), cable laid, 6 × 19 and 6 × 37 slings need a clear length of wire rope of at least 10 times the component rope diameter between splices, sleeves or end fittings. Braided slings need 40 times between loops or end fittings, and cable laid grommets, strand laid grommets and endless slings need a circumferential length of at least 96 times their body diameter."
+    },
+    {
+      "question": "How many U-bolt clips are needed to form a wire rope eye?",
+      "answer": "1926.251(c)(5) points to Table H-2, which sets the number and minimum spacing of clips by improved plow steel rope diameter; for 1-inch rope it lists 5 drop-forged clips or 6 of other material, spaced at least 6 inches apart. The U-bolt goes on so the U section touches the dead end of the rope (1926.251(c)(5)(i)). Eyes in bridles, slings and bull wires still may not be clip-formed under 1926.251(c)(4)(iii)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.251: Rigging equipment for material handling (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1926.251"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "rigging equipment",
+    "sling inspection",
+    "rigging slings"
+  ],
+  "cover": "1926-251-rigging-equipment-material-handling",
+  "coverPrompt": "A crane lifting a bundle of steel beams on a construction site with a two-leg alloy chain sling, while a rigger in a hard hat and high-visibility vest guides the load with a tag line from a safe distance, seen from mid-range.",
+  "coverAlt": "Rigger guiding a crane-lifted bundle of steel beams with a tag line on a construction site",
+  "changes": []
+}

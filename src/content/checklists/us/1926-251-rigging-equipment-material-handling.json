@@ -1,0 +1,267 @@
+{
+  "slug": "1926-251-rigging-equipment-material-handling",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1926-251-rigging-equipment-material-handling",
+  "doc_ref": "SI-US-1926-251",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Rigging Inspection Checklist (29 CFR 1926.251)",
+  "subtitle": "For use before lifts on each shift and at the daily pre-use sling inspection.",
+  "regulation_line": "OSHA 29 CFR 1926.251",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A; use N/A only for gear or sling types not in use on the job.",
+    "Remove any sling or rigging item marked Defect from service at once and note what was found on this sheet.",
+    "The manufacturer's instructions, site rules and the full text of 29 CFR 1926.251 may add checks to this list."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "General rigging, markings and inspections",
+      "items": [
+        [
+          "Pre-shift rigging inspection",
+          "All rigging equipment for this shift was inspected before use; no defective gear is in use.",
+          "1926.251(a)(1)"
+        ],
+        [
+          "Daily sling inspection",
+          "A competent person named by the employer checked each sling, fastening and attachment for damage or defects today before first use.",
+          "1926.251(a)(6)"
+        ],
+        [
+          "Damaged slings out of service",
+          "No damaged or defective sling is in use or available for use.",
+          "1926.251(a)(6)"
+        ],
+        [
+          "Safe working load marking",
+          "Each piece carries a permanent, readable manufacturer marking stating its safe working load.",
+          "1926.251(a)(2)(i)"
+        ],
+        [
+          "Unmarked rigging",
+          "No rigging without an affixed, readable identification marking is being used.",
+          "1926.251(a)(2)(iii)"
+        ],
+        [
+          "Load against marking",
+          "The planned load is at or below the marked safe working load.",
+          "1926.251(a)(2)(ii)"
+        ],
+        [
+          "Idle rigging",
+          "Rigging not in use is cleared from the immediate work area and is not a hazard to employees.",
+          "1926.251(a)(3)"
+        ],
+        [
+          "Custom lifting accessory marking",
+          "Custom grabs, hooks, clamps or similar accessories show their safe working loads.",
+          "1926.251(a)(4)"
+        ],
+        [
+          "Custom accessory proof test",
+          "Each custom accessory was proof-tested to 125 percent of its rated load before first use.",
+          "1926.251(a)(4)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Alloy steel chain slings",
+      "items": [
+        [
+          "Chain sling identification",
+          "Durable, permanently attached tag shows size, grade, rated capacity and sling manufacturer.",
+          "1926.251(b)(1)"
+        ],
+        [
+          "Chain attachments",
+          "Hooks, rings, links and couplings are rated at least as high as the chain.",
+          "1926.251(b)(2)"
+        ],
+        [
+          "Makeshift fittings",
+          "No job- or shop-made hooks or links and no makeshift fasteners formed from bolts or rods.",
+          "1926.251(b)(3)"
+        ],
+        [
+          "Chain load",
+          "Load does not exceed the working load limit on the sling's identification.",
+          "1926.251(b)(4)"
+        ],
+        [
+          "Link wear",
+          "Wear at every point of every link is within Table H-1, e.g. no more than 5⁄64 inch on 3⁄8-inch chain.",
+          "1926.251(b)(5)"
+        ],
+        [
+          "Periodic thorough inspection",
+          "Last thorough inspection is within the interval the employer set for this sling and no more than 12 months ago.",
+          "1926.251(b)(6)(i)"
+        ],
+        [
+          "Chain inspection record",
+          "A record shows the most recent month this sling was thoroughly inspected and can be produced for examination.",
+          "1926.251(b)(6)(ii)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Wire rope slings",
+      "items": [
+        [
+          "Wire rope sling tag",
+          "Tag gives size, rated capacity per hitch type with its angle, and leg count on multi-leg slings.",
+          "1926.251(c)(16)"
+        ],
+        [
+          "Broken wires and wear",
+          "In any length of eight rope diameters, visible broken wires are no more than 10 percent of all wires; no excessive wear, corrosion or other defect.",
+          "1926.251(c)(4)(iv)"
+        ],
+        [
+          "Splice strand ends",
+          "Protruding strand ends in splices are covered or blunted.",
+          "1926.251(c)(2)"
+        ],
+        [
+          "Eyes",
+          "Eyes in slings, bridles and bull wires are not made with wire rope clips or knots.",
+          "1926.251(c)(4)(iii)"
+        ],
+        [
+          "Knots",
+          "Wire rope is not secured by knots; the only exception is haul back lines on scrapers.",
+          "1926.251(c)(3)"
+        ],
+        [
+          "Kinks",
+          "Sling legs are straight with no kinks.",
+          "1926.251(c)(7)"
+        ],
+        [
+          "Shortening",
+          "Slings are not shortened with knots, bolts or other makeshift devices.",
+          "1926.251(c)(6)"
+        ],
+        [
+          "Heat exposure",
+          "No fiber core wire rope sling has been exposed to temperatures over 200 °F.",
+          "1926.251(c)(14)"
+        ],
+        [
+          "Welded end attachment certificate",
+          "A proof-test certificate for welded end attachments is on file and available.",
+          "1926.251(c)(15)(ii)"
+        ],
+        [
+          "Sharp load edges",
+          "Slings are padded or protected where they bear on sharp load edges.",
+          "1926.251(c)(9)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Fiber rope and synthetic web slings",
+      "items": [
+        [
+          "Fiber rope sling marking",
+          "Marking states rated capacity per hitch and angle, fiber material, and number of legs on multi-leg slings.",
+          "1926.251(d)(7)"
+        ],
+        [
+          "Fiber rope condition",
+          "No abnormal wear, powdered fiber between strands, broken or cut fibers, uneven strand size or roundness, discoloration, rot or distorted hardware.",
+          "1926.251(d)(6)"
+        ],
+        [
+          "Fiber rope end attachments",
+          "End attachments touching the rope have no sharp edges or projections.",
+          "1926.251(d)(5)"
+        ],
+        [
+          "Web sling marking",
+          "Marking or code shows manufacturer name or trademark, rated capacities for the hitch type, and material type.",
+          "1926.251(e)"
+        ],
+        [
+          "Webbing",
+          "Uniform thickness and width; selvage edges not split.",
+          "1926.251(e)(3)"
+        ],
+        [
+          "Web sling fittings",
+          "Fittings have no sharp edges that could damage the webbing.",
+          "1926.251(e)(4)(ii)"
+        ],
+        [
+          "Web sling damage",
+          "No acid or caustic burns, melted or charred areas, snags, punctures, tears, cuts, broken or worn stitches or distorted fittings.",
+          "1926.251(e)(8)"
+        ],
+        [
+          "Nylon chemical exposure",
+          "No nylon web sling is in use around acids or phenolics in any form (fume, vapor, spray, mist or liquid).",
+          "1926.251(e)(6)(i)"
+        ],
+        [
+          "Polyester and polypropylene chemical exposure",
+          "Polyester and polypropylene web slings are kept away from caustics in any form.",
+          "1926.251(e)(6)(ii)"
+        ],
+        [
+          "Aluminum fittings and caustics",
+          "No web sling with aluminum fittings is used where caustics are present.",
+          "1926.251(e)(6)(iii)"
+        ]
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Shackles and hooks",
+      "items": [
+        [
+          "Shackle load",
+          "Load is within the rated capacity marked on the shackle.",
+          "1926.251(f)(1)"
+        ],
+        [
+          "Hook safe working load",
+          "Hook safe working load is taken from the manufacturer's recommendations for that size and type.",
+          "1926.251(f)(2)"
+        ],
+        [
+          "Hooks without manufacturer data",
+          "Tested to twice the intended safe working load before first use.",
+          "1926.251(f)(2)"
+        ],
+        [
+          "Hook test record",
+          "Dates and results of each hook test are recorded and kept.",
+          "1926.251(f)(2)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1926.251: Rigging equipment for material handling (Part 1926 Subpart H)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}
