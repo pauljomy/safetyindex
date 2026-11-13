@@ -1,0 +1,247 @@
+{
+  "naics": "5413",
+  "naicsTitle": "Architectural, Engineering, and Related Services",
+  "title": "Most-cited OSHA standards: architectural, engineering and related services (NAICS 5413)",
+  "seoTitle": "Engineering safety: OSHA citations in NAICS 5413",
+  "description": "OSHA citations in architectural, engineering and related services (NAICS 5413), FY2022–FY2026: respiratory protection and hazard communication lead.",
+  "opening": "In architectural, engineering, and related services (NAICS 5413), OSHA cited 1910.134, respiratory protection, most often in FY2022–FY2026, with 93 citations, ahead of 1910.1200 hazard communication (88) and 1910.1450 on hazardous chemicals in laboratories (61).",
+  "keyword": "engineering safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 140,
+  "kd": 6,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 1343,
+    "citations": 915,
+    "topStandards": [
+      {
+        "section": "1910.134",
+        "count": 93
+      },
+      {
+        "section": "1910.1200",
+        "count": 88
+      },
+      {
+        "section": "1910.1450",
+        "count": 61
+      },
+      {
+        "section": "1910.132",
+        "count": 45
+      },
+      {
+        "section": "1910.147",
+        "count": 36
+      },
+      {
+        "section": "1926.1153",
+        "count": 35
+      },
+      {
+        "section": "1910.305",
+        "count": 28
+      },
+      {
+        "section": "1910.22",
+        "count": 26
+      },
+      {
+        "section": "1910.157",
+        "count": 25
+      },
+      {
+        "section": "1910.303",
+        "count": 24
+      },
+      {
+        "section": "1910.1052",
+        "count": 22
+      },
+      {
+        "section": "1910.178",
+        "count": 22
+      },
+      {
+        "section": "1910.212",
+        "count": 21
+      },
+      {
+        "section": "1910.151",
+        "count": 17
+      },
+      {
+        "section": "1926.501",
+        "count": 17
+      },
+      {
+        "section": "1910.28",
+        "count": 16
+      },
+      {
+        "section": "1910.37",
+        "count": 15
+      },
+      {
+        "section": "1904.39",
+        "count": 14
+      },
+      {
+        "section": "1910.133",
+        "count": 14
+      },
+      {
+        "section": "1926.651",
+        "count": 13
+      },
+      {
+        "section": "1910.1030",
+        "count": 12
+      },
+      {
+        "section": "1910.1053",
+        "count": 12
+      },
+      {
+        "section": "1910.106",
+        "count": 11
+      },
+      {
+        "section": "1926.652",
+        "count": 10
+      },
+      {
+        "section": "1910.101",
+        "count": 9
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.1200(e)(1)",
+        "count": 29
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 27
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 19
+      },
+      {
+        "clause": "1910.132(d)(1)",
+        "count": 16
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 15
+      },
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 14
+      },
+      {
+        "clause": "1910.133(a)(1)",
+        "count": 13
+      },
+      {
+        "clause": "1910.151(c)",
+        "count": 13
+      },
+      {
+        "clause": "1904.39(a)(2)",
+        "count": 12
+      },
+      {
+        "clause": "1910.1450(e)(1)",
+        "count": 11
+      }
+    ],
+    "penalties": {
+      "n": 534,
+      "median": 4684,
+      "p25": 2486,
+      "p75": 8287,
+      "total": 3833407
+    },
+    "typeShares": {
+      "serious": 0.66,
+      "willful": 0.008,
+      "repeat": 0.008,
+      "otherThanSerious": 0.325,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 42
+  },
+  "patternsSummary": "Chemical and airborne exposure standards dominate the top of the NAICS 5413 list: respiratory protection (1910.134, 93 citations), hazard communication (1910.1200, 88), hazardous chemicals in laboratories (1910.1450, 61), respirable crystalline silica (1926.1153, 35) and methylene chloride (1910.1052, 22). Personal protective equipment general requirements (1910.132, 45) and lockout/tagout (1910.147, 36) come next, and two Subpart S electrical standards appear, 1910.305 on wiring methods (28) and 1910.303 (24). Over FY2022–FY2026 OSHA recorded 1,343 inspections and 915 citations in this code, and 42 standards were cited 5 or more times.",
+  "penaltiesSummary": "Across the 534 citations with a recorded penalty, the median was $4,684, and the middle half fell between $2,486 and $8,287. Serious citations made up 66% of the total, other-than-serious 33%, and willful and repeat citations 1% each.",
+  "standardNotes": [
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection for general industry, in Subpart I, Personal Protective Equipment. Cited 93 times, more than any other standard in this code."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, a Subpart Z standard on toxic and hazardous substances. Second on the list with 88 citations."
+    },
+    {
+      "section": "1910.1450",
+      "note": "Occupational exposure to hazardous chemicals in laboratories, also in Subpart Z. Third, with 61 citations."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements of Subpart I, the personal protective equipment subpart. 45 citations."
+    },
+    {
+      "section": "1910.147",
+      "note": "The control of hazardous energy (lockout/tagout), in Subpart J, General Environmental Controls. 36 citations."
+    },
+    {
+      "section": "1926.1153",
+      "note": "Respirable crystalline silica in construction (Part 1926, Subpart Z). The highest-ranked construction standard here, with 35 citations."
+    },
+    {
+      "section": "1910.305",
+      "note": "Wiring methods, components, and equipment for general use, in Subpart S, Electrical. 28 citations."
+    },
+    {
+      "section": "1910.22",
+      "note": "General requirements for walking-working surfaces, in Subpart D, Walking-Working Surfaces. 26 citations."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "architectural, engineering, and related services",
+    "architectural and engineering services"
+  ],
+  "cover": "5413-architectural-engineering-related-services",
+  "coverPrompt": "Realistic photograph of a land surveyor at a construction site on an overcast morning, wearing a hard hat, high-visibility vest and safety boots, standing behind a tripod-mounted surveying instrument set up on level ground away from moving equipment. In the background, a partly built concrete structure, a fenced excavation with edge protection, and an engineer in hard hat and vest reviewing plain unmarked drawings on a tablet. Natural light, wide shot, people seen from a distance or from the side with no close-up faces, no text, labels, numbers or logos anywhere in the scene.",
+  "coverAlt": "Surveyor in hard hat and high-visibility vest using a tripod-mounted instrument on a construction site",
+  "changes": []
+}
