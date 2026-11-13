@@ -1,0 +1,438 @@
+{
+  "section": "1910.36",
+  "part": "1910",
+  "heading": "Design and construction requirements for exit routes.",
+  "subpart": "E",
+  "subpartTitle": "Exit Routes and Emergency Planning",
+  "title": "OSHA emergency exit requirements (29 CFR 1910.36)",
+  "seoTitle": "OSHA Emergency Exit Requirements: 29 CFR 1910.36",
+  "description": "OSHA 1910.36 exit route rules in plain language: doors, width, height, discharge, outdoor routes, plus citation data and an inspection checklist.",
+  "opening": "29 CFR 1910.36 sets how exit routes must be built: permanent, with fire-rated separation around exits, at least two routes unless a single route lets everyone evacuate safely, doors that open from the inside without keys, tools or special knowledge, and minimum height and width.",
+  "keyword": "osha emergency exit requirements",
+  "cluster": [
+    {
+      "keyword": "osha exit route requirements",
+      "volume": 50,
+      "kd": 0,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "exit route checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "exit route inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha emergency exit requirements",
+      "volume": 110,
+      "kd": 3,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "emergency exit checklist",
+      "volume": 10,
+      "kd": null,
+      "intent": "informational",
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "emergency exit inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha design and construction requirements for exit routes requirements",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "design and construction requirements for exit routes checklist",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "design and construction requirements for exit routes inspection",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    },
+    {
+      "keyword": "osha 1910.36",
+      "volume": null,
+      "kd": null,
+      "intent": null,
+      "checkedOn": "2026-11-12"
+    }
+  ],
+  "clusterVolume": 170,
+  "kd": 3,
+  "keywordSource": "OpenSEO",
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "citations": 1819,
+    "inspections": 1677,
+    "byFy": {
+      "2022": 295,
+      "2023": 400,
+      "2024": 417,
+      "2025": 354,
+      "2026": 353
+    },
+    "topParagraphs": [
+      {
+        "paragraph": "(d)(1)",
+        "count": 835
+      },
+      {
+        "paragraph": "(g)(2)",
+        "count": 602
+      },
+      {
+        "paragraph": "(g)(4)",
+        "count": 75
+      },
+      {
+        "paragraph": "(e)(1)",
+        "count": 41
+      },
+      {
+        "paragraph": "(c)(1)",
+        "count": 37
+      },
+      {
+        "paragraph": "(b)(1)",
+        "count": 36
+      },
+      {
+        "paragraph": "(e)(2)",
+        "count": 28
+      },
+      {
+        "paragraph": "(d)(2)",
+        "count": 27
+      },
+      {
+        "paragraph": "(a)(3)",
+        "count": 25
+      },
+      {
+        "paragraph": "(h)(3)",
+        "count": 22
+      }
+    ],
+    "penalties": {
+      "n": 1180,
+      "median": 4557,
+      "p25": 2074,
+      "p75": 7110,
+      "total": 9192807
+    },
+    "typeShares": {
+      "serious": 0.663,
+      "willful": 0.003,
+      "repeat": 0.024,
+      "otherThanSerious": 0.31,
+      "unclassified": 0
+    },
+    "typeCounts": {
+      "serious": 1206,
+      "willful": 6,
+      "repeat": 44,
+      "otherThanSerious": 563,
+      "unclassified": 0
+    },
+    "topIndustries": [
+      {
+        "naics": "4931",
+        "count": 115,
+        "title": "Warehousing and Storage"
+      },
+      {
+        "naics": "4451",
+        "count": 70,
+        "title": "Grocery and Convenience Retailers"
+      },
+      {
+        "naics": "7225",
+        "count": 66,
+        "title": "Restaurants and Other Eating Places"
+      },
+      {
+        "naics": "4523",
+        "count": 55,
+        "title": null
+      },
+      {
+        "naics": "9211",
+        "count": 54,
+        "title": "Executive, Legislative, and Other General Government Support"
+      },
+      {
+        "naics": "9221",
+        "count": 51,
+        "title": "Justice, Public Order, and Safety Activities"
+      },
+      {
+        "naics": "2373",
+        "count": 48,
+        "title": "Highway, Street, and Bridge Construction"
+      },
+      {
+        "naics": "8111",
+        "count": 38,
+        "title": "Automotive Repair and Maintenance"
+      },
+      {
+        "naics": "6111",
+        "count": 35,
+        "title": "Elementary and Secondary Schools"
+      },
+      {
+        "naics": "4539",
+        "count": 33,
+        "title": null
+      }
+    ]
+  },
+  "enforcementSummary": "Most citations under this standard fall on two paragraphs: 1910.36(d)(1), which requires that employees can always open an exit route door from inside with no key, tool or special knowledge (835 citations), and 1910.36(g)(2), the 28-inch minimum width for exit access (602). Next comes 1910.36(g)(4), on objects that project into a route and narrow it below the minimum width, with 75. Citations went from 295 in FY2022 to 400 in FY2023 and 417 in FY2024, then 354 in FY2025 and 353 in FY2026.",
+  "requirementsIntro": "Under 1910.36(a), every exit route in a workplace must meet the design and construction rules in paragraphs (a) to (h), which cover basic construction, number of routes, exit discharge, door locking, door type and swing, capacity, height and width, and outdoor routes. The groups below give the main rules; the full text on eCFR has further detail and notes.",
+  "requirements": [
+    {
+      "heading": "What basic construction must an exit route have?",
+      "intro": "Under 1910.36(a), every exit route must be a permanent part of the workplace, and each exit must be enclosed by fire-rated construction with only the openings it needs.",
+      "items": [
+        {
+          "text": "Each exit route must be a permanent part of the workplace.",
+          "clause": "1910.36(a)(1)"
+        },
+        {
+          "text": "Materials separating an exit from the rest of the workplace need a one-hour fire resistance-rating if the exit connects three or fewer stories, and a two-hour rating if it connects four or more stories.",
+          "clause": "1910.36(a)(2)"
+        },
+        {
+          "text": "An exit may have only the openings needed for access from occupied areas of the workplace or to the exit discharge.",
+          "clause": "1910.36(a)(3)"
+        },
+        {
+          "text": "Every opening into an exit must be protected by a self-closing fire door that stays closed, or closes automatically in an emergency when a fire alarm or employee alarm system sounds.",
+          "clause": "1910.36(a)(3)"
+        },
+        {
+          "text": "Each fire door, including its frame and hardware, must be listed or approved by a nationally recognized testing laboratory.",
+          "clause": "1910.36(a)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "How many exit routes does a workplace need?",
+      "intro": "1910.36(b) requires at least two exit routes in a workplace, more than two where two would not let all employees get out safely, and allows one only where one is enough for all employees to evacuate safely.",
+      "items": [
+        {
+          "text": "At least two exit routes must be available so employees and other building occupants can evacuate promptly in an emergency, except where 1910.36(b)(3) allows a single route.",
+          "clause": "1910.36(b)(1)"
+        },
+        {
+          "text": "The exit routes must be placed as far apart as practical, so that if fire or smoke blocks one, employees can leave by the other.",
+          "clause": "1910.36(b)(1)"
+        },
+        {
+          "text": "More than two exit routes are required if the number of employees, the size of the building, its occupancy or the workplace arrangement would stop all employees from evacuating safely.",
+          "clause": "1910.36(b)(2)"
+        },
+        {
+          "text": "A single exit route is permitted where the number of employees, building size, occupancy or arrangement means all employees could evacuate safely during an emergency.",
+          "clause": "1910.36(b)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "Where must an exit discharge lead?",
+      "intro": "1910.36(c) requires each exit discharge to lead directly outside or to a street, walkway, refuge area, public way or open space with access to the outside.",
+      "items": [
+        {
+          "text": "Each exit discharge must lead directly outside, or to a street, walkway, refuge area, public way or open space that has access to the outside.",
+          "clause": "1910.36(c)(1)"
+        },
+        {
+          "text": "The street, walkway, refuge area, public way or open space at the end of the discharge must be large enough for the building occupants likely to use that exit route.",
+          "clause": "1910.36(c)(2)"
+        },
+        {
+          "text": "Exit stairs that continue past the level of the exit discharge must be interrupted at that level by doors, partitions or other effective means that clearly show which way to go to reach the discharge.",
+          "clause": "1910.36(c)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "When can an exit route door be locked?",
+      "intro": "Under 1910.36(d), employees must be able to open exit route doors from inside at all times, and only mental, penal or correctional facilities may lock them from the inside, under the conditions in 1910.36(d)(3).",
+      "items": [
+        {
+          "text": "Employees must be able to open every exit route door from the inside at all times, with no need for keys, tools or special knowledge.",
+          "clause": "1910.36(d)(1)"
+        },
+        {
+          "text": "Exit discharge doors may have a device such as a panic bar that locks only from the outside.",
+          "clause": "1910.36(d)(1)"
+        },
+        {
+          "text": "Exit route doors must be free of any device or alarm that could restrict emergency use of the route if that device or alarm fails.",
+          "clause": "1910.36(d)(2)"
+        },
+        {
+          "text": "An exit route door may be locked from the inside only in mental, penal or correctional facilities, and only if supervisory personnel are continuously on duty and the employer has a plan to remove occupants during an emergency.",
+          "clause": "1910.36(d)(3)"
+        }
+      ]
+    },
+    {
+      "heading": "What type of door must connect a room to an exit route?",
+      "intro": "1910.36(e) requires a side-hinged door wherever a room connects to an exit route, and 1910.36(e)(2) sets when that door must swing outward.",
+      "items": [
+        {
+          "text": "A side-hinged door must be used to connect any room to an exit route.",
+          "clause": "1910.36(e)(1)"
+        },
+        {
+          "text": "The door must swing out in the direction of exit travel if the room is designed for more than 50 people, or if it is a high hazard area whose contents are likely to burn with extreme rapidity or explode.",
+          "clause": "1910.36(e)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What capacity must an exit route have?",
+      "intro": "1910.36(f) requires each exit route to carry the full permitted occupant load of every floor it serves, with no loss of capacity on the way out.",
+      "items": [
+        {
+          "text": "Exit routes must support the maximum permitted occupant load for each floor served.",
+          "clause": "1910.36(f)(1)"
+        },
+        {
+          "text": "The capacity of an exit route may not decrease in the direction of travel toward the exit discharge.",
+          "clause": "1910.36(f)(2)"
+        }
+      ]
+    },
+    {
+      "heading": "What are the minimum height and width for an exit route?",
+      "intro": "1910.36(g) sets a minimum exit route ceiling height of seven feet six inches (2.3 m) and a minimum exit access width of 28 inches (71.1 cm).",
+      "items": [
+        {
+          "text": "The ceiling of an exit route must be at least seven feet six inches (2.3 m) high.",
+          "clause": "1910.36(g)(1)"
+        },
+        {
+          "text": "No projection from the ceiling may come lower than six feet eight inches (2.0 m) above the floor.",
+          "clause": "1910.36(g)(1)"
+        },
+        {
+          "text": "An exit access must be at least 28 inches (71.1 cm) wide at all points.",
+          "clause": "1910.36(g)(2)"
+        },
+        {
+          "text": "Where only one exit access leads to an exit or exit discharge, the exit and exit discharge must be at least as wide as that exit access.",
+          "clause": "1910.36(g)(2)"
+        },
+        {
+          "text": "An exit route must be wide enough for the maximum permitted occupant load of each floor it serves.",
+          "clause": "1910.36(g)(3)"
+        },
+        {
+          "text": "Objects that project into an exit route must not narrow it to less than the minimum width for exit routes.",
+          "clause": "1910.36(g)(4)"
+        }
+      ]
+    },
+    {
+      "heading": "What extra rules apply to outdoor exit routes?",
+      "intro": "1910.36(h) permits outdoor exit routes provided they meet the indoor height and width minimums and four further conditions on guarding, snow and ice, walkways and dead-ends.",
+      "items": [
+        {
+          "text": "Each outdoor exit route must meet the same minimum height and width requirements as indoor exit routes.",
+          "clause": "1910.36(h)"
+        },
+        {
+          "text": "Unenclosed sides of an outdoor exit route need guardrails if a fall hazard exists.",
+          "clause": "1910.36(h)(1)"
+        },
+        {
+          "text": "The route must be covered if snow or ice is likely to accumulate along it, unless the employer can demonstrate that any accumulation will be removed before it becomes a slipping hazard.",
+          "clause": "1910.36(h)(2)"
+        },
+        {
+          "text": "The route must be reasonably straight, with smooth, solid, substantially level walkways.",
+          "clause": "1910.36(h)(3)"
+        },
+        {
+          "text": "The route must not have a dead-end longer than 20 feet (6.2 m).",
+          "clause": "1910.36(h)(4)"
+        }
+      ]
+    }
+  ],
+  "checklistIntro": "This checklist covers exit doors, route dimensions, the number and discharge of exit routes, and outdoor routes under 1910.36, for use on a walk-through of each route from the work area to the outside.",
+  "checklist": "us/1910-36-design-construction-exit-routes",
+  "faq": [
+    {
+      "question": "Where does OSHA point employers for occupant load and the number of exit routes needed?",
+      "answer": "Notes under 1910.36(b)(3) and 1910.36(f)(2) refer employers to NFPA 101-2009, Life Safety Code, and IFC-2009, International Fire Code, both incorporated by reference in 1910.6. The OSHA text itself gives no formula for either."
+    },
+    {
+      "question": "Where are 'listed' and 'nationally recognized testing laboratory' defined for fire doors?",
+      "answer": "1910.36(a)(3) cross-refers to other sections of Part 1910: 'listed' is defined in 1910.155(c)(3)(iv)(A), and a nationally recognized testing laboratory is defined in 1910.7."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.36: Design and construction requirements for exit routes (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.36"
+    },
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "ecfrDate": "2026-11-09",
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "exit routes",
+    "emergency exits",
+    "exit doors"
+  ],
+  "cover": "1910-36-design-construction-exit-routes",
+  "coverPrompt": "A realistic photograph of a wide, clear warehouse aisle leading to a side-hinged steel exit door fitted with a panic bar, the walkway free of pallets and stored goods under bright overhead lighting. No people, no signs, no text, numbers or logos.",
+  "coverAlt": "Clear warehouse aisle leading to a side-hinged exit door with a panic bar",
+  "changes": []
+}

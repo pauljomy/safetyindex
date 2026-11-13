@@ -1,0 +1,181 @@
+{
+  "slug": "1910-36-design-construction-exit-routes",
+  "market": "us",
+  "lang": "en",
+  "paper": "letter",
+  "page_url": "https://safetyindex.blog/us/standards/1910-36-design-construction-exit-routes",
+  "doc_ref": "SI-US-1910-36",
+  "revision": "Rev 1",
+  "data_as_of": "12 November 2026",
+  "title": "OSHA Emergency Exit Checklist (29 CFR 1910.36)",
+  "subtitle": "Use on routine walk-throughs of exit routes and after changes to layout, storage or doors.",
+  "regulation_line": "OSHA 29 CFR 1910.36",
+  "info_fields": [
+    [
+      "Date",
+      "Shift"
+    ],
+    [
+      "Inspector",
+      "Area / equipment ID"
+    ]
+  ],
+  "instructions": [
+    "Mark every item OK, Defect or N/A, and note which exit route and door each mark refers to.",
+    "Record each Defect with its location, report it to the person responsible for the building, and recheck the item once it is corrected.",
+    "Site rules, local fire codes and door or hardware manufacturers' instructions may add checks."
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Exit doors and locking",
+      "items": [
+        [
+          "Door opens from inside",
+          "Each exit route door opens from inside by hand, with no key, tool or special knowledge needed.",
+          "1910.36(d)(1)"
+        ],
+        [
+          "Discharge door locking hardware",
+          "Any locking device on an exit discharge door, such as a panic bar, locks only from the outside.",
+          "1910.36(d)(1)"
+        ],
+        [
+          "Devices and alarms on exit doors",
+          "No device or alarm is fitted that would stop the door being used in an emergency if the device or alarm failed.",
+          "1910.36(d)(2)"
+        ],
+        [
+          "Door type from rooms",
+          "Each door connecting a room to an exit route is side-hinged.",
+          "1910.36(e)(1)"
+        ],
+        [
+          "Door swing",
+          "Doors from rooms designed for more than 50 people, or from high hazard areas, swing outward toward the exit.",
+          "1910.36(e)(2)"
+        ],
+        [
+          "Fire doors on openings into exits",
+          "Each opening into an exit has a self-closing fire door that is shut, or closes automatically when the fire or employee alarm sounds.",
+          "1910.36(a)(3)"
+        ],
+        [
+          "Fire door listing",
+          "Fire door, frame and hardware are listed or approved by an NRTL.",
+          "1910.36(a)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Width, height and obstructions",
+      "items": [
+        [
+          "Exit access width",
+          "Exit access measures 28 inches (71.1 cm) or more at every point along the route.",
+          "1910.36(g)(2)"
+        ],
+        [
+          "Projecting objects",
+          "No stored goods, racking, equipment or furniture sticks out into the route far enough to cut its width under the minimum.",
+          "1910.36(g)(4)"
+        ],
+        [
+          "Ceiling height",
+          "Ceiling along the route is seven feet six inches (2.3 m) or higher.",
+          "1910.36(g)(1)"
+        ],
+        [
+          "Ceiling projections",
+          "No light, duct, pipe or other projection hangs lower than six feet eight inches (2.0 m) above the floor.",
+          "1910.36(g)(1)"
+        ],
+        [
+          "Exit and discharge width after a single access",
+          "Where one exit access feeds an exit or discharge, the exit and discharge are at least as wide as that access.",
+          "1910.36(g)(2)"
+        ],
+        [
+          "Capacity toward the discharge",
+          "The route does not narrow or lose capacity anywhere between the work area and the exit discharge.",
+          "1910.36(f)(2)"
+        ]
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Number of routes and exit discharge",
+      "items": [
+        [
+          "Two exit routes",
+          "At least two exit routes are available, unless a single route has been assessed as allowing all employees to evacuate safely.",
+          "1910.36(b)(1)"
+        ],
+        [
+          "Route separation",
+          "Exit routes are as far apart as practical, so fire or smoke blocking one leaves the other usable.",
+          "1910.36(b)(1)"
+        ],
+        [
+          "Permanent route",
+          "Each exit route is a permanent part of the workplace.",
+          "1910.36(a)(1)"
+        ],
+        [
+          "Discharge destination",
+          "Each exit discharge leads directly outside or to a street, walkway, refuge area, public way or open space with outside access.",
+          "1910.36(c)(1)"
+        ],
+        [
+          "Discharge area size",
+          "The area at the end of the discharge is large enough for the occupants likely to use that route.",
+          "1910.36(c)(2)"
+        ],
+        [
+          "Stairs past the discharge level",
+          "Exit stairs that continue beyond the discharge level are interrupted there by a door, partition or other means that clearly shows the way out.",
+          "1910.36(c)(3)"
+        ]
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Outdoor exit routes",
+      "items": [
+        [
+          "Outdoor height and width",
+          "Outdoor route meets the same minimum height and width as an indoor exit route.",
+          "1910.36(h)"
+        ],
+        [
+          "Guardrails",
+          "Guardrails protect unenclosed sides wherever a fall hazard exists.",
+          "1910.36(h)(1)"
+        ],
+        [
+          "Snow and ice",
+          "Route is covered where snow or ice is likely to build up, or accumulation is removed before it becomes a slipping hazard.",
+          "1910.36(h)(2)"
+        ],
+        [
+          "Walkway surface",
+          "Route is reasonably straight, with smooth, solid, substantially level walkways.",
+          "1910.36(h)(3)"
+        ],
+        [
+          "Dead-ends",
+          "No dead-end on the route is longer than 20 feet (6.2 m).",
+          "1910.36(h)(4)"
+        ]
+      ]
+    }
+  ],
+  "defect_log_rows": 3,
+  "references": [
+    "29 CFR 1910.36: Design and construction requirements for exit routes (Part 1910 Subpart E: Exit Routes and Emergency Planning)",
+    "Source: eCFR, Title 29, text as of 2026-11-09"
+  ],
+  "disclaimer": "General guidance only, not legal advice. Check the current regulation and your employer's procedures.",
+  "site": "safetyindex.blog"
+}

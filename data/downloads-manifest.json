@@ -190,6 +190,16 @@
       "pdf": "/downloads/us/1910-334-use-equipment.pdf",
       "xlsx": "/downloads/us/1910-334-use-equipment.xlsx"
     },
+    "us/1910-36-design-construction-exit-routes": {
+      "hash": "eb4501e30a4905cea67b8cd5f081f050d8c834a3161078786973ca74a93c5618",
+      "lang": "en",
+      "paper": "letter",
+      "pages": 3,
+      "items": 24,
+      "page_url": "https://safetyindex.blog/us/standards/1910-36-design-construction-exit-routes",
+      "pdf": "/downloads/us/1910-36-design-construction-exit-routes.pdf",
+      "xlsx": "/downloads/us/1910-36-design-construction-exit-routes.xlsx"
+    },
     "us/1910-37-maintenance-safeguards-operational-features-exit": {
       "hash": "d2e4319f2c83858ae80c6dc3fc753f9071e0aa37465b4e837a5572d68c8fa616",
       "lang": "en",
