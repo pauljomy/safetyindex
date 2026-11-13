@@ -1,0 +1,247 @@
+{
+  "naics": "3241",
+  "naicsTitle": "Petroleum and Coal Products Manufacturing",
+  "title": "Most-cited OSHA standards for petroleum and coal products manufacturing (NAICS 3241)",
+  "seoTitle": "Refinery safety: OSHA citations across NAICS 3241",
+  "description": "OSHA standards cited most in petroleum and coal products manufacturing (NAICS 3241), FY2022–FY2026: process safety management leads, then lockout/tagout.",
+  "opening": "In petroleum and coal products manufacturing (NAICS 3241), the OSHA standard cited most in FY2022–FY2026 was 1910.119, process safety management of highly hazardous chemicals, with 124 citations, ahead of 1910.147 lockout/tagout with 82.",
+  "keyword": "refinery safety",
+  "keywordSource": "OpenSEO",
+  "clusterVolume": 70,
+  "kd": 3,
+  "stats": {
+    "fiscalYears": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "fiscalYearCount": 5,
+    "inspections": 809,
+    "citations": 736,
+    "topStandards": [
+      {
+        "section": "1910.119",
+        "count": 124
+      },
+      {
+        "section": "1910.147",
+        "count": 82
+      },
+      {
+        "section": "1910.146",
+        "count": 55
+      },
+      {
+        "section": "1910.134",
+        "count": 49
+      },
+      {
+        "section": "1910.1200",
+        "count": 46
+      },
+      {
+        "section": "1910.132",
+        "count": 41
+      },
+      {
+        "section": "1910.212",
+        "count": 26
+      },
+      {
+        "section": "1910.219",
+        "count": 22
+      },
+      {
+        "section": "1910.28",
+        "count": 21
+      },
+      {
+        "section": "1910.178",
+        "count": 18
+      },
+      {
+        "section": "1926.1153",
+        "count": 18
+      },
+      {
+        "section": "1910.303",
+        "count": 17
+      },
+      {
+        "section": "1910.22",
+        "count": 16
+      },
+      {
+        "section": "1910.151",
+        "count": 10
+      },
+      {
+        "section": "1910.157",
+        "count": 9
+      },
+      {
+        "section": "1910.106",
+        "count": 8
+      },
+      {
+        "section": "1910.133",
+        "count": 8
+      },
+      {
+        "section": "1910.37",
+        "count": 8
+      },
+      {
+        "section": "1910.138",
+        "count": 7
+      },
+      {
+        "section": "1910.252",
+        "count": 7
+      },
+      {
+        "section": "1910.29",
+        "count": 7
+      },
+      {
+        "section": "1904.39",
+        "count": 6
+      },
+      {
+        "section": "1910.1053",
+        "count": 6
+      },
+      {
+        "section": "1910.120",
+        "count": 5
+      },
+      {
+        "section": "1910.184",
+        "count": 5
+      }
+    ],
+    "topParagraphs": [
+      {
+        "clause": "1910.147(c)(4)(i)",
+        "count": 21
+      },
+      {
+        "clause": "1910.132(a)",
+        "count": 18
+      },
+      {
+        "clause": "1910.212(a)(1)",
+        "count": 16
+      },
+      {
+        "clause": "1910.119(j)(2)",
+        "count": 11
+      },
+      {
+        "clause": "1910.1200(h)(1)",
+        "count": 11
+      },
+      {
+        "clause": "1910.119(j)(4)(i)",
+        "count": 10
+      },
+      {
+        "clause": "1910.28(b)(1)(i)",
+        "count": 10
+      },
+      {
+        "clause": "1910.119(f)(4)",
+        "count": 9
+      },
+      {
+        "clause": "1910.132(d)(2)",
+        "count": 9
+      },
+      {
+        "clause": "1910.134(e)(1)",
+        "count": 9
+      }
+    ],
+    "penalties": {
+      "n": 524,
+      "median": 8276,
+      "p25": 4327,
+      "p75": 13653,
+      "total": 4876927
+    },
+    "typeShares": {
+      "serious": 0.647,
+      "willful": 0.003,
+      "repeat": 0.003,
+      "otherThanSerious": 0.348,
+      "unclassified": 0
+    },
+    "standardsCited5Plus": 28
+  },
+  "patternsSummary": "The most-cited standards in NAICS 3241 centre on chemical and energy hazards: 1910.119 process safety management (124 citations), 1910.147 control of hazardous energy (82) and 1910.1200 hazard communication (46). Hazards of entry and breathing come next, with 1910.146 permit-required confined spaces at 55, 1910.134 respiratory protection at 49 and the 1910.132 personal protective equipment general requirements at 41. Further down, machine guarding under 1910.212 (26) and 1910.219 (22) sits alongside fall protection under 1910.28 (21).",
+  "penaltiesSummary": "Across the 524 penalty amounts recorded for FY2022–FY2026, the median was $8,276, and the middle half fell between $4,327 and $13,653. Serious violations made up 65% of citations and other-than-serious 35%, while willful and repeat citations each rounded to 0%.",
+  "standardNotes": [
+    {
+      "section": "1910.119",
+      "note": "Process safety management of highly hazardous chemicals, part of Subpart H (Hazardous Materials)."
+    },
+    {
+      "section": "1910.147",
+      "note": "Control of hazardous energy, known as lockout/tagout, part of Subpart J (General Environmental Controls)."
+    },
+    {
+      "section": "1910.146",
+      "note": "Permit-required confined spaces, part of Subpart J (General Environmental Controls)."
+    },
+    {
+      "section": "1910.134",
+      "note": "Respiratory protection, part of Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.1200",
+      "note": "Hazard communication, part of Subpart Z (Toxic and Hazardous Substances)."
+    },
+    {
+      "section": "1910.132",
+      "note": "General requirements for personal protective equipment under Subpart I (Personal Protective Equipment)."
+    },
+    {
+      "section": "1910.212",
+      "note": "General requirements for all machines, part of Subpart O (Machinery and Machine Guarding)."
+    },
+    {
+      "section": "1910.219",
+      "note": "Mechanical power-transmission apparatus, part of Subpart O (Machinery and Machine Guarding)."
+    }
+  ],
+  "faq": [],
+  "sources": [
+    {
+      "title": "OSHA inspection and violation data (U.S. Department of Labor Open Data Portal)",
+      "url": "https://dataportal.dol.gov/"
+    },
+    {
+      "title": "North American Industry Classification System (U.S. Census Bureau)",
+      "url": "https://www.census.gov/naics/"
+    },
+    {
+      "title": "OSHA penalties",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "date": "2026-11-13",
+  "generatedOn": "2026-11-13",
+  "dataAsOf": "2026-11-12",
+  "topicType": "country-only",
+  "checkPass": "passed",
+  "linkPhrases": [
+    "petroleum and coal products manufacturing",
+    "NAICS 3241"
+  ],
+  "cover": "3241-petroleum-coal-products-manufacturing",
+  "coverPrompt": "Realistic wide-angle daytime photograph of a petroleum refinery process area: steel distillation columns, pipe racks and heat exchangers, with two workers seen from a distance walking along a marked walkway wearing hard hats, safety glasses, flame-resistant coveralls and gloves. Clear sky, natural light, clean industrial setting, no visible text, labels, numbers, signs or logos, no close-up faces.",
+  "coverAlt": "Workers in hard hats and flame-resistant coveralls walking past process units at a petroleum refinery",
+  "changes": []
+}
