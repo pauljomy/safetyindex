@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "2383-building-finishing-contractors",
   "coverPrompt": "Realistic photograph of an interior commercial construction site where drywall installers fix and finish gypsum board panels on metal stud walls. One worker stands on a rolling scaffold with guardrails on all open sides, and another works from a properly set up stepladder. Both wear hard hats and safety glasses. Stacked drywall sheets, joint compound buckets and taping tools sit on a clean concrete floor, with natural light coming through unfinished window openings. Workers are seen from a distance or from the side, faces not in close-up, and there is no text, signage, labels, numbers or logos anywhere in the scene.",
   "coverAlt": "Drywall installers finishing interior walls from a guarded rolling scaffold and a stepladder on a commercial site",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "4882-support-activities-for-rail-transportation",
   "coverPrompt": "Realistic documentary photograph of a rail yard on an overcast day: a maintenance worker wearing a hard hat, high-visibility vest, safety glasses and work gloves inspects the wheel and coupler area of a parked, stationary freight car on a siding, seen from a few metres away at an angle so the face is not visible; parallel tracks, ballast and other freight cars in the background, natural light.",
   "coverAlt": "Rail yard worker in a hard hat and high-visibility vest inspecting a parked freight car on a siding",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

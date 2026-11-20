@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "3241-petroleum-coal-products-manufacturing",
   "coverPrompt": "Realistic wide-angle daytime photograph of a petroleum refinery process area: steel distillation columns, pipe racks and heat exchangers, with two workers seen from a distance walking along a marked walkway wearing hard hats, safety glasses, flame-resistant coveralls and gloves. Clear sky, natural light, clean industrial setting, no visible text, labels, numbers, signs or logos, no close-up faces.",
   "coverAlt": "Workers in hard hats and flame-resistant coveralls walking past process units at a petroleum refinery",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

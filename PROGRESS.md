@@ -252,6 +252,14 @@ Run with `npm run engine -- --only standard,industry`, then stopped as asked. Th
 
 ## Weekly reading lists
 
+### Pages for Paul to read this week (2026-11-20)
+
+- https://safetyindex.blog/us/industries/3399-other-miscellaneous-manufacturing
+- https://safetyindex.blog/us/standards/1926-701-concrete-masonry-construction
+- https://safetyindex.blog/us/standards/1926-1211-rescue-emergency-services
+- https://safetyindex.blog/us/industries/7225-restaurants-other-eating-places
+- https://safetyindex.blog/us/industries/6214-outpatient-care-centers
+
 ### Pages for Paul to read this week (2026-11-13)
 
 - https://safetyindex.blog/us/standards/1910-1025-lead

@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "5413-architectural-engineering-related-services",
   "coverPrompt": "Realistic photograph of a land surveyor at a construction site on an overcast morning, wearing a hard hat, high-visibility vest and safety boots, standing behind a tripod-mounted surveying instrument set up on level ground away from moving equipment. In the background, a partly built concrete structure, a fenced excavation with edge protection, and an engineer in hard hat and vest reviewing plain unmarked drawings on a tablet. Natural light, wide shot, people seen from a distance or from the side with no close-up faces, no text, labels, numbers or logos anywhere in the scene.",
   "coverAlt": "Surveyor in hard hat and high-visibility vest using a tripod-mounted instrument on a construction site",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

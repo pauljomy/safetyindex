@@ -236,7 +236,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -248,5 +248,6 @@
   "cover": "6214-outpatient-care-centers",
   "coverPrompt": "Realistic photograph inside a bright, modern outpatient treatment room: a healthcare worker in scrubs and disposable nitrile gloves drops a used syringe into a wall-mounted sharps disposal container, seen from the side at waist height so no face is visible. Behind them, a padded treatment chair, a stainless steel instrument tray and a glove dispenser on the wall. Clean, natural daylight from a window, shallow depth of field, no text, labels, numbers or logos anywhere in the scene.",
   "coverAlt": "Gloved healthcare worker placing a used syringe into a sharps container in an outpatient treatment room",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

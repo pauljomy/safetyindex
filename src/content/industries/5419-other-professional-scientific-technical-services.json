@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "5419-other-professional-scientific-technical-services",
   "coverPrompt": "Realistic photograph of a bright veterinary clinic exam room: a veterinary technician wearing nitrile gloves, safety glasses and scrubs gently holds a calm dog on a stainless steel exam table while a colleague in gloves prepares supplies at a counter. An eyewash station is mounted by the sink and a fire extinguisher hangs on the wall. Faces turned away or out of frame, natural daylight, no readable text, no logos.",
   "coverAlt": "Veterinary technician in gloves and safety glasses holding a dog on a clinic exam table",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

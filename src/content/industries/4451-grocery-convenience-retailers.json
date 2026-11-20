@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "4451-grocery-convenience-retailers",
   "coverPrompt": "Realistic photograph of a supermarket aisle during the day: a store worker seen from behind, in a work apron and closed-toe shoes, restocking a shelf with canned goods from a flat stocking cart. The floor is clean and dry, the aisle is clear, and shelves are neatly stocked. Natural overhead store lighting, wide shot, no readable text, labels, prices, logos or close-up faces.",
   "coverAlt": "Supermarket worker restocking shelves from a cart in a clear, dry grocery aisle",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

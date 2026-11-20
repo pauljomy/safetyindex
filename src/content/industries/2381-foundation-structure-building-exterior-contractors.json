@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "2381-foundation-structure-building-exterior-contractors",
   "coverPrompt": "Realistic daylight photograph of a residential construction site: workers seen from a distance installing roof sheathing on a pitched roof, each wearing a full-body harness connected by a lanyard to a roof anchor, hard hats and safety glasses; a properly erected scaffold with guardrails along the brick wall below and an extension ladder secured and extending above the roof edge. No text, logos or close-up faces.",
   "coverAlt": "Roofers in harnesses tied to anchors on a pitched roof, with a guarded scaffold and secured ladder below",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

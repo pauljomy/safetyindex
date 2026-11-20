@@ -509,7 +509,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -522,5 +522,6 @@
   "cover": "1926-152-flammable-liquids",
   "coverPrompt": "A construction worker in a hard hat and work gloves pours gasoline from a metal safety can with a flexible spout into a switched-off portable generator on an outdoor construction site, with a portable fire extinguisher standing nearby. Shot from the side at mid-distance, no visible text, labels, numbers or logos, and no close-up faces.",
   "coverAlt": "Worker refueling a switched-off generator from a metal safety can on a construction site",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

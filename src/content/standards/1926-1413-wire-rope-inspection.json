@@ -515,7 +515,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -528,5 +528,6 @@
   "cover": "1926-1413-wire-rope-inspection",
   "coverPrompt": "A realistic photograph of a crane inspector in a hard hat, high-visibility vest and gloves, seen from the side at a distance, examining the steel wire rope wound on a mobile crane's hoist drum at a construction site in overcast daylight.",
   "coverAlt": "Inspector in hard hat and gloves checking steel wire rope on a mobile crane hoist drum at a construction site",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

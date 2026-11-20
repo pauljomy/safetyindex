@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "4884-support-activities-for-road-transportation",
   "coverPrompt": "Realistic daytime photograph of a roadside towing scene: a tow operator wearing a high-visibility vest, work gloves and safety boots stands beside a flatbed tow truck and secures a sedan to the tilted bed with wheel straps. Orange traffic cones are placed behind the truck on the road shoulder and the amber warning lights on the truck are on. Shot from a medium distance, so the worker is seen from the side with no close-up of the face. Plain vehicles with no logos, no visible text, no license plate numbers.",
   "coverAlt": "Tow operator in a high-visibility vest strapping a car onto a flatbed tow truck on a road shoulder",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

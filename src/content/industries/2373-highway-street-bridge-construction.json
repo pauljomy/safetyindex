@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "2373-highway-street-bridge-construction",
   "coverPrompt": "Realistic daytime photograph of a highway paving worksite: an asphalt paver and a steel-drum roller working a fresh lane next to a concrete bridge approach, a lane closed off with orange traffic cones and barrels, road workers seen from a distance wearing hard hats, high-visibility vests, long trousers and safety boots, standing clear of the machines. No text, signs with writing, logos, numbers or close-up faces.",
   "coverAlt": "Road crew in hard hats and high-visibility vests paving a coned-off highway lane near a bridge",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

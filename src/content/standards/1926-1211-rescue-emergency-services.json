@@ -398,7 +398,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -411,5 +411,6 @@
   "cover": "1926-1211-rescue-emergency-services",
   "coverPrompt": "A construction crew at an open underground utility vault in a street work zone, with a worker in a full body harness lowered through the opening on a retrieval line attached to a tripod-mounted mechanical winch while an attendant stands beside it. Daylight, hard hats and high-visibility clothing, no text, signs, numbers, logos or close-up faces.",
   "coverAlt": "Worker in a full body harness entering a utility vault on a tripod winch retrieval line while an attendant watches",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

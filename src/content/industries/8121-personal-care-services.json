@@ -215,7 +215,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -227,5 +227,6 @@
   "cover": "8121-personal-care-services",
   "coverPrompt": "Realistic photograph of a bright, tidy beauty salon interior: a stylist seen from behind wearing nitrile gloves and an apron mixes hair color in a bowl at a work station, with closed product bottles on a shelf, clean mirrors, styling chairs and a wall-mounted fire extinguisher in the background. Natural daylight, no readable text, labels, logos or close-up faces.",
   "coverAlt": "Stylist in nitrile gloves mixing hair color at a salon work station",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

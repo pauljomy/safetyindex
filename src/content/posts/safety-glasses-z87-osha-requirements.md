@@ -3,7 +3,7 @@ title: "Safety Glasses: Z87 Marking, OSHA Rules and How to Choose"
 seoTitle: "Safety Glasses: Z87 Marking, OSHA Rules, How to Choose"
 subtitle: What OSHA's eye protection rules require of safety glasses, when you need goggles instead, how prescription wearers comply, and a pre-use checklist.
 description: "Safety glasses under OSHA: the three Z87.1 editions accepted, side protection, prescription options, when goggles are needed, and a pre-use checklist."
-date: 2026-11-12
+date: 2026-11-20
 generatedOn: 2026-11-12
 dataAsOf: 2026-11-12
 cover: safety-glasses-z87-osha-requirements
@@ -69,6 +69,7 @@ relatedPosts:
   - hard-hat-types-and-classes
   - what-does-osha-stand-for
 topicN: 7
+releaseDate: 2026-11-20
 ---
 
 Under federal OSHA rules, safety glasses are eye protection that complies with one of three ANSI Z87.1 editions listed in [29 CFR 1910.133(b)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-I/section-1910.133), or that the employer can show is at least as effective. They must be marked to identify the manufacturer. Where flying objects are a hazard, they must also give side protection. Ordinary eyeglasses are not one of the rule's options.

@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "1119-other-crop-farming",
   "coverPrompt": "Realistic photograph of a hay farm in late summer: a tractor pulling a baler across a freshly cut hayfield, rows of round bales behind it, a farm worker in a wide-brimmed hat, long sleeves and work gloves standing well clear of the moving machine at the field edge, seen from a distance with no visible face, clear sky, natural light. No text, labels, numbers or logos.",
   "coverAlt": "Tractor baling hay in a field of round bales, with a farm worker standing well clear of the machine",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

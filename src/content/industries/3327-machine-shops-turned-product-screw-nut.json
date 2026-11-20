@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "3327-machine-shops-turned-product-screw-nut",
   "coverPrompt": "Realistic photograph inside a busy machine shop: a machinist seen from the side and slightly behind, wearing safety glasses and close-fitting work clothes with no gloves near rotating parts, stands at a CNC lathe with its enclosure doors fully closed and the guard in place, watching the machine through the window. In the background, a bench grinder with its wheel guard and tool rest fitted, racks of metal bar stock, and bins of finished turned parts and bolts. Clean, well-lit concrete floor with marked aisles. No text, labels, numbers, logos or close-up faces.",
   "coverAlt": "Machinist in safety glasses watching an enclosed CNC lathe in a machine shop with bar stock racks behind",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

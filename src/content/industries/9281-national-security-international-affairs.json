@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "9281-national-security-international-affairs",
   "coverPrompt": "Realistic wide-angle photograph of a corridor in a government office building. A facilities worker seen from behind checks a portable fire extinguisher mounted on the wall at the correct height. The floor is clean and dry, the corridor is unobstructed and a clear exit route with a closed exit door is visible in the background. Neutral indoor lighting. No readable text, signs, labels, numbers, insignia or logos, and no visible faces.",
   "coverAlt": "Worker checking a wall-mounted portable fire extinguisher in a government building corridor with a clear exit route",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "7225-restaurants-other-eating-places",
   "coverPrompt": "Realistic photograph of a busy commercial restaurant kitchen: cooks seen from behind and at a distance working at a stainless-steel cooking line, one wearing disposable gloves while prepping vegetables on a cutting board, a red portable fire extinguisher mounted on a wall bracket, dry tiled floor, clear walkway, bright overhead lighting, no text, no labels, no logos, no close-up faces.",
   "coverAlt": "Cooks at a stainless-steel restaurant kitchen line with a fire extinguisher mounted on the wall",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

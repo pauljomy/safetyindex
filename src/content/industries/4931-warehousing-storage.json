@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "4931-warehousing-storage",
   "coverPrompt": "Realistic wide-angle photograph inside a large storage warehouse: a seated forklift operator, seen from a distance and wearing a seatbelt and high-visibility vest, drives along a clear aisle between tall pallet racks with the forks lowered and a shrink-wrapped pallet carried low. Painted floor lines, bright even overhead lighting, aisles free of clutter, no text, signage, labels, numbers or logos, no close-up faces.",
   "coverAlt": "Forklift carrying a low pallet along a clear aisle between tall racks in a storage warehouse",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

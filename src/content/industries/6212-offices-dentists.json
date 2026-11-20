@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "6212-offices-dentists",
   "coverPrompt": "Realistic photograph of a clean, well-lit dental practice sterilization area: a dental assistant seen from the side and slightly behind, wearing nitrile gloves, a surgical mask, safety glasses and a long-sleeved protective gown, placing used instruments into a closed sharps-safe instrument cassette next to an autoclave. A wall-mounted eyewash station and a portable fire extinguisher on its bracket are visible in the background, with a treatment room and dental chair through an open doorway. No readable text, labels, numbers or logos, and no close-up faces.",
   "coverAlt": "Dental assistant in gloves, mask and safety glasses processing instruments in a dental practice sterilization area",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

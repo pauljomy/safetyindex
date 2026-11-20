@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "3399-other-miscellaneous-manufacturing",
   "coverPrompt": "A realistic photograph of a small US manufacturing workshop that makes signs and sporting goods: wooden and metal workbenches, a bench grinder with its guards in place, an enclosed spray booth with its doors closed in the background, and a worker seen from behind wearing safety glasses and a half-face respirator while sanding a wooden panel. A forklift is parked with its forks lowered to the floor, aisles are clear and marked, and daylight comes in through high windows. No text, labels, logos or numbers, and no close-up faces.",
   "coverAlt": "Small manufacturing workshop with a worker in a respirator and safety glasses, guarded machines and a spray booth",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

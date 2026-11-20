@@ -231,7 +231,7 @@
       "url": "https://www.osha.gov/penalties"
     }
   ],
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -243,5 +243,6 @@
   "cover": "2131-support-activities-for-mining",
   "coverPrompt": "Realistic wide-angle daylight photograph of a land oil and gas drilling rig in open country. Several crew members on the rig floor, seen from a distance with no faces visible, wear hard hats, safety glasses, flame-resistant coveralls and work gloves. Guardrails line the elevated work platforms, and pipe racks, mud tanks and a parked support truck sit around the rig. Equipment is shown in correct use. Natural light, no text, labels, numbers or logos anywhere.",
   "coverAlt": "Crew in hard hats and flame-resistant coveralls working on a guarded land drilling rig floor",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

@@ -299,7 +299,7 @@
     }
   ],
   "ecfrDate": "2026-11-09",
-  "date": "2026-11-13",
+  "date": "2026-11-20",
   "generatedOn": "2026-11-13",
   "dataAsOf": "2026-11-12",
   "topicType": "country-only",
@@ -312,5 +312,6 @@
   "cover": "1926-701-concrete-masonry-construction",
   "coverPrompt": "A realistic photograph of a concrete foundation under construction with rows of vertical rebar sticking up from a footing, each bar end covered by a protective impalement guard, while workers in hard hats and high-visibility vests tie rebar in the background, seen from a distance.",
   "coverAlt": "Vertical rebar in a concrete footing with guarded bar ends while workers in hard hats tie steel nearby",
-  "changes": []
+  "changes": [],
+  "releaseDate": "2026-11-20"
 }

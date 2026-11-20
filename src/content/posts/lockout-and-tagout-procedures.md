@@ -3,7 +3,7 @@ title: "Lockout and Tagout Procedures: OSHA's LOTO Sequence, Step by Step"
 seoTitle: "Lockout and Tagout Procedures: OSHA LOTO Steps"
 subtitle: Each LOTO step, lock and tag rule, training duty and inspection duty, tied to the 29 CFR 1910.147 paragraph it comes from, with OSHA's optional sample procedure kept separate.
 description: "Lockout and tagout procedures under OSHA 29 CFR 1910.147: the LOTO steps, release, locks and tags, training and annual inspection rules."
-date: 2026-11-12
+date: 2026-11-20
 generatedOn: 2026-11-12
 dataAsOf: 2026-11-12
 cover: lockout-and-tagout-procedures
@@ -64,6 +64,7 @@ relatedPosts:
   - what-does-osha-stand-for
   - safety-signals-signs-symbols-colours
 topicN: 6
+releaseDate: 2026-11-20
 ---
 
 Lockout and tagout procedures are the steps an employer sets out so that a machine is shut down, cut off from every energy source, locked or tagged, and confirmed safe before anyone services it. In US general industry, the rule is OSHA's [29 CFR 1910.147, The control of hazardous energy (lockout/tagout)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147). It covers servicing and maintenance where "the unexpected energization or start up of the machines or equipment, or release of stored energy could cause injury to employees."

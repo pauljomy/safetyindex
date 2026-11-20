@@ -57,5 +57,36 @@
    "/us/osha-penalties",
    "/us/reports/workplace-injury-statistics-2024"
   ]
+ },
+ {
+  "wave": 2,
+  "date": "2026-11-20",
+  "paths": [
+   "/us/standards/1926-1413-wire-rope-inspection",
+   "/us/standards/1926-701-concrete-masonry-construction",
+   "/us/standards/1926-152-flammable-liquids",
+   "/us/standards/1926-1211-rescue-emergency-services",
+   "/us/industries/2381-foundation-structure-building-exterior-contractors",
+   "/us/industries/2383-building-finishing-contractors",
+   "/us/industries/4931-warehousing-storage",
+   "/us/industries/2373-highway-street-bridge-construction",
+   "/us/industries/7225-restaurants-other-eating-places",
+   "/us/industries/4451-grocery-convenience-retailers",
+   "/us/industries/3327-machine-shops-turned-product-screw-nut",
+   "/us/industries/3399-other-miscellaneous-manufacturing",
+   "/us/industries/2131-support-activities-for-mining",
+   "/us/industries/5413-architectural-engineering-related-services",
+   "/us/industries/1119-other-crop-farming",
+   "/us/industries/3241-petroleum-coal-products-manufacturing",
+   "/us/industries/9281-national-security-international-affairs",
+   "/us/industries/5419-other-professional-scientific-technical-services",
+   "/us/industries/6212-offices-dentists",
+   "/us/industries/6214-outpatient-care-centers",
+   "/us/industries/4884-support-activities-for-road-transportation",
+   "/us/industries/8121-personal-care-services",
+   "/us/industries/4882-support-activities-for-rail-transportation",
+   "/blog/lockout-and-tagout-procedures",
+   "/blog/safety-glasses-z87-osha-requirements"
+  ]
  }
 ]
