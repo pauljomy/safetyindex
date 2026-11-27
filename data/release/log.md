@@ -1,3 +1,6 @@
+## 2026-11-27
+nothing waiting to release
+
 ## 2026-11-20
 gates skipped: no Search Console data in data/gsc/
 released wave 2: 25 pages (4 standard, 19 industry, 2 guide); 0 still waiting

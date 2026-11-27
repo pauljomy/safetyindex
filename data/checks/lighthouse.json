@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-27",
  "results": [
   {
    "path": "/",
@@ -51,7 +51,7 @@
   },
   {
    "path": "/de/blog/osha-bedeutung",
-   "performance": 98,
+   "performance": 97,
    "accessibility": 100,
    "mobile": true
   },
